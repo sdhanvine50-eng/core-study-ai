@@ -1,6 +1,6 @@
 
+
 import os
-import traceback
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from groq import Groq
@@ -20,305 +20,35 @@ def home():
     return response
 
 
-# =====================================================================
-# 1. CENTRAL MASTER INSTRUCTION & 16 SLASH COMMANDS
-# =====================================================================
-MASTER_SYSTEM_INSTRUCTION = """
-You are Core Study AI v3.0, an elite Malaysian Guru Cemerlang SPM tutor adhering strictly to the KSSM syllabus and LPM marking standards.
-
-YOUR MISSION:
-Help students understand subjects deeply, prepare for examinations, create textbook-aligned revision notes, answer questions accurately, and assess work fairly according to official KPM textbooks.
-
-==================================================
-ALL 16 DETAILED SLASH COMMAND SPECIFICATIONS
-==================================================
-1. /solve - 5-step structured calculation solver (Given, Required, Formula, Substitution, Final Answer with KSSM unit).
-2. /formula - Output precise definitions, official symbols, standard units, and conditions.
-3. /explain - Provide a clear step-by-step explanation with real-life examples and KSSM terminology.
-4. /derive - Deliver clean plain text mathematical/scientific derivations.
-5. /convert - Perform unit conversions with exact conversion factors.
-6. /graph - Describe graphical shapes, gradients, and linear transformations.
-7. /diagram - Describe experimental setups or biological/physical structures.
-8. /quiz - Generate SPM-format practice questions with detailed mark schemes.
-9. /check - Analyze student working, estimate SPM marks, and highlight missing keywords.
-10. /hint - Offer progressive scaffolding hints without giving away the final answer.
-11. /constants - Output official constant values and SI units.
-12. /dimensions - Check physical equations for dimensional homogeneity.
-13. /uncertainty - Calculate experimental mean, spread, and percentage error.
-14. /exam - Deliver authentic SPM paper-style questions with rigorous mark schemes.
-15. /revise - Output Form & Chapter summary masterclasses and high-yield notes.
-16. /photo - Extract text via OCR from uploaded questions and provide worked solutions.
-
-==================================================
-CRITICAL STYLING & FORMATTING RULES
-==================================================
-1. ACCURACY: Base definitions and facts strictly on official KPM textbooks.
-2. UNDERLINING: Underline essential facts using HTML <u>...</u> tags.
-3. KEYWORDS: Highlight top marking keywords using HTML spans:
-   <span style="background-color: #312e81; color: #c7d2fe; padding: 2px 6px; border-radius: 4px; font-weight: bold; border: 1px solid #4f46e5;">keyword</span>
-4. ANSWER FIRST: Directly answer the user's prompt first before offering extra techniques.
-"""
-
-# =====================================================================
-# 2. SPECIALIST TASK ROUTER ENGINES
-# =====================================================================
-TASK_INSTRUCTIONS = {
-    "create_notes": """
-TEXTBOOK-FIRST NOTES RULES — HIGHEST PRIORITY:
-- Create study notes following the student's selected textbook chapter and official KSSM syllabus.
-- SOURCE PRIORITY: Treat the textbook as the main source for scope, terminology, and detail level.
-- STRICT SCOPE CONTROL: Include only concepts relevant to the selected chapter. Do NOT add university-level info or unneeded background history. Optimize for relevance, not length.
-- TEXTBOOK COVERAGE: Cover examinable content, definitions, processes, and formulas simply without changing meanings.
-""",
-    "generate_marking_scheme": (
-        "Task: Generate an SPM-style marking scheme with distinct assessable"
-        " points totaling the stated marks."
-    ),
-    "mark_answer": (
-        "Task: Assess student answers against rubrics, award credit for valid"
-        " ideas, explain deductions, and provide improved answers."
-    ),
-    "explain": (
-        "Task: Explain concepts step-by-step using KSSM terminology and"
-        " real-world examples."
-    ),
-    "generate_questions": (
-        "Task: Generate rigorous SPM-format exam questions with full mark"
-        " schemes."
-    ),
-    "summarize": (
-        "Task: Summarize chapters by extracting core principles, vital"
-        " equations, and key facts."
-    ),
-}
-
-# =====================================================================
-# 3. COMPLETE KSSM SUBJECT & TOPIC DATABASE
-# =====================================================================
-SUBJECT_SCOPES = {
-    "biologi": """
-OFFICIAL KSSM BIOLOGY SYLLABUS INDEX & SCOPE:
-FORM 4 BIOLOGY:
-- Chapter 1: Introduction to Biology and Laboratory Rules
-- Chapter 2: Cell Biology and Organisation
-- Chapter 3: Movement of Substances Across a Plasma Membrane
-- Chapter 4: Chemical Composition of a Cell
-- Chapter 5: Metabolism and Enzymes
-- Chapter 6: Cell Division
-- Chapter 7: Cellular Respiration
-- Chapter 8: Respiratory Systems in Humans and Animals
-- Chapter 9: Nutrition and the Human Digestive System
-- Chapter 10: Transport in Humans and Animals
-- Chapter 11: Immunity in Humans
-- Chapter 12: Coordination and Response in Humans
-- Chapter 13: Homeostasis and the Human Urinary System
-- Chapter 14: Support and Movement in Humans and Animals
-- Chapter 15: Sexual Reproduction, Development and Growth
-FORM 5 BIOLOGY:
-- Chapter 1: Organisation of Plant Tissues and Growth
-- Chapter 2: Leaf Structure and Function
-- Chapter 3: Nutrition in Plants
-- Chapter 4: Transport in Plants
-- Chapter 5: Response in Plants
-- Chapter 6: Sexual Reproduction in Flowering Plants
-- Chapter 7: Adaptations of Plants in Different Habitats
-- Chapter 8: Biodiversity
-- Chapter 9: Ecosystem
-- Chapter 10: Environmental Sustainability
-- Chapter 11: Inheritance
-- Chapter 12: Variation
-- Chapter 13: Genetic Technology
-""",
-    "kimia": """
-OFFICIAL KSSM CHEMISTRY SYLLABUS INDEX & SCOPE:
-FORM 4 CHEMISTRY:
-- Chapter 1: Introduction to Chemistry
-- Chapter 2: Matter and Atomic Structure
-- Chapter 3: The Mole Concept, Chemical Formulae and Equations
-- Chapter 4: The Periodic Table of Elements
-- Chapter 5: Chemical Bond
-- Chapter 6: Acid, Base and Salt
-- Chapter 7: Rate of Reaction
-- Chapter 8: Manufactured Substances in Industry
-FORM 5 CHEMISTRY:
-- Chapter 1: Redox Equilibrium
-- Chapter 2: Carbon Compound
-- Chapter 3: Thermochemistry
-- Chapter 4: Polymer Chemistry
-- Chapter 5: Consumer and Industrial Chemistry
-""",
-    "fizik": """
-OFFICIAL KSSM PHYSICS SYLLABUS INDEX & SCOPE:
-FORM 4 PHYSICS:
-- Chapter 1: Measurement
-- Chapter 2: Force and Motion I
-- Chapter 3: Gravitation
-- Chapter 4: Heat
-- Chapter 5: Waves
-- Chapter 6: Light
-FORM 5 PHYSICS:
-- Chapter 1: Force and Motion II
-- Chapter 2: Pressure
-- Chapter 3: Electricity
-- Chapter 4: Electromagnetism
-- Chapter 5: Electronics
-- Chapter 6: Nuclear Physics
-- Chapter 7: Quantum Physics
-""",
-    "matematik tambahan": """
-OFFICIAL KSSM ADDITIONAL MATHEMATICS SYLLABUS INDEX & SCOPE:
-FORM 4 ADD MATHS:
-- Chapter 1: Functions
-- Chapter 2: Quadratic Equations
-- Chapter 3: Quadratic Functions
-- Chapter 4: Simultaneous Equations
-- Chapter 5: Indices, Surds and Logarithms
-- Chapter 6: Coordinate Geometry
-- Chapter 7: Statistics
-- Chapter 8: Circular Measure
-- Chapter 9: Differentiation
-- Chapter 10: Solutions of Triangles
-- Chapter 11: Index Numbers
-FORM 5 ADD MATHS:
-- Chapter 1: Progressions
-- Chapter 2: Linear Law
-- Chapter 3: Integration
-- Chapter 4: Permutation and Combination
-- Chapter 5: Probability Distribution
-- Chapter 6: Trigonometric Functions
-- Chapter 7: Linear Programming
-- Chapter 8: Kinematics of Linear Motion
-""",
-    "matematik": """
-OFFICIAL KSSM MATHEMATICS SYLLABUS INDEX & SCOPE:
-FORM 4 MATHEMATICS:
-- Chapter 1: Quadratic Functions and Equations
-- Chapter 2: Number Bases
-- Chapter 3: Logical Reasoning
-- Chapter 4: Operations on Sets
-- Chapter 5: Network in Graph Theory
-- Chapter 6: Linear Inequalities
-- Chapter 7: Graphs of Motion
-- Chapter 8: Measures of Dispersion (Ungrouped)
-- Chapter 9: Probability of Combined Events
-- Chapter 10: Consumer Mathematics: Financial Management
-FORM 5 MATHEMATICS:
-- Chapter 1: Variation
-- Chapter 2: Matrices
-- Chapter 3: Consumer Mathematics: Insurance
-- Chapter 4: Consumer Mathematics: Taxation
-- Chapter 5: Transformations
-- Chapter 6: Trigonometric Functions
-- Chapter 7: Plans and Elevations
-- Chapter 8: Earth as a Sphere
-- Chapter 9: Measures of Dispersion (Grouped)
-- Chapter 10: Investment
-""",
-    "sains": """
-OFFICIAL KSSM SCIENCE SYLLABUS INDEX & SCOPE:
-FORM 4 SCIENCE:
-- Chapter 1: Safety in Laboratory | Chapter 2: Emergency Aid | Chapter 3: Body Parameters | Chapter 4: Breeding Tech | Chapter 5: Metabolism & Health | Chapter 6: Support & Growth | Chapter 7: Body Coordination | Chapter 8: Elements & Substances | Chapter 9: Earth | Chapter 10: Ecosystem | Chapter 11: Inheritance | Chapter 12: Nuclear Energy | Chapter 13: Universe
-FORM 5 SCIENCE:
-- Chapter 1: Microorganisms | Chapter 2: Nutrition & Food Tech | Chapter 3: Environmental Sustainability | Chapter 4: Rate of Reaction | Chapter 5: Carbon Compound | Chapter 6: Electrochemistry | Chapter 7: Optics | Chapter 8: Force & Pressure | Chapter 9: Space Tech
-""",
-    "sejarah": """
-OFFICIAL KSSM SEJARAH SYLLABUS INDEX & SCOPE:
-FORM 4 SEJARAH:
-- Chapter 1: Warisan Negara Bangsa | Chapter 2: Nasionalisme | Chapter 3: Konflik Dunia & Jepun | Chapter 4: Peralihan Kuasa British | Chapter 5: PTM 1948 | Chapter 6: Darurat | Chapter 7: Usaha Kemerdekaan | Chapter 8: Kemerdekaan 1957 | Chapter 9: Ekonomi British | Chapter 10: Sosial British
-FORM 5 SEJARAH:
-- Chapter 1: Kedaulatan Negara | Chapter 2: Perlembagaan | Chapter 3: Raja Berperlembagaan | Chapter 4: Pentadbiran Negara | Chapter 5: Pembentukan Malaysia | Chapter 6: Cabaran Selepas Malaysia | Chapter 7: Kemakmuran Negara | Chapter 8: Sejahtera Dunia | Chapter 9: Pertubuhan Antarabangsa | Chapter 10: Kecemerlangan Malaysia
-""",
-    "pendidikan moral": """
-OFFICIAL KSSM PENDIDIKAN MORAL SYLLABUS INDEX & SCOPE:
-- Bidang 1: Diri Sendiri | Bidang 2: Keluarga | Bidang 3: Masyarakat | Bidang 4: Alam Sekitar | Bidang 5: Negara
-- Essay Formula: 8-Mark Paragraph Formula (1 Isi + 3 Huraian + 1 Contoh + 1 Kesimpulan) & Nilai Universal Opening Formula.
-""",
-    "bahasa melayu": """
-OFFICIAL SPM BAHASA MELAYU STRUCTURES:
-- Karangan Bahagian A (Bahan Rangsangan)
-- Karangan Bahagian B (Respon Terbuka: Pendahuluan Cemerlang, Isi Berangkai 1-4, Penutup Berkesan)
-""",
-    "bahasa inggeris": """
-OFFICIAL SPM CEFR ENGLISH WRITING STRUCTURES:
-- Part 1: Short Communicative Message
-- Part 2: Guided Writing
-- Part 3: Extended Essay / Article / Review / Story (Band 5 Standard)
-""",
-}
-
-
-def get_subject_scope(subject_name):
-    key = subject_name.lower().strip()
-    return SUBJECT_SCOPES.get(
-        key,
-        f"OFFICIAL KSSM SYLLABUS SCOPE FOR {subject_name}: Form 4 & Form 5 curriculum standards.",
-    )
-
-
 @app.route("/chat", methods=["POST"])
 def chat():
     try:
-        data = request.json
+        data = request.json or {}
         user_prompt = data.get("message", "") or data.get("prompt", "")
-        task_id = data.get(
-            "task", "create_notes" if "notes" in user_prompt.lower() else "explain"
-        )
-        current_level = data.get("level", "Form 4-5 / SPM")
         selected_subject = data.get("subject", "Biologi")
         output_language = data.get("language", "English")
-        image_data = data.get("image", None)
-        history = data.get("history", [])
 
-        task_instruction = TASK_INSTRUCTIONS.get(task_id, TASK_INSTRUCTIONS["explain"])
-        subject_scope = get_subject_scope(selected_subject)
+        system_prompt = (
+            f"You are Core Study AI v3.0, an elite Malaysian SPM tutor for {selected_subject}. "
+            f"Answer clearly in {output_language} based strictly on the KSSM syllabus and exam marking standards."
+        )
 
-        system_prompt = f"""
-{MASTER_SYSTEM_INSTRUCTION}
-
-==================================================
-ACTIVE TASK & SUBJECT SCOPE
-==================================================
-- Level: {current_level}
-- Subject: {selected_subject}
-- Language: {output_language}
-- Task Instruction: {task_instruction}
-- Relevant Syllabus Scope: {subject_scope}
-"""
-
-        messages = [{"role": "system", "content": system_prompt}]
-
-        if len(history) > 6:
-            history = history[-6:]
-
-        for msg in history:
-            messages.append({"role": msg["role"], "content": msg["content"]})
-
-        if image_data:
-            messages.append({
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": user_prompt},
-                    {"type": "image_url", "image_url": {"url": image_data}},
-                ],
-            })
-            model_to_use = "llama-3.2-90b-vision-preview"
-        else:
-            messages.append({"role": "user", "content": user_prompt})
-            model_to_use = "llama-3.3-70b-versatile"
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
 
         response = client.chat.completions.create(
-            model=model_to_use,
+            model="llama-3.3-70b-versatile",
             messages=messages,
             temperature=0.3,
-            max_tokens=2048,
+            max_tokens=1024,
         )
-        return jsonify(
-            {"success": True, "task": task_id, "reply": response.choices[0].message.content}
-        )
+        
+        return jsonify({"success": True, "reply": response.choices[0].message.content})
+    
     except Exception as e:
-        error_trace = traceback.format_exc()
-        print("PYTHON CHAT ERROR:", error_trace)
-        return jsonify({"success": False, "error": str(e), "trace": error_trace}), 500
+        return jsonify({"success": False, "error": str(e)}), 500
 
 
 if __name__ == "__main__":
