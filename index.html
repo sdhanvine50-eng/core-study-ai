@@ -6,416 +6,505 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Core Study AI v3.0 - Upper Secondary SPM</title>
-    <!-- Marked.js for Markdown -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <!-- KaTeX for clean math rendering -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <style>
-        :root {
-            --bg-dark: #0b0f19;
-            --sidebar-bg: #111827;
-            --panel-bg: #161e2e;
-            --accent: #6366f1;
-            --accent-glow: rgba(99, 102, 241, 0.25);
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --border-color: #1e293b;
-            --border-hover: #334155;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        body { background-color: var(--bg-dark); color: var(--text-main); display: flex; height: 100vh; overflow: hidden; }
-        
-        sidebar { width: 320px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 20px; overflow-y: auto; }
-        .logo-area { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
-        .logo-icon { font-size: 26px; background: rgba(99, 102, 241, 0.1); padding: 8px; border-radius: 10px; }
-        .logo-title { font-size: 18px; font-weight: bold; display: flex; align-items: center; gap: 6px; }
-        .logo-subtitle { font-size: 12px; color: var(--text-muted); }
-        
-        .new-chat-btn { background: linear-gradient(135deg, #6366f1, #a855f7); color: white; border: none; padding: 12px; border-radius: 10px; font-weight: bold; cursor: pointer; margin-bottom: 20px; transition: all 0.2s; box-shadow: 0 4px 12px var(--accent-glow); display: flex; align-items: center; justify-content: center; gap: 8px; }
-        .new-chat-btn:hover { opacity: 0.95; transform: translateY(-1px); }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Study AI v3.0 - Upper Secondary SPM</title>
+    <!-- Marked.js for Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- KaTeX for clean math rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <style>
+        :root {
+            --bg-dark: #0b0f19;
+            --sidebar-bg: #111827;
+            --panel-bg: #161e2e;
+            --accent: #6366f1;
+            --accent-glow: rgba(99, 102, 241, 0.25);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #1e293b;
+            --border-hover: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--bg-dark); color: var(--text-main); display: flex; height: 100vh; overflow: hidden; }
+        
+        sidebar { width: 320px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 20px; overflow-y: auto; }
+        .logo-area { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+        .logo-icon { font-size: 26px; background: rgba(99, 102, 241, 0.1); padding: 8px; border-radius: 10px; }
+        .logo-title { font-size: 18px; font-weight: bold; display: flex; align-items: center; gap: 6px; }
+        .logo-subtitle { font-size: 12px; color: var(--text-muted); }
+        
+        .new-chat-btn { background: linear-gradient(135deg, #6366f1, #a855f7); color: white; border: none; padding: 12px; border-radius: 10px; font-weight: bold; cursor: pointer; margin-bottom: 20px; transition: all 0.2s; box-shadow: 0 4px 12px var(--accent-glow); display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .new-chat-btn:hover { opacity: 0.95; transform: translateY(-1px); }
 
-        .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 1.2px; margin-bottom: 10px; font-weight: bold; text-transform: uppercase; }
-        
-        .level-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 20px; }
-        .level-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); text-align: left; padding: 12px 14px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: bold; display: flex; justify-content: space-between; align-items: center; }
-        .level-btn.active { background: rgba(99, 102, 241, 0.15); border-color: var(--accent); box-shadow: 0 0 10px var(--accent-glow); }
+        .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 1.2px; margin-bottom: 10px; font-weight: bold; text-transform: uppercase; }
+        
+        .level-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 20px; }
+        .level-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); text-align: left; padding: 12px 14px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: bold; display: flex; justify-content: space-between; align-items: center; }
+        .level-btn.active { background: rgba(99, 102, 241, 0.15); border-color: var(--accent); box-shadow: 0 0 10px var(--accent-glow); }
 
-        .search-box { position: relative; margin-bottom: 15px; }
-        .search-input { width: 100%; background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 12px 10px 35px; border-radius: 8px; font-size: 13px; outline: none; transition: border-color 0.2s; }
-        .search-input:focus { border-color: var(--accent); }
-        .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; color: var(--text-muted); }
+        .search-box { position: relative; margin-bottom: 15px; }
+        .search-input { width: 100%; background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 12px 10px 35px; border-radius: 8px; font-size: 13px; outline: none; transition: border-color 0.2s; }
+        .search-input:focus { border-color: var(--accent); }
+        .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; color: var(--text-muted); }
 
-        .subject-list { display: flex; flex-direction: column; gap: 6px; }
-        .subject-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-muted); text-align: left; padding: 11px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
-        .subject-btn:hover { background-color: rgba(255,255,255,0.03); border-color: var(--border-hover); color: var(--text-main); }
-        .subject-btn.active { background-color: rgba(99, 102, 241, 0.15); border-color: var(--accent); color: var(--text-main); font-weight: bold; }
-        .arrow-icon { color: var(--text-muted); font-size: 12px; }
+        .subject-list { display: flex; flex-direction: column; gap: 6px; }
+        .subject-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-muted); text-align: left; padding: 11px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
+        .subject-btn:hover { background-color: rgba(255,255,255,0.03); border-color: var(--border-hover); color: var(--text-main); }
+        .subject-btn.active { background-color: rgba(99, 102, 241, 0.15); border-color: var(--accent); color: var(--text-main); font-weight: bold; }
+        .arrow-icon { color: var(--text-muted); font-size: 12px; }
 
-        /* Main Chat Area */
-        .main-container { flex: 1; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-dark); }
-        .top-bar { padding: 15px 25px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--panel-bg); }
-        .breadcrumb { font-size: 14px; color: var(--text-muted); }
-        .breadcrumb span { color: var(--text-main); font-weight: bold; }
+        /* Main Chat Area */
+        .main-container { flex: 1; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-dark); }
+        .top-bar { padding: 15px 25px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--panel-bg); }
+        .breadcrumb { font-size: 14px; color: var(--text-muted); }
+        .breadcrumb span { color: var(--text-main); font-weight: bold; }
 
-        /* TOOLBAR (Textbooks, Trial Papers, YouTube Hub & Language Switcher) */
-        .toolbar { background-color: rgba(15, 23, 42, 0.6); padding: 10px 25px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 13px; flex-wrap: wrap; gap: 10px; }
-        .toolbar-group { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-        .toolbar-label { color: var(--text-muted); font-weight: 600; display: flex; align-items: center; gap: 6px; }
-        
-        .textbook-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid #4f46e5; color: #c7d2fe; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
-        .textbook-btn:hover { background: #4f46e5; color: white; transform: translateY(-1px); }
+        /* TOOLBAR */
+        .toolbar { background-color: rgba(15, 23, 42, 0.6); padding: 10px 25px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 13px; flex-wrap: wrap; gap: 10px; }
+        .toolbar-group { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+        .toolbar-label { color: var(--text-muted); font-weight: 600; display: flex; align-items: center; gap: 6px; }
+        
+        .textbook-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid #4f46e5; color: #c7d2fe; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
+        .textbook-btn:hover { background: #4f46e5; color: white; transform: translateY(-1px); }
 
-        .trial-btn { background: rgba(168, 85, 247, 0.15); border: 1px solid #a855f7; color: #e9d5ff; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
-        .trial-btn:hover { background: #a855f7; color: white; transform: translateY(-1px); }
+        .trial-btn { background: rgba(168, 85, 247, 0.15); border: 1px solid #a855f7; color: #e9d5ff; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
+        .trial-btn:hover { background: #a855f7; color: white; transform: translateY(-1px); }
 
-        .youtube-btn { background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #fca5a5; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
-        .youtube-btn:hover { background: #ef4444; color: white; transform: translateY(-1px); }
+        .youtube-btn { background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #fca5a5; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
+        .youtube-btn:hover { background: #ef4444; color: white; transform: translateY(-1px); }
 
-        .lang-switch { display: flex; background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 6px; overflow: hidden; padding: 2px; }
-        .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
-        .lang-btn.active { background: var(--accent); color: white; }
+        .lang-switch { display: flex; background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 6px; overflow: hidden; padding: 2px; }
+        .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
+        .lang-btn.active { background: var(--accent); color: white; }
 
-        .chat-messages { flex: 1; padding: 25px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
-        .message { max-width: 85%; padding: 16px; border-radius: 12px; line-height: 1.6; font-size: 15px; word-break: break-word; }
-        .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
-        .message.user { background-color: var(--accent); color: white; align-self: flex-end; }
+        .chat-messages { flex: 1; padding: 25px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
+        .message { max-width: 85%; padding: 16px; border-radius: 12px; line-height: 1.6; font-size: 15px; word-break: break-word; }
+        .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
+        .message.user { background-color: var(--accent); color: white; align-self: flex-end; }
 
-        .message.assistant span {
-            background-color: #312e81 !important;
-            color: #c7d2fe !important;
-            padding: 3px 7px;
-            border-radius: 6px;
-            font-weight: 600;
-            border: 1px solid #4f46e5;
-            display: inline-block;
-            margin: 2px 0;
-            line-height: 1.4;
-            word-break: normal;
-        }
+        .message.assistant span {
+            background-color: #312e81 !important;
+            color: #c7d2fe !important;
+            padding: 3px 7px;
+            border-radius: 6px;
+            font-weight: 600;
+            border: 1px solid #4f46e5;
+            display: inline-block;
+            margin: 2px 0;
+            line-height: 1.4;
+            word-break: normal;
+        }
 
-        .message.assistant h1, .message.assistant h2, .message.assistant h3 { margin-top: 12px; margin-bottom: 8px; color: #a5b4fc; }
-        .message.assistant p { margin-bottom: 10px; }
-        .message.assistant ul, .message.assistant ol { margin-left: 20px; margin-bottom: 10px; }
-        
-        .message.assistant table { 
-            width: 100%; 
-            border-collapse: collapse; 
-            margin: 15px 0; 
-            font-size: 14px; 
-            table-layout: fixed; 
-        }
-        .message.assistant th, .message.assistant td { 
-            border: 1px solid var(--border-color); 
-            padding: 12px 16px; 
-            text-align: left; 
-            vertical-align: top; 
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-        }
-        .message.assistant th { 
-            background-color: rgba(99, 102, 241, 0.15); 
-            color: #a5b4fc; 
-            font-weight: 600;
-        }
-        .message.assistant td:first-child { 
-            width: 50%; 
-            font-weight: 500; 
-            color: var(--text-main); 
-        }
-        .message.assistant td:last-child { 
-            width: 50%; 
-        }
+        .message.assistant h1, .message.assistant h2, .message.assistant h3 { margin-top: 12px; margin-bottom: 8px; color: #a5b4fc; }
+        .message.assistant p { margin-bottom: 10px; }
+        .message.assistant ul, .message.assistant ol { margin-left: 20px; margin-bottom: 10px; }
+        
+        .message.assistant table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 15px 0; 
+            font-size: 14px; 
+            table-layout: fixed; 
+        }
+        .message.assistant th, .message.assistant td { 
+            border: 1px solid var(--border-color); 
+            padding: 12px 16px; 
+            text-align: left; 
+            vertical-align: top; 
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        .message.assistant th { 
+            background-color: rgba(99, 102, 241, 0.15); 
+            color: #a5b4fc; 
+            font-weight: 600;
+        }
 
-        /* ChatGPT-style Smaller White Round Typing Indicator */
-        .typing-dots {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            padding: 4px 2px;
-        }
-        .typing-dots span {
-            width: 6px;
-            height: 6px;
-            background-color: #ffffff;
-            border-radius: 50%;
-            display: inline-block;
-            animation: bounce 1.4s infinite ease-in-out both;
-        }
-        .typing-dots span:nth-child(1) { animation-delay: -0.32s; }
-        .typing-dots span:nth-child(2) { animation-delay: -0.16s; }
-        .typing-dots span:nth-child(3) { animation-delay: 0s; }
+        .typing-dots { display: inline-flex; align-items: center; gap: 4px; padding: 4px 2px; }
+        .typing-dots span { width: 6px; height: 6px; background-color: #ffffff; border-radius: 50%; display: inline-block; animation: bounce 1.4s infinite ease-in-out both; }
+        .typing-dots span:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dots span:nth-child(2) { animation-delay: -0.16s; }
+        .typing-dots span:nth-child(3) { animation-delay: 0s; }
 
-        @keyframes bounce {
-            0%, 80%, 100% { transform: scale(0); }
-            40% { transform: scale(1.0); }
-        }
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1.0); }
+        }
 
-        .input-container { padding: 20px 25px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 10px; }
-        .input-row { display: flex; width: 100%; gap: 10px; align-items: center; }
-        .chat-input { flex: 1; background-color: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 12px 15px; border-radius: 8px; font-size: 14px; outline: none; }
-        .chat-input:focus { border-color: var(--accent); }
-        
-        .camera-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid var(--border-color); color: var(--text-main); width: 45px; height: 45px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 18px; transition: all 0.2s; }
-        .camera-btn:hover { background: rgba(99, 102, 241, 0.2); border-color: var(--accent); }
-        .uploaded-preview-container { display: none; width: 100%; align-items: center; gap: 10px; }
-        .uploaded-preview { max-width: 150px; max-height: 80px; border-radius: 8px; border: 1px solid var(--border-color); }
+        .input-container { padding: 20px 25px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 10px; }
+        .input-row { display: flex; width: 100%; gap: 10px; align-items: center; }
+        .chat-input { flex: 1; background-color: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 12px 15px; border-radius: 8px; font-size: 14px; outline: none; }
+        .chat-input:focus { border-color: var(--accent); }
+        
+        .camera-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid var(--border-color); color: var(--text-main); width: 45px; height: 45px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 18px; transition: all 0.2s; }
+        .camera-btn:hover { background: rgba(99, 102, 241, 0.2); border-color: var(--accent); }
+        .uploaded-preview-container { display: none; width: 100%; align-items: center; gap: 10px; }
+        .uploaded-preview { max-width: 150px; max-height: 80px; border-radius: 8px; border: 1px solid var(--border-color); }
 
-        .send-btn { background-color: var(--accent); color: white; border: none; width: 45px; height: 45px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 16px; transition: opacity 0.2s; }
-        .send-btn:hover { opacity: 0.9; }
+        .send-btn { background-color: var(--accent); color: white; border: none; width: 45px; height: 45px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 16px; transition: opacity 0.2s; }
+        .send-btn:hover { opacity: 0.9; }
 
-        .status-badge { background-color: rgba(34, 197, 94, 0.15); color: #22c55e; border: 1px solid rgba(34, 197, 94, 0.3); padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; }
+        .status-badge { background-color: rgba(34, 197, 94, 0.15); color: #22c55e; border: 1px solid rgba(34, 197, 94, 0.3); padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; }
 
-        /* TRIAL & FORM 4 MODULES SELECTOR MODAL */
-        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); z-index: 1000; justify-content: center; align-items: center; }
-        .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 92%; height: 90%; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
-        .modal-header { padding: 15px 20px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; }
-        .modal-title { font-size: 16px; font-weight: bold; color: #c084fc; display: flex; align-items: center; gap: 8px; }
-        .close-modal-btn { background: rgba(239, 68, 68, 0.2); border: 1px solid #ef4444; color: #fca5a5; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-weight: bold; }
-        .close-modal-btn:hover { background: #ef4444; color: white; }
-        .modal-body { flex: 1; display: flex; padding: 15px; gap: 15px; overflow: hidden; }
-        .state-selector-panel { width: 340px; background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 8px; padding: 15px; display: flex; flex-direction: column; gap: 8px; overflow-y: auto; }
-        .state-item { background: var(--panel-bg); border: 1px solid var(--border-color); padding: 10px 14px; border-radius: 6px; cursor: pointer; transition: all 0.2s; display: flex; justify-content: space-between; align-items: center; }
-        .state-item:hover { border-color: #a855f7; background: rgba(168, 85, 247, 0.1); color: #e9d5ff; }
-        .state-item-name { font-size: 13px; font-weight: bold; color: var(--text-main); }
-        .state-item-tag { font-size: 11px; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px; }
-        .modal-content-area { flex: 1; display: flex; flex-direction: column; gap: 10px; }
-        .f4-shortcut-bar { display: flex; gap: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-        .pdf-viewer-frame { flex: 1; border: 1px solid var(--border-color); border-radius: 8px; background: #fff; }
+        /* MODALS */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 92%; height: 90%; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
+        .modal-header { padding: 15px 20px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; }
+        .modal-title { font-size: 16px; font-weight: bold; color: #c084fc; display: flex; align-items: center; gap: 8px; }
+        .close-modal-btn { background: rgba(239, 68, 68, 0.2); border: 1px solid #ef4444; color: #fca5a5; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-weight: bold; }
+        .close-modal-btn:hover { background: #ef4444; color: white; }
+        .modal-body { flex: 1; display: flex; padding: 15px; gap: 15px; overflow: hidden; }
+        .state-selector-panel { width: 340px; background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 8px; padding: 15px; display: flex; flex-direction: column; gap: 8px; overflow-y: auto; }
+        .state-item { background: var(--panel-bg); border: 1px solid var(--border-color); padding: 10px 14px; border-radius: 6px; cursor: pointer; transition: all 0.2s; display: flex; justify-content: space-between; align-items: center; }
+        .state-item:hover { border-color: #a855f7; background: rgba(168, 85, 247, 0.1); color: #e9d5ff; }
+        .state-item-name { font-size: 13px; font-weight: bold; color: var(--text-main); }
+        .state-item-tag { font-size: 11px; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px; }
+        .modal-content-area { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+        .f4-shortcut-bar { display: flex; gap: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+        .pdf-viewer-frame { flex: 1; border: 1px solid var(--border-color); border-radius: 8px; background: #fff; }
 
-        /* YOUTUBE HUB MODAL STYLES */
-        .yt-modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 600px; max-width: 95%; height: 520px; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
-        .yt-tabs { display: flex; gap: 8px; margin-bottom: 15px; }
-        .yt-tab-btn { flex: 1; padding: 8px; background: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-muted); border-radius: 6px; font-weight: bold; cursor: pointer; transition: all 0.2s; }
-        .yt-tab-btn.active { background: #ef4444; color: white; border-color: #ef4444; }
-        .yt-chapter-grid { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; padding-right: 5px; }
-        .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
-        .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; }
-    </style>
+        .yt-modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 600px; max-width: 95%; height: 520px; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
+        .yt-tabs { display: flex; gap: 8px; margin-bottom: 15px; }
+        .yt-tab-btn { flex: 1; padding: 8px; background: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-muted); border-radius: 6px; font-weight: bold; cursor: pointer; transition: all 0.2s; }
+        .yt-tab-btn.active { background: #ef4444; color: white; border-color: #ef4444; }
+        .yt-chapter-grid { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; padding-right: 5px; }
+        .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
+        .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; }
+    </style>
 </head>
 <body>
 
-    <sidebar>
-        <div class="logo-area">
-            <div class="logo-icon">🧠</div>
-            <div>
-                <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--accent); padding: 2px 5px; border-radius: 4px; color: white;">v3.0</span></div>
-                <div class="logo-subtitle">Smart Student Assistant</div>
-            </div>
-        </div>
+    <sidebar>
+        <div class="logo-area">
+            <div class="logo-icon">🧠</div>
+            <div>
+                <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--accent); padding: 2px 5px; border-radius: 4px; color: white;">v3.0</span></div>
+                <div class="logo-subtitle">Smart Student Assistant</div>
+            </div>
+        </div>
 
-        <button class="new-chat-btn" onclick="startNewChat()">✨ New Chat Session</button>
+        <button class="new-chat-btn" onclick="startNewChat()">✨ New Chat Session</button>
 
-        <div class="section-title">1. SELECT STUDENT LEVEL</div>
-        <div class="level-list">
-            <button class="level-btn active">
-                <span>🎓 Form 4–5 / SPM</span> <span class="arrow-icon">➔</span>
-            </button>
-        </div>
+        <div class="section-title">1. SELECT STUDENT LEVEL</div>
+        <div class="level-list">
+            <button class="level-btn active">
+                <span>🎓 Form 4–5 / SPM</span> <span class="arrow-icon">➔</span>
+            </button>
+        </div>
 
-        <div class="search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" class="search-input" id="searchSubject" placeholder="Search subject..." onkeyup="filterSubjects()">
-        </div>
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" class="search-input" id="searchSubject" placeholder="Search subject..." onkeyup="filterSubjects()">
+        </div>
 
-        <div class="section-title">2. SELECT SUBJECT</div>
-        <div class="subject-list" id="subjectList">
-            <button class="subject-btn active" data-subject="Biologi" onclick="selectSubject('Biologi')"><span>🧬 Biologi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Kimia" onclick="selectSubject('Kimia')"><span>🧪 Kimia</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Fizik" onclick="selectSubject('Fizik')"><span>⚡ Fizik</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Matematik Tambahan" onclick="selectSubject('Matematik Tambahan')"><span>📐 Matematik Tambahan</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Matematik" onclick="selectSubject('Matematik')"><span>🔢 Matematik</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Sains" onclick="selectSubject('Sains')"><span>🔬 Sains</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Bahasa Melayu" onclick="selectSubject('Bahasa Melayu')"><span>📝 Bahasa Melayu</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Bahasa Inggeris" onclick="selectSubject('Bahasa Inggeris')"><span>🌐 Bahasa Inggeris</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Sejarah" onclick="selectSubject('Sejarah')"><span>📜 Sejarah</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Geografi" onclick="selectSubject('Geografi')"><span>🌍 Geografi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Pendidikan Islam" onclick="selectSubject('Pendidikan Islam')"><span>🕌 Pendidikan Islam</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Pendidikan Moral" onclick="selectSubject('Pendidikan Moral')"><span>⚖️ Pendidikan Moral</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="PJK" onclick="selectSubject('PJK')"><span>🏃 PJK</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="ASK" onclick="selectSubject('ASK')"><span>💻 ASK</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Ekonomi" onclick="selectSubject('Ekonomi')"><span>📊 Ekonomi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Perniagaan" onclick="selectSubject('Perniagaan')"><span>💼 Perniagaan</span> <span class="arrow-icon">➔</span></button>
-        </div>
-    </sidebar>
+        <div class="section-title">2. SELECT SUBJECT</div>
+        <div class="subject-list" id="subjectList">
+            <button class="subject-btn active" data-subject="Biologi" onclick="selectSubject('Biologi')"><span>🧬 Biologi</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Kimia" onclick="selectSubject('Kimia')"><span>🧪 Kimia</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Fizik" onclick="selectSubject('Fizik')"><span>⚡ Fizik</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Matematik Tambahan" onclick="selectSubject('Matematik Tambahan')"><span>📐 Matematik Tambahan</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Matematik" onclick="selectSubject('Matematik')"><span>🔢 Matematik</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Sains" onclick="selectSubject('Sains')"><span>🔬 Sains</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Bahasa Melayu" onclick="selectSubject('Bahasa Melayu')"><span>📝 Bahasa Melayu</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Bahasa Inggeris" onclick="selectSubject('Bahasa Inggeris')"><span>🌐 Bahasa Inggeris</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Sejarah" onclick="selectSubject('Sejarah')"><span>📜 Sejarah</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Geografi" onclick="selectSubject('Geografi')"><span>🌍 Geografi</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Pendidikan Islam" onclick="selectSubject('Pendidikan Islam')"><span>🕌 Pendidikan Islam</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Pendidikan Moral" onclick="selectSubject('Pendidikan Moral')"><span>⚖️ Pendidikan Moral</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="PJK" onclick="selectSubject('PJK')"><span>🏃 PJK</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="ASK" onclick="selectSubject('ASK')"><span>💻 ASK</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Ekonomi" onclick="selectSubject('Ekonomi')"><span>📊 Ekonomi</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Perniagaan" onclick="selectSubject('Perniagaan')"><span>💼 Perniagaan</span> <span class="arrow-icon">➔</span></button>
+        </div>
+    </sidebar>
 
-    <div class="main-container">
-        <div class="top-bar">
-            <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
-            <div class="status-badge">🟢 Python Connected</div>
-        </div>
+    <div class="main-container">
+        <div class="top-bar">
+            <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
+            <div class="status-badge">🟢 Python Connected</div>
+        </div>
 
-        <!-- TOOLBAR: TEXTBOOKS, TRIAL PAPERS, YOUTUBE HUB & LANGUAGE SWITCHER -->
-        <div class="toolbar">
-            <div class="toolbar-group">
-                <span class="toolbar-label">📚 Textbooks:</span>
-                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="textbook-btn">Form 4 ↗</a>
-                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="textbook-btn">Form 5 ↗</a>
-            </div>
-            <div class="toolbar-group">
-                <span class="toolbar-label">📝 Papers & Modules:</span>
-                <button class="trial-btn" onclick="openStateModal()">🏛️ State Vault & Form 4 Modules</button>
-                <button class="youtube-btn" onclick="openYoutubeModal()">▶️ KSSM YouTube Hub</button>
-            </div>
-            <div class="toolbar-group">
-                <span class="toolbar-label">🌐 Output Language:</span>
-                <div class="lang-switch">
-                    <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">English</button>
-                    <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">Bahasa Melayu</button>
-                </div>
-            </div>
-        </div>
+        <div class="toolbar">
+            <div class="toolbar-group">
+                <span class="toolbar-label">📚 Textbooks:</span>
+                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="textbook-btn">Form 4 ↗</a>
+                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="textbook-btn">Form 5 ↗</a>
+            </div>
+            <div class="toolbar-group">
+                <span class="toolbar-label">📝 Papers & Modules:</span>
+                <button class="trial-btn" onclick="openStateModal()">🏛️ State Vault & Form 4 Modules</button>
+                <button class="youtube-btn" onclick="openYoutubeModal()">▶️ KSSM YouTube Hub</button>
+            </div>
+            <div class="toolbar-group">
+                <span class="toolbar-label">🌐 Output Language:</span>
+                <div class="lang-switch">
+                    <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">English</button>
+                    <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">Bahasa Melayu</button>
+                </div>
+            </div>
+        </div>
 
-        <div class="chat-messages" id="chatMessages">
-            <div class="message assistant" id="welcomeMessage">
-                Ready for <span id="welcomeSubject">Biologi</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
-            </div>
-        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message assistant" id="welcomeMessage">
+                Ready for <span id="welcomeSubject">Biologi</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
+            </div>
+        </div>
 
-        <div class="input-container">
-            <div class="uploaded-preview-container" id="previewContainer">
-                <img class="uploaded-preview" id="previewImg" src="" alt="Preview">
-                <button onclick="clearImage()" style="background:none; border:none; color:#ef4444; font-weight:bold; cursor:pointer;">✕ Remove</button>
-            </div>
-            <div class="input-row">
-                <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
-                <button class="camera-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">📷</button>
-                <input type="text" class="chat-input" id="userInput" placeholder="Ask any question, essay prompt, or upload a question photo..." onkeypress="handleKeyPress(event)">
-                <button class="send-btn" onclick="sendMessage()">➔</button>
-            </div>
-        </div>
-    </div>
+        <div class="input-container">
+            <div class="uploaded-preview-container" id="previewContainer">
+                <img class="uploaded-preview" id="previewImg" src="" alt="Preview">
+                <button onclick="clearImage()" style="background:none; border:none; color:#ef4444; font-weight:bold; cursor:pointer;">✕ Remove</button>
+            </div>
+            <div class="input-row">
+                <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
+                <button class="camera-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">📷</button>
+                <input type="text" class="chat-input" id="userInput" placeholder="Ask any question, essay prompt, or upload a question photo..." onkeypress="handleKeyPress(event)">
+                <button class="send-btn" onclick="sendMessage()">➔</button>
+            </div>
+        </div>
+    </div>
 
-    <!-- STATE TRIAL & FORM 4 MODULES MODAL -->
-    <div class="modal-overlay" id="stateModal">
-        <div class="modal-container">
-            <div class="modal-header">
-                <div class="modal-title">🏛️ State Trial Papers & Form 4 Modules (<span id="modalSubject">Biologi</span>)</div>
-                <button class="close-modal-btn" onclick="closeStateModal()">✕ Close</button>
-            </div>
-            <div class="modal-body">
-                <div class="state-selector-panel">
-                    <div style="font-size: 11px; color: var(--text-muted); font-weight: bold; margin-bottom: 5px;">SPM STATE PAPERS:</div>
-                    <div class="state-item" onclick="loadStateSearch('SBP')"><div><div class="state-item-name">🏫 SBP</div><div class="state-item-tag">Sekolah Berasrama Penuh</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('MRSM')"><div><div class="state-item-name">🎓 MRSM</div><div class="state-item-tag">Maktab Rendah Sains MARA</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Selangor')"><div><div class="state-item-name">📌 Selangor</div><div class="state-item-tag">JPNSelangor</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kuala Lumpur')"><div><div class="state-item-name">🏙️ Kuala Lumpur</div><div class="state-item-tag">JPWPKL</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Johor')"><div><div class="state-item-name">📌 Johor</div><div class="state-item-tag">JPNJohor</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Pulau Pinang')"><div><div class="state-item-name">📌 Pulau Pinang</div><div class="state-item-tag">JPNPenang</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Perak')"><div><div class="state-item-name">📌 Perak</div><div class="state-item-tag">JPNPerak</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Pahang')"><div><div class="state-item-name">📌 Pahang</div><div class="state-item-tag">JPNPahang</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kedah')"><div><div class="state-item-name">📌 Kedah</div><div class="state-item-tag">JPNKedah</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kelantan')"><div><div class="state-item-name">📌 Kelantan</div><div class="state-item-tag">JPNKelantan</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Terengganu')"><div><div class="state-item-name">📌 Terengganu</div><div class="state-item-tag">JPNTerengganu</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Negeri Sembilan')"><div><div class="state-item-name">📌 Negeri Sembilan</div><div class="state-item-tag">JPNS</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Melaka')"><div><div class="state-item-name">📌 Melaka</div><div class="state-item-tag">JPNMelaka</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Sabah')"><div><div class="state-item-name">📌 Sabah</div><div class="state-item-tag">JPNSabah</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Sarawak')"><div><div class="state-item-name">📌 Sarawak</div><div class="state-item-tag">JPNSarawak</div></div><span>➔</span></div>
-                </div>
-                
-                <div class="modal-content-area">
-                    <div class="f4-shortcut-bar">
-                        <span style="font-size: 12px; color: var(--text-muted); font-weight: bold; align-self: center;">FORM 4 VAULT:</span>
-                        <button class="textbook-btn" onclick="loadForm4PaperSearch('Topical')">📚 F4 Chapter-by-Chapter Modules</button>
-                        <button class="textbook-btn" onclick="loadForm4PaperSearch('PPT')">📝 F4 Mid-Year Exam (PPT)</button>
-                        <button class="textbook-btn" onclick="loadForm4PaperSearch('PAT')">📄 F4 Final Year Exam (PAT)</button>
-                    </div>
-                    <iframe class="pdf-viewer-frame" id="statePdfFrame" src="about:blank"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- STATE TRIAL & FORM 4 MODULES MODAL -->
+    <div class="modal-overlay" id="stateModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <div class="modal-title">🏛️ State Trial Papers & Form 4 Modules (<span id="modalSubject">Biologi</span>)</div>
+                <button class="close-modal-btn" onclick="closeStateModal()">✕ Close</button>
+            </div>
+            <div class="modal-body">
+                <div class="state-selector-panel">
+                    <div style="font-size: 11px; color: var(--text-muted); font-weight: bold; margin-bottom: 5px;">SPM STATE PAPERS:</div>
+                    <div class="state-item" onclick="loadStateSearch('SBP')"><div><div class="state-item-name">🏫 SBP</div><div class="state-item-tag">Sekolah Berasrama Penuh</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('MRSM')"><div><div class="state-item-name">🎓 MRSM</div><div class="state-item-tag">Maktab Rendah Sains MARA</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Selangor')"><div><div class="state-item-name">📌 Selangor</div><div class="state-item-tag">JPNSelangor</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Kuala Lumpur')"><div><div class="state-item-name">🏙️ Kuala Lumpur</div><div class="state-item-tag">JPWPKL</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Johor')"><div><div class="state-item-name">📌 Johor</div><div class="state-item-tag">JPNJohor</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Pulau Pinang')"><div><div class="state-item-name">📌 Pulau Pinang</div><div class="state-item-tag">JPNPenang</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Perak')"><div><div class="state-item-name">📌 Perak</div><div class="state-item-tag">JPNPerak</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Pahang')"><div><div class="state-item-name">📌 Pahang</div><div class="state-item-tag">JPNPahang</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Kedah')"><div><div class="state-item-name">📌 Kedah</div><div class="state-item-tag">JPNKedah</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Kelantan')"><div><div class="state-item-name">📌 Kelantan</div><div class="state-item-tag">JPNKelantan</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Terengganu')"><div><div class="state-item-name">📌 Terengganu</div><div class="state-item-tag">JPNTerengganu</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Negeri Sembilan')"><div><div class="state-item-name">📌 Negeri Sembilan</div><div class="state-item-tag">JPNS</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Melaka')"><div><div class="state-item-name">📌 Melaka</div><div class="state-item-tag">JPNMelaka</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Sabah')"><div><div class="state-item-name">📌 Sabah</div><div class="state-item-tag">JPNSabah</div></div><span>➔</span></div>
+                    <div class="state-item" onclick="loadStateSearch('Sarawak')"><div><div class="state-item-name">📌 Sarawak</div><div class="state-item-tag">JPNSarawak</div></div><span>➔</span></div>
+                </div>
+                
+                <div class="modal-content-area">
+                    <div class="f4-shortcut-bar">
+                        <span style="font-size: 12px; color: var(--text-muted); font-weight: bold; align-self: center;">FORM 4 VAULT:</span>
+                        <button class="textbook-btn" onclick="loadForm4PaperSearch('Topical')">📚 F4 Chapter-by-Chapter Modules</button>
+                        <button class="textbook-btn" onclick="loadForm4PaperSearch('PPT')">📝 F4 Mid-Year Exam (PPT)</button>
+                        <button class="textbook-btn" onclick="loadForm4PaperSearch('PAT')">📄 F4 Final Year Exam (PAT)</button>
+                    </div>
+                    <iframe class="pdf-viewer-frame" id="statePdfFrame" src="about:blank"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- KSSM YOUTUBE HUB MODAL -->
-    <div class="modal-overlay" id="youtubeModal">
-        <div class="yt-modal-container">
-            <div class="modal-header">
-                <div class="modal-title" style="color: #ef4444;">▶️ KSSM Video Hub (<span id="ytModalSubject">Biologi</span>)</div>
-                <button class="close-modal-btn" onclick="closeYoutubeModal()">✕ Close</button>
-            </div>
-            <div style="padding: 20px; display: flex; flex-direction: column; flex: 1; overflow: hidden;">
-                <div class="yt-tabs">
-                    <button class="yt-tab-btn active" id="ytF4TabBtn" onclick="switchYtForm(4)">Form 4 Chapters</button>
-                    <button class="yt-tab-btn" id="ytF5TabBtn" onclick="switchYtForm(5)">Form 5 Chapters</button>
-                </div>
-                <div class="yt-chapter-grid" id="ytChapterContainer"></div>
-            </div>
-        </div>
-    </div>
+    <!-- KSSM YOUTUBE HUB MODAL -->
+    <div class="modal-overlay" id="youtubeModal">
+        <div class="yt-modal-container">
+            <div class="modal-header">
+                <div class="modal-title" style="color: #ef4444;">▶️ KSSM Video Hub (<span id="ytModalSubject">Biologi</span>)</div>
+                <button class="close-modal-btn" onclick="closeYoutubeModal()">✕ Close</button>
+            </div>
+            <div style="padding: 20px; display: flex; flex-direction: column; flex: 1; overflow: hidden;">
+                <div class="yt-tabs">
+                    <button class="yt-tab-btn active" id="ytF4TabBtn" onclick="switchYtForm(4)">Form 4 Chapters</button>
+                    <button class="yt-tab-btn" id="ytF5TabBtn" onclick="switchYtForm(5)">Form 5 Chapters</button>
+                </div>
+                <div class="yt-chapter-grid" id="ytChapterContainer"></div>
+            </div>
+        </div>
+    </div>
 
-    <script>
-        let currentSubject = "Biologi";
-        let currentLevel = "Form 4-5 / SPM";
-        let currentLanguage = "English";
-        let uploadedImageBase64 = null;
-        let chatHistory = [];
+    <script>
+        let currentSubject = "Biologi";
+        let currentLevel = "Form 4-5 / SPM";
+        let currentLanguage = "English";
+        let uploadedImageBase64 = null;
+        let chatHistory = [];
+        let activeYtForm = 4;
 
-        const ytChapterData = {
-            "Biologi": {
-                4: [
-                    { name: "Ch 1: Introduction to Biology and Laboratory Rules", query: "KSSM+Biologi+Form+4+Chapter+1" },
-                    { name: "Ch 2: Cell Biology and Organisation", query: "KSSM+Biologi+Form+4+Chapter+2" },
-                    { name: "Ch 3: Movement of Substances Across Plasma Membrane", query: "KSSM+Biologi+Form+4+Chapter+3" },
-                    { name: "Ch 4: Chemical Composition of a Cell", query: "KSSM+Biologi+Form+4+Chapter+4" },
-                    { name: "Ch 5: Metabolism and Enzymes", query: "KSSM+Biologi+Form+4+Chapter+5" },
-                    { name: "Ch 6: Cell Division", query: "KSSM+Biologi+Form+4+Chapter+6" },
-                    { name: "Ch 7: Cellular Respiration", query: "KSSM+Biologi+Form+4+Chapter+7" },
-                    { name: "Ch 8: Respiratory Systems in Humans and Animals", query: "KSSM+Biologi+Form+4+Chapter+8" },
-                    { name: "Ch 9: Nutrition and Human Digestive System", query: "KSSM+Biologi+Form+4+Chapter+9" },
-                    { name: "Ch 10: Transport in Humans and Animals", query: "KSSM+Biologi+Form+4+Chapter+10" },
-                    { name: "Ch 11: Immunity in Humans", query: "KSSM+Biologi+Form+4+Chapter+11" },
-                    { name: "Ch 12: Coordination and Response in Humans", query: "KSSM+Biologi+Form+4+Chapter+12" },
-                    { name: "Ch 13: Homeostasis and Human Urinary System", query: "KSSM+Biologi+Form+4+Chapter+13" },
-                    { name: "Ch 14: Support and Movement in Humans and Animals", query: "KSSM+Biologi+Form+4+Chapter+14" },
-                    { name: "Ch 15: Sexual Reproduction, Development and Growth", query: "KSSM+Biologi+Form+4+Chapter+15" }
-                ],
-                5: [
-                    { name: "Ch 1: Organisation of Plant Tissues and Growth", query: "KSSM+Biologi+Form+5+Chapter+1" },
-                    { name: "Ch 2: Leaf Structure and Function", query: "KSSM+Biologi+Form+5+Chapter+2" },
-                    { name: "Ch 3: Nutrition in Plants", query: "KSSM+Biologi+Form+5+Chapter+3" },
-                    { name: "Ch 4: Transport in Plants", query: "KSSM+Biologi+Form+5+Chapter+4" },
-                    { name: "Ch 5: Response in Plants", query: "KSSM+Biologi+Form+5+Chapter+5" },
-                    { name: "Ch 6: Sexual Reproduction in Flowering Plants", query: "KSSM+Biologi+Form+5+Chapter+6" },
-                    { name: "Ch 7: Adaptations of Plants in Different Habitats", query: "KSSM+Biologi+Form+5+Chapter+7" },
-                    { name: "Ch 8: Biodiversity", query: "KSSM+Biologi+Form+5+Chapter+8" },
-                    { name: "Ch 9: Ecosystem", query: "KSSM+Biologi+Form+5+Chapter+9" },
-                    { name: "Ch 10: Environmental Sustainability", query: "KSSM+Biologi+Form+5+Chapter+10" },
-                    { name: "Ch 11: Inheritance", query: "KSSM+Biologi+Form+5+Chapter+11" },
-                    { name: "Ch 12: Variation", query: "KSSM+Biologi+Form+5+Chapter+12" },
-                    { name: "Ch 13: Genetic Technology", query: "KSSM+Biologi+Form+5+Chapter+13" }
-                ]
-            }
-        };
+        function filterSubjects() {
+            let filter = document.getElementById('searchSubject').value.toLowerCase();
+            let buttons = document.querySelectorAll('.subject-btn');
+            buttons.forEach(btn => {
+                let txt = btn.innerText.toLowerCase();
+                btn.style.display = txt.includes(filter) ? 'flex' : 'none';
+            });
+        }
 
-        function setLanguage(lang) {
-            currentLanguage = lang;
-            document.getElementById('langEnBtn').classList.toggle('active', lang === 'English');
-            document.getElementById('langBmBtn').classList.toggle('active', lang === 'Bahasa Melayu');
-        }
+        function setLanguage(lang) {
+            currentLanguage = lang;
+            document.getElementById('langEnBtn').classList.toggle('active', lang === 'English');
+            document.getElementById('langBmBtn').classList.toggle('active', lang === 'Bahasa Melayu');
+        }
 
-        function selectSubject(subject) {
-            currentSubject = subject;
-            
-            // Clear chat history and wipe previous subject context
-            chatHistory = [];
-            
-            // Reset chat window with clean welcome screen for the new subject
-            const chatMessages = document.getElementById('chatMessages');
-            chatMessages.innerHTML = `
-                <div class="message assistant" id="welcomeMessage">
-                    Ready for <span id="welcomeSubject">${subject}</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
-                </div>
-            `;
+        function selectSubject(subject) {
+            currentSubject = subject;
+            chatHistory = [];
+            
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.innerHTML = `
+                <div class="message assistant" id="welcomeMessage">
+                    Ready for <span id="welcomeSubject">${subject}</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
+                </div>
+            `;
 
-            document.getElementById('currentSubjectDisplay').innerText = subject;
-            document.getElementById('modalSubject').innerText = subject;
-            document.getElementById('ytModalSubject').innerText = subject;
-            
-            document.getElementById('form4TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+${encodeURIComponent(subject)}+PDF`;
-            document.getElementById('form5TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+${encodeURIComponent(subject)}+PDF`;
+            document.getElementById('currentSubjectDisplay').innerText = subject;
+            document.getElementById('modalSubject').innerText = subject;
+            document.getElementById('ytModalSubject').innerText = subject;
+            
+            document.getElementById('form4TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+${encodeURIComponent(subject)}+PDF`;
+            document.getElementById('form5TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+${encodeURIComponent(subject)}+PDF`;
 
-            let buttons = document.querySelectorAll('.subject-btn');
-            but
+            let buttons = document.querySelectorAll('.subject-btn');
+            buttons.forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-subject') === subject);
+            });
+        }
+
+        function startNewChat() {
+            selectSubject(currentSubject);
+        }
+
+        function handleKeyPress(e) {
+            if (e.key === 'Enter') sendMessage();
+        }
+
+        function handleImageUpload(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(evt) {
+                    uploadedImageBase64 = evt.target.result;
+                    document.getElementById('previewImg').src = uploadedImageBase64;
+                    document.getElementById('previewContainer').style.display = 'flex';
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        function clearImage() {
+            uploadedImageBase64 = null;
+            document.getElementById('imageInput').value = '';
+            document.getElementById('previewContainer').style.display = 'none';
+        }
+
+        function openStateModal() {
+            document.getElementById('stateModal').style.display = 'flex';
+            loadStateSearch('SBP');
+        }
+
+        function closeStateModal() {
+            document.getElementById('stateModal').style.display = 'none';
+        }
+
+        function loadStateSearch(state) {
+            let query = `Soalan+Trial+SPM+${encodeURIComponent(state)}+${encodeURIComponent(currentSubject)}+PDF`;
+            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${query}&igu=1`;
+        }
+
+        function loadForm4PaperSearch(type) {
+            let query = `Soalan+${type}+Form+4+KSSM+${encodeURIComponent(currentSubject)}+PDF`;
+            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${query}&igu=1`;
+        }
+
+        function openYoutubeModal() {
+            document.getElementById('youtubeModal').style.display = 'flex';
+            switchYtForm(4);
+        }
+
+        function closeYoutubeModal() {
+            document.getElementById('youtubeModal').style.display = 'none';
+        }
+
+        function switchYtForm(form) {
+            activeYtForm = form;
+            document.getElementById('ytF4TabBtn').classList.toggle('active', form === 4);
+            document.getElementById('ytF5TabBtn').classList.toggle('active', form === 5);
+
+            const container = document.getElementById('ytChapterContainer');
+            container.innerHTML = '';
+
+            for (let i = 1; i <= 12; i++) {
+                let link = document.createElement('a');
+                link.className = 'yt-chapter-link';
+                link.target = '_blank';
+                link.href = `https://www.youtube.com/results?search_query=KSSM+${encodeURIComponent(currentSubject)}+Form+${form}+Chapter+${i}`;
+                link.innerHTML = `<span>▶️ Form ${form} Chapter ${i} Video Lessons</span> <span>↗</span>`;
+                container.appendChild(link);
+            }
+        }
+
+        async function sendMessage() {
+            const inputField = document.getElementById('userInput');
+            const messageText = inputField.value.trim();
+            if(!messageText && !uploadedImageBase64) return;
+
+            const chatMessages = document.getElementById('chatMessages');
+            
+            let userMsgDiv = document.createElement('div');
+            userMsgDiv.className = 'message user';
+            
+            if (uploadedImageBase64) {
+                userMsgDiv.innerHTML = `<img src="${uploadedImageBase64}" style="max-width:200px; border-radius:8px; display:block; margin-bottom:8px;">` + messageText;
+            } else {
+                userMsgDiv.innerText = messageText;
+            }
+            
+            chatMessages.appendChild(userMsgDiv);
+
+            const payloadPrompt = messageText;
+            const payloadImage = uploadedImageBase64;
+            
+            inputField.value = '';
+            clearImage();
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            let botMsgDiv = document.createElement('div');
+            botMsgDiv.className = 'message assistant';
+            botMsgDiv.innerHTML = `<div class="typing-dots"><span></span><span></span><span></span></div>`;
+            chatMessages.appendChild(botMsgDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        prompt: payloadPrompt,
+                        subject: currentSubject,
+                        level: currentLevel,
+                        language: currentLanguage,
+                        image: payloadImage,
+                        history: chatHistory
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.reply) {
+                    botMsgDiv.innerHTML = marked.parse(data.reply);
+                    chatHistory.push({ role: "user", content: payloadPrompt });
+                    chatHistory.push({ role: "assistant", content: data.reply });
+                } else if (data.error) {
+                    botMsgDiv.innerHTML = `❌ Error: ${data.error}`;
+                } else {
+                    botMsgDiv.innerHTML = "Error generating response.";
+                }
+            } catch (error) {
+                botMsgDiv.innerHTML = "Connection error with Python backend.";
+            }
+
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+    </script>
+</body>
+</html>
