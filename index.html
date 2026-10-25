@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,13 +112,16 @@
         .f4-shortcut-bar { display: flex; gap: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
         .pdf-viewer-frame { flex: 1; border: 1px solid var(--border-color); border-radius: 8px; background: #fff; }
 
-        .yt-modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 600px; max-width: 95%; height: 520px; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
-        .yt-tabs { display: flex; gap: 8px; margin-bottom: 15px; }
-        .yt-tab-btn { flex: 1; padding: 8px; background: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-muted); border-radius: 6px; font-weight: bold; cursor: pointer; transition: all 0.2s; }
+        /* YOUTUBE HUB CUSTOM STYLES */
+        .yt-modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 680px; max-width: 95%; height: 560px; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
+        .yt-select-row { display: flex; gap: 10px; margin-bottom: 15px; }
+        .yt-subject-dropdown { flex: 2; background: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 8px 12px; border-radius: 6px; font-weight: bold; outline: none; cursor: pointer; }
+        .yt-tabs { display: flex; flex: 1; gap: 6px; }
+        .yt-tab-btn { flex: 1; padding: 8px; background: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-muted); border-radius: 6px; font-weight: bold; cursor: pointer; transition: all 0.2s; font-size: 12px; }
         .yt-tab-btn.active { background: #ef4444; color: white; border-color: #ef4444; }
         .yt-chapter-grid { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; padding-right: 5px; }
-        .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
-        .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; }
+        .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 11px 15px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
+        .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; transform: translateX(2px); }
     </style>
 </head>
 <body>
@@ -159,10 +163,11 @@
             <button class="subject-btn" data-subject="Geografi" onclick="selectSubject('Geografi')"><span>🌍 Geografi</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Pendidikan Islam" onclick="selectSubject('Pendidikan Islam')"><span>🕌 Pendidikan Islam</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Pendidikan Moral" onclick="selectSubject('Pendidikan Moral')"><span>⚖️ Pendidikan Moral</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Prinsip Perakaunan" onclick="selectSubject('Prinsip Perakaunan')"><span>📊 Prinsip Perakaunan</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Perniagaan" onclick="selectSubject('Perniagaan')"><span>💼 Perniagaan</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="PJK" onclick="selectSubject('PJK')"><span>🏃 PJK</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="ASK" onclick="selectSubject('ASK')"><span>💻 ASK</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Ekonomi" onclick="selectSubject('Ekonomi')"><span>📊 Ekonomi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Perniagaan" onclick="selectSubject('Perniagaan')"><span>💼 Perniagaan</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Ekonomi" onclick="selectSubject('Ekonomi')"><span>📈 Ekonomi</span> <span class="arrow-icon">➔</span></button>
         </div>
     </sidebar>
 
@@ -256,13 +261,32 @@
     <div class="modal-overlay" id="youtubeModal">
         <div class="yt-modal-container">
             <div class="modal-header">
-                <div class="modal-title" style="color: #ef4444;">▶️ KSSM Video Hub (<span id="ytModalSubject">Biologi</span>)</div>
+                <div class="modal-title" style="color: #ef4444;">▶️ KSSM YouTube Video Hub</div>
                 <button class="close-modal-btn" onclick="closeYoutubeModal()">✕ Close</button>
             </div>
             <div style="padding: 20px; display: flex; flex-direction: column; flex: 1; overflow: hidden;">
-                <div class="yt-tabs">
-                    <button class="yt-tab-btn active" id="ytF4TabBtn" onclick="switchYtForm(4)">Form 4 Chapters</button>
-                    <button class="yt-tab-btn" id="ytF5TabBtn" onclick="switchYtForm(5)">Form 5 Chapters</button>
+                <div class="yt-select-row">
+                    <select class="yt-subject-dropdown" id="ytSubjectSelect" onchange="changeYtSubject()">
+                        <option value="Biologi">🧬 Biologi</option>
+                        <option value="Kimia">🧪 Kimia</option>
+                        <option value="Fizik">⚡ Fizik</option>
+                        <option value="Matematik">🔢 Matematik</option>
+                        <option value="Matematik Tambahan">📐 Matematik Tambahan</option>
+                        <option value="Sains">🔬 Sains</option>
+                        <option value="Sejarah">📜 Sejarah</option>
+                        <option value="Bahasa Melayu">📝 Bahasa Melayu</option>
+                        <option value="Bahasa Inggeris">🌐 Bahasa Inggeris</option>
+                        <option value="Geografi">🌍 Geografi</option>
+                        <option value="Pendidikan Islam">🕌 Pendidikan Islam</option>
+                        <option value="Pendidikan Moral">⚖️ Pendidikan Moral</option>
+                        <option value="Prinsip Perakaunan">📊 Prinsip Perakaunan</option>
+                        <option value="Perniagaan">💼 Perniagaan</option>
+                        <option value="PJK">🏃 PJK</option>
+                    </select>
+                    <div class="yt-tabs">
+                        <button class="yt-tab-btn active" id="ytF4TabBtn" onclick="switchYtForm(4)">Form 4</button>
+                        <button class="yt-tab-btn" id="ytF5TabBtn" onclick="switchYtForm(5)">Form 5</button>
+                    </div>
                 </div>
                 <div class="yt-chapter-grid" id="ytChapterContainer"></div>
             </div>
@@ -275,9 +299,10 @@
         let currentLanguage = "English";
         let uploadedImageBase64 = null;
         let chatHistory = [];
+        let currentYtSubject = "Biologi";
         let currentYtForm = 4;
 
-        // Comprehensive dynamic chapter database for all subjects
+        // MASTER YOUTUBE CHAPTER DATABASE FOR ALL SUBJECTS
         const ytChapterData = {
             "Biologi": {
                 4: [
@@ -313,6 +338,42 @@
                     { name: "Ch 13: Genetic Technology", query: "KSSM+Biologi+Form+5+Chapter+13" }
                 ]
             },
+            "Kimia": {
+                4: [
+                    { name: "Ch 1: Introduction to Chemistry", query: "KSSM+Kimia+Form+4+Chapter+1" },
+                    { name: "Ch 2: The Structure of Atom", query: "KSSM+Kimia+Form+4+Chapter+2" },
+                    { name: "Ch 3: Chemical Formulae and Equations", query: "KSSM+Kimia+Form+4+Chapter+3" },
+                    { name: "Ch 4: Periodic Table of Elements", query: "KSSM+Kimia+Form+4+Chapter+4" },
+                    { name: "Ch 5: Chemical Bond", query: "KSSM+Kimia+Form+4+Chapter+5" },
+                    { name: "Ch 6: Acids, Bases and Salts", query: "KSSM+Kimia+Form+4+Chapter+6" },
+                    { name: "Ch 7: Rate of Reaction", query: "KSSM+Kimia+Form+4+Chapter+7" },
+                    { name: "Ch 8: Manufactured Substances in Industry", query: "KSSM+Kimia+Form+4+Chapter+8" }
+                ],
+                5: [
+                    { name: "Ch 1: Redox Equilibrium", query: "KSSM+Kimia+Form+5+Chapter+1" },
+                    { name: "Ch 2: Carbon Compound", query: "KSSM+Kimia+Form+5+Chapter+2" },
+                    { name: "Ch 3: Thermochemistry", query: "KSSM+Kimia+Form+5+Chapter+3" },
+                    { name: "Ch 4: Polymer Chemistry", query: "KSSM+Kimia+Form+5+Chapter+4" },
+                    { name: "Ch 5: Consumer and Industrial Chemistry", query: "KSSM+Kimia+Form+5+Chapter+5" }
+                ]
+            },
+            "Fizik": {
+                4: [
+                    { name: "Ch 1: Measurement", query: "KSSM+Fizik+Form+4+Chapter+1" },
+                    { name: "Ch 2: Force and Motion I", query: "KSSM+Fizik+Form+4+Chapter+2" },
+                    { name: "Ch 3: Gravitation", query: "KSSM+Fizik+Form+4+Chapter+3" },
+                    { name: "Ch 4: Heat", query: "KSSM+Fizik+Form+4+Chapter+4" },
+                    { name: "Ch 5: Waves", query: "KSSM+Fizik+Form+4+Chapter+5" },
+                    { name: "Ch 6: Light and Optics", query: "KSSM+Fizik+Form+4+Chapter+6" }
+                ],
+                5: [
+                    { name: "Ch 1: Force and Pressure", query: "KSSM+Fizik+Form+5+Chapter+1" },
+                    { name: "Ch 2: Electromagnetism", query: "KSSM+Fizik+Form+5+Chapter+2" },
+                    { name: "Ch 3: Electronics", query: "KSSM+Fizik+Form+5+Chapter+3" },
+                    { name: "Ch 4: Nuclear Physics", query: "KSSM+Fizik+Form+5+Chapter+4" },
+                    { name: "Ch 5: Quantum Physics", query: "KSSM+Fizik+Form+5+Chapter+5" }
+                ]
+            },
             "Matematik": {
                 4: [
                     { name: "Ch 1: Quadratic Functions and Equations", query: "KSSM+Matematik+Form+4+Chapter+1" },
@@ -334,8 +395,184 @@
                     { name: "Ch 5: Congruence, Enlargement and Combination", query: "KSSM+Matematik+Form+5+Chapter+5" },
                     { name: "Ch 6: Ratios and Graphs of Trigonometric Functions", query: "KSSM+Matematik+Form+5+Chapter+6" },
                     { name: "Ch 7: Plans and Elevations", query: "KSSM+Matematik+Form+5+Chapter+7" },
-                    { name: "Ch 8: Loci in Two Dimensions", query: "KSSM+Matematik+Form+5+Chapter+8" },
-                    { name: "Ch 9: Probability of Combined Events", query: "KSSM+Matematik+Form+5+Chapter+9" }
+                    { name: "Ch 8: Loci in Two Dimensions", query: "KSSM+Matematik+Form+5+Chapter+8" }
+                ]
+            },
+            "Matematik Tambahan": {
+                4: [
+                    { name: "Ch 1: Functions", query: "KSSM+Add+Maths+Form+4+Chapter+1" },
+                    { name: "Ch 2: Quadratic Equations", query: "KSSM+Add+Maths+Form+4+Chapter+2" },
+                    { name: "Ch 3: Systems of Equations", query: "KSSM+Add+Maths+Form+4+Chapter+3" },
+                    { name: "Ch 4: Indices, Surds and Logarithms", query: "KSSM+Add+Maths+Form+4+Chapter+4" },
+                    { name: "Ch 5: Progressions", query: "KSSM+Add+Maths+Form+4+Chapter+5" },
+                    { name: "Ch 6: Linear Law", query: "KSSM+Add+Maths+Form+4+Chapter+6" },
+                    { name: "Ch 7: Coordinate Geometry", query: "KSSM+Add+Maths+Form+4+Chapter+7" },
+                    { name: "Ch 8: Vectors", query: "KSSM+Add+Maths+Form+4+Chapter+8" },
+                    { name: "Ch 9: Solution of Triangles", query: "KSSM+Add+Maths+Form+4+Chapter+9" },
+                    { name: "Ch 10: Index Numbers", query: "KSSM+Add+Maths+Form+4+Chapter+10" }
+                ],
+                5: [
+                    { name: "Ch 1: Circular Measure", query: "KSSM+Add+Maths+Form+5+Chapter+1" },
+                    { name: "Ch 2: Differentiation", query: "KSSM+Add+Maths+Form+5+Chapter+2" },
+                    { name: "Ch 3: Integration", query: "KSSM+Add+Maths+Form+5+Chapter+3" },
+                    { name: "Ch 4: Permutation and Combination", query: "KSSM+Add+Maths+Form+5+Chapter+4" },
+                    { name: "Ch 5: Probability Distribution", query: "KSSM+Add+Maths+Form+5+Chapter+5" },
+                    { name: "Ch 6: Trigonometric Functions", query: "KSSM+Add+Maths+Form+5+Chapter+6" },
+                    { name: "Ch 7: Linear Programming", query: "KSSM+Add+Maths+Form+5+Chapter+7" },
+                    { name: "Ch 8: Kinematics of Linear Motion", query: "KSSM+Add+Maths+Form+5+Chapter+8" }
+                ]
+            },
+            "Sains": {
+                4: [
+                    { name: "Ch 1: Safety in Laboratory", query: "KSSM+Sains+Form+4+Bab+1" },
+                    { name: "Ch 2: Emergency Aid", query: "KSSM+Sains+Form+4+Bab+2" },
+                    { name: "Ch 3: Measuring Body Temperature", query: "KSSM+Sains+Form+4+Bab+3" },
+                    { name: "Ch 4: Green Technology for Sustainability", query: "KSSM+Sains+Form+4+Bab+4" },
+                    { name: "Ch 5: Genetics", query: "KSSM+Sains+Form+4+Bab+5" },
+                    { name: "Ch 6: Support, Movement and Growth", query: "KSSM+Sains+Form+4+Bab+6" },
+                    { name: "Ch 7: Body Coordination", query: "KSSM+Sains+Form+4+Bab+7" },
+                    { name: "Ch 8: Elements and Substances", query: "KSSM+Sains+Form+4+Bab+8" },
+                    { name: "Ch 9: Space Technology", query: "KSSM+Sains+Form+4+Bab+9" }
+                ],
+                5: [
+                    { name: "Ch 1: Microorganisms", query: "KSSM+Sains+Form+5+Bab+1" },
+                    { name: "Ch 2: Nutrition and Food Technology", query: "KSSM+Sains+Form+5+Bab+2" },
+                    { name: "Ch 3: Sustainability of Environment", query: "KSSM+Sains+Form+5+Bab+3" },
+                    { name: "Ch 4: Rate of Reaction", query: "KSSM+Sains+Form+5+Bab+4" },
+                    { name: "Ch 5: Carbon Compound", query: "KSSM+Sains+Form+5+Bab+5" },
+                    { name: "Ch 6: Electrochemistry", query: "KSSM+Sains+Form+5+Bab+6" },
+                    { name: "Ch 7: Light and Optics", query: "KSSM+Sains+Form+5+Bab+7" },
+                    { name: "Ch 8: Force and Pressure", query: "KSSM+Sains+Form+5+Bab+8" }
+                ]
+            },
+            "Sejarah": {
+                4: [
+                    { name: "Bab 1: Warisan Negara Bangsa", query: "KSSM+Sejarah+Form+4+Bab+1" },
+                    { name: "Bab 2: Kebangkitan Nasionalisme", query: "KSSM+Sejarah+Form+4+Bab+2" },
+                    { name: "Bab 3: Konflik Dunia & Pendudukan Jepun", query: "KSSM+Sejarah+Form+4+Bab+3" },
+                    { name: "Bab 4: Era Peralihan Kuasa British", query: "KSSM+Sejarah+Form+4+Bab+4" },
+                    { name: "Bab 5: Persekutuan Tanah Melayu 1948", query: "KSSM+Sejarah+Form+4+Bab+5" },
+                    { name: "Bab 6: Ancaman Komunis & Darurat", query: "KSSM+Sejarah+Form+4+Bab+6" },
+                    { name: "Bab 7: Usaha Ke Arah Kemerdekaan", query: "KSSM+Sejarah+Form+4+Bab+7" },
+                    { name: "Bab 8: Pilihan Raya", query: "KSSM+Sejarah+Form+4+Bab+8" },
+                    { name: "Bab 9: Perlembagaan PTM 1957", query: "KSSM+Sejarah+Form+4+Bab+9" },
+                    { name: "Bab 10: Pemasyhuran Kemerdekaan", query: "KSSM+Sejarah+Form+4+Bab+10" }
+                ],
+                5: [
+                    { name: "Bab 1: Kedaulatan Negara", query: "KSSM+Sejarah+Form+5+Bab+1" },
+                    { name: "Bab 2: Perlembagaan Persekutuan", query: "KSSM+Sejarah+Form+5+Bab+2" },
+                    { name: "Bab 3: Raja Berperlembagaan & Demokrasi", query: "KSSM+Sejarah+Form+5+Bab+3" },
+                    { name: "Bab 4: Sistem Persekutuan", query: "KSSM+Sejarah+Form+5+Bab+4" },
+                    { name: "Bab 5: Pembentukan Malaysia", query: "KSSM+Sejarah+Form+5+Bab+5" },
+                    { name: "Bab 6: Cabaran Selepas Pembentukan Malaysia", query: "KSSM+Sejarah+Form+5+Bab+6" },
+                    { name: "Bab 7: Membina Kesejahteraan Negara", query: "KSSM+Sejarah+Form+5+Bab+7" },
+                    { name: "Bab 8: Membina Kemakmuran Negara", query: "KSSM+Sejarah+Form+5+Bab+8" }
+                ]
+            },
+            "Bahasa Melayu": {
+                4: [
+                    { name: "Modul 1: Karangan Respons Terhad & Terbuka", query: "KSSM+Bahasa+Melayu+Form+4+Karangan" },
+                    { name: "Modul 2: Rumusan dan Pemahaman Petikan", query: "KSSM+Bahasa+Melayu+Form+4+Rumusan" },
+                    { name: "Modul 3: Novel & Komsas Tingkatan 4", query: "KSSM+Bahasa+Melayu+Form+4+Novel" },
+                    { name: "Modul 4: Tatabahasa & Sintaksis", query: "KSSM+Bahasa+Melayu+Form+4+Tatabahasa" }
+                ],
+                5: [
+                    { name: "Modul 1: Teknik Menjawab Karangan SPM", query: "KSSM+Bahasa+Melayu+Form+5+Karangan+SPM" },
+                    { name: "Modul 2: Peperiksaan Percubaan Bahasa Melayu SPM", query: "KSSM+Bahasa+Melayu+Trial+Paper+SPM" },
+                    { name: "Modul 3: Novel Komsas Tingkatan 5", query: "KSSM+Bahasa+Melayu+Form+5+Novel" },
+                    { name: "Modul 4: Analisis Kesalahan Ejaan & Imbuhan", query: "KSSM+Bahasa+Melayu+Tatabahasa" }
+                ]
+            },
+            "Bahasa Inggeris": {
+                4: [
+                    { name: "Module 1: Part 1 Short Communicative Message", query: "KSSM+English+Form+4+Part+1+Writing" },
+                    { name: "Module 2: Part 2 Guided Essay", query: "KSSM+English+Form+4+Part+2+Essay" },
+                    { name: "Module 3: Part 3 Extended Writing (Story/Review)", query: "KSSM+English+Form+4+Part+3+Writing" },
+                    { name: "Module 4: Listening & Speaking Preparation", query: "KSSM+English+Form+4+Listening+Speaking" }
+                ],
+                5: [
+                    { name: "Module 1: SPM Writing Masterclass (Parts 1, 2 & 3)", query: "KSSM+English+SPM+Writing+Masterclass" },
+                    { name: "Module 2: SPM Reading Comprehension Skills", query: "KSSM+English+SPM+Reading+Comprehension" },
+                    { name: "Module 3: Literature Component (Novel & Poems)", query: "KSSM+English+SPM+Literature" },
+                    { name: "Module 4: Trial Papers Grammar & Vocab", query: "KSSM+English+Trial+Papers+SPM" }
+                ]
+            },
+            "Geografi": {
+                4: [
+                    { name: "Bab 1: Jadual dan Graf", query: "KSSM+Geografi+Form+4+Bab+1" },
+                    { name: "Bab 2: Carta Pai dan Carta Bar", query: "KSSM+Geografi+Form+4+Bab+2" },
+                    { name: "Bab 3: Peta Lakar", query: "KSSM+Geografi+Form+4+Bab+3" },
+                    { name: "Bab 4: Lakaran Peta Malaysia", query: "KSSM+Geografi+Form+4+Bab+4" }
+                ],
+                5: [
+                    { name: "Bab 1: Penduduk di Malaysia", query: "KSSM+Geografi+Form+5+Bab+1" },
+                    { name: "Bab 2: Petempatan", query: "KSSM+Geografi+Form+5+Bab+2" },
+                    { name: "Bab 3: Pengangkutan", query: "KSSM+Geografi+Form+5+Bab+3" },
+                    { name: "Bab 4: Sumber Semula Jadi", query: "KSSM+Geografi+Form+5+Bab+4" }
+                ]
+            },
+            "Pendidikan Islam": {
+                4: [
+                    { name: "Bidang Al-Quran (Hafazan & Kefahaman)", query: "KSSM+Pendidikan+Islam+Form+4+Al+Quran" },
+                    { name: "Bidang Hadis & Akidah", query: "KSSM+Pendidikan+Islam+Form+4+Akidah" },
+                    { name: "Bidang Feqah (Ibadat)", query: "KSSM+Pendidikan+Islam+Form+4+Feqah" },
+                    { name: "Bidang Sirah & Akhlak Islamiyah", query: "KSSM+Pendidikan+Islam+Form+4+Sirah" }
+                ],
+                5: [
+                    { name: "Bidang Al-Quran & Hadis SPM", query: "KSSM+Pendidikan+Islam+Form+5+Quran+Hadis" },
+                    { name: "Bidang Akidah & Feqah Lanjutan", query: "KSSM+Pendidikan+Islam+Form+5+Feqah" },
+                    { name: "Bidang Sirah & Tokoh Islam", query: "KSSM+Pendidikan+Islam+Form+5+Sirah" },
+                    { name: "Bidang Akhlak Islamiah", query: "KSSM+Pendidikan+Islam+Form+5+Akhlak" }
+                ]
+            },
+            "Pendidikan Moral": {
+                4: [
+                    { name: "Unit 1-4: Sumber Moral & Diri", query: "KSSM+Pendidikan+Moral+Form+4+Unit+1" },
+                    { name: "Unit 5-9: Diri, Keluarga & Masyarakat", query: "KSSM+Pendidikan+Moral+Form+4+Keluarga" },
+                    { name: "Unit 10-14: Moral & Alam Sekitar", query: "KSSM+Pendidikan+Moral+Form+4+Alam" }
+                ],
+                5: [
+                    { name: "Unit 1-5: Nilai Universal & Hak Asasi", query: "KSSM+Pendidikan+Moral+Form+5+Unit+1" },
+                    { name: "Unit 6-10: Integriti & Kedaulatan Negara", query: "KSSM+Pendidikan+Moral+Form+5+Integriti" },
+                    { name: "Teknik Menjawab Soalan Esei Moral SPM", query: "KSSM+Pendidikan+Moral+SPM+Technique" }
+                ]
+            },
+            "Prinsip Perakaunan": {
+                4: [
+                    { name: "Bab 1: Pengenalan kepada Perakaunan", query: "KSSM+Perakaunan+Form+4+Bab+1" },
+                    { name: "Bab 2: Klasifikasi Akaun", query: "KSSM+Perakaunan+Form+4+Bab+2" },
+                    { name: "Bab 3: Dokumen Perniagaan", query: "KSSM+Perakaunan+Form+4+Bab+3" },
+                    { name: "Bab 4: Buku Catatan Pertama", query: "KSSM+Perakaunan+Form+4+Bab+4" },
+                    { name: "Bab 5: Lejar", query: "KSSM+Perakaunan+Form+4+Bab+5" }
+                ],
+                5: [
+                    { name: "Bab 1: Analisis Nisbah Kewangan", query: "KSSM+Perakaunan+Form+5+Bab+1" },
+                    { name: "Bab 2: Perakaunan Kos", query: "KSSM+Perakaunan+Form+5+Bab+2" },
+                    { name: "Bab 3: Penyata Kewangan Milikan Tunggal", query: "KSSM+Perakaunan+Form+5+Penyata" },
+                    { name: "Bab 4: Perkongsian dan Syarikat Berhad", query: "KSSM+Perakaunan+Form+5+Syarikat" }
+                ]
+            },
+            "Perniagaan": {
+                4: [
+                    { name: "Bab 1: Tujuan Perniagaan", query: "KSSM+Perniagaan+Form+4+Bab+1" },
+                    { name: "Bab 2: Trend Semasa Perniagaan", query: "KSSM+Perniagaan+Form+4+Bab+2" },
+                    { name: "Bab 3: Penubuhan Perniagaan", query: "KSSM+Perniagaan+Form+4+Bab+3" },
+                    { name: "Bab 4: Komunikasi Perniagaan", query: "KSSM+Perniagaan+Form+4+Bab+4" }
+                ],
+                5: [
+                    { name: "Bab 1: Pengurusan Sumber Manusia", query: "KSSM+Perniagaan+Form+5+Bab+1" },
+                    { name: "Bab 2: Pengeluaran dan Pemasaran", query: "KSSM+Perniagaan+Form+5+Bab+2" },
+                    { name: "Bab 3: Kewangan dan Pembiayaan", query: "KSSM+Perniagaan+Form+5+Bab+3" }
+                ]
+            },
+            "PJK": {
+                4: [
+                    { name: "Modul 1: Kecergasan Fizikal", query: "KSSM+PJK+Form+4+Kecergasan" },
+                    { name: "Modul 2: Kemahiran Sukan dan Permainan", query: "KSSM+PJK+Form+4+Sukan" }
+                ],
+                5: [
+                    { name: "Modul 1: Kesihatan Diri dan Keluarga", query: "KSSM+PJK+Form+5+Kesihatan" },
+                    { name: "Modul 2: Kesukanan dan Keselamatan", query: "KSSM+PJK+Form+5+Keselamatan" }
                 ]
             }
         };
@@ -348,7 +585,6 @@
 
         function selectSubject(subject) {
             currentSubject = subject;
-            
             chatHistory = [];
             const chatMessages = document.getElementById('chatMessages');
             chatMessages.innerHTML = `
@@ -359,7 +595,6 @@
 
             document.getElementById('currentSubjectDisplay').innerText = subject;
             document.getElementById('modalSubject').innerText = subject;
-            document.getElementById('ytModalSubject').innerText = subject;
             
             document.getElementById('form4TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+${encodeURIComponent(subject)}+PDF`;
             document.getElementById('form5TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+${encodeURIComponent(subject)}+PDF`;
@@ -379,41 +614,42 @@
             let buttons = document.querySelectorAll('.subject-btn');
             buttons.forEach(btn => {
                 let text = btn.innerText.toLowerCase();
-                if(text.includes(query)) {
-                    btn.style.display = 'flex';
-                } else {
-                    btn.style.display = 'none';
-                }
+                btn.style.display = text.includes(query) ? 'flex' : 'none';
             });
         }
 
+        /* YOUTUBE HUB FUNCTIONS */
         function openYoutubeModal() {
             document.getElementById('youtubeModal').style.display = 'flex';
-            renderYoutubeChapters(currentYtForm);
+            if(ytChapterData[currentSubject]) {
+                currentYtSubject = currentSubject;
+                document.getElementById('ytSubjectSelect').value = currentSubject;
+            }
+            renderYoutubeChapters();
         }
 
         function closeYoutubeModal() {
             document.getElementById('youtubeModal').style.display = 'none';
         }
 
+        function changeYtSubject() {
+            currentYtSubject = document.getElementById('ytSubjectSelect').value;
+            renderYoutubeChapters();
+        }
+
         function switchYtForm(formNum) {
             currentYtForm = formNum;
             document.getElementById('ytF4TabBtn').classList.toggle('active', formNum === 4);
             document.getElementById('ytF5TabBtn').classList.toggle('active', formNum === 5);
-            renderYoutubeChapters(formNum);
+            renderYoutubeChapters();
         }
 
-        function renderYoutubeChapters(formNum) {
+        function renderYoutubeChapters() {
             const container = document.getElementById('ytChapterContainer');
             container.innerHTML = '';
             
-            // Fallback default chapters if specific subject isn't fully mapped yet
-            let chapters = ytChapterData[currentSubject]?.[formNum] || [
-                { name: `Form ${formNum} Chapter 1 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+1` },
-                { name: `Form ${formNum} Chapter 2 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+2` },
-                { name: `Form ${formNum} Chapter 3 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+3` },
-                { name: `Form ${formNum} Chapter 4 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+4` },
-                { name: `Form ${formNum} Chapter 5 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+5` }
+            let chapters = ytChapterData[currentYtSubject]?.[currentYtForm] || [
+                { name: `Form ${currentYtForm} Overview & Study Guide (${currentYtSubject})`, query: `KSSM+${encodeURIComponent(currentYtSubject)}+Form+${currentYtForm}+SPM` }
             ];
 
             chapters.forEach(ch => {
@@ -421,7 +657,7 @@
                 a.className = 'yt-chapter-link';
                 a.href = `https://www.youtube.com/results?search_query=${ch.query}`;
                 a.target = '_blank';
-                a.innerHTML = `<span>▶️ ${ch.name}</span> <span>Watch ↗</span>`;
+                a.innerHTML = `<span>▶️ ${ch.name}</span> <span style="font-size: 11px; background: rgba(239, 68, 68, 0.2); color: #fca5a5; padding: 3px 8px; border-radius: 4px;">Watch ↗</span>`;
                 container.appendChild(a);
             });
         }
@@ -449,9 +685,7 @@
         }
 
         function handleKeyPress(e) {
-            if (e.key === 'Enter') {
-                sendMessage();
-            }
+            if (e.key === 'Enter') sendMessage();
         }
 
         function handleImageUpload(e) {
@@ -480,7 +714,6 @@
 
             const chatMessages = document.getElementById('chatMessages');
             
-            // Append user message
             let userMsgDiv = document.createElement('div');
             userMsgDiv.className = 'message user';
             userMsgDiv.innerText = messageText;
@@ -490,11 +723,10 @@
             clearImage();
             chatMessages.scrollTop = chatMessages.scrollHeight;
 
-            // Placeholder response for demonstration
             setTimeout(() => {
                 let botMsgDiv = document.createElement('div');
                 botMsgDiv.className = 'message assistant';
-                botMsgDiv.innerHTML = `Here is the explanation for your ${currentSubject} query. (AI backend connected successfully!)`;
+                botMsgDiv.innerHTML = `Here is the explanation for your ${currentSubject} query.`;
                 chatMessages.appendChild(botMsgDiv);
                 chatMessages.scrollTop = chatMessages.scrollHeight;
             }, 500);
