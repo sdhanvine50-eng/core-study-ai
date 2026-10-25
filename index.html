@@ -6,11 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Core Study AI v3.0 - Upper Secondary SPM</title>
-    <!-- Marked.js for Markdown -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <!-- KaTeX for clean math rendering -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
     <style>
         :root {
             --bg-dark: #0b0f19;
@@ -21,711 +17,101 @@
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
             --border-color: #1e293b;
-            --border-hover: #334155;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         body { background-color: var(--bg-dark); color: var(--text-main); display: flex; height: 100vh; overflow: hidden; }
-        
         sidebar { width: 320px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 20px; overflow-y: auto; }
         .logo-area { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
         .logo-icon { font-size: 26px; background: rgba(99, 102, 241, 0.1); padding: 8px; border-radius: 10px; }
-        .logo-title { font-size: 18px; font-weight: bold; display: flex; align-items: center; gap: 6px; }
+        .logo-title { font-size: 18px; font-weight: bold; }
         .logo-subtitle { font-size: 12px; color: var(--text-muted); }
-        
-        .new-chat-btn { background: linear-gradient(135deg, #6366f1, #a855f7); color: white; border: none; padding: 12px; border-radius: 10px; font-weight: bold; cursor: pointer; margin-bottom: 20px; transition: all 0.2s; box-shadow: 0 4px 12px var(--accent-glow); display: flex; align-items: center; justify-content: center; gap: 8px; }
-        .new-chat-btn:hover { opacity: 0.95; transform: translateY(-1px); }
-
+        .new-chat-btn { background: linear-gradient(135deg, #6366f1, #a855f7); color: white; border: none; padding: 12px; border-radius: 10px; font-weight: bold; cursor: pointer; margin-bottom: 20px; }
         .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 1.2px; margin-bottom: 10px; font-weight: bold; text-transform: uppercase; }
-        
-        .level-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 20px; }
-        .level-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); text-align: left; padding: 12px 14px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: bold; display: flex; justify-content: space-between; align-items: center; }
-        .level-btn.active { background: rgba(99, 102, 241, 0.15); border-color: var(--accent); box-shadow: 0 0 10px var(--accent-glow); }
-
-        .search-box { position: relative; margin-bottom: 15px; }
-        .search-input { width: 100%; background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 12px 10px 35px; border-radius: 8px; font-size: 13px; outline: none; transition: border-color 0.2s; }
-        .search-input:focus { border-color: var(--accent); }
-        .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; color: var(--text-muted); }
-
         .subject-list { display: flex; flex-direction: column; gap: 6px; }
-        .subject-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-muted); text-align: left; padding: 11px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
-        .subject-btn:hover { background-color: rgba(255,255,255,0.03); border-color: var(--border-hover); color: var(--text-main); }
+        .subject-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-muted); text-align: left; padding: 11px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; }
         .subject-btn.active { background-color: rgba(99, 102, 241, 0.15); border-color: var(--accent); color: var(--text-main); font-weight: bold; }
-        .arrow-icon { color: var(--text-muted); font-size: 12px; }
-
-        /* Main Chat Area */
-        .main-container { flex: 1; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-dark); }
+        .main-container { flex: 1; display: flex; flex-direction: column; height: 100vh; background-color: var(--bg-dark); }
         .top-bar { padding: 15px 25px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--panel-bg); }
-        .breadcrumb { font-size: 14px; color: var(--text-muted); }
-        .breadcrumb span { color: var(--text-main); font-weight: bold; }
-
-        /* TOOLBAR */
-        .toolbar { background-color: rgba(15, 23, 42, 0.6); padding: 10px 25px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 13px; flex-wrap: wrap; gap: 10px; }
-        .toolbar-group { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-        .toolbar-label { color: var(--text-muted); font-weight: 600; display: flex; align-items: center; gap: 6px; }
-        
-        .textbook-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid #4f46e5; color: #c7d2fe; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
-        .textbook-btn:hover { background: #4f46e5; color: white; transform: translateY(-1px); }
-
-        .trial-btn { background: rgba(168, 85, 247, 0.15); border: 1px solid #a855f7; color: #e9d5ff; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
-        .trial-btn:hover { background: #a855f7; color: white; transform: translateY(-1px); }
-
-        .youtube-btn { background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #fca5a5; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
-        .youtube-btn:hover { background: #ef4444; color: white; transform: translateY(-1px); }
-
-        .lang-switch { display: flex; background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 6px; overflow: hidden; padding: 2px; }
-        .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
-        .lang-btn.active { background: var(--accent); color: white; }
-
         .chat-messages { flex: 1; padding: 25px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
         .message { max-width: 85%; padding: 16px; border-radius: 12px; line-height: 1.6; font-size: 15px; word-break: break-word; }
         .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
         .message.user { background-color: var(--accent); color: white; align-self: flex-end; }
-
-        .input-container { padding: 20px 25px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 10px; }
-        .input-row { display: flex; width: 100%; gap: 10px; align-items: center; }
+        .input-container { padding: 20px 25px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; gap: 10px; }
         .chat-input { flex: 1; background-color: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 12px 15px; border-radius: 8px; font-size: 14px; outline: none; }
-        .chat-input:focus { border-color: var(--accent); }
-        
-        .camera-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid var(--border-color); color: var(--text-main); width: 45px; height: 45px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 18px; transition: all 0.2s; }
-        .camera-btn:hover { background: rgba(99, 102, 241, 0.2); border-color: var(--accent); }
-        .uploaded-preview-container { display: none; width: 100%; align-items: center; gap: 10px; }
-        .uploaded-preview { max-width: 150px; max-height: 80px; border-radius: 8px; border: 1px solid var(--border-color); }
-
-        .send-btn { background-color: var(--accent); color: white; border: none; width: 45px; height: 45px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 16px; transition: opacity 0.2s; }
-        .send-btn:hover { opacity: 0.9; }
-
-        .status-badge { background-color: rgba(34, 197, 94, 0.15); color: #22c55e; border: 1px solid rgba(34, 197, 94, 0.3); padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; }
-
-        /* MODALS */
-        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); z-index: 1000; justify-content: center; align-items: center; }
-        .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 92%; height: 90%; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
-        .modal-header { padding: 15px 20px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; }
-        .modal-title { font-size: 16px; font-weight: bold; color: #c084fc; display: flex; align-items: center; gap: 8px; }
-        .close-modal-btn { background: rgba(239, 68, 68, 0.2); border: 1px solid #ef4444; color: #fca5a5; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-weight: bold; }
-        .close-modal-btn:hover { background: #ef4444; color: white; }
-        .modal-body { flex: 1; display: flex; padding: 15px; gap: 15px; overflow: hidden; }
-        .state-selector-panel { width: 340px; background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 8px; padding: 15px; display: flex; flex-direction: column; gap: 8px; overflow-y: auto; }
-        .state-item { background: var(--panel-bg); border: 1px solid var(--border-color); padding: 10px 14px; border-radius: 6px; cursor: pointer; transition: all 0.2s; display: flex; justify-content: space-between; align-items: center; }
-        .state-item:hover { border-color: #a855f7; background: rgba(168, 85, 247, 0.1); color: #e9d5ff; }
-        .state-item-name { font-size: 13px; font-weight: bold; color: var(--text-main); }
-        .state-item-tag { font-size: 11px; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px; }
-        .modal-content-area { flex: 1; display: flex; flex-direction: column; gap: 10px; }
-        .f4-shortcut-bar { display: flex; gap: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-        .pdf-viewer-frame { flex: 1; border: 1px solid var(--border-color); border-radius: 8px; background: #fff; }
-
-        /* YOUTUBE HUB CUSTOM STYLES */
-        .yt-modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 680px; max-width: 95%; height: 560px; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
-        .yt-select-row { display: flex; gap: 10px; margin-bottom: 15px; }
-        .yt-subject-dropdown { flex: 2; background: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 8px 12px; border-radius: 6px; font-weight: bold; outline: none; cursor: pointer; }
-        .yt-tabs { display: flex; flex: 1; gap: 6px; }
-        .yt-tab-btn { flex: 1; padding: 8px; background: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-muted); border-radius: 6px; font-weight: bold; cursor: pointer; transition: all 0.2s; font-size: 12px; }
-        .yt-tab-btn.active { background: #ef4444; color: white; border-color: #ef4444; }
-        .yt-chapter-grid { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; padding-right: 5px; }
-        .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 11px 15px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
-        .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; transform: translateX(2px); }
+        .send-btn { background-color: var(--accent); color: white; border: none; width: 45px; height: 45px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 16px; }
     </style>
 </head>
 <body>
-
     <sidebar>
         <div class="logo-area">
             <div class="logo-icon">🧠</div>
             <div>
-                <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--accent); padding: 2px 5px; border-radius: 4px; color: white;">v3.0</span></div>
+                <div class="logo-title">Core Study AI v3.0</div>
                 <div class="logo-subtitle">Smart Student Assistant</div>
             </div>
         </div>
-
         <button class="new-chat-btn" onclick="startNewChat()">✨ New Chat Session</button>
-
-        <div class="section-title">1. SELECT STUDENT LEVEL</div>
-        <div class="level-list">
-            <button class="level-btn active">
-                <span>🎓 Form 4–5 / SPM</span> <span class="arrow-icon">➔</span>
-            </button>
-        </div>
-
-        <div class="search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" class="search-input" id="searchSubject" placeholder="Search subject..." onkeyup="filterSubjects()">
-        </div>
-
-        <div class="section-title">2. SELECT SUBJECT</div>
+        <div class="section-title">SELECT SUBJECT</div>
         <div class="subject-list" id="subjectList">
-            <button class="subject-btn active" data-subject="Biologi" onclick="selectSubject('Biologi')"><span>🧬 Biologi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Kimia" onclick="selectSubject('Kimia')"><span>🧪 Kimia</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Fizik" onclick="selectSubject('Fizik')"><span>⚡ Fizik</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Matematik Tambahan" onclick="selectSubject('Matematik Tambahan')"><span>📐 Matematik Tambahan</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Matematik" onclick="selectSubject('Matematik')"><span>🔢 Matematik</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Sains" onclick="selectSubject('Sains')"><span>🔬 Sains</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Bahasa Melayu" onclick="selectSubject('Bahasa Melayu')"><span>📝 Bahasa Melayu</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Bahasa Inggeris" onclick="selectSubject('Bahasa Inggeris')"><span>🌐 Bahasa Inggeris</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Sejarah" onclick="selectSubject('Sejarah')"><span>📜 Sejarah</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Geografi" onclick="selectSubject('Geografi')"><span>🌍 Geografi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Pendidikan Islam" onclick="selectSubject('Pendidikan Islam')"><span>🕌 Pendidikan Islam</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Pendidikan Moral" onclick="selectSubject('Pendidikan Moral')"><span>⚖️ Pendidikan Moral</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Prinsip Perakaunan" onclick="selectSubject('Prinsip Perakaunan')"><span>📊 Prinsip Perakaunan</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Perniagaan" onclick="selectSubject('Perniagaan')"><span>💼 Perniagaan</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="PJK" onclick="selectSubject('PJK')"><span>🏃 PJK</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="ASK" onclick="selectSubject('ASK')"><span>💻 ASK</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Ekonomi" onclick="selectSubject('Ekonomi')"><span>📈 Ekonomi</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn active" data-subject="Biologi" onclick="selectSubject('Biologi')"><span>🧬 Biologi</span></button>
+            <button class="subject-btn" data-subject="Kimia" onclick="selectSubject('Kimia')"><span>🧪 Kimia</span></button>
+            <button class="subject-btn" data-subject="Fizik" onclick="selectSubject('Fizik')"><span>⚡ Fizik</span></button>
+            <button class="subject-btn" data-subject="Matematik Tambahan" onclick="selectSubject('Matematik Tambahan')"><span>📐 Matematik Tambahan</span></button>
+            <button class="subject-btn" data-subject="Sejarah" onclick="selectSubject('Sejarah')"><span>📜 Sejarah</span></button>
         </div>
     </sidebar>
 
     <div class="main-container">
         <div class="top-bar">
             <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
-            <div class="status-badge">🟢 Python Connected</div>
-        </div>
-
-        <div class="toolbar">
-            <div class="toolbar-group">
-                <span class="toolbar-label">📚 Textbooks:</span>
-                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="textbook-btn">Form 4 ↗</a>
-                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="textbook-btn">Form 5 ↗</a>
-            </div>
-            <div class="toolbar-group">
-                <span class="toolbar-label">📝 Papers & Modules:</span>
-                <button class="trial-btn" onclick="openStateModal()">🏛️ State Vault & Form 4 Modules</button>
-                <button class="youtube-btn" onclick="openYoutubeModal()">▶️ KSSM YouTube Hub</button>
-            </div>
-            <div class="toolbar-group">
-                <span class="toolbar-label">🌐 Output Language:</span>
-                <div class="lang-switch">
-                    <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">English</button>
-                    <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">Bahasa Melayu</button>
-                </div>
-            </div>
+            <div style="color: #22c55e; font-size: 12px; font-weight: bold;">🟢 Python Connected</div>
         </div>
 
         <div class="chat-messages" id="chatMessages">
-            <div class="message assistant" id="welcomeMessage">
-                Ready for <span id="welcomeSubject">Biologi</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
+            <div class="message assistant">
+                Ready for <span id="welcomeSubject">Biologi</span>! Ask a question or request notes.
             </div>
         </div>
 
         <div class="input-container">
-            <div class="uploaded-preview-container" id="previewContainer">
-                <img class="uploaded-preview" id="previewImg" src="" alt="Preview">
-                <button onclick="clearImage()" style="background:none; border:none; color:#ef4444; font-weight:bold; cursor:pointer;">✕ Remove</button>
-            </div>
-            <div class="input-row">
-                <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
-                <button class="camera-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">📷</button>
-                <input type="text" class="chat-input" id="userInput" placeholder="Ask any question, essay prompt, or upload a question photo..." onkeypress="handleKeyPress(event)">
-                <button class="send-btn" onclick="sendMessage()">➔</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- STATE TRIAL & FORM 4 MODULES MODAL -->
-    <div class="modal-overlay" id="stateModal">
-        <div class="modal-container">
-            <div class="modal-header">
-                <div class="modal-title">🏛️ State Trial Papers & Form 4 Modules (<span id="modalSubject">Biologi</span>)</div>
-                <button class="close-modal-btn" onclick="closeStateModal()">✕ Close</button>
-            </div>
-            <div class="modal-body">
-                <div class="state-selector-panel">
-                    <div style="font-size: 11px; color: var(--text-muted); font-weight: bold; margin-bottom: 5px;">SPM STATE PAPERS:</div>
-                    <div class="state-item" onclick="loadStateSearch('SBP')"><div><div class="state-item-name">🏫 SBP</div><div class="state-item-tag">Sekolah Berasrama Penuh</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('MRSM')"><div><div class="state-item-name">🎓 MRSM</div><div class="state-item-tag">Maktab Rendah Sains MARA</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Selangor')"><div><div class="state-item-name">📌 Selangor</div><div class="state-item-tag">JPNSelangor</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kuala Lumpur')"><div><div class="state-item-name">🏙️ Kuala Lumpur</div><div class="state-item-tag">JPWPKL</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Johor')"><div><div class="state-item-name">📌 Johor</div><div class="state-item-tag">JPNJohor</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Pulau Pinang')"><div><div class="state-item-name">📌 Pulau Pinang</div><div class="state-item-tag">JPNPenang</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Perak')"><div><div class="state-item-name">📌 Perak</div><div class="state-item-tag">JPNPerak</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Pahang')"><div><div class="state-item-name">📌 Pahang</div><div class="state-item-tag">JPNPahang</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kedah')"><div><div class="state-item-name">📌 Kedah</div><div class="state-item-tag">JPNKedah</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kelantan')"><div><div class="state-item-name">📌 Kelantan</div><div class="state-item-tag">JPNKelantan</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Terengganu')"><div><div class="state-item-name">📌 Terengganu</div><div class="state-item-tag">JPNTerengganu</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Negeri Sembilan')"><div><div class="state-item-name">📌 Negeri Sembilan</div><div class="state-item-tag">JPNS</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Melaka')"><div><div class="state-item-name">📌 Melaka</div><div class="state-item-tag">JPNMelaka</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Sabah')"><div><div class="state-item-name">📌 Sabah</div><div class="state-item-tag">JPNSabah</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Sarawak')"><div><div class="state-item-name">📌 Sarawak</div><div class="state-item-tag">JPNSarawak</div></div><span>➔</span></div>
-                </div>
-                
-                <div class="modal-content-area">
-                    <div class="f4-shortcut-bar">
-                        <span style="font-size: 12px; color: var(--text-muted); font-weight: bold; align-self: center;">FORM 4 VAULT:</span>
-                        <button class="textbook-btn" onclick="loadForm4PaperSearch('Topical')">📚 F4 Chapter-by-Chapter Modules</button>
-                        <button class="textbook-btn" onclick="loadForm4PaperSearch('PPT')">📝 F4 Mid-Year Exam (PPT)</button>
-                        <button class="textbook-btn" onclick="loadForm4PaperSearch('PAT')">📄 F4 Final Year Exam (PAT)</button>
-                    </div>
-                    <iframe class="pdf-viewer-frame" id="statePdfFrame" src="about:blank"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- KSSM YOUTUBE HUB MODAL -->
-    <div class="modal-overlay" id="youtubeModal">
-        <div class="yt-modal-container">
-            <div class="modal-header">
-                <div class="modal-title" style="color: #ef4444;">▶️ KSSM YouTube Video Hub</div>
-                <button class="close-modal-btn" onclick="closeYoutubeModal()">✕ Close</button>
-            </div>
-            <div style="padding: 20px; display: flex; flex-direction: column; flex: 1; overflow: hidden;">
-                <div class="yt-select-row">
-                    <select class="yt-subject-dropdown" id="ytSubjectSelect" onchange="changeYtSubject()">
-                        <option value="Biologi">🧬 Biologi</option>
-                        <option value="Kimia">🧪 Kimia</option>
-                        <option value="Fizik">⚡ Fizik</option>
-                        <option value="Matematik">🔢 Matematik</option>
-                        <option value="Matematik Tambahan">📐 Matematik Tambahan</option>
-                        <option value="Sains">🔬 Sains</option>
-                        <option value="Sejarah">📜 Sejarah</option>
-                        <option value="Bahasa Melayu">📝 Bahasa Melayu</option>
-                        <option value="Bahasa Inggeris">🌐 Bahasa Inggeris</option>
-                        <option value="Geografi">🌍 Geografi</option>
-                        <option value="Pendidikan Islam">🕌 Pendidikan Islam</option>
-                        <option value="Pendidikan Moral">⚖️ Pendidikan Moral</option>
-                        <option value="Prinsip Perakaunan">📊 Prinsip Perakaunan</option>
-                        <option value="Perniagaan">💼 Perniagaan</option>
-                        <option value="PJK">🏃 PJK</option>
-                    </select>
-                    <div class="yt-tabs">
-                        <button class="yt-tab-btn active" id="ytF4TabBtn" onclick="switchYtForm(4)">Form 4</button>
-                        <button class="yt-tab-btn" id="ytF5TabBtn" onclick="switchYtForm(5)">Form 5</button>
-                    </div>
-                </div>
-                <div class="yt-chapter-grid" id="ytChapterContainer"></div>
-            </div>
+            <input type="text" class="chat-input" id="userInput" placeholder="Ask any question..." onkeypress="handleKeyPress(event)">
+            <button class="send-btn" onclick="sendMessage()">➔</button>
         </div>
     </div>
 
     <script>
         let currentSubject = "Biologi";
-        let currentLevel = "Form 4-5 / SPM";
         let currentLanguage = "English";
-        let uploadedImageBase64 = null;
-        let chatHistory = [];
-        let currentYtSubject = "Biologi";
-        let currentYtForm = 4;
-
-        // MASTER YOUTUBE CHAPTER DATABASE FOR ALL SUBJECTS
-        const ytChapterData = {
-            "Biologi": {
-                4: [
-                    { name: "Ch 1: Introduction to Biology and Laboratory Rules", query: "KSSM+Biologi+Form+4+Chapter+1" },
-                    { name: "Ch 2: Cell Biology and Organisation", query: "KSSM+Biologi+Form+4+Chapter+2" },
-                    { name: "Ch 3: Movement of Substances Across Plasma Membrane", query: "KSSM+Biologi+Form+4+Chapter+3" },
-                    { name: "Ch 4: Chemical Composition of a Cell", query: "KSSM+Biologi+Form+4+Chapter+4" },
-                    { name: "Ch 5: Metabolism and Enzymes", query: "KSSM+Biologi+Form+4+Chapter+5" },
-                    { name: "Ch 6: Cell Division", query: "KSSM+Biologi+Form+4+Chapter+6" },
-                    { name: "Ch 7: Cellular Respiration", query: "KSSM+Biologi+Form+4+Chapter+7" },
-                    { name: "Ch 8: Respiratory Systems in Humans and Animals", query: "KSSM+Biologi+Form+4+Chapter+8" },
-                    { name: "Ch 9: Nutrition and Human Digestive System", query: "KSSM+Biologi+Form+4+Chapter+9" },
-                    { name: "Ch 10: Transport in Humans and Animals", query: "KSSM+Biologi+Form+4+Chapter+10" },
-                    { name: "Ch 11: Immunity in Humans", query: "KSSM+Biologi+Form+4+Chapter+11" },
-                    { name: "Ch 12: Coordination and Response in Humans", query: "KSSM+Biologi+Form+4+Chapter+12" },
-                    { name: "Ch 13: Homeostasis and Human Urinary System", query: "KSSM+Biologi+Form+4+Chapter+13" },
-                    { name: "Ch 14: Support and Movement in Humans and Animals", query: "KSSM+Biologi+Form+4+Chapter+14" },
-                    { name: "Ch 15: Sexual Reproduction, Development and Growth", query: "KSSM+Biologi+Form+4+Chapter+15" }
-                ],
-                5: [
-                    { name: "Ch 1: Organisation of Plant Tissues and Growth", query: "KSSM+Biologi+Form+5+Chapter+1" },
-                    { name: "Ch 2: Leaf Structure and Function", query: "KSSM+Biologi+Form+5+Chapter+2" },
-                    { name: "Ch 3: Nutrition in Plants", query: "KSSM+Biologi+Form+5+Chapter+3" },
-                    { name: "Ch 4: Transport in Plants", query: "KSSM+Biologi+Form+5+Chapter+4" },
-                    { name: "Ch 5: Response in Plants", query: "KSSM+Biologi+Form+5+Chapter+5" },
-                    { name: "Ch 6: Sexual Reproduction in Flowering Plants", query: "KSSM+Biologi+Form+5+Chapter+6" },
-                    { name: "Ch 7: Adaptations of Plants in Different Habitats", query: "KSSM+Biologi+Form+5+Chapter+7" },
-                    { name: "Ch 8: Biodiversity", query: "KSSM+Biologi+Form+5+Chapter+8" },
-                    { name: "Ch 9: Ecosystem", query: "KSSM+Biologi+Form+5+Chapter+9" },
-                    { name: "Ch 10: Environmental Sustainability", query: "KSSM+Biologi+Form+5+Chapter+10" },
-                    { name: "Ch 11: Inheritance", query: "KSSM+Biologi+Form+5+Chapter+11" },
-                    { name: "Ch 12: Variation", query: "KSSM+Biologi+Form+5+Chapter+12" },
-                    { name: "Ch 13: Genetic Technology", query: "KSSM+Biologi+Form+5+Chapter+13" }
-                ]
-            },
-            "Kimia": {
-                4: [
-                    { name: "Ch 1: Introduction to Chemistry", query: "KSSM+Kimia+Form+4+Chapter+1" },
-                    { name: "Ch 2: The Structure of Atom", query: "KSSM+Kimia+Form+4+Chapter+2" },
-                    { name: "Ch 3: Chemical Formulae and Equations", query: "KSSM+Kimia+Form+4+Chapter+3" },
-                    { name: "Ch 4: Periodic Table of Elements", query: "KSSM+Kimia+Form+4+Chapter+4" },
-                    { name: "Ch 5: Chemical Bond", query: "KSSM+Kimia+Form+4+Chapter+5" },
-                    { name: "Ch 6: Acids, Bases and Salts", query: "KSSM+Kimia+Form+4+Chapter+6" },
-                    { name: "Ch 7: Rate of Reaction", query: "KSSM+Kimia+Form+4+Chapter+7" },
-                    { name: "Ch 8: Manufactured Substances in Industry", query: "KSSM+Kimia+Form+4+Chapter+8" }
-                ],
-                5: [
-                    { name: "Ch 1: Redox Equilibrium", query: "KSSM+Kimia+Form+5+Chapter+1" },
-                    { name: "Ch 2: Carbon Compound", query: "KSSM+Kimia+Form+5+Chapter+2" },
-                    { name: "Ch 3: Thermochemistry", query: "KSSM+Kimia+Form+5+Chapter+3" },
-                    { name: "Ch 4: Polymer Chemistry", query: "KSSM+Kimia+Form+5+Chapter+4" },
-                    { name: "Ch 5: Consumer and Industrial Chemistry", query: "KSSM+Kimia+Form+5+Chapter+5" }
-                ]
-            },
-            "Fizik": {
-                4: [
-                    { name: "Ch 1: Measurement", query: "KSSM+Fizik+Form+4+Chapter+1" },
-                    { name: "Ch 2: Force and Motion I", query: "KSSM+Fizik+Form+4+Chapter+2" },
-                    { name: "Ch 3: Gravitation", query: "KSSM+Fizik+Form+4+Chapter+3" },
-                    { name: "Ch 4: Heat", query: "KSSM+Fizik+Form+4+Chapter+4" },
-                    { name: "Ch 5: Waves", query: "KSSM+Fizik+Form+4+Chapter+5" },
-                    { name: "Ch 6: Light and Optics", query: "KSSM+Fizik+Form+4+Chapter+6" }
-                ],
-                5: [
-                    { name: "Ch 1: Force and Pressure", query: "KSSM+Fizik+Form+5+Chapter+1" },
-                    { name: "Ch 2: Electromagnetism", query: "KSSM+Fizik+Form+5+Chapter+2" },
-                    { name: "Ch 3: Electronics", query: "KSSM+Fizik+Form+5+Chapter+3" },
-                    { name: "Ch 4: Nuclear Physics", query: "KSSM+Fizik+Form+5+Chapter+4" },
-                    { name: "Ch 5: Quantum Physics", query: "KSSM+Fizik+Form+5+Chapter+5" }
-                ]
-            },
-            "Matematik": {
-                4: [
-                    { name: "Ch 1: Quadratic Functions and Equations", query: "KSSM+Matematik+Form+4+Chapter+1" },
-                    { name: "Ch 2: Number Bases", query: "KSSM+Matematik+Form+4+Chapter+2" },
-                    { name: "Ch 3: Logical Reasoning", query: "KSSM+Matematik+Form+4+Chapter+3" },
-                    { name: "Ch 4: Operations on Sets", query: "KSSM+Matematik+Form+4+Chapter+4" },
-                    { name: "Ch 5: Network in Graph Theory", query: "KSSM+Matematik+Form+4+Chapter+5" },
-                    { name: "Ch 6: Linear Inequalities in Two Variables", query: "KSSM+Matematik+Form+4+Chapter+6" },
-                    { name: "Ch 7: Graphs of Motion", query: "KSSM+Matematik+Form+4+Chapter+7" },
-                    { name: "Ch 8: Measures of Dispersion for Ungrouped Data", query: "KSSM+Matematik+Form+4+Chapter+8" },
-                    { name: "Ch 9: Probability of Combined Events", query: "KSSM+Matematik+Form+4+Chapter+9" },
-                    { name: "Ch 10: Consumer Mathematics: Financial Management", query: "KSSM+Matematik+Form+4+Chapter+10" }
-                ],
-                5: [
-                    { name: "Ch 1: Variation", query: "KSSM+Matematik+Form+5+Chapter+1" },
-                    { name: "Ch 2: Matrices", query: "KSSM+Matematik+Form+5+Chapter+2" },
-                    { name: "Ch 3: Consumer Mathematics: Insurance", query: "KSSM+Matematik+Form+5+Chapter+3" },
-                    { name: "Ch 4: Consumer Mathematics: Taxation", query: "KSSM+Matematik+Form+5+Chapter+4" },
-                    { name: "Ch 5: Congruence, Enlargement and Combination", query: "KSSM+Matematik+Form+5+Chapter+5" },
-                    { name: "Ch 6: Ratios and Graphs of Trigonometric Functions", query: "KSSM+Matematik+Form+5+Chapter+6" },
-                    { name: "Ch 7: Plans and Elevations", query: "KSSM+Matematik+Form+5+Chapter+7" },
-                    { name: "Ch 8: Loci in Two Dimensions", query: "KSSM+Matematik+Form+5+Chapter+8" }
-                ]
-            },
-            "Matematik Tambahan": {
-                4: [
-                    { name: "Ch 1: Functions", query: "KSSM+Add+Maths+Form+4+Chapter+1" },
-                    { name: "Ch 2: Quadratic Equations", query: "KSSM+Add+Maths+Form+4+Chapter+2" },
-                    { name: "Ch 3: Systems of Equations", query: "KSSM+Add+Maths+Form+4+Chapter+3" },
-                    { name: "Ch 4: Indices, Surds and Logarithms", query: "KSSM+Add+Maths+Form+4+Chapter+4" },
-                    { name: "Ch 5: Progressions", query: "KSSM+Add+Maths+Form+4+Chapter+5" },
-                    { name: "Ch 6: Linear Law", query: "KSSM+Add+Maths+Form+4+Chapter+6" },
-                    { name: "Ch 7: Coordinate Geometry", query: "KSSM+Add+Maths+Form+4+Chapter+7" },
-                    { name: "Ch 8: Vectors", query: "KSSM+Add+Maths+Form+4+Chapter+8" },
-                    { name: "Ch 9: Solution of Triangles", query: "KSSM+Add+Maths+Form+4+Chapter+9" },
-                    { name: "Ch 10: Index Numbers", query: "KSSM+Add+Maths+Form+4+Chapter+10" }
-                ],
-                5: [
-                    { name: "Ch 1: Circular Measure", query: "KSSM+Add+Maths+Form+5+Chapter+1" },
-                    { name: "Ch 2: Differentiation", query: "KSSM+Add+Maths+Form+5+Chapter+2" },
-                    { name: "Ch 3: Integration", query: "KSSM+Add+Maths+Form+5+Chapter+3" },
-                    { name: "Ch 4: Permutation and Combination", query: "KSSM+Add+Maths+Form+5+Chapter+4" },
-                    { name: "Ch 5: Probability Distribution", query: "KSSM+Add+Maths+Form+5+Chapter+5" },
-                    { name: "Ch 6: Trigonometric Functions", query: "KSSM+Add+Maths+Form+5+Chapter+6" },
-                    { name: "Ch 7: Linear Programming", query: "KSSM+Add+Maths+Form+5+Chapter+7" },
-                    { name: "Ch 8: Kinematics of Linear Motion", query: "KSSM+Add+Maths+Form+5+Chapter+8" }
-                ]
-            },
-            "Sains": {
-                4: [
-                    { name: "Ch 1: Safety in Laboratory", query: "KSSM+Sains+Form+4+Bab+1" },
-                    { name: "Ch 2: Emergency Aid", query: "KSSM+Sains+Form+4+Bab+2" },
-                    { name: "Ch 3: Measuring Body Temperature", query: "KSSM+Sains+Form+4+Bab+3" },
-                    { name: "Ch 4: Green Technology for Sustainability", query: "KSSM+Sains+Form+4+Bab+4" },
-                    { name: "Ch 5: Genetics", query: "KSSM+Sains+Form+4+Bab+5" },
-                    { name: "Ch 6: Support, Movement and Growth", query: "KSSM+Sains+Form+4+Bab+6" },
-                    { name: "Ch 7: Body Coordination", query: "KSSM+Sains+Form+4+Bab+7" },
-                    { name: "Ch 8: Elements and Substances", query: "KSSM+Sains+Form+4+Bab+8" },
-                    { name: "Ch 9: Space Technology", query: "KSSM+Sains+Form+4+Bab+9" }
-                ],
-                5: [
-                    { name: "Ch 1: Microorganisms", query: "KSSM+Sains+Form+5+Bab+1" },
-                    { name: "Ch 2: Nutrition and Food Technology", query: "KSSM+Sains+Form+5+Bab+2" },
-                    { name: "Ch 3: Sustainability of Environment", query: "KSSM+Sains+Form+5+Bab+3" },
-                    { name: "Ch 4: Rate of Reaction", query: "KSSM+Sains+Form+5+Bab+4" },
-                    { name: "Ch 5: Carbon Compound", query: "KSSM+Sains+Form+5+Bab+5" },
-                    { name: "Ch 6: Electrochemistry", query: "KSSM+Sains+Form+5+Bab+6" },
-                    { name: "Ch 7: Light and Optics", query: "KSSM+Sains+Form+5+Bab+7" },
-                    { name: "Ch 8: Force and Pressure", query: "KSSM+Sains+Form+5+Bab+8" }
-                ]
-            },
-            "Sejarah": {
-                4: [
-                    { name: "Bab 1: Warisan Negara Bangsa", query: "KSSM+Sejarah+Form+4+Bab+1" },
-                    { name: "Bab 2: Kebangkitan Nasionalisme", query: "KSSM+Sejarah+Form+4+Bab+2" },
-                    { name: "Bab 3: Konflik Dunia & Pendudukan Jepun", query: "KSSM+Sejarah+Form+4+Bab+3" },
-                    { name: "Bab 4: Era Peralihan Kuasa British", query: "KSSM+Sejarah+Form+4+Bab+4" },
-                    { name: "Bab 5: Persekutuan Tanah Melayu 1948", query: "KSSM+Sejarah+Form+4+Bab+5" },
-                    { name: "Bab 6: Ancaman Komunis & Darurat", query: "KSSM+Sejarah+Form+4+Bab+6" },
-                    { name: "Bab 7: Usaha Ke Arah Kemerdekaan", query: "KSSM+Sejarah+Form+4+Bab+7" },
-                    { name: "Bab 8: Pilihan Raya", query: "KSSM+Sejarah+Form+4+Bab+8" },
-                    { name: "Bab 9: Perlembagaan PTM 1957", query: "KSSM+Sejarah+Form+4+Bab+9" },
-                    { name: "Bab 10: Pemasyhuran Kemerdekaan", query: "KSSM+Sejarah+Form+4+Bab+10" }
-                ],
-                5: [
-                    { name: "Bab 1: Kedaulatan Negara", query: "KSSM+Sejarah+Form+5+Bab+1" },
-                    { name: "Bab 2: Perlembagaan Persekutuan", query: "KSSM+Sejarah+Form+5+Bab+2" },
-                    { name: "Bab 3: Raja Berperlembagaan & Demokrasi", query: "KSSM+Sejarah+Form+5+Bab+3" },
-                    { name: "Bab 4: Sistem Persekutuan", query: "KSSM+Sejarah+Form+5+Bab+4" },
-                    { name: "Bab 5: Pembentukan Malaysia", query: "KSSM+Sejarah+Form+5+Bab+5" },
-                    { name: "Bab 6: Cabaran Selepas Pembentukan Malaysia", query: "KSSM+Sejarah+Form+5+Bab+6" },
-                    { name: "Bab 7: Membina Kesejahteraan Negara", query: "KSSM+Sejarah+Form+5+Bab+7" },
-                    { name: "Bab 8: Membina Kemakmuran Negara", query: "KSSM+Sejarah+Form+5+Bab+8" }
-                ]
-            },
-            "Bahasa Melayu": {
-                4: [
-                    { name: "Modul 1: Karangan Respons Terhad & Terbuka", query: "KSSM+Bahasa+Melayu+Form+4+Karangan" },
-                    { name: "Modul 2: Rumusan dan Pemahaman Petikan", query: "KSSM+Bahasa+Melayu+Form+4+Rumusan" },
-                    { name: "Modul 3: Novel & Komsas Tingkatan 4", query: "KSSM+Bahasa+Melayu+Form+4+Novel" },
-                    { name: "Modul 4: Tatabahasa & Sintaksis", query: "KSSM+Bahasa+Melayu+Form+4+Tatabahasa" }
-                ],
-                5: [
-                    { name: "Modul 1: Teknik Menjawab Karangan SPM", query: "KSSM+Bahasa+Melayu+Form+5+Karangan+SPM" },
-                    { name: "Modul 2: Peperiksaan Percubaan Bahasa Melayu SPM", query: "KSSM+Bahasa+Melayu+Trial+Paper+SPM" },
-                    { name: "Modul 3: Novel Komsas Tingkatan 5", query: "KSSM+Bahasa+Melayu+Form+5+Novel" },
-                    { name: "Modul 4: Analisis Kesalahan Ejaan & Imbuhan", query: "KSSM+Bahasa+Melayu+Tatabahasa" }
-                ]
-            },
-            "Bahasa Inggeris": {
-                4: [
-                    { name: "Module 1: Part 1 Short Communicative Message", query: "KSSM+English+Form+4+Part+1+Writing" },
-                    { name: "Module 2: Part 2 Guided Essay", query: "KSSM+English+Form+4+Part+2+Essay" },
-                    { name: "Module 3: Part 3 Extended Writing (Story/Review)", query: "KSSM+English+Form+4+Part+3+Writing" },
-                    { name: "Module 4: Listening & Speaking Preparation", query: "KSSM+English+Form+4+Listening+Speaking" }
-                ],
-                5: [
-                    { name: "Module 1: SPM Writing Masterclass (Parts 1, 2 & 3)", query: "KSSM+English+SPM+Writing+Masterclass" },
-                    { name: "Module 2: SPM Reading Comprehension Skills", query: "KSSM+English+SPM+Reading+Comprehension" },
-                    { name: "Module 3: Literature Component (Novel & Poems)", query: "KSSM+English+SPM+Literature" },
-                    { name: "Module 4: Trial Papers Grammar & Vocab", query: "KSSM+English+Trial+Papers+SPM" }
-                ]
-            },
-            "Geografi": {
-                4: [
-                    { name: "Bab 1: Jadual dan Graf", query: "KSSM+Geografi+Form+4+Bab+1" },
-                    { name: "Bab 2: Carta Pai dan Carta Bar", query: "KSSM+Geografi+Form+4+Bab+2" },
-                    { name: "Bab 3: Peta Lakar", query: "KSSM+Geografi+Form+4+Bab+3" },
-                    { name: "Bab 4: Lakaran Peta Malaysia", query: "KSSM+Geografi+Form+4+Bab+4" }
-                ],
-                5: [
-                    { name: "Bab 1: Penduduk di Malaysia", query: "KSSM+Geografi+Form+5+Bab+1" },
-                    { name: "Bab 2: Petempatan", query: "KSSM+Geografi+Form+5+Bab+2" },
-                    { name: "Bab 3: Pengangkutan", query: "KSSM+Geografi+Form+5+Bab+3" },
-                    { name: "Bab 4: Sumber Semula Jadi", query: "KSSM+Geografi+Form+5+Bab+4" }
-                ]
-            },
-            "Pendidikan Islam": {
-                4: [
-                    { name: "Bidang Al-Quran (Hafazan & Kefahaman)", query: "KSSM+Pendidikan+Islam+Form+4+Al+Quran" },
-                    { name: "Bidang Hadis & Akidah", query: "KSSM+Pendidikan+Islam+Form+4+Akidah" },
-                    { name: "Bidang Feqah (Ibadat)", query: "KSSM+Pendidikan+Islam+Form+4+Feqah" },
-                    { name: "Bidang Sirah & Akhlak Islamiyah", query: "KSSM+Pendidikan+Islam+Form+4+Sirah" }
-                ],
-                5: [
-                    { name: "Bidang Al-Quran & Hadis SPM", query: "KSSM+Pendidikan+Islam+Form+5+Quran+Hadis" },
-                    { name: "Bidang Akidah & Feqah Lanjutan", query: "KSSM+Pendidikan+Islam+Form+5+Feqah" },
-                    { name: "Bidang Sirah & Tokoh Islam", query: "KSSM+Pendidikan+Islam+Form+5+Sirah" },
-                    { name: "Bidang Akhlak Islamiah", query: "KSSM+Pendidikan+Islam+Form+5+Akhlak" }
-                ]
-            },
-            "Pendidikan Moral": {
-                4: [
-                    { name: "Unit 1-4: Sumber Moral & Diri", query: "KSSM+Pendidikan+Moral+Form+4+Unit+1" },
-                    { name: "Unit 5-9: Diri, Keluarga & Masyarakat", query: "KSSM+Pendidikan+Moral+Form+4+Keluarga" },
-                    { name: "Unit 10-14: Moral & Alam Sekitar", query: "KSSM+Pendidikan+Moral+Form+4+Alam" }
-                ],
-                5: [
-                    { name: "Unit 1-5: Nilai Universal & Hak Asasi", query: "KSSM+Pendidikan+Moral+Form+5+Unit+1" },
-                    { name: "Unit 6-10: Integriti & Kedaulatan Negara", query: "KSSM+Pendidikan+Moral+Form+5+Integriti" },
-                    { name: "Teknik Menjawab Soalan Esei Moral SPM", query: "KSSM+Pendidikan+Moral+SPM+Technique" }
-                ]
-            },
-            "Prinsip Perakaunan": {
-                4: [
-                    { name: "Bab 1: Pengenalan kepada Perakaunan", query: "KSSM+Perakaunan+Form+4+Bab+1" },
-                    { name: "Bab 2: Klasifikasi Akaun", query: "KSSM+Perakaunan+Form+4+Bab+2" },
-                    { name: "Bab 3: Dokumen Perniagaan", query: "KSSM+Perakaunan+Form+4+Bab+3" },
-                    { name: "Bab 4: Buku Catatan Pertama", query: "KSSM+Perakaunan+Form+4+Bab+4" },
-                    { name: "Bab 5: Lejar", query: "KSSM+Perakaunan+Form+4+Bab+5" }
-                ],
-                5: [
-                    { name: "Bab 1: Analisis Nisbah Kewangan", query: "KSSM+Perakaunan+Form+5+Bab+1" },
-                    { name: "Bab 2: Perakaunan Kos", query: "KSSM+Perakaunan+Form+5+Bab+2" },
-                    { name: "Bab 3: Penyata Kewangan Milikan Tunggal", query: "KSSM+Perakaunan+Form+5+Penyata" },
-                    { name: "Bab 4: Perkongsian dan Syarikat Berhad", query: "KSSM+Perakaunan+Form+5+Syarikat" }
-                ]
-            },
-            "Perniagaan": {
-                4: [
-                    { name: "Bab 1: Tujuan Perniagaan", query: "KSSM+Perniagaan+Form+4+Bab+1" },
-                    { name: "Bab 2: Trend Semasa Perniagaan", query: "KSSM+Perniagaan+Form+4+Bab+2" },
-                    { name: "Bab 3: Penubuhan Perniagaan", query: "KSSM+Perniagaan+Form+4+Bab+3" },
-                    { name: "Bab 4: Komunikasi Perniagaan", query: "KSSM+Perniagaan+Form+4+Bab+4" }
-                ],
-                5: [
-                    { name: "Bab 1: Pengurusan Sumber Manusia", query: "KSSM+Perniagaan+Form+5+Bab+1" },
-                    { name: "Bab 2: Pengeluaran dan Pemasaran", query: "KSSM+Perniagaan+Form+5+Bab+2" },
-                    { name: "Bab 3: Kewangan dan Pembiayaan", query: "KSSM+Perniagaan+Form+5+Bab+3" }
-                ]
-            },
-            "PJK": {
-                4: [
-                    { name: "Modul 1: Kecergasan Fizikal", query: "KSSM+PJK+Form+4+Kecergasan" },
-                    { name: "Modul 2: Kemahiran Sukan dan Permainan", query: "KSSM+PJK+Form+4+Sukan" }
-                ],
-                5: [
-                    { name: "Modul 1: Kesihatan Diri dan Keluarga", query: "KSSM+PJK+Form+5+Kesihatan" },
-                    { name: "Modul 2: Kesukanan dan Keselamatan", query: "KSSM+PJK+Form+5+Keselamatan" }
-                ]
-            }
-        };
-
-        function setLanguage(lang) {
-            currentLanguage = lang;
-            document.getElementById('langEnBtn').classList.toggle('active', lang === 'English');
-            document.getElementById('langBmBtn').classList.toggle('active', lang === 'Bahasa Melayu');
-        }
 
         function selectSubject(subject) {
             currentSubject = subject;
-            chatHistory = [];
-            const chatMessages = document.getElementById('chatMessages');
-            chatMessages.innerHTML = `
-                <div class="message assistant" id="welcomeMessage">
-                    Ready for <span id="welcomeSubject">${subject}</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
-                </div>
-            `;
-
             document.getElementById('currentSubjectDisplay').innerText = subject;
-            document.getElementById('modalSubject').innerText = subject;
-            
-            document.getElementById('form4TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+${encodeURIComponent(subject)}+PDF`;
-            document.getElementById('form5TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+${encodeURIComponent(subject)}+PDF`;
-
-            let buttons = document.querySelectorAll('.subject-btn');
-            buttons.forEach(btn => {
-                if(btn.getAttribute('data-subject') === subject) {
-                    btn.classList.add('active');
-                } else {
-                    btn.classList.remove('active');
-                }
+            document.getElementById('chatMessages').innerHTML = `
+                <div class="message assistant">Ready for ${subject}! Ask a question or request notes.</div>
+            `;
+            document.querySelectorAll('.subject-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-subject') === subject);
             });
         }
 
-        function filterSubjects() {
-            let query = document.getElementById('searchSubject').value.toLowerCase();
-            let buttons = document.querySelectorAll('.subject-btn');
-            buttons.forEach(btn => {
-                let text = btn.innerText.toLowerCase();
-                btn.style.display = text.includes(query) ? 'flex' : 'none';
-            });
-        }
-
-        /* YOUTUBE HUB FUNCTIONS */
-        function openYoutubeModal() {
-            document.getElementById('youtubeModal').style.display = 'flex';
-            if(ytChapterData[currentSubject]) {
-                currentYtSubject = currentSubject;
-                document.getElementById('ytSubjectSelect').value = currentSubject;
-            }
-            renderYoutubeChapters();
-        }
-
-        function closeYoutubeModal() {
-            document.getElementById('youtubeModal').style.display = 'none';
-        }
-
-        function changeYtSubject() {
-            currentYtSubject = document.getElementById('ytSubjectSelect').value;
-            renderYoutubeChapters();
-        }
-
-        function switchYtForm(formNum) {
-            currentYtForm = formNum;
-            document.getElementById('ytF4TabBtn').classList.toggle('active', formNum === 4);
-            document.getElementById('ytF5TabBtn').classList.toggle('active', formNum === 5);
-            renderYoutubeChapters();
-        }
-
-        function renderYoutubeChapters() {
-            const container = document.getElementById('ytChapterContainer');
-            container.innerHTML = '';
-            
-            let chapters = ytChapterData[currentYtSubject]?.[currentYtForm] || [
-                { name: `Form ${currentYtForm} Overview & Study Guide (${currentYtSubject})`, query: `KSSM+${encodeURIComponent(currentYtSubject)}+Form+${currentYtForm}+SPM` }
-            ];
-
-            chapters.forEach(ch => {
-                let a = document.createElement('a');
-                a.className = 'yt-chapter-link';
-                a.href = `https://www.youtube.com/results?search_query=${ch.query}`;
-                a.target = '_blank';
-                a.innerHTML = `<span>▶️ ${ch.name}</span> <span style="font-size: 11px; background: rgba(239, 68, 68, 0.2); color: #fca5a5; padding: 3px 8px; border-radius: 4px;">Watch ↗</span>`;
-                container.appendChild(a);
-            });
-        }
-
-        function openStateModal() {
-            document.getElementById('stateModal').style.display = 'flex';
-            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=SPM+Trial+Papers+${encodeURIComponent(currentSubject)}+PDF`;
-        }
-
-        function closeStateModal() {
-            document.getElementById('stateModal').style.display = 'none';
-        }
-
-        function loadStateSearch(stateName) {
-            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${stateName}+SPM+Trial+Papers+${encodeURIComponent(currentSubject)}+PDF`;
-        }
-
-        function loadForm4PaperSearch(type) {
-            let queryText = type === 'Topical' ? 'Topical+Exercises' : (type === 'PPT' ? 'Mid+Year+Exam+PPT' : 'Final+Year+Exam+PAT');
-            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=Form+4+${queryText}+${encodeURIComponent(currentSubject)}+PDF`;
-        }
-
-        function startNewChat() {
-            selectSubject(currentSubject);
-        }
-
-        function handleKeyPress(e) {
-            if (e.key === 'Enter') sendMessage();
-        }
-
-        function handleImageUpload(e) {
-            const file = e.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(uploadE) {
-                    uploadedImageBase64 = uploadE.target.result;
-                    document.getElementById('previewImg').src = uploadedImageBase64;
-                    document.getElementById('previewContainer').style.display = 'flex';
-                };
-                reader.readAsDataURL(file);
-            }
-        }
-
-        function clearImage() {
-            uploadedImageBase64 = null;
-            document.getElementById('imageInput').value = '';
-            document.getElementById('previewContainer').style.display = 'none';
-        }
+        function startNewChat() { selectSubject(currentSubject); }
+        function handleKeyPress(e) { if (e.key === 'Enter') sendMessage(); }
 
         async function sendMessage() {
             const inputField = document.getElementById('userInput');
             const messageText = inputField.value.trim();
-            if(!messageText && !uploadedImageBase64) return;
+            if(!messageText) return;
 
             const chatMessages = document.getElementById('chatMessages');
             
-            // Display user message
             let userMsgDiv = document.createElement('div');
             userMsgDiv.className = 'message user';
             userMsgDiv.innerText = messageText;
             chatMessages.appendChild(userMsgDiv);
 
             inputField.value = '';
-            clearImage();
             chatMessages.scrollTop = chatMessages.scrollHeight;
 
-            // Display loading placeholder
             let botMsgDiv = document.createElement('div');
             botMsgDiv.className = 'message assistant';
             botMsgDiv.innerHTML = `<em>Thinking...</em>`;
@@ -733,26 +119,20 @@
             chatMessages.scrollTop = chatMessages.scrollHeight;
 
             try {
-                // Send request to your Python backend
                 const response = await fetch('/chat', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        message: messageText,
-                        subject: currentSubject,
-                        language: currentLanguage,
-                        image: uploadedImageBase64
-                    })
+                    body: JSON.stringify({ message: messageText, subject: currentSubject, language: currentLanguage })
                 });
 
                 const data = await response.json();
                 if (data.reply) {
                     botMsgDiv.innerHTML = marked.parse(data.reply);
                 } else {
-                    botMsgDiv.innerHTML = "Sorry, I encountered an error generating a response.";
+                    botMsgDiv.innerHTML = "Error generating response.";
                 }
             } catch (error) {
-                botMsgDiv.innerHTML = "Connection error. Make sure your Python backend is running properly.";
+                botMsgDiv.innerHTML = "Connection error with Python backend.";
             }
 
             chatMessages.scrollTop = chatMessages.scrollHeight;
