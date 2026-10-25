@@ -13,9 +13,9 @@ client = Groq(api_key=GROQ_API_KEY)
 
 @app.route("/")
 def home():
-  response = send_from_directory(".", "index.html")
-  response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-  return response
+    response = send_from_directory(".", "index.html")
+    response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    return response
 
 
 # =====================================================================
@@ -246,31 +246,31 @@ OFFICIAL SPM CEFR ENGLISH WRITING STRUCTURES:
 
 
 def get_subject_scope(subject_name):
-  key = subject_name.lower().strip()
-  return SUBJECT_SCOPES.get(
-      key,
-      f"OFFICIAL KSSM SYLLABUS SCOPE FOR {subject_name}: Form 4 & Form 5"
-      " curriculum standards.",
-  )
+    key = subject_name.lower().strip()
+    return SUBJECT_SCOPES.get(
+        key,
+        f"OFFICIAL KSSM SYLLABUS SCOPE FOR {subject_name}: Form 4 & Form 5 curriculum standards.",
+    )
 
 
 @app.route("/chat", methods=["POST"])
 def chat():
-  data = request.json
-  user_prompt = data.get("prompt", "")
-  task_id = data.get(
-      "task", "create_notes" if "notes" in user_prompt.lower() else "explain"
-  )
-  current_level = data.get("level", "Form 4-5 / SPM")
-  selected_subject = data.get("subject", "Biologi")
-  output_language = data.get("language", "English")
-  image_data = data.get("image", None)
-  history = data.get("history", [])
+    data = request.json
+    # FIXED: Accepts both "message" (sent by index.html) and "prompt"
+    user_prompt = data.get("message", "") or data.get("prompt", "")
+    task_id = data.get(
+        "task", "create_notes" if "notes" in user_prompt.lower() else "explain"
+    )
+    current_level = data.get("level", "Form 4-5 / SPM")
+    selected_subject = data.get("subject", "Biologi")
+    output_language = data.get("language", "English")
+    image_data = data.get("image", None)
+    history = data.get("history", [])
 
-  task_instruction = TASK_INSTRUCTIONS.get(task_id, TASK_INSTRUCTIONS["explain"])
-  subject_scope = get_subject_scope(selected_subject)
+    task_instruction = TASK_INSTRUCTIONS.get(task_id, TASK_INSTRUCTIONS["explain"])
+    subject_scope = get_subject_scope(selected_subject)
 
-  system_prompt = f"""
+    system_prompt = f"""
 {MASTER_SYSTEM_INSTRUCTION}
 
 ==================================================
@@ -283,40 +283,40 @@ ACTIVE TASK & SUBJECT SCOPE
 - Relevant Syllabus Scope: {subject_scope}
 """
 
-  try:
-    messages = [{"role": "system", "content": system_prompt}]
+    try:
+        messages = [{"role": "system", "content": system_prompt}]
 
-    if len(history) > 6:
-      history = history[-6:]
+        if len(history) > 6:
+            history = history[-6:]
 
-    for msg in history:
-      messages.append({"role": msg["role"], "content": msg["content"]})
+        for msg in history:
+            messages.append({"role": msg["role"], "content": msg["content"]})
 
-    if image_data:
-      messages.append({
-          "role": "user",
-          "content": [
-              {"type": "text", "text": user_prompt},
-              {"type": "image_url", "image_url": {"url": image_data}},
-          ],
-      })
-      model_to_use = "llama-3.2-90b-vision-preview"
-    else:
-      messages.append({"role": "user", "content": user_prompt})
-      model_to_use = "openai/gpt-oss-120b"
+        if image_data:
+            messages.append({
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": user_prompt},
+                    {"type": "image_url", "image_url": {"url": image_data}},
+                ],
+            })
+            model_to_use = "llama-3.2-90b-vision-preview"
+        else:
+            messages.append({"role": "user", "content": user_prompt})
+            model_to_use = "llama-3.3-70b-versatile" # Updated to standard Groq model
 
-    response = client.chat.completions.create(
-        model=model_to_use,
-        messages=messages,
-        temperature=0.3,
-        max_tokens=2048,
-    )
-    return jsonify(
-        {"success": True, "task": task_id, "reply": response.choices[0].message.content}
-    )
-  except Exception as e:
-    return jsonify({"success": False, "error": str(e)}), 500
+        response = client.chat.completions.create(
+            model=model_to_use,
+            messages=messages,
+            temperature=0.3,
+            max_tokens=2048,
+        )
+        return jsonify(
+            {"success": True, "task": task_id, "reply": response.choices[0].message.content}
+        )
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
 
 
 if __name__ == "__main__":
-  app.run(port=5000, debug=True)
+    app.run(port=5000, debug=True)
