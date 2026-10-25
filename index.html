@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -707,13 +708,14 @@
             document.getElementById('previewContainer').style.display = 'none';
         }
 
-        function sendMessage() {
+        async function sendMessage() {
             const inputField = document.getElementById('userInput');
             const messageText = inputField.value.trim();
             if(!messageText && !uploadedImageBase64) return;
 
             const chatMessages = document.getElementById('chatMessages');
             
+            // Display user message
             let userMsgDiv = document.createElement('div');
             userMsgDiv.className = 'message user';
             userMsgDiv.innerText = messageText;
@@ -723,13 +725,37 @@
             clearImage();
             chatMessages.scrollTop = chatMessages.scrollHeight;
 
-            setTimeout(() => {
-                let botMsgDiv = document.createElement('div');
-                botMsgDiv.className = 'message assistant';
-                botMsgDiv.innerHTML = `Here is the explanation for your ${currentSubject} query.`;
-                chatMessages.appendChild(botMsgDiv);
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-            }, 500);
+            // Display loading placeholder
+            let botMsgDiv = document.createElement('div');
+            botMsgDiv.className = 'message assistant';
+            botMsgDiv.innerHTML = `<em>Thinking...</em>`;
+            chatMessages.appendChild(botMsgDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            try {
+                // Send request to your Python backend
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        message: messageText,
+                        subject: currentSubject,
+                        language: currentLanguage,
+                        image: uploadedImageBase64
+                    })
+                });
+
+                const data = await response.json();
+                if (data.reply) {
+                    botMsgDiv.innerHTML = marked.parse(data.reply);
+                } else {
+                    botMsgDiv.innerHTML = "Sorry, I encountered an error generating a response.";
+                }
+            } catch (error) {
+                botMsgDiv.innerHTML = "Connection error. Make sure your Python backend is running properly.";
+            }
+
+            chatMessages.scrollTop = chatMessages.scrollHeight;
         }
     </script>
 </body>
