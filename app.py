@@ -15,9 +15,9 @@ client = Groq(api_key=GROQ_API_KEY)
 
 @app.route("/")
 def home():
-  response = send_from_directory(".", "index.html")
-  response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-  return response
+    response = send_from_directory(".", "index.html")
+    response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    return response
 
 
 # =====================================================================
@@ -55,7 +55,7 @@ CRITICAL STYLING & FORMATTING RULES
 1. ACCURACY: Base definitions and facts strictly on official KPM textbooks.
 2. UNDERLINING: Underline essential facts using HTML <u>...</u> tags.
 3. KEYWORDS: Highlight top marking keywords using HTML spans:
-   <span style="background-color: #312e81; color: #c7d2fe; padding: 2px 6px; border-radius: 4px; font-weight: bold; border: 1px solid #4f46e5;">keyword</span>
+   <span style="background-color: #312e81; color: #c7d2fe; padding: 2px 6px; border-radius: 4px; font-weight: bold; border: 1px solid #4f46e5;">keyword</span>
 4. ANSWER FIRST: Directly answer the user's prompt first before offering extra techniques.
 """
 
@@ -63,40 +63,40 @@ CRITICAL STYLING & FORMATTING RULES
 # 2. SPECIALIST TASK ROUTER ENGINES
 # =====================================================================
 TASK_INSTRUCTIONS = {
-    "create_notes": """
+    "create_notes": """
 TEXTBOOK-FIRST NOTES RULES — HIGHEST PRIORITY:
 - Create study notes following the student's selected textbook chapter and official KSSM syllabus.
 - SOURCE PRIORITY: Treat the textbook as the main source for scope, terminology, and detail level.
 - STRICT SCOPE CONTROL: Include only concepts relevant to the selected chapter. Do NOT add university-level info or unneeded background history. Optimize for relevance, not length.
 - TEXTBOOK COVERAGE: Cover examinable content, definitions, processes, and formulas simply without changing meanings.
 """,
-    "generate_marking_scheme": (
-        "Task: Generate an SPM-style marking scheme with distinct assessable"
-        " points totaling the stated marks."
-    ),
-    "mark_answer": (
-        "Task: Assess student answers against rubrics, award credit for valid"
-        " ideas, explain deductions, and provide improved answers."
-    ),
-    "explain": (
-        "Task: Explain concepts step-by-step using KSSM terminology and"
-        " real-world examples."
-    ),
-    "generate_questions": (
-        "Task: Generate rigorous SPM-format exam questions with full mark"
-        " schemes."
-    ),
-    "summarize": (
-        "Task: Summarize chapters by extracting core principles, vital"
-        " equations, and key facts."
-    ),
+    "generate_marking_scheme": (
+        "Task: Generate an SPM-style marking scheme with distinct assessable"
+        " points totaling the stated marks."
+    ),
+    "mark_answer": (
+        "Task: Assess student answers against rubrics, award credit for valid"
+        " ideas, explain deductions, and provide improved answers."
+    ),
+    "explain": (
+        "Task: Explain concepts step-by-step using KSSM terminology and"
+        " real-world examples."
+    ),
+    "generate_questions": (
+        "Task: Generate rigorous SPM-format exam questions with full mark"
+        " schemes."
+    ),
+    "summarize": (
+        "Task: Summarize chapters by extracting core principles, vital"
+        " equations, and key facts."
+    ),
 }
 
 # =====================================================================
 # 3. COMPLETE KSSM SUBJECT & TOPIC DATABASE
 # =====================================================================
 SUBJECT_SCOPES = {
-    "biologi": """
+    "biologi": """
 OFFICIAL KSSM BIOLOGY SYLLABUS INDEX & SCOPE:
 FORM 4 BIOLOGY:
 - Chapter 1: Introduction to Biology and Laboratory Rules
@@ -129,7 +129,7 @@ FORM 5 BIOLOGY:
 - Chapter 12: Variation
 - Chapter 13: Genetic Technology
 """,
-    "kimia": """
+    "kimia": """
 OFFICIAL KSSM CHEMISTRY SYLLABUS INDEX & SCOPE:
 FORM 4 CHEMISTRY:
 - Chapter 1: Introduction to Chemistry
@@ -147,7 +147,7 @@ FORM 5 CHEMISTRY:
 - Chapter 4: Polymer Chemistry
 - Chapter 5: Consumer and Industrial Chemistry
 """,
-    "fizik": """
+    "fizik": """
 OFFICIAL KSSM PHYSICS SYLLABUS INDEX & SCOPE:
 FORM 4 PHYSICS:
 - Chapter 1: Measurement
@@ -165,7 +165,7 @@ FORM 5 PHYSICS:
 - Chapter 6: Nuclear Physics
 - Chapter 7: Quantum Physics
 """,
-    "matematik tambahan": """
+    "matematik tambahan": """
 OFFICIAL KSSM ADDITIONAL MATHEMATICS SYLLABUS INDEX & SCOPE:
 FORM 4 ADD MATHS:
 - Chapter 1: Functions
@@ -189,7 +189,7 @@ FORM 5 ADD MATHS:
 - Chapter 7: Linear Programming
 - Chapter 8: Kinematics of Linear Motion
 """,
-    "matematik": """
+    "matematik": """
 OFFICIAL KSSM MATHEMATICS SYLLABUS INDEX & SCOPE:
 FORM 4 MATHEMATICS:
 - Chapter 1: Quadratic Functions and Equations
@@ -214,31 +214,31 @@ FORM 5 MATHEMATICS:
 - Chapter 9: Measures of Dispersion (Grouped)
 - Chapter 10: Investment
 """,
-    "sains": """
+    "sains": """
 OFFICIAL KSSM SCIENCE SYLLABUS INDEX & SCOPE:
 FORM 4 SCIENCE:
 - Chapter 1: Safety in Laboratory | Chapter 2: Emergency Aid | Chapter 3: Body Parameters | Chapter 4: Breeding Tech | Chapter 5: Metabolism & Health | Chapter 6: Support & Growth | Chapter 7: Body Coordination | Chapter 8: Elements & Substances | Chapter 9: Earth | Chapter 10: Ecosystem | Chapter 11: Inheritance | Chapter 12: Nuclear Energy | Chapter 13: Universe
 FORM 5 SCIENCE:
 - Chapter 1: Microorganisms | Chapter 2: Nutrition & Food Tech | Chapter 3: Environmental Sustainability | Chapter 4: Rate of Reaction | Chapter 5: Carbon Compound | Chapter 6: Electrochemistry | Chapter 7: Optics | Chapter 8: Force & Pressure | Chapter 9: Space Tech
 """,
-    "sejarah": """
+    "sejarah": """
 OFFICIAL KSSM SEJARAH SYLLABUS INDEX & SCOPE:
 FORM 4 SEJARAH:
 - Chapter 1: Warisan Negara Bangsa | Chapter 2: Nasionalisme | Chapter 3: Konflik Dunia & Jepun | Chapter 4: Peralihan Kuasa British | Chapter 5: PTM 1948 | Chapter 6: Darurat | Chapter 7: Usaha Kemerdekaan | Chapter 8: Kemerdekaan 1957 | Chapter 9: Ekonomi British | Chapter 10: Sosial British
 FORM 5 SEJARAH:
 - Chapter 1: Kedaulatan Negara | Chapter 2: Perlembagaan | Chapter 3: Raja Berperlembagaan | Chapter 4: Pentadbiran Negara | Chapter 5: Pembentukan Malaysia | Chapter 6: Cabaran Selepas Malaysia | Chapter 7: Kemakmuran Negara | Chapter 8: Sejahtera Dunia | Chapter 9: Pertubuhan Antarabangsa | Chapter 10: Kecemerlangan Malaysia
 """,
-    "pendidikan moral": """
+    "pendidikan moral": """
 OFFICIAL KSSM PENDIDIKAN MORAL SYLLABUS INDEX & SCOPE:
 - Bidang 1: Diri Sendiri | Bidang 2: Keluarga | Bidang 3: Masyarakat | Bidang 4: Alam Sekitar | Bidang 5: Negara
 - Essay Formula: 8-Mark Paragraph Formula (1 Isi + 3 Huraian + 1 Contoh + 1 Kesimpulan) & Nilai Universal Opening Formula.
 """,
-    "bahasa melayu": """
+    "bahasa melayu": """
 OFFICIAL SPM BAHASA MELAYU STRUCTURES:
 - Karangan Bahagian A (Bahan Rangsangan)
 - Karangan Bahagian B (Respon Terbuka: Pendahuluan Cemerlang, Isi Berangkai 1-4, Penutup Berkesan)
 """,
-    "bahasa inggeris": """
+    "bahasa inggeris": """
 OFFICIAL SPM CEFR ENGLISH WRITING STRUCTURES:
 - Part 1: Short Communicative Message
 - Part 2: Guided Writing
@@ -248,31 +248,30 @@ OFFICIAL SPM CEFR ENGLISH WRITING STRUCTURES:
 
 
 def get_subject_scope(subject_name):
-  key = subject_name.lower().strip()
-  return SUBJECT_SCOPES.get(
-      key,
-      f"OFFICIAL KSSM SYLLABUS SCOPE FOR {subject_name}: Form 4 & Form 5"
-      " curriculum standards.",
-  )
+    key = subject_name.lower().strip()
+    return SUBJECT_SCOPES.get(
+        key,
+        f"OFFICIAL KSSM SYLLABUS SCOPE FOR {subject_name}: Form 4 & Form 5 curriculum standards.",
+    )
 
 
 @app.route("/chat", methods=["POST"])
 def chat():
-  data = request.json
-  user_prompt = data.get("prompt", "")
-  task_id = data.get(
-      "task", "create_notes" if "notes" in user_prompt.lower() else "explain"
-  )
-  current_level = data.get("level", "Form 4-5 / SPM")
-  selected_subject = data.get("subject", "Biologi")
-  output_language = data.get("language", "English")
-  image_data = data.get("image", None)
-  history = data.get("history", [])
+    data = request.json
+    user_prompt = data.get("prompt", "")
+    task_id = data.get(
+        "task", "create_notes" if "notes" in user_prompt.lower() else "explain"
+    )
+    current_level = data.get("level", "Form 4-5 / SPM")
+    selected_subject = data.get("subject", "Biologi")
+    output_language = data.get("language", "English")
+    image_data = data.get("image", None)
+    history = data.get("history", [])
 
-  task_instruction = TASK_INSTRUCTIONS.get(task_id, TASK_INSTRUCTIONS["explain"])
-  subject_scope = get_subject_scope(selected_subject)
+    task_instruction = TASK_INSTRUCTIONS.get(task_id, TASK_INSTRUCTIONS["explain"])
+    subject_scope = get_subject_scope(selected_subject)
 
-  system_prompt = f"""
+    system_prompt = f"""
 {MASTER_SYSTEM_INSTRUCTION}
 
 ==================================================
@@ -285,40 +284,40 @@ ACTIVE TASK & SUBJECT SCOPE
 - Relevant Syllabus Scope: {subject_scope}
 """
 
-  try:
-    messages = [{"role": "system", "content": system_prompt}]
+    try:
+        messages = [{"role": "system", "content": system_prompt}]
 
-    if len(history) > 6:
-      history = history[-6:]
+        if len(history) > 6:
+            history = history[-6:]
 
-    for msg in history:
-      messages.append({"role": msg["role"], "content": msg["content"]})
+        for msg in history:
+            messages.append({"role": msg["role"], "content": msg["content"]})
 
-    if image_data:
-      messages.append({
-          "role": "user",
-          "content": [
-              {"type": "text", "text": user_prompt},
-              {"type": "image_url", "image_url": {"url": image_data}},
-          ],
-      })
-      model_to_use = "llama-3.2-90b-vision-preview"
-    else:
-      messages.append({"role": "user", "content": user_prompt})
-      model_to_use = "openai/gpt-oss-120b"
+        if image_data:
+            messages.append({
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": user_prompt},
+                    {"type": "image_url", "image_url": {"url": image_data}},
+                ],
+            })
+            model_to_use = "llama-3.2-90b-vision-preview"
+        else:
+            messages.append({"role": "user", "content": user_prompt})
+            model_to_use = "openai/gpt-oss-120b"
 
-    response = client.chat.completions.create(
-        model=model_to_use,
-        messages=messages,
-        temperature=0.3,
-        max_tokens=2048,
-    )
-    return jsonify(
-        {"success": True, "task": task_id, "reply": response.choices[0].message.content}
-    )
-  except Exception as e:
-    return jsonify({"success": False, "error": str(e)}), 500
+        response = client.chat.completions.create(
+            model=model_to_use,
+            messages=messages,
+            temperature=0.3,
+            max_tokens=2048,
+        )
+        return jsonify(
+            {"success": True, "task": task_id, "reply": response.choices[0].message.content}
+        )
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
 
 
 if __name__ == "__main__":
-  app.run(port=5000, debug=True)
+    app.run(port=5000, debug=True)
