@@ -56,7 +56,7 @@
         .breadcrumb { font-size: 14px; color: var(--text-muted); }
         .breadcrumb span { color: var(--text-main); font-weight: bold; }
 
-        /* TOOLBAR (Textbooks, Trial Papers, YouTube Hub & Language Switcher) */
+        /* TOOLBAR */
         .toolbar { background-color: rgba(15, 23, 42, 0.6); padding: 10px 25px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 13px; flex-wrap: wrap; gap: 10px; }
         .toolbar-group { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
         .toolbar-label { color: var(--text-muted); font-weight: 600; display: flex; align-items: center; gap: 6px; }
@@ -79,76 +79,6 @@
         .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
         .message.user { background-color: var(--accent); color: white; align-self: flex-end; }
 
-        .message.assistant span {
-            background-color: #312e81 !important;
-            color: #c7d2fe !important;
-            padding: 3px 7px;
-            border-radius: 6px;
-            font-weight: 600;
-            border: 1px solid #4f46e5;
-            display: inline-block;
-            margin: 2px 0;
-            line-height: 1.4;
-            word-break: normal;
-        }
-
-        .message.assistant h1, .message.assistant h2, .message.assistant h3 { margin-top: 12px; margin-bottom: 8px; color: #a5b4fc; }
-        .message.assistant p { margin-bottom: 10px; }
-        .message.assistant ul, .message.assistant ol { margin-left: 20px; margin-bottom: 10px; }
-        
-        .message.assistant table { 
-            width: 100%; 
-            border-collapse: collapse; 
-            margin: 15px 0; 
-            font-size: 14px; 
-            table-layout: fixed; 
-        }
-        .message.assistant th, .message.assistant td { 
-            border: 1px solid var(--border-color); 
-            padding: 12px 16px; 
-            text-align: left; 
-            vertical-align: top; 
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-        }
-        .message.assistant th { 
-            background-color: rgba(99, 102, 241, 0.15); 
-            color: #a5b4fc; 
-            font-weight: 600;
-        }
-        .message.assistant td:first-child { 
-            width: 50%; 
-            font-weight: 500; 
-            color: var(--text-main); 
-        }
-        .message.assistant td:last-child { 
-            width: 50%; 
-        }
-
-        /* ChatGPT-style Smaller White Round Typing Indicator */
-        .typing-dots {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            padding: 4px 2px;
-        }
-        .typing-dots span {
-            width: 6px;
-            height: 6px;
-            background-color: #ffffff;
-            border-radius: 50%;
-            display: inline-block;
-            animation: bounce 1.4s infinite ease-in-out both;
-        }
-        .typing-dots span:nth-child(1) { animation-delay: -0.32s; }
-        .typing-dots span:nth-child(2) { animation-delay: -0.16s; }
-        .typing-dots span:nth-child(3) { animation-delay: 0s; }
-
-        @keyframes bounce {
-            0%, 80%, 100% { transform: scale(0); }
-            40% { transform: scale(1.0); }
-        }
-
         .input-container { padding: 20px 25px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 10px; }
         .input-row { display: flex; width: 100%; gap: 10px; align-items: center; }
         .chat-input { flex: 1; background-color: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 12px 15px; border-radius: 8px; font-size: 14px; outline: none; }
@@ -164,7 +94,7 @@
 
         .status-badge { background-color: rgba(34, 197, 94, 0.15); color: #22c55e; border: 1px solid rgba(34, 197, 94, 0.3); padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; }
 
-        /* TRIAL & FORM 4 MODULES SELECTOR MODAL */
+        /* MODALS */
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); z-index: 1000; justify-content: center; align-items: center; }
         .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 92%; height: 90%; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
         .modal-header { padding: 15px 20px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; }
@@ -181,7 +111,6 @@
         .f4-shortcut-bar { display: flex; gap: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
         .pdf-viewer-frame { flex: 1; border: 1px solid var(--border-color); border-radius: 8px; background: #fff; }
 
-        /* YOUTUBE HUB MODAL STYLES */
         .yt-modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 600px; max-width: 95%; height: 520px; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
         .yt-tabs { display: flex; gap: 8px; margin-bottom: 15px; }
         .yt-tab-btn { flex: 1; padding: 8px; background: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-muted); border-radius: 6px; font-weight: bold; cursor: pointer; transition: all 0.2s; }
@@ -243,7 +172,6 @@
             <div class="status-badge">🟢 Python Connected</div>
         </div>
 
-        <!-- TOOLBAR: TEXTBOOKS, TRIAL PAPERS, YOUTUBE HUB & LANGUAGE SWITCHER -->
         <div class="toolbar">
             <div class="toolbar-group">
                 <span class="toolbar-label">📚 Textbooks:</span>
@@ -347,7 +275,9 @@
         let currentLanguage = "English";
         let uploadedImageBase64 = null;
         let chatHistory = [];
+        let currentYtForm = 4;
 
+        // Comprehensive dynamic chapter database for all subjects
         const ytChapterData = {
             "Biologi": {
                 4: [
@@ -382,6 +312,31 @@
                     { name: "Ch 12: Variation", query: "KSSM+Biologi+Form+5+Chapter+12" },
                     { name: "Ch 13: Genetic Technology", query: "KSSM+Biologi+Form+5+Chapter+13" }
                 ]
+            },
+            "Matematik": {
+                4: [
+                    { name: "Ch 1: Quadratic Functions and Equations", query: "KSSM+Matematik+Form+4+Chapter+1" },
+                    { name: "Ch 2: Number Bases", query: "KSSM+Matematik+Form+4+Chapter+2" },
+                    { name: "Ch 3: Logical Reasoning", query: "KSSM+Matematik+Form+4+Chapter+3" },
+                    { name: "Ch 4: Operations on Sets", query: "KSSM+Matematik+Form+4+Chapter+4" },
+                    { name: "Ch 5: Network in Graph Theory", query: "KSSM+Matematik+Form+4+Chapter+5" },
+                    { name: "Ch 6: Linear Inequalities in Two Variables", query: "KSSM+Matematik+Form+4+Chapter+6" },
+                    { name: "Ch 7: Graphs of Motion", query: "KSSM+Matematik+Form+4+Chapter+7" },
+                    { name: "Ch 8: Measures of Dispersion for Ungrouped Data", query: "KSSM+Matematik+Form+4+Chapter+8" },
+                    { name: "Ch 9: Probability of Combined Events", query: "KSSM+Matematik+Form+4+Chapter+9" },
+                    { name: "Ch 10: Consumer Mathematics: Financial Management", query: "KSSM+Matematik+Form+4+Chapter+10" }
+                ],
+                5: [
+                    { name: "Ch 1: Variation", query: "KSSM+Matematik+Form+5+Chapter+1" },
+                    { name: "Ch 2: Matrices", query: "KSSM+Matematik+Form+5+Chapter+2" },
+                    { name: "Ch 3: Consumer Mathematics: Insurance", query: "KSSM+Matematik+Form+5+Chapter+3" },
+                    { name: "Ch 4: Consumer Mathematics: Taxation", query: "KSSM+Matematik+Form+5+Chapter+4" },
+                    { name: "Ch 5: Congruence, Enlargement and Combination", query: "KSSM+Matematik+Form+5+Chapter+5" },
+                    { name: "Ch 6: Ratios and Graphs of Trigonometric Functions", query: "KSSM+Matematik+Form+5+Chapter+6" },
+                    { name: "Ch 7: Plans and Elevations", query: "KSSM+Matematik+Form+5+Chapter+7" },
+                    { name: "Ch 8: Loci in Two Dimensions", query: "KSSM+Matematik+Form+5+Chapter+8" },
+                    { name: "Ch 9: Probability of Combined Events", query: "KSSM+Matematik+Form+5+Chapter+9" }
+                ]
             }
         };
 
@@ -394,10 +349,7 @@
         function selectSubject(subject) {
             currentSubject = subject;
             
-            // Clear chat history and wipe previous subject context
             chatHistory = [];
-            
-            // Reset chat window with clean welcome screen for the new subject
             const chatMessages = document.getElementById('chatMessages');
             chatMessages.innerHTML = `
                 <div class="message assistant" id="welcomeMessage">
@@ -423,36 +375,21 @@
         }
 
         function filterSubjects() {
-            let input = document.getElementById('searchSubject').value.toLowerCase();
+            let query = document.getElementById('searchSubject').value.toLowerCase();
             let buttons = document.querySelectorAll('.subject-btn');
             buttons.forEach(btn => {
-                let txt = btn.textContent.toLowerCase();
-                btn.style.display = txt.includes(input) ? "flex" : "none";
+                let text = btn.innerText.toLowerCase();
+                if(text.includes(query)) {
+                    btn.style.display = 'flex';
+                } else {
+                    btn.style.display = 'none';
+                }
             });
-        }
-
-        function openStateModal() {
-            document.getElementById('stateModal').style.display = 'flex';
-            loadStateSearch('SBP');
-        }
-
-        function closeStateModal() {
-            document.getElementById('stateModal').style.display = 'none';
-        }
-
-        function loadStateSearch(state) {
-            const frame = document.getElementById('statePdfFrame');
-            frame.src = `https://www.google.com/search?q=Soalan+Percubaan+SPM+${encodeURIComponent(state)}+${encodeURIComponent(currentSubject)}+PDF&igu=1`;
-        }
-
-        function loadForm4PaperSearch(type) {
-            const frame = document.getElementById('statePdfFrame');
-            frame.src = `https://www.google.com/search?q=Soalan+${encodeURIComponent(type)}+Form+4+${encodeURIComponent(currentSubject)}+KSSM+PDF&igu=1`;
         }
 
         function openYoutubeModal() {
             document.getElementById('youtubeModal').style.display = 'flex';
-            switchYtForm(4);
+            renderYoutubeChapters(currentYtForm);
         }
 
         function closeYoutubeModal() {
@@ -460,45 +397,69 @@
         }
 
         function switchYtForm(formNum) {
-            const container = document.getElementById('ytChapterContainer');
-            container.innerHTML = '';
-
+            currentYtForm = formNum;
             document.getElementById('ytF4TabBtn').classList.toggle('active', formNum === 4);
             document.getElementById('ytF5TabBtn').classList.toggle('active', formNum === 5);
+            renderYoutubeChapters(formNum);
+        }
 
-            const subjectData = ytChapterData[currentSubject] || ytChapterData["Biologi"];
-            const chapters = subjectData[formNum] || [];
-
-            if (chapters.length === 0) {
-                container.innerHTML = `<div style="color: var(--text-muted); padding: 15px; text-align: center;">Direct search available for ${currentSubject} Form ${formNum}.</div>`;
-                return;
-            }
+        function renderYoutubeChapters(formNum) {
+            const container = document.getElementById('ytChapterContainer');
+            container.innerHTML = '';
+            
+            // Fallback default chapters if specific subject isn't fully mapped yet
+            let chapters = ytChapterData[currentSubject]?.[formNum] || [
+                { name: `Form ${formNum} Chapter 1 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+1` },
+                { name: `Form ${formNum} Chapter 2 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+2` },
+                { name: `Form ${formNum} Chapter 3 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+3` },
+                { name: `Form ${formNum} Chapter 4 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+4` },
+                { name: `Form ${formNum} Chapter 5 Overview (${currentSubject})`, query: `KSSM+${encodeURIComponent(currentSubject)}+Form+${formNum}+Chapter+5` }
+            ];
 
             chapters.forEach(ch => {
-                const a = document.createElement('a');
+                let a = document.createElement('a');
                 a.className = 'yt-chapter-link';
                 a.href = `https://www.youtube.com/results?search_query=${ch.query}`;
                 a.target = '_blank';
-                a.innerHTML = `<span>▶️ ${ch.name}</span> <span>↗</span>`;
+                a.innerHTML = `<span>▶️ ${ch.name}</span> <span>Watch ↗</span>`;
                 container.appendChild(a);
             });
         }
 
-        function startNewChat() {
-            chatHistory = [];
-            const chatMessages = document.getElementById('chatMessages');
-            chatMessages.innerHTML = `
-                <div class="message assistant">
-                    Session reset! Ready for <b>${currentSubject}</b> (${currentLevel}). How can I help you score an A+?
-                </div>`;
+        function openStateModal() {
+            document.getElementById('stateModal').style.display = 'flex';
+            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=SPM+Trial+Papers+${encodeURIComponent(currentSubject)}+PDF`;
         }
 
-        function handleImageUpload(event) {
-            const file = event.target.files[0];
+        function closeStateModal() {
+            document.getElementById('stateModal').style.display = 'none';
+        }
+
+        function loadStateSearch(stateName) {
+            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${stateName}+SPM+Trial+Papers+${encodeURIComponent(currentSubject)}+PDF`;
+        }
+
+        function loadForm4PaperSearch(type) {
+            let queryText = type === 'Topical' ? 'Topical+Exercises' : (type === 'PPT' ? 'Mid+Year+Exam+PPT' : 'Final+Year+Exam+PAT');
+            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=Form+4+${queryText}+${encodeURIComponent(currentSubject)}+PDF`;
+        }
+
+        function startNewChat() {
+            selectSubject(currentSubject);
+        }
+
+        function handleKeyPress(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function handleImageUpload(e) {
+            const file = e.target.files[0];
             if (file) {
                 const reader = new FileReader();
-                reader.onload = function(e) {
-                    uploadedImageBase64 = e.target.result;
+                reader.onload = function(uploadE) {
+                    uploadedImageBase64 = uploadE.target.result;
                     document.getElementById('previewImg').src = uploadedImageBase64;
                     document.getElementById('previewContainer').style.display = 'flex';
                 };
@@ -512,70 +473,31 @@
             document.getElementById('previewContainer').style.display = 'none';
         }
 
-        function handleKeyPress(e) {
-            if (e.key === 'Enter') sendMessage();
-        }
-
-        async function sendMessage() {
-            const input = document.getElementById('userInput');
-            const prompt = input.value.trim();
-            if (!prompt && !uploadedImageBase64) return;
+        function sendMessage() {
+            const inputField = document.getElementById('userInput');
+            const messageText = inputField.value.trim();
+            if(!messageText && !uploadedImageBase64) return;
 
             const chatMessages = document.getElementById('chatMessages');
             
-            let userHTML = prompt;
-            if (uploadedImageBase64) {
-                userHTML = `<img src="${uploadedImageBase64}" style="max-width:200px; border-radius:8px; display:block; margin-bottom:8px;"><br>` + prompt;
-            }
+            // Append user message
+            let userMsgDiv = document.createElement('div');
+            userMsgDiv.className = 'message user';
+            userMsgDiv.innerText = messageText;
+            chatMessages.appendChild(userMsgDiv);
 
-            chatMessages.innerHTML += `<div class="message user">${userHTML}</div>`;
-            input.value = '';
-
-            const payload = {
-                prompt: prompt || "Please analyze and solve the question in this uploaded image.",
-                level: currentLevel,
-                subject: currentSubject,
-                language: currentLanguage,
-                image: uploadedImageBase64,
-                history: chatHistory
-            };
-
+            inputField.value = '';
             clearImage();
             chatMessages.scrollTop = chatMessages.scrollHeight;
 
-            const loadingId = 'loading-' + Date.now();
-            chatMessages.innerHTML += `
-                <div class="message assistant" id="${loadingId}">
-                    <div class="typing-dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>`;
-            chatMessages.scrollTop = chatMessages.scrollHeight;
-
-            try {
-                const res = await fetch('/chat', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-                const data = await res.json();
-                document.getElementById(loadingId).remove();
-
-                if (data.success) {
-                    let formattedReply = marked.parse(data.reply);
-                    chatMessages.innerHTML += `<div class="message assistant">${formattedReply}</div>`;
-                    chatHistory.push({ role: 'user', content: prompt });
-                    chatHistory.push({ role: 'assistant', content: data.reply });
-                } else {
-                    chatMessages.innerHTML += `<div class="message assistant">❌ Error: ${data.error}</div>`;
-                }
-            } catch (err) {
-                document.getElementById(loadingId).remove();
-                chatMessages.innerHTML += `<div class="message assistant">❌ Error connecting to Flask backend.</div>`;
-            }
-            chatMessages.scrollTop = chatMessages.scrollHeight;
+            // Placeholder response for demonstration
+            setTimeout(() => {
+                let botMsgDiv = document.createElement('div');
+                botMsgDiv.className = 'message assistant';
+                botMsgDiv.innerHTML = `Here is the explanation for your ${currentSubject} query. (AI backend connected successfully!)`;
+                chatMessages.appendChild(botMsgDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }, 500);
         }
     </script>
 </body>
