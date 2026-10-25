@@ -1,4 +1,6 @@
+
 import os
+import traceback
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from groq import Groq
@@ -255,22 +257,22 @@ def get_subject_scope(subject_name):
 
 @app.route("/chat", methods=["POST"])
 def chat():
-    data = request.json
-    # FIXED: Accepts both "message" (sent by index.html) and "prompt"
-    user_prompt = data.get("message", "") or data.get("prompt", "")
-    task_id = data.get(
-        "task", "create_notes" if "notes" in user_prompt.lower() else "explain"
-    )
-    current_level = data.get("level", "Form 4-5 / SPM")
-    selected_subject = data.get("subject", "Biologi")
-    output_language = data.get("language", "English")
-    image_data = data.get("image", None)
-    history = data.get("history", [])
+    try:
+        data = request.json
+        user_prompt = data.get("message", "") or data.get("prompt", "")
+        task_id = data.get(
+            "task", "create_notes" if "notes" in user_prompt.lower() else "explain"
+        )
+        current_level = data.get("level", "Form 4-5 / SPM")
+        selected_subject = data.get("subject", "Biologi")
+        output_language = data.get("language", "English")
+        image_data = data.get("image", None)
+        history = data.get("history", [])
 
-    task_instruction = TASK_INSTRUCTIONS.get(task_id, TASK_INSTRUCTIONS["explain"])
-    subject_scope = get_subject_scope(selected_subject)
+        task_instruction = TASK_INSTRUCTIONS.get(task_id, TASK_INSTRUCTIONS["explain"])
+        subject_scope = get_subject_scope(selected_subject)
 
-    system_prompt = f"""
+        system_prompt = f"""
 {MASTER_SYSTEM_INSTRUCTION}
 
 ==================================================
@@ -283,7 +285,6 @@ ACTIVE TASK & SUBJECT SCOPE
 - Relevant Syllabus Scope: {subject_scope}
 """
 
-    try:
         messages = [{"role": "system", "content": system_prompt}]
 
         if len(history) > 6:
@@ -303,7 +304,7 @@ ACTIVE TASK & SUBJECT SCOPE
             model_to_use = "llama-3.2-90b-vision-preview"
         else:
             messages.append({"role": "user", "content": user_prompt})
-            model_to_use = "llama-3.3-70b-versatile" # Updated to standard Groq model
+            model_to_use = "llama-3.3-70b-versatile"
 
         response = client.chat.completions.create(
             model=model_to_use,
@@ -315,7 +316,9 @@ ACTIVE TASK & SUBJECT SCOPE
             {"success": True, "task": task_id, "reply": response.choices[0].message.content}
         )
     except Exception as e:
-        return jsonify({"success": False, "error": str(e)}), 500
+        error_trace = traceback.format_exc()
+        print("PYTHON CHAT ERROR:", error_trace)
+        return jsonify({"success": False, "error": str(e), "trace": error_trace}), 500
 
 
 if __name__ == "__main__":
