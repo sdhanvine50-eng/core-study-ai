@@ -2,7 +2,7 @@
 
 
 
-       <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -171,6 +171,26 @@
         .yt-chapter-grid { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; padding-right: 5px; }
         .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
         .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; }
+
+        /* MOBILE RESPONSIVE FIX (Prevents squishing/shrinking on phones) */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                height: 100vh;
+                overflow: auto;
+            }
+            sidebar {
+                width: 100%;
+                max-height: 250px;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+            .main-container {
+                height: auto;
+                flex: 1;
+                min-height: 500px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -331,7 +351,6 @@
         let chatHistory = [];
         let activeYtForm = 4;
 
-        // Exact chapter counts mapping for all subjects
         const subjectChapterCounts = {
             "Biologi": { 4: 15, 5: 13 },
             "Kimia": { 4: 8, 5: 5 },
@@ -454,7 +473,6 @@
             const container = document.getElementById('ytChapterContainer');
             container.innerHTML = '';
 
-            // Look up exact chapter count for current subject and form
             const counts = subjectChapterCounts[currentSubject] || { 4: 10, 5: 10 };
             const totalChapters = counts[form] || 10;
 
@@ -533,4 +551,3 @@
     </script>
 </body>
 </html>
-
