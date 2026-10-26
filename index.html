@@ -55,40 +55,40 @@
         .subject-btn.active { background-color: rgba(99, 102, 241, 0.15); border-color: var(--accent); color: var(--text-main); font-weight: bold; }
         .arrow-icon { color: var(--text-muted); font-size: 11px; }
 
-        /* Main Chat Area */
-        .main-container { flex: 1; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-dark); overflow: hidden; min-width: 0; }
-        .top-bar { padding: 15px 20px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--panel-bg); }
-        .breadcrumb { font-size: 13px; color: var(--text-muted); }
+        /* Main Chat Area - Crucial min-width: 0 prevents flex overflow on mobile */
+        .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-dark); overflow: hidden; }
+        .top-bar { padding: 12px 15px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--panel-bg); }
+        .breadcrumb { font-size: 12px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .breadcrumb span { color: var(--text-main); font-weight: bold; }
 
         /* TOOLBAR */
-        .toolbar { background-color: rgba(15, 23, 42, 0.6); padding: 10px 20px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 12px; flex-wrap: wrap; gap: 8px; }
-        .toolbar-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-        .toolbar-label { color: var(--text-muted); font-weight: 600; display: flex; align-items: center; gap: 4px; }
+        .toolbar { background-color: rgba(15, 23, 42, 0.6); padding: 8px 15px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 11px; flex-wrap: wrap; gap: 6px; }
+        .toolbar-group { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+        .toolbar-label { color: var(--text-muted); font-weight: 600; display: flex; align-items: center; gap: 3px; }
         
-        .textbook-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid #4f46e5; color: #c7d2fe; padding: 4px 10px; border-radius: 6px; cursor: pointer; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s; }
+        .textbook-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid #4f46e5; color: #c7d2fe; padding: 3px 8px; border-radius: 6px; cursor: pointer; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 3px; transition: all 0.2s; }
         .textbook-btn:hover { background: #4f46e5; color: white; transform: translateY(-1px); }
 
-        .trial-btn { background: rgba(168, 85, 247, 0.15); border: 1px solid #a855f7; color: #e9d5ff; padding: 4px 10px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s; }
+        .trial-btn { background: rgba(168, 85, 247, 0.15); border: 1px solid #a855f7; color: #e9d5ff; padding: 3px 8px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 3px; transition: all 0.2s; }
         .trial-btn:hover { background: #a855f7; color: white; transform: translateY(-1px); }
 
-        .youtube-btn { background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #fca5a5; padding: 4px 10px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s; }
+        .youtube-btn { background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #fca5a5; padding: 3px 8px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 3px; transition: all 0.2s; }
         .youtube-btn:hover { background: #ef4444; color: white; transform: translateY(-1px); }
 
         .lang-switch { display: flex; background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 6px; overflow: hidden; padding: 2px; }
-        .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 3px 8px; font-size: 11px; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
+        .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 2px 6px; font-size: 10px; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
         .lang-btn.active { background: var(--accent); color: white; }
 
-        .chat-messages { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 15px; }
-        .message { max-width: 85%; padding: 14px; border-radius: 10px; line-height: 1.5; font-size: 14px; word-break: break-word; }
+        .chat-messages { flex: 1; padding: 15px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; }
+        .message { max-width: 90%; padding: 12px; border-radius: 10px; line-height: 1.5; font-size: 13px; word-break: break-word; }
         .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
         .message.user { background-color: var(--accent); color: white; align-self: flex-end; }
 
         .message.assistant span {
             background-color: #312e81 !important;
             color: #c7d2fe !important;
-            padding: 3px 6px;
-            border-radius: 6px;
+            padding: 2px 5px;
+            border-radius: 4px;
             font-weight: 600;
             border: 1px solid #4f46e5;
             display: inline-block;
@@ -97,20 +97,20 @@
             word-break: normal;
         }
 
-        .message.assistant h1, .message.assistant h2, .message.assistant h3 { margin-top: 10px; margin-bottom: 6px; color: #a5b4fc; }
-        .message.assistant p { margin-bottom: 8px; }
-        .message.assistant ul, .message.assistant ol { margin-left: 18px; margin-bottom: 8px; }
+        .message.assistant h1, .message.assistant h2, .message.assistant h3 { margin-top: 8px; margin-bottom: 4px; color: #a5b4fc; }
+        .message.assistant p { margin-bottom: 6px; }
+        .message.assistant ul, .message.assistant ol { margin-left: 15px; margin-bottom: 6px; }
         
         .message.assistant table { 
             width: 100%; 
             border-collapse: collapse; 
-            margin: 12px 0; 
-            font-size: 13px; 
+            margin: 10px 0; 
+            font-size: 12px; 
             table-layout: fixed; 
         }
         .message.assistant th, .message.assistant td { 
             border: 1px solid var(--border-color); 
-            padding: 10px 12px; 
+            padding: 8px 10px; 
             text-align: left; 
             vertical-align: top; 
             word-wrap: break-word;
@@ -133,20 +133,20 @@
             40% { transform: scale(1.0); }
         }
 
-        .input-container { padding: 15px 20px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 8px; }
-        .input-row { display: flex; width: 100%; gap: 8px; align-items: center; }
-        .chat-input { flex: 1; background-color: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 12px; border-radius: 8px; font-size: 13px; outline: none; }
+        .input-container { padding: 12px 15px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 6px; }
+        .input-row { display: flex; width: 100%; gap: 6px; align-items: center; }
+        .chat-input { flex: 1; background-color: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 12px; border-radius: 8px; font-size: 13px; outline: none; min-width: 0; }
         .chat-input:focus { border-color: var(--accent); }
         
-        .camera-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid var(--border-color); color: var(--text-main); width: 40px; height: 40px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 16px; transition: all 0.2s; }
+        .camera-btn { background: rgba(99, 102, 241, 0.1); border: 1px solid var(--border-color); color: var(--text-main); width: 38px; height: 38px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 15px; transition: all 0.2s; flex-shrink: 0; }
         .camera-btn:hover { background: rgba(99, 102, 241, 0.2); border-color: var(--accent); }
-        .uploaded-preview-container { display: none; width: 100%; align-items: center; gap: 8px; }
-        .uploaded-preview { max-width: 130px; max-height: 70px; border-radius: 6px; border: 1px solid var(--border-color); }
+        .uploaded-preview-container { display: none; width: 100%; align-items: center; gap: 6px; }
+        .uploaded-preview { max-width: 120px; max-height: 60px; border-radius: 6px; border: 1px solid var(--border-color); }
 
-        .send-btn { background-color: var(--accent); color: white; border: none; width: 40px; height: 40px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 15px; transition: opacity 0.2s; }
+        .send-btn { background-color: var(--accent); color: white; border: none; width: 38px; height: 38px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 14px; transition: opacity 0.2s; flex-shrink: 0; }
         .send-btn:hover { opacity: 0.9; }
 
-        .status-badge { background-color: rgba(34, 197, 94, 0.15); color: #22c55e; border: 1px solid rgba(34, 197, 94, 0.3); padding: 5px 10px; border-radius: 20px; font-size: 11px; font-weight: bold; }
+        .status-badge { background-color: rgba(34, 197, 94, 0.15); color: #22c55e; border: 1px solid rgba(34, 197, 94, 0.3); padding: 4px 10px; border-radius: 20px; font-size: 11px; font-weight: bold; white-space: nowrap; }
 
         /* MODALS */
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); z-index: 1000; justify-content: center; align-items: center; }
@@ -173,17 +173,19 @@
         .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
         .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; }
 
-        /* RESPONSIVE FIX: Make sidebar slightly narrower on phones so both sides are clearly visible */
+        /* MOBILE SIDE-BY-SIDE OPTIMIZATION */
         @media (max-width: 768px) {
             sidebar {
-                width: 210px;
-                min-width: 210px;
+                width: 165px;
+                min-width: 165px;
                 padding: 10px;
             }
-            .logo-title { font-size: 13px; }
-            .logo-subtitle { font-size: 9px; }
-            .subject-btn { font-size: 11px; padding: 8px 10px; }
-            .level-btn { font-size: 11px; padding: 8px 10px; }
+            .logo-title { font-size: 12px; }
+            .logo-subtitle { font-size: 8px; }
+            .subject-btn { font-size: 11px; padding: 8px 8px; }
+            .level-btn { font-size: 11px; padding: 8px 8px; }
+            .toolbar { font-size: 10px; padding: 6px 10px; }
+            .textbook-btn, .trial-btn, .youtube-btn { padding: 2px 6px; font-size: 10px; }
         }
     </style>
 </head>
@@ -209,7 +211,7 @@
 
         <div class="search-box">
             <span class="search-icon">🔍</span>
-            <input type="text" class="search-input" id="searchSubject" placeholder="Search subject..." onkeyup="filterSubjects()">
+            <input type="text" class="search-input" id="searchSubject" placeholder="Search..." onkeyup="filterSubjects()">
         </div>
 
         <div class="section-title">2. SUBJECT</div>
@@ -220,8 +222,8 @@
             <button class="subject-btn" data-subject="Matematik Tambahan" onclick="selectSubject('Matematik Tambahan')"><span>📐 Add Maths</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Matematik" onclick="selectSubject('Matematik')"><span>🔢 Matematik</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Sains" onclick="selectSubject('Sains')"><span>🔬 Sains</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Bahasa Melayu" onclick="selectSubject('Bahasa Melayu')"><span>📝 Bahasa Melayu</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Bahasa Inggeris" onclick="selectSubject('Bahasa Inggeris')"><span>🌐 Bahasa Inggeris</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Bahasa Melayu" onclick="selectSubject('Bahasa Melayu')"><span>📝 BM</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Bahasa Inggeris" onclick="selectSubject('Bahasa Inggeris')"><span>🌐 BI</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Sejarah" onclick="selectSubject('Sejarah')"><span>📜 Sejarah</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Geografi" onclick="selectSubject('Geografi')"><span>🌍 Geografi</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Pendidikan Islam" onclick="selectSubject('Pendidikan Islam')"><span>🕌 Pend. Islam</span> <span class="arrow-icon">➔</span></button>
@@ -236,23 +238,22 @@
 
     <div class="main-container">
         <div class="top-bar">
-            <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
+            <div class="breadcrumb">Form 4–5 > <span id="currentSubjectDisplay">Biologi</span></div>
             <div class="status-badge">🟢 Connected</div>
         </div>
 
         <div class="toolbar">
             <div class="toolbar-group">
                 <span class="toolbar-label">📚 Textbooks:</span>
-                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="textbook-btn">Form 4 ↗</a>
-                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="textbook-btn">Form 5 ↗</a>
+                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="textbook-btn">F4 ↗</a>
+                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="textbook-btn">F5 ↗</a>
             </div>
             <div class="toolbar-group">
                 <span class="toolbar-label">📝 Papers:</span>
-                <button class="trial-btn" onclick="openStateModal()">🏛️ State Vault</button>
-                <button class="youtube-btn" onclick="openYoutubeModal()">▶️ YouTube Hub</button>
+                <button class="trial-btn" onclick="openStateModal()">🏛️ Vault</button>
+                <button class="youtube-btn" onclick="openYoutubeModal()">▶️ YouTube</button>
             </div>
             <div class="toolbar-group">
-                <span class="toolbar-label">🌐 Lang:</span>
                 <div class="lang-switch">
                     <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">EN</button>
                     <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">BM</button>
@@ -274,7 +275,7 @@
             <div class="input-row">
                 <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
                 <button class="camera-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">📷</button>
-                <input type="text" class="chat-input" id="userInput" placeholder="Ask any question or upload photo..." onkeypress="handleKeyPress(event)">
+                <input type="text" class="chat-input" id="userInput" placeholder="Ask a question or upload photo..." onkeypress="handleKeyPress(event)">
                 <button class="send-btn" onclick="sendMessage()">➔</button>
             </div>
         </div>
