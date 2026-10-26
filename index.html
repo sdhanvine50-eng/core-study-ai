@@ -2,8 +2,7 @@
 
 
 
-       
-<!DOCTYPE html>
+       <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -213,10 +212,11 @@
             <button class="subject-btn" data-subject="Geografi" onclick="selectSubject('Geografi')"><span>🌍 Geografi</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Pendidikan Islam" onclick="selectSubject('Pendidikan Islam')"><span>🕌 Pendidikan Islam</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="Pendidikan Moral" onclick="selectSubject('Pendidikan Moral')"><span>⚖️ Pendidikan Moral</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Perniagaan" onclick="selectSubject('Perniagaan')"><span>💼 Perniagaan</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Prinsip Perakaunan" onclick="selectSubject('Prinsip Perakaunan')"><span>📊 Prinsip Perakaunan</span> <span class="arrow-icon">➔</span></button>
+            <button class="subject-btn" data-subject="Ekonomi" onclick="selectSubject('Ekonomi')"><span>📈 Ekonomi</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="PJK" onclick="selectSubject('PJK')"><span>🏃 PJK</span> <span class="arrow-icon">➔</span></button>
             <button class="subject-btn" data-subject="ASK" onclick="selectSubject('ASK')"><span>💻 ASK</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Ekonomi" onclick="selectSubject('Ekonomi')"><span>📊 Ekonomi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Perniagaan" onclick="selectSubject('Perniagaan')"><span>💼 Perniagaan</span> <span class="arrow-icon">➔</span></button>
         </div>
     </sidebar>
 
@@ -331,6 +331,27 @@
         let chatHistory = [];
         let activeYtForm = 4;
 
+        // Exact chapter counts mapping for all subjects
+        const subjectChapterCounts = {
+            "Biologi": { 4: 15, 5: 13 },
+            "Kimia": { 4: 8, 5: 5 },
+            "Fizik": { 4: 6, 5: 7 },
+            "Matematik Tambahan": { 4: 11, 5: 8 },
+            "Matematik": { 4: 10, 5: 9 },
+            "Sains": { 4: 13, 5: 9 },
+            "Sejarah": { 4: 10, 5: 10 },
+            "Perniagaan": { 4: 4, 5: 4 },
+            "Prinsip Perakaunan": { 4: 9, 5: 7 },
+            "Ekonomi": { 4: 4, 5: 4 },
+            "Pendidikan Islam": { 4: 6, 5: 6 },
+            "Pendidikan Moral": { 4: 5, 5: 5 },
+            "Bahasa Melayu": { 4: 10, 5: 10 },
+            "Bahasa Inggeris": { 4: 10, 5: 10 },
+            "Geografi": { 4: 8, 5: 8 },
+            "PJK": { 4: 6, 5: 6 },
+            "ASK": { 4: 4, 5: 4 }
+        };
+
         function filterSubjects() {
             let filter = document.getElementById('searchSubject').value.toLowerCase();
             let buttons = document.querySelectorAll('.subject-btn');
@@ -433,7 +454,11 @@
             const container = document.getElementById('ytChapterContainer');
             container.innerHTML = '';
 
-            for (let i = 1; i <= 12; i++) {
+            // Look up exact chapter count for current subject and form
+            const counts = subjectChapterCounts[currentSubject] || { 4: 10, 5: 10 };
+            const totalChapters = counts[form] || 10;
+
+            for (let i = 1; i <= totalChapters; i++) {
                 let link = document.createElement('a');
                 link.className = 'yt-chapter-link';
                 link.target = '_blank';
@@ -508,3 +533,4 @@
     </script>
 </body>
 </html>
+
