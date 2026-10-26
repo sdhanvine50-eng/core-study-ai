@@ -1,5 +1,4 @@
 
-
 import os
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
@@ -93,7 +92,7 @@ TEXTBOOK-FIRST NOTES RULES — HIGHEST PRIORITY:
 }
 
 # =====================================================================
-# 3. COMPLETE KSSM SUBJECT & TOPIC DATABASE
+# 3. COMPLETE 17 KSSM SUBJECT & ACCURATE CHAPTER DATABASE
 # =====================================================================
 SUBJECT_SCOPES = {
     "biologi": """
@@ -192,14 +191,14 @@ FORM 5 ADD MATHS:
     "matematik": """
 OFFICIAL KSSM MATHEMATICS SYLLABUS INDEX & SCOPE:
 FORM 4 MATHEMATICS:
-- Chapter 1: Quadratic Functions and Equations
+- Chapter 1: Quadratic Functions and Equations in One Variable
 - Chapter 2: Number Bases
 - Chapter 3: Logical Reasoning
 - Chapter 4: Operations on Sets
 - Chapter 5: Network in Graph Theory
-- Chapter 6: Linear Inequalities
+- Chapter 6: Linear Inequalities in Two Variables
 - Chapter 7: Graphs of Motion
-- Chapter 8: Measures of Dispersion (Ungrouped)
+- Chapter 8: Measures of Dispersion for Ungrouped Data
 - Chapter 9: Probability of Combined Events
 - Chapter 10: Consumer Mathematics: Financial Management
 FORM 5 MATHEMATICS:
@@ -207,43 +206,151 @@ FORM 5 MATHEMATICS:
 - Chapter 2: Matrices
 - Chapter 3: Consumer Mathematics: Insurance
 - Chapter 4: Consumer Mathematics: Taxation
-- Chapter 5: Transformations
-- Chapter 6: Trigonometric Functions
+- Chapter 5: Congruency, Enlargement and Combination of Transformations
+- Chapter 6: Ratios and Graphs of Trigonometric Functions
 - Chapter 7: Plans and Elevations
-- Chapter 8: Earth as a Sphere
-- Chapter 9: Measures of Dispersion (Grouped)
-- Chapter 10: Investment
+- Chapter 8: Loci in Two Dimensions
+- Chapter 9: Straight Lines
 """,
     "sains": """
 OFFICIAL KSSM SCIENCE SYLLABUS INDEX & SCOPE:
 FORM 4 SCIENCE:
-- Chapter 1: Safety in Laboratory | Chapter 2: Emergency Aid | Chapter 3: Body Parameters | Chapter 4: Breeding Tech | Chapter 5: Metabolism & Health | Chapter 6: Support & Growth | Chapter 7: Body Coordination | Chapter 8: Elements & Substances | Chapter 9: Earth | Chapter 10: Ecosystem | Chapter 11: Inheritance | Chapter 12: Nuclear Energy | Chapter 13: Universe
+- Chapter 1: Safety in Laboratory
+- Chapter 2: Emergency Aid
+- Chapter 3: Techniques of Measuring the Parameters of Body Health
+- Chapter 4: Technology of Birth Control
+- Chapter 5: Metabolism and Health
+- Chapter 6: Support, Locomotion and Growth
+- Chapter 7: Body Coordination
+- Chapter 8: Elements and Substances
+- Chapter 9: Earth
+- Chapter 10: Ecosystem
+- Chapter 11: Industrial Hygiene
+- Chapter 12: Nuclear Energy
+- Chapter 13: The Universe
 FORM 5 SCIENCE:
-- Chapter 1: Microorganisms | Chapter 2: Nutrition & Food Tech | Chapter 3: Environmental Sustainability | Chapter 4: Rate of Reaction | Chapter 5: Carbon Compound | Chapter 6: Electrochemistry | Chapter 7: Optics | Chapter 8: Force & Pressure | Chapter 9: Space Tech
+- Chapter 1: Microorganisms
+- Chapter 2: Nutrition and Food Technology
+- Chapter 3: Environmental Sustainability
+- Chapter 4: Rate of Reaction
+- Chapter 5: Carbon Compounds
+- Chapter 6: Electrochemistry
+- Chapter 7: Light, Colour and Sight
+- Chapter 8: Force and Pressure
+- Chapter 9: Space Technology
 """,
     "sejarah": """
 OFFICIAL KSSM SEJARAH SYLLABUS INDEX & SCOPE:
 FORM 4 SEJARAH:
-- Chapter 1: Warisan Negara Bangsa | Chapter 2: Nasionalisme | Chapter 3: Konflik Dunia & Jepun | Chapter 4: Peralihan Kuasa British | Chapter 5: PTM 1948 | Chapter 6: Darurat | Chapter 7: Usaha Kemerdekaan | Chapter 8: Kemerdekaan 1957 | Chapter 9: Ekonomi British | Chapter 10: Sosial British
+- Bab 1: Warisan Negara Bangsa
+- Bab 2: Kebangkitan Nasionalisme
+- Bab 3: Konflik Dunia dan Pendudukan Jepun di Negara Kita
+- Bab 4: Era Peralihan Kuasa British di Negara Kita
+- Bab 5: Persekutuan Tanah Melayu 1948
+- Bab 6: Ancaman Komunis dan Pengisytiharan Darurat
+- Bab 7: Usaha ke Arah Kemerdekaan
+- Bab 8: Pilihan Raya
+- Bab 9: Perlembagaan Persekutuan Tanah Melayu 1957
+- Bab 10: Pemasyhuran Kemerdekaan
 FORM 5 SEJARAH:
-- Chapter 1: Kedaulatan Negara | Chapter 2: Perlembagaan | Chapter 3: Raja Berperlembagaan | Chapter 4: Pentadbiran Negara | Chapter 5: Pembentukan Malaysia | Chapter 6: Cabaran Selepas Malaysia | Chapter 7: Kemakmuran Negara | Chapter 8: Sejahtera Dunia | Chapter 9: Pertubuhan Antarabangsa | Chapter 10: Kecemerlangan Malaysia
+- Bab 1: Kedaulatan Negara
+- Bab 2: Perlembagaan Persekutuan
+- Bab 3: Raja Berperlembagaan dan Demokrasi Berparlimen
+- Bab 4: Pentadbiran Negara
+- Bab 5: Pembentukan Malaysia
+- Bab 6: Cabaran Selepas Pembentukan Malaysia
+- Bab 7: Membina Kemakmuran Negara
+- Bab 8: Membina Sejahtera Dunia
+- Bab 9: Dasar Luar Malaysia
+- Bab 10: Kecemerlangan Malaysia di Persada Dunia
+""",
+    "perniagaan": """
+OFFICIAL KSSM PERNIAGAAN SYLLABUS INDEX & SCOPE:
+FORM 4 PERNIAGAAN:
+- Bab 1: Tujuan Perniagaan dan Pemilikan Perniagaan
+- Bab 2: Trend Semasa dalam Perniagaan
+- Bab 3: Penetapan Visi, Misi dan Objektif Perniagaan
+- Bab 4: Bahagian-bahagian Fungsian Utama dalam Organisasi Perniagaan
+FORM 5 PERNIAGAAN:
+- Bab 1: Pengurusan Sumber Manusia
+- Bab 2: Pengurusan Sumber Fizikal dan Teknologi
+- Bab 3: Sumber Pembiayaan Perniagaan
+- Bab 4: Penyata Kewangan Perniagaan
+""",
+    "prinsip perakaunan": """
+OFFICIAL KSSM PRINSIP PERAKAUNAN SYLLABUS INDEX & SCOPE:
+FORM 4 PERAKAUNAN:
+- Bab 1: Pengenalan kepada Perakaunan
+- Bab 2: Klasifikasi Akaun dan Persamaan Perakaunan
+- Bab 3: Dokumen Perakaunan sebagai Sumber Maklumat
+- Bab 4: Buku Catatan Pertama
+- Bab 5: Lejar
+- Bab 6: Imbangan Duga
+- Bab 7: Penyata Kewangan Milikan Tunggal Tanpa Pelarasan
+- Bab 8: Pelarasan Tarikh Imbangan dan Penyediaan Penyata Kewangan Milikan Tunggal
+- Bab 9: Pembetulan Kesilapan
+FORM 5 PERAKAUNAN:
+- Bab 1: Analisis dan Tafsiran Penyata Kewangan untuk Membuat Keputusan
+- Bab 2: Rekod Tak Lengkap
+- Bab 3: Perakaunan untuk Kawalan Dalaman
+- Bab 4: Perakaunan untuk Perkongsian
+- Bab 5: Perakaunan untuk Syarikat Berhad Menurut Syer
+- Bab 6: Perakaunan untuk Kelab dan Persatuan
+- Bab 7: Perakaunan Kos
+""",
+    "ekonomi": """
+OFFICIAL KSSM EKONOMI SYLLABUS INDEX & SCOPE:
+FORM 4 EKONOMI:
+- Bab 1: Pengenalan kepada Ekonomi (Kekurangan, pilihan, kos lepas, sistem ekonomi)
+- Bab 2: Pasaran (Permintaan, penawaran, keseimbangan pasaran)
+- Bab 3: Wang, Bank dan Pendapatan Individu
+- Bab 4: Pengeluaran (Kos, hasil, produktiviti)
+FORM 5 EKONOMI:
+- Bab 1: Pendapatan Negara
+- Bab 2: Dasar Fiskal dan Dasar Monetari
+- Bab 3: Inflasi dan Pengangguran
+- Bab 4: Perdagangan dan Keantarabangsaan
+""",
+    "pendidikan islam": """
+OFFICIAL KSSM PENDIDIKAN ISLAM SYLLABUS INDEX & SCOPE:
+FORM 4 & 5 PENDIDIKAN ISLAM:
+- Bidang Al-Quran: Hafazan, Tajwid dan Kefahaman Ayat (Surah pilihan, Larangan Rasuah, Ciri Mukmin Berjaya)
+- Bidang Hadis: Menuntut Ilmu, Indahnya Hidup Bersyariat, Kepimpinan yang Adil, Dakwah Islamiah
+- Bidang Akidah: Allah Maha Pembalas, Perkara Membatalkan Iman, Hindari Ajaran Sesat, Ahli Sunnah wal Jamaah
+- Bidang Fekah: Haji & Umrah, Sembelihan, Korban, Muamalat Islam, Perkahwinan, Pengurusan Harta & Faraid, Jenayah dalam Islam
+- Bidang Sirah & Tamadun Islam: Khulafa al-Rasyidin, Kerajaan Umaiyah, Abbasiyah, Uthmaniyyah & Tokoh Islam
+- Bidang Akhlak Islamiyah: Adab Terhadap Orang Sakit & OKU, Wasatiyyah, Tawaduk, Istiqamah, Alam Sekitar
 """,
     "pendidikan moral": """
 OFFICIAL KSSM PENDIDIKAN MORAL SYLLABUS INDEX & SCOPE:
-- Bidang 1: Diri Sendiri | Bidang 2: Keluarga | Bidang 3: Masyarakat | Bidang 4: Alam Sekitar | Bidang 5: Negara
-- Essay Formula: 8-Mark Paragraph Formula (1 Isi + 3 Huraian + 1 Contoh + 1 Kesimpulan) & Nilai Universal Opening Formula.
+- Bidang 1: Diri Sendiri (Kepercayaan kepada Tuhan, Amanah, Harga Diri, Bertanggungjawab, Berdikari, Kerajinan, Kasih Sayang, Keadilan, Rasional, Kesederhanaan)
+- Bidang 2: Keluarga (Hemah Tinggi, Hormat, Kasih Sayang, Tanggungjawab Terhadap Keluarga)
+- Bidang 3: Masyarakat (Berdikari, Kerjasama, Toleransi, Kejiranan, Kebebasan)
+- Bidang 4: Alam Sekitar (Peka, Menghargai Alam, Keharmonian Antara Manusia dan Alam)
+- Bidang 5: Negara (Patriotisme, Hak Asasi Manusia, Demokrasi, Perlembagaan Malaysia, Keamanan)
+""",
+    "geografi": """
+OFFICIAL KSSM GEOGRAFI SYLLABUS INDEX & SCOPE:
+- Form 4 & 5: Kemahiran Geografi, Jadual & Graf, Peta Lakar, Penduduk & Petempatan di Malaysia, Pengangkutan, Sumber Semula Jadi, Lembangan Saliran, Isu Alam Sekitar.
 """,
     "bahasa melayu": """
 OFFICIAL SPM BAHASA MELAYU STRUCTURES:
-- Karangan Bahagian A (Bahan Rangsangan)
-- Karangan Bahagian B (Respon Terbuka: Pendahuluan Cemerlang, Isi Berangkai 1-4, Penutup Berkesan)
+- Karangan Bahagian A (Bahan Rangsangan) & Karangan Bahagian B (Respon Terbuka)
+- Rumusan, Pemahaman Petikan, Novel Komsas, Tatabahasa, Morfologi, Sintaksis & Peribahasa.
 """,
     "bahasa inggeris": """
 OFFICIAL SPM CEFR ENGLISH WRITING STRUCTURES:
-- Part 1: Short Communicative Message
-- Part 2: Guided Writing
-- Part 3: Extended Essay / Article / Review / Story (Band 5 Standard)
+- Part 1: Short Communicative Message, Part 2: Guided Writing, Part 3: Extended Essay / Article / Review / Story (Band 5 Standard).
+- Reading Comprehension, Use of English, Listening, Speaking & Literature.
 """,
+    "pjk": """
+OFFICIAL KSSM PJK (PENDIDIKAN JASMANI & KESIHATAN):
+- Kecergasan Fizikal, Kemahiran Sukan & Permainan, Kesihatan Diri & Keluarga, Kesukanan & Keselamatan.
+""",
+    "ask": """
+OFFICIAL KSSM ASAS KARSIN MATIK (ASK) / COMPUTER SCIENCE:
+- Konsep Asas Perkomputeran, Perwakilan Data, Algoritma, Kod Arahan, Pangkalan Data (SQL), Reka Bentuk Web (HTML/CSS/JS).
+"""
 }
 
 
@@ -321,3 +428,4 @@ ACTIVE TASK & SUBJECT SCOPE
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
+
