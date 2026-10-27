@@ -1,6 +1,8 @@
 
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +86,7 @@
         .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
         .lang-btn.active { background: var(--accent); color: white; }
 
-        .chat-messages { flex: 1; padding: 25px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
+        .chat-messages { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
         .message { max-width: 85%; padding: 16px; border-radius: 12px; line-height: 1.6; font-size: 15px; word-break: break-word; }
         .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
         .message.user { background-color: var(--accent); color: white; align-self: flex-end; }
@@ -106,7 +108,7 @@
         .message.assistant p { margin-bottom: 10px; }
         .message.assistant ul, .message.assistant ol { margin-left: 20px; margin-bottom: 10px; }
         
-        /* Responsive Table Fixes for Mobile */
+        /* Table Styling */
         .message.assistant table { 
             width: 100%; 
             border-collapse: collapse; 
@@ -180,7 +182,7 @@
         .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
         .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; }
 
-        /* MOBILE SLIDE-OUT DRAWER STYLING */
+        /* MOBILE PHONE ONLY OPTIMIZATIONS */
         @media (max-width: 768px) {
             sidebar {
                 position: fixed;
@@ -199,6 +201,15 @@
             }
             .hamburger-btn {
                 display: flex;
+            }
+            /* Use full screen width for chat messages on mobile */
+            .message {
+                max-width: 96% !important;
+                padding: 12px;
+                font-size: 14px;
+            }
+            .chat-messages {
+                padding: 10px;
             }
         }
     </style>
@@ -575,4 +586,3 @@
     </script>
 </body>
 </html>
-
