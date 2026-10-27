@@ -1,11 +1,11 @@
 
 
 import os
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from groq import Groq
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='.', static_url_path='')
 CORS(app)  # Enables cross-origin requests for mobile browsers
 
 # Initialize Groq client (ensure your GROQ_API_KEY environment variable is set in Render)
@@ -35,6 +35,11 @@ Follow these master rules for every response based on the subject domain:
    - Match the output language requested by the student (English or Bahasa Melayu).
    - Break down complex processes into numbered chronological steps just like SPM trial and real exam papers.
 """
+
+# Serve the frontend index.html file at the root URL
+@app.route('/')
+def index():
+    return send_from_directory('.', 'index.html')
 
 @app.route('/chat', methods=['POST'])
 def chat():
