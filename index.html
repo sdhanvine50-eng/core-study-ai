@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,7 +105,7 @@
         .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
         .lang-btn.active { background: var(--accent); color: white; }
 
-        /* Feature 4: Clear Chat Button Style */
+        /* Clear Chat Button Style */
         .clear-chat-btn {
             background: rgba(239, 68, 68, 0.1);
             border: 1px solid #ef4444;
@@ -170,7 +169,7 @@
         }
         body.light-mode .message.assistant th { color: #3730a3; }
 
-        /* Feature 2: Copy Button Styles */
+        /* Copy Button Styles */
         .message-actions {
             display: flex;
             justify-content: flex-end;
@@ -207,7 +206,8 @@
             40% { transform: scale(1.0); }
         }
 
-        .input-container { padding: 20px 25px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 10px; transition: background-color 0.3s, border-color 0.3s; }
+        /* Updated input container with extra bottom padding for mobile browsers */
+        .input-container { padding: 20px 25px 30px 25px; background-color: var(--panel-bg); border-top: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 10px; transition: background-color 0.3s, border-color 0.3s; }
         .input-row { display: flex; width: 100%; gap: 10px; align-items: center; }
         .chat-input { flex: 1; background-color: var(--bg-dark); border: 1px solid var(--border-color); color: var(--text-main); padding: 12px 15px; border-radius: 8px; font-size: 14px; outline: none; min-width: 0; transition: background-color 0.3s, border-color 0.3s, color 0.3s; }
         .chat-input:focus { border-color: var(--accent); }
@@ -335,7 +335,6 @@
                 <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
             </div>
             <div style="display: flex; align-items: center; gap: 10px;">
-                <!-- Feature 4: Clear Chat Button -->
                 <button class="clear-chat-btn" onclick="clearChatHistory()">🗑️ Clear Chat</button>
                 <div class="status-badge">🟢 Connected</div>
             </div>
@@ -358,7 +357,6 @@
                     <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">English</button>
                     <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">Bahasa Melayu</button>
                 </div>
-                <!-- Feature 1: Theme Toggle Button -->
                 <button class="textbook-btn" id="themeToggleBtn" onclick="toggleTheme()" style="background: rgba(99, 102, 241, 0.15); border-color: var(--accent);">☀️ Theme</button>
             </div>
         </div>
@@ -472,7 +470,6 @@
             document.getElementById('appSidebar').classList.toggle('open');
         }
 
-        // Feature 1: Theme Toggle Script
         function toggleTheme() {
             document.body.classList.toggle('light-mode');
             const btn = document.getElementById('themeToggleBtn');
@@ -483,7 +480,6 @@
             }
         }
 
-        // Feature 4: Clear Chat Script
         function clearChatHistory() {
             chatHistory = [];
             const chatMessages = document.getElementById('chatMessages');
@@ -657,7 +653,6 @@
                     let rawReplyText = data.reply;
                     botMsgDiv.innerHTML = marked.parse(rawReplyText);
                     
-                    // Feature 2: Add copy notes button action bar
                     let actionDiv = document.createElement('div');
                     actionDiv.className = 'message-actions';
                     
