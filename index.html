@@ -1,6 +1,8 @@
 
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,15 +28,17 @@
         }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         
-        /* Desktop Default: Side-by-Side */
-        body { background-color: var(--bg-dark); color: var(--text-main); display: flex; flex-direction: row; height: 100vh; width: 100vw; overflow: hidden; }
+        body { background-color: var(--bg-dark); color: var(--text-main); display: flex; flex-direction: row; height: 100vh; width: 100vw; overflow: hidden; position: relative; }
         
-        sidebar { width: 320px; min-width: 320px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 20px; overflow-y: auto; height: 100vh; }
-        .logo-area { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+        sidebar { width: 320px; min-width: 320px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 20px; overflow-y: auto; height: 100vh; transition: transform 0.3s ease; z-index: 100; }
+        .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+        .logo-left { display: flex; align-items: center; gap: 12px; }
         .logo-icon { font-size: 26px; background: rgba(99, 102, 241, 0.1); padding: 8px; border-radius: 10px; }
         .logo-title { font-size: 18px; font-weight: bold; display: flex; align-items: center; gap: 6px; }
         .logo-subtitle { font-size: 12px; color: var(--text-muted); }
         
+        .close-sidebar-btn { display: none; background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; }
+
         .new-chat-btn { background: linear-gradient(135deg, #6366f1, #a855f7); color: white; border: none; padding: 12px; border-radius: 10px; font-weight: bold; cursor: pointer; margin-bottom: 20px; transition: all 0.2s; box-shadow: 0 4px 12px var(--accent-glow); display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 14px; }
         .new-chat-btn:hover { opacity: 0.95; transform: translateY(-1px); }
 
@@ -58,6 +62,9 @@
         /* Main Chat Area */
         .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-dark); overflow: hidden; }
         .top-bar { padding: 15px 25px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--panel-bg); }
+        
+        .hamburger-btn { display: none; background: rgba(99, 102, 241, 0.15); border: 1px solid var(--accent); color: white; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 16px; font-weight: bold; align-items: center; gap: 6px; }
+
         .breadcrumb { font-size: 14px; color: var(--text-muted); }
         .breadcrumb span { color: var(--text-main); font-weight: bold; }
 
@@ -173,38 +180,41 @@
         .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
         .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; }
 
-        /* MOBILE PHONE ONLY: Stack vertically so user can pick subjects easily & see chat fully */
+        /* MOBILE SLIDE-OUT DRAWER STYLING */
         @media (max-width: 768px) {
-            body {
-                flex-direction: column;
-                height: 100vh;
-                overflow-y: auto;
-            }
             sidebar {
-                width: 100%;
-                min-width: 100%;
-                height: auto;
-                max-height: 320px;
-                border-right: none;
-                border-bottom: 1px solid var(--border-color);
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100vh;
+                width: 280px;
+                transform: translateX(-100%);
+                box-shadow: 10px 0 30px rgba(0,0,0,0.7);
             }
-            .main-container {
-                height: auto;
-                min-height: 600px;
-                overflow: visible;
+            sidebar.open {
+                transform: translateX(0);
+            }
+            .close-sidebar-btn {
+                display: block;
+            }
+            .hamburger-btn {
+                display: flex;
             }
         }
     </style>
 </head>
 <body>
 
-    <sidebar>
+    <sidebar id="appSidebar">
         <div class="logo-area">
-            <div class="logo-icon">🧠</div>
-            <div>
-                <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--accent); padding: 2px 5px; border-radius: 4px; color: white;">v3.0</span></div>
-                <div class="logo-subtitle">Smart Student Assistant</div>
+            <div class="logo-left">
+                <div class="logo-icon">🧠</div>
+                <div>
+                    <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--accent); padding: 2px 5px; border-radius: 4px; color: white;">v3.0</span></div>
+                    <div class="logo-subtitle">Smart Student Assistant</div>
+                </div>
             </div>
+            <button class="close-sidebar-btn" onclick="toggleSidebar()">✕</button>
         </div>
 
         <button class="new-chat-btn" onclick="startNewChat()">✨ New Chat Session</button>
@@ -245,8 +255,11 @@
 
     <div class="main-container">
         <div class="top-bar">
-            <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
-            <div class="status-badge">🟢 Python Connected</div>
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <button class="hamburger-btn" onclick="toggleSidebar()">☰ Subjects</button>
+                <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
+            </div>
+            <div class="status-badge">🟢 Connected</div>
         </div>
 
         <div class="toolbar">
@@ -256,15 +269,14 @@
                 <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="textbook-btn">Form 5 ↗</a>
             </div>
             <div class="toolbar-group">
-                <span class="toolbar-label">📝 Papers & Modules:</span>
-                <button class="trial-btn" onclick="openStateModal()">🏛️ State Vault & Form 4 Modules</button>
-                <button class="youtube-btn" onclick="openYoutubeModal()">▶️ KSSM YouTube Hub</button>
+                <span class="toolbar-label">📝 Papers:</span>
+                <button class="trial-btn" onclick="openStateModal()">🏛️ Vault</button>
+                <button class="youtube-btn" onclick="openYoutubeModal()">▶️ YouTube Hub</button>
             </div>
             <div class="toolbar-group">
-                <span class="toolbar-label">🌐 Output Language:</span>
                 <div class="lang-switch">
-                    <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">English</button>
-                    <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">Bahasa Melayu</button>
+                    <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">EN</button>
+                    <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">BM</button>
                 </div>
             </div>
         </div>
@@ -283,7 +295,7 @@
             <div class="input-row">
                 <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
                 <button class="camera-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">📷</button>
-                <input type="text" class="chat-input" id="userInput" placeholder="Ask any question, essay prompt, or upload a question photo..." onkeypress="handleKeyPress(event)">
+                <input type="text" class="chat-input" id="userInput" placeholder="Ask any question or upload photo..." onkeypress="handleKeyPress(event)">
                 <button class="send-btn" onclick="sendMessage()">➔</button>
             </div>
         </div>
@@ -374,6 +386,10 @@
             "ASK": { 4: 4, 5: 4 }
         };
 
+        function toggleSidebar() {
+            document.getElementById('appSidebar').classList.toggle('open');
+        }
+
         function filterSubjects() {
             let filter = document.getElementById('searchSubject').value.toLowerCase();
             let buttons = document.querySelectorAll('.subject-btn');
@@ -411,6 +427,11 @@
             buttons.forEach(btn => {
                 btn.classList.toggle('active', btn.getAttribute('data-subject') === subject);
             });
+
+            // Auto-close sidebar on mobile after picking a subject
+            if(window.innerWidth <= 768) {
+                toggleSidebar();
+            }
         }
 
         function startNewChat() {
@@ -554,4 +575,3 @@
     </script>
 </body>
 </html>
-
