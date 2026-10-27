@@ -80,8 +80,8 @@ def chat():
         else:
             messages.append({"role": "user", "content": user_prompt})
 
-        # Use Groq's universally supported standard model ID
-        model_name = "llama3-8b-8192"
+        # Use Groq's active current production model
+        model_name = "llama-3.1-8b-instant"
 
         completion = client.chat.completions.create(
             model=model_name,
