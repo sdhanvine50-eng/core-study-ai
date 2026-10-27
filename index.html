@@ -1,8 +1,6 @@
 
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,9 +26,9 @@
         }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         
+        /* Desktop Default: Side-by-Side */
         body { background-color: var(--bg-dark); color: var(--text-main); display: flex; flex-direction: row; height: 100vh; width: 100vw; overflow: hidden; }
         
-        /* Default Desktop Sidebar Style */
         sidebar { width: 320px; min-width: 320px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 20px; overflow-y: auto; height: 100vh; }
         .logo-area { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
         .logo-icon { font-size: 26px; background: rgba(99, 102, 241, 0.1); padding: 8px; border-radius: 10px; }
@@ -175,20 +173,26 @@
         .yt-chapter-link { background: var(--bg-dark); border: 1px solid var(--border-color); color: #93c5fd; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
         .yt-chapter-link:hover { border-color: #ef4444; background: rgba(239, 68, 68, 0.1); color: #ffffff; }
 
-        /* MOBILE-ONLY MEDIA QUERY (Keeps desktop 100% full-sized, only adjusts on phones) */
+        /* MOBILE PHONE ONLY: Stack vertically so user can pick subjects easily & see chat fully */
         @media (max-width: 768px) {
-            sidebar {
-                width: 170px;
-                min-width: 170px;
-                padding: 10px;
+            body {
+                flex-direction: column;
+                height: 100vh;
+                overflow-y: auto;
             }
-            .logo-title { font-size: 12px; }
-            .logo-subtitle { font-size: 8px; }
-            .new-chat-btn { font-size: 12px; padding: 8px; }
-            .subject-btn { font-size: 11px; padding: 8px 8px; }
-            .level-btn { font-size: 11px; padding: 8px 8px; }
-            .toolbar { font-size: 10px; padding: 6px 10px; }
-            .textbook-btn, .trial-btn, .youtube-btn { padding: 2px 6px; font-size: 10px; }
+            sidebar {
+                width: 100%;
+                min-width: 100%;
+                height: auto;
+                max-height: 320px;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+            .main-container {
+                height: auto;
+                min-height: 600px;
+                overflow: visible;
+            }
         }
     </style>
 </head>
@@ -550,3 +554,4 @@
     </script>
 </body>
 </html>
+
