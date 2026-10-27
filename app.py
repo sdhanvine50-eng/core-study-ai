@@ -1,5 +1,4 @@
 
-
 import os
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
@@ -82,15 +81,25 @@ def chat():
         else:
             messages.append({"role": "user", "content": user_prompt})
 
-        # Call Groq's high-speed model
-        model_name = "llama-3.2-11b-vision-preview" if image_data else "llama-3.3-70b-versatile"
-        
-        completion = client.chat.completions.create(
-            model=model_name,
-            messages=messages,
-            temperature=0.25,  # Low temperature for factual, precise, curriculum-aligned accuracy
-            max_tokens=2048
-        )
+        # Primary and fallback model options to ensure zero downtime
+        primary_model = "llama-3.2-11b-vision-preview" if image_data else "llama-3.3-70b-versatile"
+        fallback_model = "llama-3.2-11b-vision-preview" if image_data else "llama-3.1-8b-instant"
+
+        try:
+            completion = client.chat.completions.create(
+                model=primary_model,
+                messages=messages,
+                temperature=0.25,
+                max_tokens=2048
+            )
+        except Exception as primary_err:
+            # Automatic fallback if primary model ID fails on the API key
+            completion = client.chat.completions.create(
+                model=fallback_model,
+                messages=messages,
+                temperature=0.25,
+                max_tokens=2048
+            )
 
         reply_text = completion.choices[0].message.content
         return jsonify({"reply": reply_text})
