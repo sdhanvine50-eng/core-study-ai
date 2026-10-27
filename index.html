@@ -1,7 +1,5 @@
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -153,6 +151,32 @@
             font-weight: 600;
         }
         body.light-mode .message.assistant th { color: #3730a3; }
+
+        /* Feature 2: Copy Button Styles */
+        .message-actions {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+            gap: 8px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 8px;
+        }
+        .copy-btn {
+            background: rgba(99, 102, 241, 0.15);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .copy-btn:hover {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
 
         .typing-dots { display: inline-flex; align-items: center; gap: 4px; padding: 4px 2px; }
         .typing-dots span { width: 6px; height: 6px; background-color: var(--text-main); border-radius: 50%; display: inline-block; animation: bounce 1.4s infinite ease-in-out both; }
@@ -604,7 +628,25 @@
                 const data = await response.json();
                 
                 if (data.reply) {
-                    botMsgDiv.innerHTML = marked.parse(data.reply);
+                    let rawReplyText = data.reply;
+                    botMsgDiv.innerHTML = marked.parse(rawReplyText);
+                    
+                    // Feature 2: Add copy notes button action bar
+                    let actionDiv = document.createElement('div');
+                    actionDiv.className = 'message-actions';
+                    
+                    let copyBtn = document.createElement('button');
+                    copyBtn.className = 'copy-btn';
+                    copyBtn.innerText = '📋 Copy Notes';
+                    copyBtn.onclick = function() {
+                        navigator.clipboard.writeText(rawReplyText);
+                        copyBtn.innerText = '✅ Copied!';
+                        setTimeout(() => { copyBtn.innerText = '📋 Copy Notes'; }, 2000);
+                    };
+                    
+                    actionDiv.appendChild(copyBtn);
+                    botMsgDiv.appendChild(actionDiv);
+
                     chatHistory.push({ role: "user", content: payloadPrompt });
                     chatHistory.push({ role: "assistant", content: data.reply });
                 } else if (data.error) {
@@ -621,3 +663,5 @@
     </script>
 </body>
 </html>
+
+
