@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,6 +105,23 @@
         .lang-switch { display: flex; background: var(--bg-dark); border: 1px solid var(--border-color); border-radius: 6px; overflow: hidden; padding: 2px; }
         .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.2s; }
         .lang-btn.active { background: var(--accent); color: white; }
+
+        /* Feature 4: Clear Chat Button Style */
+        .clear-chat-btn {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid #ef4444;
+            color: #fca5a5;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .clear-chat-btn:hover {
+            background: #ef4444;
+            color: white;
+        }
 
         .chat-messages { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
         .message { max-width: 85%; padding: 16px; border-radius: 12px; line-height: 1.6; font-size: 15px; word-break: break-word; }
@@ -316,7 +334,11 @@
                 <button class="hamburger-btn" onclick="toggleSidebar()">☰ Subjects</button>
                 <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
             </div>
-            <div class="status-badge">🟢 Connected</div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <!-- Feature 4: Clear Chat Button -->
+                <button class="clear-chat-btn" onclick="clearChatHistory()">🗑️ Clear Chat</button>
+                <div class="status-badge">🟢 Connected</div>
+            </div>
         </div>
 
         <div class="toolbar">
@@ -461,6 +483,17 @@
             }
         }
 
+        // Feature 4: Clear Chat Script
+        function clearChatHistory() {
+            chatHistory = [];
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.innerHTML = `
+                <div class="message assistant" id="welcomeMessage">
+                    Ready for <span id="welcomeSubject">${currentSubject}</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
+                </div>
+            `;
+        }
+
         function filterSubjects() {
             let filter = document.getElementById('searchSubject').value.toLowerCase();
             let buttons = document.querySelectorAll('.subject-btn');
@@ -478,14 +511,7 @@
 
         function selectSubject(subject) {
             currentSubject = subject;
-            chatHistory = [];
-            
-            const chatMessages = document.getElementById('chatMessages');
-            chatMessages.innerHTML = `
-                <div class="message assistant" id="welcomeMessage">
-                    Ready for <span id="welcomeSubject">${subject}</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
-                </div>
-            `;
+            clearChatHistory();
 
             document.getElementById('currentSubjectDisplay').innerText = subject;
             document.getElementById('modalSubject').innerText = subject;
@@ -663,5 +689,3 @@
     </script>
 </body>
 </html>
-
-
