@@ -61,11 +61,12 @@
 
         .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 8px; font-weight: 500; text-transform: uppercase; padding-left: 4px; display: flex; justify-content: space-between; align-items: center; }
 
-        /* Recent Chats History List (Gemini style) */
+        /* Recent Chats History List (Gemini Style) */
         .chat-history-list { display: flex; flex-direction: column; gap: 2px; overflow-y: auto; max-height: 350px; padding-right: 2px; }
         .history-item { background: transparent; border: 1px solid transparent; color: var(--text-muted); text-align: left; padding: 9px 12px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .history-item:hover { background: var(--panel-bg); color: var(--text-main); }
         .history-item.active { background: var(--panel-bg); color: var(--text-main); font-weight: 500; }
+        .empty-history { font-size: 12px; color: var(--text-muted); padding: 8px 4px; font-style: italic; }
 
         /* Main Chat Area */
         .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-main); overflow: hidden; }
@@ -229,9 +230,7 @@
         <!-- Recent Chats / History List (Gemini Style) -->
         <div class="section-title" style="margin-top: 10px;">Recent Chats</div>
         <div class="chat-history-list" id="chatHistoryList">
-            <div class="history-item active" onclick="loadHistorySession(0)">🧬 Biologi - Mitosis & Meiosis</div>
-            <div class="history-item" onclick="loadHistorySession(1)">📜 Sejarah Bab 4 - Malayan Union</div>
-            <div class="history-item" onclick="loadHistorySession(2)">📐 Add Maths - Differentiation</div>
+            <div class="empty-history" id="emptyHistoryMsg">No recent chats yet. Start chatting below!</div>
         </div>
     </sidebar>
 
@@ -352,6 +351,8 @@
         let currentLanguage = "English";
         let uploadedImageBase64 = null;
         let chatHistory = [];
+        let savedSessions = JSON.parse(localStorage.getItem('core_study_sessions') || '[]');
+        let activeSessionId = null;
         let activeYtForm = 4;
 
         const subjectChapterCounts = {
@@ -361,6 +362,10 @@
             "Ekonomi": { 4: 4, 5: 4 }, "Pendidikan Islam": { 4: 6, 5: 6 }, "Pendidikan Moral": { 4: 5, 5: 5 },
             "Bahasa Melayu": { 4: 10, 5: 10 }, "Bahasa Inggeris": { 4: 10, 5: 10 }, "Geografi": { 4: 8, 5: 8 },
             "PJK": { 4: 6, 5: 6 }, "ASK": { 4: 4, 5: 4 }
+        };
+
+        window.onload = function() {
+            renderChatHistoryList();
         };
 
         function toggleSidebar() {
@@ -379,12 +384,14 @@
 
         function clearChatHistory() {
             chatHistory = [];
+            activeSessionId = null;
             const chatMessages = document.getElementById('chatMessages');
             chatMessages.innerHTML = `
                 <div class="message assistant" id="welcomeMessage">
                     Ready for <span id="welcomeSubject">${currentSubject}</span> (Form 4–5 / SPM)! Ask a question, request notes, or upload a photo of an exam question.
                 </div>
             `;
+            renderChatHistoryList();
         }
 
         function setLanguage(lang) {
@@ -395,8 +402,9 @@
 
         function selectSubject(subject) {
             currentSubject = subject;
-            document.getElementById('selectedSubjectLabel').innerText = subject;
+            document.getElementById('selectedSubjectLabel').innerText = subject + " (Form 4-5)";
             document.getElementById('subjectPopupMenu').classList.remove('show');
+            
             clearChatHistory();
 
             document.getElementById('currentSubjectDisplay').innerText = subject;
@@ -417,14 +425,91 @@
         }
 
         function startNewChat() {
-            selectSubject(currentSubject);
+            clearChatHistory();
+            if(window.innerWidth <= 768) toggleSidebar();
         }
 
-        function loadHistorySession(index) {
-            let items = document.querySelectorAll('.history-item');
-            items.forEach((item, idx) => {
-                item.classList.toggle('active', idx === index);
+        function saveCurrentSession(firstPrompt) {
+            if (!activeSessionId) {
+                activeSessionId = 'session_' + Date.now();
+                let title = firstPrompt.length > 28 ? firstPrompt.substring(0, 28) + '...' : firstPrompt;
+                savedSessions.unshift({
+                    id: activeSessionId,
+                    title: `[${currentSubject}] ${title}`,
+                    subject: currentSubject,
+                    history: [...chatHistory]
+                });
+            } else {
+                let session = savedSessions.find(s => s.id === activeSessionId);
+                if (session) {
+                    session.history = [...chatHistory];
+                }
+            }
+            if (savedSessions.length > 15) savedSessions.pop(); // keep latest 15
+            localStorage.setItem('core_study_sessions', JSON.stringify(savedSessions));
+            renderChatHistoryList();
+        }
+
+        function renderChatHistoryList() {
+            const listContainer = document.getElementById('chatHistoryList');
+            if (savedSessions.length === 0) {
+                listContainer.innerHTML = `<div class="empty-history" id="emptyHistoryMsg">No recent chats yet. Start chatting below!</div>`;
+                return;
+            }
+
+            listContainer.innerHTML = '';
+            savedSessions.forEach(session => {
+                let item = document.createElement('div');
+                item.className = `history-item ${session.id === activeSessionId ? 'active' : ''}`;
+                item.innerText = session.title;
+                item.onclick = function() { loadSession(session.id); };
+                listContainer.appendChild(item);
             });
+        }
+
+        function loadSession(sessionId) {
+            let session = savedSessions.find(s => s.id === sessionId);
+            if (!session) return;
+
+            activeSessionId = session.id;
+            currentSubject = session.subject;
+            chatHistory = [...session.history];
+
+            document.getElementById('selectedSubjectLabel').innerText = currentSubject + " (Form 4-5)";
+            document.getElementById('currentSubjectDisplay').innerText = currentSubject;
+            document.getElementById('modalSubject').innerText = currentSubject;
+            document.getElementById('ytModalSubject').innerText = currentSubject;
+
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.innerHTML = '';
+
+            chatHistory.forEach(msg => {
+                let msgDiv = document.createElement('div');
+                if (msg.role === 'user') {
+                    msgDiv.className = 'message user';
+                    msgDiv.innerText = msg.content;
+                } else {
+                    msgDiv.className = 'message assistant';
+                    msgDiv.innerHTML = marked.parse(msg.content);
+                    
+                    let actionDiv = document.createElement('div');
+                    actionDiv.className = 'message-actions';
+                    let copyBtn = document.createElement('button');
+                    copyBtn.className = 'copy-btn';
+                    copyBtn.innerText = 'Copy';
+                    copyBtn.onclick = function() {
+                        navigator.clipboard.writeText(msg.content);
+                        copyBtn.innerText = 'Copied!';
+                        setTimeout(() => { copyBtn.innerText = 'Copy'; }, 2000);
+                    };
+                    actionDiv.appendChild(copyBtn);
+                    msgDiv.appendChild(actionDiv);
+                }
+                chatMessages.appendChild(msgDiv);
+            });
+
+            renderChatHistoryList();
+            if(window.innerWidth <= 768) toggleSidebar();
         }
 
         function handleKeyPress(e) {
@@ -506,6 +591,10 @@
 
             const chatMessages = document.getElementById('chatMessages');
             
+            // Remove welcome message on first message if present
+            const welcomeMsg = document.getElementById('welcomeMessage');
+            if(welcomeMsg) welcomeMsg.remove();
+
             let userMsgDiv = document.createElement('div');
             userMsgDiv.className = 'message user';
             
@@ -575,6 +664,8 @@
 
                     chatHistory.push({ role: "user", content: payloadPrompt });
                     chatHistory.push({ role: "assistant", content: data.reply });
+
+                    saveCurrentSession(payloadPrompt);
                 } else if (data.error) {
                     botMsgDiv.innerHTML = `Error: ${data.error}`;
                 } else {
