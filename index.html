@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,13 +17,11 @@
             --panel-bg: #1e1f20;
             --panel-hover: #282a2c;
             --accent: #8ab4f8;
-            --accent-glow: rgba(138, 180, 248, 0.15);
             --text-main: #e3e3e3;
             --text-muted: #8e918f;
             --border-color: #333537;
         }
 
-        /* Optional Light Mode Variables */
         body.light-mode {
             --bg-main: #ffffff;
             --sidebar-bg: #f0f4f9;
@@ -40,33 +37,35 @@
         
         body { background-color: var(--bg-main); color: var(--text-main); display: flex; flex-direction: row; height: 100vh; width: 100vw; overflow: hidden; position: relative; transition: background-color 0.3s, color 0.3s; }
         
-        sidebar { width: 280px; min-width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; overflow-y: auto; height: 100vh; transition: transform 0.3s ease, background-color 0.3s; z-index: 1000; }
+        sidebar { width: 280px; min-width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; overflow-y: auto; height: 100vh; z-index: 1000; transition: transform 0.3s ease; }
         
-        .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; padding-left: 4px; }
+        .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; padding-left: 4px; }
         .logo-left { display: flex; align-items: center; gap: 10px; }
         .logo-icon { font-size: 20px; background: rgba(138, 180, 248, 0.1); padding: 6px; border-radius: 8px; }
-        .logo-title { font-size: 16px; font-weight: 500; display: flex; align-items: center; gap: 6px; letter-spacing: 0.3px; }
+        .logo-title { font-size: 16px; font-weight: 500; display: flex; align-items: center; gap: 6px; }
         .close-sidebar-btn { display: none; background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; }
 
-        .new-chat-btn { background: var(--panel-bg); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: 24px; font-weight: 500; cursor: pointer; margin-bottom: 20px; transition: background 0.2s; display: flex; align-items: center; gap: 10px; font-size: 13px; width: fit-content; }
+        .new-chat-btn { background: var(--panel-bg); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: 24px; font-weight: 500; cursor: pointer; margin-bottom: 16px; transition: background 0.2s; display: flex; align-items: center; gap: 10px; font-size: 13px; width: 100%; }
         .new-chat-btn:hover { background: var(--panel-hover); }
 
-        .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 8px; font-weight: 500; text-transform: uppercase; padding-left: 4px; }
+        /* Subject Selector Dropdown Button */
+        .subject-select-container { position: relative; margin-bottom: 16px; }
+        .subject-dropdown-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); width: 100%; padding: 10px 14px; border-radius: 12px; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.2s; }
+        .subject-dropdown-btn:hover { background: var(--panel-hover); }
         
-        .level-list { display: flex; flex-direction: column; gap: 4px; margin-bottom: 16px; }
-        .level-btn { background: transparent; border: 1px solid transparent; color: var(--text-main); text-align: left; padding: 10px 12px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s; }
-        .level-btn.active { background: var(--panel-bg); font-weight: 600; }
+        .subject-popup-menu { display: none; position: absolute; top: 100%; left: 0; width: 100%; max-height: 250px; background: var(--sidebar-bg); border: 1px solid var(--border-color); border-radius: 12px; overflow-y: auto; z-index: 1100; margin-top: 4px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
+        .subject-popup-menu.show { display: block; }
+        .popup-subject-item { padding: 9px 14px; font-size: 13px; color: var(--text-muted); cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s; }
+        .popup-subject-item:hover { background: var(--panel-hover); color: var(--text-main); }
+        .popup-subject-item.active { background: var(--panel-bg); color: var(--text-main); font-weight: 600; }
 
-        .search-box { position: relative; margin-bottom: 12px; }
-        .search-input { width: 100%; background: var(--panel-bg); border: 1px solid transparent; color: var(--text-main); padding: 8px 12px 8px 32px; border-radius: 18px; font-size: 13px; outline: none; transition: border-color 0.2s; }
-        .search-input:focus { border-color: var(--border-color); background: var(--sidebar-bg); }
-        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 12px; color: var(--text-muted); }
+        .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 8px; font-weight: 500; text-transform: uppercase; padding-left: 4px; display: flex; justify-content: space-between; align-items: center; }
 
-        .subject-list { display: flex; flex-direction: column; gap: 2px; }
-        .subject-btn { background: transparent; border: 1px solid transparent; color: var(--text-muted); text-align: left; padding: 9px 12px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
-        .subject-btn:hover { background: var(--panel-bg); color: var(--text-main); }
-        .subject-btn.active { background: var(--panel-bg); color: var(--text-main); font-weight: 500; }
-        .arrow-icon { color: var(--text-muted); font-size: 11px; opacity: 0.7; }
+        /* Recent Chats History List (Gemini style) */
+        .chat-history-list { display: flex; flex-direction: column; gap: 2px; overflow-y: auto; max-height: 350px; padding-right: 2px; }
+        .history-item { background: transparent; border: 1px solid transparent; color: var(--text-muted); text-align: left; padding: 9px 12px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .history-item:hover { background: var(--panel-bg); color: var(--text-main); }
+        .history-item.active { background: var(--panel-bg); color: var(--text-main); font-weight: 500; }
 
         /* Main Chat Area */
         .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-main); overflow: hidden; }
@@ -79,18 +78,11 @@
 
         /* TOOLBAR */
         .toolbar { background-color: var(--bg-main); padding: 8px 24px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 12px; flex-wrap: wrap; gap: 8px; }
-        
         .toolbar-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
         .toolbar-label { color: var(--text-muted); font-weight: 500; }
         
-        .textbook-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 14px; cursor: pointer; font-weight: 500; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: background 0.2s; }
-        .textbook-btn:hover { background: var(--panel-hover); }
-
-        .trial-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 14px; cursor: pointer; font-weight: 500; display: inline-flex; align-items: center; gap: 4px; transition: background 0.2s; }
-        .trial-btn:hover { background: var(--panel-hover); }
-
-        .youtube-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 14px; cursor: pointer; font-weight: 500; display: inline-flex; align-items: center; gap: 4px; transition: background 0.2s; }
-        .youtube-btn:hover { background: var(--panel-hover); }
+        .textbook-btn, .trial-btn, .youtube-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 14px; cursor: pointer; font-weight: 500; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: background 0.2s; }
+        .textbook-btn:hover, .trial-btn:hover, .youtube-btn:hover { background: var(--panel-hover); }
 
         .lang-switch { display: flex; background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 14px; overflow: hidden; padding: 2px; }
         .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 3px 8px; font-size: 11px; font-weight: 500; cursor: pointer; border-radius: 12px; transition: all 0.2s; }
@@ -183,34 +175,13 @@
         .yt-chapter-link { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; text-decoration: none; font-size: 13px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
         .yt-chapter-link:hover { border-color: var(--text-muted); background: var(--panel-hover); }
 
-        /* MOBILE OPTIMIZATIONS */
         @media (max-width: 768px) {
-            sidebar {
-                position: fixed;
-                left: 0;
-                top: 0;
-                height: 100vh;
-                width: 270px;
-                transform: translateX(-100%);
-                box-shadow: 10px 0 30px rgba(0,0,0,0.8);
-            }
-            sidebar.open {
-                transform: translateX(0);
-            }
-            .close-sidebar-btn {
-                display: block;
-            }
-            .hamburger-btn {
-                display: flex;
-            }
-            .message {
-                max-width: 95% !important;
-                padding: 12px;
-                font-size: 13px;
-            }
-            .chat-messages {
-                padding: 12px;
-            }
+            sidebar { position: fixed; left: 0; top: 0; height: 100vh; width: 270px; transform: translateX(-100%); box-shadow: 10px 0 30px rgba(0,0,0,0.8); }
+            sidebar.open { transform: translateX(0); }
+            .close-sidebar-btn { display: block; }
+            .hamburger-btn { display: flex; }
+            .message { max-width: 95% !important; padding: 12px; font-size: 13px; }
+            .chat-messages { padding: 12px; }
         }
     </style>
 </head>
@@ -220,53 +191,54 @@
         <div class="logo-area">
             <div class="logo-left">
                 <div class="logo-icon">🧠</div>
-                <div>
-                    <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--panel-bg); border: 1px solid var(--border-color); padding: 2px 5px; border-radius: 4px; color: var(--text-main);">v3.0</span></div>
-                </div>
+                <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--panel-bg); border: 1px solid var(--border-color); padding: 2px 5px; border-radius: 4px; color: var(--text-main);">v3.0</span></div>
             </div>
             <button class="close-sidebar-btn" onclick="toggleSidebar()">✕</button>
         </div>
 
         <button class="new-chat-btn" onclick="startNewChat()"><span>+</span> New Chat Session</button>
 
-        <div class="section-title">Student Level</div>
-        <div class="level-list">
-            <button class="level-btn active">
-                <span>🎓 Form 4–5 / SPM</span>
-            </button>
+        <!-- Subject Selector Button & Popup -->
+        <div class="section-title">Select Subject</div>
+        <div class="subject-select-container">
+            <div class="subject-dropdown-btn" onclick="toggleSubjectDropdown()">
+                <span id="selectedSubjectLabel">🧬 Biologi (Form 4-5)</span>
+                <span>▼</span>
+            </div>
+            <div class="subject-popup-menu" id="subjectPopupMenu">
+                <div class="popup-subject-item active" onclick="selectSubject('Biologi')">🧬 Biologi</div>
+                <div class="popup-subject-item" onclick="selectSubject('Kimia')">🧪 Kimia</div>
+                <div class="popup-subject-item" onclick="selectSubject('Fizik')">⚡ Fizik</div>
+                <div class="popup-subject-item" onclick="selectSubject('Matematik Tambahan')">📐 Matematik Tambahan</div>
+                <div class="popup-subject-item" onclick="selectSubject('Matematik')">🔢 Matematik</div>
+                <div class="popup-subject-item" onclick="selectSubject('Sains')">🔬 Sains</div>
+                <div class="popup-subject-item" onclick="selectSubject('Bahasa Melayu')">📝 Bahasa Melayu</div>
+                <div class="popup-subject-item" onclick="selectSubject('Bahasa Inggeris')">🌐 Bahasa Inggeris</div>
+                <div class="popup-subject-item" onclick="selectSubject('Sejarah')">📜 Sejarah</div>
+                <div class="popup-subject-item" onclick="selectSubject('Geografi')">🌍 Geografi</div>
+                <div class="popup-subject-item" onclick="selectSubject('Pendidikan Islam')">🕌 Pendidikan Islam</div>
+                <div class="popup-subject-item" onclick="selectSubject('Pendidikan Moral')">⚖️ Pendidikan Moral</div>
+                <div class="popup-subject-item" onclick="selectSubject('Perniagaan')">💼 Perniagaan</div>
+                <div class="popup-subject-item" onclick="selectSubject('Prinsip Perakaunan')">📊 Prinsip Perakaunan</div>
+                <div class="popup-subject-item" onclick="selectSubject('Ekonomi')">📈 Ekonomi</div>
+                <div class="popup-subject-item" onclick="selectSubject('PJK')">🏃 PJK</div>
+                <div class="popup-subject-item" onclick="selectSubject('ASK')">💻 ASK</div>
+            </div>
         </div>
 
-        <div class="search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" class="search-input" id="searchSubject" placeholder="Search subject..." onkeyup="filterSubjects()">
-        </div>
-
-        <div class="section-title">Subjects</div>
-        <div class="subject-list" id="subjectList">
-            <button class="subject-btn active" data-subject="Biologi" onclick="selectSubject('Biologi')"><span>🧬 Biologi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Kimia" onclick="selectSubject('Kimia')"><span>🧪 Kimia</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Fizik" onclick="selectSubject('Fizik')"><span>⚡ Fizik</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Matematik Tambahan" onclick="selectSubject('Matematik Tambahan')"><span>📐 Matematik Tambahan</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Matematik" onclick="selectSubject('Matematik')"><span>🔢 Matematik</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Sains" onclick="selectSubject('Sains')"><span>🔬 Sains</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Bahasa Melayu" onclick="selectSubject('Bahasa Melayu')"><span>📝 Bahasa Melayu</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Bahasa Inggeris" onclick="selectSubject('Bahasa Inggeris')"><span>🌐 Bahasa Inggeris</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Sejarah" onclick="selectSubject('Sejarah')"><span>📜 Sejarah</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Geografi" onclick="selectSubject('Geografi')"><span>🌍 Geografi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Pendidikan Islam" onclick="selectSubject('Pendidikan Islam')"><span>🕌 Pendidikan Islam</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Pendidikan Moral" onclick="selectSubject('Pendidikan Moral')"><span>⚖️ Pendidikan Moral</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Perniagaan" onclick="selectSubject('Perniagaan')"><span>💼 Perniagaan</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Prinsip Perakaunan" onclick="selectSubject('Prinsip Perakaunan')"><span>📊 Prinsip Perakaunan</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="Ekonomi" onclick="selectSubject('Ekonomi')"><span>📈 Ekonomi</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="PJK" onclick="selectSubject('PJK')"><span>🏃 PJK</span> <span class="arrow-icon">➔</span></button>
-            <button class="subject-btn" data-subject="ASK" onclick="selectSubject('ASK')"><span>💻 ASK</span> <span class="arrow-icon">➔</span></button>
+        <!-- Recent Chats / History List (Gemini Style) -->
+        <div class="section-title" style="margin-top: 10px;">Recent Chats</div>
+        <div class="chat-history-list" id="chatHistoryList">
+            <div class="history-item active" onclick="loadHistorySession(0)">🧬 Biologi - Mitosis & Meiosis</div>
+            <div class="history-item" onclick="loadHistorySession(1)">📜 Sejarah Bab 4 - Malayan Union</div>
+            <div class="history-item" onclick="loadHistorySession(2)">📐 Add Maths - Differentiation</div>
         </div>
     </sidebar>
 
     <div class="main-container">
         <div class="top-bar">
             <div style="display: flex; align-items: center; gap: 12px;">
-                <button class="hamburger-btn" onclick="toggleSidebar()">☰ Subjects</button>
+                <button class="hamburger-btn" onclick="toggleSidebar()">☰ Menu</button>
                 <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
             </div>
             <div style="display: flex; align-items: center; gap: 10px;">
@@ -383,27 +355,20 @@
         let activeYtForm = 4;
 
         const subjectChapterCounts = {
-            "Biologi": { 4: 15, 5: 13 },
-            "Kimia": { 4: 8, 5: 5 },
-            "Fizik": { 4: 6, 5: 7 },
-            "Matematik Tambahan": { 4: 11, 5: 8 },
-            "Matematik": { 4: 10, 5: 9 },
-            "Sains": { 4: 13, 5: 9 },
-            "Sejarah": { 4: 10, 5: 10 },
-            "Perniagaan": { 4: 4, 5: 4 },
-            "Prinsip Perakaunan": { 4: 9, 5: 7 },
-            "Ekonomi": { 4: 4, 5: 4 },
-            "Pendidikan Islam": { 4: 6, 5: 6 },
-            "Pendidikan Moral": { 4: 5, 5: 5 },
-            "Bahasa Melayu": { 4: 10, 5: 10 },
-            "Bahasa Inggeris": { 4: 10, 5: 10 },
-            "Geografi": { 4: 8, 5: 8 },
-            "PJK": { 4: 6, 5: 6 },
-            "ASK": { 4: 4, 5: 4 }
+            "Biologi": { 4: 15, 5: 13 }, "Kimia": { 4: 8, 5: 5 }, "Fizik": { 4: 6, 5: 7 },
+            "Matematik Tambahan": { 4: 11, 5: 8 }, "Matematik": { 4: 10, 5: 9 }, "Sains": { 4: 13, 5: 9 },
+            "Sejarah": { 4: 10, 5: 10 }, "Perniagaan": { 4: 4, 5: 4 }, "Prinsip Perakaunan": { 4: 9, 5: 7 },
+            "Ekonomi": { 4: 4, 5: 4 }, "Pendidikan Islam": { 4: 6, 5: 6 }, "Pendidikan Moral": { 4: 5, 5: 5 },
+            "Bahasa Melayu": { 4: 10, 5: 10 }, "Bahasa Inggeris": { 4: 10, 5: 10 }, "Geografi": { 4: 8, 5: 8 },
+            "PJK": { 4: 6, 5: 6 }, "ASK": { 4: 4, 5: 4 }
         };
 
         function toggleSidebar() {
             document.getElementById('appSidebar').classList.toggle('open');
+        }
+
+        function toggleSubjectDropdown() {
+            document.getElementById('subjectPopupMenu').classList.toggle('show');
         }
 
         function toggleTheme() {
@@ -422,15 +387,6 @@
             `;
         }
 
-        function filterSubjects() {
-            let filter = document.getElementById('searchSubject').value.toLowerCase();
-            let buttons = document.querySelectorAll('.subject-btn');
-            buttons.forEach(btn => {
-                let txt = btn.innerText.toLowerCase();
-                btn.style.display = txt.includes(filter) ? 'flex' : 'none';
-            });
-        }
-
         function setLanguage(lang) {
             currentLanguage = lang;
             document.getElementById('langEnBtn').classList.toggle('active', lang === 'English');
@@ -439,6 +395,8 @@
 
         function selectSubject(subject) {
             currentSubject = subject;
+            document.getElementById('selectedSubjectLabel').innerText = subject;
+            document.getElementById('subjectPopupMenu').classList.remove('show');
             clearChatHistory();
 
             document.getElementById('currentSubjectDisplay').innerText = subject;
@@ -448,9 +406,9 @@
             document.getElementById('form4TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+${encodeURIComponent(subject)}+PDF`;
             document.getElementById('form5TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+${encodeURIComponent(subject)}+PDF`;
 
-            let buttons = document.querySelectorAll('.subject-btn');
-            buttons.forEach(btn => {
-                btn.classList.toggle('active', btn.getAttribute('data-subject') === subject);
+            let items = document.querySelectorAll('.popup-subject-item');
+            items.forEach(item => {
+                item.classList.toggle('active', item.innerText.includes(subject));
             });
 
             if(window.innerWidth <= 768) {
@@ -460,6 +418,13 @@
 
         function startNewChat() {
             selectSubject(currentSubject);
+        }
+
+        function loadHistorySession(index) {
+            let items = document.querySelectorAll('.history-item');
+            items.forEach((item, idx) => {
+                item.classList.toggle('active', idx === index);
+            });
         }
 
         function handleKeyPress(e) {
