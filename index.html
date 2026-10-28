@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,6 +40,11 @@
         
         sidebar { width: 280px; min-width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; overflow-y: auto; height: 100vh; z-index: 1000; transition: transform 0.3s ease; }
         
+        /* Custom Slim Scrollbar for Sidebar */
+        sidebar::-webkit-scrollbar { width: 6px; }
+        sidebar::-webkit-scrollbar-track { background: transparent; }
+        sidebar::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
+
         .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; padding-left: 4px; }
         .logo-left { display: flex; align-items: center; gap: 10px; }
         .logo-icon { font-size: 20px; background: rgba(138, 180, 248, 0.1); padding: 6px; border-radius: 8px; }
@@ -61,7 +67,7 @@
 
         .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 8px; font-weight: 500; text-transform: uppercase; padding-left: 4px; display: flex; justify-content: space-between; align-items: center; }
 
-        /* Recent Chats History List (Gemini Style) */
+        /* Recent Chats History List */
         .chat-history-list { display: flex; flex-direction: column; gap: 2px; overflow-y: auto; max-height: 350px; padding-right: 2px; }
         .history-item { background: transparent; border: 1px solid transparent; color: var(--text-muted); text-align: left; padding: 9px 12px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .history-item:hover { background: var(--panel-bg); color: var(--text-main); }
@@ -94,7 +100,20 @@
 
         .status-badge { background-color: rgba(52, 168, 83, 0.1); color: #81c995; border: 1px solid rgba(52, 168, 83, 0.2); padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 500; white-space: nowrap; }
 
-        .chat-messages { flex: 1; padding: 24px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; max-width: 850px; width: 100%; margin: 0 auto; }
+        /* Chat Messages Container with Custom Sleek Scrollbar */
+        .chat-messages { flex: 1; padding: 24px 32px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; max-width: 950px; width: 100%; margin: 0 auto; scrollbar-width: thin; scrollbar-color: var(--border-color) transparent; }
+        
+        .chat-messages::-webkit-scrollbar {
+            width: 6px;
+        }
+        .chat-messages::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .chat-messages::-webkit-scrollbar-thumb {
+            background-color: var(--border-color);
+            border-radius: 10px;
+        }
+
         .message { max-width: 90%; padding: 14px 18px; border-radius: 16px; line-height: 1.6; font-size: 14px; word-break: break-word; }
         .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
         .message.user { background-color: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); align-self: flex-end; }
@@ -134,7 +153,7 @@
         }
 
         /* Input Container styled like Gemini input pill */
-        .input-wrapper { max-width: 850px; width: 100%; margin: 0 auto; padding: 0 24px 24px 24px; background: var(--bg-main); }
+        .input-wrapper { max-width: 950px; width: 100%; margin: 0 auto; padding: 0 24px 24px 24px; background: var(--bg-main); }
         .input-container { background-color: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 28px; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; transition: border-color 0.2s; }
         .input-container:focus-within { border-color: var(--text-muted); }
         
@@ -227,7 +246,7 @@
             </div>
         </div>
 
-        <!-- Recent Chats / History List (Gemini Style) -->
+        <!-- Recent Chats / History List -->
         <div class="section-title" style="margin-top: 10px;">Recent Chats</div>
         <div class="chat-history-list" id="chatHistoryList">
             <div class="empty-history" id="emptyHistoryMsg">No recent chats yet. Start chatting below!</div>
@@ -445,7 +464,7 @@
                     session.history = [...chatHistory];
                 }
             }
-            if (savedSessions.length > 15) savedSessions.pop(); // keep latest 15
+            if (savedSessions.length > 15) savedSessions.pop();
             localStorage.setItem('core_study_sessions', JSON.stringify(savedSessions));
             renderChatHistoryList();
         }
@@ -591,7 +610,6 @@
 
             const chatMessages = document.getElementById('chatMessages');
             
-            // Remove welcome message on first message if present
             const welcomeMsg = document.getElementById('welcomeMessage');
             if(welcomeMsg) welcomeMsg.remove();
 
