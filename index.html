@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +39,6 @@
         
         sidebar { width: 280px; min-width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; overflow-y: auto; height: 100vh; z-index: 1000; transition: transform 0.3s ease; }
         
-        /* Custom Slim Scrollbar for Sidebar */
         sidebar::-webkit-scrollbar { width: 6px; }
         sidebar::-webkit-scrollbar-track { background: transparent; }
         sidebar::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
@@ -54,7 +52,6 @@
         .new-chat-btn { background: var(--panel-bg); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: 24px; font-weight: 500; cursor: pointer; margin-bottom: 16px; transition: background 0.2s; display: flex; align-items: center; gap: 10px; font-size: 13px; width: 100%; }
         .new-chat-btn:hover { background: var(--panel-hover); }
 
-        /* Subject Selector Dropdown Button */
         .subject-select-container { position: relative; margin-bottom: 16px; }
         .subject-dropdown-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); width: 100%; padding: 10px 14px; border-radius: 12px; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.2s; }
         .subject-dropdown-btn:hover { background: var(--panel-hover); }
@@ -67,14 +64,12 @@
 
         .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 8px; font-weight: 500; text-transform: uppercase; padding-left: 4px; display: flex; justify-content: space-between; align-items: center; }
 
-        /* Recent Chats History List */
         .chat-history-list { display: flex; flex-direction: column; gap: 2px; overflow-y: auto; max-height: 350px; padding-right: 2px; }
         .history-item { background: transparent; border: 1px solid transparent; color: var(--text-muted); text-align: left; padding: 9px 12px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .history-item:hover { background: var(--panel-bg); color: var(--text-main); }
         .history-item.active { background: var(--panel-bg); color: var(--text-main); font-weight: 500; }
         .empty-history { font-size: 12px; color: var(--text-muted); padding: 8px 4px; font-style: italic; }
 
-        /* Main Chat Area */
         .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-main); overflow: hidden; }
         .top-bar { padding: 12px 24px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--bg-main); }
         
@@ -83,7 +78,6 @@
         .breadcrumb { font-size: 13px; color: var(--text-muted); }
         .breadcrumb span { color: var(--text-main); font-weight: 500; }
 
-        /* TOOLBAR */
         .toolbar { background-color: var(--bg-main); padding: 8px 24px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 12px; flex-wrap: wrap; gap: 8px; }
         .toolbar-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
         .toolbar-label { color: var(--text-muted); font-weight: 500; }
@@ -100,19 +94,11 @@
 
         .status-badge { background-color: rgba(52, 168, 83, 0.1); color: #81c995; border: 1px solid rgba(52, 168, 83, 0.2); padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 500; white-space: nowrap; }
 
-        /* Chat Messages Container with Custom Sleek Scrollbar */
         .chat-messages { flex: 1; padding: 24px 32px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; max-width: 950px; width: 100%; margin: 0 auto; scrollbar-width: thin; scrollbar-color: var(--border-color) transparent; }
         
-        .chat-messages::-webkit-scrollbar {
-            width: 6px;
-        }
-        .chat-messages::-webkit-scrollbar-track {
-            background: transparent;
-        }
-        .chat-messages::-webkit-scrollbar-thumb {
-            background-color: var(--border-color);
-            border-radius: 10px;
-        }
+        .chat-messages::-webkit-scrollbar { width: 6px; }
+        .chat-messages::-webkit-scrollbar-track { background: transparent; }
+        .chat-messages::-webkit-scrollbar-thumb { background-color: var(--border-color); border-radius: 10px; }
 
         .message { max-width: 90%; padding: 14px 18px; border-radius: 16px; line-height: 1.6; font-size: 14px; word-break: break-word; }
         .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
@@ -152,7 +138,6 @@
             40% { transform: scale(1.0); }
         }
 
-        /* Input Container styled like Gemini input pill */
         .input-wrapper { max-width: 950px; width: 100%; margin: 0 auto; padding: 0 24px 24px 24px; background: var(--bg-main); }
         .input-container { background-color: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 28px; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; transition: border-color 0.2s; }
         .input-container:focus-within { border-color: var(--text-muted); }
@@ -161,8 +146,9 @@
         .chat-input { flex: 1; background: transparent; border: none; color: var(--text-main); padding: 4px 8px; font-size: 14px; outline: none; }
         .chat-input::placeholder { color: var(--text-muted); }
         
-        .camera-btn { background: transparent; border: none; color: var(--text-muted); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 16px; transition: background 0.2s; }
-        .camera-btn:hover { background: var(--panel-hover); color: var(--text-main); }
+        /* Plus sign button replacing camera icon */
+        .plus-btn { background: transparent; border: none; color: var(--text-muted); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 300; transition: background 0.2s; }
+        .plus-btn:hover { background: var(--panel-hover); color: var(--text-main); }
         
         .uploaded-preview-container { display: none; width: 100%; align-items: center; gap: 8px; padding-bottom: 4px; border-bottom: 1px solid var(--border-color); }
         .uploaded-preview { max-width: 120px; max-height: 60px; border-radius: 6px; border: 1px solid var(--border-color); }
@@ -170,7 +156,6 @@
         .send-btn { background-color: var(--text-main); color: var(--bg-main); border: none; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; transition: opacity 0.2s; flex-shrink: 0; }
         .send-btn:hover { opacity: 0.9; }
 
-        /* MODALS */
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.8); backdrop-filter: blur(4px); z-index: 2000; justify-content: center; align-items: center; }
         .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 92%; height: 90%; border-radius: 16px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
         .modal-header { padding: 16px 20px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; }
@@ -218,7 +203,6 @@
 
         <button class="new-chat-btn" onclick="startNewChat()"><span>+</span> New Chat Session</button>
 
-        <!-- Subject Selector Button & Popup -->
         <div class="section-title">Select Subject</div>
         <div class="subject-select-container">
             <div class="subject-dropdown-btn" onclick="toggleSubjectDropdown()">
@@ -246,7 +230,6 @@
             </div>
         </div>
 
-        <!-- Recent Chats / History List -->
         <div class="section-title" style="margin-top: 10px;">Recent Chats</div>
         <div class="chat-history-list" id="chatHistoryList">
             <div class="empty-history" id="emptyHistoryMsg">No recent chats yet. Start chatting below!</div>
@@ -299,7 +282,8 @@
                 </div>
                 <div class="input-row">
                     <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
-                    <button class="camera-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">📷</button>
+                    <!-- Plus sign button replacing the camera icon -->
+                    <button class="plus-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">+</button>
                     <input type="text" class="chat-input" id="userInput" placeholder="Ask anything, essay prompt, or upload photo..." onkeypress="handleKeyPress(event)">
                     <button class="send-btn" onclick="sendMessage()">➔</button>
                 </div>
