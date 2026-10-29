@@ -1,4 +1,3 @@
-
 import os
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
@@ -63,7 +62,7 @@ ALL 16 DETAILED SLASH COMMAND SPECIFICATIONS
 13. /uncertainty - Calculate experimental mean, spread, and percentage error.
 14. /exam - Deliver authentic SPM paper-style questions with rigorous mark schemes.
 15. /revise - Output Form & Chapter summary masterclasses and high-yield notes.
-16. /photo - Extract text via OCR from uploaded questions and provide accurate worked solutions.
+16. /photo - Extract text via OCR from uploaded questions and provide worked solutions.
 
 ==================================================
 CRITICAL STYLING & FORMATTING RULES
@@ -421,19 +420,19 @@ ACTIVE TASK & SUBJECT SCOPE
             messages.append({
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": user_prompt if user_prompt else "Provide accurate SPM answers and step-by-step solutions for the questions shown in this image strictly based on KSSM and LPM standards."},
+                    {"type": "text", "text": user_prompt},
                     {"type": "image_url", "image_url": {"url": image_data}},
                 ],
             })
-            model_to_use = "meta-llama/llama-3.2-11b-vision-instruct"
+            model_to_use = "qwen/qwen3.8-27b"  # Active vision model
         else:
             messages.append({"role": "user", "content": user_prompt})
-            model_to_use = "openai/gpt-oss-120b"
+            model_to_use = "openai/gpt-oss-120b"  # Active text model
 
         response = client.chat.completions.create(
             model=model_to_use,
             messages=messages,
-            temperature=0.2,
+            temperature=0.3,
             max_tokens=2048,
         )
         return jsonify(
