@@ -65,6 +65,11 @@
 
         .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 8px; font-weight: 500; text-transform: uppercase; padding-left: 4px; display: flex; justify-content: space-between; align-items: center; }
 
+        /* Sidebar Navigation Tools Section */
+        .sidebar-tools-section { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; border-top: 1px solid var(--border-color); padding-top: 16px; }
+        .sidebar-tool-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 500; text-decoration: none; display: flex; align-items: center; justify-content: space-between; font-size: 13px; transition: background 0.2s; width: 100%; }
+        .sidebar-tool-btn:hover { background: var(--panel-hover); }
+
         .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-main); overflow: hidden; }
         .top-bar { padding: 12px 24px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--bg-main); }
         
@@ -73,13 +78,7 @@
         .breadcrumb { font-size: 13px; color: var(--text-muted); }
         .breadcrumb span { color: var(--text-main); font-weight: 500; }
 
-        .toolbar { background-color: var(--bg-main); padding: 8px 24px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 12px; flex-wrap: wrap; gap: 8px; }
-        .toolbar-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-        .toolbar-label { color: var(--text-muted); font-weight: 500; }
-        
-        .textbook-btn, .trial-btn, .youtube-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 14px; cursor: pointer; font-weight: 500; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: background 0.2s; }
-        .textbook-btn:hover, .trial-btn:hover, .youtube-btn:hover { background: var(--panel-hover); }
-
+        .topbar-right-group { display: flex; align-items: center; gap: 10px; }
         .lang-switch { display: flex; background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 14px; overflow: hidden; padding: 2px; }
         .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 3px 8px; font-size: 11px; font-weight: 500; cursor: pointer; border-radius: 12px; transition: all 0.2s; }
         .lang-btn.active { background: var(--bg-main); color: var(--text-main); font-weight: 600; }
@@ -225,6 +224,15 @@
                 <div class="popup-subject-item" onclick="selectSubject('ASK')">💻 ASK</div>
             </div>
         </div>
+
+        <!-- REPOSITIONED STUDY TOOLS DIRECTLY IN SIDEBAR -->
+        <div class="section-title">SPM Study Resources</div>
+        <div class="sidebar-tools-section">
+            <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 4 Textbook</span> <span>↗</span></a>
+            <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 5 Textbook</span> <span>↗</span></a>
+            <button class="sidebar-tool-btn" onclick="openStateModal()"><span>🏛️ State Trial Vault</span> <span>➔</span></button>
+            <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>▶️ KSSM Video Hub</span> <span>➔</span></button>
+        </div>
     </sidebar>
 
     <div class="main-container">
@@ -233,29 +241,14 @@
                 <button class="hamburger-btn" onclick="toggleSidebar()">☰ Menu</button>
                 <div class="breadcrumb">Form 4–5 / SPM > <span id="currentSubjectDisplay">Biologi</span></div>
             </div>
-            <div style="display: flex; align-items: center; gap: 10px;">
+            <div class="topbar-right-group">
                 <button class="clear-chat-btn" onclick="clearChatHistory()">Clear Chat</button>
-                <div class="status-badge">Connected</div>
-            </div>
-        </div>
-
-        <div class="toolbar">
-            <div class="toolbar-group">
-                <span class="toolbar-label">Textbooks:</span>
-                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="textbook-btn">Form 4 ↗</a>
-                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="textbook-btn">Form 5 ↗</a>
-            </div>
-            <div class="toolbar-group">
-                <span class="toolbar-label">Modules:</span>
-                <button class="trial-btn" onclick="openStateModal()">State Vault & F4/F5 Modules</button>
-                <button class="youtube-btn" onclick="openYoutubeModal()">YouTube Hub</button>
-            </div>
-            <div class="toolbar-group">
                 <div class="lang-switch">
                     <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">EN</button>
                     <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">BM</button>
                 </div>
-                <button class="textbook-btn" id="themeToggleBtn" onclick="toggleTheme()">Theme</button>
+                <button class="clear-chat-btn" id="themeToggleBtn" onclick="toggleTheme()">Theme</button>
+                <div class="status-badge">Connected</div>
             </div>
         </div>
 
@@ -316,9 +309,9 @@
                         <button class="form-selector-badge active" id="form4Badge" onclick="setVaultForm(4)">Form 4</button>
                         <button class="form-selector-badge" id="form5Badge" onclick="setVaultForm(5)">Form 5</button>
                         <span style="width: 1px; height: 16px; background: var(--border-color); margin: 0 4px;"></span>
-                        <button class="textbook-btn" onclick="loadModuleSearch('Topical')">Topical Modules</button>
-                        <button class="textbook-btn" onclick="loadModuleSearch('PPT')">Mid-Year (PPT)</button>
-                        <button class="textbook-btn" onclick="loadModuleSearch('PAT')">Final Exam (PAT)</button>
+                        <button class="sidebar-tool-btn" style="display:inline-block; width:auto; padding:4px 10px; font-size:11px;" onclick="loadModuleSearch('Topical')">Topical Modules</button>
+                        <button class="sidebar-tool-btn" style="display:inline-block; width:auto; padding:4px 10px; font-size:11px;" onclick="loadModuleSearch('PPT')">Mid-Year (PPT)</button>
+                        <button class="sidebar-tool-btn" style="display:inline-block; width:auto; padding:4px 10px; font-size:11px;" onclick="loadModuleSearch('PAT')">Final Exam (PAT)</button>
                     </div>
                     <iframe class="pdf-viewer-frame" id="statePdfFrame" src="about:blank"></iframe>
                 </div>
