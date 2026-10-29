@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -281,6 +282,7 @@
                 <span class="toolbar-label">Modules:</span>
                 <button class="trial-btn" onclick="openStateModal()">State Vault & F4/F5 Modules</button>
                 <button class="youtube-btn" onclick="openYoutubeModal()">YouTube Hub</button>
+                <button class="trial-btn" onclick="openTimetableModal()">📅 Jadual SPM</button>
             </div>
             <div class="toolbar-group">
                 <div class="lang-switch">
@@ -375,6 +377,48 @@
         </div>
     </div>
 
+    <!-- SPM TIMETABLE MODAL -->
+    <div class="modal-overlay" id="timetableModal">
+        <div class="modal-container" style="max-width: 800px;">
+            <div class="modal-header">
+                <div class="modal-title">📅 Jadual Waktu Peperiksaan SPM</div>
+                <button class="close-modal-btn" onclick="closeTimetableModal()">Close</button>
+            </div>
+            <div style="padding: 20px; overflow-y: auto; flex: 1; color: var(--text-main);">
+                <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 14px;">Official Lembaga Peperiksaan Malaysia (LPM) examination schedule structure:</p>
+                <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                    <thead>
+                        <tr style="background: var(--panel-hover);">
+                            <th style="border: 1px solid var(--border-color); padding: 10px; text-align: left;">Phase</th>
+                            <th style="border: 1px solid var(--border-color); padding: 10px; text-align: left;">Subjects / Paper Type</th>
+                            <th style="border: 1px solid var(--border-color); padding: 10px; text-align: left;">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid var(--border-color); padding: 10px;">Phase 1</td>
+                            <td style="border: 1px solid var(--border-color); padding: 10px;">Ujian Mendengar & Bertutur (BM & BI)</td>
+                            <td style="border: 1px solid var(--border-color); padding: 10px; color: #81c995;">Early Papers</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid var(--border-color); padding: 10px;">Phase 2</td>
+                            <td style="border: 1px solid var(--border-color); padding: 10px;">Ujian Amali Sains (Fizik, Kimia, Biologi, Sains Tambahan)</td>
+                            <td style="border: 1px solid var(--border-color); padding: 10px; color: #81c995;">Laboratory Practicals</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid var(--border-color); padding: 10px;">Phase 3</td>
+                            <td style="border: 1px solid var(--border-color); padding: 10px;">Paper Bertulis (Sejarah, Matematik, Bahasa, Science Streams, AddMaths)</td>
+                            <td style="border: 1px solid var(--border-color); padding: 10px; color: var(--accent);">Main Written Papers</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="margin-top: 20px; display: flex; gap: 10px;">
+                    <a href="https://www.google.com/search?q=Jadual+Waktu+SPM+PDF+Lembaga+Peperiksaan" target="_blank" class="textbook-btn" style="flex:1; justify-content:center; padding:10px;">Download Full LPM Timetable PDF ↗</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         let currentSubject = "Biologi";
         let currentLevel = "Form 4-5 / SPM";
@@ -407,8 +451,8 @@
         };
 
         function startCountdown() {
-            // Set target date for SPM exam (e.g. December 15)
-            const targetDate = new Date("December 15, 2026 08:00:00").getTime();
+            // Target date for main SPM written exam block
+            const targetDate = new Date("February 1, 2027 08:00:00").getTime();
             
             function updateTimer() {
                 const now = new Date().getTime();
@@ -526,6 +570,14 @@
 
         function closeStateModal() {
             document.getElementById('stateModal').style.display = 'none';
+        }
+
+        function openTimetableModal() {
+            document.getElementById('timetableModal').style.display = 'flex';
+        }
+
+        function closeTimetableModal() {
+            document.getElementById('timetableModal').style.display = 'none';
         }
 
         function setVaultForm(form) {
