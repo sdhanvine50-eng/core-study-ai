@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -377,44 +376,15 @@
         </div>
     </div>
 
-    <!-- SPM TIMETABLE MODAL -->
+    <!-- DIRECT IN-APP SPM TIMETABLE MODAL -->
     <div class="modal-overlay" id="timetableModal">
-        <div class="modal-container" style="max-width: 800px;">
+        <div class="modal-container" style="max-width: 900px; height: 90vh;">
             <div class="modal-header">
-                <div class="modal-title">📅 Jadual Waktu Peperiksaan SPM</div>
+                <div class="modal-title">📅 Official SPM Examination Timetable</div>
                 <button class="close-modal-btn" onclick="closeTimetableModal()">Close</button>
             </div>
-            <div style="padding: 20px; overflow-y: auto; flex: 1; color: var(--text-main);">
-                <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 14px;">Official Lembaga Peperiksaan Malaysia (LPM) examination schedule structure:</p>
-                <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
-                    <thead>
-                        <tr style="background: var(--panel-hover);">
-                            <th style="border: 1px solid var(--border-color); padding: 10px; text-align: left;">Phase</th>
-                            <th style="border: 1px solid var(--border-color); padding: 10px; text-align: left;">Subjects / Paper Type</th>
-                            <th style="border: 1px solid var(--border-color); padding: 10px; text-align: left;">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="border: 1px solid var(--border-color); padding: 10px;">Phase 1</td>
-                            <td style="border: 1px solid var(--border-color); padding: 10px;">Ujian Mendengar & Bertutur (BM & BI)</td>
-                            <td style="border: 1px solid var(--border-color); padding: 10px; color: #81c995;">Early Papers</td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid var(--border-color); padding: 10px;">Phase 2</td>
-                            <td style="border: 1px solid var(--border-color); padding: 10px;">Ujian Amali Sains (Fizik, Kimia, Biologi, Sains Tambahan)</td>
-                            <td style="border: 1px solid var(--border-color); padding: 10px; color: #81c995;">Laboratory Practicals</td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid var(--border-color); padding: 10px;">Phase 3</td>
-                            <td style="border: 1px solid var(--border-color); padding: 10px;">Paper Bertulis (Sejarah, Matematik, Bahasa, Science Streams, AddMaths)</td>
-                            <td style="border: 1px solid var(--border-color); padding: 10px; color: var(--accent);">Main Written Papers</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div style="margin-top: 20px; display: flex; gap: 10px;">
-                    <a href="https://www.google.com/search?q=Jadual+Waktu+SPM+PDF+Lembaga+Peperiksaan" target="_blank" class="textbook-btn" style="flex:1; justify-content:center; padding:10px;">Download Full LPM Timetable PDF ↗</a>
-                </div>
+            <div style="flex: 1; padding: 16px; display: flex; flex-direction: column; gap: 10px;">
+                <iframe id="localTimetableFrame" src="spm-timetable.pdf" style="width: 100%; height: 100%; border: 1px solid var(--border-color); border-radius: 12px; background: #ffffff;"></iframe>
             </div>
         </div>
     </div>
