@@ -5,8 +5,8 @@ import os
 
 app = Flask(__name__)
 
-# Configure Gemini API Key
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY"))
+# Configure Gemini API Key securely from environment variables
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 
 # Command Prompt Definitions for SPM/KSSM
 COMMAND_PROMPTS = {
@@ -30,7 +30,6 @@ def chat():
         level = data.get('level', 'Form 4-5 / SPM')
         language = data.get('language', 'English')
         image_data = data.get('image', None)
-        chat_history = data.get('history', [])
 
         # Check for matching command prefix
         command_instruction = ""
@@ -39,7 +38,6 @@ def chat():
             if user_prompt.lower().startswith(cmd):
                 matched_command = cmd
                 command_instruction = prompt_template
-                # Extract topic after the command if present
                 clean_topic = user_prompt[len(cmd):].strip()
                 if clean_topic:
                     user_prompt = clean_topic
