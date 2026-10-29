@@ -425,10 +425,10 @@ ACTIVE TASK & SUBJECT SCOPE
                     {"type": "image_url", "image_url": {"url": image_data}},
                 ],
             })
-            model_to_use = "llama-3.2-11b-vision-preview"
+            model_to_use = "qwen/qwen3.8-27b"  # Active vision model
         else:
             messages.append({"role": "user", "content": user_prompt})
-            model_to_use = "openai/gpt-oss-120b"
+            model_to_use = "openai/gpt-oss-120b"  # Active text model
 
         response = client.chat.completions.create(
             model=model_to_use,
