@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -123,6 +122,13 @@
         .message.assistant table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; display: block; overflow-x: auto; }
         .message.assistant th, .message.assistant td { border: 1px solid var(--border-color); padding: 10px 14px; text-align: left; vertical-align: top; }
         .message.assistant th { background-color: var(--panel-hover); color: var(--text-main); font-weight: 600; }
+        
+        /* Table Column Breathing Room (Prevents squished words like Exoskeleton) */
+        .message.assistant table th:first-child, 
+        .message.assistant table td:first-child { 
+            min-width: 150px; 
+            white-space: normal; 
+        }
 
         .message-actions { display: flex; justify-content: flex-end; margin-top: 8px; gap: 6px; border-top: 1px solid var(--border-color); padding-top: 6px; }
         .copy-btn { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 500; cursor: pointer; transition: all 0.2s; }
