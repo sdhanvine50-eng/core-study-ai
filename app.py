@@ -1,5 +1,4 @@
 
-
 import os
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
@@ -426,7 +425,7 @@ ACTIVE TASK & SUBJECT SCOPE
                     {"type": "image_url", "image_url": {"url": image_data}},
                 ],
             })
-            model_to_use = "llama-3.2-90b-vision-preview"
+            model_to_use = "llama-3.2-11b-vision-preview"
         else:
             messages.append({"role": "user", "content": user_prompt})
             model_to_use = "openai/gpt-oss-120b"
