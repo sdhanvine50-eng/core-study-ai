@@ -65,7 +65,6 @@
 
         .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 8px; font-weight: 500; text-transform: uppercase; padding-left: 4px; display: flex; justify-content: space-between; align-items: center; }
 
-        /* Sidebar Navigation Tools Section */
         .sidebar-tools-section { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; border-top: 1px solid var(--border-color); padding-top: 16px; }
         .sidebar-tool-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 500; text-decoration: none; display: flex; align-items: center; justify-content: space-between; font-size: 13px; transition: background 0.2s; width: 100%; }
         .sidebar-tool-btn:hover { background: var(--panel-hover); }
@@ -97,6 +96,14 @@
         .message { max-width: 90%; padding: 14px 18px; border-radius: 16px; line-height: 1.6; font-size: 14px; word-break: break-word; }
         .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
         .message.user { background-color: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); align-self: flex-end; }
+
+        /* Clickable Chat Images (Gemini Style) */
+        .chat-img-thumb { max-width: 200px; max-height: 160px; border-radius: 8px; display: block; margin-bottom: 8px; cursor: pointer; border: 1px solid var(--border-color); transition: transform 0.2s; }
+        .chat-img-thumb:hover { transform: scale(1.02); border-color: var(--accent); }
+
+        /* Fullscreen Image Lightbox Modal */
+        .image-modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.9); z-index: 3000; justify-content: center; align-items: center; cursor: zoom-out; }
+        .image-modal-overlay img { max-width: 90vw; max-height: 90vh; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.8); }
 
         .message.assistant span {
             background-color: #2a2d32 !important;
@@ -144,10 +151,9 @@
         .plus-btn:hover { background: var(--panel-hover); color: #ffffff; }
         
         .uploaded-preview-container { display: none; width: 100%; align-items: center; gap: 10px; padding: 6px 10px; border-bottom: 1px solid var(--border-color); background: rgba(255,255,255,0.03); border-radius: 8px; }
-        .uploaded-preview { max-width: 120px; max-height: 60px; border-radius: 6px; border: 1px solid var(--border-color); }
+        .uploaded-preview { max-width: 60px; max-height: 50px; border-radius: 6px; border: 1px solid var(--border-color); cursor: pointer; }
         .preview-info { display: flex; flex-direction: column; gap: 2px; flex: 1; }
         .preview-label { font-size: 11px; font-weight: 600; color: var(--accent); }
-        .preview-subtext { font-size: 10px; color: var(--text-muted); }
 
         .send-btn { background-color: var(--text-main); color: var(--bg-main); border: none; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; transition: opacity 0.2s; flex-shrink: 0; }
         .send-btn:hover { opacity: 0.9; }
@@ -264,21 +270,25 @@
         <div class="input-wrapper">
             <div class="input-container">
                 <div class="uploaded-preview-container" id="previewContainer">
-                    <img class="uploaded-preview" id="previewImg" src="" alt="Pasted Screenshot">
+                    <img class="uploaded-preview" id="previewImg" src="" alt="Pasted Screenshot" onclick="openImageModal(this.src)">
                     <div class="preview-info">
-                        <span class="preview-label">📸 Image Attached</span>
-                        <span class="preview-subtext">Captured screenshot ready to send</span>
+                        <span class="preview-label">📸 Image Attached (Click to zoom)</span>
                     </div>
                     <button onclick="clearImage()" style="background:none; border:none; color:#f87171; font-weight:bold; cursor:pointer; font-size:12px;">✕ Remove</button>
                 </div>
                 <div class="input-row">
                     <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
                     <button class="plus-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">+</button>
-                    <input type="text" class="chat-input" id="userInput" placeholder="Ask anything, paste screenshot (Ctrl+V or Right-Click Paste)..." onkeypress="handleKeyPress(event)">
+                    <input type="text" class="chat-input" id="userInput" placeholder="Ask Core AI..." onkeypress="handleKeyPress(event)">
                     <button class="send-btn" onclick="sendMessage()">➔</button>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- FULLSCREEN IMAGE LIGHTBOX MODAL (GEMINI STYLE) -->
+    <div class="image-modal-overlay" id="imageModalOverlay" onclick="closeImageModal()">
+        <img id="modalFullImage" src="" alt="Fullscreen View">
     </div>
 
     <!-- STATE TRIAL & FORM MODULES MODAL -->
@@ -361,7 +371,7 @@
             "PJK": { 4: 6, 5: 6 }, "ASK": { 4: 4, 5: 4 }
         };
 
-        // GLOBAL CLIPBOARD PASTE EVENT LISTENER (SUPPORTS SCREENSHOT PASTE & RIGHT-CLICK PASTE)
+        // GLOBAL CLIPBOARD PASTE EVENT LISTENER
         window.addEventListener('paste', function (e) {
             const items = e.clipboardData ? e.clipboardData.items : null;
             if (!items) return;
@@ -369,7 +379,6 @@
             for (let i = 0; i < items.length; i++) {
                 if (items[i].type.indexOf('image') !== -1) {
                     e.preventDefault();
-                    
                     const blob = items[i].getAsFile();
                     const reader = new FileReader();
 
@@ -384,6 +393,15 @@
                 }
             }
         });
+
+        function openImageModal(imgSrc) {
+            document.getElementById('modalFullImage').src = imgSrc;
+            document.getElementById('imageModalOverlay').style.display = 'flex';
+        }
+
+        function closeImageModal() {
+            document.getElementById('imageModalOverlay').style.display = 'none';
+        }
 
         function toggleSidebar() {
             document.getElementById('appSidebar').classList.toggle('open');
@@ -536,7 +554,7 @@
             userMsgDiv.className = 'message user';
             
             if (uploadedImageBase64) {
-                userMsgDiv.innerHTML = `<img src="${uploadedImageBase64}" style="max-width:180px; border-radius:8px; display:block; margin-bottom:8px;">` + messageText;
+                userMsgDiv.innerHTML = `<img src="${uploadedImageBase64}" class="chat-img-thumb" onclick="openImageModal(this.src)" alt="Question">` + (messageText ? `<div>${messageText}</div>` : '');
             } else {
                 userMsgDiv.innerText = messageText;
             }
