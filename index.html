@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+          <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -271,7 +271,6 @@
                 </div>
                 <div class="input-row">
                     <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
-                    <!-- Larger and brighter white plus button -->
                     <button class="plus-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">+</button>
                     <input type="text" class="chat-input" id="userInput" placeholder="Ask anything, essay prompt, or upload photo..." onkeypress="handleKeyPress(event)">
                     <button class="send-btn" onclick="sendMessage()">➔</button>
@@ -284,32 +283,26 @@
     <div class="modal-overlay" id="stateModal">
         <div class="modal-container">
             <div class="modal-header">
-                <div class="modal-title">🏛️ State Trial Papers & Form 4 Modules (<span id="modalSubject">Biologi</span>)</div>
+                <div class="modal-title">🏛️ State Trial Papers Vault (<span id="modalSubject">Biologi</span>)</div>
                 <button class="close-modal-btn" onclick="closeStateModal()">Close</button>
             </div>
             <div class="modal-body">
                 <div class="state-selector-panel">
-                    <div style="font-size: 11px; color: var(--text-muted); font-weight: 500; margin-bottom: 4px;">SPM STATE PAPERS:</div>
+                    <div style="font-size: 11px; color: var(--text-muted); font-weight: 500; margin-bottom: 4px;">DIRECT PDF VIEWERS:</div>
+                    <div class="state-item" onclick="loadDirectPdf('https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'Sample Trial Paper')">
+                        <div><div class="state-item-name">SPM Trial 2025 (Sample)</div><div class="state-item-tag">Direct PDF View</div></div><span>➔</span>
+                    </div>
+                    
+                    <div style="font-size: 11px; color: var(--text-muted); font-weight: 500; margin: 12px 0 4px 0;">SPM STATE SEARCH VAULT:</div>
                     <div class="state-item" onclick="loadStateSearch('SBP')"><div><div class="state-item-name">SBP</div><div class="state-item-tag">Sekolah Berasrama Penuh</div></div><span>➔</span></div>
                     <div class="state-item" onclick="loadStateSearch('MRSM')"><div><div class="state-item-name">MRSM</div><div class="state-item-tag">Maktab Rendah Sains MARA</div></div><span>➔</span></div>
                     <div class="state-item" onclick="loadStateSearch('Selangor')"><div><div class="state-item-name">Selangor</div><div class="state-item-tag">JPNSelangor</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kuala Lumpur')"><div><div class="state-item-name">Kuala Lumpur</div><div class="state-item-tag">JPWPKL</div></div><span>➔</span></div>
                     <div class="state-item" onclick="loadStateSearch('Johor')"><div><div class="state-item-name">Johor</div><div class="state-item-tag">JPNJohor</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Pulau Pinang')"><div><div class="state-item-name">Pulau Pinang</div><div class="state-item-tag">JPNPenang</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Perak')"><div><div class="state-item-name">Perak</div><div class="state-item-tag">JPNPerak</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Pahang')"><div><div class="state-item-name">Pahang</div><div class="state-item-tag">JPNPahang</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kedah')"><div><div class="state-item-name">Kedah</div><div class="state-item-tag">JPNKedah</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kelantan')"><div><div class="state-item-name">Kelantan</div><div class="state-item-tag">JPNKelantan</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Terengganu')"><div><div class="state-item-name">Terengganu</div><div class="state-item-tag">JPNTerengganu</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Negeri Sembilan')"><div><div class="state-item-name">Negeri Sembilan</div><div class="state-item-tag">JPNS</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Melaka')"><div><div class="state-item-name">Melaka</div><div class="state-item-tag">JPNMelaka</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Sabah')"><div><div class="state-item-name">Sabah</div><div class="state-item-tag">JPNSabah</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Sarawak')"><div><div class="state-item-name">Sarawak</div><div class="state-item-tag">JPNSarawak</div></div><span>➔</span></div>
                 </div>
                 
                 <div class="modal-content-area">
                     <div class="f4-shortcut-bar">
-                        <span style="font-size: 11px; color: var(--text-muted); font-weight: 500; align-self: center;">FORM 4 VAULT:</span>
+                        <span style="font-size: 11px; color: var(--text-muted); font-weight: 500; align-self: center;">QUICK MODES:</span>
                         <button class="textbook-btn" onclick="loadForm4PaperSearch('Topical')">Topical Modules</button>
                         <button class="textbook-btn" onclick="loadForm4PaperSearch('PPT')">Mid-Year Exam (PPT)</button>
                         <button class="textbook-btn" onclick="loadForm4PaperSearch('PAT')">Final Exam (PAT)</button>
@@ -445,6 +438,11 @@
             document.getElementById('stateModal').style.display = 'none';
         }
 
+        function loadDirectPdf(pdfUrl, title) {
+            const iframe = document.getElementById('statePdfFrame');
+            iframe.src = `https://docs.google.com/gview?url=${encodeURIComponent(pdfUrl)}&embedded=true`;
+        }
+
         function loadStateSearch(state) {
             let query = `Soalan+Trial+SPM+${encodeURIComponent(state)}+${encodeURIComponent(currentSubject)}+PDF`;
             document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${query}&igu=1`;
@@ -577,4 +575,4 @@
         }
     </script>
 </body>
-</html>
+</html>      
