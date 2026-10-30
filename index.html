@@ -254,11 +254,11 @@
             <!-- SIDEBAR STUDY TOOLS -->
             <div class="section-title">SPM Study Resources</div>
             <div class="sidebar-tools-section">
-                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 4 Textbook</span> <span>↗</span></a>
-                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 5 Textbook</span> <span>↗</span></a>
-                <button class="sidebar-tool-btn" onclick="openStateModal()"><span>🏛️ State Trial Vault</span> <span>➔</span></button>
-                <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>▶️ KSSM Video Hub</span> <span>➔</span></button>
-                <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>🎯 Contoh Teknik Menjawab</span> <span>↗</span></button>
+                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>Form 4 Textbook</span> <span>↗</span></a>
+                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>Form 5 Textbook</span> <span>↗</span></a>
+                <button class="sidebar-tool-btn" onclick="openStateModal()"><span>State Trial Vault</span> <span>➔</span></button>
+                <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>KSSM Video Hub</span> <span>➔</span></button>
+                <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>Contoh Teknik Menjawab</span> <span>↗</span></button>
             </div>
         </div>
 
@@ -578,7 +578,7 @@
                 link.className = 'yt-chapter-link';
                 link.target = '_blank';
                 link.href = `https://www.youtube.com/results?search_query=KSSM+${encodeURIComponent(currentSubject)}+Form+${form}+Chapter+${i}`;
-                link.innerHTML = `<span>▶️ Form ${form} Chapter ${i} Video Lessons</span> <span>↗</span>`;
+                link.innerHTML = `<span>Form ${form} Chapter ${i} Video Lessons</span> <span>↗</span>`;
                 container.appendChild(link);
             }
         }
@@ -640,6 +640,8 @@
                 });
 
                 const data = await response.json();
+                
+                .
                 
                 if (data.reply) {
                     let rawReplyText = data.reply;
