@@ -132,7 +132,37 @@ TEXTBOOK-FIRST NOTES RULES — HIGHEST PRIORITY:
 }
 
 # =====================================================================
-# 3. COMPLETE 17 KSSM SUBJECT & ACCURATE CHAPTER DATABASE
+# 3. COMPLETE SUBJECT RULES FOR KSSM & SPM
+# =====================================================================
+SUBJECT_RULES = {
+    "biologi": "Prioritize accurate biological terminology, structures, functions, processes, relationships, and cause-and-effect explanations.",
+    "kimia": "Prioritize chemical terminology, formulae, equations, observations, explanations, calculations, and experimental reasoning.",
+    "fizik": "Prioritize physical principles, formulae, units, calculations, graphs, relationships between quantities, and step-by-step reasoning.",
+    "matematik tambahan": "Prioritize correct methods, formulae, algebraic reasoning, mathematical notation, step-by-step working, and verified final answers.",
+    "matematik": "Prioritize correct methods, mathematical reasoning, formulae, calculations, working steps, units where relevant, and verified answers.",
+    "bahasa melayu": "Prioritize correct tatabahasa, kosa kata, ejaan, format, sentence structure, comprehension, and appropriate writing style.",
+    "bahasa inggeris": "Prioritize correct grammar, vocabulary, spelling, sentence structure, comprehension, and appropriate writing conventions.",
+    "sejarah": "Prioritize accurate historical facts, chronology, causes, effects, important figures, events, and evidence-based explanations.",
+    "pendidikan islam": "Prioritize accurate Islamic terminology, concepts, evidence, practices, values, and syllabus-appropriate explanations.",
+    "pendidikan moral": "Prioritize accurate nilai, definitions, explanations, examples, applications, and appropriate exam-answer structure.",
+    "geografi": "Prioritize geographical concepts, processes, locations, patterns, causes, effects, examples, data interpretation, and map-related reasoning.",
+    "ekonomi": "Prioritize economic concepts, definitions, relationships, causes, effects, diagrams, calculations, and real-world applications.",
+    "perniagaan": "Prioritize business concepts, definitions, processes, functions, examples, applications, and structured exam answers.",
+    "prinsip perakaunan": "Prioritize accounting principles, terminology, formats, calculations, double-entry procedures, and accurate working.",
+    "pendidikan seni visual": "Prioritize art terminology, elements and principles of design, techniques, processes, artists, artworks, and visual analysis.",
+    "pjk": "Prioritize accurate concepts, techniques, rules, physical activity principles, health knowledge, safety, and practical applications.",
+    "asassaniskomputer": "Prioritize data representation, algorithms, code instructions, databases, and cyber security concepts according to KSSM Form 4-5."
+}
+
+def get_subject_rule(subject_name):
+    key = subject_name.lower().strip()
+    return SUBJECT_RULES.get(
+        key,
+        "Prioritize accurate concepts, curriculum standards, terminology, and structure."
+    )
+
+# =====================================================================
+# 4. COMPLETE 17 KSSM SUBJECT & ACCURATE CHAPTER DATABASE
 # =====================================================================
 SUBJECT_SCOPES = {
     "biologi": """
@@ -359,7 +389,7 @@ FORM 4 & 5 PENDIDIKAN ISLAM:
 - Bidang Akidah: Allah Maha Pembalas, Perkara Membatalkan Iman, Hindari Ajaran Sesat, Ahli Sunnah wal Jamaah
 - Bidang Fekah: Haji & Umrah, Sembelihan, Korban, Muamalat Islam, Perkahwinan, Pengurusan Harta & Faraid, Jenayah dalam Islam
 - Bidang Sirah & Tamadun Islam: Khulafa al-Rasyidin, Kerajaan Umaiyah, Abbasiyah, Uthmaniyyah & Tokoh Islam
-- Bidang Akhlak Islamiyah: Adab Terhadap Orang Sakit & OKU, Wasatiyyah, Tawaduk, Istiqamah, Alam Sekitar
+- Bidang Akhlak Islamiah: Adab Terhadap Orang Sakit & OKU, Wasatiyyah, Tawaduk, Istiqamah, Alam Sekitar
 """,
     "pendidikan moral": """
 OFFICIAL KSSM PENDIDIKAN MORAL SYLLABUS INDEX & SCOPE:
@@ -390,8 +420,8 @@ OFFICIAL SPM CEFR ENGLISH WRITING STRUCTURES:
 OFFICIAL KSSM PJK (PENDIDIKAN JASMANI & KESIHATAN):
 - Kecergasan Fizikal, Kemahiran Sukan & Permainan, Kesihatan Diri & Keluarga, Kesukanan & Keselamatan.
 """,
-    "ask": """
-OFFICIAL KSSM ASAS KARSIN MATIK (ASK) / COMPUTER SCIENCE:
+    "asassaniskomputer": """
+OFFICIAL KSSM ASAS SAINS KOMPUTER (ASK) / COMPUTER SCIENCE:
 - Konsep Asas Perkomputeran, Perwakilan Data, Algoritma, Kod Arahan, Pangkalan Data (SQL), Reka Bentuk Web (HTML/CSS/JS).
 """
 }
@@ -420,6 +450,7 @@ def chat():
 
     task_instruction = TASK_INSTRUCTIONS.get(task_id, TASK_INSTRUCTIONS["explain"])
     subject_scope = get_subject_scope(selected_subject)
+    subject_rule = get_subject_rule(selected_subject)
 
     system_prompt = f"""
 {MASTER_SYSTEM_INSTRUCTION}
@@ -431,6 +462,7 @@ ACTIVE TASK & SUBJECT SCOPE
 - Subject: {selected_subject}
 - Language: {output_language}
 - Task Instruction: {task_instruction}
+- Subject Specific Rule: {subject_rule}
 - Relevant Syllabus Scope: {subject_scope}
 """
 
