@@ -86,11 +86,10 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* USER PROFILE BADGE (GEMINI STYLE) */
+        /* USER PROFILE BADGE */
         .user-profile-card { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; padding-left: 4px; padding-right: 4px; }
         .profile-info { display: flex; align-items: center; gap: 10px; }
         .profile-avatar { width: 34px; height: 34px; border-radius: 50%; background-color: #3e4246; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; color: #ffffff; border: 1px solid var(--border-color); overflow: hidden; }
-        .profile-avatar img { width: 100%; height: 100%; object-fit: cover; }
         .profile-name { font-size: 13px; font-weight: 500; color: var(--text-main); }
         .profile-settings-btn { background: none; border: none; color: var(--text-muted); font-size: 16px; cursor: pointer; padding: 6px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background 0.2s, color 0.2s; }
         .profile-settings-btn:hover { background: var(--panel-hover); color: var(--text-main); }
@@ -124,11 +123,9 @@
         .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
         .message.user { background-color: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); align-self: flex-end; }
 
-        /* Clickable Chat Images (Gemini Style) */
         .chat-img-thumb { max-width: 200px; max-height: 160px; border-radius: 8px; display: block; margin-bottom: 8px; cursor: pointer; border: 1px solid var(--border-color); transition: transform 0.2s; }
         .chat-img-thumb:hover { transform: scale(1.02); border-color: var(--accent); }
 
-        /* Fullscreen Image Lightbox Modal */
         .image-modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.9); z-index: 3000; justify-content: center; align-items: center; cursor: zoom-out; }
         .image-modal-overlay img { max-width: 90vw; max-height: 90vh; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.8); }
 
@@ -147,16 +144,9 @@
         .message.assistant p { margin-bottom: 8px; }
         .message.assistant ul, .message.assistant ol { margin-left: 18px; margin-bottom: 8px; }
         
-        /* WIDER, SCROLLABLE TABLES FOR MOBILE */
         .message.assistant table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; display: block; overflow-x: auto; white-space: normal; }
-        .message.assistant th, .message.assistant td { border: 1px solid var(--border-color); padding: 12px 16px; text-align: left; vertical-align: top; }
+        .message.assistant th, .message.assistant td { border: 1px solid var(--border-color); padding: 12px 16px; text-align: left; vertical-align: top; min-width: 180px; }
         .message.assistant th { background-color: var(--panel-hover); color: var(--text-main); font-weight: 600; }
-        
-        /* Give columns generous breathing room so words don't cramp */
-        .message.assistant table th, 
-        .message.assistant table td { 
-            min-width: 180px; 
-        }
 
         .message-actions { display: flex; justify-content: flex-end; margin-top: 8px; gap: 6px; border-top: 1px solid var(--border-color); padding-top: 6px; }
         .copy-btn { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 500; cursor: pointer; transition: all 0.2s; }
@@ -218,6 +208,10 @@
         .yt-chapter-link { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; text-decoration: none; font-size: 13px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
         .yt-chapter-link:hover { border-color: var(--text-muted); background: var(--panel-hover); }
 
+        /* Calculator Styles */
+        .calc-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 14px; font-size: 14px; font-weight: 500; border-radius: 8px; cursor: pointer; transition: background 0.2s; }
+        .calc-btn:hover { background: var(--panel-hover); }
+
         @media (max-width: 768px) {
             sidebar { position: fixed; left: 0; top: 0; height: 100dvh; width: 270px; transform: translateX(-100%); box-shadow: 10px 0 30px rgba(0,0,0,0.8); }
             sidebar.open { transform: translateX(0); }
@@ -234,7 +228,6 @@
     <sidebar id="appSidebar">
         <div class="logo-area">
             <div class="logo-left">
-                <!-- SVG INTEGRATION OF YOUR INTELLIGENT CORE LOGO -->
                 <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                         <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -278,7 +271,7 @@
                     <div class="popup-subject-item" onclick="selectSubject('Prinsip Perakaunan')">Prinsip Perakaunan</div>
                     <div class="popup-subject-item" onclick="selectSubject('Ekonomi')">Ekonomi</div>
                     <div class="popup-subject-item" onclick="selectSubject('PJK')">PJK</div>
-                    <div class="popup-subject-item" onclick="selectSubject('ASK')">ASK</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Asas Sains Komputer')">Asas Sains Komputer</div>
                 </div>
             </div>
 
@@ -290,8 +283,9 @@
                 <button class="sidebar-tool-btn" onclick="openStateModal()"><span>State Trial Vault</span> <span>➔</span></button>
                 <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>KSSM Video Hub</span> <span>➔</span></button>
                 <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>Contoh Teknik Menjawab</span> <span>↗</span></button>
+                <button class="sidebar-tool-btn" onclick="openCalcModal()"><span>Scientific Calculator</span> <span>🧮</span></button>
                 
-                <!-- CUSTOMIZABLE STUDY TIMER WIDGET -->
+                <!-- STUDY TIMER WIDGET -->
                 <div class="timer-card">
                     <div class="section-title" style="margin-bottom: 2px;">Study Timer</div>
                     <div class="timer-input-row">
@@ -308,10 +302,9 @@
             </div>
         </div>
 
-        <!-- USER PROFILE CARD (GEMINI STYLE) -->
         <div class="user-profile-card">
             <div class="profile-info">
-                <div class="profile-avatar">DS</div>
+                <div class="profile-avatar" style="display:flex; align-items:center; justify-content:center;">DS</div>
                 <div class="profile-name" id="userNameDisplay">Dhanvine Suresh</div>
             </div>
             <button class="profile-settings-btn" title="Settings" onclick="promptChangeName()">⚙️</button>
@@ -360,9 +353,55 @@
         </div>
     </div>
 
-    <!-- FULLSCREEN IMAGE LIGHTBOX MODAL (GEMINI STYLE) -->
+    <!-- FULLSCREEN IMAGE LIGHTBOX MODAL -->
     <div class="image-modal-overlay" id="imageModalOverlay" onclick="closeImageModal()">
         <img id="modalFullImage" src="" alt="Fullscreen View">
+    </div>
+
+    <!-- SCIENTIFIC CALCULATOR MODAL -->
+    <div class="modal-overlay" id="calcModal">
+        <div class="modal-container" style="max-width: 420px; height: auto;">
+            <div class="modal-header">
+                <div class="modal-title">🧮 SPM Scientific Calculator</div>
+                <button class="close-modal-btn" onclick="closeCalcModal()">Close</button>
+            </div>
+            <div style="padding: 16px; display: flex; flex-direction: column; gap: 12px;">
+                <input type="text" id="calcScreen" readonly style="width: 100%; background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); font-size: 20px; padding: 12px; border-radius: 8px; text-align: right; outline: none;" value="0">
+                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;">
+                    <button class="calc-btn" onclick="calcClear()">C</button>
+                    <button class="calc-btn" onclick="calcAppend('(')">(</button>
+                    <button class="calc-btn" onclick="calcAppend(')')">)</button>
+                    <button class="calc-btn" onclick="calcAppend('/')">÷</button>
+                    
+                    <button class="calc-btn" onclick="calcFunc('Math.sin(')">sin</button>
+                    <button class="calc-btn" onclick="calcFunc('Math.cos(')">cos</button>
+                    <button class="calc-btn" onclick="calcFunc('Math.tan(')">tan</button>
+                    <button class="calc-btn" onclick="calcAppend('*')">×</button>
+                    
+                    <button class="calc-btn" onclick="calcFunc('Math.log10(')">log</button>
+                    <button class="calc-btn" onclick="calcFunc('Math.log(')">ln</button>
+                    <button class="calc-btn" onclick="calcAppend('**')">xʸ</button>
+                    <button class="calc-btn" onclick="calcAppend('-')">-</button>
+                    
+                    <button class="calc-btn" onclick="calcAppend('7')">7</button>
+                    <button class="calc-btn" onclick="calcAppend('8')">8</button>
+                    <button class="calc-btn" onclick="calcAppend('9')">9</button>
+                    <button class="calc-btn" onclick="calcAppend('+')">+</button>
+                    
+                    <button class="calc-btn" onclick="calcAppend('4')">4</button>
+                    <button class="calc-btn" onclick="calcAppend('5')">5</button>
+                    <button class="calc-btn" onclick="calcAppend('6')">6</button>
+                    <button class="calc-btn" onclick="calcCompute()" style="grid-row: span 2; background: var(--accent); color: #000; font-weight: bold;">=</button>
+                    
+                    <button class="calc-btn" onclick="calcAppend('1')">1</button>
+                    <button class="calc-btn" onclick="calcAppend('2')">2</button>
+                    <button class="calc-btn" onclick="calcAppend('3')">3</button>
+                    
+                    <button class="calc-btn" onclick="calcAppend('0')" style="grid-column: span 2;">0</button>
+                    <button class="calc-btn" onclick="calcAppend('.')">.</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- STATE TRIAL & FORM MODULES MODAL -->
@@ -436,6 +475,28 @@
         let activeYtForm = 4;
         let activeVaultForm = 4;
 
+        // Calculator Logic
+        let calcInputString = "";
+        function openCalcModal() { document.getElementById('calcModal').style.display = 'flex'; }
+        function closeCalcModal() { document.getElementById('calcModal').style.display = 'none'; }
+        function calcClear() { calcInputString = ""; document.getElementById('calcScreen').value = "0"; }
+        function calcAppend(val) {
+            if (calcInputString === "0" || calcInputString === "Error") calcInputString = "";
+            calcInputString += val;
+            document.getElementById('calcScreen').value = calcInputString;
+        }
+        function calcFunc(funcName) { calcInputString += funcName; document.getElementById('calcScreen').value = calcInputString; }
+        function calcCompute() {
+            try {
+                let result = eval(calcInputString);
+                document.getElementById('calcScreen').value = result;
+                calcInputString = result.toString();
+            } catch (error) {
+                document.getElementById('calcScreen').value = "Error";
+                calcInputString = "";
+            }
+        }
+
         // Timer Variables
         let timerSeconds = 25 * 60;
         let timerInterval = null;
@@ -472,8 +533,6 @@
                         isTimerRunning = false;
                         btn.innerText = "Start";
                         document.getElementById('timerInputMinutes').disabled = false;
-                        
-                        // Show timer finished notification banner
                         notif.style.display = 'block';
                     }
                 }, 1000);
@@ -486,7 +545,6 @@
             document.getElementById('timerToggleBtn').innerText = "Start";
             document.getElementById('timerInputMinutes').disabled = false;
             document.getElementById('timerNotification').style.display = 'none';
-            
             const inputVal = parseInt(document.getElementById('timerInputMinutes').value) || 25;
             timerSeconds = inputVal * 60;
             updateTimerDisplay();
@@ -505,7 +563,7 @@
             "Sejarah": { 4: 10, 5: 10 }, "Perniagaan": { 4: 4, 5: 4 }, "Prinsip Perakaunan": { 4: 9, 5: 7 },
             "Ekonomi": { 4: 4, 5: 4 }, "Pendidikan Islam": { 4: 6, 5: 6 }, "Pendidikan Moral": { 4: 5, 5: 5 },
             "Bahasa Melayu": { 4: 10, 5: 10 }, "Bahasa Inggeris": { 4: 10, 5: 10 }, "Geografi": { 4: 8, 5: 8 },
-            "PJK": { 4: 6, 5: 6 }, "ASK": { 4: 4, 5: 4 }
+            "PJK": { 4: 6, 5: 6 }, "Asas Sains Komputer": { 4: 4, 5: 4 }
         };
 
         function promptChangeName() {
@@ -519,27 +577,22 @@
 
         function openTeknikMenjawab() {
             let query = `teknik menjawab soalan spm ${currentSubject} kssm`;
-            let ytUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
-            window.open(ytUrl, '_blank');
+            window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`, '_blank');
         }
 
-        // GLOBAL CLIPBOARD PASTE EVENT LISTENER
         window.addEventListener('paste', function (e) {
             const items = e.clipboardData ? e.clipboardData.items : null;
             if (!items) return;
-
             for (let i = 0; i < items.length; i++) {
                 if (items[i].type.indexOf('image') !== -1) {
                     e.preventDefault();
                     const blob = items[i].getAsFile();
                     const reader = new FileReader();
-
                     reader.onload = function (evt) {
                         uploadedImageBase64 = evt.target.result;
                         document.getElementById('previewImg').src = uploadedImageBase64;
                         document.getElementById('previewContainer').style.display = 'flex';
                     };
-
                     reader.readAsDataURL(blob);
                     break;
                 }
@@ -551,18 +604,9 @@
             document.getElementById('imageModalOverlay').style.display = 'flex';
         }
 
-        function closeImageModal() {
-            document.getElementById('imageModalOverlay').style.display = 'none';
-        }
-
-        function toggleSidebar() {
-            document.getElementById('appSidebar').classList.toggle('open');
-        }
-
-        function toggleSubjectDropdown() {
-            document.getElementById('subjectPopupMenu').classList.toggle('show');
-        }
-
+        function closeImageModal() { document.getElementById('imageModalOverlay').style.display = 'none'; }
+        function toggleSidebar() { document.getElementById('appSidebar').classList.toggle('open'); }
+        function toggleSubjectDropdown() { document.getElementById('subjectPopupMenu').classList.toggle('show'); }
         function toggleTheme() {
             document.body.classList.toggle('light-mode');
             const btn = document.getElementById('themeToggleBtn');
@@ -589,34 +633,20 @@
             currentSubject = subject;
             document.getElementById('selectedSubjectLabel').innerText = subject + " (Form 4-5)";
             document.getElementById('subjectPopupMenu').classList.remove('show');
-            
             clearChatHistory();
-
             document.getElementById('currentSubjectDisplay').innerText = subject;
             document.getElementById('modalSubject').innerText = subject;
             document.getElementById('ytModalSubject').innerText = subject;
-            
             document.getElementById('form4TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+${encodeURIComponent(subject)}+PDF`;
             document.getElementById('form5TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+${encodeURIComponent(subject)}+PDF`;
 
             let items = document.querySelectorAll('.popup-subject-item');
-            items.forEach(item => {
-                item.classList.toggle('active', item.innerText.includes(subject));
-            });
-
-            if(window.innerWidth <= 768) {
-                toggleSidebar();
-            }
-        }
-
-        function startNewChat() {
-            clearChatHistory();
+            items.forEach(item => { item.classList.toggle('active', item.innerText.includes(subject)); });
             if(window.innerWidth <= 768) toggleSidebar();
         }
 
-        function handleKeyPress(e) {
-            if (e.key === 'Enter') sendMessage();
-        }
+        function startNewChat() { clearChatHistory(); if(window.innerWidth <= 768) toggleSidebar(); }
+        function handleKeyPress(e) { if (e.key === 'Enter') sendMessage(); }
 
         function handleImageUpload(e) {
             const file = e.target.files[0];
@@ -637,51 +667,32 @@
             document.getElementById('previewContainer').style.display = 'none';
         }
 
-        function openStateModal() {
-            document.getElementById('stateModal').style.display = 'flex';
-            loadStateSearch('SBP');
-        }
-
-        function closeStateModal() {
-            document.getElementById('stateModal').style.display = 'none';
-        }
-
+        function openStateModal() { document.getElementById('stateModal').style.display = 'flex'; loadStateSearch('SBP'); }
+        function closeStateModal() { document.getElementById('stateModal').style.display = 'none'; }
         function setVaultForm(form) {
             activeVaultForm = form;
             document.getElementById('form4Badge').classList.toggle('active', form === 4);
             document.getElementById('form5Badge').classList.toggle('active', form === 5);
         }
-
         function loadStateSearch(state) {
             let query = `Soalan+Trial+SPM+${encodeURIComponent(state)}+${encodeURIComponent(currentSubject)}+PDF`;
             document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${query}&igu=1`;
         }
-
         function loadModuleSearch(type) {
             let query = `Soalan+${type}+Form+${activeVaultForm}+KSSM+${encodeURIComponent(currentSubject)}+PDF`;
             document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${query}&igu=1`;
         }
-
-        function openYoutubeModal() {
-            document.getElementById('youtubeModal').style.display = 'flex';
-            switchYtForm(4);
-        }
-
-        function closeYoutubeModal() {
-            document.getElementById('youtubeModal').style.display = 'none';
-        }
+        function openYoutubeModal() { document.getElementById('youtubeModal').style.display = 'flex'; switchYtForm(4); }
+        function closeYoutubeModal() { document.getElementById('youtubeModal').style.display = 'none'; }
 
         function switchYtForm(form) {
             activeYtForm = form;
             document.getElementById('ytF4TabBtn').classList.toggle('active', form === 4);
             document.getElementById('ytF5TabBtn').classList.toggle('active', form === 5);
-
             const container = document.getElementById('ytChapterContainer');
             container.innerHTML = '';
-
             const counts = subjectChapterCounts[currentSubject] || { 4: 10, 5: 10 };
             const totalChapters = counts[form] || 10;
-
             for (let i = 1; i <= totalChapters; i++) {
                 let link = document.createElement('a');
                 link.className = 'yt-chapter-link';
@@ -698,24 +709,20 @@
             if(!messageText && !uploadedImageBase64) return;
 
             const chatMessages = document.getElementById('chatMessages');
-            
             const welcomeMsg = document.getElementById('welcomeMessage');
             if(welcomeMsg) welcomeMsg.remove();
 
             let userMsgDiv = document.createElement('div');
             userMsgDiv.className = 'message user';
-            
             if (uploadedImageBase64) {
                 userMsgDiv.innerHTML = `<img src="${uploadedImageBase64}" class="chat-img-thumb" onclick="openImageModal(this.src)" alt="Question">` + (messageText ? `<div>${messageText}</div>` : '');
             } else {
                 userMsgDiv.innerText = messageText;
             }
-            
             chatMessages.appendChild(userMsgDiv);
 
             const payloadPrompt = messageText;
             const payloadImage = uploadedImageBase64;
-            
             inputField.value = '';
             clearImage();
             chatMessages.scrollTop = chatMessages.scrollHeight;
@@ -731,10 +738,8 @@
                 let lower = payloadPrompt.toLowerCase();
                 if (lower.includes("/solve")) taskType = "solve";
                 else if (lower.includes("/notes") || lower.includes("notes")) taskType = "create_notes";
-                else if (lower.includes("/quiz")) taskType = "generate_questions";
-                else if (lower.includes("/exam")) taskType = "generate_questions";
+                else if (lower.includes("/quiz") || lower.includes("/exam")) taskType = "generate_questions";
 
-                // Keep only the last 6 messages to stay well under API rate limits (TPM)
                 if (chatHistory.length > 6) {
                     chatHistory = chatHistory.slice(chatHistory.length - 6);
                 }
@@ -747,21 +752,19 @@
                         task: taskType,
                         subject: currentSubject,
                         level: currentLevel,
-                        language: currentLanguage, // <--- Passes "English" or "Bahasa Melayu" to backend
+                        language: currentLanguage,
                         image: payloadImage,
                         history: chatHistory
                     })
                 });
 
                 const data = await response.json();
-                
                 if (data.reply) {
                     let rawReplyText = data.reply;
                     botMsgDiv.innerHTML = marked.parse(rawReplyText);
                     
                     let actionDiv = document.createElement('div');
                     actionDiv.className = 'message-actions';
-                    
                     let copyBtn = document.createElement('button');
                     copyBtn.className = 'copy-btn';
                     copyBtn.innerText = 'Copy';
@@ -770,7 +773,6 @@
                         copyBtn.innerText = 'Copied!';
                         setTimeout(() => { copyBtn.innerText = 'Copy'; }, 2000);
                     };
-                    
                     actionDiv.appendChild(copyBtn);
                     botMsgDiv.appendChild(actionDiv);
 
