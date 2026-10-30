@@ -258,6 +258,7 @@
                 <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 5 Textbook</span> <span>↗</span></a>
                 <button class="sidebar-tool-btn" onclick="openStateModal()"><span>🏛️ State Trial Vault</span> <span>➔</span></button>
                 <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>▶️ KSSM Video Hub</span> <span>➔</span></button>
+                <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>🎯 Contoh Teknik Menjawab</span> <span>↗</span></button>
             </div>
         </div>
 
@@ -405,6 +406,12 @@
                 let initials = newName.trim().split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
                 document.querySelector('.profile-avatar').innerText = initials || 'U';
             }
+        }
+
+        function openTeknikMenjawab() {
+            let query = `teknik menjawab soalan spm ${currentSubject} kssm`;
+            let ytUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
+            window.open(ytUrl, '_blank');
         }
 
         // GLOBAL CLIPBOARD PASTE EVENT LISTENER
