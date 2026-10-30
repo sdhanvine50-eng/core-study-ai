@@ -37,11 +37,12 @@
         
         body { background-color: var(--bg-main); color: var(--text-main); display: flex; flex-direction: row; height: 100vh; width: 100vw; overflow: hidden; position: relative; transition: background-color 0.3s, color 0.3s; }
         
-        sidebar { width: 280px; min-width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; overflow-y: auto; height: 100vh; z-index: 1000; transition: transform 0.3s ease; }
+        sidebar { width: 280px; min-width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; height: 100vh; z-index: 1000; transition: transform 0.3s ease; }
         
-        sidebar::-webkit-scrollbar { width: 6px; }
-        sidebar::-webkit-scrollbar-track { background: transparent; }
-        sidebar::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
+        .sidebar-scrollable { flex: 1; overflow-y: auto; padding-right: 4px; display: flex; flex-direction: column; }
+        .sidebar-scrollable::-webkit-scrollbar { width: 6px; }
+        .sidebar-scrollable::-webkit-scrollbar-track { background: transparent; }
+        .sidebar-scrollable::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
 
         .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; padding-left: 4px; }
         .logo-left { display: flex; align-items: center; gap: 10px; }
@@ -67,6 +68,15 @@
         .sidebar-tools-section { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; border-top: 1px solid var(--border-color); padding-top: 16px; }
         .sidebar-tool-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 500; text-decoration: none; display: flex; align-items: center; justify-content: space-between; font-size: 13px; transition: background 0.2s; width: 100%; }
         .sidebar-tool-btn:hover { background: var(--panel-hover); }
+
+        /* USER PROFILE BADGE (GEMINI STYLE) */
+        .user-profile-card { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; padding-left: 4px; padding-right: 4px; }
+        .profile-info { display: flex; align-items: center; gap: 10px; }
+        .profile-avatar { width: 34px; height: 34px; border-radius: 50%; background-color: #3e4246; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; color: #ffffff; border: 1px solid var(--border-color); overflow: hidden; }
+        .profile-avatar img { width: 100%; height: 100%; object-fit: cover; }
+        .profile-name { font-size: 13px; font-weight: 500; color: var(--text-main); }
+        .profile-settings-btn { background: none; border: none; color: var(--text-muted); font-size: 16px; cursor: pointer; padding: 6px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background 0.2s, color 0.2s; }
+        .profile-settings-btn:hover { background: var(--panel-hover); color: var(--text-main); }
 
         .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100vh; position: relative; background-color: var(--bg-main); overflow: hidden; }
         .top-bar { padding: 12px 24px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--bg-main); }
@@ -123,7 +133,7 @@
         .message.assistant th, .message.assistant td { border: 1px solid var(--border-color); padding: 10px 14px; text-align: left; vertical-align: top; }
         .message.assistant th { background-color: var(--panel-hover); color: var(--text-main); font-weight: 600; }
         
-        /* Table Column Breathing Room (Prevents squished words like Exoskeleton) */
+        /* Table Column Breathing Room */
         .message.assistant table th:first-child, 
         .message.assistant table td:first-child { 
             min-width: 150px; 
@@ -211,42 +221,53 @@
             <button class="close-sidebar-btn" onclick="toggleSidebar()">✕</button>
         </div>
 
-        <button class="new-chat-btn" onclick="startNewChat()"><span>+</span> New Chat Session</button>
+        <div class="sidebar-scrollable">
+            <button class="new-chat-btn" onclick="startNewChat()"><span>+</span> New Chat Session</button>
 
-        <div class="section-title">Select Subject</div>
-        <div class="subject-select-container">
-            <div class="subject-dropdown-btn" onclick="toggleSubjectDropdown()">
-                <span id="selectedSubjectLabel">🧬 Biologi (Form 4-5)</span>
-                <span>▼</span>
+            <div class="section-title">Select Subject</div>
+            <div class="subject-select-container">
+                <div class="subject-dropdown-btn" onclick="toggleSubjectDropdown()">
+                    <span id="selectedSubjectLabel">🧬 Biologi (Form 4-5)</span>
+                    <span>▼</span>
+                </div>
+                <div class="subject-popup-menu" id="subjectPopupMenu">
+                    <div class="popup-subject-item active" onclick="selectSubject('Biologi')">🧬 Biologi</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Kimia')">🧪 Kimia</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Fizik')">⚡ Fizik</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Matematik Tambahan')">📐 Matematik Tambahan</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Matematik')">🔢 Matematik</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Sains')">🔬 Sains</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Bahasa Melayu')">📝 Bahasa Melayu</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Bahasa Inggeris')">🌐 Bahasa Inggeris</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Sejarah')">📜 Sejarah</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Geografi')">🌍 Geografi</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Pendidikan Islam')">🕌 Pendidikan Islam</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Pendidikan Moral')">⚖️ Pendidikan Moral</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Perniagaan')">💼 Perniagaan</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Prinsip Perakaunan')">📊 Prinsip Perakaunan</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Ekonomi')">📈 Ekonomi</div>
+                    <div class="popup-subject-item" onclick="selectSubject('PJK')">🏃 PJK</div>
+                    <div class="popup-subject-item" onclick="selectSubject('ASK')">💻 ASK</div>
+                </div>
             </div>
-            <div class="subject-popup-menu" id="subjectPopupMenu">
-                <div class="popup-subject-item active" onclick="selectSubject('Biologi')">🧬 Biologi</div>
-                <div class="popup-subject-item" onclick="selectSubject('Kimia')">🧪 Kimia</div>
-                <div class="popup-subject-item" onclick="selectSubject('Fizik')">⚡ Fizik</div>
-                <div class="popup-subject-item" onclick="selectSubject('Matematik Tambahan')">📐 Matematik Tambahan</div>
-                <div class="popup-subject-item" onclick="selectSubject('Matematik')">🔢 Matematik</div>
-                <div class="popup-subject-item" onclick="selectSubject('Sains')">🔬 Sains</div>
-                <div class="popup-subject-item" onclick="selectSubject('Bahasa Melayu')">📝 Bahasa Melayu</div>
-                <div class="popup-subject-item" onclick="selectSubject('Bahasa Inggeris')">🌐 Bahasa Inggeris</div>
-                <div class="popup-subject-item" onclick="selectSubject('Sejarah')">📜 Sejarah</div>
-                <div class="popup-subject-item" onclick="selectSubject('Geografi')">🌍 Geografi</div>
-                <div class="popup-subject-item" onclick="selectSubject('Pendidikan Islam')">🕌 Pendidikan Islam</div>
-                <div class="popup-subject-item" onclick="selectSubject('Pendidikan Moral')">⚖️ Pendidikan Moral</div>
-                <div class="popup-subject-item" onclick="selectSubject('Perniagaan')">💼 Perniagaan</div>
-                <div class="popup-subject-item" onclick="selectSubject('Prinsip Perakaunan')">📊 Prinsip Perakaunan</div>
-                <div class="popup-subject-item" onclick="selectSubject('Ekonomi')">📈 Ekonomi</div>
-                <div class="popup-subject-item" onclick="selectSubject('PJK')">🏃 PJK</div>
-                <div class="popup-subject-item" onclick="selectSubject('ASK')">💻 ASK</div>
+
+            <!-- SIDEBAR STUDY TOOLS -->
+            <div class="section-title">SPM Study Resources</div>
+            <div class="sidebar-tools-section">
+                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 4 Textbook</span> <span>↗</span></a>
+                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 5 Textbook</span> <span>↗</span></a>
+                <button class="sidebar-tool-btn" onclick="openStateModal()"><span>🏛️ State Trial Vault</span> <span>➔</span></button>
+                <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>▶️ KSSM Video Hub</span> <span>➔</span></button>
             </div>
         </div>
 
-        <!-- SIDEBAR STUDY TOOLS -->
-        <div class="section-title">SPM Study Resources</div>
-        <div class="sidebar-tools-section">
-            <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 4 Textbook</span> <span>↗</span></a>
-            <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 5 Textbook</span> <span>↗</span></a>
-            <button class="sidebar-tool-btn" onclick="openStateModal()"><span>🏛️ State Trial Vault</span> <span>➔</span></button>
-            <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>▶️ KSSM Video Hub</span> <span>➔</span></button>
+        <!-- USER PROFILE CARD (GEMINI STYLE) -->
+        <div class="user-profile-card">
+            <div class="profile-info">
+                <div class="profile-avatar">DS</div>
+                <div class="profile-name" id="userNameDisplay">Dhanvine Suresh</div>
+            </div>
+            <button class="profile-settings-btn" title="Settings" onclick="promptChangeName()">⚙️</button>
         </div>
     </sidebar>
 
@@ -376,6 +397,15 @@
             "Bahasa Melayu": { 4: 10, 5: 10 }, "Bahasa Inggeris": { 4: 10, 5: 10 }, "Geografi": { 4: 8, 5: 8 },
             "PJK": { 4: 6, 5: 6 }, "ASK": { 4: 4, 5: 4 }
         };
+
+        function promptChangeName() {
+            let newName = prompt("Enter your name:", document.getElementById('userNameDisplay').innerText);
+            if(newName && newName.trim()) {
+                document.getElementById('userNameDisplay').innerText = newName.trim();
+                let initials = newName.trim().split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
+                document.querySelector('.profile-avatar').innerText = initials || 'U';
+            }
+        }
 
         // GLOBAL CLIPBOARD PASTE EVENT LISTENER
         window.addEventListener('paste', function (e) {
