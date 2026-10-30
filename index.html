@@ -69,6 +69,13 @@
         .sidebar-tool-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 500; text-decoration: none; display: flex; align-items: center; justify-content: space-between; font-size: 13px; transition: background 0.2s; width: 100%; }
         .sidebar-tool-btn:hover { background: var(--panel-hover); }
 
+        /* STUDY TIMER WIDGET STYLES */
+        .timer-card { background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px; margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+        .timer-display { font-size: 20px; font-weight: 600; text-align: center; color: var(--accent); letter-spacing: 1px; font-variant-numeric: tabular-nums; }
+        .timer-controls { display: flex; gap: 6px; justify-content: center; }
+        .timer-btn { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 8px; font-size: 11px; font-weight: 500; cursor: pointer; transition: background 0.2s; flex: 1; }
+        .timer-btn:hover { background: var(--panel-hover); }
+
         /* USER PROFILE BADGE (GEMINI STYLE) */
         .user-profile-card { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; padding-left: 4px; padding-right: 4px; }
         .profile-info { display: flex; align-items: center; gap: 10px; }
@@ -254,11 +261,21 @@
             <!-- SIDEBAR STUDY TOOLS -->
             <div class="section-title">SPM Study Resources</div>
             <div class="sidebar-tools-section">
-                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 4 Textbook</span> <span>↗</span></a>
-                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>📖 Form 5 Textbook</span> <span>↗</span></a>
-                <button class="sidebar-tool-btn" onclick="openStateModal()"><span>🏛️ State Trial Vault</span> <span>➔</span></button>
-                <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>▶️ KSSM Video Hub</span> <span>➔</span></button>
-                <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>🎯 Contoh Teknik Menjawab</span> <span>↗</span></button>
+                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>Form 4 Textbook</span> <span>↗</span></a>
+                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>Form 5 Textbook</span> <span>↗</span></a>
+                <button class="sidebar-tool-btn" onclick="openStateModal()"><span>State Trial Vault</span> <span>➔</span></button>
+                <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>KSSM Video Hub</span> <span>➔</span></button>
+                <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>Contoh Teknik Menjawab</span> <span>↗</span></button>
+                
+                <!-- STUDY TIMER WIDGET -->
+                <div class="timer-card">
+                    <div class="section-title" style="margin-bottom: 2px;">Study Timer (Pomodoro)</div>
+                    <div class="timer-display" id="timerDisplay">25:00</div>
+                    <div class="timer-controls">
+                        <button class="timer-btn" id="timerToggleBtn" onclick="toggleTimer()">Start</button>
+                        <button class="timer-btn" onclick="resetTimer()">Reset</button>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -389,6 +406,51 @@
         let chatHistory = [];
         let activeYtForm = 4;
         let activeVaultForm = 4;
+
+        // Timer Variables
+        let timerSeconds = 25 * 60;
+        let timerInterval = null;
+        let isTimerRunning = false;
+
+        function toggleTimer() {
+            const btn = document.getElementById('timerToggleBtn');
+            if (isTimerRunning) {
+                clearInterval(timerInterval);
+                isTimerRunning = false;
+                btn.innerText = "Start";
+            } else {
+                isTimerRunning = true;
+                btn.innerText = "Pause";
+                timerInterval = setInterval(() => {
+                    if (timerSeconds > 0) {
+                        timerSeconds--;
+                        updateTimerDisplay();
+                    } else {
+                        clearInterval(timerInterval);
+                        isTimerRunning = false;
+                        btn.innerText = "Start";
+                        alert("Pomodoro session completed! Take a short break.");
+                        timerSeconds = 25 * 60;
+                        updateTimerDisplay();
+                    }
+                }, 1000);
+            }
+        }
+
+        function resetTimer() {
+            clearInterval(timerInterval);
+            isTimerRunning = false;
+            timerSeconds = 25 * 60;
+            document.getElementById('timerToggleBtn').innerText = "Start";
+            updateTimerDisplay();
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timerSeconds / 60);
+            const seconds = timerSeconds % 60;
+            document.getElementById('timerDisplay').innerText = 
+                `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
 
         const subjectChapterCounts = {
             "Biologi": { 4: 15, 5: 13 }, "Kimia": { 4: 8, 5: 5 }, "Fizik": { 4: 6, 5: 7 },
@@ -578,7 +640,7 @@
                 link.className = 'yt-chapter-link';
                 link.target = '_blank';
                 link.href = `https://www.youtube.com/results?search_query=KSSM+${encodeURIComponent(currentSubject)}+Form+${form}+Chapter+${i}`;
-                link.innerHTML = `<span>▶️ Form ${form} Chapter ${i} Video Lessons</span> <span>↗</span>`;
+                link.innerHTML = `<span>Form ${form} Chapter ${i} Video Lessons</span> <span>↗</span>`;
                 container.appendChild(link);
             }
         }
