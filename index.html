@@ -734,6 +734,11 @@
                 else if (lower.includes("/quiz")) taskType = "generate_questions";
                 else if (lower.includes("/exam")) taskType = "generate_questions";
 
+                // Keep only the last 6 messages to stay well under API rate limits (TPM)
+                if (chatHistory.length > 6) {
+                    chatHistory = chatHistory.slice(chatHistory.length - 6);
+                }
+
                 const response = await fetch('/chat', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
