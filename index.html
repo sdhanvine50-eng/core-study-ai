@@ -44,10 +44,12 @@
         .sidebar-scrollable::-webkit-scrollbar-track { background: transparent; }
         .sidebar-scrollable::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
 
+        /* THE NEW INTELLIGENT CORE LOGO INTEGRATION */
         .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; padding-left: 4px; }
         .logo-left { display: flex; align-items: center; gap: 10px; }
-        .logo-icon { font-size: 20px; background: rgba(138, 180, 248, 0.1); padding: 6px; border-radius: 8px; }
-        .logo-title { font-size: 16px; font-weight: 500; display: flex; align-items: center; gap: 6px; }
+        .app-logo { width: 34px; height: 34px; border-radius: 8px; object-fit: cover; border: 1px solid var(--border-color); }
+        .logo-title { font-size: 16px; font-weight: 500; color: var(--text-main); display: flex; align-items: center; gap: 6px; }
+        .logo-version { font-size: 9px; background: var(--panel-bg); border: 1px solid var(--border-color); padding: 2px 5px; border-radius: 4px; color: var(--text-main); }
         .close-sidebar-btn { display: none; background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; }
 
         .new-chat-btn { background: var(--panel-bg); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: 24px; font-weight: 500; cursor: pointer; margin-bottom: 16px; transition: background 0.2s; display: flex; align-items: center; gap: 10px; font-size: 13px; width: 100%; }
@@ -232,8 +234,9 @@
     <sidebar id="appSidebar">
         <div class="logo-area">
             <div class="logo-left">
-                <div class="logo-icon">🧠</div>
-                <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--panel-bg); border: 1px solid var(--border-color); padding: 2px 5px; border-radius: 4px; color: var(--text-main);">v3.0</span></div>
+                <!-- UPDATED WITH YOUR CHOSEN LOGO -->
+                <img src="https://i.ibb.co/6y4b003/logo-placeholder.png" alt="Core Study AI Logo" class="app-logo" id="appLogoImg">
+                <div class="logo-title">Core Study AI <span class="logo-version">v3.0</span></div>
             </div>
             <button class="close-sidebar-btn" onclick="toggleSidebar()">✕</button>
         </div>
@@ -244,27 +247,27 @@
             <div class="section-title">Select Subject</div>
             <div class="subject-select-container">
                 <div class="subject-dropdown-btn" onclick="toggleSubjectDropdown()">
-                    <span id="selectedSubjectLabel">🧬 Biologi (Form 4-5)</span>
+                    <span id="selectedSubjectLabel">Biologi (Form 4-5)</span>
                     <span>▼</span>
                 </div>
                 <div class="subject-popup-menu" id="subjectPopupMenu">
-                    <div class="popup-subject-item active" onclick="selectSubject('Biologi')">🧬 Biologi</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Kimia')">🧪 Kimia</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Fizik')">⚡ Fizik</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Matematik Tambahan')">📐 Matematik Tambahan</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Matematik')">🔢 Matematik</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Sains')">🔬 Sains</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Bahasa Melayu')">📝 Bahasa Melayu</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Bahasa Inggeris')">🌐 Bahasa Inggeris</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Sejarah')">📜 Sejarah</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Geografi')">🌍 Geografi</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Pendidikan Islam')">🕌 Pendidikan Islam</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Pendidikan Moral')">⚖️ Pendidikan Moral</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Perniagaan')">💼 Perniagaan</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Prinsip Perakaunan')">📊 Prinsip Perakaunan</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Ekonomi')">📈 Ekonomi</div>
-                    <div class="popup-subject-item" onclick="selectSubject('PJK')">🏃 PJK</div>
-                    <div class="popup-subject-item" onclick="selectSubject('ASK')">💻 ASK</div>
+                    <div class="popup-subject-item active" onclick="selectSubject('Biologi')">Biologi</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Kimia')">Kimia</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Fizik')">Fizik</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Matematik Tambahan')">Matematik Tambahan</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Matematik')">Matematik</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Sains')">Sains</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Bahasa Melayu')">Bahasa Melayu</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Bahasa Inggeris')">Bahasa Inggeris</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Sejarah')">Sejarah</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Geografi')">Geografi</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Pendidikan Islam')">Pendidikan Islam</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Pendidikan Moral')">Pendidikan Moral</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Perniagaan')">Perniagaan</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Prinsip Perakaunan')">Prinsip Perakaunan</div>
+                    <div class="popup-subject-item" onclick="selectSubject('Ekonomi')">Ekonomi</div>
+                    <div class="popup-subject-item" onclick="selectSubject('PJK')">PJK</div>
+                    <div class="popup-subject-item" onclick="selectSubject('ASK')">ASK</div>
                 </div>
             </div>
 
