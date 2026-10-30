@@ -147,14 +147,15 @@
         .message.assistant p { margin-bottom: 8px; }
         .message.assistant ul, .message.assistant ol { margin-left: 18px; margin-bottom: 8px; }
         
-        .message.assistant table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 12px; display: block; overflow-x: auto; }
-        .message.assistant th, .message.assistant td { border: 1px solid var(--border-color); padding: 8px 12px; text-align: left; vertical-align: top; }
+        /* WIDER, SCROLLABLE TABLES FOR MOBILE */
+        .message.assistant table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; display: block; overflow-x: auto; white-space: normal; }
+        .message.assistant th, .message.assistant td { border: 1px solid var(--border-color); padding: 12px 16px; text-align: left; vertical-align: top; }
         .message.assistant th { background-color: var(--panel-hover); color: var(--text-main); font-weight: 600; }
         
-        .message.assistant table th:first-child, 
-        .message.assistant table td:first-child { 
-            min-width: 130px; 
-            white-space: normal; 
+        /* Give columns generous breathing room so words don't cramp */
+        .message.assistant table th, 
+        .message.assistant table td { 
+            min-width: 180px; 
         }
 
         .message-actions { display: flex; justify-content: flex-end; margin-top: 8px; gap: 6px; border-top: 1px solid var(--border-color); padding-top: 6px; }
@@ -224,7 +225,7 @@
             .hamburger-btn { display: flex; }
             .message { max-width: 95% !important; padding: 10px 14px; font-size: 13px; }
             .chat-messages { padding: 12px; }
-            .status-badge { display: none; } /* Hide connection badge on small screens to save header space */
+            .status-badge { display: none; }
         }
     </style>
 </head>
