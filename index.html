@@ -71,10 +71,20 @@
 
         /* STUDY TIMER WIDGET STYLES */
         .timer-card { background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px; margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
-        .timer-display { font-size: 20px; font-weight: 600; text-align: center; color: var(--accent); letter-spacing: 1px; font-variant-numeric: tabular-nums; }
+        .timer-input-row { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--text-muted); }
+        .timer-input { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 4px 8px; border-radius: 6px; width: 60px; text-align: center; font-size: 12px; outline: none; }
+        .timer-display { font-size: 20px; font-weight: 600; text-align: center; color: var(--accent); letter-spacing: 1px; font-variant-numeric: tabular-nums; margin: 4px 0; }
         .timer-controls { display: flex; gap: 6px; justify-content: center; }
         .timer-btn { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 8px; font-size: 11px; font-weight: 500; cursor: pointer; transition: background 0.2s; flex: 1; }
         .timer-btn:hover { background: var(--panel-hover); }
+
+        /* NOTIFICATION BANNER */
+        .timer-notification { display: none; background: rgba(52, 168, 83, 0.15); border: 1px solid rgba(52, 168, 83, 0.4); color: #81c995; padding: 8px; border-radius: 8px; font-size: 12px; text-align: center; font-weight: 500; animation: fadeIn 0.3s ease; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
         /* USER PROFILE BADGE (GEMINI STYLE) */
         .user-profile-card { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; padding-left: 4px; padding-right: 4px; }
@@ -267,10 +277,15 @@
                 <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>KSSM Video Hub</span> <span>➔</span></button>
                 <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>Contoh Teknik Menjawab</span> <span>↗</span></button>
                 
-                <!-- STUDY TIMER WIDGET -->
+                <!-- CUSTOMIZABLE STUDY TIMER WIDGET -->
                 <div class="timer-card">
-                    <div class="section-title" style="margin-bottom: 2px;">Study Timer (Pomodoro)</div>
+                    <div class="section-title" style="margin-bottom: 2px;">Study Timer</div>
+                    <div class="timer-input-row">
+                        <span>Duration (mins):</span>
+                        <input type="number" id="timerInputMinutes" class="timer-input" value="25" min="1" max="180" onchange="syncTimerInput()">
+                    </div>
                     <div class="timer-display" id="timerDisplay">25:00</div>
+                    <div class="timer-notification" id="timerNotification">Time is up! Take a break.</div>
                     <div class="timer-controls">
                         <button class="timer-btn" id="timerToggleBtn" onclick="toggleTimer()">Start</button>
                         <button class="timer-btn" onclick="resetTimer()">Reset</button>
@@ -412,15 +427,28 @@
         let timerInterval = null;
         let isTimerRunning = false;
 
+        function syncTimerInput() {
+            if (isTimerRunning) return;
+            const inputVal = parseInt(document.getElementById('timerInputMinutes').value);
+            if (isNaN(inputVal) || inputVal < 1) return;
+            timerSeconds = inputVal * 60;
+            updateTimerDisplay();
+        }
+
         function toggleTimer() {
             const btn = document.getElementById('timerToggleBtn');
+            const notif = document.getElementById('timerNotification');
+            
             if (isTimerRunning) {
                 clearInterval(timerInterval);
                 isTimerRunning = false;
                 btn.innerText = "Start";
             } else {
+                notif.style.display = 'none';
                 isTimerRunning = true;
                 btn.innerText = "Pause";
+                document.getElementById('timerInputMinutes').disabled = true;
+
                 timerInterval = setInterval(() => {
                     if (timerSeconds > 0) {
                         timerSeconds--;
@@ -429,9 +457,10 @@
                         clearInterval(timerInterval);
                         isTimerRunning = false;
                         btn.innerText = "Start";
-                        alert("Pomodoro session completed! Take a short break.");
-                        timerSeconds = 25 * 60;
-                        updateTimerDisplay();
+                        document.getElementById('timerInputMinutes').disabled = false;
+                        
+                        // Show timer finished notification banner
+                        notif.style.display = 'block';
                     }
                 }, 1000);
             }
@@ -440,8 +469,12 @@
         function resetTimer() {
             clearInterval(timerInterval);
             isTimerRunning = false;
-            timerSeconds = 25 * 60;
             document.getElementById('timerToggleBtn').innerText = "Start";
+            document.getElementById('timerInputMinutes').disabled = false;
+            document.getElementById('timerNotification').style.display = 'none';
+            
+            const inputVal = parseInt(document.getElementById('timerInputMinutes').value) || 25;
+            timerSeconds = inputVal * 60;
             updateTimerDisplay();
         }
 
