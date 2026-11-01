@@ -3,218 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Core Study AI v3.0 - Upper Secondary SPM</title>
+    <title>Core Science AI v3.0 - SPM Bio | Chem | Physics</title>
     <!-- Marked.js for Markdown -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <!-- KaTeX for clean math rendering -->
+    <!-- KaTeX for math rendering -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
     <style>
         :root {
-            --bg-main: #000000;
-            --sidebar-bg: #131314;
-            --panel-bg: #1e1f20;
-            --panel-hover: #282a2c;
-            --accent: #8ab4f8;
+            --bg-main: #0a0b0d;
+            --sidebar-bg: #121418;
+            --panel-bg: #1a1d23;
+            --panel-hover: #232730;
+            --accent-bio: #34a853;
+            --accent-chem: #fbbc04;
+            --accent-phys: #8ab4f8;
+            --current-accent: #34a853;
             --text-main: #e3e3e3;
             --text-muted: #8e918f;
-            --border-color: #333537;
+            --border-color: #2b303b;
         }
 
         body.light-mode {
-            --bg-main: #ffffff;
-            --sidebar-bg: #f0f4f9;
-            --panel-bg: #f8f9fa;
-            --panel-hover: #e2e7ec;
-            --accent: #1a73e8;
+            --bg-main: #f4f6f9;
+            --sidebar-bg: #ffffff;
+            --panel-bg: #ffffff;
+            --panel-hover: #edf2f7;
             --text-main: #1f1f1f;
             --text-muted: #5f6368;
-            --border-color: #dadce0;
+            --border-color: #d1d5db;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Google Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Google Sans', 'Segoe UI', sans-serif; }
         
-        body { background-color: var(--bg-main); color: var(--text-main); display: flex; flex-direction: row; height: 100dvh; width: 100vw; overflow: hidden; position: relative; transition: background-color 0.3s, color 0.3s; }
+        body { background-color: var(--bg-main); color: var(--text-main); display: flex; flex-direction: row; height: 100dvh; width: 100vw; overflow: hidden; transition: background 0.3s; }
         
-        sidebar { width: 280px; min-width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; height: 100dvh; z-index: 1000; transition: transform 0.3s ease; }
+        sidebar { width: 300px; min-width: 300px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; height: 100dvh; z-index: 1000; }
         
-        .sidebar-scrollable { flex: 1; overflow-y: auto; padding-right: 4px; display: flex; flex-direction: column; }
-        .sidebar-scrollable::-webkit-scrollbar { width: 6px; }
-        .sidebar-scrollable::-webkit-scrollbar-track { background: transparent; }
+        .sidebar-scrollable { flex: 1; overflow-y: auto; padding-right: 2px; display: flex; flex-direction: column; gap: 14px; }
+        .sidebar-scrollable::-webkit-scrollbar { width: 4px; }
         .sidebar-scrollable::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
 
-        .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; padding-left: 4px; }
-        .logo-left { display: flex; align-items: center; gap: 10px; }
-        .logo-svg { width: 32px; height: 32px; flex-shrink: 0; }
-        .logo-title { font-size: 16px; font-weight: 500; display: flex; align-items: center; gap: 6px; color: var(--text-main); }
-        .close-sidebar-btn { display: none; background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; }
+        .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+        .logo-title { font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 8px; color: var(--text-main); }
+        .close-sidebar-btn { display: none; background: none; border: none; color: var(--text-muted); font-size: 18px; cursor: pointer; }
 
-        .new-chat-btn { background: var(--panel-bg); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: 24px; font-weight: 500; cursor: pointer; margin-bottom: 16px; transition: background 0.2s; display: flex; align-items: center; gap: 10px; font-size: 13px; width: 100%; }
+        .new-chat-btn { background: var(--panel-bg); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 14px; border-radius: 12px; font-weight: 500; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; gap: 8px; font-size: 13px; width: 100%; }
         .new-chat-btn:hover { background: var(--panel-hover); }
 
-        .subject-select-container { position: relative; margin-bottom: 16px; }
-        .subject-dropdown-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); width: 100%; padding: 10px 14px; border-radius: 12px; font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.2s; }
-        .subject-dropdown-btn:hover { background: var(--panel-hover); }
-        
-        .subject-popup-menu { display: none; position: absolute; top: 100%; left: 0; width: 100%; max-height: 250px; background: var(--sidebar-bg); border: 1px solid var(--border-color); border-radius: 12px; overflow-y: auto; z-index: 1100; margin-top: 4px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
-        .subject-popup-menu.show { display: block; }
-        .popup-subject-item { padding: 9px 14px; font-size: 13px; color: var(--text-muted); cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s; }
-        .popup-subject-item:hover { background: var(--panel-hover); color: var(--text-main); }
-        .popup-subject-item.active { background: var(--panel-bg); color: var(--text-main); font-weight: 600; }
+        .section-title { font-size: 10px; color: var(--text-muted); letter-spacing: 1px; font-weight: 600; text-transform: uppercase; margin-bottom: 6px; }
 
-        .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 8px; font-weight: 500; text-transform: uppercase; padding-left: 4px; display: flex; justify-content: space-between; align-items: center; }
+        /* 3-PILLAR SCIENCE SELECTOR CARDS */
+        .science-pillars { display: flex; flex-direction: column; gap: 8px; }
+        .science-card { background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; justify-content: space-between; }
+        .science-card:hover { background: var(--panel-hover); border-color: var(--text-muted); }
+        .science-card.active { border-color: var(--current-accent); background: rgba(52, 168, 83, 0.08); }
+        .science-info { display: flex; align-items: center; gap: 10px; }
+        .science-icon { width: 34px; height: 34px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: bold; background: var(--panel-hover); }
+        .science-name { font-size: 13px; font-weight: 600; color: var(--text-main); }
+        .science-sub { font-size: 11px; color: var(--text-muted); }
 
-        .sidebar-tools-section { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; border-top: 1px solid var(--border-color); padding-top: 16px; }
-        .sidebar-tool-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 500; text-decoration: none; display: flex; align-items: center; justify-content: space-between; font-size: 13px; transition: background 0.2s; width: 100%; }
+        .sidebar-tools-section { display: flex; flex-direction: column; gap: 6px; border-top: 1px solid var(--border-color); padding-top: 12px; }
+        .sidebar-tool-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 8px 12px; border-radius: 10px; cursor: pointer; font-weight: 500; text-decoration: none; display: flex; align-items: center; justify-content: space-between; font-size: 12px; transition: background 0.2s; width: 100%; }
         .sidebar-tool-btn:hover { background: var(--panel-hover); }
 
-        /* STUDY TIMER WIDGET STYLES */
-        .timer-card { background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px; margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
-        .timer-input-row { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--text-muted); }
-        .timer-input { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 4px 8px; border-radius: 6px; width: 60px; text-align: center; font-size: 12px; outline: none; }
-        .timer-display { font-size: 20px; font-weight: 600; text-align: center; color: var(--accent); letter-spacing: 1px; font-variant-numeric: tabular-nums; margin: 4px 0; }
+        /* TIMER */
+        .timer-card { background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
+        .timer-display { font-size: 18px; font-weight: 600; text-align: center; color: var(--current-accent); letter-spacing: 1px; }
         .timer-controls { display: flex; gap: 6px; justify-content: center; }
-        .timer-btn { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 8px; font-size: 11px; font-weight: 500; cursor: pointer; transition: background 0.2s; flex: 1; }
-        .timer-btn:hover { background: var(--panel-hover); }
+        .timer-btn { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 4px 8px; border-radius: 6px; font-size: 11px; cursor: pointer; flex: 1; }
 
-        /* NOTIFICATION BANNER */
-        .timer-notification { display: none; background: rgba(52, 168, 83, 0.15); border: 1px solid rgba(52, 168, 83, 0.4); color: #81c995; padding: 8px; border-radius: 8px; font-size: 12px; text-align: center; font-weight: 500; animation: fadeIn 0.3s ease; }
+        .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100dvh; background-color: var(--bg-main); }
+        .top-bar { padding: 10px 16px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--bg-main); }
+        .hamburger-btn { display: none; background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 6px 10px; border-radius: 8px; font-size: 12px; cursor: pointer; }
+        .breadcrumb { font-size: 12px; color: var(--text-muted); }
+        .breadcrumb span { color: var(--current-accent); font-weight: 600; }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-4px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+        .chat-messages { flex: 1; padding: 16px; overflow-y: auto; display: flex; flex-direction: column; gap: 16px; max-width: 900px; width: 100%; margin: 0 auto; }
+        .message { max-width: 85%; padding: 12px 16px; border-radius: 14px; line-height: 1.6; font-size: 13px; }
+        .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; }
+        .message.user { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-end; }
 
-        /* USER PROFILE BADGE */
-        .user-profile-card { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; padding-left: 4px; padding-right: 4px; }
-        .profile-info { display: flex; align-items: center; gap: 10px; }
-        .profile-avatar { width: 34px; height: 34px; border-radius: 50%; background-color: #3e4246; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; color: #ffffff; border: 1px solid var(--border-color); overflow: hidden; }
-        .profile-name { font-size: 13px; font-weight: 500; color: var(--text-main); }
-        .profile-settings-btn { background: none; border: none; color: var(--text-muted); font-size: 16px; cursor: pointer; padding: 6px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background 0.2s, color 0.2s; }
-        .profile-settings-btn:hover { background: var(--panel-hover); color: var(--text-main); }
+        .chat-img-thumb { max-width: 180px; border-radius: 8px; display: block; margin-bottom: 6px; cursor: pointer; }
+        .message-actions { display: flex; justify-content: flex-end; margin-top: 6px; }
+        .copy-btn { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 2px 8px; border-radius: 8px; font-size: 10px; cursor: pointer; }
 
-        .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100dvh; position: relative; background-color: var(--bg-main); overflow: hidden; }
-        
-        .top-bar { padding: 10px 16px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--bg-main); flex-shrink: 0; gap: 8px; }
-        
-        .hamburger-btn { display: none; background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 8px; cursor: pointer; font-size: 12px; font-weight: 500; align-items: center; gap: 4px; flex-shrink: 0; }
-
-        .breadcrumb { font-size: 12px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .breadcrumb span { color: var(--text-main); font-weight: 500; }
-
-        .topbar-right-group { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
-        .lang-switch { display: flex; background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 14px; overflow: hidden; padding: 2px; }
-        .lang-btn { background: transparent; border: none; color: var(--text-muted); padding: 3px 6px; font-size: 10px; font-weight: 500; cursor: pointer; border-radius: 12px; transition: all 0.2s; }
-        .lang-btn.active { background: var(--bg-main); color: var(--text-main); font-weight: 600; }
-
-        .clear-chat-btn { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 4px 8px; border-radius: 12px; font-size: 11px; font-weight: 500; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
-        .clear-chat-btn:hover { background: var(--panel-hover); color: var(--text-main); }
-
-        .status-badge { background-color: rgba(52, 168, 83, 0.1); color: #81c995; border: 1px solid rgba(52, 168, 83, 0.2); padding: 3px 8px; border-radius: 12px; font-size: 10px; font-weight: 500; white-space: nowrap; }
-
-        .chat-messages { flex: 1; padding: 16px; overflow-y: auto; display: flex; flex-direction: column; gap: 16px; max-width: 950px; width: 100%; margin: 0 auto; scrollbar-width: thin; scrollbar-color: var(--border-color) transparent; }
-        
-        .chat-messages::-webkit-scrollbar { width: 6px; }
-        .chat-messages::-webkit-scrollbar-track { background: transparent; }
-        .chat-messages::-webkit-scrollbar-thumb { background-color: var(--border-color); border-radius: 10px; }
-
-        .message { max-width: 90%; padding: 12px 16px; border-radius: 16px; line-height: 1.6; font-size: 13px; word-break: break-word; }
-        .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
-        .message.user { background-color: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); align-self: flex-end; }
-
-        .chat-img-thumb { max-width: 200px; max-height: 160px; border-radius: 8px; display: block; margin-bottom: 8px; cursor: pointer; border: 1px solid var(--border-color); transition: transform 0.2s; }
-        .chat-img-thumb:hover { transform: scale(1.02); border-color: var(--accent); }
-
-        .image-modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.9); z-index: 3000; justify-content: center; align-items: center; cursor: zoom-out; }
-        .image-modal-overlay img { max-width: 90vw; max-height: 90vh; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.8); }
-
-        .message.assistant span {
-            background-color: #2a2d32 !important;
-            color: #8ab4f8 !important;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-weight: 500;
-            border: 1px solid var(--border-color);
-            display: inline-block;
-            margin: 2px 0;
-        }
-
-        .message.assistant h1, .message.assistant h2, .message.assistant h3 { margin-top: 10px; margin-bottom: 6px; color: var(--text-main); font-weight: 600; }
-        .message.assistant p { margin-bottom: 8px; }
-        .message.assistant ul, .message.assistant ol { margin-left: 18px; margin-bottom: 8px; }
-        
-        .message.assistant table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; display: block; overflow-x: auto; white-space: normal; }
-        .message.assistant th, .message.assistant td { border: 1px solid var(--border-color); padding: 12px 16px; text-align: left; vertical-align: top; min-width: 180px; }
-        .message.assistant th { background-color: var(--panel-hover); color: var(--text-main); font-weight: 600; }
-
-        .message-actions { display: flex; justify-content: flex-end; margin-top: 8px; gap: 6px; border-top: 1px solid var(--border-color); padding-top: 6px; }
-        .copy-btn { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 500; cursor: pointer; transition: all 0.2s; }
-        .copy-btn:hover { background: var(--panel-hover); color: var(--text-main); }
-
-        .typing-dots { display: inline-flex; align-items: center; gap: 4px; padding: 4px 2px; }
-        .typing-dots span { width: 5px; height: 5px; background-color: var(--text-muted); border-radius: 50%; display: inline-block; animation: bounce 1.4s infinite ease-in-out both; }
-        .typing-dots span:nth-child(1) { animation-delay: -0.32s; }
-        .typing-dots span:nth-child(2) { animation-delay: -0.16s; }
-        .typing-dots span:nth-child(3) { animation-delay: 0s; }
-
-        @keyframes bounce {
-            0%, 80%, 100% { transform: scale(0); }
-            40% { transform: scale(1.0); }
-        }
-
-        .input-wrapper { max-width: 950px; width: 100%; margin: 0 auto; padding: 12px 16px calc(12px + env(safe-area-inset-bottom)) 16px; background: var(--bg-main); flex-shrink: 0; }
-        .input-container { background-color: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 24px; padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; transition: border-color 0.2s; }
-        .input-container:focus-within { border-color: var(--text-muted); }
-        
+        .input-wrapper { max-width: 900px; width: 100%; margin: 0 auto; padding: 12px 16px; }
+        .input-container { background-color: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 8px 12px; display: flex; flex-direction: column; gap: 6px; }
         .input-row { display: flex; width: 100%; gap: 8px; align-items: center; }
-        .chat-input { flex: 1; background: transparent; border: none; color: var(--text-main); padding: 4px 6px; font-size: 14px; outline: none; }
-        .chat-input::placeholder { color: var(--text-muted); }
-        
-        .plus-btn { background: transparent; border: none; color: #ffffff; width: 34px; height: 34px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 400; transition: background 0.2s; flex-shrink: 0; }
-        .plus-btn:hover { background: var(--panel-hover); color: #ffffff; }
-        
-        .uploaded-preview-container { display: none; width: 100%; align-items: center; gap: 10px; padding: 6px 10px; border-bottom: 1px solid var(--border-color); background: rgba(255,255,255,0.03); border-radius: 8px; }
-        .uploaded-preview { max-width: 50px; max-height: 40px; border-radius: 6px; border: 1px solid var(--border-color); cursor: pointer; }
-        .preview-info { display: flex; flex-direction: column; gap: 2px; flex: 1; }
-        .preview-label { font-size: 11px; font-weight: 600; color: var(--accent); }
+        .chat-input { flex: 1; background: transparent; border: none; color: var(--text-main); padding: 4px; font-size: 13px; outline: none; }
+        .plus-btn, .send-btn { background: var(--current-accent); color: #000; border: none; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+        .plus-btn { background: var(--panel-hover); color: var(--text-main); border: 1px solid var(--border-color); font-size: 18px; }
 
-        .send-btn { background-color: var(--text-main); color: var(--bg-main); border: none; width: 34px; height: 34px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: bold; transition: opacity 0.2s; flex-shrink: 0; }
-        .send-btn:hover { opacity: 0.9; }
-
-        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.8); backdrop-filter: blur(4px); z-index: 2000; justify-content: center; align-items: center; }
-        .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 92%; height: 90%; border-radius: 16px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
-        .modal-header { padding: 16px 20px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; }
-        .modal-title { font-size: 15px; font-weight: 500; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
-        .close-modal-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 12px; border-radius: 14px; cursor: pointer; font-weight: 500; font-size: 12px; }
-        .close-modal-btn:hover { background: var(--panel-hover); }
-        .modal-body { flex: 1; display: flex; padding: 16px; gap: 16px; overflow: hidden; }
-        .state-selector-panel { width: 320px; min-width: 320px; background: var(--bg-main); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 6px; overflow-y: auto; }
-        .state-item { background: var(--panel-bg); border: 1px solid transparent; padding: 10px 12px; border-radius: 10px; cursor: pointer; transition: all 0.2s; display: flex; justify-content: space-between; align-items: center; }
-        .state-item:hover { border-color: var(--border-color); background: var(--panel-hover); }
-        .state-item-name { font-size: 13px; font-weight: 500; color: var(--text-main); }
-        .state-item-tag { font-size: 11px; color: var(--text-muted); }
-        .modal-content-area { flex: 1; display: flex; flex-direction: column; gap: 10px; }
-        .f4-shortcut-bar { display: flex; gap: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; flex-wrap: wrap; align-items: center; }
-        .form-selector-badge { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-muted); padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
-        .form-selector-badge.active { background: var(--accent); color: #000; border-color: var(--accent); }
-        .pdf-viewer-frame { flex: 1; border: 1px solid var(--border-color); border-radius: 12px; background: #fff; }
-
-        .yt-modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 600px; max-width: 95%; height: 520px; border-radius: 16px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
-        .yt-tabs { display: flex; gap: 8px; margin-bottom: 15px; }
-        .yt-tab-btn { flex: 1; padding: 8px; background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-muted); border-radius: 14px; font-weight: 500; cursor: pointer; transition: all 0.2s; font-size: 13px; }
-        .yt-tab-btn.active { background: var(--panel-hover); color: var(--text-main); border-color: var(--text-muted); }
-        .yt-chapter-grid { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; padding-right: 5px; }
-        .yt-chapter-link { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; text-decoration: none; font-size: 13px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s; }
-        .yt-chapter-link:hover { border-color: var(--text-muted); background: var(--panel-hover); }
+        /* MODALS */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.8); z-index: 2000; justify-content: center; align-items: center; }
+        .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 90%; height: 85%; border-radius: 14px; display: flex; flex-direction: column; overflow: hidden; }
+        .modal-header { padding: 14px 18px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-weight: 600; }
+        .close-modal-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 11px; }
+        .pdf-viewer-frame { flex: 1; border: none; background: #fff; }
 
         @media (max-width: 768px) {
-            sidebar { position: fixed; left: 0; top: 0; height: 100dvh; width: 270px; transform: translateX(-100%); box-shadow: 10px 0 30px rgba(0,0,0,0.8); }
+            sidebar { position: fixed; left: 0; top: 0; width: 270px; transform: translateX(-100%); transition: transform 0.3s; }
             sidebar.open { transform: translateX(0); }
-            .close-sidebar-btn { display: block; }
-            .hamburger-btn { display: flex; }
-            .message { max-width: 95% !important; padding: 10px 14px; font-size: 13px; }
-            .chat-messages { padding: 12px; }
-            .status-badge { display: none; }
+            .hamburger-btn { display: block; }
         }
     </style>
 </head>
@@ -222,72 +113,55 @@
 
     <sidebar id="appSidebar">
         <div class="logo-area">
-            <div class="logo-left">
-                <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stop-color="#1e90ff"/>
-                            <stop offset="50%" stop-color="#00d2ff"/>
-                            <stop offset="100%" stop-color="#0052d4"/>
-                        </linearGradient>
-                    </defs>
-                    <path d="M 75 30 A 38 38 0 1 0 75 70" stroke="url(#logoGrad)" stroke-width="8" stroke-linecap="round" fill="none"/>
-                    <path d="M 32 68 L 50 32 L 68 68 M 40 54 C 40 45, 60 45, 60 54" stroke="url(#logoGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    <circle cx="50" cy="42" r="5" fill="#00d2ff"/>
-                </svg>
-                <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--panel-bg); border: 1px solid var(--border-color); padding: 2px 5px; border-radius: 4px; color: var(--text-main);">v3.0</span></div>
-            </div>
+            <div class="logo-title">🔬 Core Science AI <span style="font-size: 9px; padding: 2px 4px; border: 1px solid var(--border-color); border-radius: 4px;">v3.0</span></div>
             <button class="close-sidebar-btn" onclick="toggleSidebar()">✕</button>
         </div>
 
         <div class="sidebar-scrollable">
-            <button class="new-chat-btn" onclick="startNewChat()"><span>+</span> New Chat Session</button>
+            <button class="new-chat-btn" onclick="startNewChat()"><span>+</span> New Science Session</button>
 
-            <div class="section-title">Select Subject</div>
-            <div class="subject-select-container">
-                <div class="subject-dropdown-btn" onclick="toggleSubjectDropdown()">
-                    <span id="selectedSubjectLabel">Biologi (Form 4-5)</span>
-                    <span>▼</span>
+            <!-- 3 SCIENCE PILLARS SWITCHER -->
+            <div class="section-title">Select Science Discipline</div>
+            <div class="science-pillars">
+                <div class="science-card active" id="cardBiologi" onclick="selectSubject('Biologi', '#34a853')">
+                    <div class="science-info">
+                        <div class="science-icon" style="color: #34a853;">🧬</div>
+                        <div>
+                            <div class="science-name">Biologi</div>
+                            <div class="science-sub">Form 4 & 5 KSSM</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="subject-popup-menu" id="subjectPopupMenu">
-                    <div class="popup-subject-item active" onclick="selectSubject('Biologi')">Biologi</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Kimia')">Kimia</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Fizik')">Fizik</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Matematik Tambahan')">Matematik Tambahan</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Matematik')">Matematik</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Sains')">Sains</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Bahasa Melayu')">Bahasa Melayu</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Bahasa Inggeris')">Bahasa Inggeris</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Sejarah')">Sejarah</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Geografi')">Geografi</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Pendidikan Islam')">Pendidikan Islam</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Pendidikan Moral')">Pendidikan Moral</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Perniagaan')">Perniagaan</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Prinsip Perakaunan')">Prinsip Perakaunan</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Ekonomi')">Ekonomi</div>
-                    <div class="popup-subject-item" onclick="selectSubject('PJK')">PJK</div>
-                    <div class="popup-subject-item" onclick="selectSubject('Asas Sains Komputer')">Asas Sains Komputer</div>
+                <div class="science-card" id="cardKimia" onclick="selectSubject('Kimia', '#fbbc04')">
+                    <div class="science-info">
+                        <div class="science-icon" style="color: #fbbc04;">⚗️</div>
+                        <div>
+                            <div class="science-name">Kimia</div>
+                            <div class="science-sub">Form 4 & 5 KSSM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="science-card" id="cardFizik" onclick="selectSubject('Fizik', '#8ab4f8')">
+                    <div class="science-info">
+                        <div class="science-icon" style="color: #8ab4f8;">⚛️</div>
+                        <div>
+                            <div class="science-name">Fizik</div>
+                            <div class="science-sub">Form 4 & 5 KSSM</div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- SIDEBAR STUDY TOOLS -->
-            <div class="section-title">SPM Study Resources</div>
+            <div class="section-title">SPM Science Resources</div>
             <div class="sidebar-tools-section">
-                <a id="form4TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>Form 4 Textbook</span> <span>↗</span></a>
-                <a id="form5TextbookBtn" href="https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+Biologi+PDF" target="_blank" class="sidebar-tool-btn"><span>Form 5 Textbook</span> <span>↗</span></a>
-                <button class="sidebar-tool-btn" onclick="openStateModal()"><span>State Trial Vault</span> <span>➔</span></button>
-                <button class="sidebar-tool-btn" onclick="openYoutubeModal()"><span>KSSM Video Hub</span> <span>➔</span></button>
-                <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>Contoh Teknik Menjawab</span> <span>↗</span></button>
+                <a id="form4TextbookBtn" href="#" target="_blank" class="sidebar-tool-btn"><span>Form 4 Textbook</span> <span>↗</span></a>
+                <a id="form5TextbookBtn" href="#" target="_blank" class="sidebar-tool-btn"><span>Form 5 Textbook</span> <span>↗</span></a>
+                <button class="sidebar-tool-btn" onclick="openStateModal()"><span>Trial Papers Vault</span> <span>➔</span></button>
+                <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>Teknik Menjawab SPM</span> <span>↗</span></button>
                 
-                <!-- STUDY TIMER WIDGET -->
-                <div class="timer-card">
+                <div class="timer-card" style="margin-top: 6px;">
                     <div class="section-title" style="margin-bottom: 2px;">Study Timer</div>
-                    <div class="timer-input-row">
-                        <span>Duration (mins):</span>
-                        <input type="number" id="timerInputMinutes" class="timer-input" value="25" min="1" max="180" onchange="syncTimerInput()">
-                    </div>
                     <div class="timer-display" id="timerDisplay">25:00</div>
-                    <div class="timer-notification" id="timerNotification">Time is up! Take a break.</div>
                     <div class="timer-controls">
                         <button class="timer-btn" id="timerToggleBtn" onclick="toggleTimer()">Start</button>
                         <button class="timer-btn" onclick="resetTimer()">Reset</button>
@@ -295,280 +169,91 @@
                 </div>
             </div>
         </div>
-
-        <div class="user-profile-card">
-            <div class="profile-info">
-                <div class="profile-avatar" style="display:flex; align-items:center; justify-content:center;">DS</div>
-                <div class="profile-name" id="userNameDisplay">Dhanvine Suresh</div>
-            </div>
-            <button class="profile-settings-btn" title="Settings" onclick="promptChangeName()">⚙️</button>
-        </div>
     </sidebar>
 
     <div class="main-container">
         <div class="top-bar">
-            <div style="display: flex; align-items: center; gap: 8px; min-width: 0;">
+            <div style="display: flex; align-items: center; gap: 10px;">
                 <button class="hamburger-btn" onclick="toggleSidebar()">☰ Menu</button>
-                <div class="breadcrumb">Form 4–5 > <span id="currentSubjectDisplay">Biologi</span></div>
+                <div class="breadcrumb">SPM Science > <span id="currentSubjectDisplay">Biologi</span></div>
             </div>
-            <div class="topbar-right-group">
-                <button class="clear-chat-btn" onclick="clearChatHistory()">Clear</button>
-                <div class="lang-switch">
-                    <button class="lang-btn active" id="langEnBtn" onclick="setLanguage('English')">EN</button>
-                    <button class="lang-btn" id="langBmBtn" onclick="setLanguage('Bahasa Melayu')">BM</button>
-                </div>
-                <button class="clear-chat-btn" id="themeToggleBtn" onclick="toggleTheme()">Theme</button>
-                <div class="status-badge">Connected</div>
+            <div style="display: flex; gap: 6px; align-items: center;">
+                <button class="clear-chat-btn" onclick="clearChatHistory()" style="background:none; border:1px solid var(--border-color); color:var(--text-muted); padding:4px 8px; border-radius:8px; font-size:11px; cursor:pointer;">Clear</button>
+                <button class="clear-chat-btn" onclick="toggleTheme()" style="background:none; border:1px solid var(--border-color); color:var(--text-muted); padding:4px 8px; border-radius:8px; font-size:11px; cursor:pointer;">Theme</button>
             </div>
         </div>
 
         <div class="chat-messages" id="chatMessages">
             <div class="message assistant" id="welcomeMessage">
-                Ready for <span id="welcomeSubject">Biologi</span> (Form 4–5 / SPM)! Ask a question, request notes, or paste/upload a photo of an exam question.
+                Ready for <span id="welcomeSubject">Biologi</span> SPM revision! Ask questions, request textbook-aligned notes, or paste diagrams for instant AI breakdown.
             </div>
         </div>
 
         <div class="input-wrapper">
             <div class="input-container">
-                <div class="uploaded-preview-container" id="previewContainer">
-                    <img class="uploaded-preview" id="previewImg" src="" alt="Pasted Screenshot" onclick="openImageModal(this.src)">
-                    <div class="preview-info">
-                        <span class="preview-label">📸 Image Attached (Click to zoom)</span>
-                    </div>
-                    <button onclick="clearImage()" style="background:none; border:none; color:#f87171; font-weight:bold; cursor:pointer; font-size:12px;">✕ Remove</button>
+                <div id="previewContainer" style="display:none; align-items:center; gap:8px; padding-bottom:6px; border-bottom:1px solid var(--border-color);">
+                    <img id="previewImg" style="max-width:45px; border-radius:6px;" alt="Preview">
+                    <span style="font-size:11px; color:var(--current-accent); font-weight:600;">Image attached</span>
+                    <button onclick="clearImage()" style="background:none; border:none; color:#f87171; cursor:pointer; font-size:11px; margin-left:auto;">✕ Remove</button>
                 </div>
                 <div class="input-row">
-                    <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
-                    <button class="plus-btn" onclick="document.getElementById('imageInput').click()" title="Upload Question Photo">+</button>
-                    <input type="text" class="chat-input" id="userInput" placeholder="Ask Core AI..." onkeypress="handleKeyPress(event)">
+                    <input type="file" id="imageInput" accept="image/*" style="display:none;" onchange="handleImageUpload(event)">
+                    <button class="plus-btn" onclick="document.getElementById('imageInput').click()" title="Upload Diagram">+</button>
+                    <input type="text" class="chat-input" id="userInput" placeholder="Ask Core Science AI..." onkeypress="handleKeyPress(event)">
                     <button class="send-btn" onclick="sendMessage()">➔</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- FULLSCREEN IMAGE LIGHTBOX MODAL -->
-    <div class="image-modal-overlay" id="imageModalOverlay" onclick="closeImageModal()">
-        <img id="modalFullImage" src="" alt="Fullscreen View">
-    </div>
-
-    <!-- STATE TRIAL & FORM MODULES MODAL -->
+    <!-- TRIAL PAPERS MODAL -->
     <div class="modal-overlay" id="stateModal">
         <div class="modal-container">
             <div class="modal-header">
-                <div class="modal-title">🏛️ SPM State Trial Papers & Form Modules (<span id="modalSubject">Biologi</span>)</div>
+                <div>🏛️ SPM Trial Papers Vault (<span id="modalSubject">Biologi</span>)</div>
                 <button class="close-modal-btn" onclick="closeStateModal()">Close</button>
             </div>
-            <div class="modal-body">
-                <div class="state-selector-panel">
-                    <div style="font-size: 11px; color: var(--text-muted); font-weight: 500; margin-bottom: 4px;">ALL NEGERI & PREMIER TRIALS:</div>
-                    <div class="state-item" onclick="loadStateSearch('SBP')"><div><div class="state-item-name">SBP</div><div class="state-item-tag">Sekolah Berasrama Penuh</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('MRSM')"><div><div class="state-item-name">MRSM</div><div class="state-item-tag">Maktab Rendah Sains MARA</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Selangor')"><div><div class="state-item-name">Selangor</div><div class="state-item-tag">JPNSelangor</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kuala Lumpur')"><div><div class="state-item-name">Kuala Lumpur</div><div class="state-item-tag">JPWPKL</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Johor')"><div><div class="state-item-name">Johor</div><div class="state-item-tag">JPNJohor</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Pulau Pinang')"><div><div class="state-item-name">Pulau Pinang</div><div class="state-item-tag">JPNPenang</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Perak')"><div><div class="state-item-name">Perak</div><div class="state-item-tag">JPNPerak</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Pahang')"><div><div class="state-item-name">Pahang</div><div class="state-item-tag">JPNPahang</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kedah')"><div><div class="state-item-name">Kedah</div><div class="state-item-tag">JPNKedah</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Kelantan')"><div><div class="state-item-name">Kelantan</div><div class="state-item-tag">JPNKelantan</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Terengganu')"><div><div class="state-item-name">Terengganu</div><div class="state-item-tag">JPNTerengganu</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Negeri Sembilan')"><div><div class="state-item-name">Negeri Sembilan</div><div class="state-item-tag">JPNS</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Melaka')"><div><div class="state-item-name">Melaka</div><div class="state-item-tag">JPNMelaka</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Perlis')"><div><div class="state-item-name">Perlis</div><div class="state-item-tag">JPNPerlis</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Sabah')"><div><div class="state-item-name">Sabah</div><div class="state-item-tag">JPNSabah</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Sarawak')"><div><div class="state-item-name">Sarawak</div><div class="state-item-tag">JPNSarawak</div></div><span>➔</span></div>
-                    <div class="state-item" onclick="loadStateSearch('Labuan')"><div><div class="state-item-name">W.P. Labuan</div><div class="state-item-tag">JPNLabuan</div></div><span>➔</span></div>
-                </div>
-                
-                <div class="modal-content-area">
-                    <div class="f4-shortcut-bar">
-                        <span style="font-size: 11px; color: var(--text-muted); font-weight: 500;">SELECT LEVEL:</span>
-                        <button class="form-selector-badge active" id="form4Badge" onclick="setVaultForm(4)">Form 4</button>
-                        <button class="form-selector-badge" id="form5Badge" onclick="setVaultForm(5)">Form 5</button>
-                        <span style="width: 1px; height: 16px; background: var(--border-color); margin: 0 4px;"></span>
-                        <button class="sidebar-tool-btn" style="display:inline-block; width:auto; padding:4px 10px; font-size:11px;" onclick="loadModuleSearch('Topical')">Topical Modules</button>
-                        <button class="sidebar-tool-btn" style="display:inline-block; width:auto; padding:4px 10px; font-size:11px;" onclick="loadModuleSearch('PPT')">Mid-Year (PPT)</button>
-                        <button class="sidebar-tool-btn" style="display:inline-block; width:auto; padding:4px 10px; font-size:11px;" onclick="loadModuleSearch('PAT')">Final Exam (PAT)</button>
-                    </div>
-                    <iframe class="pdf-viewer-frame" id="statePdfFrame" src="about:blank"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- KSSM YOUTUBE HUB MODAL -->
-    <div class="modal-overlay" id="youtubeModal">
-        <div class="yt-modal-container">
-            <div class="modal-header">
-                <div class="modal-title">▶️ KSSM Video Hub (<span id="ytModalSubject">Biologi</span>)</div>
-                <button class="close-modal-btn" onclick="closeYoutubeModal()">Close</button>
-            </div>
-            <div style="padding: 20px; display: flex; flex-direction: column; flex: 1; overflow: hidden;">
-                <div class="yt-tabs">
-                    <button class="yt-tab-btn active" id="ytF4TabBtn" onclick="switchYtForm(4)">Form 4 Chapters</button>
-                    <button class="yt-tab-btn" id="ytF5TabBtn" onclick="switchYtForm(5)">Form 5 Chapters</button>
-                </div>
-                <div class="yt-chapter-grid" id="ytChapterContainer"></div>
-            </div>
+            <iframe class="pdf-viewer-frame" id="statePdfFrame" src="about:blank"></iframe>
         </div>
     </div>
 
     <script>
         let currentSubject = "Biologi";
-        let currentLevel = "Form 4-5 / SPM";
-        let currentLanguage = "English";
         let uploadedImageBase64 = null;
         let chatHistory = [];
-        let activeYtForm = 4;
-        let activeVaultForm = 4;
-
-        // Timer Variables
         let timerSeconds = 25 * 60;
         let timerInterval = null;
         let isTimerRunning = false;
 
-        function syncTimerInput() {
-            if (isTimerRunning) return;
-            const inputVal = parseInt(document.getElementById('timerInputMinutes').value);
-            if (isNaN(inputVal) || inputVal < 1) return;
-            timerSeconds = inputVal * 60;
-            updateTimerDisplay();
+        function selectSubject(subject, accentColor) {
+            currentSubject = subject;
+            document.documentElement.style.setProperty('--current-accent', accentColor);
+            document.getElementById('currentSubjectDisplay').innerText = subject;
+            document.getElementById('welcomeSubject').innerText = subject;
+            document.getElementById('modalSubject').innerText = subject;
+
+            document.querySelectorAll('.science-card').forEach(c => c.classList.remove('active'));
+            document.getElementById('card' + subject).classList.add('active');
+
+            document.getElementById('form4TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+${subject}+PDF`;
+            document.getElementById('form5TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+${subject}+PDF`;
+
+            clearChatHistory();
+            if(window.innerWidth <= 768) toggleSidebar();
         }
 
-        function toggleTimer() {
-            const btn = document.getElementById('timerToggleBtn');
-            const notif = document.getElementById('timerNotification');
-            
-            if (isTimerRunning) {
-                clearInterval(timerInterval);
-                isTimerRunning = false;
-                btn.innerText = "Start";
-            } else {
-                notif.style.display = 'none';
-                isTimerRunning = true;
-                btn.innerText = "Pause";
-                document.getElementById('timerInputMinutes').disabled = true;
+        selectSubject('Biologi', '#34a853');
 
-                timerInterval = setInterval(() => {
-                    if (timerSeconds > 0) {
-                        timerSeconds--;
-                        updateTimerDisplay();
-                    } else {
-                        clearInterval(timerInterval);
-                        isTimerRunning = false;
-                        btn.innerText = "Start";
-                        document.getElementById('timerInputMinutes').disabled = false;
-                        notif.style.display = 'block';
-                    }
-                }, 1000);
-            }
-        }
-
-        function resetTimer() {
-            clearInterval(timerInterval);
-            isTimerRunning = false;
-            document.getElementById('timerToggleBtn').innerText = "Start";
-            document.getElementById('timerInputMinutes').disabled = false;
-            document.getElementById('timerNotification').style.display = 'none';
-            const inputVal = parseInt(document.getElementById('timerInputMinutes').value) || 25;
-            timerSeconds = inputVal * 60;
-            updateTimerDisplay();
-        }
-
-        function updateTimerDisplay() {
-            const minutes = Math.floor(timerSeconds / 60);
-            const seconds = timerSeconds % 60;
-            document.getElementById('timerDisplay').innerText = 
-                `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-        }
-
-        const subjectChapterCounts = {
-            "Biologi": { 4: 15, 5: 13 }, "Kimia": { 4: 8, 5: 5 }, "Fizik": { 4: 6, 5: 7 },
-            "Matematik Tambahan": { 4: 11, 5: 8 }, "Matematik": { 4: 10, 5: 9 }, "Sains": { 4: 13, 5: 9 },
-            "Sejarah": { 4: 10, 5: 10 }, "Perniagaan": { 4: 4, 5: 4 }, "Prinsip Perakaunan": { 4: 9, 5: 7 },
-            "Ekonomi": { 4: 4, 5: 4 }, "Pendidikan Islam": { 4: 6, 5: 6 }, "Pendidikan Moral": { 4: 5, 5: 5 },
-            "Bahasa Melayu": { 4: 10, 5: 10 }, "Bahasa Inggeris": { 4: 10, 5: 10 }, "Geografi": { 4: 8, 5: 8 },
-            "PJK": { 4: 6, 5: 6 }, "Asas Sains Komputer": { 4: 4, 5: 4 }
-        };
-
-        function promptChangeName() {
-            let newName = prompt("Enter your name:", document.getElementById('userNameDisplay').innerText);
-            if(newName && newName.trim()) {
-                document.getElementById('userNameDisplay').innerText = newName.trim();
-                let initials = newName.trim().split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
-                document.querySelector('.profile-avatar').innerText = initials || 'U';
-            }
-        }
-
-        function openTeknikMenjawab() {
-            let query = `teknik menjawab soalan spm ${currentSubject} kssm`;
-            window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`, '_blank');
-        }
-
-        window.addEventListener('paste', function (e) {
-            const items = e.clipboardData ? e.clipboardData.items : null;
-            if (!items) return;
-            for (let i = 0; i < items.length; i++) {
-                if (items[i].type.indexOf('image') !== -1) {
-                    e.preventDefault();
-                    const blob = items[i].getAsFile();
-                    const reader = new FileReader();
-                    reader.onload = function (evt) {
-                        uploadedImageBase64 = evt.target.result;
-                        document.getElementById('previewImg').src = uploadedImageBase64;
-                        document.getElementById('previewContainer').style.display = 'flex';
-                    };
-                    reader.readAsDataURL(blob);
-                    break;
-                }
-            }
-        });
-
-        function openImageModal(imgSrc) {
-            document.getElementById('modalFullImage').src = imgSrc;
-            document.getElementById('imageModalOverlay').style.display = 'flex';
-        }
-
-        function closeImageModal() { document.getElementById('imageModalOverlay').style.display = 'none'; }
         function toggleSidebar() { document.getElementById('appSidebar').classList.toggle('open'); }
-        function toggleSubjectDropdown() { document.getElementById('subjectPopupMenu').classList.toggle('show'); }
-        function toggleTheme() {
-            document.body.classList.toggle('light-mode');
-            const btn = document.getElementById('themeToggleBtn');
-            btn.innerText = document.body.classList.contains('light-mode') ? 'Dark' : 'Theme';
-        }
-
+        function toggleTheme() { document.body.classList.toggle('light-mode'); }
+        
         function clearChatHistory() {
             chatHistory = [];
-            const chatMessages = document.getElementById('chatMessages');
-            chatMessages.innerHTML = `
+            document.getElementById('chatMessages').innerHTML = `
                 <div class="message assistant" id="welcomeMessage">
-                    Ready for <span id="welcomeSubject">${currentSubject}</span> (Form 4–5 / SPM)! Ask a question, request notes, or paste/upload a photo of an exam question.
+                    Ready for <span id="welcomeSubject">${currentSubject}</span> SPM revision! Ask questions, request textbook-aligned notes, or paste diagrams for instant AI breakdown.
                 </div>
             `;
-        }
-
-        function setLanguage(lang) {
-            currentLanguage = lang;
-            document.getElementById('langEnBtn').classList.toggle('active', lang === 'English');
-            document.getElementById('langBmBtn').classList.toggle('active', lang === 'Bahasa Melayu');
-        }
-
-        function selectSubject(subject) {
-            currentSubject = subject;
-            document.getElementById('selectedSubjectLabel').innerText = subject + " (Form 4-5)";
-            document.getElementById('subjectPopupMenu').classList.remove('show');
-            clearChatHistory();
-            document.getElementById('currentSubjectDisplay').innerText = subject;
-            document.getElementById('modalSubject').innerText = subject;
-            document.getElementById('ytModalSubject').innerText = subject;
-            document.getElementById('form4TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+4+${encodeURIComponent(subject)}+PDF`;
-            document.getElementById('form5TextbookBtn').href = `https://www.google.com/search?q=Buku+Teks+Digital+KSSM+Form+5+${encodeURIComponent(subject)}+PDF`;
-
-            let items = document.querySelectorAll('.popup-subject-item');
-            items.forEach(item => { item.classList.toggle('active', item.innerText.includes(subject)); });
-            if(window.innerWidth <= 768) toggleSidebar();
         }
 
         function startNewChat() { clearChatHistory(); if(window.innerWidth <= 768) toggleSidebar(); }
@@ -593,40 +278,44 @@
             document.getElementById('previewContainer').style.display = 'none';
         }
 
-        function openStateModal() { document.getElementById('stateModal').style.display = 'flex'; loadStateSearch('SBP'); }
+        function openStateModal() {
+            document.getElementById('stateModal').style.display = 'flex';
+            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=Soalan+Trial+SPM+SBP+MRSM+${currentSubject}+PDF&igu=1`;
+        }
         function closeStateModal() { document.getElementById('stateModal').style.display = 'none'; }
-        function setVaultForm(form) {
-            activeVaultForm = form;
-            document.getElementById('form4Badge').classList.toggle('active', form === 4);
-            document.getElementById('form5Badge').classList.toggle('active', form === 5);
-        }
-        function loadStateSearch(state) {
-            let query = `Soalan+Trial+SPM+${encodeURIComponent(state)}+${encodeURIComponent(currentSubject)}+PDF`;
-            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${query}&igu=1`;
-        }
-        function loadModuleSearch(type) {
-            let query = `Soalan+${type}+Form+${activeVaultForm}+KSSM+${encodeURIComponent(currentSubject)}+PDF`;
-            document.getElementById('statePdfFrame').src = `https://www.google.com/search?q=${query}&igu=1`;
-        }
-        function openYoutubeModal() { document.getElementById('youtubeModal').style.display = 'flex'; switchYtForm(4); }
-        function closeYoutubeModal() { document.getElementById('youtubeModal').style.display = 'none'; }
+        function openTeknikMenjawab() { window.open(`https://www.youtube.com/results?search_query=teknik+menjawab+spm+${currentSubject}+kssm`, '_blank'); }
 
-        function switchYtForm(form) {
-            activeYtForm = form;
-            document.getElementById('ytF4TabBtn').classList.toggle('active', form === 4);
-            document.getElementById('ytF5TabBtn').classList.toggle('active', form === 5);
-            const container = document.getElementById('ytChapterContainer');
-            container.innerHTML = '';
-            const counts = subjectChapterCounts[currentSubject] || { 4: 10, 5: 10 };
-            const totalChapters = counts[form] || 10;
-            for (let i = 1; i <= totalChapters; i++) {
-                let link = document.createElement('a');
-                link.className = 'yt-chapter-link';
-                link.target = '_blank';
-                link.href = `https://www.youtube.com/results?search_query=KSSM+${encodeURIComponent(currentSubject)}+Form+${form}+Chapter+${i}`;
-                link.innerHTML = `<span>Form ${form} Chapter ${i} Video Lessons</span> <span>↗</span>`;
-                container.appendChild(link);
+        function toggleTimer() {
+            const btn = document.getElementById('timerToggleBtn');
+            if (isTimerRunning) {
+                clearInterval(timerInterval);
+                isTimerRunning = false;
+                btn.innerText = "Start";
+            } else {
+                isTimerRunning = true;
+                btn.innerText = "Pause";
+                timerInterval = setInterval(() => {
+                    if (timerSeconds > 0) {
+                        timerSeconds--;
+                        let m = Math.floor(timerSeconds / 60).toString().padStart(2, '0');
+                        let s = (timerSeconds % 60).toString().padStart(2, '0');
+                        document.getElementById('timerDisplay').innerText = `${m}:${s}`;
+                    } else {
+                        clearInterval(timerInterval);
+                        isTimerRunning = false;
+                        btn.innerText = "Start";
+                        alert("Study session complete! Take a short break.");
+                    }
+                }, 1000);
             }
+        }
+
+        function resetTimer() {
+            clearInterval(timerInterval);
+            isTimerRunning = false;
+            document.getElementById('timerToggleBtn').innerText = "Start";
+            timerSeconds = 25 * 60;
+            document.getElementById('timerDisplay').innerText = "25:00";
         }
 
         async function sendMessage() {
@@ -640,11 +329,7 @@
 
             let userMsgDiv = document.createElement('div');
             userMsgDiv.className = 'message user';
-            if (uploadedImageBase64) {
-                userMsgDiv.innerHTML = `<img src="${uploadedImageBase64}" class="chat-img-thumb" onclick="openImageModal(this.src)" alt="Question">` + (messageText ? `<div>${messageText}</div>` : '');
-            } else {
-                userMsgDiv.innerText = messageText;
-            }
+            userMsgDiv.innerHTML = (uploadedImageBase64 ? `<img src="${uploadedImageBase64}" class="chat-img-thumb">` : '') + (messageText ? `<div>${messageText}</div>` : '');
             chatMessages.appendChild(userMsgDiv);
 
             const payloadPrompt = messageText;
@@ -655,20 +340,16 @@
 
             let botMsgDiv = document.createElement('div');
             botMsgDiv.className = 'message assistant';
-            botMsgDiv.innerHTML = `<div class="typing-dots"><span></span><span></span><span></span></div>`;
+            botMsgDiv.innerHTML = `<div style="color:var(--text-muted)">Analyzing science concept...</div>`;
             chatMessages.appendChild(botMsgDiv);
             chatMessages.scrollTop = chatMessages.scrollHeight;
 
             try {
                 let taskType = "explain";
                 let lower = payloadPrompt.toLowerCase();
-                if (lower.includes("/solve")) taskType = "solve";
-                else if (lower.includes("/notes") || lower.includes("notes")) taskType = "create_notes";
-                else if (lower.includes("/quiz") || lower.includes("/exam")) taskType = "generate_questions";
-
-                if (chatHistory.length > 6) {
-                    chatHistory = chatHistory.slice(chatHistory.length - 6);
-                }
+                if (lower.includes("/solve") || lower.includes("calculate")) taskType = "solve";
+                else if (lower.includes("notes")) taskType = "create_notes";
+                else if (lower.includes("quiz") || lower.includes("exam")) taskType = "generate_questions";
 
                 const response = await fetch('/chat', {
                     method: 'POST',
@@ -677,8 +358,8 @@
                         prompt: payloadPrompt,
                         task: taskType,
                         subject: currentSubject,
-                        level: currentLevel,
-                        language: currentLanguage,
+                        level: "Form 4-5 / SPM",
+                        language: "English",
                         image: payloadImage,
                         history: chatHistory
                     })
@@ -686,33 +367,15 @@
 
                 const data = await response.json();
                 if (data.reply) {
-                    let rawReplyText = data.reply;
-                    botMsgDiv.innerHTML = marked.parse(rawReplyText);
-                    
-                    let actionDiv = document.createElement('div');
-                    actionDiv.className = 'message-actions';
-                    let copyBtn = document.createElement('button');
-                    copyBtn.className = 'copy-btn';
-                    copyBtn.innerText = 'Copy';
-                    copyBtn.onclick = function() {
-                        navigator.clipboard.writeText(rawReplyText);
-                        copyBtn.innerText = 'Copied!';
-                        setTimeout(() => { copyBtn.innerText = 'Copy'; }, 2000);
-                    };
-                    actionDiv.appendChild(copyBtn);
-                    botMsgDiv.appendChild(actionDiv);
-
+                    botMsgDiv.innerHTML = marked.parse(data.reply);
                     chatHistory.push({ role: "user", content: payloadPrompt });
                     chatHistory.push({ role: "assistant", content: data.reply });
-                } else if (data.error) {
-                    botMsgDiv.innerHTML = `Error: ${data.error}`;
                 } else {
                     botMsgDiv.innerHTML = "Error generating response.";
                 }
             } catch (error) {
                 botMsgDiv.innerHTML = "Connection error with Python backend.";
             }
-
             chatMessages.scrollTop = chatMessages.scrollHeight;
         }
     </script>
