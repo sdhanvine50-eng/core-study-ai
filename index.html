@@ -3,109 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Core Science AI v3.0 - SPM Bio | Chem | Physics</title>
+    <title>Core Study AI v3.0 - SPM Bio | Chem | Physics</title>
     <!-- Marked.js for Markdown -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <!-- KaTeX for math rendering -->
+    <!-- KaTeX for clean math rendering -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
     <style>
         :root {
-            --bg-main: #0a0b0d;
-            --sidebar-bg: #121418;
-            --panel-bg: #1a1d23;
-            --panel-hover: #232730;
-            --accent-bio: #34a853;
-            --accent-chem: #fbbc04;
-            --accent-phys: #8ab4f8;
+            --bg-main: #000000;
+            --sidebar-bg: #131314;
+            --panel-bg: #1e1f20;
+            --panel-hover: #282a2c;
             --current-accent: #34a853;
             --text-main: #e3e3e3;
             --text-muted: #8e918f;
-            --border-color: #2b303b;
+            --border-color: #333537;
         }
 
         body.light-mode {
-            --bg-main: #f4f6f9;
-            --sidebar-bg: #ffffff;
-            --panel-bg: #ffffff;
-            --panel-hover: #edf2f7;
+            --bg-main: #ffffff;
+            --sidebar-bg: #f0f4f9;
+            --panel-bg: #f8f9fa;
+            --panel-hover: #e2e7ec;
             --text-main: #1f1f1f;
             --text-muted: #5f6368;
-            --border-color: #d1d5db;
+            --border-color: #dadce0;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Google Sans', 'Segoe UI', sans-serif; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Google Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         
-        body { background-color: var(--bg-main); color: var(--text-main); display: flex; flex-direction: row; height: 100dvh; width: 100vw; overflow: hidden; transition: background 0.3s; }
+        body { background-color: var(--bg-main); color: var(--text-main); display: flex; flex-direction: row; height: 100dvh; width: 100vw; overflow: hidden; position: relative; transition: background-color 0.3s, color 0.3s; }
         
-        sidebar { width: 300px; min-width: 300px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; height: 100dvh; z-index: 1000; }
+        sidebar { width: 280px; min-width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 16px; height: 100dvh; z-index: 1000; transition: transform 0.3s ease; }
         
-        .sidebar-scrollable { flex: 1; overflow-y: auto; padding-right: 2px; display: flex; flex-direction: column; gap: 14px; }
-        .sidebar-scrollable::-webkit-scrollbar { width: 4px; }
+        .sidebar-scrollable { flex: 1; overflow-y: auto; padding-right: 4px; display: flex; flex-direction: column; gap: 14px; }
+        .sidebar-scrollable::-webkit-scrollbar { width: 6px; }
+        .sidebar-scrollable::-webkit-scrollbar-track { background: transparent; }
         .sidebar-scrollable::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
 
-        .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
-        .logo-title { font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 8px; color: var(--text-main); }
-        .close-sidebar-btn { display: none; background: none; border: none; color: var(--text-muted); font-size: 18px; cursor: pointer; }
+        .logo-area { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; padding-left: 4px; }
+        .logo-left { display: flex; align-items: center; gap: 10px; }
+        .logo-svg { width: 32px; height: 32px; flex-shrink: 0; }
+        .logo-title { font-size: 16px; font-weight: 500; display: flex; align-items: center; gap: 6px; color: var(--text-main); }
+        .close-sidebar-btn { display: none; background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; }
 
-        .new-chat-btn { background: var(--panel-bg); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 14px; border-radius: 12px; font-weight: 500; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; gap: 8px; font-size: 13px; width: 100%; }
+        .new-chat-btn { background: var(--panel-bg); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: 24px; font-weight: 500; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; gap: 10px; font-size: 13px; width: 100%; }
         .new-chat-btn:hover { background: var(--panel-hover); }
 
-        .section-title { font-size: 10px; color: var(--text-muted); letter-spacing: 1px; font-weight: 600; text-transform: uppercase; margin-bottom: 6px; }
+        .section-title { font-size: 11px; color: var(--text-muted); letter-spacing: 0.8px; margin-bottom: 6px; font-weight: 500; text-transform: uppercase; padding-left: 4px; }
 
         /* 3-PILLAR SCIENCE SELECTOR CARDS */
         .science-pillars { display: flex; flex-direction: column; gap: 8px; }
         .science-card { background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; justify-content: space-between; }
-        .science-card:hover { background: var(--panel-hover); border-color: var(--text-muted); }
+        .science-card:hover { background: var(--panel-hover); }
         .science-card.active { border-color: var(--current-accent); background: rgba(52, 168, 83, 0.08); }
         .science-info { display: flex; align-items: center; gap: 10px; }
         .science-icon { width: 34px; height: 34px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: bold; background: var(--panel-hover); }
         .science-name { font-size: 13px; font-weight: 600; color: var(--text-main); }
         .science-sub { font-size: 11px; color: var(--text-muted); }
 
-        .sidebar-tools-section { display: flex; flex-direction: column; gap: 6px; border-top: 1px solid var(--border-color); padding-top: 12px; }
-        .sidebar-tool-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 8px 12px; border-radius: 10px; cursor: pointer; font-weight: 500; text-decoration: none; display: flex; align-items: center; justify-content: space-between; font-size: 12px; transition: background 0.2s; width: 100%; }
+        .sidebar-tools-section { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-color); padding-top: 14px; }
+        .sidebar-tool-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: 12px; cursor: pointer; font-weight: 500; text-decoration: none; display: flex; align-items: center; justify-content: space-between; font-size: 13px; transition: background 0.2s; width: 100%; }
         .sidebar-tool-btn:hover { background: var(--panel-hover); }
 
-        /* TIMER */
-        .timer-card { background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
-        .timer-display { font-size: 18px; font-weight: 600; text-align: center; color: var(--current-accent); letter-spacing: 1px; }
+        /* STUDY TIMER WIDGET */
+        .timer-card { background: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+        .timer-display { font-size: 20px; font-weight: 600; text-align: center; color: var(--current-accent); letter-spacing: 1px; }
         .timer-controls { display: flex; gap: 6px; justify-content: center; }
-        .timer-btn { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 4px 8px; border-radius: 6px; font-size: 11px; cursor: pointer; flex: 1; }
+        .timer-btn { background: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 8px; font-size: 11px; cursor: pointer; flex: 1; }
+        .timer-btn:hover { background: var(--panel-hover); }
 
-        .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100dvh; background-color: var(--bg-main); }
-        .top-bar { padding: 10px 16px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--bg-main); }
-        .hamburger-btn { display: none; background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 6px 10px; border-radius: 8px; font-size: 12px; cursor: pointer; }
+        .main-container { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100dvh; position: relative; background-color: var(--bg-main); }
+        
+        .top-bar { padding: 10px 16px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background-color: var(--bg-main); flex-shrink: 0; }
+        .hamburger-btn { display: none; background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 10px; border-radius: 8px; cursor: font-size: 12px; font-weight: 500; align-items: center; gap: 4px; }
         .breadcrumb { font-size: 12px; color: var(--text-muted); }
-        .breadcrumb span { color: var(--current-accent); font-weight: 600; }
+        .breadcrumb span { color: var(--current-accent); font-weight: 500; }
 
-        .chat-messages { flex: 1; padding: 16px; overflow-y: auto; display: flex; flex-direction: column; gap: 16px; max-width: 900px; width: 100%; margin: 0 auto; }
-        .message { max-width: 85%; padding: 12px 16px; border-radius: 14px; line-height: 1.6; font-size: 13px; }
-        .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; }
-        .message.user { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-end; }
+        .chat-messages { flex: 1; padding: 16px; overflow-y: auto; display: flex; flex-direction: column; gap: 16px; max-width: 950px; width: 100%; margin: 0 auto; scrollbar-width: thin; scrollbar-color: var(--border-color) transparent; }
+        .chat-messages::-webkit-scrollbar { width: 6px; }
+        .chat-messages::-webkit-scrollbar-thumb { background-color: var(--border-color); border-radius: 10px; }
 
-        .chat-img-thumb { max-width: 180px; border-radius: 8px; display: block; margin-bottom: 6px; cursor: pointer; }
-        .message-actions { display: flex; justify-content: flex-end; margin-top: 6px; }
-        .copy-btn { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 2px 8px; border-radius: 8px; font-size: 10px; cursor: pointer; }
+        .message { max-width: 90%; padding: 12px 16px; border-radius: 16px; line-height: 1.6; font-size: 13px; word-break: break-word; }
+        .message.assistant { background-color: var(--panel-bg); border: 1px solid var(--border-color); align-self: flex-start; color: var(--text-main); }
+        .message.user { background-color: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); align-self: flex-end; }
 
-        .input-wrapper { max-width: 900px; width: 100%; margin: 0 auto; padding: 12px 16px; }
-        .input-container { background-color: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 8px 12px; display: flex; flex-direction: column; gap: 6px; }
+        .chat-img-thumb { max-width: 200px; max-height: 160px; border-radius: 8px; display: block; margin-bottom: 8px; cursor: pointer; border: 1px solid var(--border-color); }
+        .message-actions { display: flex; justify-content: flex-end; margin-top: 8px; gap: 6px; border-top: 1px solid var(--border-color); padding-top: 6px; }
+        .copy-btn { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 4px 10px; border-radius: 12px; font-size: 11px; cursor: pointer; }
+        .copy-btn:hover { background: var(--panel-hover); color: var(--text-main); }
+
+        .input-wrapper { max-width: 950px; width: 100%; margin: 0 auto; padding: 12px 16px; background: var(--bg-main); flex-shrink: 0; }
+        .input-container { background-color: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 24px; padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; }
         .input-row { display: flex; width: 100%; gap: 8px; align-items: center; }
-        .chat-input { flex: 1; background: transparent; border: none; color: var(--text-main); padding: 4px; font-size: 13px; outline: none; }
-        .plus-btn, .send-btn { background: var(--current-accent); color: #000; border: none; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-weight: bold; }
-        .plus-btn { background: var(--panel-hover); color: var(--text-main); border: 1px solid var(--border-color); font-size: 18px; }
+        .chat-input { flex: 1; background: transparent; border: none; color: var(--text-main); padding: 4px 6px; font-size: 14px; outline: none; }
+        .chat-input::placeholder { color: var(--text-muted); }
+        
+        .plus-btn { background: transparent; border: none; color: var(--text-main); width: 34px; height: 34px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 22px; transition: background 0.2s; }
+        .plus-btn:hover { background: var(--panel-hover); }
+        
+        .send-btn { background-color: var(--text-main); color: var(--bg-main); border: none; width: 34px; height: 34px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: bold; transition: opacity 0.2s; }
+        .send-btn:hover { opacity: 0.9; }
 
         /* MODALS */
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.8); z-index: 2000; justify-content: center; align-items: center; }
-        .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 90%; height: 85%; border-radius: 14px; display: flex; flex-direction: column; overflow: hidden; }
-        .modal-header { padding: 14px 18px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-weight: 600; }
-        .close-modal-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 11px; }
+        .modal-container { background: var(--panel-bg); border: 1px solid var(--border-color); width: 92%; height: 90%; border-radius: 16px; display: flex; flex-direction: column; overflow: hidden; }
+        .modal-header { padding: 16px 20px; background: var(--sidebar-bg); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; }
+        .close-modal-btn { background: var(--panel-bg); border: 1px solid var(--border-color); color: var(--text-main); padding: 5px 12px; border-radius: 14px; cursor: pointer; font-size: 12px; }
         .pdf-viewer-frame { flex: 1; border: none; background: #fff; }
 
         @media (max-width: 768px) {
             sidebar { position: fixed; left: 0; top: 0; width: 270px; transform: translateX(-100%); transition: transform 0.3s; }
             sidebar.open { transform: translateX(0); }
-            .hamburger-btn { display: block; }
+            .hamburger-btn { display: flex; }
         }
     </style>
 </head>
@@ -113,7 +124,22 @@
 
     <sidebar id="appSidebar">
         <div class="logo-area">
-            <div class="logo-title">🔬 Core Science AI <span style="font-size: 9px; padding: 2px 4px; border: 1px solid var(--border-color); border-radius: 4px;">v3.0</span></div>
+            <div class="logo-left">
+                <!-- Restored Original v3.0 Logo SVG -->
+                <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#1e90ff"/>
+                            <stop offset="50%" stop-color="#00d2ff"/>
+                            <stop offset="100%" stop-color="#0052d4"/>
+                        </linearGradient>
+                    </defs>
+                    <path d="M 75 30 A 38 38 0 1 0 75 70" stroke="url(#logoGrad)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    <path d="M 32 68 L 50 32 L 68 68 M 40 54 C 40 45, 60 45, 60 54" stroke="url(#logoGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <circle cx="50" cy="42" r="5" fill="#00d2ff"/>
+                </svg>
+                <div class="logo-title">Core Study AI <span style="font-size: 9px; background: var(--panel-bg); border: 1px solid var(--border-color); padding: 2px 5px; border-radius: 4px; color: var(--text-main);">v3.0</span></div>
+            </div>
             <button class="close-sidebar-btn" onclick="toggleSidebar()">✕</button>
         </div>
 
@@ -159,7 +185,7 @@
                 <button class="sidebar-tool-btn" onclick="openStateModal()"><span>Trial Papers Vault</span> <span>➔</span></button>
                 <button class="sidebar-tool-btn" onclick="openTeknikMenjawab()"><span>Teknik Menjawab SPM</span> <span>↗</span></button>
                 
-                <div class="timer-card" style="margin-top: 6px;">
+                <div class="timer-card" style="margin-top: 4px;">
                     <div class="section-title" style="margin-bottom: 2px;">Study Timer</div>
                     <div class="timer-display" id="timerDisplay">25:00</div>
                     <div class="timer-controls">
@@ -173,13 +199,13 @@
 
     <div class="main-container">
         <div class="top-bar">
-            <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
                 <button class="hamburger-btn" onclick="toggleSidebar()">☰ Menu</button>
                 <div class="breadcrumb">SPM Science > <span id="currentSubjectDisplay">Biologi</span></div>
             </div>
             <div style="display: flex; gap: 6px; align-items: center;">
-                <button class="clear-chat-btn" onclick="clearChatHistory()" style="background:none; border:1px solid var(--border-color); color:var(--text-muted); padding:4px 8px; border-radius:8px; font-size:11px; cursor:pointer;">Clear</button>
-                <button class="clear-chat-btn" onclick="toggleTheme()" style="background:none; border:1px solid var(--border-color); color:var(--text-muted); padding:4px 8px; border-radius:8px; font-size:11px; cursor:pointer;">Theme</button>
+                <button onclick="clearChatHistory()" style="background:none; border:1px solid var(--border-color); color:var(--text-muted); padding:4px 8px; border-radius:12px; font-size:11px; cursor:pointer;">Clear</button>
+                <button onclick="toggleTheme()" style="background:none; border:1px solid var(--border-color); color:var(--text-muted); padding:4px 8px; border-radius:12px; font-size:11px; cursor:pointer;">Theme</button>
             </div>
         </div>
 
@@ -367,7 +393,22 @@
 
                 const data = await response.json();
                 if (data.reply) {
-                    botMsgDiv.innerHTML = marked.parse(data.reply);
+                    let rawReplyText = data.reply;
+                    botMsgDiv.innerHTML = marked.parse(rawReplyText);
+                    
+                    let actionDiv = document.createElement('div');
+                    actionDiv.className = 'message-actions';
+                    let copyBtn = document.createElement('button');
+                    copyBtn.className = 'copy-btn';
+                    copyBtn.innerText = 'Copy';
+                    copyBtn.onclick = function() {
+                        navigator.clipboard.writeText(rawReplyText);
+                        copyBtn.innerText = 'Copied!';
+                        setTimeout(() => { copyBtn.innerText = 'Copy'; }, 2000);
+                    };
+                    actionDiv.appendChild(copyBtn);
+                    botMsgDiv.appendChild(actionDiv);
+
                     chatHistory.push({ role: "user", content: payloadPrompt });
                     chatHistory.push({ role: "assistant", content: data.reply });
                 } else {
