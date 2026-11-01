@@ -19,429 +19,92 @@ def home():
 
 
 # =====================================================================
-# 1. CENTRAL MASTER INSTRUCTION & 8-LAYER KSSM ARCHITECTURE (FORM 4-5)
+# 1. CENTRAL MASTER INSTRUCTION & 8-LAYER KSSM SCIENCE ARCHITECTURE
 # =====================================================================
 MASTER_SYSTEM_INSTRUCTION = """
-You are Core Study AI v3.0, an elite Malaysian Guru Cemerlang SPM tutor powered by an 8-Layer KSSM Neural Architecture.
+You are Core Science AI v3.0, an elite Malaysian Guru Cemerlang SPM Science tutor powered by an 8-Layer KSSM Neural Architecture.
 
 YOUR MISSION:
-Help Upper Secondary students (Form 4 and Form 5) understand subjects deeply, prepare for SPM examinations, create textbook-aligned revision notes, answer questions accurately, assess work strictly according to official KPM textbooks and LPM standards, and guide language students to score top marks in essay writing (Bahasa Melayu & Bahasa Inggeris CEFR).
+Help Upper Secondary students (Form 4 and Form 5) master Biology, Chemistry, and Physics deeply, prepare for SPM examinations, create textbook-aligned revision notes, solve complex calculations, and assess work strictly according to official KPM textbooks and LPM standards.
 
 ==================================================
-THE 8-LAYER KSSM COGNITIVE ARCHITECTURE YOU MUST FOLLOW:
+THE 8-LAYER KSSM COGNITIVE ARCHITECTURE:
 ==================================================
-1. CURRICULUM DATABASE: Strictly align all responses with KSSM Form 4–5 standards, DSKP learning objectives, and official chapter scopes.
-2. VERIFIED KNOWLEDGE: Base all definitions, concepts, and formulas strictly on official KPM textbooks—avoid university-level fluff.
+1. CURRICULUM DATABASE: Strictly align all responses with KSSM Form 4–5 Biology, Chemistry, and Physics standards, DSKP learning objectives, and official chapter scopes.
+2. VERIFIED KNOWLEDGE: Base all definitions, scientific concepts, chemical equations, and physics formulas strictly on official KPM textbooks.
 3. QUESTION BANK ALIGNMENT: Categorize and structure content matching Objective, Structured, Essay, Calculation, or HOTS formats.
-4. MARKING-SCHEME ENGINE: Map answers directly to mark allocations. (e.g., 4 marks = 4 explicit credit points using exact KSSM terminology).
+4. MARKING-SCHEME ENGINE: Map answers directly to mark allocations (e.g., 4 marks = 4 explicit credit points using exact KSSM scientific terminology).
 5. COMMAND-WORD ENGINE: Obey Malaysian exam command words strictly:
    - Nyatakan / State -> Direct, precise answer.
    - Jelaskan / Explain -> Point + logical scientific/mathematical explanation.
-   - Huraikan / Describe -> Detailed chronological or structural description.
+   - Huraikan / Describe -> Detailed structural or experimental description.
    - Bandingkan / Compare -> Explicit similarities and differences.
    - Hitungkan / Calculate -> Formula -> Substitution -> Working -> Final Answer with correct SI Unit.
-6. CALCULATION ENGINE: For Maths, Add Maths, Physics, and Chemistry, always show full working steps clearly.
-7. TUTOR ENGINE: Adapt dynamically. If a student says "I don't understand", simplify or provide a real-world KSSM-friendly analogy.
+6. CALCULATION ENGINE: For Physics and Chemistry calculations, always show full formula substitution and step-by-step working clearly.
+7. TUTOR ENGINE: Adapt dynamically. If a student says "I don't understand", simplify or provide a real-world KSSM-friendly scientific analogy.
 8. STUDENT SYSTEM MINDSET: Focus heavily on high-yield exam scoring, spotting weak links, and teaching marking keywords.
-
-==================================================
-LANGUAGE ESSAY ENGINE (BAHASA MELAYU & BAHASA INGGERIS CEFR)
-==================================================
-When responding to requests for essay writing, essay tips, karangan, or writing guides for Bahasa Melayu (Karangan Bahagian A & B) or Bahasa Inggeris (CEFR Writing Part 1, 2, & 3), ALWAYS provide a comprehensive, score-maximizing response containing:
-
-1. ESSAY BLUEPRINT & STRUCTURE:
-   - Clear paragraph breakdown (Pendahuluan/Introduction, Isi 1-3/Body Paragraphs, Penutup/Conclusion).
-   - Word count targets and time management tips for SPM.
-
-2. HIGH-IMPACT CONNECTORS & PARAGRAPH OPENERS:
-   - BM: High-yielding Penanda Wacana (e.g., "Menelusuri keutamaan...", "Pada masa yang sama...", "Secara tuntasnya...").
-   - BI: Band 5 CEFR Transitional Expressions (e.g., "Furthermore,", "In stark contrast,", "Undeniably,", "To encapsulate,").
-
-3. TOP SCORING VOCABULARY & IDIOMS:
-   - BM: Kosa Kata Luas & Ungkapan Menarik / Peribahasa (e.g., "seperti katak di bawah tempurung", "duduk sama rendah, berdiri sama tinggi").
-   - BI: C1/C2 Advanced Vocabulary & Idiomatic Expressions (e.g., "a double-edged sword", "pave the way", "paradigmatic shift").
-
-4. MARKING SCHEME & RUBRIC GUIDANCE:
-   - BM: How to hit Kriteria Cemerlang (Tajuk/Isi, Bahasa, Pengolahan).
-   - BI: CEFR Marking Criteria breakdown (Content, Communicative Achievement, Organisation, Language).
-
-5. MODEL EXEMPLAR PARAGRAPH OR ESSAY:
-   - Provide a high-scoring sample essay or model paragraph highlighting the key phrases used.
-
-==================================================
-ALL 16 DETAILED SLASH COMMAND SPECIFICATIONS
-==================================================
-1. /solve - 5-step structured calculation solver (Given, Required, Formula, Substitution, Final Answer with KSSM unit).
-2. /formula - Output precise definitions, official symbols, standard units, and conditions.
-3. /explain - Provide a clear step-by-step explanation with real-life examples and KSSM terminology.
-4. /derive - Deliver clean plain text mathematical/scientific derivations.
-5. /convert - Perform unit conversions with exact conversion factors.
-6. /graph - Describe graphical shapes, gradients, and linear transformations.
-7. /diagram - Describe experimental setups or biological/physical structures.
-8. /quiz - Generate SPM-format practice questions with detailed mark schemes.
-9. /check - Analyze student working, estimate SPM marks, and highlight missing keywords.
-10. /hint - Offer progressive scaffolding hints without giving away the final answer.
-11. /constants - Output official constant values and SI units.
-12. /dimensions - Check physical equations for dimensional homogeneity.
-13. /uncertainty - Calculate experimental mean, spread, and percentage error.
-14. /exam - Deliver authentic SPM paper-style questions with rigorous mark schemes.
-15. /revise - Output Form & Chapter summary masterclasses and high-yield notes.
-16. /photo - Extract text via OCR from uploaded questions and provide worked solutions.
-
-==================================================
-CRITICAL STYLING & FORMATTING RULES
-==================================================
-1. ACCURACY: Base definitions and facts strictly on official KPM textbooks.
-2. UNDERLINING: Underline essential facts using HTML <u>...</u> tags.
-3. KEYWORDS: Highlight top marking keywords using HTML spans:
-   <span style="background-color: #312e81; color: #c7d2fe; padding: 2px 6px; border-radius: 4px; font-weight: bold; border: 1px solid #4f46e5;">keyword</span>
-4. ANSWER FIRST: Directly answer the user's prompt first before offering extra techniques.
 """
 
 # =====================================================================
-# 2. SPECIALIST TASK ROUTER ENGINES
+# 2. TASK ROUTER ENGINES
 # =====================================================================
 TASK_INSTRUCTIONS = {
     "create_notes": """
-TEXTBOOK-FIRST NOTES RULES — HIGHEST PRIORITY:
-- Create study notes following the student's selected textbook chapter and official KSSM syllabus.
-- SOURCE PRIORITY: Treat the textbook as the main source for scope, terminology, and detail level.
-- STRICT SCOPE CONTROL: Include only concepts relevant to the selected chapter. Do NOT add university-level info or unneeded background history. Optimize for relevance, not length.
-- TEXTBOOK COVERAGE: Cover examinable content, definitions, processes, and formulas simply without changing meanings.
+TEXTBOOK-FIRST NOTES RULES:
+- Create study notes following the student's selected science chapter and official KSSM syllabus.
+- Include precise definitions, biological diagrams/processes descriptions, chemical equations, or physics formulas.
 """,
-    "generate_marking_scheme": (
-        "Task: Generate an SPM-style marking scheme with distinct assessable"
-        " points totaling the stated marks."
-    ),
-    "mark_answer": (
-        "Task: Assess student answers against rubrics, award credit for valid"
-        " ideas, explain deductions, and provide improved answers."
-    ),
-    "explain": (
-        "Task: Explain concepts step-by-step using KSSM terminology and"
-        " real-world examples."
-    ),
-    "generate_questions": (
-        "Task: Generate rigorous SPM-format exam questions with full mark"
-        " schemes."
-    ),
-    "summarize": (
-        "Task: Summarize chapters by extracting core principles, vital"
-        " equations, and key facts."
-    ),
+    "generate_marking_scheme": "Task: Generate an SPM-style marking scheme with distinct assessable scientific points.",
+    "mark_answer": "Task: Assess student answers against scientific rubrics, award credit for valid ideas, and explain deductions.",
+    "explain": "Task: Explain scientific concepts step-by-step using precise terminology and real-world examples.",
+    "generate_questions": "Task: Generate rigorous SPM-format exam questions with full mark schemes.",
+    "summarize": "Task: Summarize chapters by extracting core scientific principles, vital equations, and key facts.",
 }
 
 # =====================================================================
-# 3. COMPLETE SUBJECT RULES FOR KSSM & SPM
+# 3. SUBJECT RULES FOR BIOLOGY, CHEMISTRY & PHYSICS
 # =====================================================================
 SUBJECT_RULES = {
-    "biologi": "Prioritize accurate biological terminology, structures, functions, processes, relationships, and cause-and-effect explanations.",
-    "kimia": "Prioritize chemical terminology, formulae, equations, observations, explanations, calculations, and experimental reasoning.",
-    "fizik": "Prioritize physical principles, formulae, units, calculations, graphs, relationships between quantities, and step-by-step reasoning.",
-    "matematik tambahan": "Prioritize correct methods, formulae, algebraic reasoning, mathematical notation, step-by-step working, and verified final answers.",
-    "matematik": "Prioritize correct methods, mathematical reasoning, formulae, calculations, working steps, units where relevant, and verified answers.",
-    "bahasa melayu": "Prioritize correct tatabahasa, kosa kata, ejaan, format, sentence structure, comprehension, and appropriate writing style.",
-    "bahasa inggeris": "Prioritize correct grammar, vocabulary, spelling, sentence structure, comprehension, and appropriate writing conventions.",
-    "sejarah": "Prioritize accurate historical facts, chronology, causes, effects, important figures, events, and evidence-based explanations.",
-    "pendidikan islam": "Prioritize accurate Islamic terminology, concepts, evidence, practices, values, and syllabus-appropriate explanations.",
-    "pendidikan moral": "Prioritize accurate nilai, definitions, explanations, examples, applications, and appropriate exam-answer structure.",
-    "geografi": "Prioritize geographical concepts, processes, locations, patterns, causes, effects, examples, data interpretation, and map-related reasoning.",
-    "ekonomi": "Prioritize economic concepts, definitions, relationships, causes, effects, diagrams, calculations, and real-world applications.",
-    "perniagaan": "Prioritize business concepts, definitions, processes, functions, examples, applications, and structured exam answers.",
-    "prinsip perakaunan": "Prioritize accounting principles, terminology, formats, calculations, double-entry procedures, and accurate working.",
-    "pendidikan seni visual": "Prioritize art terminology, elements and principles of design, techniques, processes, artists, artworks, and visual analysis.",
-    "pjk": "Prioritize accurate concepts, techniques, rules, physical activity principles, health knowledge, safety, and practical applications.",
-    "asassaniskomputer": "Prioritize data representation, algorithms, code instructions, databases, and cyber security concepts according to KSSM Form 4-5."
+    "biologi": "Prioritize accurate biological terminology, cellular structures, physiological functions, life processes, and cause-and-effect explanations.",
+    "kimia": "Prioritize chemical terminology, balanced chemical equations, ionic equations, qualitative observations, stoichiometric calculations, and experimental reasoning.",
+    "fizik": "Prioritize physical principles, formula derivations, SI units, precise calculations, graphical interpretations, and step-by-step logical reasoning."
 }
 
 def get_subject_rule(subject_name):
     key = subject_name.lower().strip()
-    return SUBJECT_RULES.get(
-        key,
-        "Prioritize accurate concepts, curriculum standards, terminology, and structure."
-    )
+    return SUBJECT_RULES.get(key, "Prioritize accurate scientific concepts, terminology, and structure.")
 
 # =====================================================================
-# 4. COMPLETE 17 KSSM SUBJECT & ACCURATE CHAPTER DATABASE
+# 4. SCIENCE CHAPTER DATABASE (BIO, CHEM, PHYS)
 # =====================================================================
 SUBJECT_SCOPES = {
     "biologi": """
-OFFICIAL KSSM BIOLOGY SYLLABUS INDEX & SCOPE:
-FORM 4 BIOLOGY:
-- Chapter 1: Introduction to Biology and Laboratory Rules
-- Chapter 2: Cell Biology and Organisation
-- Chapter 3: Movement of Substances Across a Plasma Membrane
-- Chapter 4: Chemical Composition of a Cell
-- Chapter 5: Metabolism and Enzymes
-- Chapter 6: Cell Division
-- Chapter 7: Cellular Respiration
-- Chapter 8: Respiratory Systems in Humans and Animals
-- Chapter 9: Nutrition and the Human Digestive System
-- Chapter 10: Transport in Humans and Animals
-- Chapter 11: Immunity in Humans
-- Chapter 12: Coordination and Response in Humans
-- Chapter 13: Homeostasis and the Human Urinary System
-- Chapter 14: Support and Movement in Humans and Animals
-- Chapter 15: Sexual Reproduction, Development and Growth
-FORM 5 BIOLOGY:
-- Chapter 1: Organisation of Plant Tissues and Growth
-- Chapter 2: Leaf Structure and Function
-- Chapter 3: Nutrition in Plants
-- Chapter 4: Transport in Plants
-- Chapter 5: Response in Plants
-- Chapter 6: Sexual Reproduction in Flowering Plants
-- Chapter 7: Adaptations of Plants in Different Habitats
-- Chapter 8: Biodiversity
-- Chapter 9: Ecosystem
-- Chapter 10: Environmental Sustainability
-- Chapter 11: Inheritance
-- Chapter 12: Variation
-- Chapter 13: Genetic Technology
+OFFICIAL KSSM BIOLOGY SYLLABUS:
+FORM 4: Ch 1-15 (Cell Biology, Movement across Membrane, Enzymes, Cell Division, Respiration, Nutrition, Transport, Immunity, Coordination, Homeostasis, Support & Movement, Reproduction)
+FORM 5: Ch 1-13 (Plant Tissues, Leaf Structure, Nutrition in Plants, Transport, Response, Reproduction, Biodiversity, Ecosystem, Inheritance, Variation, Genetic Technology)
 """,
     "kimia": """
-OFFICIAL KSSM CHEMISTRY SYLLABUS INDEX & SCOPE:
-FORM 4 CHEMISTRY:
-- Chapter 1: Introduction to Chemistry
-- Chapter 2: Matter and Atomic Structure
-- Chapter 3: The Mole Concept, Chemical Formulae and Equations
-- Chapter 4: The Periodic Table of Elements
-- Chapter 5: Chemical Bond
-- Chapter 6: Acid, Base and Salt
-- Chapter 7: Rate of Reaction
-- Chapter 8: Manufactured Substances in Industry
-FORM 5 CHEMISTRY:
-- Chapter 1: Redox Equilibrium
-- Chapter 2: Carbon Compound
-- Chapter 3: Thermochemistry
-- Chapter 4: Polymer Chemistry
-- Chapter 5: Consumer and Industrial Chemistry
+OFFICIAL KSSM CHEMISTRY SYLLABUS:
+FORM 4: Ch 1-8 (Introduction to Chemistry, Atomic Structure, Mole Concept & Equations, Periodic Table, Chemical Bonds, Acids, Bases & Salts, Rate of Reaction, Manufactured Substances)
+FORM 5: Ch 1-5 (Redox Equilibrium, Carbon Compounds, Thermochemistry, Polymer Chemistry, Consumer & Industrial Chemistry)
 """,
     "fizik": """
-OFFICIAL KSSM PHYSICS SYLLABUS INDEX & SCOPE:
-FORM 4 PHYSICS:
-- Chapter 1: Measurement
-- Chapter 2: Force and Motion I
-- Chapter 3: Gravitation
-- Chapter 4: Heat
-- Chapter 5: Waves
-- Chapter 6: Light
-FORM 5 PHYSICS:
-- Chapter 1: Force and Motion II
-- Chapter 2: Pressure
-- Chapter 3: Electricity
-- Chapter 4: Electromagnetism
-- Chapter 5: Electronics
-- Chapter 6: Nuclear Physics
-- Chapter 7: Quantum Physics
-""",
-    "matematik tambahan": """
-OFFICIAL KSSM ADDITIONAL MATHEMATICS SYLLABUS INDEX & SCOPE:
-FORM 4 ADD MATHS:
-- Chapter 1: Functions
-- Chapter 2: Quadratic Equations
-- Chapter 3: Quadratic Functions
-- Chapter 4: Simultaneous Equations
-- Chapter 5: Indices, Surds and Logarithms
-- Chapter 6: Coordinate Geometry
-- Chapter 7: Statistics
-- Chapter 8: Circular Measure
-- Chapter 9: Differentiation
-- Chapter 10: Solutions of Triangles
-- Chapter 11: Index Numbers
-FORM 5 ADD MATHS:
-- Chapter 1: Progressions
-- Chapter 2: Linear Law
-- Chapter 3: Integration
-- Chapter 4: Permutation and Combination
-- Chapter 5: Probability Distribution
-- Chapter 6: Trigonometric Functions
-- Chapter 7: Linear Programming
-- Chapter 8: Kinematics of Linear Motion
-""",
-    "matematik": """
-OFFICIAL KSSM MATHEMATICS SYLLABUS INDEX & SCOPE:
-FORM 4 MATHEMATICS:
-- Chapter 1: Quadratic Functions and Equations in One Variable
-- Chapter 2: Number Bases
-- Chapter 3: Logical Reasoning
-- Chapter 4: Operations on Sets
-- Chapter 5: Network in Graph Theory
-- Chapter 6: Linear Inequalities in Two Variables
-- Chapter 7: Graphs of Motion
-- Chapter 8: Measures of Dispersion for Ungrouped Data
-- Chapter 9: Probability of Combined Events
-- Chapter 10: Consumer Mathematics: Financial Management
-FORM 5 MATHEMATICS:
-- Chapter 1: Variation
-- Chapter 2: Matrices
-- Chapter 3: Consumer Mathematics: Insurance
-- Chapter 4: Consumer Mathematics: Taxation
-- Chapter 5: Congruency, Enlargement and Combination of Transformations
-- Chapter 6: Ratios and Graphs of Trigonometric Functions
-- Chapter 7: Plans and Elevations
-- Chapter 8: Loci in Two Dimensions
-- Chapter 9: Straight Lines
-""",
-    "sains": """
-OFFICIAL KSSM SCIENCE SYLLABUS INDEX & SCOPE:
-FORM 4 SCIENCE:
-- Chapter 1: Safety in Laboratory
-- Chapter 2: Emergency Aid
-- Chapter 3: Techniques of Measuring the Parameters of Body Health
-- Chapter 4: Technology of Birth Control
-- Chapter 5: Metabolism and Health
-- Chapter 6: Support, Locomotion and Growth
-- Chapter 7: Body Coordination
-- Chapter 8: Elements and Substances
-- Chapter 9: Earth
-- Chapter 10: Ecosystem
-- Chapter 11: Industrial Hygiene
-- Chapter 12: Nuclear Energy
-- Chapter 13: The Universe
-FORM 5 SCIENCE:
-- Chapter 1: Microorganisms
-- Chapter 2: Nutrition and Food Technology
-- Chapter 3: Environmental Sustainability
-- Chapter 4: Rate of Reaction
-- Chapter 5: Carbon Compounds
-- Chapter 6: Electrochemistry
-- Chapter 7: Light, Colour and Sight
-- Chapter 8: Force and Pressure
-- Chapter 9: Space Technology
-""",
-    "sejarah": """
-OFFICIAL KSSM SEJARAH SYLLABUS INDEX & SCOPE:
-FORM 4 SEJARAH:
-- Bab 1: Warisan Negara Bangsa
-- Bab 2: Kebangkitan Nasionalisme
-- Bab 3: Konflik Dunia dan Pendudukan Jepun di Negara Kita
-- Bab 4: Era Peralihan Kuasa British di Negara Kita
-- Bab 5: Persekutuan Tanah Melayu 1948
-- Bab 6: Ancaman Komunis dan Pengisytiharan Darurat
-- Bab 7: Usaha ke Arah Kemerdekaan
-- Bab 8: Pilihan Raya
-- Bab 9: Perlembagaan Persekutuan Tanah Melayu 1957
-- Bab 10: Pemasyhuran Kemerdekaan
-FORM 5 SEJARAH:
-- Bab 1: Kedaulatan Negara
-- Bab 2: Perlembagaan Persekutuan
-- Bab 3: Raja Berperlembagaan dan Demokrasi Berparlimen
-- Bab 4: Pentadbiran Negara
-- Bab 5: Pembentukan Malaysia
-- Bab 6: Cabaran Selepas Pembentukan Malaysia
-- Bab 7: Membina Kemakmuran Negara
-- Bab 8: Membina Sejahtera Dunia
-- Bab 9: Dasar Luar Malaysia
-- Bab 10: Kecemerlangan Malaysia di Persada Dunia
-""",
-    "perniagaan": """
-OFFICIAL KSSM PERNIAGAAN SYLLABUS INDEX & SCOPE:
-FORM 4 PERNIAGAAN:
-- Bab 1: Tujuan Perniagaan dan Pemilikan Perniagaan
-- Bab 2: Trend Semasa dalam Perniagaan
-- Bab 3: Penetapan Visi, Misi dan Objektif Perniagaan
-- Bab 4: Bahagian-bahagian Fungsian Utama dalam Organisasi Perniagaan
-FORM 5 PERNIAGAAN:
-- Bab 1: Pengurusan Sumber Manusia
-- Bab 2: Pengurusan Sumber Fizikal dan Teknologi
-- Bab 3: Sumber Pembiayaan Perniagaan
-- Bab 4: Penyata Kewangan Perniagaan
-""",
-    "prinsip perakaunan": """
-OFFICIAL KSSM PRINSIP PERAKAUNAN SYLLABUS INDEX & SCOPE:
-FORM 4 PERAKAUNAN:
-- Bab 1: Pengenalan kepada Perakaunan
-- Bab 2: Klasifikasi Akaun dan Persamaan Perakaunan
-- Bab 3: Dokumen Perakaunan sebagai Sumber Maklumat
-- Bab 4: Buku Catatan Pertama
-- Bab 5: Lejar
-- Bab 6: Imbangan Duga
-- Bab 7: Penyata Kewangan Milikan Tunggal Tanpa Pelarasan
-- Bab 8: Pelarasan Tarikh Imbangan dan Penyediaan Penyata Kewangan Milikan Tunggal
-- Bab 9: Pembetulan Kesilapan
-FORM 5 PERAKAUNAN:
-- Bab 1: Analisis dan Tafsiran Penyata Kewangan untuk Membuat Keputusan
-- Bab 2: Rekod Tak Lengkap
-- Bab 3: Perakaunan untuk Kawalan Dalaman
-- Bab 4: Perakaunan untuk Perkongsian
-- Bab 5: Perakaunan untuk Syarikat Berhad Menurut Syer
-- Bab 6: Perakaunan untuk Kelab dan Persatuan
-- Bab 7: Perakaunan Kos
-""",
-    "ekonomi": """
-OFFICIAL KSSM EKONOMI SYLLABUS INDEX & SCOPE:
-FORM 4 EKONOMI:
-- Bab 1: Pengenalan kepada Ekonomi (Kekurangan, pilihan, kos lepas, sistem ekonomi)
-- Bab 2: Pasaran (Permintaan, penawaran, keseimbangan pasaran)
-- Bab 3: Wang, Bank dan Pendapatan Individu
-- Bab 4: Pengeluaran (Kos, hasil, produktiviti)
-FORM 5 EKONOMI:
-- Bab 1: Pendapatan Negara
-- Bab 2: Dasar Fiskal dan Dasar Monetari
-- Bab 3: Inflasi dan Pengangguran
-- Bab 4: Perdagangan dan Keantarabangsaan
-""",
-    "pendidikan islam": """
-OFFICIAL KSSM PENDIDIKAN ISLAM SYLLABUS INDEX & SCOPE:
-FORM 4 & 5 PENDIDIKAN ISLAM:
-- Bidang Al-Quran: Hafazan, Tajwid dan Kefahaman Ayat (Surah pilihan, Larangan Rasuah, Ciri Mukmin Berjaya)
-- Bidang Hadis: Menuntut Ilmu, Indahnya Hidup Bersyariat, Kepimpinan yang Adil, Dakwah Islamiah
-- Bidang Akidah: Allah Maha Pembalas, Perkara Membatalkan Iman, Hindari Ajaran Sesat, Ahli Sunnah wal Jamaah
-- Bidang Fekah: Haji & Umrah, Sembelihan, Korban, Muamalat Islam, Perkahwinan, Pengurusan Harta & Faraid, Jenayah dalam Islam
-- Bidang Sirah & Tamadun Islam: Khulafa al-Rasyidin, Kerajaan Umaiyah, Abbasiyah, Uthmaniyyah & Tokoh Islam
-- Bidang Akhlak Islamiah: Adab Terhadap Orang Sakit & OKU, Wasatiyyah, Tawaduk, Istiqamah, Alam Sekitar
-""",
-    "pendidikan moral": """
-OFFICIAL KSSM PENDIDIKAN MORAL SYLLABUS INDEX & SCOPE:
-- Bidang 1: Diri Sendiri (Kepercayaan kepada Tuhan, Amanah, Harga Diri, Bertanggungjawab, Berdikari, Kerajinan, Kasih Sayang, Keadilan, Rasional, Kesederhanaan)
-- Bidang 2: Keluarga (Hemah Tinggi, Hormat, Kasih Sayang, Tanggungjawab Terhadap Keluarga)
-- Bidang 3: Masyarakat (Berdikari, Kerjasama, Toleransi, Kejiranan, Kebebasan)
-- Bidang 4: Alam Sekitar (Peka, Menghargai Alam, Keharmonian Antara Manusia dan Alam)
-- Bidang 5: Negara (Patriotisme, Hak Asasi Manusia, Demokrasi, Perlembagaan Malaysia, Keamanan)
-""",
-    "geografi": """
-OFFICIAL KSSM GEOGRAFI SYLLABUS INDEX & SCOPE:
-- Form 4 & 5: Kemahiran Geografi, Jadual & Graf, Peta Lakar, Penduduk & Petempatan di Malaysia, Pengangkutan, Sumber Semula Jadi, Lembangan Saliran, Isu Alam Sekitar.
-""",
-    "bahasa melayu": """
-OFFICIAL SPM BAHASA MELAYU STRUCTURES:
-- Karangan Bahagian A (Bahan Rangsangan - 150-200 patah perkataan)
-- Karangan Bahagian B (Respon Terbuka - 350-500 patah perkataan)
-- Rumusan, Pemahaman Petikan, Novel Komsas, Tatabahasa, Morfologi, Sintaksis & Peribahasa.
-""",
-    "bahasa inggeris": """
-OFFICIAL SPM CEFR ENGLISH WRITING STRUCTURES:
-- Part 1: Short Communicative Message (Email/Letter - 80 words)
-- Part 2: Guided Writing (Essay - 125-150 words)
-- Part 3: Extended Writing (Article, Review, Report, Story - 200-250 words)
-- Reading Comprehension, Use of English, Listening, Speaking & Literature.
-""",
-    "pjk": """
-OFFICIAL KSSM PJK (PENDIDIKAN JASMANI & KESIHATAN):
-- Kecergasan Fizikal, Kemahiran Sukan & Permainan, Kesihatan Diri & Keluarga, Kesukanan & Keselamatan.
-""",
-    "asassaniskomputer": """
-OFFICIAL KSSM ASAS SAINS KOMPUTER (ASK) / COMPUTER SCIENCE:
-- Konsep Asas Perkomputeran, Perwakilan Data, Algoritma, Kod Arahan, Pangkalan Data (SQL), Reka Bentuk Web (HTML/CSS/JS).
+OFFICIAL KSSM PHYSICS SYLLABUS:
+FORM 4: Ch 1-6 (Measurement, Force & Motion I, Gravitation, Heat, Waves, Light)
+FORM 5: Ch 1-7 (Force & Motion II, Pressure, Electricity, Electromagnetism, Electronics, Nuclear Physics, Quantum Physics)
 """
 }
 
-
 def get_subject_scope(subject_name):
     key = subject_name.lower().strip()
-    return SUBJECT_SCOPES.get(
-        key,
-        f"OFFICIAL KSSM SYLLABUS SCOPE FOR {subject_name}: Form 4 & Form 5 curriculum standards.",
-    )
+    return SUBJECT_SCOPES.get(key, f"OFFICIAL KSSM SYLLABUS SCOPE FOR {subject_name}")
 
 
 @app.route("/chat", methods=["POST"])
 def chat():
     data = request.json
     user_prompt = data.get("prompt", "")
-    task_id = data.get(
-        "task", "create_notes" if "notes" in user_prompt.lower() else "explain"
-    )
+    task_id = data.get("task", "explain")
     current_level = data.get("level", "Form 4-5 / SPM")
     selected_subject = data.get("subject", "Biologi")
     output_language = data.get("language", "English")
@@ -455,20 +118,17 @@ def chat():
     system_prompt = f"""
 {MASTER_SYSTEM_INSTRUCTION}
 
-==================================================
-ACTIVE TASK & SUBJECT SCOPE
-==================================================
+ACTIVE TASK & SCIENCE DOMAIN:
 - Level: {current_level}
 - Subject: {selected_subject}
 - Language: {output_language}
 - Task Instruction: {task_instruction}
-- Subject Specific Rule: {subject_rule}
-- Relevant Syllabus Scope: {subject_scope}
+- Subject Rule: {subject_rule}
+- Syllabus Scope: {subject_scope}
 """
 
     try:
         messages = [{"role": "system", "content": system_prompt}]
-
         if len(history) > 6:
             history = history[-6:]
 
@@ -479,14 +139,14 @@ ACTIVE TASK & SUBJECT SCOPE
             messages.append({
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": user_prompt if user_prompt else "Provide accurate SPM answers and step-by-step solutions for the questions shown in this image strictly based on KSSM and LPM standards."},
+                    {"type": "text", "text": user_prompt if user_prompt else "Analyze this science diagram/question and provide step-by-step SPM solutions."},
                     {"type": "image_url", "image_url": {"url": image_data}},
                 ],
             })
-            model_to_use = "qwen/qwen3.8-27b"  # Active vision model
+            model_to_use = "qwen/qwen3.8-27b"
         else:
             messages.append({"role": "user", "content": user_prompt})
-            model_to_use = "openai/gpt-oss-120b"  # Active text model
+            model_to_use = "openai/gpt-oss-120b"
 
         response = client.chat.completions.create(
             model=model_to_use,
@@ -494,9 +154,7 @@ ACTIVE TASK & SUBJECT SCOPE
             temperature=0.3,
             max_tokens=2048,
         )
-        return jsonify(
-            {"success": True, "task": task_id, "reply": response.choices[0].message.content}
-        )
+        return jsonify({"success": True, "task": task_id, "reply": response.choices[0].message.content})
     except Exception as e:
         return jsonify({"success": False, "error": str(e)}), 500
 
