@@ -1,1063 +1,594 @@
+
 import os
 import re
 import json
+import base64
+from pathlib import Path
+from typing import Any
+
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from groq import Groq
 
 # ============================================================
-# APP SETUP
+# CORE SCIENCE AI - COMPLETE FLASK BACKEND
+#
+# Compatible with the existing frontend request format:
+# prompt, task, subject, level, language, image, history
+#
+# Features:
+# - Existing Biology, Chemistry and Physics teaching engines
+# - Task detection and routing
+# - Form/chapter routing using curriculum.json
+# - Local knowledge retrieval from knowledge/ (.txt, .md, .json)
+# - Image question support (model must support vision)
+# - Conversation history
+# - /health, /curriculum and /knowledge/status endpoints
+#
+# Important:
+# This is a retrieval-enabled tutor backend, not a trained KSSM model.
+# Add verified learning materials to knowledge/ for source-grounded answers.
 # ============================================================
+
+BASE_DIR = Path(__file__).resolve().parent
+KNOWLEDGE_DIR = BASE_DIR / "knowledge"
+CURRICULUM_FILE = BASE_DIR / "curriculum.json"
 
 app = Flask(__name__)
 CORS(app)
+app.config["MAX_CONTENT_LENGTH"] = 12 * 1024 * 1024
 
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "").strip()
 if not GROQ_API_KEY:
     raise RuntimeError(
-        "GROQ_API_KEY is missing. Set it as an environment variable."
+        "GROQ_API_KEY is missing. Set it as an environment variable before starting the app."
     )
 
 client = Groq(api_key=GROQ_API_KEY)
 
+# Configure these in your environment if your Groq account uses other model IDs.
+GROQ_TEXT_MODEL = os.environ.get("GROQ_TEXT_MODEL", "openai/gpt-oss-120b")
+GROQ_VISION_MODEL = os.environ.get("GROQ_VISION_MODEL", "qwen/qwen3.8-27b")
 
 # ============================================================
-# HOME
-# ============================================================
-
-@app.route("/")
-def home():
-    response = send_from_directory(".", "index.html")
-    response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-    return response
-
-
-# ============================================================
-# CORE IDENTITY
+# CORE TEACHING INSTRUCTIONS
 # ============================================================
 
 CORE_IDENTITY = """
 You are Core Science AI, a specialised Malaysian KSSM upper-secondary
-Science tutor.
+Science tutor for Biology, Chemistry and Physics.
 
-Your job is NOT simply to answer questions.
+Help Form 4 and Form 5 students understand concepts, practise examination
+questions, solve calculations, analyse diagrams, understand experiments,
+and prepare revision material.
 
-Your job is to help Form 4 and Form 5 students understand Biology,
-Chemistry and Physics, practise examination questions, solve calculations,
-analyse diagrams, understand experiments, generate revision material,
-and improve SPM performance.
+Be scientifically accurate, clear, structured, exam-aware, student-friendly,
+and honest about uncertainty.
 
-You must be:
+Do not claim that information is from an official KPM textbook unless the
+actual source content has been supplied to the application.
 
-- scientifically accurate
-- clear
-- structured
-- exam-aware
-- student-friendly
-- honest about uncertainty
-- careful with units
-- careful with terminology
-- aligned to the student's selected KSSM subject and level
-
-IMPORTANT:
-
-Do not claim that information is from an official KPM textbook unless
-the actual textbook/source content has been provided to you through the
-application's knowledge system.
-
-If the supplied source material does not contain enough information,
-say that clearly rather than inventing textbook content.
-
-Do not fabricate chapter numbers, page numbers, marking schemes,
-experimental results, textbook quotations or official KPM wording.
+Never fabricate chapter numbers, page numbers, marking schemes, experiment
+results, textbook quotations, or official KPM wording.
 """
-
-
-# ============================================================
-# KSSM EXAM ENGINE
-# ============================================================
 
 EXAM_ENGINE = """
 KSSM / SPM ANSWERING ENGINE
 
-When the student asks an examination question:
-
-1. Identify what the question is asking.
+For examination questions:
+1. Identify what the question asks.
 2. Identify the command word.
-3. Identify the marks if provided.
+3. Identify the marks, if supplied.
 4. Identify the relevant scientific concept.
-5. Produce an answer appropriate for the marks.
+5. Answer with enough distinct assessable points for the marks.
 6. Use precise scientific terminology.
-7. Do not add unnecessary unrelated information.
+7. Avoid unrelated information.
 
-COMMAND WORDS:
+Command words:
+- STATE / NYATAKAN: give a direct fact, term, value or statement.
+- DEFINE / TAKRIFKAN: give a precise definition.
+- IDENTIFY / KENAL PASTI: name the required item.
+- DESCRIBE / HURAIKAN: describe characteristics, sequence, structure or observations.
+- EXPLAIN / JELASKAN: state the idea and explain the scientific reason or process.
+- COMPARE / BANDINGKAN: show clear paired similarities or differences.
+- CALCULATE / HITUNGKAN: show formula, substitution, working and unit.
+- PREDICT / RAMALKAN: predict using the scientific relationship or evidence.
+- SUGGEST / CADANGKAN: give a scientifically reasonable suggestion.
+- JUSTIFY / WAJARKAN: give a claim and supporting scientific reason/evidence.
 
-STATE / NYATAKAN
-- Give a direct fact, term, value or statement.
-- Do not write a long explanation unless needed.
-
-DEFINE / TAKRIFKAN
-- Give the precise definition.
-
-IDENTIFY / KENAL PASTI
-- Name the required item.
-
-DESCRIBE / HURAIKAN
-- Describe characteristics, sequence, structure or observations.
-
-EXPLAIN / JELASKAN
-- Give the statement and explain the scientific reason/process.
-
-COMPARE / BANDINGKAN
-- Clearly show similarities and/or differences.
-- Use comparison pairs where appropriate.
-
-CALCULATE / HITUNGKAN
-Use:
-Formula
-Substitution
-Working
-Final answer
-Unit
-
-DISCUSS / BINCANGKAN
-- Present relevant scientific points with appropriate explanation.
-
-PREDICT / RAMALKAN
-- Give a prediction based on the scientific relationship or evidence.
-
-SUGGEST / CADANGKAN
-- Give a scientifically reasonable suggestion that fits the situation.
-
-JUSTIFY / WAJARKAN
-- Give a claim and scientific reason/evidence supporting it.
-
-If marks are provided, aim for enough distinct assessable points.
-Do not blindly assume "1 mark = 1 sentence"; focus on distinct credit-worthy
-scientific ideas.
+Do not assume one mark always equals one sentence. Focus on distinct
+credit-worthy scientific ideas.
 """
-
-
-# ============================================================
-# GENERAL TEACHING ENGINE
-# ============================================================
 
 TEACHING_ENGINE = """
 TEACHING ENGINE
 
-When teaching:
+When explaining a difficult concept:
+1. Start with a simple explanation.
+2. Give the correct scientific explanation.
+3. Break processes into logical steps.
+4. Give a relevant example or analogy where useful.
+5. Connect the concept to examination questions.
+6. Mention common misconceptions where useful.
 
-Start from what the student needs.
-
-For difficult concepts:
-
-1. Simple explanation
-2. Scientific explanation
-3. Example
-4. Exam connection
-5. Common mistake
-
-If the student says they do not understand:
-
-- simplify the language
-- use a familiar analogy when useful
-- break the process into smaller steps
-- then return to correct scientific terminology
-
-Never replace scientific terminology permanently with slang or an
-oversimplified analogy.
-
-The student should finish understanding both:
-A. what the concept means
-B. how to write it in an examination
+If the student says they do not understand, simplify the explanation and
+break it into smaller steps. Keep correct scientific terminology.
 """
-
-
-# ============================================================
-# BIOLOGY ENGINE
-# ============================================================
 
 BIOLOGY_ENGINE = """
 BIOLOGY ENGINE
 
-For Biology prioritise:
+Prioritise accurate biological terminology, structures and functions,
+processes and sequences, cause-and-effect relationships, transport,
+physiology, cell biology, genetics, ecology, reproduction, homeostasis,
+coordination and experimental reasoning.
 
-- correct biological terminology
-- structures and functions
-- processes and sequences
-- cause-and-effect relationships
-- transport mechanisms
-- physiological processes
-- cell biology
-- genetics
-- ecology
-- reproduction
-- homeostasis
-- coordination
-- experimental reasoning
+For a biological process, explain the starting condition, process,
+mechanism, result and importance where relevant.
 
-When explaining a biological process:
-
-Prefer:
-
-1. Starting condition
-2. Process
-3. Mechanism
-4. Result
-5. Importance
-
-For structures:
-
-Structure → characteristic → function → relationship.
-
-Do not invent biological facts simply to make an answer longer.
+For a structure, connect structure, characteristic and function.
+Do not invent biological facts to make an answer longer.
 """
-
-
-# ============================================================
-# CHEMISTRY ENGINE
-# ============================================================
 
 CHEMISTRY_ENGINE = """
 CHEMISTRY ENGINE
 
-For Chemistry prioritise:
+Prioritise chemical terminology, formulae, balanced equations, ionic
+equations where appropriate, observations, inference, chemical reasoning,
+mole calculations, concentration, acids and bases, periodic trends,
+bonding, reaction rates, redox, carbon compounds and experiments.
 
-- correct chemical terminology
-- chemical formulae
-- balanced chemical equations
-- ionic equations where appropriate
-- observations
-- inference
-- chemical reasoning
-- mole calculations
-- concentration
-- acids and bases
-- periodic trends
-- bonding
-- rate of reaction
-- redox
-- carbon compounds
-- experiments
+For calculations show Given, Required, Formula, Substitution, Working,
+Answer and Unit.
 
-For chemical calculations:
+Check formula correctness, balancing, units and whether the result is
+chemically reasonable.
 
-Given
-→ Required
-→ Formula
-→ Substitution
-→ Working
-→ Answer
-→ Unit
-
-Check:
-- formula correctness
-- balancing
-- units
-- significant numerical interpretation where appropriate
-- whether the final answer is chemically reasonable
-
-For experiments distinguish:
-
-Observation
-from
-Inference
-from
-Conclusion.
+For experiments distinguish Observation, Inference and Conclusion.
 """
-
-
-# ============================================================
-# PHYSICS ENGINE
-# ============================================================
 
 PHYSICS_ENGINE = """
 PHYSICS ENGINE
 
-For Physics prioritise:
+Prioritise physical quantities, definitions, equations, units, relationships
+between variables, graphs, forces, motion, energy, heat, waves, light,
+electricity, electromagnetism, pressure, nuclear physics and quantum physics.
 
-- physical quantities
-- definitions
-- equations
-- units
-- relationships between variables
-- graphs
-- forces
-- motion
-- energy
-- heat
-- waves
-- light
-- electricity
-- electromagnetism
-- pressure
-- nuclear physics
-- quantum physics
+For numerical questions show Given, Required, Formula, Substitution,
+Working, Answer and Unit.
 
-For numerical questions use:
+Check the formula before calculating. Show unit conversions where needed.
 
-Given:
-Required:
-Formula:
-Substitution:
-Working:
-Answer:
-Unit:
-
-Always check whether the formula is appropriate before calculating.
-
-If unit conversion is necessary, show it.
-
-If a graph is involved:
-- identify axes
-- identify gradient/intercept if relevant
-- explain the physical meaning
-- calculate carefully
+For graphs identify axes, gradient/intercept when relevant, and the
+physical meaning of the graph.
 """
 
-
-# ============================================================
-# TASK ENGINE
-# ============================================================
+SUBJECT_ENGINES = {
+    "biology": BIOLOGY_ENGINE,
+    "biologi": BIOLOGY_ENGINE,
+    "chemistry": CHEMISTRY_ENGINE,
+    "kimia": CHEMISTRY_ENGINE,
+    "physics": PHYSICS_ENGINE,
+    "fizik": PHYSICS_ENGINE,
+}
 
 TASK_INSTRUCTIONS = {
-
     "explain": """
-Explain the concept clearly and progressively.
-
-Preferred structure:
-
+Explain the concept clearly and progressively. When useful use:
 ## Simple idea
 ## Scientific explanation
 ## Example
 ## Exam connection
 ## Common mistake
-
-Do not unnecessarily turn a simple question into a huge lecture.
+Do not turn a simple question into an unnecessarily long lecture.
 """,
-
     "create_notes": """
-Create high-quality revision notes.
-
-Preferred structure:
-
-# Topic
-
-## 1. Key idea
-## 2. Important definitions
-## 3. Main concepts
-## 4. Processes / mechanisms
-## 5. Equations / formulae
-## 6. Examples
-## 7. Common exam mistakes
-## 8. SPM keywords
-## 9. Quick recap
-
-Notes should be useful for studying, not just a collection of
-one-line facts.
+Create detailed, useful revision notes. Include key ideas, definitions,
+concepts, processes or mechanisms, equations where relevant, examples,
+common exam mistakes, SPM keywords and a recap. Do not reduce the notes
+to one-line facts.
 """,
-
     "generate_questions": """
-Generate appropriate KSSM/SPM-style practice questions.
-
-Mix question styles when appropriate:
-- objective
-- structured
-- calculation
-- application
-- HOTS
-- experiment
-- explanation
-
-Include marks.
-
-If requested, provide the answer scheme separately.
+Generate original KSSM/SPM-style practice questions suitable for the
+selected level. Mix objective, structured, calculation, application,
+HOTS and experiment questions when relevant. Include marks. Do not claim
+that generated questions are actual SPM questions.
 """,
-
     "solve": """
-Solve the student's question step-by-step.
-
-For calculations use:
-
-Given:
-Required:
-Formula:
-Substitution:
-Working:
-Final answer:
-Unit:
-
-Explain why the selected formula or scientific method is appropriate.
+Solve step by step. For calculations show Given, Required, Formula,
+Substitution, Working, Final answer and Unit. Explain why the formula
+or method is appropriate.
 """,
-
     "generate_marking_scheme": """
-Create an assessable marking scheme.
-
-Separate distinct credit-worthy points.
-
-Where appropriate include:
-- acceptable scientific terminology
-- required keywords
-- alternative valid answers
-- common mistakes
+Create a marking guide with distinct credit-worthy points, appropriate
+scientific keywords, acceptable alternatives where justified, and common
+mistakes. Do not claim it is an official LPM marking scheme.
 """,
-
     "mark_answer": """
-Act as an examiner/tutor.
-
-Analyse:
-1. What the question required
-2. What the student wrote
-3. Correct scientific ideas
-4. Missing ideas
-5. Incorrect ideas
-6. Likely credit
-7. How to improve the answer
-
-Do not be unnecessarily harsh.
-Award credit when the student's scientific meaning is valid.
+Act as a fair examiner and tutor. Explain what the question required,
+what the student wrote, correct ideas, missing ideas, incorrect ideas,
+likely credit where enough information is available, and how to improve.
+Do not invent an official mark allocation.
 """,
-
     "summarize": """
-Create a concise but useful summary.
-
-Include:
-- core concepts
-- important definitions
-- formulae
-- processes
-- exam keywords
-- common mistakes
-
-Do not remove essential scientific relationships merely to make the
-summary shorter.
-"""
+Create a concise but useful summary. Include core concepts, definitions,
+formulae, processes, exam keywords and common mistakes. Preserve essential
+scientific relationships.
+""",
+    "quiz": """
+Run an interactive quiz. Ask one question at a time and wait for the
+student's response. Do not reveal the answer before the student attempts it.
+""",
 }
-
-
-# ============================================================
-# SUBJECT ENGINES
-# ============================================================
-
-SUBJECT_ENGINES = {
-
-    "biologi": BIOLOGY_ENGINE,
-
-    "kimia": CHEMISTRY_ENGINE,
-
-    "fizik": PHYSICS_ENGINE
-}
-
-
-# ============================================================
-# SUBJECT KNOWLEDGE MAP
-#
-# This is NOT a replacement for a textbook database.
-# It is a routing layer.
-# ============================================================
-
-SUBJECT_MAP = {
-
-    "biologi": {
-        "form4": [
-            "Introduction to Biology and Laboratory Rules",
-            "Cell Biology and Organisation",
-            "Movement of Substances Across the Plasma Membrane",
-            "Chemical Composition in a Cell",
-            "Metabolism and Enzymes",
-            "Cell Division",
-            "Cellular Respiration",
-            "Nutrition",
-            "Transport in Plants",
-            "Transport in Humans and Animals",
-            "Immunity",
-            "Coordination and Response",
-            "Homeostasis and the Human Urinary System",
-            "Support and Movement",
-            "Sexual Reproduction and Human Development"
-        ],
-
-        "form5": [
-            "Plant Tissues and Growth",
-            "Leaf Structure and Function",
-            "Nutrition in Plants",
-            "Transport in Plants",
-            "Response in Plants",
-            "Sexual Reproduction in Flowering Plants",
-            "Adaptation and Biodiversity",
-            "Ecosystem",
-            "Inheritance",
-            "Variation",
-            "Genetic Technology"
-        ]
-    },
-
-    "kimia": {
-        "form4": [
-            "Introduction to Chemistry",
-            "Matter and the Atomic Structure",
-            "Mole Concept, Chemical Formula and Equation",
-            "Periodic Table of Elements",
-            "Chemical Bonds",
-            "Acids, Bases and Salts",
-            "Rate of Reaction",
-            "Manufactured Substances in Industry"
-        ],
-
-        "form5": [
-            "Redox Equilibrium",
-            "Carbon Compounds",
-            "Thermochemistry",
-            "Polymer Chemistry",
-            "Consumer and Industrial Chemistry"
-        ]
-    },
-
-    "fizik": {
-        "form4": [
-            "Introduction to Physics and Measurement",
-            "Force and Motion",
-            "Gravitation",
-            "Heat",
-            "Waves",
-            "Light and Optical Instruments"
-        ],
-
-        "form5": [
-            "Force and Motion",
-            "Pressure",
-            "Electricity",
-            "Electromagnetism",
-            "Electronics",
-            "Nuclear Physics",
-            "Quantum Physics"
-        ]
-    }
-}
-
-
-# ============================================================
-# ROUTING KEYWORDS
-# ============================================================
 
 TASK_KEYWORDS = {
-
     "solve": [
-        "calculate",
-        "calculation",
-        "solve",
-        "find the value",
-        "determine",
-        "hitung",
-        "hitungkan",
-        "calculate the",
-        "work out"
+        "calculate", "calculation", "solve", "find the value", "determine",
+        "hitung", "hitungkan", "work out"
     ],
-
     "create_notes": [
-        "notes",
-        "nota",
-        "revision",
-        "revise",
-        "study notes",
-        "make notes",
+        "notes", "nota", "revision notes", "study notes", "make notes",
         "buat nota"
     ],
-
     "generate_questions": [
-        "quiz",
-        "questions",
-        "practice questions",
-        "exam questions",
-        "trial questions",
-        "soalan",
-        "generate questions"
+        "generate questions", "practice questions", "exam questions",
+        "trial questions", "soalan", "create questions"
     ],
-
-    "mark_answer": [
-        "mark my answer",
-        "check my answer",
-        "is my answer correct",
-        "how many marks",
-        "check this answer",
-        "mark this"
-    ],
-
     "generate_marking_scheme": [
-        "marking scheme",
-        "scheme",
-        "skema jawapan",
-        "mark scheme"
+        "marking scheme", "mark scheme", "skema jawapan"
     ],
-
-    "summarize": [
-        "summarize",
-        "summary",
-        "ringkaskan",
-        "ringkasan"
+    "mark_answer": [
+        "mark my answer", "check my answer", "is my answer correct",
+        "how many marks", "check this answer", "mark this"
     ],
-
-    "explain": [
-        "explain",
-        "what is",
-        "why",
-        "how does",
-        "how do",
-        "jelaskan",
-        "terangkan"
-    ]
+    "summarize": ["summarize", "summary", "ringkaskan", "ringkasan"],
+    "quiz": ["quiz me", "test me", "ask me one question"],
+    "explain": ["explain", "what is", "why", "how does", "how do", "jelaskan", "terangkan"],
 }
 
-
-def detect_task(text):
-    """
-    Backend task detection.
-    Frontend task is still respected when provided.
-    """
-
-    text = (text or "").lower()
-
-    for task, keywords in TASK_KEYWORDS.items():
-        for keyword in keywords:
-            if keyword in text:
-                return task
-
-    return "explain"
-
-
 # ============================================================
-# FORM DETECTION
+# CURRICULUM DATABASE
+# The directory is a routing aid. Verify it against current DSKP and
+# textbook editions before treating it as an official source.
 # ============================================================
 
-def detect_form(text, requested_level=""):
-    combined = f"{text} {requested_level}".lower()
+DEFAULT_CURRICULUM = {
+    "Biology": {
+        "Form 4": [
+            {"chapter": 1, "title": "Introduction to Biology and Laboratory Rules"},
+            {"chapter": 2, "title": "Cell Biology and Organisation"},
+            {"chapter": 3, "title": "Movement of Substances Across the Plasma Membrane"},
+            {"chapter": 4, "title": "Chemical Composition in a Cell"},
+            {"chapter": 5, "title": "Metabolism and Enzymes"},
+            {"chapter": 6, "title": "Cell Division"},
+            {"chapter": 7, "title": "Cellular Respiration"},
+            {"chapter": 8, "title": "Respiratory System in Humans and Animals"},
+            {"chapter": 9, "title": "Nutrition and Human Digestive System"},
+            {"chapter": 10, "title": "Transport in Humans and Animals"},
+            {"chapter": 11, "title": "Immunity in Humans"},
+            {"chapter": 12, "title": "Coordination and Response in Humans"},
+            {"chapter": 13, "title": "Homeostasis and Human Urinary System"},
+            {"chapter": 14, "title": "Support and Movement in Humans and Animals"},
+            {"chapter": 15, "title": "Sexual Reproduction, Development and Growth"}
+        ],
+        "Form 5": [
+            {"chapter": 1, "title": "Organisation of Plant Tissues and Growth"},
+            {"chapter": 2, "title": "Leaf Structure and Function"},
+            {"chapter": 3, "title": "Nutrition in Plants"},
+            {"chapter": 4, "title": "Transport in Plants"},
+            {"chapter": 5, "title": "Response in Plants"},
+            {"chapter": 6, "title": "Sexual Reproduction in Flowering Plants"},
+            {"chapter": 7, "title": "Adaptations of Plants in Different Habitats"},
+            {"chapter": 8, "title": "Biodiversity"},
+            {"chapter": 9, "title": "Ecosystem"},
+            {"chapter": 10, "title": "Environmental Sustainability"},
+            {"chapter": 11, "title": "Inheritance"},
+            {"chapter": 12, "title": "Variation"},
+            {"chapter": 13, "title": "Genetic Technology"}
+        ]
+    },
+    "Chemistry": {
+        "Form 4": [
+            {"chapter": 1, "title": "Introduction to Chemistry"},
+            {"chapter": 2, "title": "Matter and the Atomic Structure"},
+            {"chapter": 3, "title": "The Mole Concept, Chemical Formula and Equation"},
+            {"chapter": 4, "title": "The Periodic Table of Elements"},
+            {"chapter": 5, "title": "Chemical Bond"},
+            {"chapter": 6, "title": "Acids, Bases and Salts"},
+            {"chapter": 7, "title": "Rate of Reaction"},
+            {"chapter": 8, "title": "Manufactured Substances in Industry"}
+        ],
+        "Form 5": [
+            {"chapter": 1, "title": "Redox Equilibrium"},
+            {"chapter": 2, "title": "Carbon Compounds"},
+            {"chapter": 3, "title": "Thermochemistry"},
+            {"chapter": 4, "title": "Polymer"},
+            {"chapter": 5, "title": "Consumer and Industrial Chemistry"}
+        ]
+    },
+    "Physics": {
+        "Form 4": [
+            {"chapter": 1, "title": "Measurement"},
+            {"chapter": 2, "title": "Force and Motion"},
+            {"chapter": 3, "title": "Gravitation"},
+            {"chapter": 4, "title": "Heat"},
+            {"chapter": 5, "title": "Waves"},
+            {"chapter": 6, "title": "Light and Optics"}
+        ],
+        "Form 5": [
+            {"chapter": 1, "title": "Force and Motion II"},
+            {"chapter": 2, "title": "Pressure"},
+            {"chapter": 3, "title": "Electricity"},
+            {"chapter": 4, "title": "Electromagnetism"},
+            {"chapter": 5, "title": "Electronics"},
+            {"chapter": 6, "title": "Nuclear Physics"},
+            {"chapter": 7, "title": "Quantum Physics"}
+        ]
+    }
+}
 
-    if "form 5" in combined or "tingkatan 5" in combined:
-        return "form5"
+def load_curriculum():
+    try:
+        with CURRICULUM_FILE.open("r", encoding="utf-8") as file:
+            data = json.load(file)
+        curriculum = data.get("curriculum", data)
+        if isinstance(curriculum, dict) and curriculum:
+            return curriculum
+    except FileNotFoundError:
+        pass
+    except (json.JSONDecodeError, OSError) as exc:
+        print(f"Curriculum file error; using built-in directory: {exc}")
+    return DEFAULT_CURRICULUM
 
-    if "form 4" in combined or "tingkatan 4" in combined:
-        return "form4"
+CURRICULUM = load_curriculum()
 
-    return "unknown"
+def normalise_subject(value: Any) -> str:
+    raw = str(value or "").strip().lower()
+    aliases = {
+        "bio": "Biology", "biology": "Biology", "biologi": "Biology",
+        "chem": "Chemistry", "chemistry": "Chemistry", "kimia": "Chemistry",
+        "phy": "Physics", "physics": "Physics", "fizik": "Physics",
+    }
+    return aliases.get(raw, str(value or "General").strip().title())
 
-
-# ============================================================
-# CHAPTER DETECTION
-# ============================================================
-
-def detect_chapter(subject, text, level=""):
-    """
-    Lightweight chapter router.
-
-    Later this can be replaced by a real curriculum database/RAG system.
-    """
-
-    subject_key = (subject or "").lower().strip()
-    combined = f"{text} {level}".lower()
-
-    match = re.search(
-        r"(?:chapter|ch|bab)\s*(\d{1,2})",
-        combined,
-        re.IGNORECASE
-    )
-
+def detect_form(text: str, level: str = "") -> str:
+    # Prefer an explicit form in the student's question.
+    prompt_text = (text or "").lower()
+    match = re.search(r"\b(?:form|tingkatan)\s*([45])\b|\bf([45])\b", prompt_text)
     if match:
-        chapter_number = int(match.group(1))
+        return match.group(1) or match.group(2)
 
-        form = detect_form(combined, level)
+    # Only use the selected level when it identifies ONE form.
+    # A broad value such as "Form 4-5 / SPM" must not silently become Form 4.
+    level_text = (level or "").lower().strip()
+    exact_match = re.fullmatch(r"(?:form|tingkatan)\s*([45])", level_text)
+    if exact_match:
+        return exact_match.group(1)
 
-        if form in ("form4", "form5"):
-            chapters = SUBJECT_MAP.get(subject_key, {}).get(form, [])
+    return ""
 
-            if 1 <= chapter_number <= len(chapters):
-                return {
-                    "form": form,
-                    "chapter": chapter_number,
-                    "title": chapters[chapter_number - 1]
-                }
+def get_chapters(subject: str, form: str):
+    if not form:
+        return []
+    return CURRICULUM.get(subject, {}).get(f"Form {form}", [])
 
-        return {
-            "form": form,
-            "chapter": chapter_number,
-            "title": None
-        }
+def detect_chapter(prompt: str, subject: str, form: str):
+    chapters = get_chapters(subject, form)
+    text = (prompt or "").lower()
+    match = re.search(r"\b(?:chapter|chap|ch|bab)\s*\.?\s*(\d{1,2})\b", text)
+    if match:
+        number = int(match.group(1))
+        for item in chapters:
+            if int(item.get("chapter", -1)) == number:
+                return item
 
+    for item in chapters:
+        title = str(item.get("title", "")).lower()
+        if title and title in text:
+            return item
     return None
 
-
-# ============================================================
-# CURRICULUM ROUTER
-# ============================================================
-
-def get_curriculum_context(subject, text, level):
-    subject_key = (subject or "").lower().strip()
-
-    chapter = detect_chapter(subject_key, text, level)
-
-    context = {
-        "subject": subject,
-        "level": level,
-        "chapter": chapter,
-        "available_curriculum": SUBJECT_MAP.get(subject_key, {})
+def get_curriculum_context(subject: str, prompt: str, level: str):
+    form = detect_form(prompt, level)
+    chapters = get_chapters(subject, form)
+    detected = detect_chapter(prompt, subject, form)
+    lines = "\n".join(
+        f"- Chapter {x.get('chapter')}: {x.get('title')}" for x in chapters
+    )
+    return {
+        "form": form or None,
+        "chapter": detected,
+        "context": (
+            f"Subject: {subject}\nForm: {form or 'not identified'}\n"
+            f"Chapter directory:\n{lines or 'No form-specific chapter list available.'}\n"
+            "This directory is a routing aid, not proof of exact DSKP learning standards. "
+            "Do not invent subtopics, Content Standards, Learning Standards or page numbers."
+        )
     }
 
-    return context
-
-
 # ============================================================
-# CALCULATION DETECTOR
+# KNOWLEDGE FOLDER + LIGHTWEIGHT RETRIEVAL
+# Supported: .txt, .md, .json
 # ============================================================
 
-def looks_like_calculation(text):
-    text = (text or "").lower()
+SUPPORTED_KNOWLEDGE_EXTENSIONS = {".txt", ".md", ".json"}
+KNOWLEDGE_INDEX = []
 
-    calculation_patterns = [
-        r"\d+\s*(m|cm|mm|km|s|min|h|kg|g|mol|v|a|w|j|pa|hz|°c|c)",
-        r"calculate",
-        r"hitungkan",
-        r"find the",
-        r"determine",
-        r"mass",
-        r"volume",
-        r"concentration",
-        r"velocity",
-        r"speed",
-        r"acceleration",
-        r"force",
-        r"energy",
-        r"power",
-        r"current",
-        r"voltage",
-        r"resistance",
-        r"frequency",
-        r"wavelength",
-        r"moles",
-        r"molar"
-    ]
+def clean_text(text: str) -> str:
+    text = text.replace("\x00", " ")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
 
-    return any(re.search(pattern, text) for pattern in calculation_patterns)
+def split_into_chunks(text: str, source: str, chunk_size: int = 1400, overlap: int = 200):
+    text = clean_text(text)
+    chunks = []
+    start = 0
+    while start < len(text):
+        end = min(start + chunk_size, len(text))
+        if end < len(text):
+            boundary = text.rfind("\n", start + int(chunk_size * 0.6), end)
+            if boundary > start:
+                end = boundary
+        chunk = text[start:end].strip()
+        if chunk:
+            chunks.append({"source": source, "text": chunk})
+        if end >= len(text):
+            break
+        start = max(end - overlap, start + 1)
+    return chunks
 
+def read_knowledge_file(path: Path) -> str:
+    try:
+        content = path.read_text(encoding="utf-8")
+        if path.suffix.lower() == ".json":
+            try:
+                content = json.dumps(json.loads(content), ensure_ascii=False, indent=2)
+            except json.JSONDecodeError:
+                pass
+        return content
+    except (OSError, UnicodeDecodeError) as exc:
+        print(f"Skipping knowledge file {path.name}: {exc}")
+        return ""
 
-# ============================================================
-# IMAGE QUESTION DETECTOR
-# ============================================================
+def rebuild_knowledge_index():
+    global KNOWLEDGE_INDEX
+    KNOWLEDGE_INDEX = []
+    KNOWLEDGE_DIR.mkdir(parents=True, exist_ok=True)
+    for path in KNOWLEDGE_DIR.rglob("*"):
+        if path.is_file() and path.suffix.lower() in SUPPORTED_KNOWLEDGE_EXTENSIONS:
+            relative = str(path.relative_to(KNOWLEDGE_DIR))
+            KNOWLEDGE_INDEX.extend(
+                split_into_chunks(read_knowledge_file(path), relative)
+            )
+    print(f"Knowledge index ready: {len(KNOWLEDGE_INDEX)} chunks")
 
-def image_instruction(subject, prompt):
-    subject_key = (subject or "").lower().strip()
+def token_set(text: str):
+    return set(re.findall(r"[a-z0-9]+", (text or "").lower()))
 
-    if subject_key == "biologi":
-        focus = """
-Analyse biological structures, labels, processes, graphs or experimental
-diagrams carefully. If a label cannot be read, say so.
-"""
-
-    elif subject_key == "kimia":
-        focus = """
-Analyse chemical apparatus, equations, tables, graphs, observations,
-structures or experiment questions. Distinguish what is visibly shown
-from what must be inferred.
-"""
-
-    elif subject_key == "fizik":
-        focus = """
-Analyse diagrams, circuits, graphs, rays, forces, motion diagrams,
-experimental setups and numerical information carefully.
-"""
-
-    else:
-        focus = ""
-
-    return f"""
-IMAGE ANALYSIS MODE
-
-{focus}
-
-Do not invent unreadable values or labels.
-
-If information in the image is unclear:
-- identify what can be read
-- identify what cannot be read
-- continue only where scientifically justified
-
-If this is an exam question, answer according to the visible question.
-"""
-
-
-# ============================================================
-# ANSWER QUALITY ENGINE
-# ============================================================
-
-QUALITY_ENGINE = """
-FINAL QUALITY CONTROL
-
-Before producing the final answer internally check:
-
-1. Did I answer the actual question?
-2. Did I stay within the selected subject?
-3. Did I use correct scientific terminology?
-4. Did I accidentally invent a source?
-5. Did I accidentally invent a textbook page/chapter?
-6. If calculating, did I use the correct formula?
-7. Did I show units?
-8. Is the final numerical answer reasonable?
-9. If marks are given, is the answer proportional to the marks?
-10. Did I distinguish fact from assumption?
-11. Is the answer understandable to a Form 4/5 student?
-12. Did I avoid unnecessary repetition?
-
-Do not reveal this internal quality-control process.
-"""
-
-
-# ============================================================
-# RESPONSE STYLE
-# ============================================================
-
-STYLE_ENGINE = """
-RESPONSE STYLE
-
-Use clean Markdown.
-
-Use headings when the answer is long.
-
-Use tables only when they genuinely improve understanding.
-
-Use LaTeX for equations when useful.
-
-For numerical work make the working easy to follow.
-
-Do not produce giant walls of text.
-
-Do not say things like:
-"As an AI..."
-"I am unable..."
-unless genuinely necessary.
-
-Do not pretend to have accessed a textbook, website or official
-marking scheme unless that source has actually been supplied.
-
-If the user asks something outside Biology, Chemistry or Physics,
-answer briefly and then guide them back to the selected subject if
-appropriate.
-"""
-
-
-# ============================================================
-# SOURCE / RAG PLACEHOLDER
-# ============================================================
-
-def get_source_context(data):
-    """
-    This is intentionally a placeholder.
-
-    Later, this function should retrieve relevant chunks from the
-    user's actual KSSM textbook/database.
-
-    Example future return:
-
-    [
-        {
-            "title": "Biology Form 4",
-            "chapter": "Chapter 3",
-            "page": "72",
-            "content": "..."
-        }
-    ]
-
-    IMPORTANT:
-    We do not pretend the current app already has this database.
-    """
-
-    supplied_sources = data.get("sources", [])
-
-    if not isinstance(supplied_sources, list):
+def search_knowledge(prompt: str, subject: str, form: str = "", limit: int = 5):
+    query_tokens = token_set(prompt)
+    if not query_tokens:
         return []
 
-    cleaned = []
+    scored = []
+    for chunk in KNOWLEDGE_INDEX:
+        body = chunk["text"]
+        body_tokens = token_set(body)
+        overlap = len(query_tokens & body_tokens)
+        if overlap == 0:
+            continue
 
-    for source in supplied_sources[:8]:
-        if isinstance(source, dict):
-            cleaned.append({
-                "title": str(source.get("title", "")),
-                "chapter": str(source.get("chapter", "")),
-                "page": str(source.get("page", "")),
-                "content": str(source.get("content", ""))
-            })
+        score = overlap / max(len(query_tokens), 1)
+        metadata = f"{chunk['source']} {body[:300]}".lower()
 
-    return cleaned
+        if subject.lower() in metadata:
+            score += 0.15
+        if form and (f"form {form}" in metadata or f"tingkatan {form}" in metadata):
+            score += 0.10
 
+        scored.append((score, chunk))
 
-def format_source_context(sources):
-    if not sources:
-        return """
-NO EXTERNAL TEXTBOOK SOURCE WAS SUPPLIED FOR THIS QUESTION.
+    scored.sort(key=lambda item: item[0], reverse=True)
+    return [chunk for score, chunk in scored[:limit] if score > 0]
 
-Use your general scientific knowledge carefully.
-
-Do NOT claim that your answer is directly from an official KPM textbook.
-"""
-
-    blocks = []
-
-    for i, source in enumerate(sources, 1):
-
-        title = source.get("title", "")
-        chapter = source.get("chapter", "")
-        page = source.get("page", "")
-        content = source.get("content", "")
-
-        blocks.append(
-            f"""
-SOURCE {i}
-Title: {title}
-Chapter: {chapter}
-Page: {page}
-
-CONTENT:
-{content}
-"""
+def format_retrieved_sources(chunks):
+    if not chunks:
+        return (
+            "No matching local knowledge passages were found for this question. "
+            "Do not claim that the answer came from a local textbook file."
         )
-
-    return "\n".join(blocks)
-
+    output = []
+    for index, chunk in enumerate(chunks, 1):
+        output.append(
+            f"[LOCAL SOURCE {index}: {chunk['source']}]\n{chunk['text']}"
+        )
+    return "\n\n".join(output)
 
 # ============================================================
-# MESSAGE CLEANING
+# ROUTING + IMAGE HELPERS
 # ============================================================
+
+def detect_task(text: str, supplied_task: str = "") -> str:
+    allowed = set(TASK_INSTRUCTIONS)
+    supplied = (supplied_task or "").strip().lower()
+    if supplied in allowed:
+        return supplied
+
+    lower = (text or "").lower()
+    for task, keywords in TASK_KEYWORDS.items():
+        if any(keyword in lower for keyword in keywords):
+            return task
+    return "explain"
+
+def looks_like_calculation(text: str) -> bool:
+    lower = (text or "").lower()
+    patterns = [
+        r"\bcalculate\b", r"\bwork out\b", r"\bhitungkan\b",
+        r"\bfind the value\b", r"\bdetermine\b",
+        r"\d+(?:\.\d+)?\s*(?:m/s|km/h|cm|mm|km|kg|mol|mol\s*dm-3|v|a|w|j|pa|hz|°c)\b",
+        r"\b(?:mass|volume|concentration|velocity|speed|acceleration|force|energy|power|current|voltage|resistance|frequency|wavelength|moles)\b"
+    ]
+    return any(re.search(pattern, lower) for pattern in patterns)
+
+def validate_image_data(image_value):
+    if not isinstance(image_value, str) or not image_value.strip():
+        return None
+    value = image_value.strip()
+    if not value.startswith("data:image/") or ";base64," not in value:
+        return None
+    header, encoded = value.split(",", 1)
+    if not re.match(r"^data:image/(png|jpeg|jpg|webp|gif);base64$", header, re.I):
+        return None
+    try:
+        decoded = base64.b64decode(encoded, validate=True)
+    except (ValueError, base64.binascii.Error):
+        return None
+    if len(decoded) > 8 * 1024 * 1024:
+        return None
+    return value
+
+def image_instruction(subject: str):
+    focus = {
+        "Biology": "Focus on biological structures, labels, processes, graphs and experimental diagrams.",
+        "Chemistry": "Focus on apparatus, equations, tables, graphs, observations, structures and experiment questions.",
+        "Physics": "Focus on diagrams, circuits, graphs, rays, forces, motion and experimental setups."
+    }.get(subject, "Analyse the visible educational content carefully.")
+    return (
+        "IMAGE ANALYSIS MODE\n" + focus + "\n"
+        "Do not invent unreadable values or labels. State when any part is unclear. "
+        "Separate what is visibly shown from scientific inference."
+    )
 
 def clean_history(history):
-    """
-    Prevent malformed frontend history from breaking the API.
-    """
-
     if not isinstance(history, list):
         return []
-
     cleaned = []
-
-    for item in history[-10:]:
-
+    for item in history[-8:]:
         if not isinstance(item, dict):
             continue
-
         role = item.get("role")
         content = item.get("content")
-
-        if role not in ("user", "assistant"):
+        if role not in ("user", "assistant") or not isinstance(content, str):
             continue
-
-        if not isinstance(content, str):
-            continue
-
-        if not content.strip():
-            continue
-
-        cleaned.append({
-            "role": role,
-            "content": content[:12000]
-        })
-
+        content = content.strip()
+        if content:
+            cleaned.append({"role": role, "content": content[:8000]})
     return cleaned
 
-
-# ============================================================
-# MODEL SELECTION
-# ============================================================
-
-def choose_model(has_image=False):
-    """
-    Keep your current model configuration.
-
-    If your Groq account uses different model IDs, change them here only.
-    """
-
-    if has_image:
-        return "qwen/qwen3.8-27b"
-
-    return "openai/gpt-oss-120b"
-
-
-# ============================================================
-# SYSTEM PROMPT BUILDER
-# ============================================================
-
-def build_system_prompt(
-    subject,
-    level,
-    task,
-    language,
-    user_prompt,
-    data
-):
-
-    subject_key = (subject or "").lower().strip()
-
-    subject_engine = SUBJECT_ENGINES.get(
-        subject_key,
-        """
-Use accurate scientific reasoning appropriate to the selected subject.
-"""
-    )
-
-    task_engine = TASK_INSTRUCTIONS.get(
-        task,
-        TASK_INSTRUCTIONS["explain"]
-    )
-
-    curriculum = get_curriculum_context(
-        subject,
-        user_prompt,
-        level
-    )
-
-    chapter = curriculum.get("chapter")
-
+def build_system_prompt(subject, level, language, task, prompt, curriculum_info, sources, has_image):
+    engine = SUBJECT_ENGINES.get(subject.lower(), "")
+    chapter = curriculum_info.get("chapter")
     if chapter:
-        chapter_context = f"""
-DETECTED CURRICULUM LOCATION:
-
-Form: {chapter.get("form")}
-Chapter: {chapter.get("chapter")}
-Topic: {chapter.get("title") or "Chapter title not available"}
-
-Treat this as a routing hint only.
-Do not claim exact textbook wording unless source content is supplied.
-"""
-    else:
-        chapter_context = """
-No exact chapter was confidently detected.
-
-Do not invent a chapter number.
-"""
-
-    sources = get_source_context(data)
-    source_context = format_source_context(sources)
-
-    calculation_mode = ""
-
-    if looks_like_calculation(user_prompt) or task == "solve":
-        calculation_mode = """
-CALCULATION MODE IS ACTIVE.
-
-Be especially strict about:
-- identifying known quantities
-- identifying the unknown
-- selecting the correct formula
-- unit conversion
-- substitution
-- algebra
-- final unit
-- reasonable result
-"""
-
-    image_mode = ""
-
-    if data.get("image"):
-        image_mode = image_instruction(
-            subject,
-            user_prompt
+        chapter_text = (
+            f"Detected curriculum location: Chapter {chapter.get('chapter')} - "
+            f"{chapter.get('title')}. Treat this as a routing clue only."
         )
+    else:
+        chapter_text = "No exact chapter was confidently detected. Do not invent one."
+
+    retrieved = format_retrieved_sources(sources)
+    image_text = image_instruction(subject) if has_image else ""
 
     return f"""
 {CORE_IDENTITY}
@@ -1066,304 +597,181 @@ Be especially strict about:
 
 {TEACHING_ENGINE}
 
-{subject_engine}
+{engine}
 
-{task_engine}
+TASK MODE:
+{TASK_INSTRUCTIONS.get(task, TASK_INSTRUCTIONS['explain'])}
 
-{QUALITY_ENGINE}
+CURRENT STUDENT CONTEXT:
+Subject: {subject}
+Level: {level}
+Requested language: {language}
+Task: {task}
+Question: {prompt}
 
-{STYLE_ENGINE}
+CURRICULUM ROUTING:
+{curriculum_info.get('context', '')}
+{chapter_text}
 
-==================================================
-CURRENT SESSION
-==================================================
+{image_text}
 
-Subject:
-{subject}
+RETRIEVED LOCAL KNOWLEDGE:
+{retrieved}
 
-Level:
-{level}
-
-Language:
-{language}
-
-Task:
-{task}
-
-Student question:
-{user_prompt}
-
-{chapter_context}
-
-{calculation_mode}
-
-{image_mode}
-
-==================================================
-SOURCE MATERIAL
-==================================================
-
-{source_context}
-
-==================================================
-IMPORTANT SOURCE RULE
-==================================================
-
-If source material is supplied, use it as the primary source for
-source-specific claims.
-
-If source material is not supplied, use general scientific knowledge,
-but never falsely claim that a statement came from an official textbook.
-
-If the student's requested topic cannot be answered reliably from the
-available information, explain what information is missing.
-
-Answer the student directly.
-"""
-
+SOURCE AND ACCURACY RULES:
+- Use relevant retrieved passages as the primary reference for source-specific details.
+- The source snippets may be incomplete. Do not infer missing textbook content.
+- If no relevant local source was retrieved, use general scientific knowledge carefully.
+- Never claim an answer is directly from an official textbook unless that source was supplied.
+- Never fabricate page numbers, quotations, official learning standards or marking schemes.
+- If the source does not support a detail, say so where relevant.
+- Answer in {language or 'English'} unless the student clearly asks for another language.
+- Be detailed enough to teach, but do not add irrelevant material.
+""".strip()
 
 # ============================================================
-# /CHAT
+# ROUTES
 # ============================================================
+
+@app.route("/")
+def home():
+    index_file = BASE_DIR / "index.html"
+    if index_file.exists():
+        response = send_from_directory(str(BASE_DIR), "index.html")
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        return response
+    return jsonify({
+        "success": True,
+        "message": "Core Science AI backend is running. Add index.html to this folder."
+    })
 
 @app.route("/chat", methods=["POST"])
 def chat():
-
     try:
-
         data = request.get_json(silent=True) or {}
+        prompt = str(data.get("prompt", "")).strip()
+        if not prompt:
+            return jsonify({"success": False, "error": "Please enter a question."}), 400
 
-        user_prompt = str(
-            data.get("prompt", "")
-        ).strip()
+        subject = normalise_subject(data.get("subject", "Biology"))
+        level = str(data.get("level", "Form 4-5 / SPM")).strip()
+        language = str(data.get("language", "English")).strip() or "English"
+        frontend_task = str(data.get("task", "")).strip()
+        history = clean_history(data.get("history", []))
 
-        if not user_prompt:
-            return jsonify({
-                "success": False,
-                "error": "Please enter a question."
-            }), 400
+        image_data = validate_image_data(data.get("image"))
+        has_image = bool(image_data)
 
-        # ----------------------------------------------------
-        # REQUEST DATA
-        # ----------------------------------------------------
+        task = detect_task(prompt, frontend_task)
+        if looks_like_calculation(prompt):
+            task = "solve"
 
-        selected_subject = str(
-            data.get("subject", "Biologi")
-        ).strip()
-
-        current_level = str(
-            data.get("level", "Form 4-5 / SPM")
-        ).strip()
-
-        output_language = str(
-            data.get("language", "English")
-        ).strip()
-
-        frontend_task = str(
-            data.get("task", "")
-        ).strip()
-
-        image_data = data.get("image")
-
-        history = clean_history(
-            data.get("history", [])
-        )
-
-        # ----------------------------------------------------
-        # TASK ROUTING
-        # ----------------------------------------------------
-
-        detected_task = detect_task(user_prompt)
-
-        if frontend_task in TASK_INSTRUCTIONS:
-            task_id = frontend_task
-        else:
-            task_id = detected_task
-
-        # If it looks like a calculation, make sure solve mode wins.
-        if looks_like_calculation(user_prompt):
-            task_id = "solve"
-
-        # ----------------------------------------------------
-        # CURRICULUM ROUTING
-        # ----------------------------------------------------
-
-        curriculum = get_curriculum_context(
-            selected_subject,
-            user_prompt,
-            current_level
-        )
-
-        chapter = curriculum.get("chapter")
-
-        # ----------------------------------------------------
-        # BUILD SYSTEM
-        # ----------------------------------------------------
+        curriculum_info = get_curriculum_context(subject, prompt, level)
+        form = curriculum_info.get("form") or ""
+        retrieved_chunks = search_knowledge(prompt, subject, form, limit=5)
 
         system_prompt = build_system_prompt(
-            subject=selected_subject,
-            level=current_level,
-            task=task_id,
-            language=output_language,
-            user_prompt=user_prompt,
-            data=data
+            subject=subject,
+            level=level,
+            language=language,
+            task=task,
+            prompt=prompt,
+            curriculum_info=curriculum_info,
+            sources=retrieved_chunks,
+            has_image=has_image
         )
 
-        # ----------------------------------------------------
-        # MESSAGE STACK
-        # ----------------------------------------------------
+        messages = [{"role": "system", "content": system_prompt}]
+        messages.extend(history)
 
-        messages = [
-            {
-                "role": "system",
-                "content": system_prompt
-            }
-        ]
-
-        # Keep conversation context controlled.
-        for msg in history:
-
-            messages.append({
-                "role": msg["role"],
-                "content": msg["content"]
-            })
-
-        # ----------------------------------------------------
-        # CURRENT USER MESSAGE
-        # ----------------------------------------------------
-
-        if image_data:
-
-            messages.append({
-                "role": "user",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": (
-                            user_prompt
-                            if user_prompt
-                            else
-                            "Analyse this science question/image "
-                            "and answer it according to the selected "
-                            "KSSM subject."
-                        )
-                    },
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": image_data
-                        }
-                    }
-                ]
-            })
-
+        if has_image:
+            user_content = [
+                {"type": "text", "text": prompt or "Please analyse this educational image."},
+                {"type": "image_url", "image_url": {"url": image_data}}
+            ]
         else:
+            user_content = prompt
 
-            messages.append({
-                "role": "user",
-                "content": user_prompt
-            })
+        messages.append({"role": "user", "content": user_content})
 
-        # ----------------------------------------------------
-        # MODEL
-        # ----------------------------------------------------
+        model = GROQ_VISION_MODEL if has_image else GROQ_TEXT_MODEL
 
-        model_to_use = choose_model(
-            has_image=bool(image_data)
-        )
-
-        # ----------------------------------------------------
-        # AI REQUEST
-        # ----------------------------------------------------
-
-        response = client.chat.completions.create(
-            model=model_to_use,
+        completion = client.chat.completions.create(
+            model=model,
             messages=messages,
             temperature=0.2,
             max_tokens=4096
         )
 
-        reply = response.choices[0].message.content
-
-        # ----------------------------------------------------
-        # RESPONSE METADATA
-        # ----------------------------------------------------
+        reply = completion.choices[0].message.content or ""
+        chapter = curriculum_info.get("chapter")
 
         return jsonify({
             "success": True,
-            "task": task_id,
-            "subject": selected_subject,
-            "level": current_level,
-            "model": model_to_use,
-
+            "reply": reply,
+            "task": task,
+            "subject": subject,
+            "level": level,
+            "model": model,
             "routing": {
-                "detected_task": detected_task,
-                "final_task": task_id,
-                "chapter": chapter
-            },
-
-            "reply": reply
+                "form": form or None,
+                "chapter": chapter,
+                "retrieved_source_count": len(retrieved_chunks),
+                "retrieved_sources": [x["source"] for x in retrieved_chunks]
+            }
         })
 
-    except Exception as e:
-
-        print("CHAT ERROR:", repr(e))
-
+    except Exception as exc:
+        print("CHAT ERROR:", repr(exc))
+        # Keep the detailed error in the server terminal, not exposed to visitors.
         return jsonify({
             "success": False,
-            "error": str(e)
+            "error": "The AI request failed. Check the Flask terminal for details. "
+                     "Confirm your API key and model names."
         }), 500
-
-
-# ============================================================
-# HEALTH CHECK
-# ============================================================
 
 @app.route("/health", methods=["GET"])
 def health():
-
     return jsonify({
         "status": "online",
         "service": "Core Science AI",
-        "subjects": [
-            "Biologi",
-            "Kimia",
-            "Fizik"
-        ],
-        "features": [
-            "task routing",
-            "KSSM curriculum routing",
-            "subject engines",
-            "calculation mode",
-            "exam command engine",
-            "image analysis",
-            "source-aware answers",
-            "conversation memory"
-        ]
+        "text_model": GROQ_TEXT_MODEL,
+        "vision_model": GROQ_VISION_MODEL,
+        "subjects": ["Biology", "Chemistry", "Physics"],
+        "knowledge_chunks": len(KNOWLEDGE_INDEX)
     })
-
-
-# ============================================================
-# CURRICULUM API
-# ============================================================
 
 @app.route("/curriculum", methods=["GET"])
-def curriculum():
+def curriculum_route():
+    return jsonify({"success": True, "curriculum": CURRICULUM})
 
+@app.route("/knowledge/status", methods=["GET"])
+def knowledge_status():
+    files = []
+    if KNOWLEDGE_DIR.exists():
+        for path in KNOWLEDGE_DIR.rglob("*"):
+            if path.is_file() and path.suffix.lower() in SUPPORTED_KNOWLEDGE_EXTENSIONS:
+                files.append(str(path.relative_to(KNOWLEDGE_DIR)))
     return jsonify({
         "success": True,
-        "curriculum": SUBJECT_MAP
+        "folder": "knowledge",
+        "supported_extensions": sorted(SUPPORTED_KNOWLEDGE_EXTENSIONS),
+        "file_count": len(files),
+        "chunk_count": len(KNOWLEDGE_INDEX),
+        "files": files
     })
 
+@app.route("/knowledge/reload", methods=["POST"])
+def knowledge_reload():
+    rebuild_knowledge_index()
+    return jsonify({
+        "success": True,
+        "message": "Knowledge index reloaded.",
+        "chunk_count": len(KNOWLEDGE_INDEX)
+    })
 
-# ============================================================
-# RUN SERVER
-# ============================================================
+# Build the local search index at startup.
+rebuild_knowledge_index()
 
 if __name__ == "__main__":
-
-    app.run(
-        host="127.0.0.1",
-        port=5000,
-        debug=True
-    )
+    app.run(host="127.0.0.1", port=5000, debug=True)
