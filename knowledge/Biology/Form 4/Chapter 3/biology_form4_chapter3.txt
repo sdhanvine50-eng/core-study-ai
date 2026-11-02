@@ -1,0 +1,709 @@
+SUBJECT: Biology
+FORM: Form 4
+CHAPTER: Chapter 3
+CHAPTER_TITLE: Movement of Substances across a Plasma Membrane
+TOPICS: 3.1, 3.2, 3.3, 3.4
+SOURCE_TYPE: Original Learning Material
+STATUS: Original Educational Content
+
+SOURCE NOTE:
+This document contains original explanations prepared for learning and revision. It is not a reproduction of an official KSSM textbook. Check the current textbook and teacher's notes for exact syllabus requirements.
+
+============================================================
+3.1 STRUCTURE OF PLASMA MEMBRANE
+============================================================
+
+1. INTRODUCTION
+
+The plasma membrane is a thin boundary that surrounds the cytoplasm of a cell.
+
+It separates the internal contents of the cell from its external environment.
+
+Its main function is to control the movement of substances into and out of the cell.
+
+The plasma membrane is selectively permeable. This means that it allows certain substances to pass through more easily than others.
+
+This property helps the cell maintain a stable internal environment.
+
+2. FLUID MOSAIC MODEL
+
+The structure of the plasma membrane is explained using the fluid mosaic model.
+
+The model describes the plasma membrane as a flexible phospholipid bilayer containing different proteins and other molecules.
+
+The word FLUID means that certain components of the membrane can move sideways within the bilayer.
+
+The word MOSAIC describes the arrangement of different components, such as proteins, within the phospholipid bilayer.
+
+3. PHOSPHOLIPID BILAYER
+
+The basic structure of the plasma membrane consists of two layers of phospholipid molecules.
+
+Each phospholipid molecule consists of:
+
+A. Hydrophilic phosphate head
+- Attracted to water.
+- Faces the watery environment outside the cell.
+- Also faces the cytoplasm inside the cell.
+
+B. Hydrophobic fatty acid tails
+- Repelled by or avoid water.
+- Face towards one another in the middle of the membrane.
+- Form a hydrophobic region inside the membrane.
+
+The arrangement of the phospholipids forms a barrier that controls the movement of substances across the membrane.
+
+Many charged particles and large water-soluble substances cannot easily pass directly through the hydrophobic interior.
+
+4. MEMBRANE PROTEINS
+
+Proteins are found on the surface of or embedded within the phospholipid bilayer.
+
+They perform several important functions.
+
+A. Channel proteins
+- Form passages through the membrane.
+- Allow certain substances, such as specific ions, to cross.
+
+B. Carrier proteins
+- Bind to particular substances.
+- Change shape to help move substances across the membrane.
+
+C. Receptor proteins
+- Receive signals from outside the cell.
+- Help cells respond to their environment.
+
+D. Recognition proteins
+- Help cells recognise one another.
+- Important in interactions between cells.
+
+5. CHOLESTEROL
+
+Cholesterol is found between phospholipid molecules in many animal cell membranes.
+
+Functions:
+- Helps regulate membrane fluidity.
+- Contributes to membrane stability.
+- Helps maintain suitable membrane properties.
+
+6. GLYCOPROTEINS AND GLYCOLIPIDS
+
+Glycoproteins are proteins with carbohydrate chains attached.
+
+Glycolipids are lipids with carbohydrate chains attached.
+
+Functions include:
+- Cell recognition.
+- Cell communication.
+- Interactions between cells.
+
+7. IMPORTANCE OF THE PLASMA MEMBRANE
+
+The plasma membrane:
+- Separates the cell from its surroundings.
+- Controls the entry of nutrients.
+- Regulates the removal of waste products.
+- Helps maintain suitable internal conditions.
+- Allows cells to receive signals.
+- Helps cells recognise other cells.
+
+KEY TERMS
+
+Plasma membrane:
+A selectively permeable boundary surrounding a cell.
+
+Selectively permeable:
+Allows certain substances to pass through more readily than others.
+
+Hydrophilic:
+Attracted to water.
+
+Hydrophobic:
+Repelled by or avoids water.
+
+Phospholipid bilayer:
+Two layers of phospholipid molecules forming the basic structure of the plasma membrane.
+
+Fluid mosaic model:
+A model describing the plasma membrane as a flexible phospholipid bilayer containing different components.
+
+============================================================
+3.2 CONCEPT OF MOVEMENT OF SUBSTANCES ACROSS A PLASMA MEMBRANE
+============================================================
+
+1. WHY DO SUBSTANCES MOVE ACROSS THE MEMBRANE?
+
+Cells need different substances to survive and carry out their functions.
+
+Examples:
+- Oxygen is required for aerobic respiration.
+- Nutrients are required for growth and energy.
+- Water is required for cellular processes.
+- Waste products must be removed from cells.
+
+The plasma membrane regulates the movement of these substances.
+
+There are two main categories of transport:
+
+A. Passive transport
+B. Active transport
+
+2. CONCENTRATION GRADIENT
+
+A concentration gradient is a difference in the concentration of a substance between two regions.
+
+Movement down a concentration gradient means movement from a region of higher concentration to a region of lower concentration.
+
+Movement against a concentration gradient means movement from a region of lower concentration to a region of higher concentration.
+
+3. PASSIVE TRANSPORT
+
+Passive transport is the movement of substances across a membrane without the cell using energy from ATP to power the transport.
+
+Types:
+- Simple diffusion.
+- Facilitated diffusion.
+- Osmosis.
+
+A. SIMPLE DIFFUSION
+
+Diffusion is the net movement of particles from a region of higher concentration to a region of lower concentration, down the concentration gradient, due to random particle movement.
+
+Examples:
+
+Oxygen:
+Oxygen can diffuse into cells when its concentration is higher outside the cells than inside.
+
+Carbon dioxide:
+Carbon dioxide can diffuse out of cells when its concentration is higher inside than outside.
+
+Characteristics:
+- Does not require ATP.
+- Movement occurs down the concentration gradient.
+- Does not require transport proteins.
+- Particles continue moving randomly in both directions.
+
+At equilibrium, particles still move, but there is no net movement in one direction.
+
+B. FACILITATED DIFFUSION
+
+Facilitated diffusion is the passive movement of substances across a membrane down their concentration gradient with the assistance of membrane proteins.
+
+Some substances cannot easily pass through the hydrophobic interior of the phospholipid bilayer.
+
+Channel proteins:
+- Form passages across the membrane.
+- Allow particular substances to pass.
+
+Carrier proteins:
+- Bind to particular substances.
+- Change shape to transport them across the membrane.
+
+Characteristics:
+- Does not require ATP.
+- Movement occurs down the concentration gradient.
+- Requires membrane proteins.
+- Transport proteins are selective.
+
+C. OSMOSIS
+
+Osmosis is the net movement of water molecules across a selectively permeable membrane from a region of higher water potential to a region of lower water potential.
+
+In simple terms, water moves from a more dilute solution towards a more concentrated solution when the dissolved solute cannot freely cross the membrane.
+
+Characteristics:
+- Involves water molecules.
+- Requires a selectively permeable membrane.
+- Does not require ATP.
+- Water molecules move in both directions, but there is a net movement towards lower water potential.
+
+4. ACTIVE TRANSPORT
+
+Active transport is the movement of substances across a membrane against their concentration gradient, from a region of lower concentration to a region of higher concentration.
+
+It requires energy from ATP and transport proteins.
+
+Characteristics:
+- Requires ATP.
+- Requires specific transport proteins.
+- Moves substances against their concentration gradient.
+- Allows cells to accumulate substances even when their concentration is already higher inside the cell.
+
+EXAMPLE:
+
+Root hair cells may absorb mineral ions from the soil even when the concentration of those ions is lower in the soil than inside the root hair cells.
+
+This process requires active transport.
+
+5. COMPARISON OF TRANSPORT PROCESSES
+
+SIMPLE DIFFUSION:
+- Moves particles down a concentration gradient.
+- Does not require transport proteins.
+- Does not require ATP.
+
+FACILITATED DIFFUSION:
+- Moves substances down a concentration gradient.
+- Requires channel or carrier proteins.
+- Does not require ATP.
+
+OSMOSIS:
+- Involves water molecules.
+- Moves from higher water potential to lower water potential.
+- Requires a selectively permeable membrane.
+- Does not require ATP.
+
+ACTIVE TRANSPORT:
+- Moves substances against a concentration gradient.
+- Requires transport proteins.
+- Requires energy from ATP.
+
+6. FACTORS AFFECTING THE RATE OF DIFFUSION
+
+A. Concentration difference
+A larger concentration difference generally increases the rate of net diffusion.
+
+B. Temperature
+Higher temperature increases the kinetic energy of particles and can increase the rate of diffusion, provided the temperature does not damage the cells.
+
+C. Surface area
+A larger surface area allows more substances to cross the membrane at the same time.
+
+D. Diffusion distance
+A shorter diffusion distance generally increases the rate of diffusion.
+
+E. Particle properties
+The size and charge of particles affect their ability to cross the membrane.
+
+F. Transport proteins
+The availability of suitable channel and carrier proteins affects facilitated diffusion and active transport.
+
+7. COMMON MISCONCEPTIONS
+
+- Diffusion and osmosis are not the same.
+- Osmosis specifically involves water molecules.
+- Facilitated diffusion uses membrane proteins but does not require ATP.
+- Active transport requires ATP.
+- At equilibrium, particles do not stop moving.
+
+============================================================
+3.3 MOVEMENT OF SUBSTANCES ACROSS A PLASMA MEMBRANE IN LIVING ORGANISMS
+============================================================
+
+1. MOVEMENT OF OXYGEN AND CARBON DIOXIDE
+
+Oxygen and carbon dioxide can move across cell membranes through diffusion.
+
+A. Oxygen movement
+
+Cells require oxygen for aerobic respiration.
+
+During respiration, oxygen is used by the cells.
+
+As a result, the oxygen concentration inside a respiring cell may become lower than the concentration outside.
+
+Oxygen then diffuses into the cell down its concentration gradient.
+
+B. Carbon dioxide movement
+
+Carbon dioxide is produced during cellular respiration.
+
+Its concentration may become higher inside the cell than outside.
+
+Carbon dioxide then diffuses out of the cell down its concentration gradient.
+
+The direction of diffusion always depends on the concentration gradient.
+
+2. OSMOSIS IN PLANT CELLS
+
+Plant cells have a cell wall outside the plasma membrane.
+
+The cell wall provides support and resists excessive expansion when water enters the cell.
+
+A. PLANT CELL IN A DILUTE SOLUTION
+
+When a plant cell is placed in a dilute solution:
+
+1. The solution outside has a higher water potential than the cell sap.
+2. Water enters the cell by osmosis.
+3. The vacuole becomes larger.
+4. The cytoplasm and plasma membrane are pushed towards the cell wall.
+5. The cell becomes turgid.
+
+A turgid cell is firm because it contains water and develops turgor pressure.
+
+The cell wall prevents excessive expansion and helps prevent the cell from bursting.
+
+B. PLANT CELL IN A CONCENTRATED SOLUTION
+
+When a plant cell is placed in a concentrated solution:
+
+1. The solution outside has a lower water potential than the cell sap.
+2. Water leaves the cell by osmosis.
+3. The vacuole becomes smaller.
+4. The cytoplasm shrinks.
+5. The cell becomes flaccid.
+
+If sufficient water leaves the cell, the plasma membrane and cytoplasm may pull away from the cell wall.
+
+This condition is called plasmolysis.
+
+A cell that has undergone this process is described as plasmolysed.
+
+C. PLANT CELL IN A SOLUTION WITH SIMILAR WATER POTENTIAL
+
+- Water moves in both directions.
+- There is no net movement of water.
+- The cell does not gain or lose water overall.
+
+3. OSMOSIS IN ANIMAL CELLS
+
+Animal cells do not have a cell wall.
+
+Therefore, they respond differently from plant cells when placed in solutions with different water potentials.
+
+A. ANIMAL CELL IN A DILUTE SOLUTION
+
+1. The solution outside has a higher water potential than the cytoplasm.
+2. Water enters the cell by osmosis.
+3. The cell swells.
+4. The cell may burst if too much water enters.
+
+B. ANIMAL CELL IN A CONCENTRATED SOLUTION
+
+1. The solution outside has a lower water potential than the cytoplasm.
+2. Water leaves the cell by osmosis.
+3. The cell shrinks.
+
+C. ANIMAL CELL IN AN ISOTONIC SOLUTION
+
+- The solution has a similar effective solute concentration to the cell.
+- There is no net movement of water.
+- The cell generally maintains its normal size.
+
+4. COMPARISON OF PLANT AND ANIMAL CELLS
+
+DILUTE SOLUTION
+
+Plant cell:
+- Water enters by osmosis.
+- Cell becomes turgid.
+- Cell wall resists excessive expansion.
+
+Animal cell:
+- Water enters by osmosis.
+- Cell swells.
+- Cell may burst.
+
+CONCENTRATED SOLUTION
+
+Plant cell:
+- Water leaves by osmosis.
+- Cell becomes flaccid.
+- May undergo plasmolysis.
+
+Animal cell:
+- Water leaves by osmosis.
+- Cell shrinks.
+
+SIMILAR WATER POTENTIAL
+
+Plant cell:
+- No net movement of water.
+- May become flaccid rather than fully turgid.
+
+Animal cell:
+- No net movement of water.
+- Generally maintains normal size.
+
+5. ABSORPTION OF WATER AND MINERAL IONS BY ROOT HAIR CELLS
+
+Root hair cells absorb water and mineral ions from the soil.
+
+A. Water absorption
+
+Water enters root hair cells by osmosis when the water potential in the soil solution is higher than that inside the cell.
+
+Root hairs provide a large surface area for water absorption.
+
+B. Mineral ion absorption
+
+Mineral ions may enter root hair cells by active transport when their concentration is lower in the soil than inside the cells.
+
+Active transport requires:
+- ATP.
+- Transport proteins.
+- Movement against the concentration gradient.
+
+IMPORTANT DIFFERENCE:
+
+Water enters by osmosis.
+
+Mineral ions may enter by active transport.
+
+============================================================
+3.4 MOVEMENT OF SUBSTANCES ACROSS A PLASMA MEMBRANE AND ITS APPLICATION IN DAILY LIFE
+============================================================
+
+1. FOOD PRESERVATION USING SALT AND SUGAR
+
+Concentrated salt and sugar solutions are used to preserve certain foods.
+
+How it works:
+
+1. A concentrated salt or sugar solution surrounds microorganisms.
+2. The external solution has a lower water potential than the microorganisms' cells.
+3. Water moves out of the microbial cells by osmosis.
+4. The loss of water makes it difficult for many microorganisms to grow and carry out normal life processes.
+5. Food spoilage is slowed.
+
+Examples:
+- Salted foods.
+- Sugared fruits.
+- Certain preserved foods.
+
+This process does not necessarily kill every microorganism immediately.
+
+Food preservation also depends on concentration, cleanliness, temperature and storage conditions.
+
+2. INTRAVENOUS FLUIDS
+
+Intravenous fluids are used in medical care.
+
+Their concentration must be selected carefully by qualified healthcare professionals.
+
+A. Fluid that is much more dilute than blood plasma
+
+- Water may enter red blood cells by osmosis.
+- Red blood cells swell.
+- They may burst if excessive water enters.
+
+B. Fluid that is much more concentrated than blood plasma
+
+- Water leaves red blood cells by osmosis.
+- Red blood cells shrink.
+
+C. Isotonic fluid
+
+- Has a similar effective solute concentration to blood plasma.
+- Reduces net water movement into or out of red blood cells.
+- Helps maintain normal cell volume.
+
+This section explains the biological principle only. Medical fluids must be selected and administered by qualified healthcare professionals.
+
+3. WATER ABSORPTION BY PLANT ROOTS
+
+Plant roots absorb water from the soil.
+
+- Water enters root hair cells by osmosis.
+- Root hairs provide a large surface area.
+- Water moves according to the water potential gradient.
+- Mineral ions may be absorbed through active transport.
+
+4. PICKLING AND FOOD PRESERVATION
+
+Some pickling methods use concentrated salt solutions.
+
+Salt can draw water out of microorganisms through osmosis.
+
+This can slow the growth of many microorganisms and help preserve food.
+
+Other factors, such as acidity and storage conditions, also contribute to preservation.
+
+5. DIALYSIS: GENERAL APPLICATION
+
+Dialysis uses a selectively permeable membrane to separate certain small dissolved substances from larger components in a fluid.
+
+The membrane allows some substances to pass while restricting others.
+
+The exact process depends on the dialysis system.
+
+Check with your teacher whether this example is included in your examinable syllabus.
+
+============================================================
+EXAM ANSWER GUIDANCE
+============================================================
+
+1. DEFINE DIFFUSION
+
+Diffusion is the net movement of particles from a region of higher concentration to a region of lower concentration, down the concentration gradient.
+
+2. DEFINE OSMOSIS
+
+Osmosis is the net movement of water molecules across a selectively permeable membrane from a region of higher water potential to a region of lower water potential.
+
+3. DEFINE ACTIVE TRANSPORT
+
+Active transport is the movement of substances across a membrane against their concentration gradient, using energy from ATP and transport proteins.
+
+4. WHY DOES FACILITATED DIFFUSION NOT REQUIRE ATP?
+
+Substances move down their concentration gradient. Channel or carrier proteins help the substances cross the membrane, but ATP is not required.
+
+5. WHY DO ROOT HAIR CELLS USE ACTIVE TRANSPORT?
+
+The concentration of some mineral ions in the soil may be lower than inside the root hair cell.
+
+The ions must move against the concentration gradient.
+
+Therefore, the cell uses active transport, which requires ATP and transport proteins.
+
+6. WHAT HAPPENS TO A PLANT CELL IN A CONCENTRATED SOLUTION?
+
+- The external solution has a lower water potential.
+- Water leaves the cell by osmosis.
+- The vacuole and cytoplasm shrink.
+- The cell becomes flaccid.
+- If sufficient water is lost, the plasma membrane pulls away from the cell wall.
+- The cell becomes plasmolysed.
+
+7. WHY DOES A PLANT CELL USUALLY NOT BURST IN A DILUTE SOLUTION?
+
+Water enters the cell by osmosis.
+
+The cell becomes turgid.
+
+The rigid cell wall resists further expansion and helps prevent the cell from bursting.
+
+8. COMPARE PLANT AND ANIMAL CELLS IN A DILUTE SOLUTION
+
+Both cells gain water by osmosis.
+
+The plant cell becomes turgid because its cell wall resists expansion.
+
+The animal cell swells and may burst because it does not have a cell wall.
+
+9. COMMAND WORDS
+
+STATE:
+Give the required fact briefly.
+
+DEFINE:
+Give a precise meaning.
+
+EXPLAIN:
+Give the reason and explain how it leads to the result.
+
+COMPARE:
+Give similarities and differences.
+
+DESCRIBE:
+Give the relevant features or sequence.
+
+For multi-mark questions, provide separate scientific points.
+
+A useful answering structure is:
+
+CONDITION OR GRADIENT
+        ->
+MOVEMENT OF SUBSTANCE
+        ->
+RESULT
+
+Avoid repeating the same point using different words.
+
+============================================================
+QUICK REVISION
+============================================================
+
+1. Plasma membrane is selectively permeable.
+2. The fluid mosaic model describes the membrane structure.
+3. Hydrophilic heads face watery environments.
+4. Hydrophobic tails face inwards.
+5. Diffusion moves particles from higher to lower concentration.
+6. Facilitated diffusion requires membrane proteins but not ATP.
+7. Osmosis involves water molecules.
+8. Active transport requires ATP.
+9. Plant cells become turgid in dilute solutions.
+10. Plant cells become flaccid in concentrated solutions.
+11. Plasmolysis occurs when the plasma membrane pulls away from the cell wall.
+12. Animal cells may burst in dilute solutions.
+13. Animal cells shrink in concentrated solutions.
+14. Root hair cells absorb water by osmosis.
+15. Root hair cells may absorb mineral ions by active transport.
+16. Concentrated salt and sugar solutions can help preserve food.
+
+============================================================
+PRACTICE QUESTIONS WITH SUGGESTED ANSWERS
+============================================================
+
+QUESTION 1:
+State two components of a phospholipid molecule.
+
+ANSWER:
+1. Hydrophilic phosphate head.
+2. Two hydrophobic fatty acid tails.
+
+QUESTION 2:
+Explain why the plasma membrane is selectively permeable.
+
+ANSWER:
+It allows certain substances to pass through more readily than others and controls the movement of substances into and out of the cell.
+
+QUESTION 3:
+Differentiate between simple diffusion and facilitated diffusion.
+
+ANSWER:
+Both are passive processes in which substances move down their concentration gradient without ATP.
+
+Simple diffusion occurs directly through the membrane.
+
+Facilitated diffusion requires channel or carrier proteins.
+
+QUESTION 4:
+A substance moves from a region of low concentration to a region of high concentration across a plasma membrane.
+
+Name the process and state its energy requirement.
+
+ANSWER:
+The process is active transport.
+
+It requires energy from ATP and uses transport proteins.
+
+QUESTION 5:
+A plant cell is placed in a concentrated sugar solution.
+
+Explain what happens.
+
+ANSWER:
+The solution outside has a lower water potential than the cell sap.
+
+Water leaves the cell by osmosis.
+
+The vacuole and cytoplasm shrink, causing the cell to become flaccid.
+
+If sufficient water is lost, the plasma membrane pulls away from the cell wall and the cell becomes plasmolysed.
+
+QUESTION 6:
+Why does a plant cell usually not burst when placed in a dilute solution?
+
+ANSWER:
+Water enters by osmosis.
+
+The cell becomes turgid.
+
+The rigid cell wall resists further expansion and helps prevent the cell from bursting.
+
+QUESTION 7:
+Explain how concentrated salt can help preserve food.
+
+ANSWER:
+The concentrated salt solution has a lower water potential than the microbial cells.
+
+Water moves out of the cells by osmosis.
+
+The loss of water makes it difficult for many microorganisms to grow and carry out normal life processes.
+
+QUESTION 8:
+A root hair cell absorbs mineral ions when their concentration is lower in the soil than inside the cell.
+
+Explain how this occurs.
+
+ANSWER:
+The mineral ions move against their concentration gradient.
+
+The root hair cell uses active transport.
+
+This process requires ATP and specific transport proteins.
+
+END OF CHAPTER 3 ORIGINAL LEARNING MATERIAL
