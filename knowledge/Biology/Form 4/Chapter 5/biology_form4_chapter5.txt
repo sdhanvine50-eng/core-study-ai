@@ -1,0 +1,982 @@
+SUBJECT: Biology
+FORM: Form 4
+CHAPTER: Chapter 5
+CHAPTER_TITLE: Metabolism and Enzymes
+TOPICS: 5.1 Metabolism, 5.2 Enzymes, 5.3 Application of Enzymes in Daily Life
+SOURCE_TYPE: Original Learning Material
+STATUS: Original Educational Content
+
+==================================================
+CHAPTER 5: METABOLISM AND ENZYMES
+==================================================
+
+CHAPTER OVERVIEW
+
+Living cells continuously carry out thousands of chemical reactions. These reactions allow organisms to obtain energy, build cellular components, remove waste products, grow, repair damaged structures and maintain normal biological processes.
+
+The complete set of chemical reactions occurring inside a living organism is called metabolism.
+
+Enzymes are biological catalysts that control the rate of many metabolic reactions. They allow reactions to occur efficiently under conditions suitable for living cells.
+
+This chapter focuses on:
+- metabolism
+- anabolism and catabolism
+- enzymes as biological catalysts
+- enzyme-substrate interactions
+- factors affecting enzyme activity
+- enzyme inhibition
+- applications of enzymes in everyday life
+
+
+==================================================
+5.1 METABOLISM
+==================================================
+
+DEFINITION OF METABOLISM
+
+Metabolism is the sum of all chemical reactions that occur within a living organism.
+
+Metabolic reactions occur continuously in cells.
+
+Examples include:
+- breaking down glucose to release energy
+- synthesising proteins from amino acids
+- producing new cellular components
+- breaking down excess substances
+- building molecules needed for growth and repair
+
+Metabolism can be divided into two major types:
+
+1. Anabolism
+2. Catabolism
+
+
+--------------------------------------------------
+ANABOLISM
+--------------------------------------------------
+
+Anabolism is a series of metabolic reactions that builds complex molecules from simpler molecules.
+
+Anabolic reactions generally require energy.
+
+Examples:
+- amino acids → proteins
+- glucose molecules → glycogen
+- glycerol and fatty acids → lipids
+
+Anabolism is important for:
+- growth
+- tissue repair
+- production of cellular components
+- storage of substances
+- synthesis of important biological molecules
+
+
+--------------------------------------------------
+CATABOLISM
+--------------------------------------------------
+
+Catabolism is a series of metabolic reactions that breaks down complex molecules into simpler molecules.
+
+Catabolic reactions generally release energy.
+
+Examples:
+- glycogen → glucose
+- proteins → amino acids
+- lipids → glycerol and fatty acids
+
+Cellular respiration is an important example of a catabolic process because energy stored in glucose is released and made available to cells.
+
+
+--------------------------------------------------
+ANABOLISM VS CATABOLISM
+--------------------------------------------------
+
+Anabolism:
+- builds complex molecules
+- uses simpler molecules as building blocks
+- generally requires energy
+- important for growth and repair
+
+Catabolism:
+- breaks complex molecules into simpler molecules
+- generally releases energy
+- provides substances and energy for other cellular processes
+
+
+--------------------------------------------------
+RELATIONSHIP BETWEEN ANABOLISM AND CATABOLISM
+--------------------------------------------------
+
+Anabolism and catabolism are connected.
+
+Catabolic reactions can provide:
+- energy
+- simpler molecules
+- raw materials
+
+These can then be used in anabolic reactions.
+
+For example:
+
+Complex food molecules
+↓
+Catabolism
+↓
+Simpler molecules + released energy
+↓
+Anabolism
+↓
+New complex molecules
+
+Therefore, both processes are necessary for maintaining life.
+
+
+--------------------------------------------------
+ENERGY IN METABOLIC REACTIONS
+--------------------------------------------------
+
+Energy is required for many cellular activities.
+
+Cells use energy for:
+- active transport
+- movement
+- growth
+- synthesis of molecules
+- cell division
+- repair
+- maintaining cellular organisation
+
+ATP is an important energy carrier in cells.
+
+Energy released during certain catabolic reactions can be used to produce ATP.
+
+ATP can then provide usable energy for cellular processes.
+
+
+--------------------------------------------------
+EXAM TIP — METABOLISM
+--------------------------------------------------
+
+If asked to define metabolism:
+
+"Metabolism is the sum of all chemical reactions occurring in a living organism."
+
+If asked to distinguish anabolism and catabolism, mention:
+1. whether molecules are built or broken down
+2. the direction of molecular complexity
+3. the general energy requirement/release
+
+
+==================================================
+5.2 ENZYMES
+==================================================
+
+DEFINITION OF ENZYME
+
+An enzyme is a biological catalyst that increases the rate of a biochemical reaction without being permanently changed or used up in the reaction.
+
+Most enzymes in cells are proteins.
+
+Enzymes are essential because many biochemical reactions would occur too slowly to support life under normal cellular conditions without enzyme catalysis.
+
+
+--------------------------------------------------
+CATALYST
+--------------------------------------------------
+
+A catalyst is a substance that increases the rate of a chemical reaction without being permanently changed at the end of the reaction.
+
+Enzymes are biological catalysts because they perform this function in living organisms.
+
+
+--------------------------------------------------
+CHARACTERISTICS OF ENZYMES
+--------------------------------------------------
+
+Important characteristics of enzymes include:
+
+1. Enzymes increase the rate of biochemical reactions.
+
+2. Enzymes are not permanently changed during the reaction.
+
+3. Most enzymes are proteins.
+
+4. Enzymes are required in relatively small amounts.
+
+5. Enzymes are specific to particular substrates or groups of related substrates.
+
+6. Enzyme activity is affected by environmental conditions such as temperature and pH.
+
+7. Enzymes can be affected by inhibitors.
+
+8. Enzymes can be reused after a reaction.
+
+
+--------------------------------------------------
+SUBSTRATE AND PRODUCT
+--------------------------------------------------
+
+The substance acted upon by an enzyme is called the substrate.
+
+The substances formed after an enzyme-catalysed reaction are called products.
+
+General reaction:
+
+Enzyme + substrate
+↓
+Enzyme-substrate complex
+↓
+Enzyme + products
+
+
+--------------------------------------------------
+ACTIVE SITE
+--------------------------------------------------
+
+The active site is the specific region of an enzyme where the substrate binds.
+
+The shape and chemical properties of the active site allow the enzyme to interact with a suitable substrate.
+
+The substrate binds temporarily to the active site and forms an enzyme-substrate complex.
+
+
+--------------------------------------------------
+ENZYME-SUBSTRATE COMPLEX
+--------------------------------------------------
+
+The sequence can be represented as:
+
+E + S → ES → E + P
+
+Where:
+
+E = enzyme
+S = substrate
+ES = enzyme-substrate complex
+P = product
+
+The enzyme remains available after the reaction and can catalyse another reaction.
+
+
+--------------------------------------------------
+LOCK AND KEY HYPOTHESIS
+--------------------------------------------------
+
+The lock and key hypothesis explains enzyme specificity.
+
+According to this model:
+- the active site has a specific shape
+- the substrate has a complementary shape
+- only a suitable substrate can fit the active site effectively
+
+The enzyme can therefore be compared to a lock and the substrate to a key.
+
+This model helps explain why enzymes are specific.
+
+
+--------------------------------------------------
+INDUCED FIT MODEL
+--------------------------------------------------
+
+The induced fit model provides a more flexible explanation of enzyme-substrate interaction.
+
+When a suitable substrate approaches the active site:
+- the substrate binds to the active site
+- interactions between the enzyme and substrate cause slight changes in enzyme shape
+- the active site fits the substrate more closely
+- the reaction is facilitated
+- products are released
+- the enzyme returns to a form that can catalyse another reaction
+
+The induced fit model helps explain why enzyme active sites are not always completely rigid.
+
+
+--------------------------------------------------
+ACTIVATION ENERGY
+--------------------------------------------------
+
+Chemical reactions require a certain minimum amount of energy to begin. This is called activation energy.
+
+Enzymes increase reaction rate by lowering the activation energy required for a reaction.
+
+Therefore:
+
+Without enzyme:
+Higher activation energy
+↓
+Slower reaction
+
+With enzyme:
+Lower activation energy
+↓
+Faster reaction
+
+The enzyme does not change the overall energy released or absorbed by the reaction. It provides an alternative reaction pathway with a lower activation-energy requirement.
+
+
+--------------------------------------------------
+FACTORS AFFECTING ENZYME ACTIVITY
+--------------------------------------------------
+
+Major factors include:
+
+1. Temperature
+2. pH
+3. Substrate concentration
+4. Enzyme concentration
+5. Inhibitors
+
+
+--------------------------------------------------
+TEMPERATURE
+--------------------------------------------------
+
+Temperature affects enzyme activity because enzymes are proteins whose structure depends on interactions within the molecule.
+
+At low temperatures:
+- enzyme and substrate molecules have less kinetic energy
+- collisions occur less frequently
+- enzyme activity is generally slower
+
+As temperature increases:
+- molecular movement increases
+- collisions between enzymes and substrates become more frequent
+- enzyme activity generally increases
+
+At the optimum temperature:
+- enzyme activity reaches its highest rate
+
+Above the optimum temperature:
+- excessive heat can disrupt bonds maintaining the enzyme's three-dimensional structure
+- the active site changes shape
+- substrate binding becomes less effective
+- enzyme activity decreases rapidly
+
+This loss of enzyme structure is called denaturation.
+
+IMPORTANT:
+
+Denaturation is different from simply slowing enzyme activity at a low temperature.
+
+Low temperature generally slows enzyme activity without permanently destroying the enzyme's structure.
+
+High temperature beyond the optimum can denature the enzyme.
+
+
+--------------------------------------------------
+TEMPERATURE GRAPH
+--------------------------------------------------
+
+A typical enzyme activity versus temperature graph:
+
+Activity
+  ^
+  |          /
+  |         /  
+  |        /    
+  |_______/      \________
+  +-----------------------> Temperature
+            optimum
+
+The highest point represents the optimum temperature.
+
+
+--------------------------------------------------
+PH
+--------------------------------------------------
+
+Each enzyme has a pH range in which it works effectively.
+
+The pH at which an enzyme has its highest activity is called its optimum pH.
+
+Changes in pH can alter interactions within an enzyme and affect the shape and charge of the active site.
+
+At unsuitable pH:
+- enzyme activity decreases
+- substrate binding may become less effective
+- extreme pH can cause denaturation
+
+Different enzymes can have different optimum pH values because they function in different environments.
+
+For example, an enzyme functioning in a strongly acidic environment may have a different optimum pH from an enzyme functioning in a near-neutral environment.
+
+
+--------------------------------------------------
+SUBSTRATE CONCENTRATION
+--------------------------------------------------
+
+When enzyme concentration is constant:
+
+At low substrate concentration:
+- increasing substrate concentration generally increases enzyme activity
+- more substrate molecules are available to bind with active sites
+
+As substrate concentration continues to increase:
+- more active sites become occupied
+
+Eventually:
+- nearly all available active sites are occupied
+- the enzymes become saturated
+- increasing substrate concentration further produces little or no additional increase in reaction rate
+
+Therefore, the graph eventually reaches a plateau.
+
+
+--------------------------------------------------
+ENZYME CONCENTRATION
+--------------------------------------------------
+
+When substrate concentration is sufficient:
+
+Increasing enzyme concentration generally increases the reaction rate because more active sites are available.
+
+However, if substrate becomes limiting:
+- adding more enzyme eventually stops producing a proportional increase
+- there is not enough substrate for all active sites
+
+
+--------------------------------------------------
+INHIBITORS
+--------------------------------------------------
+
+An inhibitor is a substance that decreases the activity of an enzyme.
+
+Inhibitors can interfere with enzyme activity by:
+- binding to the active site
+- binding to another part of the enzyme
+- changing the enzyme's shape
+- preventing effective substrate binding
+- interfering with the catalytic process
+
+
+--------------------------------------------------
+COMPETITIVE INHIBITION
+--------------------------------------------------
+
+A competitive inhibitor competes with the substrate for the active site.
+
+The inhibitor:
+- has a shape that allows it to bind to the active site
+- prevents the substrate from binding while it occupies the active site
+- reduces the rate of the enzyme-catalysed reaction
+
+Increasing substrate concentration can sometimes reduce the effect of competitive inhibition because more substrate molecules compete for the active sites.
+
+
+--------------------------------------------------
+NON-COMPETITIVE / ALLOSTERIC INHIBITION
+--------------------------------------------------
+
+A non-competitive inhibitor binds to a site other than the active site.
+
+Its binding can change the shape of the enzyme or active site.
+
+As a result:
+- the substrate may no longer bind effectively
+- enzyme activity decreases
+
+Adding more substrate does not necessarily overcome this type of inhibition because the inhibitor does not compete directly for the active site.
+
+
+--------------------------------------------------
+ENZYME DENATURATION
+--------------------------------------------------
+
+Denaturation is the alteration of an enzyme's three-dimensional structure so that its active site loses its normal shape and the enzyme can no longer function effectively.
+
+Common causes include:
+- excessively high temperature
+- extreme pH
+
+When the active site changes shape:
+- the substrate may not fit properly
+- fewer enzyme-substrate complexes form
+- reaction rate decreases
+
+
+--------------------------------------------------
+IMPORTANCE OF ENZYME SPECIFICITY
+--------------------------------------------------
+
+Enzyme specificity allows different biochemical reactions to be controlled separately.
+
+For example:
+- one enzyme can catalyse the breakdown of a particular substrate
+- another enzyme can catalyse a different reaction
+
+This allows cells to regulate many metabolic pathways efficiently.
+
+
+--------------------------------------------------
+EXPERIMENTAL APPLICATION — INVESTIGATING ENZYME ACTIVITY
+--------------------------------------------------
+
+Enzyme experiments commonly investigate the effect of:
+
+- temperature
+- pH
+- substrate concentration
+- enzyme concentration
+
+A good experiment should identify:
+
+Manipulated variable:
+The factor deliberately changed.
+
+Responding variable:
+The factor measured.
+
+Constant variables:
+Factors kept the same to make the comparison fair.
+
+Example:
+
+To investigate the effect of temperature on enzyme activity:
+
+Manipulated variable:
+Temperature.
+
+Responding variable:
+Rate of enzyme reaction.
+
+Constant variables:
+Enzyme concentration, substrate concentration, pH and reaction time.
+
+A suitable conclusion must be based on the results obtained.
+
+
+--------------------------------------------------
+SPM EXPERIMENT QUESTION TIP
+--------------------------------------------------
+
+When asked to suggest a hypothesis:
+
+"As temperature increases up to the optimum temperature, the rate of enzyme activity increases; above the optimum temperature, the rate decreases."
+
+When asked why enzyme activity decreases at very high temperature:
+
+"High temperature causes the enzyme to denature, changing the shape of its active site so the substrate can no longer bind effectively."
+
+
+==================================================
+5.3 APPLICATION OF ENZYMES IN DAILY LIFE
+==================================================
+
+Enzymes are widely used in food production, household products, medicine, industry and biotechnology.
+
+The usefulness of enzymes comes from their ability to catalyse specific reactions efficiently.
+
+
+--------------------------------------------------
+ENZYMES IN FOOD PRODUCTION
+--------------------------------------------------
+
+Enzymes are used in various food-processing processes.
+
+Examples include:
+
+1. Bread making
+2. Cheese production
+3. Fruit juice processing
+4. Meat processing
+5. Brewing and fermentation-related processes
+
+
+--------------------------------------------------
+BREAD MAKING
+--------------------------------------------------
+
+Enzymes can help convert complex carbohydrates into simpler sugars that microorganisms can use during fermentation.
+
+During bread production:
+- enzymes help break down starch into smaller carbohydrate molecules
+- yeast uses available sugars during respiration/fermentation
+- carbon dioxide is produced
+- carbon dioxide becomes trapped in the dough
+- the dough rises
+
+Enzymes therefore contribute to the texture and production process of bread.
+
+
+--------------------------------------------------
+CHEESE PRODUCTION
+--------------------------------------------------
+
+Certain enzymes are used to help coagulate milk during cheese production.
+
+The enzymes cause changes in milk proteins, helping separate the solid curd from the liquid whey.
+
+This is an example of how enzyme activity can be used to modify food components.
+
+
+--------------------------------------------------
+FRUIT JUICE PROCESSING
+--------------------------------------------------
+
+Enzymes such as pectinases can be used in fruit juice processing.
+
+Pectin is a component of plant cell walls and can contribute to the cloudy or viscous nature of fruit preparations.
+
+Pectinase breaks down pectin.
+
+This can:
+- improve juice extraction
+- increase juice yield
+- reduce viscosity
+- improve clarity
+
+
+--------------------------------------------------
+MEAT TENDERISING
+--------------------------------------------------
+
+Proteolytic enzymes can break down proteins.
+
+Certain plant-derived proteases can be used to help tenderise meat by breaking down some protein structures.
+
+This demonstrates how enzymes can modify the properties of food.
+
+
+--------------------------------------------------
+ENZYMES IN DETERGENTS
+--------------------------------------------------
+
+Some biological detergents contain enzymes.
+
+Examples include:
+- proteases
+- lipases
+- amylases
+
+Proteases:
+Break down protein-based stains.
+
+Lipases:
+Break down fats and oils.
+
+Amylases:
+Break down starch-based stains.
+
+Enzymes allow stains to be broken down into smaller, more soluble substances that can be removed during washing.
+
+
+--------------------------------------------------
+ENZYMES IN MEDICINE
+--------------------------------------------------
+
+Enzymes have applications in medicine and biotechnology.
+
+Examples include:
+- diagnostic tests
+- production of pharmaceutical substances
+- treatment involving specific enzymes
+- laboratory analysis of biological molecules
+
+Because enzymes are highly specific, they can be useful when a particular biochemical reaction needs to be controlled or detected.
+
+
+--------------------------------------------------
+ENZYMES IN INDUSTRY
+--------------------------------------------------
+
+Industrial biotechnology uses enzymes because they can catalyse reactions efficiently under relatively mild conditions.
+
+Advantages can include:
+- high specificity
+- efficient reactions
+- reduced need for harsh reaction conditions
+- lower energy requirements for some processes
+- potentially reduced formation of unwanted products
+
+
+--------------------------------------------------
+ADVANTAGES AND LIMITATIONS OF USING ENZYMES
+--------------------------------------------------
+
+Advantages:
+
+- highly specific
+- efficient catalysts
+- can work under relatively mild conditions
+- useful in many industries
+- can reduce energy requirements in some processes
+
+Limitations:
+
+- enzymes can be affected by temperature
+- enzymes can be affected by pH
+- extreme conditions can denature enzymes
+- enzymes can be inhibited
+- industrial enzyme use can require controlled conditions
+
+
+==================================================
+IMPORTANT TERMS
+==================================================
+
+Metabolism:
+The sum of all chemical reactions occurring in a living organism.
+
+Anabolism:
+Metabolic reactions that build complex molecules from simpler molecules.
+
+Catabolism:
+Metabolic reactions that break complex molecules into simpler molecules.
+
+Enzyme:
+A biological catalyst that increases the rate of a biochemical reaction.
+
+Catalyst:
+A substance that increases reaction rate without being permanently changed.
+
+Substrate:
+The substance acted upon by an enzyme.
+
+Product:
+A substance formed from an enzyme-catalysed reaction.
+
+Active site:
+The specific region of an enzyme where the substrate binds.
+
+Enzyme-substrate complex:
+A temporary complex formed when a substrate binds to an enzyme's active site.
+
+Activation energy:
+The minimum energy required for a chemical reaction to begin.
+
+Optimum temperature:
+The temperature at which an enzyme has its highest activity.
+
+Optimum pH:
+The pH at which an enzyme has its highest activity.
+
+Denaturation:
+A change in protein structure that causes an enzyme to lose its normal function.
+
+Inhibitor:
+A substance that reduces enzyme activity.
+
+
+==================================================
+COMMON MISCONCEPTIONS
+==================================================
+
+1. "Enzymes are used up during reactions."
+
+Incorrect.
+
+Enzymes are not permanently consumed by the reaction and can be reused.
+
+2. "All enzymes work best at the same pH."
+
+Incorrect.
+
+Different enzymes have different optimum pH values.
+
+3. "Increasing temperature always increases enzyme activity."
+
+Incorrect.
+
+Activity increases only up to the optimum temperature. Excessive temperature can denature the enzyme.
+
+4. "Cold temperatures denature enzymes."
+
+Usually incorrect.
+
+Low temperature generally slows enzyme activity rather than permanently changing the enzyme structure.
+
+5. "More substrate always means a faster reaction."
+
+Incorrect.
+
+Once enzyme active sites become saturated, further increases in substrate concentration have little effect.
+
+6. "An enzyme changes into the product."
+
+Incorrect.
+
+The enzyme catalyses the reaction but remains available after the reaction.
+
+7. "Denaturation only happens because of temperature."
+
+Incorrect.
+
+Extreme pH can also cause enzyme denaturation.
+
+8. "All proteins are enzymes."
+
+Incorrect.
+
+Most enzymes are proteins, but many proteins have structural, transport, defence or other functions.
+
+
+==================================================
+SPM COMMAND-WORD GUIDE
+==================================================
+
+STATE:
+Give the required fact directly.
+
+DEFINE:
+Give the scientific meaning of the term.
+
+IDENTIFY:
+Name the required structure, process or factor.
+
+DESCRIBE:
+State what happens or describe observable changes.
+
+EXPLAIN:
+Give the reason or mechanism and connect cause to effect.
+
+COMPARE:
+Give similarities and/or differences using appropriate comparison points.
+
+PREDICT:
+State what is expected to happen based on biological principles.
+
+SUGGEST:
+Provide a reasonable answer supported by biological knowledge.
+
+JUSTIFY:
+Give a reason that supports the selected answer.
+
+CALCULATE:
+Show the relevant working and give the correct unit where required.
+
+
+==================================================
+PRACTICE QUESTIONS
+==================================================
+
+QUESTION 1
+Define metabolism.
+
+Suggested answer:
+Metabolism is the sum of all chemical reactions occurring in a living organism.
+
+
+QUESTION 2
+Differentiate between anabolism and catabolism.
+
+Suggested answer:
+Anabolism builds complex molecules from simpler molecules and generally requires energy, whereas catabolism breaks complex molecules into simpler molecules and generally releases energy.
+
+
+QUESTION 3
+What is an enzyme?
+
+Suggested answer:
+An enzyme is a biological catalyst that increases the rate of a biochemical reaction without being permanently changed.
+
+
+QUESTION 4
+Explain the role of the active site.
+
+Suggested answer:
+The active site is the specific region of an enzyme where a suitable substrate binds and the enzyme-catalysed reaction occurs.
+
+
+QUESTION 5
+Explain why enzyme activity increases when temperature rises from a low temperature towards the optimum temperature.
+
+Suggested answer:
+Increasing temperature increases molecular kinetic energy, causing more frequent successful collisions between enzyme and substrate molecules, so the reaction rate increases.
+
+
+QUESTION 6
+Why does enzyme activity decrease rapidly above the optimum temperature?
+
+Suggested answer:
+High temperature disrupts the enzyme's structure, causing denaturation and changing the shape of the active site so the substrate cannot bind effectively.
+
+
+QUESTION 7
+Explain how extreme pH affects enzyme activity.
+
+Suggested answer:
+Extreme pH can alter interactions within the enzyme and change the shape of its active site, reducing substrate binding and enzyme activity.
+
+
+QUESTION 8
+What happens to enzyme activity when substrate concentration increases while enzyme concentration remains constant?
+
+Suggested answer:
+Enzyme activity initially increases, but eventually reaches a maximum when most active sites are occupied. Further increases in substrate concentration have little effect.
+
+
+QUESTION 9
+What is competitive inhibition?
+
+Suggested answer:
+Competitive inhibition occurs when an inhibitor competes with the substrate for the enzyme's active site.
+
+
+QUESTION 10
+State two applications of enzymes in daily life.
+
+Suggested answer:
+Enzymes are used in biological detergents and fruit juice processing.
+
+
+QUESTION 11
+Explain the role of enzymes in biological detergents.
+
+Suggested answer:
+Proteases, lipases and amylases break down protein, fat and starch stains into smaller substances that can be removed during washing.
+
+
+QUESTION 12
+Explain how enzymes can be used in fruit juice processing.
+
+Suggested answer:
+Pectinase breaks down pectin, helping improve juice extraction, reduce viscosity and increase juice clarity.
+
+
+==================================================
+QUICK REVISION SUMMARY
+==================================================
+
+METABOLISM:
+All chemical reactions occurring in an organism.
+
+ANABOLISM:
+Builds complex molecules and generally requires energy.
+
+CATABOLISM:
+Breaks down complex molecules and generally releases energy.
+
+ENZYMES:
+Biological catalysts that increase biochemical reaction rates.
+
+ACTIVE SITE:
+Region of an enzyme where the substrate binds.
+
+SUBSTRATE:
+Substance acted upon by an enzyme.
+
+ACTIVATION ENERGY:
+Minimum energy needed for a reaction to begin.
+
+TEMPERATURE:
+Activity generally increases to an optimum, then decreases rapidly because of denaturation.
+
+PH:
+Each enzyme has an optimum pH; extreme pH can reduce activity or cause denaturation.
+
+SUBSTRATE CONCENTRATION:
+Activity increases until enzyme active sites become saturated.
+
+ENZYME CONCENTRATION:
+Increasing enzyme concentration generally increases reaction rate when sufficient substrate is available.
+
+INHIBITION:
+Inhibitors decrease enzyme activity.
+
+DAILY APPLICATIONS:
+Enzymes are used in food processing, detergents, medicine and industry.
+
+KEY IDEA:
+
+Enzymes make life possible by allowing important biochemical reactions to occur rapidly and efficiently under conditions suitable for living cells.
