@@ -1,0 +1,1506 @@
+# BIOLOGY FORM 4 — CHAPTER 4
+# CHEMICAL COMPOSITIONS IN A CELL
+
+SUBJECT: Biology  
+FORM: Form 4  
+CHAPTER: Chapter 4  
+CHAPTER_TITLE: Chemical Compositions in a Cell  
+TOPICS: 4.1, 4.2, 4.3, 4.4, 4.5  
+SOURCE_TYPE: Original Learning Material  
+STATUS: Original Educational Content  
+
+==================================================
+CHAPTER OVERVIEW
+==================================================
+
+Living organisms are made up of cells. Inside cells, various chemical substances are present. These substances are important for maintaining cell structure, carrying out metabolic activities, storing energy and controlling cellular functions.
+
+The chemical substances in cells can be divided into two main groups:
+
+1. Inorganic substances
+2. Organic substances
+
+INORGANIC SUBSTANCES:
+- Water
+- Mineral salts
+
+ORGANIC SUBSTANCES:
+- Carbohydrates
+- Proteins
+- Lipids
+- Nucleic acids
+
+Organic compounds generally contain carbon and are commonly associated with biological molecules.
+
+The five major chemical compositions studied in this chapter are:
+
+1. Water
+2. Carbohydrates
+3. Proteins
+4. Lipids
+5. Nucleic acids
+
+Each substance has a different chemical structure and function.
+
+==================================================
+4.1 WATER
+==================================================
+
+4.1.1 INTRODUCTION TO WATER
+
+Water is an inorganic compound that is essential for all living organisms.
+
+Its chemical formula is H2O.
+
+Each water molecule consists of:
+- Two hydrogen atoms.
+- One oxygen atom.
+
+Water makes up a large proportion of the contents of most living cells.
+
+Water is important because many biological processes occur in an aqueous environment.
+
+Examples:
+- Cytoplasm contains a large amount of water.
+- Blood plasma transports dissolved substances.
+- Water is required for photosynthesis.
+- Water is needed for digestion reactions.
+
+4.1.2 STRUCTURE AND PROPERTIES OF WATER
+
+A water molecule has a bent shape.
+
+Oxygen attracts the shared electrons more strongly than hydrogen. Therefore, the oxygen region has a partial negative charge, while the hydrogen regions have partial positive charges.
+
+This makes water a polar molecule.
+
+The partially positive hydrogen of one water molecule can be attracted to the partially negative oxygen of another water molecule.
+
+This attraction is called a hydrogen bond.
+
+IMPORTANT:
+A hydrogen bond is an attraction between water molecules. It is not the same as the covalent bonds holding hydrogen and oxygen together within a water molecule.
+
+4.1.3 PROPERTIES AND FUNCTIONS OF WATER
+
+A. WATER AS A SOLVENT
+
+Water is known as a good solvent because it can dissolve many ionic and polar substances.
+
+Examples:
+- Glucose dissolves in water.
+- Mineral ions dissolve in water.
+- Many substances in blood plasma are transported in dissolved form.
+
+BIOLOGICAL IMPORTANCE:
+
+1. Dissolved substances can be transported around organisms.
+2. Many metabolic reactions occur in solution.
+3. Nutrients can be transported to cells.
+4. Waste products can be carried away from cells.
+
+Example:
+Glucose dissolves in blood plasma and can be transported to body cells for cellular respiration.
+
+IMPORTANT:
+Not all substances dissolve in water. Many non-polar substances, such as oils, are insoluble or poorly soluble in water.
+
+B. HIGH SPECIFIC HEAT CAPACITY
+
+Water has a high specific heat capacity.
+
+This means a relatively large amount of heat energy is required to increase the temperature of water.
+
+BIOLOGICAL IMPORTANCE:
+
+1. Water helps maintain a relatively stable temperature in organisms.
+2. It reduces sudden changes in body temperature.
+3. It helps aquatic environments resist rapid temperature changes.
+
+Example:
+The high water content of the human body helps reduce sudden temperature fluctuations.
+
+C. HIGH LATENT HEAT OF VAPORISATION
+
+Water requires a large amount of heat energy to change from liquid into gas.
+
+When water evaporates, it removes heat energy from the surface.
+
+BIOLOGICAL IMPORTANCE:
+
+1. Helps organisms cool down.
+2. Prevents excessive temperature increases.
+3. Supports temperature regulation.
+
+Example:
+When sweat evaporates from human skin, heat is removed from the body and the body becomes cooler.
+
+Example in plants:
+Water evaporating from leaf surfaces during transpiration contributes to cooling the leaves.
+
+D. COHESION
+
+Cohesion is the attraction between molecules of the same substance.
+
+Water molecules attract one another through hydrogen bonding.
+
+BIOLOGICAL IMPORTANCE:
+
+1. Helps maintain a continuous column of water in the xylem.
+2. Supports the movement of water from roots towards leaves.
+3. Helps water molecules remain connected during transpiration.
+
+Example:
+Cohesion helps maintain an unbroken water column inside xylem vessels.
+
+E. ADHESION
+
+Adhesion is the attraction between molecules of different substances.
+
+Water molecules can be attracted to the walls of xylem vessels.
+
+BIOLOGICAL IMPORTANCE:
+
+1. Helps water adhere to the inner walls of xylem vessels.
+2. Supports the upward movement of water through narrow tubes.
+
+F. SURFACE TENSION
+
+Surface tension occurs because water molecules at the surface experience a net inward attraction from neighbouring water molecules.
+
+This creates a resistant surface layer.
+
+BIOLOGICAL IMPORTANCE:
+
+Some small organisms can move on the water surface because of surface tension.
+
+G. WATER AS A REACTANT
+
+Water participates directly in several metabolic reactions.
+
+Examples:
+
+1. Hydrolysis:
+Water is used to break chemical bonds in large molecules.
+
+2. Photosynthesis:
+Water is a raw material used during photosynthesis.
+
+3. Other metabolic processes:
+Water participates in various chemical reactions inside cells.
+
+4.1.4 WATER IN LIVING ORGANISMS
+
+Water performs several important functions:
+
+- Acts as a solvent.
+- Provides a medium for metabolic reactions.
+- Transports dissolved substances.
+- Helps regulate temperature.
+- Maintains cell volume.
+- Participates in hydrolysis.
+- Supports transport in plants.
+
+4.1.5 EXAM TIPS
+
+Question: Explain why water is important for temperature regulation.
+
+Suggested answer:
+Water has a high specific heat capacity. Therefore, a large amount of heat energy is required to increase its temperature. This helps prevent sudden temperature changes in organisms.
+
+Question: Explain how sweating cools the body.
+
+Suggested answer:
+Sweat evaporates from the skin surface. Evaporation requires heat energy, which is absorbed from the body. Therefore, body temperature decreases.
+
+Question: Differentiate between cohesion and adhesion.
+
+Suggested answer:
+Cohesion is the attraction between molecules of the same substance, whereas adhesion is the attraction between molecules of different substances.
+
+==================================================
+4.2 CARBOHYDRATES
+==================================================
+
+4.2.1 INTRODUCTION TO CARBOHYDRATES
+
+Carbohydrates are organic compounds containing carbon, hydrogen and oxygen.
+
+They are important biological molecules that mainly function as an energy source.
+
+Some carbohydrates also provide structural support.
+
+Examples:
+- Glucose
+- Fructose
+- Sucrose
+- Maltose
+- Starch
+- Glycogen
+- Cellulose
+
+The general grouping of carbohydrates is:
+
+1. Monosaccharides
+2. Disaccharides
+3. Polysaccharides
+
+These groups differ in the number of sugar units they contain.
+
+4.2.2 MONOSACCHARIDES
+
+Monosaccharides are the simplest carbohydrates.
+
+They consist of a single sugar unit and cannot be broken down into simpler carbohydrates by hydrolysis.
+
+Examples:
+- Glucose
+- Fructose
+- Galactose
+
+A. GLUCOSE
+
+Glucose is an important monosaccharide.
+
+Its molecular formula is C6H12O6.
+
+Functions:
+1. Acts as an energy source for cellular respiration.
+2. Is transported in the blood of humans.
+3. Is used by cells to produce ATP.
+4. Can be converted into storage carbohydrates.
+
+Example:
+Muscle cells use glucose during cellular respiration to release energy for muscle contraction.
+
+B. FRUCTOSE
+
+Fructose is a monosaccharide commonly found in fruits and honey.
+
+It can be used by cells as an energy source after being processed through metabolic pathways.
+
+C. GALACTOSE
+
+Galactose is a monosaccharide that forms part of lactose when combined with glucose.
+
+4.2.3 DISACCHARIDES
+
+Disaccharides consist of two monosaccharides joined together by a glycosidic bond.
+
+A glycosidic bond forms through a condensation reaction.
+
+During condensation:
+- Two smaller molecules join together.
+- A molecule of water is released.
+- A new chemical bond forms.
+
+Three important disaccharides are:
+
+A. MALTOSE
+
+Maltose = Glucose + Glucose
+
+Maltose is formed when two glucose molecules combine.
+
+B. SUCROSE
+
+Sucrose = Glucose + Fructose
+
+Sucrose is commonly known as table sugar.
+
+It is found naturally in plants and is transported in the phloem of many plants.
+
+C. LACTOSE
+
+Lactose = Glucose + Galactose
+
+Lactose is commonly known as milk sugar.
+
+It is found in milk.
+
+IMPORTANT COMPARISON:
+
+Maltose:
+- Glucose + glucose
+
+Sucrose:
+- Glucose + fructose
+
+Lactose:
+- Glucose + galactose
+
+4.2.4 POLYSACCHARIDES
+
+Polysaccharides are complex carbohydrates made up of many monosaccharide units joined together.
+
+They are generally larger molecules than monosaccharides and disaccharides.
+
+Examples:
+- Starch
+- Glycogen
+- Cellulose
+
+A. STARCH
+
+Starch is the main storage carbohydrate in plants.
+
+It is made up of many glucose units.
+
+Starch consists of two main components:
+
+1. Amylose
+2. Amylopectin
+
+AMYLOSE:
+- Consists of long, unbranched chains of glucose.
+- The chain forms a coiled structure.
+
+AMYLOPECTIN:
+- Consists of branched chains of glucose.
+- Has a more highly branched structure than amylose.
+
+FUNCTIONS OF STARCH:
+
+1. Stores excess glucose in plants.
+2. Acts as an energy reserve.
+3. Can be broken down into smaller sugars when energy is required.
+
+WHY IS STARCH SUITABLE FOR ENERGY STORAGE?
+
+- It is relatively insoluble in water.
+- It does not greatly affect the water potential of cells.
+- It is compact.
+- It can be hydrolysed into glucose when needed.
+
+Example:
+Potato tubers contain starch as an energy reserve.
+
+B. GLYCOGEN
+
+Glycogen is the main storage carbohydrate in animals and fungi.
+
+It consists of many glucose units arranged in a highly branched structure.
+
+FUNCTIONS:
+
+1. Stores excess glucose.
+2. Provides a source of glucose when required.
+3. Helps maintain blood glucose levels in animals.
+
+In humans:
+
+Liver:
+Glycogen stored in the liver can be broken down to help maintain blood glucose levels.
+
+Muscles:
+Muscle glycogen can be broken down to provide glucose for cellular respiration in muscle cells.
+
+WHY IS GLYCOGEN SUITABLE FOR STORAGE?
+
+- It is relatively insoluble in water.
+- It is compact.
+- Its branched structure provides many ends where enzymes can act.
+- It can be broken down relatively quickly when glucose is needed.
+
+C. CELLULOSE
+
+Cellulose is a structural polysaccharide found in plant cell walls.
+
+It is made up of glucose units joined by beta-1,4 glycosidic bonds.
+
+The glucose arrangement allows straight chains to form.
+
+Hydrogen bonds between neighbouring chains help create strong microfibrils.
+
+FUNCTIONS:
+
+1. Provides strength to plant cell walls.
+2. Helps maintain the shape of plant cells.
+3. Provides mechanical support.
+4. Helps prevent plant cells from bursting when water enters.
+
+Example:
+Cellulose is found in the cell walls of leaves, stems and roots.
+
+IMPORTANT:
+Humans do not produce the enzyme cellulase. Therefore, humans cannot digest cellulose into glucose.
+
+However, cellulose acts as dietary fibre, helping support normal movement of food through the digestive tract.
+
+4.2.5 CONDENSATION AND HYDROLYSIS
+
+CONDENSATION:
+
+Condensation is a reaction in which two smaller molecules combine to form a larger molecule, releasing water.
+
+Example:
+Glucose + Glucose → Maltose + Water
+
+This reaction forms a glycosidic bond.
+
+HYDROLYSIS:
+
+Hydrolysis is a reaction in which water is used to break a chemical bond in a larger molecule.
+
+Example:
+Maltose + Water → Glucose + Glucose
+
+This reaction breaks the glycosidic bond.
+
+COMPARISON:
+
+Condensation:
+- Joins smaller molecules.
+- Forms a larger molecule.
+- Releases water.
+
+Hydrolysis:
+- Breaks a larger molecule.
+- Produces smaller molecules.
+- Uses water.
+
+4.2.6 FUNCTIONS OF CARBOHYDRATES
+
+1. Provide energy for cellular respiration.
+2. Store energy in plants and animals.
+3. Provide structural support in plant cell walls.
+4. Form part of some biological molecules.
+
+4.2.7 EXAM TIPS
+
+Question: Differentiate between starch and glycogen.
+
+Suggested answer:
+Starch is the main storage carbohydrate in plants, whereas glycogen is the main storage carbohydrate in animals and fungi. Glycogen is more highly branched than starch.
+
+Question: Explain why glycogen can be broken down quickly.
+
+Suggested answer:
+Glycogen has a highly branched structure. Therefore, many enzyme action sites are available for the breakdown of glucose units.
+
+Question: Explain the difference between condensation and hydrolysis.
+
+Suggested answer:
+Condensation combines smaller molecules to form a larger molecule and releases water, whereas hydrolysis uses water to break a larger molecule into smaller molecules.
+
+==================================================
+4.3 PROTEINS
+==================================================
+
+4.3.1 INTRODUCTION TO PROTEINS
+
+Proteins are complex organic molecules containing mainly:
+
+- Carbon
+- Hydrogen
+- Oxygen
+- Nitrogen
+
+Some proteins also contain sulphur.
+
+Proteins are essential for the growth, repair and functioning of cells.
+
+Examples:
+- Enzymes
+- Antibodies
+- Haemoglobin
+- Collagen
+- Keratin
+- Insulin
+
+Proteins are made up of smaller units called amino acids.
+
+4.3.2 AMINO ACIDS
+
+Amino acids are the basic building units of proteins.
+
+A typical amino acid contains:
+
+1. An amino group (-NH2).
+2. A carboxyl group (-COOH).
+3. A hydrogen atom.
+4. A variable side chain called the R group.
+
+All four groups are attached to a central carbon atom in a typical amino acid.
+
+The R group differs between amino acids.
+
+This difference gives each amino acid its unique chemical properties.
+
+There are about 20 common amino acids used to build proteins in living organisms.
+
+4.3.3 PEPTIDE BONDS
+
+A peptide bond is a chemical bond that joins two amino acids.
+
+It forms through a condensation reaction.
+
+During peptide bond formation:
+- The carboxyl group of one amino acid reacts with the amino group of another amino acid.
+- A molecule of water is released.
+- A peptide bond is formed.
+
+Two amino acids joined together form a dipeptide.
+
+Many amino acids joined together form a polypeptide.
+
+A protein may consist of one or more polypeptide chains folded into a specific three-dimensional structure.
+
+4.3.4 LEVELS OF PROTEIN STRUCTURE
+
+Protein structure can be described at several levels.
+
+A. PRIMARY STRUCTURE
+
+The primary structure refers to the specific sequence of amino acids in a polypeptide chain.
+
+The order of amino acids is important because it influences the final shape and function of the protein.
+
+B. SECONDARY STRUCTURE
+
+The secondary structure refers to local folding patterns of the polypeptide chain.
+
+Examples:
+- Alpha helix
+- Beta-pleated sheet
+
+These structures are stabilised mainly by hydrogen bonds between parts of the polypeptide backbone.
+
+C. TERTIARY STRUCTURE
+
+The tertiary structure refers to the overall three-dimensional shape of a single polypeptide chain.
+
+It is stabilised by interactions between R groups.
+
+These may include:
+- Hydrogen bonds
+- Ionic interactions
+- Disulphide bonds
+- Hydrophobic interactions
+
+D. QUATERNARY STRUCTURE
+
+The quaternary structure occurs when two or more polypeptide chains associate to form a functional protein.
+
+Example:
+Haemoglobin contains four polypeptide subunits.
+
+IMPORTANT:
+Not all proteins have quaternary structures. Some functional proteins consist of only one polypeptide chain.
+
+4.3.5 FUNCTIONS OF PROTEINS
+
+A. ENZYMES
+
+Enzymes are biological catalysts.
+
+They increase the rate of chemical reactions without being permanently used up.
+
+Examples:
+- Amylase breaks down starch.
+- Protease breaks down proteins.
+- Lipase breaks down lipids.
+
+B. STRUCTURAL SUPPORT
+
+Some proteins provide strength and support to tissues.
+
+Example:
+Collagen is an important structural protein found in connective tissues.
+
+C. TRANSPORT
+
+Some proteins transport substances.
+
+Example:
+Haemoglobin transports oxygen in red blood cells.
+
+D. DEFENCE
+
+Some proteins are involved in defence against pathogens.
+
+Example:
+Antibodies recognise and bind to specific antigens.
+
+E. MOVEMENT
+
+Some proteins are involved in muscle contraction.
+
+Examples:
+Actin and myosin interact during muscle contraction.
+
+F. HORMONAL REGULATION
+
+Some hormones are proteins or peptides.
+
+Example:
+Insulin is a peptide hormone involved in regulating blood glucose levels.
+
+G. GROWTH AND REPAIR
+
+Proteins provide amino acids needed for:
+- Growth of new cells.
+- Repair of damaged tissues.
+- Production of enzymes and other cellular components.
+
+4.3.6 DENATURATION OF PROTEINS
+
+Denaturation is a change in the three-dimensional structure of a protein that causes it to lose its normal biological function.
+
+Causes include:
+
+1. High temperature.
+2. Extreme pH.
+3. Certain chemicals.
+
+WHAT HAPPENS DURING DENATURATION?
+
+The interactions that maintain the protein's shape are disrupted.
+
+As a result:
+- The protein changes shape.
+- Its specific structure is altered.
+- Its function may be lost.
+
+Example:
+When an egg is heated, egg white proteins denature and coagulate. The egg white changes from a transparent liquid into a white solid.
+
+IMPORTANT:
+Denaturation does not normally break all peptide bonds in the protein's primary structure. It mainly affects the protein's higher levels of structure.
+
+4.3.7 PROTEINS IN THE HUMAN DIET
+
+Proteins are important nutrients.
+
+Dietary proteins are digested into amino acids.
+
+The amino acids are absorbed and used by cells to synthesise proteins needed by the body.
+
+Sources of protein include:
+- Fish
+- Eggs
+- Meat
+- Milk
+- Soybeans
+- Beans
+- Lentils
+
+4.3.8 EXAM TIPS
+
+Question: Explain how a peptide bond is formed.
+
+Suggested answer:
+A peptide bond forms when the carboxyl group of one amino acid reacts with the amino group of another amino acid through condensation. A molecule of water is released.
+
+Question: Explain why enzymes lose their function at very high temperatures.
+
+Suggested answer:
+High temperature disrupts interactions that maintain the enzyme's specific three-dimensional structure. The active site changes shape, reducing or preventing substrate binding.
+
+Question: What is denaturation?
+
+Suggested answer:
+Denaturation is the alteration of a protein's three-dimensional structure, causing it to lose its normal biological function.
+
+==================================================
+4.4 LIPIDS
+==================================================
+
+4.4.1 INTRODUCTION TO LIPIDS
+
+Lipids are organic compounds containing mainly:
+
+- Carbon
+- Hydrogen
+- Oxygen
+
+Some lipids, such as phospholipids, also contain phosphorus.
+
+Lipids are generally insoluble in water because many of their structures are non-polar.
+
+Examples:
+- Fats
+- Oils
+- Waxes
+- Phospholipids
+- Steroids
+
+Lipids are important for energy storage, insulation, protection and cell membrane structure.
+
+4.4.2 TRIGLYCERIDES
+
+Triglycerides are common types of fats and oils.
+
+A triglyceride consists of:
+
+- One glycerol molecule.
+- Three fatty acid molecules.
+
+A fatty acid contains a long hydrocarbon chain and a carboxyl group.
+
+4.4.3 FORMATION OF TRIGLYCERIDES
+
+A triglyceride is formed when one glycerol molecule combines with three fatty acid molecules.
+
+The process involves condensation reactions.
+
+Three ester bonds are formed.
+
+Three molecules of water are released.
+
+Simplified representation:
+
+Glycerol + 3 fatty acids
+→ Triglyceride + 3 water molecules
+
+The bond joining glycerol and a fatty acid is called an ester bond.
+
+4.4.4 SATURATED AND UNSATURATED FATTY ACIDS
+
+Fatty acids can be classified according to the presence or absence of carbon-carbon double bonds in their hydrocarbon chains.
+
+A. SATURATED FATTY ACIDS
+
+Saturated fatty acids contain no carbon-carbon double bonds in their hydrocarbon chains.
+
+Characteristics:
+- Their chains are relatively straight.
+- They can pack closely together.
+- They are commonly found in animal fats.
+- Many are solid at room temperature.
+
+Examples:
+- Fat found in butter.
+- Fat found in some animal products.
+
+B. UNSATURATED FATTY ACIDS
+
+Unsaturated fatty acids contain one or more carbon-carbon double bonds.
+
+Characteristics:
+- Double bonds can cause bends in the fatty acid chains.
+- The chains generally cannot pack as closely together.
+- They are commonly found in plant oils and fish oils.
+- Many are liquid at room temperature.
+
+Types:
+
+1. Monounsaturated fatty acids:
+Contain one carbon-carbon double bond.
+
+2. Polyunsaturated fatty acids:
+Contain more than one carbon-carbon double bond.
+
+IMPORTANT COMPARISON:
+
+Saturated:
+- No carbon-carbon double bonds.
+- Usually straighter chains.
+- Often solid at room temperature.
+
+Unsaturated:
+- One or more carbon-carbon double bonds.
+- Often bent chains.
+- Often liquid at room temperature.
+
+These are general patterns; physical properties also depend on chain length and other factors.
+
+4.4.5 FUNCTIONS OF LIPIDS
+
+A. ENERGY STORAGE
+
+Lipids are an important long-term energy store.
+
+They contain a high proportion of energy-rich carbon-hydrogen bonds.
+
+When oxidised during metabolism, they release energy.
+
+B. THERMAL INSULATION
+
+Fat stored beneath the skin helps reduce heat loss.
+
+This helps maintain body temperature.
+
+C. PROTECTION
+
+Fat surrounding certain internal organs helps cushion and protect them from physical impact.
+
+D. CELL MEMBRANE STRUCTURE
+
+Phospholipids are important components of cell membranes.
+
+They form a phospholipid bilayer.
+
+E. HORMONE PRODUCTION
+
+Some lipids, especially cholesterol, are used to produce steroid hormones.
+
+Examples include:
+- Testosterone
+- Oestrogen
+- Cortisol
+
+F. WATERPROOFING
+
+Waxes and some lipid substances help reduce water loss.
+
+Example:
+The waxy cuticle on plant leaves reduces excessive evaporation from the leaf surface.
+
+4.4.6 PHOSPHOLIPIDS
+
+Phospholipids are specialised lipids that form the main structure of biological membranes.
+
+A phospholipid contains:
+- A glycerol molecule.
+- Two fatty acid tails.
+- A phosphate-containing head.
+
+The phosphate head is hydrophilic.
+
+Hydrophilic means attracted to water or able to interact with water.
+
+The fatty acid tails are hydrophobic.
+
+Hydrophobic means repelled by water or unable to mix readily with water.
+
+4.4.7 PHOSPHOLIPID BILAYER
+
+In an aqueous environment, phospholipids arrange themselves into a bilayer.
+
+The arrangement is:
+
+- Hydrophilic heads face the watery environments.
+- Hydrophobic tails face inwards, away from water.
+
+This arrangement forms an important barrier in the cell membrane.
+
+BIOLOGICAL IMPORTANCE:
+
+1. Separates the internal contents of the cell from its surroundings.
+2. Helps regulate the movement of substances.
+3. Provides a flexible membrane structure.
+4. Supports the functioning of membrane proteins.
+
+4.4.8 CHOLESTEROL
+
+Cholesterol is a lipid belonging to a group called steroids.
+
+It is found in animal cell membranes.
+
+Functions:
+
+1. Helps regulate membrane fluidity.
+2. Contributes to membrane stability.
+3. Acts as a starting material for steroid hormone synthesis.
+4. Is used in the production of bile acids and vitamin D.
+
+IMPORTANT:
+Cholesterol is not the same as a triglyceride. It has a different chemical structure and biological role.
+
+4.4.9 EXAM TIPS
+
+Question: Explain why lipids are suitable for long-term energy storage.
+
+Suggested answer:
+Lipids contain many energy-rich carbon-hydrogen bonds. Therefore, a large amount of energy can be released when they are oxidised during metabolism.
+
+Question: Differentiate between saturated and unsaturated fatty acids.
+
+Suggested answer:
+Saturated fatty acids contain no carbon-carbon double bonds, whereas unsaturated fatty acids contain one or more carbon-carbon double bonds.
+
+Question: Explain the arrangement of phospholipids in a cell membrane.
+
+Suggested answer:
+The hydrophilic heads face the watery environments inside and outside the cell, while the hydrophobic tails face inwards towards one another, forming a bilayer.
+
+==================================================
+4.5 NUCLEIC ACIDS
+==================================================
+
+4.5.1 INTRODUCTION TO NUCLEIC ACIDS
+
+Nucleic acids are organic molecules that store, transmit and help express genetic information.
+
+There are two main types:
+
+1. Deoxyribonucleic acid (DNA).
+2. Ribonucleic acid (RNA).
+
+Nucleic acids are made up of smaller units called nucleotides.
+
+They contain carbon, hydrogen, oxygen, nitrogen and phosphorus.
+
+4.5.2 STRUCTURE OF A NUCLEOTIDE
+
+A nucleotide consists of three components:
+
+1. A phosphate group.
+2. A pentose sugar.
+3. A nitrogenous base.
+
+The pentose sugar is a five-carbon sugar.
+
+DNA contains deoxyribose sugar.
+
+RNA contains ribose sugar.
+
+Nucleotides join together through phosphodiester bonds to form a polynucleotide chain.
+
+4.5.3 NITROGENOUS BASES
+
+There are five important nitrogenous bases.
+
+DNA:
+- Adenine (A)
+- Thymine (T)
+- Cytosine (C)
+- Guanine (G)
+
+RNA:
+- Adenine (A)
+- Uracil (U)
+- Cytosine (C)
+- Guanine (G)
+
+IMPORTANT:
+Thymine is found in DNA, whereas uracil is found in RNA.
+
+4.5.4 DEOXYRIBONUCLEIC ACID (DNA)
+
+DNA is the molecule that stores hereditary information in living organisms.
+
+STRUCTURE OF DNA:
+
+1. DNA consists of two polynucleotide strands.
+2. The two strands form a double helix.
+3. The sugar-phosphate backbones are on the outside.
+4. Nitrogenous bases face towards the inside.
+5. The two strands are held together by hydrogen bonds between complementary bases.
+
+COMPLEMENTARY BASE PAIRING:
+
+Adenine pairs with thymine.
+
+A = T
+
+Cytosine pairs with guanine.
+
+C ≡ G
+
+In standard DNA base pairing:
+- A pairs with T through two hydrogen bonds.
+- C pairs with G through three hydrogen bonds.
+
+FUNCTIONS OF DNA:
+
+1. Stores genetic information.
+2. Controls inherited characteristics through genes.
+3. Provides instructions for protein synthesis.
+4. Can be replicated before cell division so genetic information can be passed to daughter cells.
+
+4.5.5 RIBONUCLEIC ACID (RNA)
+
+RNA is a nucleic acid involved in the expression of genetic information, particularly protein synthesis.
+
+STRUCTURE OF RNA:
+
+1. RNA is generally single-stranded.
+2. It contains ribose sugar.
+3. It contains phosphate groups.
+4. It contains the nitrogenous bases adenine, uracil, cytosine and guanine.
+
+TYPES OF RNA:
+
+A. MESSENGER RNA (mRNA)
+
+Function:
+Carries genetic instructions copied from DNA to the ribosome.
+
+B. TRANSFER RNA (tRNA)
+
+Function:
+Carries specific amino acids to the ribosome during protein synthesis.
+
+C. RIBOSOMAL RNA (rRNA)
+
+Function:
+Forms an important structural and functional component of ribosomes.
+
+Ribosomes are the sites where proteins are synthesised.
+
+4.5.6 DIFFERENCES BETWEEN DNA AND RNA
+
+DNA:
+- Usually double-stranded.
+- Contains deoxyribose sugar.
+- Contains thymine.
+- Stores hereditary information.
+- Usually more chemically stable.
+
+RNA:
+- Usually single-stranded.
+- Contains ribose sugar.
+- Contains uracil.
+- Involved in gene expression and protein synthesis.
+- Generally less chemically stable than DNA.
+
+4.5.7 RELATIONSHIP BETWEEN DNA, RNA AND PROTEINS
+
+DNA contains genes.
+
+A gene is a section of DNA that contains information used to produce a functional product, often a protein.
+
+The information in a gene can be used to produce RNA through transcription.
+
+For protein-coding genes:
+
+1. TRANSCRIPTION
+
+A section of DNA is used as a template to produce an RNA molecule.
+
+2. TRANSLATION
+
+The mRNA is read by a ribosome.
+
+tRNA brings amino acids according to the genetic instructions.
+
+The amino acids are joined together to form a polypeptide.
+
+The polypeptide then folds and may undergo further modification to become a functional protein.
+
+SIMPLIFIED FLOW:
+
+DNA
+↓
+Transcription
+↓
+mRNA
+↓
+Translation at ribosome
+↓
+Polypeptide
+↓
+Functional protein
+
+4.5.8 IMPORTANCE OF NUCLEIC ACIDS
+
+1. Store hereditary information.
+2. Transmit genetic information from parents to offspring.
+3. Control the production of proteins.
+4. Contribute to inherited characteristics.
+5. Support normal cellular activities through gene expression.
+
+4.5.9 EXAM TIPS
+
+Question: State the three components of a nucleotide.
+
+Suggested answer:
+A nucleotide consists of a phosphate group, a pentose sugar and a nitrogenous base.
+
+Question: Explain why DNA is important.
+
+Suggested answer:
+DNA stores genetic information that provides instructions for the production of proteins and helps determine inherited characteristics.
+
+Question: Differentiate between DNA and RNA.
+
+Suggested answer:
+DNA contains deoxyribose sugar and thymine, while RNA contains ribose sugar and uracil. DNA is usually double-stranded, whereas RNA is usually single-stranded.
+
+Question: Explain the relationship between DNA and protein synthesis.
+
+Suggested answer:
+DNA contains genetic information. During transcription, the information is copied into mRNA. During translation, the mRNA is read by ribosomes and amino acids are joined to form a polypeptide.
+
+==================================================
+CHAPTER 4 — COMPLETE COMPARISON
+==================================================
+
+1. CARBOHYDRATES
+
+Basic units:
+Monosaccharides.
+
+Main elements:
+Carbon, hydrogen and oxygen.
+
+Main functions:
+- Energy source.
+- Energy storage.
+- Structural support.
+
+Examples:
+Glucose, starch, glycogen and cellulose.
+
+2. PROTEINS
+
+Basic units:
+Amino acids.
+
+Main elements:
+Carbon, hydrogen, oxygen and nitrogen. Some also contain sulphur.
+
+Main functions:
+- Enzymes.
+- Growth and repair.
+- Transport.
+- Defence.
+- Structural support.
+
+Examples:
+Haemoglobin, collagen and antibodies.
+
+3. LIPIDS
+
+Common components:
+Glycerol and fatty acids in triglycerides.
+
+Main elements:
+Carbon, hydrogen and oxygen. Some lipids also contain phosphorus.
+
+Main functions:
+- Long-term energy storage.
+- Thermal insulation.
+- Protection.
+- Membrane structure.
+- Hormone production.
+
+Examples:
+Fats, oils and phospholipids.
+
+4. NUCLEIC ACIDS
+
+Basic units:
+Nucleotides.
+
+Main elements:
+Carbon, hydrogen, oxygen, nitrogen and phosphorus.
+
+Main functions:
+- Store genetic information.
+- Transmit hereditary information.
+- Support protein synthesis.
+
+Examples:
+DNA and RNA.
+
+==================================================
+IMPORTANT BIOLOGICAL TERMS
+==================================================
+
+Water:
+- Polar molecule
+- Hydrogen bond
+- Solvent
+- Cohesion
+- Adhesion
+- Specific heat capacity
+- Latent heat of vaporisation
+
+Carbohydrates:
+- Monosaccharide
+- Disaccharide
+- Polysaccharide
+- Glycosidic bond
+- Condensation
+- Hydrolysis
+- Starch
+- Glycogen
+- Cellulose
+
+Proteins:
+- Amino acid
+- Amino group
+- Carboxyl group
+- Peptide bond
+- Polypeptide
+- Primary structure
+- Secondary structure
+- Tertiary structure
+- Quaternary structure
+- Denaturation
+
+Lipids:
+- Triglyceride
+- Glycerol
+- Fatty acid
+- Ester bond
+- Saturated fatty acid
+- Unsaturated fatty acid
+- Phospholipid
+- Hydrophilic
+- Hydrophobic
+- Cholesterol
+
+Nucleic acids:
+- Nucleotide
+- Phosphate group
+- Pentose sugar
+- Nitrogenous base
+- DNA
+- RNA
+- Double helix
+- Complementary base pairing
+- Transcription
+- Translation
+
+==================================================
+SPM-STYLE COMMAND WORD GUIDANCE
+==================================================
+
+STATE:
+Give the required fact or information directly.
+
+DEFINE:
+Give the exact scientific meaning of a term.
+
+IDENTIFY:
+Name the correct structure, substance or process.
+
+DESCRIBE:
+Explain the characteristics or steps in a process.
+
+EXPLAIN:
+Give the scientific reason and explain how or why something happens.
+
+COMPARE:
+State similarities or differences between two or more things.
+
+DIFFERENTIATE:
+Give clear contrasting characteristics.
+
+SUGGEST:
+Provide a scientifically reasonable answer based on the information given.
+
+JUSTIFY:
+Give a decision or statement supported by scientific reasons.
+
+MARK-AWARE ANSWERING:
+
+For 1 mark:
+- Give one accurate point.
+
+For 2 marks:
+- Give two relevant points, or a point with the required explanation depending on the question.
+
+For 3 marks:
+- Give three relevant marking points.
+
+For 4 marks:
+- Give four relevant marking points.
+
+For higher-mark questions:
+- Organise the answer into clear scientific points.
+- Include explanations and relationships.
+- Use correct biological terminology.
+- Answer every part of the question.
+
+IMPORTANT:
+The exact marking points depend on the question and the marking scheme. Do not assume every mark always requires a separate sentence.
+
+==================================================
+PRACTICE QUESTIONS WITH SUGGESTED ANSWERS
+==================================================
+
+QUESTION 1
+
+State two properties of water that make it important for living organisms.
+
+SUGGESTED ANSWER:
+1. Water is a good solvent for many ionic and polar substances.
+2. Water has a high specific heat capacity, helping stabilise temperature.
+
+QUESTION 2
+
+Explain how evaporation of sweat helps regulate human body temperature.
+
+SUGGESTED ANSWER:
+1. Sweat is released onto the skin surface.
+2. Sweat evaporates by absorbing heat energy from the body.
+3. Heat is removed from the body.
+4. Body temperature decreases.
+
+QUESTION 3
+
+Differentiate between monosaccharides, disaccharides and polysaccharides.
+
+SUGGESTED ANSWER:
+1. Monosaccharides consist of one sugar unit.
+2. Disaccharides consist of two monosaccharides joined together.
+3. Polysaccharides consist of many monosaccharide units joined together.
+
+QUESTION 4
+
+Explain the difference between condensation and hydrolysis.
+
+SUGGESTED ANSWER:
+1. Condensation combines smaller molecules to form a larger molecule.
+2. Water is released during condensation.
+3. Hydrolysis breaks a larger molecule into smaller molecules.
+4. Water is used during hydrolysis.
+
+QUESTION 5
+
+Why is cellulose suitable for providing structural support in plants?
+
+SUGGESTED ANSWER:
+1. Cellulose consists of long chains of glucose.
+2. Hydrogen bonds form between neighbouring chains.
+3. These chains form strong microfibrils.
+4. The microfibrils provide strength to plant cell walls.
+
+QUESTION 6
+
+Explain how a protein is formed from amino acids.
+
+SUGGESTED ANSWER:
+1. Amino acids join together through condensation reactions.
+2. Peptide bonds are formed between amino acids.
+3. Water molecules are released.
+4. A polypeptide chain is formed.
+
+QUESTION 7
+
+Explain what happens when a protein is denatured.
+
+SUGGESTED ANSWER:
+1. Factors such as high temperature or extreme pH disrupt interactions maintaining protein structure.
+2. The protein changes its three-dimensional shape.
+3. Its normal biological function is affected or lost.
+
+QUESTION 8
+
+Differentiate between saturated and unsaturated fatty acids.
+
+SUGGESTED ANSWER:
+1. Saturated fatty acids have no carbon-carbon double bonds.
+2. Unsaturated fatty acids have one or more carbon-carbon double bonds.
+
+QUESTION 9
+
+Explain why phospholipids form a bilayer in an aqueous environment.
+
+SUGGESTED ANSWER:
+1. The phosphate heads are hydrophilic.
+2. The fatty acid tails are hydrophobic.
+3. The heads face the watery environments.
+4. The tails face inwards, away from water.
+5. This arrangement forms a phospholipid bilayer.
+
+QUESTION 10
+
+State the three components of a nucleotide.
+
+SUGGESTED ANSWER:
+1. Phosphate group.
+2. Pentose sugar.
+3. Nitrogenous base.
+
+QUESTION 11
+
+Compare DNA and RNA.
+
+SUGGESTED ANSWER:
+1. DNA usually consists of two strands, whereas RNA usually consists of one strand.
+2. DNA contains deoxyribose sugar, whereas RNA contains ribose sugar.
+3. DNA contains thymine, whereas RNA contains uracil.
+
+QUESTION 12
+
+Explain how DNA controls the production of proteins.
+
+SUGGESTED ANSWER:
+1. DNA contains genes that carry genetic instructions.
+2. During transcription, genetic information is copied into mRNA.
+3. mRNA moves to a ribosome.
+4. During translation, tRNA brings amino acids to the ribosome.
+5. Amino acids are joined to form a polypeptide.
+
+==================================================
+COMMON STUDENT MISCONCEPTIONS
+==================================================
+
+1. Water is not an organic compound. It is inorganic.
+
+2. Not all carbohydrates are sweet. Starch and cellulose are examples of carbohydrates that are not sweet.
+
+3. Starch is the main storage carbohydrate in plants, while glycogen is the main storage carbohydrate in animals and fungi.
+
+4. Cellulose is a structural carbohydrate, not the main energy-storage carbohydrate in plants.
+
+5. A peptide bond joins amino acids. A glycosidic bond joins sugar units.
+
+6. Condensation releases water, whereas hydrolysis uses water.
+
+7. Denaturation does not normally mean that all peptide bonds are broken.
+
+8. Triglycerides contain one glycerol and three fatty acids.
+
+9. Phospholipid heads are hydrophilic, while their fatty acid tails are hydrophobic.
+
+10. DNA contains thymine, while RNA contains uracil.
+
+11. A nucleotide is made of a phosphate group, a pentose sugar and a nitrogenous base.
+
+12. DNA stores genetic information, while RNA plays important roles in gene expression and protein synthesis.
+
+==================================================
+QUICK REVISION SUMMARY
+==================================================
+
+4.1 WATER
+
+- Formula: H2O.
+- Polar molecule.
+- Forms hydrogen bonds.
+- Good solvent.
+- High specific heat capacity.
+- High latent heat of vaporisation.
+- Cohesion and adhesion.
+- Important for temperature regulation and metabolic reactions.
+
+4.2 CARBOHYDRATES
+
+- Contain carbon, hydrogen and oxygen.
+- Monosaccharides: glucose, fructose, galactose.
+- Disaccharides: maltose, sucrose, lactose.
+- Polysaccharides: starch, glycogen, cellulose.
+- Glycosidic bonds join sugar units.
+- Condensation releases water.
+- Hydrolysis uses water.
+
+4.3 PROTEINS
+
+- Made up of amino acids.
+- Amino acids join through peptide bonds.
+- Peptide bonds form through condensation.
+- Proteins have different structural levels.
+- Functions include enzymes, transport, defence and structural support.
+- Denaturation changes protein structure and function.
+
+4.4 LIPIDS
+
+- Triglycerides contain one glycerol and three fatty acids.
+- Ester bonds join glycerol and fatty acids.
+- Saturated fatty acids have no carbon-carbon double bonds.
+- Unsaturated fatty acids have one or more carbon-carbon double bonds.
+- Lipids store energy, insulate and protect organs.
+- Phospholipids form cell membranes.
+- Cholesterol helps regulate membrane properties and is a precursor for steroid hormones.
+
+4.5 NUCLEIC ACIDS
+
+- Made up of nucleotides.
+- Each nucleotide contains phosphate, pentose sugar and nitrogenous base.
+- DNA stores genetic information.
+- RNA is involved in gene expression and protein synthesis.
+- DNA uses A, T, C and G.
+- RNA uses A, U, C and G.
+- DNA is usually double-stranded.
+- RNA is usually single-stranded.
+
+==================================================
+END OF CHAPTER 4
+==================================================
