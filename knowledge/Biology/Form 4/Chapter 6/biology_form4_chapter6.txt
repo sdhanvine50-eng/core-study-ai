@@ -1,0 +1,992 @@
+SUBJECT: Biology
+FORM: Form 4
+CHAPTER: Chapter 6
+CHAPTER_TITLE: Cell Division
+TOPICS: 6.1 Cell Division, 6.2 Cell Cycle and Mitosis, 6.3 Meiosis, 6.4 Issues of Cell Division on Human Health
+SOURCE_TYPE: Original Learning Material
+STATUS: Original Educational Content
+
+==================================================
+CHAPTER 6: CELL DIVISION
+==================================================
+
+CHAPTER OVERVIEW
+
+Cell division is an important biological process that allows organisms to grow, repair damaged tissues and reproduce.
+
+In multicellular organisms, new cells are produced from existing cells through cell division.
+
+There are two main types of cell division:
+
+1. Mitosis
+2. Meiosis
+
+Mitosis produces two genetically identical daughter cells, while meiosis produces four genetically different haploid cells.
+
+Uncontrolled cell division can also cause health problems, including the development of cancer.
+
+This chapter covers:
+- The importance of cell division
+- The cell cycle
+- Stages of mitosis
+- Stages of meiosis
+- Differences between mitosis and meiosis
+- The effects of abnormal cell division on human health
+
+
+==================================================
+6.1 CELL DIVISION
+==================================================
+
+DEFINITION OF CELL DIVISION
+
+Cell division is the process by which a parent cell divides to produce new daughter cells.
+
+Cell division is essential for the continuity of life because it allows organisms to produce new cells.
+
+IMPORTANCE OF CELL DIVISION
+
+1. Growth
+
+Cell division increases the number of cells in an organism.
+
+For example, a human grows from a single fertilised egg into a multicellular organism through repeated cell divisions.
+
+2. Repair of damaged tissues
+
+Cell division replaces damaged or worn-out cells.
+
+For example, cells in the skin divide to replace cells that are lost or damaged.
+
+3. Replacement of old cells
+
+Certain cells have a limited lifespan and must be replaced continuously.
+
+4. Asexual reproduction
+
+In some organisms, cell division allows reproduction without the fusion of gametes.
+
+5. Formation of gametes
+
+Meiosis produces haploid reproductive cells required for sexual reproduction.
+
+TWO TYPES OF CELL DIVISION
+
+MITOSIS:
+- Produces two daughter cells.
+- Daughter cells have the same chromosome number as the parent cell.
+- Daughter cells are generally genetically identical to each other and the parent cell.
+- Important for growth, repair and cell replacement.
+
+MEIOSIS:
+- Produces four daughter cells.
+- Daughter cells have half the chromosome number of the parent cell.
+- Daughter cells are genetically different.
+- Important for sexual reproduction and genetic variation.
+
+
+==================================================
+6.2 CELL CYCLE AND MITOSIS
+==================================================
+
+CELL CYCLE
+
+The cell cycle is the sequence of events that takes place from the formation of a cell until the cell divides to produce new daughter cells.
+
+The cell cycle consists of two main stages:
+
+1. Interphase
+2. Mitotic phase
+
+INTERPHASE
+
+Interphase is the period when a cell grows, carries out normal metabolic activities and prepares for cell division.
+
+Interphase is divided into three main phases:
+
+G1 PHASE (FIRST GAP PHASE)
+
+During G1:
+- The cell grows.
+- The number of organelles increases.
+- Proteins and other substances required for cell activities are produced.
+- The cell carries out its normal functions.
+
+S PHASE (SYNTHESIS PHASE)
+
+During S phase:
+- DNA replication occurs.
+- Each chromosome is copied.
+- Each replicated chromosome consists of two identical sister chromatids joined at a centromere.
+
+DNA replication ensures that genetic information can be passed to both daughter cells.
+
+G2 PHASE (SECOND GAP PHASE)
+
+During G2:
+- The cell continues to grow.
+- Additional proteins are produced.
+- The cell prepares structures required for mitosis.
+- The cell checks and prepares its replicated DNA for division.
+
+IMPORTANT:
+DNA replication occurs during the S phase of interphase, not during mitosis.
+
+MITOTIC PHASE
+
+The mitotic phase includes:
+- Mitosis, which divides the nucleus.
+- Cytokinesis, which divides the cytoplasm.
+
+MITOSIS
+
+Mitosis is a type of nuclear division that produces two genetically identical daughter nuclei with the same chromosome number as the parent nucleus.
+
+Mitosis consists of four main stages:
+
+1. Prophase
+2. Metaphase
+3. Anaphase
+4. Telophase
+
+These stages are commonly remembered as PMAT.
+
+--------------------------------------------------
+PROPHASE
+--------------------------------------------------
+
+Events:
+- Chromatin condenses and becomes visible as chromosomes.
+- Each chromosome consists of two sister chromatids joined at the centromere.
+- The nucleolus disappears.
+- The nuclear envelope breaks down.
+- Spindle fibres form.
+
+The chromosomes become shorter and thicker, making them easier to observe under a microscope.
+
+--------------------------------------------------
+METAPHASE
+--------------------------------------------------
+
+Events:
+- Chromosomes attach to spindle fibres at their centromeres.
+- Chromosomes arrange themselves along the equatorial plane of the cell.
+- Each sister chromatid is connected to spindle fibres from opposite poles.
+
+IMPORTANT:
+Chromosomes line up at the equatorial plane during metaphase.
+
+--------------------------------------------------
+ANAPHASE
+--------------------------------------------------
+
+Events:
+- Centromeres divide.
+- Sister chromatids separate.
+- Spindle fibres shorten and pull the separated chromatids towards opposite poles.
+- Each separated chromatid is now considered an individual chromosome.
+
+This ensures that each future daughter nucleus receives an identical set of chromosomes.
+
+--------------------------------------------------
+TELOPHASE
+--------------------------------------------------
+
+Events:
+- Chromosomes reach opposite poles.
+- Chromosomes begin to uncoil and return to chromatin.
+- Nuclear envelopes reform around each group of chromosomes.
+- Nucleoli reappear.
+- Spindle fibres disappear.
+
+Two genetically identical daughter nuclei are formed.
+
+--------------------------------------------------
+CYTOKINESIS
+--------------------------------------------------
+
+Cytokinesis is the division of the cytoplasm to produce two separate daughter cells.
+
+In animal cells:
+- The cell membrane forms a cleavage furrow.
+- The membrane gradually constricts.
+- The cytoplasm divides into two daughter cells.
+
+In plant cells:
+- A cell plate forms in the middle of the cell.
+- The cell plate develops into a new cell wall.
+- Two daughter cells are formed.
+
+The difference occurs because plant cells have a rigid cell wall.
+
+--------------------------------------------------
+RESULT OF MITOSIS
+--------------------------------------------------
+
+Mitosis produces:
+- Two daughter cells.
+- The same chromosome number as the parent cell.
+- Genetically identical daughter cells under normal conditions.
+
+For example:
+
+Parent cell: 2n = 46 chromosomes
+
+After mitosis:
+
+Daughter cell 1: 2n = 46 chromosomes
+Daughter cell 2: 2n = 46 chromosomes
+
+The chromosome number remains unchanged.
+
+--------------------------------------------------
+IMPORTANCE OF MITOSIS
+--------------------------------------------------
+
+1. Growth:
+Increases the number of cells.
+
+2. Tissue repair:
+Replaces damaged cells.
+
+3. Cell replacement:
+Replaces old and worn-out cells.
+
+4. Asexual reproduction:
+Allows certain organisms to reproduce without gamete fusion.
+
+5. Genetic stability:
+Maintains the chromosome number and genetic information in daughter cells.
+
+--------------------------------------------------
+SUMMARY OF MITOSIS STAGES
+--------------------------------------------------
+
+PROPHASE:
+Chromosomes condense, nuclear envelope breaks down and spindle fibres form.
+
+METAPHASE:
+Chromosomes arrange along the equatorial plane.
+
+ANAPHASE:
+Sister chromatids separate and move towards opposite poles.
+
+TELOPHASE:
+Nuclear envelopes reform and chromosomes uncoil.
+
+CYTOKINESIS:
+Cytoplasm divides to form two daughter cells.
+
+
+==================================================
+6.3 MEIOSIS
+==================================================
+
+DEFINITION OF MEIOSIS
+
+Meiosis is a type of cell division that reduces the chromosome number by half and produces four genetically different haploid daughter cells from one diploid parent cell.
+
+Meiosis occurs in reproductive organs during the formation of gametes in humans.
+
+PURPOSE OF MEIOSIS
+
+1. Produces haploid cells.
+
+2. Maintains the chromosome number of a species across generations when fertilisation occurs.
+
+3. Produces genetic variation.
+
+4. Allows sexual reproduction to occur.
+
+DIPLOID AND HAPLOID CELLS
+
+DIPLOID (2n)
+
+A diploid cell contains two sets of chromosomes.
+
+One set is inherited from the mother and the other from the father.
+
+In humans:
+- Diploid chromosome number = 46.
+- There are 23 pairs of chromosomes.
+
+HAPLOID (n)
+
+A haploid cell contains one set of chromosomes.
+
+In humans:
+- Haploid chromosome number = 23.
+
+Human sperm and egg cells are haploid.
+
+FERTILISATION
+
+During fertilisation:
+- A haploid sperm cell fuses with a haploid egg cell.
+- Their nuclei combine.
+- A diploid zygote is formed.
+
+23 chromosomes from sperm + 23 chromosomes from egg = 46 chromosomes in the zygote.
+
+This restores the diploid chromosome number.
+
+--------------------------------------------------
+MEIOSIS OCCURS IN TWO SUCCESSIVE DIVISIONS
+--------------------------------------------------
+
+Meiosis consists of:
+
+1. Meiosis I
+2. Meiosis II
+
+DNA replication occurs once before Meiosis I.
+
+There is no additional DNA replication between Meiosis I and Meiosis II.
+
+--------------------------------------------------
+MEIOSIS I — REDUCTION DIVISION
+--------------------------------------------------
+
+Meiosis I reduces the chromosome number from diploid to haploid.
+
+PROPHASE I
+
+Events:
+- Chromosomes condense and become visible.
+- Homologous chromosomes pair together.
+- Each pair forms a structure called a bivalent.
+- Crossing over may occur between non-sister chromatids of homologous chromosomes.
+- The nuclear envelope breaks down.
+- Spindle fibres form.
+
+CROSSING OVER
+
+Crossing over is the exchange of corresponding DNA segments between non-sister chromatids of homologous chromosomes.
+
+It produces new combinations of alleles.
+
+This contributes to genetic variation among daughter cells.
+
+METAPHASE I
+
+Events:
+- Homologous chromosome pairs arrange themselves along the equatorial plane.
+- The orientation of each homologous pair is random.
+
+INDEPENDENT ASSORTMENT
+
+The random orientation of homologous chromosome pairs during Metaphase I is called independent assortment.
+
+It results in different combinations of maternal and paternal chromosomes in daughter cells.
+
+ANAPHASE I
+
+Events:
+- Homologous chromosomes separate.
+- One chromosome from each homologous pair moves towards each opposite pole.
+- Centromeres do not divide.
+- Sister chromatids remain joined.
+
+IMPORTANT:
+Homologous chromosomes separate during Anaphase I, not sister chromatids.
+
+TELOPHASE I
+
+Events:
+- Chromosomes reach opposite poles.
+- Nuclear envelopes may reform depending on the cell.
+- Cytokinesis occurs.
+- Two haploid daughter cells are formed.
+
+Each chromosome still consists of two sister chromatids.
+
+--------------------------------------------------
+MEIOSIS II — EQUATIONAL DIVISION
+--------------------------------------------------
+
+Meiosis II resembles mitosis.
+
+However, the cells entering Meiosis II are already haploid.
+
+PROPHASE II
+
+Events:
+- Chromosomes condense.
+- Nuclear envelopes break down if present.
+- Spindle fibres form.
+
+METAPHASE II
+
+Events:
+- Chromosomes arrange themselves individually along the equatorial plane.
+- Spindle fibres attach to the centromeres.
+
+ANAPHASE II
+
+Events:
+- Centromeres divide.
+- Sister chromatids separate.
+- Chromatids move towards opposite poles.
+
+TELOPHASE II
+
+Events:
+- Chromosomes reach opposite poles.
+- Nuclear envelopes reform.
+- Chromosomes uncoil.
+- Cytokinesis occurs.
+
+Four haploid daughter cells are produced.
+
+--------------------------------------------------
+RESULT OF MEIOSIS
+--------------------------------------------------
+
+Meiosis produces:
+- Four haploid daughter cells.
+- Half the chromosome number of the original diploid parent cell.
+- Genetically different daughter cells.
+
+In humans:
+
+Parent cell: 2n = 46
+
+After Meiosis I:
+Two haploid cells, each with 23 chromosomes.
+
+After Meiosis II:
+Four haploid cells, each with 23 chromosomes.
+
+In human spermatogenesis, meiosis produces four haploid sperm cells.
+
+In human oogenesis, the process produces one functional ovum and polar bodies rather than four equal functional egg cells.
+
+--------------------------------------------------
+SOURCES OF GENETIC VARIATION DURING MEIOSIS
+--------------------------------------------------
+
+1. Crossing over
+
+During Prophase I, corresponding DNA segments are exchanged between non-sister chromatids of homologous chromosomes.
+
+This creates new combinations of alleles.
+
+2. Independent assortment
+
+During Metaphase I, homologous chromosome pairs arrange randomly at the equatorial plane.
+
+This produces different combinations of maternal and paternal chromosomes.
+
+IMPORTANCE OF GENETIC VARIATION
+
+Genetic variation:
+- creates differences among individuals
+- provides variation within populations
+- allows natural selection to act on different characteristics
+- contributes to the ability of populations to adapt over generations
+
+--------------------------------------------------
+MITOSIS VS MEIOSIS
+--------------------------------------------------
+
+MITOSIS:
+
+Number of divisions:
+One.
+
+Number of daughter cells:
+Two.
+
+Chromosome number:
+Maintained.
+
+Genetic similarity:
+Daughter cells are generally genetically identical.
+
+Homologous chromosome pairing:
+Does not normally occur.
+
+Crossing over:
+Does not normally occur.
+
+Main functions:
+Growth, repair, cell replacement and asexual reproduction.
+
+MEIOSIS:
+
+Number of divisions:
+Two.
+
+Number of daughter cells:
+Four in the standard division model.
+
+Chromosome number:
+Reduced by half.
+
+Genetic similarity:
+Daughter cells are genetically different.
+
+Homologous chromosome pairing:
+Occurs during Prophase I.
+
+Crossing over:
+Can occur during Prophase I.
+
+Main functions:
+Production of haploid reproductive cells and genetic variation.
+
+
+==================================================
+6.4 ISSUES OF CELL DIVISION ON HUMAN HEALTH
+==================================================
+
+Cell division is essential for human growth and tissue repair.
+
+However, problems can occur when the processes controlling cell division do not function normally.
+
+ABNORMAL CELL DIVISION
+
+Normally, the cell cycle is controlled by regulatory proteins and checkpoints.
+
+These mechanisms help ensure:
+- DNA is copied correctly.
+- Damaged DNA can be detected.
+- Cells divide at appropriate times.
+- Cells with serious abnormalities can be prevented from continuing to divide.
+
+When control mechanisms fail, abnormal cells may continue dividing.
+
+--------------------------------------------------
+CANCER
+--------------------------------------------------
+
+Cancer is a disease involving uncontrolled cell division caused by changes in the mechanisms that regulate cell growth and division.
+
+Cancer cells may:
+- divide uncontrollably
+- ignore normal cell-cycle regulatory signals
+- avoid normal cell death mechanisms
+- form an abnormal mass of cells called a tumour
+
+Not all tumours are cancerous.
+
+BENIGN TUMOUR
+
+A benign tumour:
+- is non-cancerous
+- generally remains localised
+- does not invade surrounding tissues in the same way as malignant tumours
+- does not spread to distant parts of the body
+
+MALIGNANT TUMOUR
+
+A malignant tumour:
+- is cancerous
+- can invade surrounding tissues
+- may spread to other parts of the body
+
+METASTASIS
+
+Metastasis is the spread of cancer cells from the original site to other parts of the body.
+
+Cancer cells may spread through the blood or lymphatic system and establish new tumours elsewhere.
+
+--------------------------------------------------
+CAUSES AND RISK FACTORS OF CANCER
+--------------------------------------------------
+
+Cancer can develop through the accumulation of genetic changes that affect the regulation of cell division.
+
+Examples of factors that can increase cancer risk include:
+
+1. Tobacco exposure
+
+Chemicals in tobacco smoke can damage DNA and increase the risk of several cancers.
+
+2. Ultraviolet radiation
+
+Excessive exposure to ultraviolet radiation can damage DNA in skin cells.
+
+3. Certain chemicals
+
+Some carcinogenic chemicals can cause DNA damage and increase cancer risk.
+
+4. Certain infections
+
+Some viruses can contribute to cancer development by interfering with normal cell regulation.
+
+5. Inherited genetic factors
+
+Certain inherited genetic changes can increase a person's susceptibility to particular cancers.
+
+6. Age
+
+The accumulation of genetic changes over time can contribute to increasing cancer risk.
+
+IMPORTANT:
+Having a risk factor does not mean a person will definitely develop cancer. Cancer usually develops through a combination of genetic and environmental influences.
+
+--------------------------------------------------
+PREVENTION AND REDUCTION OF CANCER RISK
+--------------------------------------------------
+
+Ways to reduce certain cancer risks include:
+
+- Avoid tobacco products.
+- Protect skin from excessive ultraviolet radiation.
+- Maintain a balanced lifestyle.
+- Follow recommended vaccination programmes.
+- Attend appropriate cancer screening.
+- Seek medical advice about unusual or persistent health changes.
+
+Screening can help detect certain cancers or precancerous changes earlier.
+
+--------------------------------------------------
+ABNORMAL CHROMOSOME NUMBER
+--------------------------------------------------
+
+Errors during meiosis can cause abnormal chromosome numbers in gametes.
+
+One possible cause is nondisjunction.
+
+NONDISJUNCTION
+
+Nondisjunction is the failure of homologous chromosomes or sister chromatids to separate properly during cell division.
+
+If nondisjunction occurs during meiosis:
+- some gametes may receive an extra chromosome
+- other gametes may have one chromosome missing
+
+If such a gamete participates in fertilisation, the resulting zygote may have an abnormal chromosome number.
+
+EXAMPLE: DOWN SYNDROME
+
+Down syndrome is commonly caused by trisomy 21.
+
+A person with trisomy 21 has three copies of chromosome 21 instead of the usual two.
+
+The condition is often associated with:
+- characteristic physical features
+- developmental differences
+- varying degrees of learning disability
+- an increased likelihood of certain medical conditions
+
+The effects differ between individuals.
+
+IMPORTANT:
+Down syndrome is usually caused by an extra copy of chromosome 21, not by an extra copy of every chromosome.
+
+--------------------------------------------------
+IMPORTANCE OF NORMAL CELL DIVISION
+--------------------------------------------------
+
+Normal cell division:
+- maintains tissue function
+- supports growth
+- repairs damaged tissues
+- maintains chromosome number through mitosis
+- produces genetically varied haploid cells through meiosis
+
+Abnormal cell division can result in:
+- uncontrolled cell growth
+- tumour formation
+- cancer
+- abnormal chromosome numbers in offspring
+
+
+==================================================
+IMPORTANT BIOLOGY TERMINOLOGY
+==================================================
+
+Cell division:
+The process in which a parent cell divides to produce daughter cells.
+
+Cell cycle:
+The sequence of events from the formation of a cell until it divides.
+
+Interphase:
+The period during which a cell grows, carries out normal functions and prepares for division.
+
+DNA replication:
+The process of making an identical copy of DNA.
+
+Chromosome:
+A structure containing DNA and associated proteins that carries genetic information.
+
+Chromatid:
+One of the two copies of a replicated chromosome.
+
+Sister chromatids:
+Two identical chromatids joined at a centromere.
+
+Centromere:
+The region joining sister chromatids.
+
+Spindle fibres:
+Structures that help move chromosomes during cell division.
+
+Equatorial plane:
+The imaginary plane in the middle of a dividing cell where chromosomes arrange during metaphase.
+
+Homologous chromosomes:
+A pair of chromosomes containing the same genes at corresponding positions, one inherited from each parent.
+
+Bivalent:
+A paired structure formed by two homologous chromosomes during Prophase I.
+
+Crossing over:
+Exchange of corresponding DNA segments between non-sister chromatids of homologous chromosomes.
+
+Independent assortment:
+Random arrangement of homologous chromosome pairs during Metaphase I.
+
+Diploid:
+A cell containing two sets of chromosomes.
+
+Haploid:
+A cell containing one set of chromosomes.
+
+Mitosis:
+Nuclear division producing two genetically identical daughter nuclei.
+
+Meiosis:
+A type of cell division that produces haploid cells and reduces chromosome number by half.
+
+Cytokinesis:
+Division of the cytoplasm.
+
+Nondisjunction:
+Failure of chromosomes or chromatids to separate properly.
+
+Tumour:
+An abnormal mass of cells.
+
+Metastasis:
+Spread of cancer cells from the original site to other parts of the body.
+
+
+==================================================
+COMMON MISCONCEPTIONS
+==================================================
+
+1. DNA replication occurs during mitosis.
+
+Incorrect.
+
+DNA replication occurs during the S phase of interphase before mitosis.
+
+2. Sister chromatids separate during Anaphase I.
+
+Incorrect.
+
+Homologous chromosomes separate during Anaphase I. Sister chromatids separate during Anaphase II.
+
+3. Mitosis produces four daughter cells.
+
+Incorrect.
+
+Mitosis normally produces two daughter cells.
+
+4. Meiosis produces genetically identical daughter cells.
+
+Incorrect.
+
+Meiosis produces genetically different haploid cells.
+
+5. Chromosome number doubles after DNA replication.
+
+Incorrect.
+
+DNA content doubles, but chromosome number is counted by centromeres and remains the same until chromatids separate.
+
+6. Crossing over occurs during mitosis.
+
+Incorrect.
+
+Crossing over normally occurs during Prophase I of meiosis.
+
+7. All tumours are cancerous.
+
+Incorrect.
+
+Benign tumours are non-cancerous, while malignant tumours are cancerous.
+
+8. Every cancer is inherited.
+
+Incorrect.
+
+Many cancers develop from genetic changes acquired during a person's lifetime. Some inherited genetic changes increase cancer susceptibility.
+
+9. Meiosis produces four functional ova in humans.
+
+Incorrect.
+
+Human oogenesis generally produces one functional ovum and polar bodies.
+
+
+==================================================
+SPM EXAM COMMAND-WORD GUIDE
+==================================================
+
+STATE:
+Give the required fact directly.
+
+DEFINE:
+Give the scientific meaning of the term.
+
+IDENTIFY:
+Name the required structure, stage or process.
+
+DESCRIBE:
+State the events or characteristics in the correct sequence.
+
+EXPLAIN:
+Give the biological reason and connect cause to effect.
+
+COMPARE:
+Give similarities and differences between two processes.
+
+PREDICT:
+State what is expected to happen based on biological principles.
+
+SUGGEST:
+Provide a reasonable biological explanation or solution.
+
+JUSTIFY:
+Give evidence or reasoning that supports an answer.
+
+When answering cell division questions:
+- Use the correct stage names.
+- Distinguish homologous chromosomes from sister chromatids.
+- State whether the process occurs in Meiosis I or Meiosis II.
+- Include chromosome numbers where necessary.
+- Explain cause-and-effect relationships.
+
+
+==================================================
+PRACTICE QUESTIONS
+==================================================
+
+QUESTION 1
+State two importance of cell division.
+
+Suggested answer:
+- Allows growth by increasing the number of cells.
+- Replaces damaged or worn-out cells.
+
+QUESTION 2
+State the three phases of interphase.
+
+Suggested answer:
+G1 phase, S phase and G2 phase.
+
+QUESTION 3
+During which phase of the cell cycle does DNA replication occur?
+
+Suggested answer:
+S phase of interphase.
+
+QUESTION 4
+Describe the arrangement of chromosomes during metaphase of mitosis.
+
+Suggested answer:
+Chromosomes arrange themselves along the equatorial plane of the cell and attach to spindle fibres at their centromeres.
+
+QUESTION 5
+Explain what happens during anaphase of mitosis.
+
+Suggested answer:
+Centromeres divide and sister chromatids separate. Spindle fibres pull the chromatids towards opposite poles of the cell.
+
+QUESTION 6
+State two differences between mitosis and meiosis.
+
+Suggested answer:
+- Mitosis involves one division, whereas meiosis involves two successive divisions.
+- Mitosis produces two daughter cells, whereas meiosis produces four daughter cells in the standard division model.
+
+QUESTION 7
+Explain why meiosis is important in sexual reproduction.
+
+Suggested answer:
+Meiosis produces haploid gametes containing half the diploid chromosome number. During fertilisation, two haploid gametes fuse to restore the diploid chromosome number.
+
+QUESTION 8
+Explain how crossing over produces genetic variation.
+
+Suggested answer:
+Crossing over involves the exchange of corresponding DNA segments between non-sister chromatids of homologous chromosomes during Prophase I. This creates new combinations of alleles.
+
+QUESTION 9
+Differentiate between Anaphase I and Anaphase II.
+
+Suggested answer:
+During Anaphase I, homologous chromosomes separate while sister chromatids remain joined. During Anaphase II, centromeres divide and sister chromatids separate.
+
+QUESTION 10
+What is nondisjunction?
+
+Suggested answer:
+Nondisjunction is the failure of homologous chromosomes or sister chromatids to separate properly during cell division.
+
+QUESTION 11
+Explain how uncontrolled cell division can lead to cancer.
+
+Suggested answer:
+Changes in genes controlling the cell cycle can cause cells to ignore normal regulatory signals and divide uncontrollably. This may lead to tumour formation and, in malignant cases, invasion of surrounding tissues and metastasis.
+
+QUESTION 12
+Differentiate between benign and malignant tumours.
+
+Suggested answer:
+A benign tumour is non-cancerous and generally remains localised, whereas a malignant tumour is cancerous and can invade surrounding tissues and spread to other parts of the body.
+
+
+==================================================
+QUICK REVISION SUMMARY
+==================================================
+
+CELL DIVISION:
+Produces new cells from existing cells.
+
+MITOSIS:
+One division, two genetically identical daughter cells, chromosome number maintained.
+
+MEIOSIS:
+Two divisions, four haploid daughter cells in the standard model, chromosome number reduced by half.
+
+INTERPHASE:
+G1 = cell growth.
+S = DNA replication.
+G2 = preparation for division.
+
+MITOSIS:
+Prophase = chromosomes condense.
+Metaphase = chromosomes line up.
+Anaphase = sister chromatids separate.
+Telophase = two nuclei reform.
+
+MEIOSIS I:
+Prophase I = homologous pairing and crossing over.
+Metaphase I = homologous pairs arrange randomly.
+Anaphase I = homologous chromosomes separate.
+Telophase I = two haploid cells form.
+
+MEIOSIS II:
+Prophase II = spindle forms.
+Metaphase II = chromosomes line up.
+Anaphase II = sister chromatids separate.
+Telophase II = four haploid cells form.
+
+GENETIC VARIATION:
+Produced through crossing over and independent assortment.
+
+ABNORMAL CELL DIVISION:
+Can lead to uncontrolled growth, tumours and cancer.
+
+NONDISJUNCTION:
+Failure of chromosomes or chromatids to separate properly.
+
+KEY IDEA:
+
+Mitosis maintains chromosome number and supports growth and repair, while meiosis reduces chromosome number and creates genetic variation needed for sexual reproduction.
