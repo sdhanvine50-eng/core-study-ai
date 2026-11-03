@@ -1,0 +1,1431 @@
+# 14 Support and Movement in Humans and Animals
+
+## 14.1 Types of Skeleton
+
+### 1. Meaning and Functions of a Skeleton
+
+A skeleton is a supporting framework that gives an organism its shape and helps it maintain its body structure.
+
+The skeleton performs several important functions:
+
+1. **Support** – provides structural support and maintains body shape.
+2. **Protection** – protects delicate internal organs.
+3. **Movement** – provides surfaces for muscle attachment and acts as a system of levers.
+4. **Muscle attachment** – provides attachment points for muscles.
+5. **Blood cell production** – red bone marrow produces blood cells.
+6. **Mineral storage** – bones store minerals such as calcium and phosphate.
+
+### 2. Three Types of Skeleton
+
+There are three main types of skeleton:
+
+- Hydrostatic skeleton
+- Exoskeleton
+- Endoskeleton
+
+### A. Hydrostatic Skeleton
+
+A hydrostatic skeleton is a supporting structure formed by fluid enclosed within a body cavity and surrounded by muscles.
+
+It is found in animals such as earthworms and some other soft-bodied invertebrates.
+
+**Structure:**
+- The body contains fluid within a cavity.
+- The fluid is relatively incompressible.
+- Muscles surrounding the cavity contract to change the body's shape.
+
+**How movement occurs:**
+
+1. Circular muscles contract.
+2. The body segment becomes longer and thinner.
+3. Longitudinal muscles contract.
+4. The body segment becomes shorter and thicker.
+5. Coordinated contractions produce movement.
+
+In an earthworm, alternating contractions of circular and longitudinal muscles allow the animal to move.
+
+**Advantages:**
+- Allows flexible movement.
+- Supports soft-bodied organisms.
+- Does not require a rigid external skeleton.
+
+**Limitations:**
+- Provides less protection for internal organs than a rigid skeleton.
+- Does not support very large body structures effectively.
+
+### B. Exoskeleton
+
+An exoskeleton is a hard supporting structure found on the outside of an animal's body.
+
+It is found in arthropods such as insects, crabs and spiders.
+
+In many arthropods, the exoskeleton contains chitin. In crustaceans such as crabs, it may also contain calcium carbonate.
+
+**Functions:**
+1. Supports the body.
+2. Protects internal organs.
+3. Provides attachment points for muscles.
+4. Reduces water loss in many terrestrial arthropods.
+
+**How movement occurs:**
+
+1. Muscles are attached to the inner surface of the exoskeleton.
+2. Muscles contract and pull on the rigid structure.
+3. Movement occurs at flexible joints between body segments or appendages.
+
+**Advantages:**
+- Provides strong protection.
+- Supports the body.
+- Reduces water loss in many terrestrial species.
+
+**Limitations:**
+- Does not grow continuously with the animal.
+- Must be shed during moulting or ecdysis.
+- The animal is vulnerable while the new exoskeleton hardens.
+
+### Moulting (Ecdysis)
+
+Moulting is the process in which an arthropod sheds its old exoskeleton to allow growth.
+
+**General sequence:**
+
+1. A new exoskeleton develops beneath the old one.
+2. The old exoskeleton splits.
+3. The animal leaves the old exoskeleton.
+4. The new exoskeleton expands.
+5. The new exoskeleton hardens.
+
+During this process, the animal may be more vulnerable because its new exoskeleton is not yet fully hardened.
+
+### C. Endoskeleton
+
+An endoskeleton is an internal supporting structure found inside the body.
+
+It is found in vertebrates such as fish, amphibians, reptiles, birds and mammals.
+
+In humans, the endoskeleton consists mainly of bones and cartilage.
+
+**Functions:**
+1. Supports the body.
+2. Protects internal organs.
+3. Provides attachment points for skeletal muscles.
+4. Allows movement through joints and muscle action.
+5. Produces blood cells in bone marrow.
+6. Stores minerals such as calcium and phosphate.
+
+**Advantages:**
+- Grows together with the organism.
+- Provides strong internal support.
+- Allows a wide range of movement.
+- Protects important organs.
+
+### 3. Comparison of the Three Types of Skeleton
+
+| Feature | Hydrostatic skeleton | Exoskeleton | Endoskeleton |
+|---|---|---|---|
+| Location | Fluid-filled body cavity | Outside the body | Inside the body |
+| Main material | Body fluid | Chitin or other hard materials | Bone and cartilage in vertebrates |
+| Examples | Earthworm | Crab, insect | Human, fish |
+| Growth | Body grows as tissues grow | Requires moulting in arthropods | Grows with the organism |
+| Protection | Limited | Strong external protection | Protects internal organs |
+| Movement | Muscle contraction against fluid | Muscles pull on exoskeleton | Muscles pull on bones |
+
+### 4. Relationship Between Skeleton and Movement
+
+The skeleton and muscles work together to produce movement.
+
+- Bones provide support and act as levers.
+- Joints allow bones to move relative to one another.
+- Skeletal muscles contract and pull on bones.
+- Tendons connect muscles to bones.
+- Ligaments connect bones to other bones and help stabilise joints.
+
+**Important:** Muscles can pull but cannot actively push bones. Therefore, many movements require antagonistic muscle pairs.
+
+---
+
+## 14.2 Musculoskeletal System of Humans
+
+### 1. Meaning of the Human Musculoskeletal System
+
+The human musculoskeletal system consists of the skeletal system and muscular system working together.
+
+It includes:
+- Bones
+- Cartilage
+- Joints
+- Ligaments
+- Tendons
+- Skeletal muscles
+
+**Main functions:**
+1. Supports the body.
+2. Maintains posture.
+3. Protects internal organs.
+4. Produces movement and locomotion.
+5. Provides attachment points for muscles.
+6. Helps maintain body stability.
+
+### 2. Human Skeleton
+
+The adult human skeleton normally consists of **206 bones**.
+
+The skeleton is divided into two main parts:
+
+1. Axial skeleton
+2. Appendicular skeleton
+
+### A. Axial Skeleton
+
+The axial skeleton forms the central axis of the body.
+
+It consists of:
+- Skull
+- Vertebral column
+- Rib cage
+- Sternum
+
+**Skull**
+- Protects the brain.
+- Supports structures of the face.
+- Protects some sensory organs.
+
+**Vertebral column**
+- Supports the head and trunk.
+- Protects the spinal cord.
+- Allows flexibility and movement of the trunk.
+- Helps maintain upright posture.
+
+**Rib cage**
+- Protects the heart and lungs.
+- Supports the chest.
+- Helps in breathing through movement of the ribs.
+
+**Sternum**
+- Provides attachment for ribs through costal cartilage.
+- Forms the front part of the rib cage.
+
+### 3. Vertebral Column and Its Five Regions
+
+The vertebral column, also called the backbone or spine, is part of the axial skeleton.
+
+It consists of a series of bones called vertebrae. The vertebral column supports the head and trunk, protects the spinal cord and allows controlled movement of the body.
+
+In a typical adult, it consists of **33 vertebrae before fusion**:
+
+1. 7 cervical vertebrae
+2. 12 thoracic vertebrae
+3. 5 lumbar vertebrae
+4. 5 sacral vertebrae
+5. Usually 4 coccygeal vertebrae
+
+The sacral vertebrae fuse to form the sacrum, while the coccygeal vertebrae usually fuse to form the coccyx.
+
+#### A. Cervical Vertebrae (C1–C7)
+
+- Located in the neck.
+- Consist of 7 vertebrae.
+- Support the head.
+- Allow movements of the neck, including bending and rotation.
+- Have relatively small bodies compared with lumbar vertebrae.
+
+**Special cervical vertebrae:**
+
+**Atlas (C1)**
+- The first cervical vertebra.
+- Supports the skull.
+- Allows the head to nod, such as during the movement of saying "yes".
+
+**Axis (C2)**
+- The second cervical vertebra.
+- Has a projection called the dens or odontoid process.
+- The dens acts as a pivot that allows rotation of the atlas and head.
+
+#### B. Thoracic Vertebrae (T1–T12)
+
+- Located in the chest region.
+- Consist of 12 vertebrae.
+- Articulate with the ribs.
+- Help form and support the rib cage.
+- Protect organs in the thoracic cavity together with the ribs and sternum.
+- Provide stability while allowing limited movement.
+
+#### C. Lumbar Vertebrae (L1–L5)
+
+- Located in the lower back.
+- Consist of 5 vertebrae.
+- Have large, strong vertebral bodies.
+- Support much of the body's weight.
+- Allow movements such as bending and extension of the lower back.
+- Are adapted to withstand considerable compressive forces.
+
+#### D. Sacral Vertebrae (S1–S5)
+
+- Usually consist of 5 vertebrae.
+- Fuse to form one triangular bone called the sacrum.
+- Located at the base of the vertebral column.
+- Connect with the pelvic bones.
+- Transfer the weight of the upper body to the pelvic girdle and lower limbs.
+- Help form the posterior part of the pelvis.
+
+#### E. Coccygeal Vertebrae
+
+- Usually consist of 4 small vertebrae.
+- Fuse to form the coccyx, commonly called the tailbone.
+- Located below the sacrum.
+- Provide attachment points for some muscles and ligaments of the pelvic floor.
+
+#### Summary of the Five Regions
+
+| Region | Number of vertebrae before fusion | Location | Main function |
+|---|---:|---|---|
+| Cervical | 7 | Neck | Supports head and allows neck movement |
+| Thoracic | 12 | Chest | Articulates with ribs |
+| Lumbar | 5 | Lower back | Supports body weight |
+| Sacral | 5 | Pelvic region | Transfers body weight to pelvis |
+| Coccygeal | Usually 4 | Below sacrum | Provides muscle and ligament attachment |
+
+**Total: Usually 33 vertebrae before fusion.**
+
+**Memory aid:** C7 – T12 – L5 – S5 – Co4.
+
+#### Intervertebral Discs
+
+Intervertebral discs are pads of fibrocartilage located between most adjacent vertebral bodies.
+
+**Functions:**
+1. Absorb shock during movement.
+2. Reduce friction between vertebrae.
+3. Allow flexibility of the vertebral column.
+4. Distribute pressure between vertebrae.
+
+The discs are not found between every vertebra. For example, the fused sacral and coccygeal vertebrae do not have normal movable intervertebral discs between their fused segments.
+
+#### Functions of the Vertebral Column
+
+1. Supports the head and trunk.
+2. Protects the spinal cord inside the vertebral canal.
+3. Maintains body posture.
+4. Allows bending, extension and rotation of the trunk.
+5. Provides attachment points for muscles and ligaments.
+6. Transfers body weight to the pelvic girdle.
+
+### B. Appendicular Skeleton
+
+The appendicular skeleton consists of the bones of the limbs and the girdles that attach them to the axial skeleton.
+
+**Pectoral girdle**
+- Connects the upper limbs to the axial skeleton.
+- Consists mainly of the clavicle and scapula.
+
+**Upper limbs**
+- Humerus
+- Radius
+- Ulna
+- Carpals
+- Metacarpals
+- Phalanges
+
+**Pelvic girdle**
+- Connects the lower limbs to the axial skeleton.
+- Supports the weight of the upper body.
+- Protects some organs in the pelvic cavity.
+
+**Lower limbs**
+- Femur
+- Patella
+- Tibia
+- Fibula
+- Tarsals
+- Metatarsals
+- Phalanges
+
+### 4. Classification of Bones According to Shape
+
+Bones can be classified according to their shape.
+
+| Type of bone | Characteristics | Examples |
+|---|---|---|
+| Long bone | Longer than it is wide | Femur, humerus |
+| Short bone | Approximately cube-shaped | Carpals, tarsals |
+| Flat bone | Thin and often curved | Skull bones, sternum |
+| Irregular bone | Complex shape | Vertebra |
+| Sesamoid bone | Develops within a tendon | Patella |
+
+**Important distinction:** Cervical, thoracic and lumbar are regions of the vertebral column. Long, short, flat, irregular and sesamoid are classifications of bones according to shape. These are two different classification systems.
+
+### 5. Structure of a Long Bone
+
+A long bone such as the femur contains several important structures.
+
+**A. Epiphysis**
+- The enlarged end of a long bone.
+- Contains mainly spongy bone.
+- Helps form joints with other bones.
+
+**B. Diaphysis**
+- The shaft of the long bone.
+- Mainly consists of compact bone.
+- Provides strength and support.
+
+**C. Compact bone**
+- Dense and strong bone tissue.
+- Provides mechanical strength.
+- Forms much of the outer layer of bones.
+
+**D. Spongy bone**
+- Contains a network of bony structures called trabeculae.
+- Makes bones lighter while maintaining strength.
+- Often contains red bone marrow.
+
+**E. Bone marrow**
+- Red bone marrow produces blood cells.
+- Yellow bone marrow mainly stores fat.
+
+**F. Periosteum**
+- A tough connective tissue membrane covering the outer surface of bone, except at joint surfaces.
+- Contains blood vessels and nerves.
+- Helps with bone growth, repair and nourishment.
+
+**G. Articular cartilage**
+- Covers the ends of bones at joints.
+- Reduces friction.
+- Absorbs shock during movement.
+
+**H. Medullary cavity**
+- A cavity within the shaft of many long bones.
+- Contains yellow bone marrow in many adults.
+
+### 6. Bone Growth and Repair
+
+Bones are living tissues that can grow and repair themselves.
+
+**Bone growth:**
+- Lengthwise growth occurs at the epiphyseal plates during childhood and adolescence.
+- These plates contain cartilage cells that divide and are gradually replaced by bone tissue.
+- When growth is complete, the plates close and become epiphyseal lines.
+
+**Bone repair:**
+1. Blood vessels at the injured area may be damaged.
+2. A blood clot forms around the fracture.
+3. Repair cells form a soft callus.
+4. The soft callus is gradually replaced by a hard bony callus.
+5. Bone tissue is remodelled over time.
+
+The rate of repair depends on factors such as age, blood supply, nutrition and the severity of the injury.
+
+### 7. Cartilage
+
+Cartilage is a flexible connective tissue found in various parts of the body.
+
+**Functions:**
+- Reduces friction at joints.
+- Absorbs shock.
+- Provides flexible support.
+- Forms structures such as the nose and external ear.
+- Forms the early framework of many bones during development.
+
+Cartilage has no direct blood supply and receives nutrients by diffusion from surrounding tissues.
+
+### 8. Types of Joints
+
+A joint is a place where two or more bones meet.
+
+Joints can be classified according to the amount of movement they allow.
+
+**A. Immovable joints**
+- Do not allow significant movement.
+- Example: sutures between the bones of the skull.
+
+**B. Slightly movable joints**
+- Allow limited movement.
+- Example: joints between vertebral bodies, with intervertebral discs.
+
+**C. Freely movable joints**
+- Allow a wide range of movement.
+- Most are synovial joints.
+- Examples: shoulder, elbow, knee and hip.
+
+### 9. Structure of a Synovial Joint
+
+A synovial joint allows free movement between bones.
+
+**A. Articular cartilage**
+- Covers the ends of bones.
+- Reduces friction.
+- Absorbs shock.
+
+**B. Synovial membrane**
+- Lines the inner surface of the joint capsule.
+- Produces synovial fluid.
+
+**C. Synovial fluid**
+- Lubricates the joint.
+- Reduces friction between articular surfaces.
+- Helps nourish the cartilage.
+
+**D. Joint capsule**
+- Surrounds and encloses the joint.
+- Helps hold the bones together.
+
+**E. Ligaments**
+- Connect bone to bone.
+- Stabilise the joint.
+- Limit excessive movement.
+
+**F. Tendons**
+- Connect muscle to bone.
+- Transmit the force produced by muscle contraction.
+
+### 10. Types of Synovial Joints
+
+**A. Hinge joint**
+
+Allows movement mainly in one plane, such as bending and straightening.
+
+Examples:
+- Elbow
+- Knee
+- Interphalangeal joints of fingers
+
+**B. Ball-and-socket joint**
+
+Allows movement in many directions, including rotation.
+
+Examples:
+- Shoulder
+- Hip
+
+**C. Pivot joint**
+
+Allows rotation around an axis.
+
+Example:
+- Joint between the first and second cervical vertebrae, allowing rotation of the head.
+
+**D. Gliding joint**
+
+Allows bones to slide over one another through small movements.
+
+Examples:
+- Some joints between the carpal bones.
+- Some joints between the tarsal bones.
+
+### 11. Comparison of Hinge and Ball-and-Socket Joints
+
+| Feature | Hinge joint | Ball-and-socket joint |
+|---|---|---|
+| Movement | Mainly one plane | Several directions |
+| Movement examples | Flexion and extension | Flexion, extension, abduction, adduction and rotation |
+| Example | Elbow | Shoulder |
+| Structure | Rounded surface fits into a groove-like surface | Rounded head fits into a cup-shaped socket |
+
+### 12. Types of Muscle Tissue
+
+There are three main types of muscle tissue.
+
+**A. Skeletal muscle**
+- Attached to bones by tendons.
+- Usually under voluntary control.
+- Has a striated appearance.
+- Produces body movement and helps maintain posture.
+
+**B. Smooth muscle**
+- Found in walls of organs such as the intestines and blood vessels.
+- Involuntary.
+- Does not have visible striations.
+- Moves substances through internal organs.
+
+**C. Cardiac muscle**
+- Found in the wall of the heart.
+- Involuntary.
+- Striated and branched.
+- Contracts rhythmically to pump blood.
+
+### 13. Structure of Skeletal Muscle
+
+A skeletal muscle is made up of bundles of muscle fibres.
+
+**Organisation:**
+
+Whole muscle → Fascicles → Muscle fibres → Myofibrils → Sarcomeres → Actin and myosin filaments.
+
+**Important structures:**
+- Muscle fibre: a long muscle cell.
+- Myofibril: a structure inside a muscle fibre that contains repeating sarcomeres.
+- Sarcomere: the basic functional contractile unit of striated muscle.
+- Actin: thin protein filament.
+- Myosin: thick protein filament.
+
+### 14. Sliding Filament Theory
+
+The sliding filament theory explains how skeletal muscles contract.
+
+Muscle contraction occurs when actin filaments slide past myosin filaments, causing sarcomeres to shorten.
+
+**Main sequence:**
+
+1. A nerve impulse reaches the neuromuscular junction.
+2. Acetylcholine is released from the motor neurone.
+3. The muscle fibre membrane is stimulated.
+4. An electrical signal spreads along the muscle fibre.
+5. Calcium ions are released from the sarcoplasmic reticulum.
+6. Calcium ions bind to troponin.
+7. Tropomyosin moves away from the myosin-binding sites on actin.
+8. Myosin heads attach to actin and form cross-bridges.
+9. Myosin heads perform a power stroke, pulling actin filaments towards the centre of the sarcomere.
+10. ATP allows myosin to detach and reset for another cycle.
+11. Repeated cycles produce muscle contraction.
+
+When stimulation stops, calcium ions are transported back into the sarcoplasmic reticulum. The binding sites become covered again and the muscle relaxes.
+
+**Important facts:**
+- Actin and myosin filaments slide past one another.
+- The filaments themselves do not become shorter.
+- Sarcomeres shorten during contraction.
+- ATP is required for the cross-bridge cycle and calcium transport.
+
+### 15. Role of ATP in Muscle Contraction
+
+ATP supplies energy for muscle activity.
+
+ATP is needed to:
+1. Detach myosin heads from actin.
+2. Reset myosin heads for another contraction cycle.
+3. Transport calcium ions back into the sarcoplasmic reticulum during relaxation.
+
+Without sufficient ATP, normal muscle contraction and relaxation cannot occur.
+
+### 16. Antagonistic Muscles
+
+Skeletal muscles can only pull on bones. They cannot push bones.
+
+Therefore, muscles often work in pairs called antagonistic pairs.
+
+When one muscle contracts, the opposing muscle relaxes.
+
+**Example: Biceps and triceps at the elbow**
+
+**When the forearm bends (flexion):**
+- Biceps contracts.
+- Triceps relaxes.
+- The forearm moves towards the upper arm.
+
+**When the forearm straightens (extension):**
+- Triceps contracts.
+- Biceps relaxes.
+- The forearm moves away from the upper arm.
+
+| Movement | Biceps | Triceps |
+|---|---|---|
+| Flexion | Contracts | Relaxes |
+| Extension | Relaxes | Contracts |
+
+**Exam tip:** Always state which muscle contracts and which muscle relaxes.
+
+---
+
+## 14.3 Movement and Locomotion
+
+### 1. Meaning of Movement and Locomotion
+
+**Movement** is a change in the position of the whole body or part of the body.
+
+Examples:
+- Bending an arm.
+- Moving the head.
+- Blinking.
+
+**Locomotion** is movement that results in a change in the position of the entire organism from one place to another.
+
+Examples:
+- Walking
+- Running
+- Swimming
+- Flying
+
+All locomotion involves movement, but not all movement is locomotion.
+
+### 2. Movement in Humans
+
+Human movement is produced by the coordinated action of:
+- Bones
+- Joints
+- Skeletal muscles
+- Tendons
+- Ligaments
+- Nervous system
+
+**General sequence:**
+
+1. The nervous system sends a signal to a skeletal muscle.
+2. The muscle receives stimulation.
+3. The muscle contracts.
+4. The muscle pulls on its tendon.
+5. The tendon pulls on the bone.
+6. The bone moves around a joint.
+
+### 3. Flexion and Extension
+
+**Flexion**
+- Decreases the angle between two bones at a joint.
+- Example: bending the elbow.
+
+**Extension**
+- Increases the angle between two bones at a joint.
+- Example: straightening the elbow.
+
+### 4. Abduction and Adduction
+
+**Abduction**
+- Movement of a body part away from the midline of the body.
+- Example: raising an arm sideways away from the body.
+
+**Adduction**
+- Movement of a body part towards the midline of the body.
+- Example: lowering the arm back towards the body.
+
+### 5. Rotation
+
+Rotation is the movement of a bone around its own longitudinal axis.
+
+Examples:
+- Turning the head from side to side.
+- Rotating the upper arm at the shoulder.
+
+### 6. Movement at the Shoulder and Elbow
+
+**Shoulder joint:**
+- A ball-and-socket joint.
+- Allows movement in several directions.
+- Allows flexion, extension, abduction, adduction and rotation.
+
+**Elbow joint:**
+- A hinge joint.
+- Allows mainly flexion and extension.
+
+### 7. Movement and Locomotion in Animals
+
+Different animals have different adaptations for movement and locomotion.
+
+These adaptations depend on:
+- Habitat
+- Body structure
+- Type of skeleton
+- Muscles
+- Method of movement
+
+### A. Locomotion in Fish
+
+Fish move through water using their muscles, body shape and fins.
+
+**Adaptations:**
+
+1. Streamlined body reduces water resistance.
+2. Alternating contraction of muscles on both sides of the body produces side-to-side movement.
+3. The tail fin provides the main forward thrust in many fish.
+4. Other fins help with steering, stability and braking.
+5. Scales and mucus help reduce friction and protect the body.
+
+**Function of fins:**
+- Caudal fin: produces forward thrust.
+- Pectoral fins: help with steering, braking and changes in direction.
+- Pelvic fins: help with balance and manoeuvring.
+- Dorsal fin: helps prevent rolling.
+- Anal fin: helps stabilise the body.
+
+### B. Locomotion in Birds
+
+Birds are adapted for flight.
+
+**Adaptations:**
+
+1. Forelimbs are modified into wings.
+2. Flight feathers provide a broad surface for generating aerodynamic forces.
+3. A streamlined body reduces air resistance.
+4. Strong pectoral muscles power wing movements.
+5. Many bones are lightweight and contain air spaces.
+6. The sternum has a keel in many flying birds for attachment of flight muscles.
+7. Efficient respiratory and circulatory systems support the high energy demands of flight.
+
+**How flight occurs:**
+- Wing movements generate forces that support and propel the bird.
+- The shape and movement of the wings influence lift and thrust.
+- Tail feathers help with steering and balance.
+
+### C. Locomotion in Amphibians
+
+Amphibians such as frogs are adapted for movement on land and in water.
+
+**Adaptations in frogs:**
+- Strong hind limbs provide power for jumping.
+- Long hind feet help push against the ground.
+- Webbed feet help push water during swimming.
+- Flexible joints allow limb movement.
+
+### D. Locomotion in Terrestrial Mammals
+
+Terrestrial mammals use limbs to support body weight and move on land.
+
+Examples include humans, horses and cats.
+
+**Adaptations:**
+- Strong bones support body weight.
+- Skeletal muscles produce movement.
+- Joints allow flexible limb movement.
+- Tendons transfer muscle force to bones.
+- Limb structure differs according to the animal's movement and habitat.
+
+### 8. Comparison of Movement in Different Animals
+
+| Animal | Main movement adaptation |
+|---|---|
+| Earthworm | Alternating contraction of circular and longitudinal muscles against a hydrostatic skeleton |
+| Crab | Muscles attached to an external exoskeleton move jointed appendages |
+| Fish | Body muscles and fins produce swimming movement |
+| Bird | Wings and strong flight muscles support flight |
+| Frog | Powerful hind limbs support jumping and swimming |
+| Human | Bones, joints and antagonistic skeletal muscles produce movement |
+
+### 9. Importance of Locomotion
+
+Locomotion allows animals to:
+1. Find food.
+2. Escape from predators.
+3. Find suitable habitats.
+4. Find mates.
+5. Search for shelter.
+6. Reach suitable breeding sites.
+
+---
+
+## 14.4 Health Issues Related to the Human Musculoskeletal System
+
+### 1. Musculoskeletal Disorders
+
+Musculoskeletal disorders affect bones, muscles, joints, tendons, ligaments or other supporting structures.
+
+They may affect movement, strength, posture and daily activities.
+
+Examples include:
+- Osteoporosis
+- Arthritis
+- Osteoarthritis
+- Rheumatoid arthritis
+- Scoliosis
+- Muscular injuries
+- Tendon and ligament injuries
+
+### 2. Osteoporosis
+
+Osteoporosis is a condition in which bone density decreases and bones become more fragile.
+
+This increases the risk of fractures.
+
+**Factors associated with osteoporosis:**
+- Ageing
+- Reduced oestrogen levels after menopause
+- Insufficient calcium intake
+- Insufficient vitamin D
+- Lack of weight-bearing physical activity
+- Some medical conditions and medications
+- Family history
+
+**Possible effects:**
+- Increased risk of fractures.
+- Loss of height over time.
+- Back pain when vertebral fractures occur.
+- Reduced mobility after fractures.
+
+**Prevention and management:**
+1. Consume sufficient calcium.
+2. Maintain adequate vitamin D.
+3. Perform suitable weight-bearing and muscle-strengthening activities.
+4. Avoid smoking.
+5. Seek medical assessment when risk factors are present.
+
+### 3. Arthritis
+
+Arthritis refers to conditions that cause inflammation or damage in joints.
+
+It may cause:
+- Joint pain.
+- Stiffness.
+- Swelling.
+- Reduced movement.
+- Difficulty performing daily activities.
+
+There are different types of arthritis.
+
+### A. Osteoarthritis
+
+Osteoarthritis is a joint disease involving the gradual breakdown and changes of joint structures, especially articular cartilage.
+
+**What happens:**
+1. Articular cartilage becomes damaged and thinner.
+2. The joint surfaces become less well protected.
+3. Changes occur in the underlying bone and surrounding tissues.
+4. Joint movement may become painful and stiff.
+
+**Risk factors include:**
+- Increasing age.
+- Previous joint injury.
+- Excessive mechanical stress on a joint.
+- Certain genetic and developmental factors.
+
+**Management:**
+- Suitable physical activity.
+- Physiotherapy.
+- Weight management where medically appropriate.
+- Pain management under medical guidance.
+- Surgery in some severe cases.
+
+### B. Rheumatoid Arthritis
+
+Rheumatoid arthritis is an autoimmune disease in which the immune system attacks tissues in the joints.
+
+**What happens:**
+1. The immune system mistakenly attacks joint tissues.
+2. The synovial membrane becomes inflamed.
+3. Swelling and pain occur.
+4. Continued inflammation may damage cartilage and bone.
+5. Joint function may become reduced.
+
+It can affect several joints and may also affect other organs.
+
+**Management:**
+- Early medical diagnosis.
+- Medicines that control immune system activity.
+- Physiotherapy and suitable exercise.
+- Regular medical monitoring.
+
+### 4. Comparison Between Osteoarthritis and Rheumatoid Arthritis
+
+| Osteoarthritis | Rheumatoid arthritis |
+|---|---|
+| Involves gradual joint degeneration and structural changes | Autoimmune disease |
+| Articular cartilage is commonly affected | Synovial membrane is attacked by the immune system |
+| Risk increases with age and previous joint damage | Can occur at different ages |
+| Often affects weight-bearing joints | Commonly affects joints on both sides of the body |
+| Causes pain and stiffness | Causes inflammation, swelling, pain and stiffness |
+
+### 5. Scoliosis
+
+Scoliosis is an abnormal sideways curvature of the spine.
+
+It may develop during childhood or adolescence, although it can occur at other ages.
+
+**Possible signs:**
+- Uneven shoulders.
+- One shoulder blade appears more prominent.
+- Uneven waist.
+- One hip appears higher.
+- The spine curves sideways.
+
+Many cases have no clearly identified cause.
+
+**Management depends on severity:**
+- Monitoring for mild curves.
+- Bracing for some growing adolescents.
+- Surgery for selected severe or progressive cases.
+
+### 6. Muscle Cramps and Muscle Strains
+
+**Muscle cramp**
+- A sudden, involuntary contraction of a muscle.
+- Can cause temporary pain and stiffness.
+- May occur during or after physical activity.
+
+**Muscle strain**
+- An injury involving overstretching or tearing of muscle fibres or a muscle-tendon unit.
+- May cause pain, swelling and reduced movement.
+
+**General prevention:**
+- Warm up before strenuous exercise.
+- Increase exercise intensity gradually.
+- Use appropriate techniques.
+- Allow sufficient recovery.
+- Maintain suitable hydration.
+
+Persistent or severe symptoms should be assessed by a healthcare professional.
+
+### 7. Sprains and Ligament Injuries
+
+A sprain is an injury to a ligament, usually caused by stretching or twisting a joint beyond its normal range.
+
+Common locations include:
+- Ankle
+- Knee
+- Wrist
+
+**Possible symptoms:**
+- Pain.
+- Swelling.
+- Bruising.
+- Reduced joint movement.
+- Difficulty bearing weight.
+
+A suspected serious injury should be assessed by a healthcare professional.
+
+### 8. Tendon Injuries
+
+Tendons connect muscles to bones.
+
+A tendon injury may occur because of repeated overuse, sudden force or degeneration.
+
+Examples include tendinitis and tendon tears.
+
+**Possible effects:**
+- Pain during movement.
+- Tenderness.
+- Swelling.
+- Reduced strength or function.
+
+### 9. Importance of Maintaining a Healthy Musculoskeletal System
+
+1. Consume a balanced diet containing sufficient protein, calcium and vitamin D.
+2. Participate in regular suitable physical activity.
+3. Perform appropriate muscle-strengthening and weight-bearing exercises.
+4. Maintain good posture.
+5. Use suitable techniques when lifting objects.
+6. Warm up before strenuous activity.
+7. Allow adequate recovery after exercise.
+8. Avoid smoking.
+9. Seek medical advice for persistent pain or movement problems.
+
+---
+
+# Important Exam Comparisons
+
+## 1. Hydrostatic Skeleton, Exoskeleton and Endoskeleton
+
+| Hydrostatic skeleton | Exoskeleton | Endoskeleton |
+|---|---|---|
+| Fluid-filled cavity | External hard structure | Internal supporting structure |
+| Earthworm | Crab and insect | Human and fish |
+| Muscles act against fluid | Muscles pull on exoskeleton | Muscles pull on bones |
+| Flexible body support | Protection and support | Support and protection |
+
+## 2. Tendon vs Ligament
+
+| Tendon | Ligament |
+|---|---|
+| Connects muscle to bone | Connects bone to bone |
+| Transfers force from muscle to bone | Stabilises joints |
+| Helps produce movement | Helps prevent excessive joint movement |
+
+## 3. Flexion vs Extension
+
+| Flexion | Extension |
+|---|---|
+| Decreases angle between bones | Increases angle between bones |
+| Bending movement | Straightening movement |
+| Example: bending elbow | Example: straightening elbow |
+
+## 4. Skeletal, Smooth and Cardiac Muscles
+
+| Skeletal muscle | Smooth muscle | Cardiac muscle |
+|---|---|---|
+| Voluntary | Involuntary | Involuntary |
+| Striated | Non-striated | Striated |
+| Attached to bones | Walls of internal organs | Heart wall |
+| Produces body movement | Moves substances through organs | Pumps blood |
+
+## 5. Five Regions of the Vertebral Column
+
+| Region | Number | Main role |
+|---|---:|---|
+| Cervical | 7 | Supports head and allows neck movement |
+| Thoracic | 12 | Articulates with ribs |
+| Lumbar | 5 | Supports much of body weight |
+| Sacral | 5 fused | Connects vertebral column to pelvis |
+| Coccygeal | Usually 4 fused | Provides attachment for muscles and ligaments |
+
+---
+
+# Common Examination Mistakes
+
+1. **Confusing movement with locomotion:** Movement can involve only one body part, while locomotion changes the organism's location.
+2. **Confusing exoskeleton and endoskeleton:** Exoskeleton is external; endoskeleton is internal.
+3. **Saying an exoskeleton grows continuously:** Arthropods must moult to increase in size.
+4. **Confusing tendons and ligaments:** Tendons connect muscle to bone; ligaments connect bone to bone.
+5. **Saying muscles push bones:** Muscles contract and pull on bones.
+6. **Forgetting antagonistic muscle pairs:** One muscle contracts while the opposing muscle relaxes.
+7. **Confusing actin and myosin:** Both are protein filaments that interact during muscle contraction.
+8. **Saying actin and myosin become shorter:** They slide past one another; the sarcomere shortens.
+9. **Confusing flexion and extension:** Flexion decreases the angle; extension increases it.
+10. **Confusing osteoarthritis and rheumatoid arthritis:** Osteoarthritis involves joint degeneration; rheumatoid arthritis is autoimmune.
+11. **Confusing sprain and strain:** Sprain affects a ligament; strain affects a muscle or tendon.
+12. **Mixing up vertebral regions:** Remember C7, T12, L5, S5 and usually Co4.
+13. **Confusing the atlas and axis:** Atlas supports the skull; axis allows rotation of the head.
+14. **Confusing bone classification with vertebral regions:** Long, short, flat, irregular and sesamoid describe bone shapes, not spinal regions.
+
+---
+
+# SPM-Style Practice Questions
+
+## Section A: Structured Questions
+
+### Question 1: Types of Skeleton
+
+(a) Name THREE types of skeleton found in animals. [3 marks]
+
+(b) State ONE example of an animal for each type of skeleton. [3 marks]
+
+(c) Explain how an earthworm uses its hydrostatic skeleton for movement. [4 marks]
+
+(d) Explain why arthropods need to undergo moulting. [2 marks]
+
+### Question 2: Human Skeleton
+
+(a) State the TWO main divisions of the human skeleton. [2 marks]
+
+(b) Give TWO examples of bones in the axial skeleton. [2 marks]
+
+(c) State TWO functions of the human skeleton. [2 marks]
+
+(d) Explain the function of cartilage at a synovial joint. [2 marks]
+
+### Question 3: Vertebral Column
+
+(a) State the five regions of the vertebral column in order from top to bottom. [5 marks]
+
+(b) State the number of vertebrae in the cervical and thoracic regions. [2 marks]
+
+(c) Explain the functions of the atlas and axis. [4 marks]
+
+(d) State TWO functions of intervertebral discs. [2 marks]
+
+### Question 4: Joints and Muscles
+
+(a) Define a joint. [2 marks]
+
+(b) Name TWO types of synovial joints and give ONE example of each. [4 marks]
+
+(c) Explain the difference between a tendon and a ligament. [2 marks]
+
+(d) Describe the movement of the forearm during flexion at the elbow. [4 marks]
+
+### Question 5: Muscle Contraction
+
+(a) Name the TWO main protein filaments involved in skeletal muscle contraction. [2 marks]
+
+(b) State the role of calcium ions in muscle contraction. [2 marks]
+
+(c) Explain the sliding filament theory. [5 marks]
+
+(d) State TWO roles of ATP in muscle contraction and relaxation. [2 marks]
+
+### Question 6: Movement and Locomotion
+
+(a) Define movement and locomotion. [4 marks]
+
+(b) State TWO adaptations of fish for swimming. [2 marks]
+
+(c) Explain how the fins of fish help in movement. [3 marks]
+
+(d) State THREE adaptations of birds for flight. [3 marks]
+
+### Question 7: Musculoskeletal Health
+
+(a) Define osteoporosis. [2 marks]
+
+(b) State TWO risk factors associated with osteoporosis. [2 marks]
+
+(c) Explain the difference between osteoarthritis and rheumatoid arthritis. [4 marks]
+
+(d) State TWO ways to maintain a healthy musculoskeletal system. [2 marks]
+
+## Section B: Application and HOTS Questions
+
+### Question 8: Antagonistic Muscles
+
+A student bends the forearm towards the upper arm.
+
+(a) Name the movement. [1 mark]
+
+(b) State which muscle contracts and which muscle relaxes. [2 marks]
+
+(c) Explain why the biceps and triceps must work as an antagonistic pair. [2 marks]
+
+### Question 9: Arthropod Growth
+
+An insect sheds its old exoskeleton several times during its growth.
+
+(a) Name this process. [1 mark]
+
+(b) Explain why this process is necessary. [2 marks]
+
+(c) Explain why the insect may be more vulnerable immediately after shedding its old exoskeleton. [2 marks]
+
+### Question 10: Joint Structure
+
+A patient has damage to the articular cartilage in the knee joint.
+
+(a) State TWO functions of articular cartilage. [2 marks]
+
+(b) Explain how damage to this cartilage can affect movement. [3 marks]
+
+(c) Suggest TWO ways to help maintain joint health. [2 marks]
+
+### Question 11: Muscle Contraction
+
+During muscle contraction, ATP becomes available to the muscle fibres.
+
+(a) State the function of ATP in the cross-bridge cycle. [2 marks]
+
+(b) Explain why calcium ions are important in allowing myosin to bind to actin. [3 marks]
+
+(c) Predict what would happen to normal muscle relaxation if calcium ions could not be transported back into the sarcoplasmic reticulum. [2 marks]
+
+---
+
+# Suggested Answers
+
+## Question 1
+
+(a)
+- Hydrostatic skeleton
+- Exoskeleton
+- Endoskeleton
+
+(b)
+- Hydrostatic skeleton: earthworm.
+- Exoskeleton: crab or insect.
+- Endoskeleton: human or fish.
+
+(c)
+- Circular muscles contract and make the body segment longer and thinner.
+- Longitudinal muscles contract and make the body segment shorter and thicker.
+- The muscles act against fluid in the body cavity.
+- Coordinated contractions produce movement.
+
+(d)
+- The exoskeleton is rigid.
+- It cannot expand continuously as the animal grows.
+- Moulting allows the animal to increase in size.
+
+## Question 2
+
+(a)
+- Axial skeleton.
+- Appendicular skeleton.
+
+(b) Any two:
+- Skull
+- Vertebral column
+- Ribs
+- Sternum
+
+(c) Any two:
+- Supports the body.
+- Protects internal organs.
+- Provides attachment points for muscles.
+- Allows movement.
+- Produces blood cells.
+- Stores minerals.
+
+(d)
+- Reduces friction.
+- Absorbs shock during movement.
+
+## Question 3
+
+(a)
+- Cervical
+- Thoracic
+- Lumbar
+- Sacral
+- Coccygeal
+
+(b)
+- Cervical: 7 vertebrae.
+- Thoracic: 12 vertebrae.
+
+(c)
+- Atlas supports the skull.
+- Atlas allows the head to nod.
+- Axis has a projection called the dens.
+- The dens acts as a pivot for rotation of the head.
+
+(d) Any two:
+- Absorb shock.
+- Reduce friction.
+- Allow flexibility.
+- Distribute pressure between vertebrae.
+
+## Question 4
+
+(a) A joint is a place where two or more bones meet.
+
+(b) Any two:
+- Hinge joint: elbow or knee.
+- Ball-and-socket joint: shoulder or hip.
+- Pivot joint: joint between the first and second cervical vertebrae.
+- Gliding joint: some joints between carpal bones.
+
+(c)
+- Tendon connects muscle to bone.
+- Ligament connects bone to bone.
+
+(d)
+- Biceps contracts.
+- Triceps relaxes.
+- The biceps pulls on the forearm through its tendon.
+- The forearm moves towards the upper arm and the angle at the elbow decreases.
+
+## Question 5
+
+(a)
+- Actin
+- Myosin
+
+(b)
+- Calcium ions bind to troponin.
+- This causes tropomyosin to move and expose the myosin-binding sites on actin.
+
+(c)
+- Calcium ions bind to troponin.
+- Tropomyosin moves away from the binding sites on actin.
+- Myosin heads attach to actin and form cross-bridges.
+- Myosin heads pull actin filaments towards the centre of the sarcomere.
+- Repeated cross-bridge cycles cause the sarcomere to shorten.
+
+(d) Any two:
+- ATP allows myosin heads to detach from actin.
+- ATP provides energy to reset myosin heads.
+- ATP supplies energy for calcium transport back into the sarcoplasmic reticulum.
+
+## Question 6
+
+(a)
+- Movement: a change in position of the whole body or a body part.
+- Locomotion: movement that changes the position of the whole organism from one place to another.
+
+(b) Any two:
+- Streamlined body reduces water resistance.
+- Strong body muscles produce side-to-side movement.
+- Fins help with thrust, steering and stability.
+
+(c)
+- Caudal fin provides forward thrust.
+- Pectoral and pelvic fins help with steering and balance.
+- Dorsal and anal fins help stabilise the body.
+
+(d) Any three:
+- Forelimbs are modified into wings.
+- Flight feathers provide a broad aerodynamic surface.
+- Strong pectoral muscles power wing movements.
+- Streamlined body reduces air resistance.
+- Lightweight bones reduce body mass.
+
+## Question 7
+
+(a) Osteoporosis is a condition in which bone density decreases, making bones more fragile and increasing fracture risk.
+
+(b) Any two:
+- Ageing
+- Reduced oestrogen levels
+- Insufficient calcium intake
+- Insufficient vitamin D
+- Lack of weight-bearing exercise
+- Family history
+
+(c)
+- Osteoarthritis involves gradual degeneration and changes in joint structures.
+- It commonly affects articular cartilage.
+- Rheumatoid arthritis is an autoimmune disease.
+- The immune system attacks joint tissues, causing inflammation and possible damage.
+
+(d) Any two:
+- Consume sufficient calcium and vitamin D.
+- Perform suitable weight-bearing exercise.
+- Maintain good posture.
+- Avoid smoking.
+- Participate in regular suitable physical activity.
+
+## Question 8
+
+(a) Flexion.
+
+(b)
+- Biceps contracts.
+- Triceps relaxes.
+
+(c)
+- Muscles can only pull on bones.
+- Antagonistic pairs allow movement in opposite directions by alternating contraction and relaxation.
+
+## Question 9
+
+(a) Moulting or ecdysis.
+
+(b)
+- The exoskeleton is rigid.
+- It cannot expand continuously as the animal grows.
+- Shedding allows the animal to increase in size.
+
+(c)
+- The new exoskeleton is initially soft.
+- It has not yet hardened and provides less protection.
+
+## Question 10
+
+(a)
+- Reduces friction.
+- Absorbs shock.
+
+(b)
+- Damaged cartilage provides less protection between bone surfaces.
+- Friction and mechanical stress may increase.
+- Joint movement may become painful and less smooth.
+
+(c) Any two:
+- Maintain suitable physical activity.
+- Avoid excessive repetitive joint stress.
+- Use suitable exercise techniques.
+- Seek medical advice for persistent joint pain.
+
+## Question 11
+
+(a)
+- ATP binds to the myosin head and allows it to detach from actin.
+- ATP hydrolysis provides energy to reset the myosin head.
+
+(b)
+- Calcium ions are released from the sarcoplasmic reticulum.
+- Calcium ions bind to troponin.
+- Tropomyosin moves away from the binding sites on actin, allowing myosin to attach.
+
+(c)
+- Calcium ions would remain in the cytoplasm at an abnormally high level.
+- The binding sites may remain exposed, making normal muscle relaxation difficult.
+
+---
+
+# Chapter 14 Final Revision Checklist
+
+Before your examination, make sure you can:
+
+- [ ] Define a skeleton and state its functions.
+- [ ] Explain hydrostatic skeletons, exoskeletons and endoskeletons.
+- [ ] Compare the three types of skeleton.
+- [ ] Explain moulting in arthropods.
+- [ ] Identify the axial and appendicular skeletons.
+- [ ] Name the five regions of the vertebral column in order.
+- [ ] State the number of cervical, thoracic, lumbar, sacral and coccygeal vertebrae.
+- [ ] Explain the functions of the atlas and axis.
+- [ ] Explain the functions of intervertebral discs.
+- [ ] Describe the structure of a long bone.
+- [ ] Explain the functions of cartilage, ligaments and tendons.
+- [ ] Identify the different types of synovial joints.
+- [ ] Explain the structure and function of skeletal muscles.
+- [ ] Describe the sliding filament theory.
+- [ ] Explain the roles of actin, myosin, calcium ions and ATP.
+- [ ] Explain antagonistic muscle pairs.
+- [ ] Differentiate movement from locomotion.
+- [ ] Explain adaptations for movement in fish, birds and other animals.
+- [ ] Compare osteoporosis, osteoarthritis and rheumatoid arthritis.
+- [ ] Explain scoliosis, sprains, strains and tendon injuries.
+
+**Core idea to remember:** The musculoskeletal system works through the coordination of bones, joints, muscles, tendons and ligaments. Muscles contract and pull on bones, while joints allow controlled movement.
