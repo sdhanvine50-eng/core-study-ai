@@ -1,0 +1,1047 @@
+# BIOLOGY FORM 5 — CHAPTER 3
+
+# NUTRITION IN PLANTS
+
+**SUBJECT:** Biology  
+**FORM:** Form 5  
+**CHAPTER:** Chapter 3  
+**CHAPTER TITLE:** Nutrition in Plants  
+**TOPICS:** 3.1, 3.2, 3.3  
+**SOURCE TYPE:** Original Learning Material  
+**STATUS:** Original Educational Content
+
+---
+
+# 3.1 MAIN INORGANIC NUTRIENTS
+
+## 3.1.1 INTRODUCTION TO PLANT NUTRITION
+
+Plant nutrition is the process by which plants obtain and use nutrients required for growth, development and normal cellular activities.
+
+Green plants are generally autotrophs because they can produce organic substances through photosynthesis.
+
+However, plants also require inorganic nutrients from their environment.
+
+The main inorganic nutrients required by plants include:
+
+1. Water.
+2. Mineral salts.
+3. Carbon dioxide.
+
+Water and mineral ions are mainly absorbed from the soil through the roots, while carbon dioxide enters leaves through stomata.
+
+Mineral nutrients are essential for:
+
+- Formation of proteins and nucleic acids.
+- Chlorophyll production.
+- Enzyme activity.
+- Cell division and growth.
+- Development of roots, stems and leaves.
+- Maintenance of normal cellular functions.
+
+## 3.1.2 MACRONUTRIENTS AND MICRONUTRIENTS
+
+Mineral nutrients can be classified into two groups according to the quantity required by plants.
+
+**A. MACRONUTRIENTS**
+
+Macronutrients are mineral elements required by plants in relatively large quantities.
+
+Examples include:
+
+- Nitrogen (N).
+- Phosphorus (P).
+- Potassium (K).
+- Calcium (Ca).
+- Magnesium (Mg).
+- Sulphur (S).
+
+**B. MICRONUTRIENTS**
+
+Micronutrients are mineral elements required by plants in very small quantities.
+
+Examples include:
+
+- Iron (Fe).
+- Manganese (Mn).
+- Zinc (Zn).
+- Copper (Cu).
+- Boron (B).
+- Molybdenum (Mo).
+- Chlorine (Cl).
+- Nickel (Ni).
+
+IMPORTANT:
+
+Micronutrients are required in small quantities, but they are still essential. A deficiency can affect normal plant growth and development.
+
+## 3.1.3 FUNCTIONS OF IMPORTANT MACRONUTRIENTS
+
+**A. NITROGEN (N)**
+
+Plants mainly absorb nitrogen in the form of nitrate ions (NO₃⁻) and ammonium ions (NH₄⁺).
+
+Functions:
+
+1. Required for the synthesis of amino acids.
+2. Needed for protein formation.
+3. Required for the formation of nucleic acids such as DNA and RNA.
+4. Important for chlorophyll production.
+5. Supports vegetative growth, including the development of leaves and stems.
+
+**Symptoms of nitrogen deficiency:**
+
+- Older leaves become yellow.
+- Plant growth becomes stunted.
+- Leaves may become smaller.
+- Overall plant development is reduced.
+
+Explanation:
+
+Nitrogen is needed to produce proteins and chlorophyll. When nitrogen is insufficient, chlorophyll production and normal growth are affected.
+
+**B. PHOSPHORUS (P)**
+
+Plants mainly absorb phosphorus in the form of phosphate ions.
+
+Functions:
+
+1. Required for the formation of ATP.
+2. Forms part of nucleic acids such as DNA and RNA.
+3. Forms part of phospholipids in cell membranes.
+4. Supports root development.
+5. Important for energy transfer and metabolic reactions.
+
+**Symptoms of phosphorus deficiency:**
+
+- Poor root development.
+- Stunted growth.
+- Older leaves may develop a dark green or purplish colour.
+- Delayed flowering and development may occur.
+
+Explanation:
+
+Phosphorus is important for ATP formation and energy transfer. A shortage can affect growth and the development of roots and reproductive structures.
+
+**C. POTASSIUM (K)**
+
+Plants absorb potassium in the form of potassium ions (K⁺).
+
+Functions:
+
+1. Activates many enzymes.
+2. Helps regulate osmotic balance in cells.
+3. Important for stomatal opening and closing.
+4. Supports photosynthesis and other metabolic activities.
+5. Helps maintain normal plant growth.
+
+**Symptoms of potassium deficiency:**
+
+- Yellowing at the edges of older leaves.
+- Brown or scorched-looking leaf margins.
+- Weak stems.
+- Poor growth.
+
+Explanation:
+
+Potassium is important for enzyme activation and water regulation. A deficiency affects normal metabolic activities and may cause damage to leaf margins.
+
+**D. CALCIUM (Ca)**
+
+Plants absorb calcium in the form of calcium ions (Ca²⁺).
+
+Functions:
+
+1. Important for cell wall formation.
+2. Helps stabilise cell membranes.
+3. Involved in cell signalling.
+4. Supports the development of growing tissues.
+5. Important for normal root and shoot development.
+
+**Symptoms of calcium deficiency:**
+
+- Damage to growing root tips.
+- Deformed young leaves.
+- Poor development of shoot tips.
+- Growing regions may become damaged or die.
+
+Explanation:
+
+Calcium is important for the development and stability of cell structures. Young tissues are particularly affected when calcium is insufficient.
+
+**E. MAGNESIUM (Mg)**
+
+Plants absorb magnesium in the form of magnesium ions (Mg²⁺).
+
+Functions:
+
+1. Forms the central atom of the chlorophyll molecule.
+2. Required for chlorophyll formation and function.
+3. Activates several enzymes.
+4. Supports photosynthesis.
+5. Involved in phosphate metabolism.
+
+**Symptoms of magnesium deficiency:**
+
+- Yellowing between the veins of older leaves.
+- Leaf veins may remain green while surrounding tissues become yellow.
+- Severe deficiency may cause leaf damage.
+
+Explanation:
+
+Magnesium is part of chlorophyll. A shortage affects chlorophyll function and reduces the plant's ability to photosynthesise.
+
+**F. SULPHUR (S)**
+
+Plants mainly absorb sulphur in the form of sulphate ions (SO₄²⁻).
+
+Functions:
+
+1. Required for the synthesis of certain amino acids.
+2. Needed for protein formation.
+3. Forms part of some vitamins and coenzymes.
+4. Supports normal metabolic activities.
+
+**Symptoms of sulphur deficiency:**
+
+- Yellowing of young leaves.
+- Reduced growth.
+- Smaller leaves.
+- Poor protein synthesis.
+
+Explanation:
+
+Sulphur is required to produce certain amino acids. A shortage affects protein formation and normal growth.
+
+## 3.1.4 FUNCTIONS OF IMPORTANT MICRONUTRIENTS
+
+**A. IRON (Fe)**
+
+Functions:
+
+1. Required for chlorophyll synthesis.
+2. Involved in electron transport during photosynthesis and respiration.
+3. Supports enzyme activity.
+
+Deficiency symptoms:
+
+- Interveinal chlorosis, especially in young leaves.
+- Leaves become yellow while veins may remain green.
+
+**B. MANGANESE (Mn)**
+
+Functions:
+
+1. Involved in enzyme activation.
+2. Required for normal photosynthetic activity.
+3. Supports the light-dependent reactions of photosynthesis.
+
+Deficiency symptoms:
+
+- Interveinal chlorosis.
+- Small brown spots may develop on leaves.
+
+**C. ZINC (Zn)**
+
+Functions:
+
+1. Required for the activity of several enzymes.
+2. Involved in the production and regulation of plant growth hormones.
+3. Supports normal growth and development.
+
+Deficiency symptoms:
+
+- Shortened internodes.
+- Small leaves.
+- Stunted growth.
+
+**D. COPPER (Cu)**
+
+Functions:
+
+1. Required for the activity of certain enzymes.
+2. Involved in electron transport.
+3. Supports normal plant metabolism.
+
+Deficiency symptoms:
+
+- Young leaves may become distorted.
+- Shoot tips may become damaged.
+- Growth may be reduced.
+
+**E. BORON (B)**
+
+Functions:
+
+1. Important for cell wall development.
+2. Supports cell division and growth.
+3. Important for pollen development and reproductive processes.
+4. Supports the development of growing tissues.
+
+Deficiency symptoms:
+
+- Death or damage of growing points.
+- Deformed young leaves.
+- Poor root development.
+- Reproductive development may be affected.
+
+**F. MOLYBDENUM (Mo)**
+
+Functions:
+
+1. Required by enzymes involved in nitrogen metabolism.
+2. Important for nitrate reduction.
+3. Supports nitrogen utilisation.
+
+Deficiency symptoms:
+
+- Reduced growth.
+- Yellowing of leaves.
+- Symptoms may resemble nitrogen deficiency.
+
+## 3.1.5 COMPARISON OF IMPORTANT MINERAL NUTRIENTS
+
+| Mineral nutrient | Main function | Common deficiency symptoms |
+|---|---|---|
+| Nitrogen | Amino acids, proteins and chlorophyll | Yellowing of older leaves, stunted growth |
+| Phosphorus | ATP, nucleic acids and root development | Poor root growth, purplish older leaves |
+| Potassium | Enzyme activation and stomatal regulation | Yellow or scorched leaf margins |
+| Calcium | Cell walls, membranes and growing tissues | Damaged root tips and young leaves |
+| Magnesium | Component of chlorophyll | Interveinal chlorosis in older leaves |
+| Sulphur | Certain amino acids and proteins | Yellowing of young leaves |
+| Iron | Chlorophyll synthesis and electron transport | Interveinal chlorosis in young leaves |
+| Zinc | Enzyme activity and growth regulation | Small leaves and shortened internodes |
+| Boron | Cell wall development and growing tissues | Damaged growing points |
+
+IMPORTANT:
+
+Deficiency symptoms can overlap. The location and pattern of yellowing may help identify the nutrient involved, but symptoms alone are not always enough for a definite diagnosis.
+
+## 3.1.6 WHY ARE MINERAL NUTRIENTS IMPORTANT?
+
+Mineral nutrients are required because plants cannot complete normal growth and development without them.
+
+For example:
+
+- Without nitrogen, protein synthesis is affected.
+- Without magnesium, chlorophyll function is affected.
+- Without phosphorus, ATP formation and energy transfer are affected.
+- Without calcium, developing cell walls and growing tissues are affected.
+- Without potassium, enzyme activity and stomatal regulation may be disrupted.
+
+## 3.1.7 EXAM TIPS
+
+**Question: Explain why nitrogen is important for plant growth.**
+
+Suggested answer:
+
+1. Nitrogen is required for amino acid synthesis.
+2. Amino acids are used to form proteins.
+3. Proteins are needed for the formation of enzymes and cellular structures.
+4. Therefore, nitrogen supports normal growth and development.
+
+**Question: Explain why magnesium deficiency affects photosynthesis.**
+
+Suggested answer:
+
+1. Magnesium forms the central atom of chlorophyll.
+2. Chlorophyll absorbs light energy.
+3. Insufficient magnesium affects chlorophyll production or function.
+4. The rate of photosynthesis may decrease.
+
+**Question: Differentiate between macronutrients and micronutrients.**
+
+Suggested answer:
+
+Macronutrients are mineral elements required by plants in relatively large quantities, whereas micronutrients are mineral elements required in very small quantities.
+
+---
+
+# 3.2 ORGAN FOR WATER AND MINERAL SALT UPTAKE
+
+## 3.2.1 ROOTS AS THE MAIN ORGAN FOR WATER AND MINERAL SALT UPTAKE
+
+Roots are the main plant organs responsible for absorbing water and mineral ions from the soil.
+
+The outer surface of young roots contains many root hair cells.
+
+Root hairs increase the surface area available for absorption.
+
+Water and mineral ions are absorbed from the soil solution and transported towards the xylem.
+
+The xylem then transports water and mineral salts to the stems and leaves.
+
+## 3.2.2 STRUCTURE OF A ROOT HAIR CELL
+
+A root hair cell is a specialised epidermal cell found near the growing region of a root.
+
+Characteristics:
+
+1. Has a long, narrow projection called a root hair.
+2. Has a thin cell wall.
+3. Has a large surface area relative to its volume.
+4. Contains a cell membrane.
+5. Contains cytoplasm and a nucleus.
+6. Has a large vacuole containing cell sap.
+7. Contains many mitochondria to provide energy for active transport.
+
+## 3.2.3 ADAPTATIONS OF ROOT HAIR CELLS
+
+| Adaptation | Importance |
+|---|---|
+| Long root hair | Increases surface area for absorption |
+| Thin cell wall | Shortens the diffusion pathway |
+| Large vacuole | Helps maintain a low water potential in the cell |
+| Many mitochondria | Supply ATP for active transport of mineral ions |
+| Numerous root hairs | Increase total contact with soil particles |
+
+These adaptations make root hair cells effective at absorbing water and mineral ions.
+
+## 3.2.4 ABSORPTION OF WATER BY ROOT HAIR CELLS
+
+Water enters root hair cells mainly by osmosis.
+
+Osmosis is the net movement of water molecules from a region of higher water potential to a region of lower water potential through a selectively permeable membrane.
+
+**MECHANISM OF WATER ABSORPTION:**
+
+1. Soil water usually has a higher water potential than the cell sap inside the root hair cell.
+2. Water moves from the soil solution towards the root hair cell.
+3. Water passes through the selectively permeable cell membrane by osmosis.
+4. Water enters the cytoplasm and vacuole.
+5. The root hair cell becomes more turgid.
+
+The movement of water depends on the water potential gradient between the soil and the root cells.
+
+IMPORTANT:
+
+If the soil becomes very dry or contains a high concentration of dissolved salts, its water potential may become too low for efficient water absorption.
+
+## 3.2.5 ABSORPTION OF MINERAL IONS BY ROOT HAIR CELLS
+
+Mineral ions are absorbed through the cell membrane by different transport mechanisms.
+
+These include:
+
+1. Diffusion.
+2. Active transport.
+
+**A. DIFFUSION**
+
+Diffusion is the net movement of particles from a region of higher concentration to a region of lower concentration.
+
+When mineral ion concentration is higher in the soil solution than inside the root hair cell, some ions can enter by diffusion through suitable membrane transport proteins.
+
+Diffusion does not require ATP.
+
+**B. ACTIVE TRANSPORT**
+
+Active transport is the movement of substances across a cell membrane against their concentration gradient using energy.
+
+Mechanism:
+
+1. Mineral ion concentration in the soil may be lower than inside the root hair cell.
+2. Mineral ions need to move against their concentration gradient.
+3. Specific transport proteins in the cell membrane help move the ions.
+4. Energy from ATP is required.
+5. Mineral ions accumulate inside the root hair cell.
+
+Mitochondria provide ATP needed for active transport.
+
+## 3.2.6 DIFFERENCES BETWEEN OSMOSIS, DIFFUSION AND ACTIVE TRANSPORT
+
+| Process | Direction of movement | Energy required? |
+|---|---|---|
+| Osmosis | Water moves from higher water potential to lower water potential | No direct ATP required |
+| Diffusion | Particles move down their concentration gradient | No |
+| Active transport | Substances move against their concentration gradient | Yes, ATP required |
+
+IMPORTANT:
+
+Osmosis specifically refers to water movement through a selectively permeable membrane. It should not be used to describe the absorption of mineral ions.
+
+## 3.2.7 MOVEMENT OF WATER THROUGH ROOT TISSUES
+
+After entering root hair cells, water moves across the root towards the xylem.
+
+There are two main pathways:
+
+**A. APOPLAST PATHWAY**
+
+The apoplast pathway is the movement of water through cell walls and intercellular spaces.
+
+Characteristics:
+
+- Water moves outside the plasma membranes.
+- Water travels through cell walls and spaces between cells.
+- It provides a pathway through root tissues.
+
+**B. SYMPLAST PATHWAY**
+
+The symplast pathway is the movement of water through the cytoplasm of cells connected by plasmodesmata.
+
+Characteristics:
+
+- Water enters the cytoplasm through the plasma membrane.
+- It moves from one cell to another through plasmodesmata.
+- It travels through the connected cytoplasm of root cells.
+
+**THE ROLE OF THE ENDODERMIS**
+
+The endodermis is a layer of cells surrounding the vascular cylinder of the root.
+
+It contains a waterproof band called the Casparian strip.
+
+Functions:
+
+1. Blocks uncontrolled movement of water through the cell walls.
+2. Forces water and dissolved mineral ions to pass through cell membranes at the endodermis.
+3. Helps regulate which substances enter the vascular tissues.
+
+After crossing the endodermis, water enters the vascular tissues and eventually reaches the xylem.
+
+## 3.2.8 TRANSPORT OF WATER AND MINERAL SALTS TO THE LEAVES
+
+Water and dissolved mineral ions enter the xylem in the roots.
+
+They are transported upwards through the xylem vessels.
+
+The upward movement of water is supported by:
+
+1. Transpiration pull.
+2. Cohesion between water molecules.
+3. Adhesion between water molecules and xylem walls.
+4. Root pressure, which may contribute under certain conditions.
+
+Transpiration pull is generally the major force responsible for upward water transport in many terrestrial plants.
+
+## 3.2.9 IMPORTANCE OF WATER ABSORPTION
+
+Water is important because it:
+
+1. Acts as a solvent for metabolic reactions.
+2. Is a raw material for photosynthesis.
+3. Maintains cell turgidity.
+4. Supports plant growth.
+5. Helps transport dissolved mineral ions.
+6. Helps regulate plant temperature through transpiration.
+
+## 3.2.10 IMPORTANCE OF MINERAL SALT ABSORPTION
+
+Mineral ions are needed for:
+
+1. Formation of proteins and nucleic acids.
+2. Chlorophyll production.
+3. Enzyme activation.
+4. Cell division and growth.
+5. Development of roots, stems and leaves.
+6. Normal metabolic activities.
+
+## 3.2.11 EXAM TIPS
+
+**Question: Explain how root hair cells are adapted for water absorption.**
+
+Suggested answer:
+
+1. Root hair cells have long projections that increase surface area.
+2. Their cell walls are thin, allowing a short pathway for water movement.
+3. Their large vacuoles help maintain a water potential gradient.
+4. Water enters through the selectively permeable membrane by osmosis.
+
+**Question: Explain why root hair cells contain many mitochondria.**
+
+Suggested answer:
+
+1. Mineral ions may need to be absorbed against their concentration gradient.
+2. Active transport is required.
+3. Active transport requires ATP.
+4. Mitochondria produce ATP through cellular respiration.
+
+**Question: Explain how mineral ions can enter root hair cells when their concentration is lower in the soil than inside the cells.**
+
+Suggested answer:
+
+1. Mineral ions move against their concentration gradient.
+2. Specific transport proteins in the membrane transport the ions.
+3. Energy from ATP is required.
+4. This process is called active transport.
+
+---
+
+# 3.3 DIVERSITY IN PLANT NUTRITION
+
+## 3.3.1 INTRODUCTION TO DIVERSITY IN PLANT NUTRITION
+
+Most green plants are autotrophs because they produce organic substances through photosynthesis.
+
+However, not all plants obtain nutrients in exactly the same way.
+
+Some plants have special adaptations that allow them to obtain nutrients from other organisms or from unusual environments.
+
+Examples include:
+
+1. Insectivorous plants.
+2. Parasitic plants.
+3. Mycoheterotrophic plants.
+4. Epiphytic plants.
+
+These adaptations help plants survive in environments where particular nutrients or resources may be limited.
+
+## 3.3.2 AUTOTROPHIC PLANTS
+
+Autotrophic plants produce organic substances from inorganic substances through photosynthesis.
+
+They use:
+
+- Carbon dioxide from the atmosphere.
+- Water from the soil.
+- Mineral ions from the soil.
+- Light energy from the Sun.
+
+Examples:
+
+- Grass.
+- Hibiscus.
+- Mango trees.
+- Most green flowering plants.
+
+Autotrophic plants form the base of many food chains because they produce organic substances that support other organisms.
+
+## 3.3.3 INSECTIVOROUS PLANTS
+
+Insectivorous plants are plants that trap and digest insects or other small animals to obtain nutrients, especially nitrogen.
+
+They usually grow in habitats where the soil contains insufficient available nitrogen.
+
+IMPORTANT:
+
+Insectivorous plants still carry out photosynthesis. They do not obtain all their food energy from insects.
+
+The trapped animals mainly provide mineral nutrients.
+
+**A. PITCHER PLANT**
+
+The pitcher plant has modified leaves that form pitcher-shaped structures.
+
+<figure>
+  <figcaption>Illustration reference: pitcher plant and its modified leaf trap.</figcaption>
+</figure>
+
+Adaptations:
+
+1. Leaves are modified into pitcher-shaped traps.
+2. The rim may produce nectar that attracts insects.
+3. The inner surface may be slippery.
+4. Insects fall into the pitcher.
+5. Digestive fluids break down the trapped organisms.
+6. Nutrients are absorbed by the pitcher tissues.
+
+Functions:
+
+- Obtains nitrogen and other mineral nutrients.
+- Helps the plant survive in nutrient-poor soil.
+
+**B. VENUS FLYTRAP**
+
+The Venus flytrap has modified leaves with two lobes that can close rapidly.
+
+Adaptations:
+
+1. The leaf lobes form a trap.
+2. Trigger hairs detect the presence of prey.
+3. When suitable stimulation occurs, the lobes close.
+4. The trapped organism is digested by enzymes.
+5. Nutrients are absorbed by the leaf.
+
+**C. SUNDEW**
+
+Sundew plants have leaves covered with glandular hairs.
+
+Adaptations:
+
+1. Glandular hairs produce sticky secretions.
+2. Small insects become trapped.
+3. The leaf may bend around the prey.
+4. Digestive enzymes break down the trapped organism.
+5. Nutrients are absorbed.
+
+## 3.3.4 PARASITIC PLANTS
+
+Parasitic plants obtain some or all of their nutrients from another living plant called the host.
+
+They attach to the host using specialised structures called haustoria.
+
+Haustoria penetrate host tissues and establish connections with the host's transport tissues.
+
+Parasitic plants can be divided into two main groups.
+
+**A. HOLOPARASITES**
+
+Holoparasites depend almost completely on their host for organic nutrients.
+
+They generally contain little or no chlorophyll and cannot carry out sufficient photosynthesis to meet their nutritional requirements.
+
+Example: *Rafflesia*.
+
+Characteristics:
+
+- Obtains organic nutrients from a host.
+- Has greatly reduced vegetative structures.
+- Depends on the host for nutrition.
+
+**B. HEMIPARASITES**
+
+Hemiparasites contain chlorophyll and can carry out photosynthesis.
+
+However, they obtain water and mineral nutrients from their host through specialised connections.
+
+Example: mistletoe.
+
+Characteristics:
+
+- Contains chlorophyll.
+- Can photosynthesise.
+- Obtains water and mineral salts from a host.
+- Depends on another plant for some resources.
+
+## 3.3.5 MYCOHETEROTROPHIC PLANTS
+
+Mycoheterotrophic plants obtain organic nutrients through associations with fungi.
+
+The fungi are connected to the roots of other plants, and nutrients can be transferred through the fungal network.
+
+Some mycoheterotrophic plants have little or no chlorophyll and do not depend on photosynthesis for their organic carbon supply.
+
+Characteristics:
+
+1. Depend on fungal partners for organic nutrients.
+2. Often grow in shaded forest environments.
+3. May have reduced leaves and chlorophyll.
+4. Obtain nutrients through fungal associations.
+
+IMPORTANT:
+
+Mycoheterotrophic plants should not be confused with ordinary parasitic plants that directly attach to the vascular tissues of another plant.
+
+## 3.3.6 EPIPHYTIC PLANTS
+
+Epiphytes are plants that grow on the surfaces of other plants, usually trees, for physical support.
+
+They are not necessarily parasites.
+
+They generally obtain water and mineral nutrients from rain, dust, decaying organic matter and the surrounding environment.
+
+Example: many orchids and epiphytic ferns.
+
+Adaptations:
+
+1. Aerial roots may absorb water from the atmosphere.
+2. Some roots have specialised outer tissues that absorb and retain water.
+3. Leaves may have adaptations that reduce water loss.
+4. Their position on tree branches allows access to sunlight.
+
+IMPORTANT:
+
+An epiphyte uses another plant as physical support but does not necessarily obtain nutrients directly from that host.
+
+## 3.3.7 COMPARISON OF PLANT NUTRITION TYPES
+
+| Plant type | Main source of organic nutrients | Relationship with other organisms |
+|---|---|---|
+| Autotrophic plant | Produces organic substances through photosynthesis | Generally independent for organic food production |
+| Insectivorous plant | Photosynthesis; obtains extra mineral nutrients from trapped animals | Captures and digests small animals |
+| Holoparasite | Obtains organic nutrients from a host plant | Strong dependence on host |
+| Hemiparasite | Photosynthesis, with water and mineral nutrients from a host | Partially dependent on host |
+| Mycoheterotroph | Obtains organic nutrients through fungi | Depends on fungal association |
+| Epiphyte | Photosynthesis; water and minerals from surroundings | Uses another plant mainly for support |
+
+## 3.3.8 WHY DO SOME PLANTS HAVE SPECIALISED NUTRITIONAL ADAPTATIONS?
+
+Different environments provide different levels of nutrients and resources.
+
+For example:
+
+- Insectivorous plants may grow in nitrogen-poor soils.
+- Parasitic plants obtain nutrients from host plants.
+- Mycoheterotrophic plants obtain organic nutrients through fungi.
+- Epiphytes grow above the forest floor to obtain better access to light.
+
+These adaptations increase the ability of plants to survive in particular habitats.
+
+## 3.3.9 EXAM TIPS
+
+**Question: Explain why insectivorous plants trap insects even though they can photosynthesise.**
+
+Suggested answer:
+
+1. Insectivorous plants often grow in soil with low nitrogen availability.
+2. They trap and digest insects.
+3. Digestion releases nitrogen-containing mineral nutrients.
+4. These nutrients are absorbed and used for growth and protein synthesis.
+
+**Question: Differentiate between holoparasites and hemiparasites.**
+
+Suggested answer:
+
+1. Holoparasites depend on their hosts for organic nutrients and generally cannot photosynthesise sufficiently.
+2. Hemiparasites contain chlorophyll and can photosynthesise.
+3. Hemiparasites obtain water and mineral nutrients from their hosts.
+
+**Question: Explain why an epiphyte is not necessarily a parasite.**
+
+Suggested answer:
+
+1. An epiphyte grows on another plant mainly for physical support.
+2. It obtains water and mineral nutrients from its surrounding environment.
+3. It does not necessarily absorb nutrients directly from the host plant.
+
+---
+
+# CHAPTER 3 — IMPORTANT COMPARISONS
+
+## 1. MACRONUTRIENTS AND MICRONUTRIENTS
+
+**Macronutrients:**
+
+- Required in relatively large quantities.
+- Examples: nitrogen, phosphorus, potassium, calcium, magnesium and sulphur.
+
+**Micronutrients:**
+
+- Required in very small quantities.
+- Examples: iron, manganese, zinc, copper, boron and molybdenum.
+
+## 2. OSMOSIS, DIFFUSION AND ACTIVE TRANSPORT
+
+**Osmosis:**
+
+- Movement of water.
+- From higher water potential to lower water potential.
+- Through a selectively permeable membrane.
+
+**Diffusion:**
+
+- Movement of particles down their concentration gradient.
+- Does not require ATP.
+
+**Active transport:**
+
+- Movement of substances against their concentration gradient.
+- Requires energy from ATP.
+- Uses membrane transport proteins.
+
+## 3. HOLOPARASITES AND HEMIPARASITES
+
+**Holoparasites:**
+
+- Depend on a host for organic nutrients.
+- Generally lack sufficient chlorophyll for photosynthesis.
+- Example: Rafflesia.
+
+**Hemiparasites:**
+
+- Contain chlorophyll.
+- Can carry out photosynthesis.
+- Obtain water and mineral nutrients from a host.
+- Example: mistletoe.
+
+## 4. INSECTIVOROUS PLANTS AND PARASITIC PLANTS
+
+**Insectivorous plants:**
+
+- Trap and digest small animals.
+- Obtain additional mineral nutrients, especially nitrogen.
+- Usually still photosynthesise.
+
+**Parasitic plants:**
+
+- Obtain some or all nutrients from another living plant.
+- Use specialised structures called haustoria.
+
+---
+
+# COMMON EXAM MISTAKES
+
+1. Macronutrients are required in large quantities, not necessarily because they are more important than micronutrients.
+2. Micronutrients are essential even though plants require only small amounts.
+3. Nitrogen is required for amino acids and proteins.
+4. Magnesium forms the central atom of chlorophyll.
+5. Phosphorus is important in ATP, DNA, RNA and phospholipids.
+6. Water enters root hair cells mainly through osmosis.
+7. Mineral ions can enter by diffusion or active transport.
+8. Active transport requires energy from ATP.
+9. Root hairs increase the surface area for absorption.
+10. Xylem transports water and mineral salts towards the leaves.
+11. Insectivorous plants trap animals mainly to obtain mineral nutrients, not because they cannot photosynthesise.
+12. Holoparasites depend heavily on their hosts for organic nutrients.
+13. Hemiparasites can photosynthesise.
+14. Epiphytes use other plants mainly for support and are not necessarily parasites.
+15. Mycoheterotrophic plants obtain organic nutrients through fungal associations.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## QUESTION 1
+
+State three macronutrients required by plants.
+
+**SUGGESTED ANSWER:**
+
+1. Nitrogen.
+2. Phosphorus.
+3. Potassium.
+
+## QUESTION 2
+
+Explain why nitrogen is important for plant growth.
+
+**SUGGESTED ANSWER:**
+
+1. Nitrogen is needed for amino acid synthesis.
+2. Amino acids are used to form proteins.
+3. Proteins are needed for enzyme production and cell structures.
+4. Therefore, nitrogen is important for growth and development.
+
+## QUESTION 3
+
+Explain why magnesium deficiency reduces photosynthesis.
+
+**SUGGESTED ANSWER:**
+
+1. Magnesium forms the central atom of chlorophyll.
+2. Chlorophyll absorbs light energy.
+3. Magnesium deficiency affects chlorophyll production or function.
+4. Less light energy can be absorbed.
+5. The rate of photosynthesis may decrease.
+
+## QUESTION 4
+
+Explain how root hair cells are adapted for absorbing water and mineral ions.
+
+**SUGGESTED ANSWER:**
+
+1. Root hairs increase the surface area for absorption.
+2. Thin cell walls provide a short pathway for water movement.
+3. Large vacuoles help maintain a water potential gradient.
+4. Numerous mitochondria provide ATP for active transport of mineral ions.
+
+## QUESTION 5
+
+Explain how water enters a root hair cell.
+
+**SUGGESTED ANSWER:**
+
+1. The soil solution usually has a higher water potential than the root hair cell sap.
+2. Water moves down the water potential gradient.
+3. Water passes through the selectively permeable cell membrane.
+4. The process is called osmosis.
+
+## QUESTION 6
+
+Differentiate between diffusion and active transport.
+
+**SUGGESTED ANSWER:**
+
+1. Diffusion moves particles down their concentration gradient, whereas active transport moves substances against their concentration gradient.
+2. Diffusion does not require ATP, whereas active transport requires energy from ATP.
+
+## QUESTION 7
+
+Explain why root hair cells contain many mitochondria.
+
+**SUGGESTED ANSWER:**
+
+1. Mineral ions may be absorbed against their concentration gradient.
+2. Active transport is required.
+3. Active transport requires ATP.
+4. Mitochondria produce ATP through cellular respiration.
+
+## QUESTION 8
+
+Describe the movement of water from the root hair cell towards the xylem.
+
+**SUGGESTED ANSWER:**
+
+1. Water enters root hair cells through osmosis.
+2. Water moves across the root cortex through the apoplast and symplast pathways.
+3. At the endodermis, the Casparian strip blocks unrestricted movement through cell walls.
+4. Water crosses cell membranes and enters the vascular cylinder.
+5. Water eventually enters the xylem.
+
+## QUESTION 9
+
+Explain why insectivorous plants trap insects.
+
+**SUGGESTED ANSWER:**
+
+1. They often grow in soil with low nitrogen availability.
+2. They trap and digest insects.
+3. Digestion releases nitrogen-containing nutrients.
+4. These nutrients are absorbed and used for growth and protein synthesis.
+
+## QUESTION 10
+
+Differentiate between holoparasites and hemiparasites.
+
+**SUGGESTED ANSWER:**
+
+1. Holoparasites depend on hosts for organic nutrients, whereas hemiparasites can produce organic substances through photosynthesis.
+2. Holoparasites generally lack sufficient chlorophyll, whereas hemiparasites contain chlorophyll.
+3. Hemiparasites obtain water and mineral nutrients from their hosts.
+
+## QUESTION 11
+
+Explain why epiphytes are not necessarily parasites.
+
+**SUGGESTED ANSWER:**
+
+1. Epiphytes grow on other plants mainly for physical support.
+2. They absorb water and mineral nutrients from their surroundings.
+3. They do not necessarily obtain nutrients directly from the host plant.
+
+## QUESTION 12
+
+A plant growing in soil with low nitrogen availability has modified leaves that trap insects.
+
+Explain how this adaptation helps the plant survive.
+
+**SUGGESTED ANSWER:**
+
+1. The soil contains insufficient available nitrogen.
+2. The modified leaves trap insects.
+3. Digestive enzymes break down the trapped organisms.
+4. Nitrogen-containing nutrients are released.
+5. The plant absorbs these nutrients for protein synthesis and growth.
+
+---
+
+# FINAL CHAPTER 3 CHECKLIST
+
+- [ ] 3.1 Main inorganic nutrients
+- [ ] Plant macronutrients
+- [ ] Plant micronutrients
+- [ ] Functions of nitrogen, phosphorus and potassium
+- [ ] Functions of calcium, magnesium and sulphur
+- [ ] Functions of important micronutrients
+- [ ] Mineral deficiency symptoms
+- [ ] 3.2 Organ for water and mineral salt uptake
+- [ ] Root hair cell structure
+- [ ] Adaptations of root hair cells
+- [ ] Osmosis
+- [ ] Diffusion
+- [ ] Active transport
+- [ ] Apoplast pathway
+- [ ] Symplast pathway
+- [ ] Casparian strip
+- [ ] Transport through xylem
+- [ ] 3.3 Diversity in plant nutrition
+- [ ] Autotrophic plants
+- [ ] Insectivorous plants
+- [ ] Parasitic plants
+- [ ] Holoparasites
+- [ ] Hemiparasites
+- [ ] Mycoheterotrophic plants
+- [ ] Epiphytic plants
+
+**END OF FORM 5 BIOLOGY — CHAPTER 3**
