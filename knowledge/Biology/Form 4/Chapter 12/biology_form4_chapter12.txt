@@ -1,0 +1,1913 @@
+
+
+# 12 COORDINATION AND RESPONSE IN HUMANS
+
+## Introduction
+
+Coordination is the process by which different organs and systems work together to produce an organised response to changes inside and outside the body.
+
+The human body constantly experiences changes in its environment. These changes are called stimuli.
+
+Examples of stimuli include:
+- Bright light.
+- Loud sounds.
+- Changes in temperature.
+- Pain.
+- Changes in blood glucose concentration.
+- Changes in blood pressure.
+
+The body detects stimuli using specialised structures called receptors.
+
+The information is then processed and an appropriate response is produced by effectors.
+
+Two major systems are responsible for coordination in humans:
+
+1. Nervous system.
+2. Endocrine system.
+
+The nervous system transmits information using electrical impulses along neurones and chemical neurotransmitters across synapses.
+
+The endocrine system uses chemical messengers called hormones, which are transported through the bloodstream to target cells or organs.
+
+Both systems help maintain homeostasis, which is the regulation of the internal environment within suitable limits despite changes in the external environment.
+
+### Basic pathway of coordination
+
+Stimulus → Receptor → Coordinator → Effector → Response
+
+**Stimulus:** A change in the internal or external environment.
+
+**Receptor:** Detects the stimulus.
+
+**Coordinator:** Processes information and determines the appropriate response.
+
+**Effector:** A muscle or gland that carries out the response.
+
+**Response:** The action produced by the effector.
+
+### Example: Touching a hot object
+
+1. Heat and pain receptors in the skin detect the stimulus.
+2. Sensory neurones transmit nerve impulses towards the central nervous system.
+3. The central nervous system processes the information.
+4. Motor neurones transmit impulses to the relevant muscles.
+5. The muscles contract.
+6. The hand is withdrawn from the hot object.
+
+This response helps reduce injury.
+
+---
+
+# 12.1 COORDINATION AND RESPONSE
+
+## 1. Stimuli and responses
+
+A stimulus is any detectable change in the internal or external environment that can produce a response.
+
+Stimuli can be classified into two groups.
+
+### External stimuli
+
+External stimuli originate outside the body.
+
+Examples:
+- Light.
+- Sound.
+- Temperature.
+- Touch.
+- Pressure.
+- Chemicals in the environment.
+
+### Internal stimuli
+
+Internal stimuli originate inside the body.
+
+Examples:
+- Changes in blood glucose concentration.
+- Changes in blood carbon dioxide concentration.
+- Changes in blood pressure.
+- Changes in body temperature.
+- Changes in water potential of blood.
+
+The body detects these changes and produces responses to maintain normal functioning.
+
+## 2. Receptors
+
+Receptors are specialised cells or structures that detect specific stimuli.
+
+Different receptors respond to different types of stimuli.
+
+| Type of receptor | Stimulus detected | Example |
+|---|---|---|
+| Photoreceptor | Light | Rods and cones in the retina |
+| Mechanoreceptor | Mechanical pressure, movement or vibration | Receptors in skin and inner ear |
+| Thermoreceptor | Temperature | Temperature receptors in skin |
+| Chemoreceptor | Chemicals | Receptors involved in taste and smell |
+| Nociceptor | Potentially damaging stimuli | Pain receptors in skin |
+
+### Importance of receptors
+
+- Detect changes in the environment.
+- Convert stimuli into signals that can be processed by the nervous system.
+- Allow the body to respond appropriately.
+- Help maintain homeostasis.
+
+## 3. Effectors
+
+Effectors are structures that carry out responses to nerve impulses or hormonal signals.
+
+The two main types are muscles and glands.
+
+### Muscles
+
+Muscles respond by contracting or relaxing.
+
+Examples:
+- Skeletal muscles contract to move the limbs.
+- Smooth muscles contract to change the diameter of blood vessels.
+- Muscles in the digestive tract contract to move food.
+
+### Glands
+
+Glands respond by secreting substances.
+
+Examples:
+- Sweat glands secrete sweat.
+- Salivary glands secrete saliva.
+- Endocrine glands release hormones into the bloodstream.
+
+## 4. Coordination systems
+
+### Nervous coordination
+
+The nervous system:
+- Uses electrical impulses along neurones.
+- Uses neurotransmitters at chemical synapses.
+- Produces responses that are generally rapid.
+- Often produces localised and relatively short-lasting responses.
+
+### Hormonal coordination
+
+The endocrine system:
+- Uses hormones as chemical messengers.
+- Transports hormones through the blood.
+- Produces responses that are generally slower to begin.
+- Can produce longer-lasting effects.
+
+### Comparison of nervous and hormonal coordination
+
+| Nervous coordination | Hormonal coordination |
+|---|---|
+| Uses nerve impulses and neurotransmitters | Uses hormones |
+| Impulses travel along neurones | Hormones travel through blood |
+| Usually rapid | Usually slower |
+| Often short-lasting | Often longer-lasting |
+| Effects are usually localised | Effects may involve several target organs |
+| Acts through specific neural pathways | Acts on cells with suitable hormone receptors |
+
+**Important:** These are general differences. Some hormonal responses are relatively rapid, and some nervous effects may last longer.
+
+## 5. Homeostasis
+
+Homeostasis is the regulation of the internal environment to maintain relatively stable conditions suitable for normal cell activities.
+
+Examples of conditions regulated by homeostasis include:
+- Body temperature.
+- Blood glucose concentration.
+- Water balance.
+- Blood pH.
+- Blood carbon dioxide concentration.
+
+Homeostasis is important because enzymes and cellular processes work effectively only within suitable conditions.
+
+### Negative feedback mechanism
+
+Negative feedback is a regulatory mechanism in which a change from the normal condition triggers responses that oppose the original change.
+
+It helps return a regulated condition towards its normal range.
+
+General sequence:
+
+1. A regulated condition changes.
+2. Receptors detect the change.
+3. A control centre processes the information.
+4. Effectors produce a response.
+5. The response opposes the original change.
+6. The condition moves towards its normal range.
+
+### Example: Body temperature regulation
+
+If body temperature rises above the normal range:
+
+- Thermoreceptors detect the increase.
+- The hypothalamus coordinates the response.
+- Sweat glands produce more sweat.
+- Skin blood vessels dilate.
+- More heat is lost to the environment.
+- Body temperature moves towards normal.
+
+If body temperature falls below the normal range:
+
+- Thermoreceptors detect the decrease.
+- The hypothalamus coordinates the response.
+- Skeletal muscles may contract rapidly, producing shivering.
+- Skin blood vessels constrict.
+- Heat production and heat conservation increase.
+- Body temperature moves towards normal.
+
+---
+
+# 12.2 NERVOUS SYSTEM
+
+The nervous system is a coordination system that detects stimuli, processes information and controls responses.
+
+It consists of the central nervous system and peripheral nervous system.
+
+## 1. Organisation of the nervous system
+
+### Central nervous system (CNS)
+
+The central nervous system consists of:
+
+1. Brain.
+2. Spinal cord.
+
+It receives and processes information and coordinates responses.
+
+### Peripheral nervous system (PNS)
+
+The peripheral nervous system consists of nerves outside the central nervous system.
+
+It connects the central nervous system to receptors, muscles and glands.
+
+It carries information:
+- From receptors towards the CNS.
+- From the CNS towards effectors.
+
+### Organisation summary
+
+Nervous system
+
+- Central nervous system
+  - Brain
+  - Spinal cord
+- Peripheral nervous system
+  - Nerves connecting the CNS with the rest of the body
+
+## 2. The brain
+
+The brain is the main control centre of the nervous system.
+
+It receives sensory information, processes it and coordinates responses.
+
+Important regions include the cerebrum, cerebellum and medulla oblongata.
+
+### Cerebrum
+
+The cerebrum is the largest region of the brain.
+
+Functions:
+- Controls voluntary actions.
+- Processes sensory information.
+- Responsible for thinking and reasoning.
+- Involved in memory and learning.
+- Responsible for language and conscious awareness.
+
+The cerebrum is divided into two hemispheres.
+
+Each hemisphere is associated mainly with controlling and receiving information from the opposite side of the body.
+
+### Cerebellum
+
+The cerebellum is located below the cerebrum, towards the back of the brain.
+
+Functions:
+- Coordinates voluntary muscle movements.
+- Maintains body balance.
+- Maintains posture.
+- Helps produce smooth and controlled movements.
+
+Damage to the cerebellum may cause poor balance and uncoordinated movements.
+
+### Medulla oblongata
+
+The medulla oblongata is part of the brainstem.
+
+Functions:
+- Regulates involuntary activities.
+- Helps control breathing.
+- Regulates heart rate.
+- Helps regulate blood pressure.
+- Controls certain reflex activities such as swallowing and coughing.
+
+Damage to this region can affect essential life functions.
+
+### Comparison of brain regions
+
+| Brain region | Main functions |
+|---|---|
+| Cerebrum | Thinking, memory, sensory interpretation and voluntary actions |
+| Cerebellum | Balance, posture and coordination of movements |
+| Medulla oblongata | Regulation of involuntary activities such as breathing and heart rate |
+
+## 3. The spinal cord
+
+The spinal cord is a long structure of nervous tissue extending from the brainstem through the vertebral column.
+
+Functions:
+- Transmits nerve impulses between the brain and the rest of the body.
+- Acts as a coordination centre for many reflex actions.
+- Helps coordinate rapid protective responses.
+
+The spinal cord is protected by:
+- Vertebral column.
+- Meninges.
+- Cerebrospinal fluid.
+
+### Grey matter and white matter
+
+In a typical spinal cord cross-section:
+
+**Grey matter**
+- Located in the inner region.
+- Contains many neurone cell bodies and synapses.
+
+**White matter**
+- Located around the grey matter.
+- Contains many myelinated nerve fibres.
+- Helps transmit impulses along the spinal cord.
+
+Do not confuse the arrangement in the spinal cord with that of the cerebrum, where grey matter is mainly on the outside and white matter is mainly deeper inside.
+
+## 4. Peripheral nerves
+
+A nerve consists of bundles of nerve fibres enclosed by connective tissue.
+
+Nerves carry information between the central nervous system and the rest of the body.
+
+### Sensory nerves
+
+Carry sensory information from receptors towards the central nervous system.
+
+### Motor nerves
+
+Carry motor information from the central nervous system towards effectors.
+
+Some nerves contain both sensory and motor fibres and are called mixed nerves.
+
+## 5. Divisions of the peripheral nervous system
+
+The peripheral nervous system includes functional divisions that control different activities.
+
+### Somatic nervous system
+
+The somatic nervous system is involved mainly in sensory information and control of skeletal muscles.
+
+It is associated with voluntary movements and certain reflex pathways.
+
+### Autonomic nervous system
+
+The autonomic nervous system regulates many involuntary activities.
+
+It controls structures such as:
+- Smooth muscles.
+- Cardiac muscle.
+- Glands.
+
+It includes the sympathetic and parasympathetic divisions.
+
+#### Sympathetic division
+
+The sympathetic division prepares the body for situations requiring increased alertness or activity.
+
+It is commonly associated with the fight-or-flight response.
+
+Effects may include:
+- Increased heart rate.
+- Increased breathing rate.
+- Dilation of pupils.
+- Reduced digestive activity.
+- Increased blood flow to skeletal muscles.
+
+#### Parasympathetic division
+
+The parasympathetic division supports normal maintenance activities and recovery.
+
+It is commonly associated with rest-and-digest functions.
+
+Effects may include:
+- Reduced heart rate.
+- Increased digestive activity.
+- Constriction of pupils.
+- Promotion of normal energy storage and maintenance.
+
+### Sympathetic vs parasympathetic
+
+| Sympathetic | Parasympathetic |
+|---|---|
+| Prepares the body for activity or stress | Supports rest and maintenance |
+| Generally increases heart rate | Generally decreases heart rate |
+| Dilates pupils | Constricts pupils |
+| Reduces digestive activity | Promotes digestive activity |
+| Supports fight-or-flight response | Supports rest-and-digest response |
+
+The two divisions often have opposing effects on the same organs, helping regulate body functions.
+
+---
+
+# 12.3 NEURONES AND SYNAPSE
+
+## 1. Neurones
+
+A neurone is a specialised nerve cell that transmits nerve impulses.
+
+Neurones are the basic structural and functional units of the nervous system.
+
+They are adapted to transmit information over distances.
+
+### Structure of a neurone
+
+The main structures include:
+
+1. Cell body.
+2. Nucleus.
+3. Dendrites.
+4. Axon.
+5. Myelin sheath, where present.
+6. Nodes of Ranvier, where present.
+7. Axon terminals.
+
+### Cell body
+
+The cell body contains the nucleus and cytoplasm.
+
+It controls the metabolic activities of the neurone.
+
+### Dendrites
+
+Dendrites are branched extensions that receive signals from other neurones or receptors.
+
+They conduct signals towards the cell body.
+
+### Axon
+
+The axon is a long extension that conducts nerve impulses away from the cell body.
+
+Some axons can extend over relatively long distances.
+
+### Myelin sheath
+
+The myelin sheath is a fatty insulating layer surrounding some axons.
+
+It is formed by supporting cells.
+
+Functions:
+- Electrically insulates the axon.
+- Reduces the loss of electrical current.
+- Increases the speed of nerve impulse transmission.
+
+### Nodes of Ranvier
+
+Nodes of Ranvier are gaps between adjacent sections of the myelin sheath.
+
+They allow ion movement across the axonal membrane at these regions.
+
+In myelinated axons, nerve impulses are regenerated at the nodes, producing saltatory conduction.
+
+This allows faster transmission than continuous conduction along an unmyelinated axon of similar diameter.
+
+### Axon terminals
+
+Axon terminals are located at the end of an axon.
+
+They release neurotransmitters when an impulse reaches the terminal.
+
+Neurotransmitters help transmit signals to another neurone, muscle cell or gland cell.
+
+## 2. Types of neurones
+
+There are three major functional types of neurones.
+
+### Sensory neurone
+
+A sensory neurone carries nerve impulses from receptors towards the central nervous system.
+
+Functions:
+- Detects and transmits information about stimuli.
+- Carries sensory information to the CNS.
+
+### Relay neurone
+
+A relay neurone, also called an interneurone, is located mainly within the central nervous system.
+
+Functions:
+- Connects sensory neurones with motor neurones.
+- Helps process and transfer information within the CNS.
+
+### Motor neurone
+
+A motor neurone carries nerve impulses from the central nervous system towards an effector.
+
+Functions:
+- Transmits instructions to muscles or glands.
+- Produces a response.
+
+### Comparison of three types of neurones
+
+| Sensory neurone | Relay neurone | Motor neurone |
+|---|---|---|
+| Receptor to CNS | Within CNS | CNS to effector |
+| Carries sensory information | Connects neurones | Carries motor instructions |
+| Often has a cell body along the neurone | Cell body within CNS | Cell body usually at one end |
+
+## 3. Nerve impulses
+
+A nerve impulse is an electrical signal that travels along a neurone.
+
+It is produced through changes in the electrical potential across the neurone membrane.
+
+### Resting potential
+
+When a neurone is not transmitting an action potential, its membrane is polarised.
+
+The inside of the neurone is relatively negative compared with the outside.
+
+This difference in electrical charge is called the resting potential.
+
+It is maintained through:
+- Unequal distribution of sodium and potassium ions.
+- Selective permeability of the membrane.
+- Activity of sodium-potassium pumps.
+
+### Action potential
+
+An action potential is a rapid change in membrane potential that travels along the axon.
+
+It involves changes in ion movement across the membrane.
+
+#### Depolarisation
+
+1. A suitable stimulus brings the membrane to threshold.
+2. Voltage-gated sodium channels open.
+3. Sodium ions enter the neurone.
+4. The inside becomes less negative and then positive relative to the outside.
+
+This is called depolarisation.
+
+#### Repolarisation
+
+1. Sodium channels become inactivated.
+2. Voltage-gated potassium channels open.
+3. Potassium ions move out of the neurone.
+4. The inside becomes negative again relative to the outside.
+
+This is called repolarisation.
+
+#### Return towards resting potential
+
+The membrane returns towards its resting state.
+
+Ion gradients are maintained through membrane transport mechanisms, including the sodium-potassium pump.
+
+### All-or-none principle
+
+An action potential is produced only when the stimulus reaches the threshold level.
+
+Once threshold is reached, the action potential has a relatively consistent size.
+
+A stronger stimulus does not normally produce a larger action potential.
+
+Instead, stronger stimulation can increase the frequency of action potentials.
+
+## 4. Myelinated and unmyelinated neurones
+
+### Myelinated neurones
+
+- Have a myelin sheath around the axon.
+- Have nodes of Ranvier.
+- Conduct impulses through saltatory conduction.
+- Generally transmit impulses faster.
+
+### Unmyelinated neurones
+
+- Lack a continuous myelin sheath.
+- Conduct impulses continuously along the membrane.
+- Generally transmit impulses more slowly than comparable myelinated axons.
+
+## 5. Synapses
+
+A synapse is a junction between two neurones or between a neurone and another target cell.
+
+A chemical synapse allows information to pass through neurotransmitters.
+
+### Structure of a chemical synapse
+
+Important structures:
+
+- Presynaptic neurone.
+- Presynaptic terminal.
+- Synaptic vesicles.
+- Neurotransmitters.
+- Synaptic cleft.
+- Receptors on the postsynaptic membrane.
+- Postsynaptic neurone or target cell.
+
+### Mechanism of transmission across a chemical synapse
+
+**Step 1: Arrival of nerve impulse**
+
+An action potential reaches the presynaptic terminal.
+
+**Step 2: Calcium channels open**
+
+Voltage-gated calcium channels open, allowing calcium ions to enter the presynaptic terminal.
+
+**Step 3: Vesicles move towards the membrane**
+
+The increase in calcium concentration causes synaptic vesicles containing neurotransmitters to move towards the presynaptic membrane.
+
+**Step 4: Neurotransmitter release**
+
+Synaptic vesicles fuse with the presynaptic membrane and release neurotransmitters into the synaptic cleft by exocytosis.
+
+**Step 5: Diffusion**
+
+Neurotransmitters diffuse across the synaptic cleft.
+
+**Step 6: Receptor binding**
+
+Neurotransmitters bind to specific receptors on the postsynaptic membrane.
+
+**Step 7: Postsynaptic response**
+
+Receptor activation changes ion movement across the postsynaptic membrane.
+
+This may produce a new electrical signal if the required threshold is reached.
+
+**Step 8: Removal of neurotransmitter**
+
+Neurotransmitters are removed through mechanisms such as enzymatic breakdown, reuptake or diffusion.
+
+This prevents continuous stimulation.
+
+### Why is transmission across a chemical synapse unidirectional?
+
+Neurotransmitters are released from the presynaptic terminal.
+
+Specific receptors are located on the postsynaptic membrane.
+
+Therefore, transmission across a typical chemical synapse occurs in one direction.
+
+### Importance of synapses
+
+- Allow communication between neurones.
+- Allow information to be processed and integrated.
+- Help coordinate nervous responses.
+- Allow signals to be passed to muscles and glands.
+- Help control the direction of transmission in neural pathways.
+
+### Electrical vs chemical synapses
+
+| Chemical synapse | Electrical synapse |
+|---|---|
+| Uses neurotransmitters | Uses direct electrical coupling through gap junctions |
+| Has a synaptic cleft | Cells are connected by specialised channels |
+| Usually slower than electrical transmission | Often very rapid |
+| Usually unidirectional | Can be bidirectional in many cases |
+| Allows modulation of signal transmission | Supports rapid synchronised activity |
+
+### Synapse vs neurone
+
+| Neurone | Synapse |
+|---|---|
+| A specialised nerve cell | A junction between cells |
+| Transmits impulses along its membrane | Transfers signals between cells |
+| Contains structures such as an axon and cell body | Contains pre- and postsynaptic structures in a chemical synapse |
+
+---
+
+# 12.4 VOLUNTARY AND INVOLUNTARY ACTIONS
+
+Actions in humans can be classified according to whether they are under conscious control.
+
+The two major categories are voluntary actions and involuntary actions.
+
+## 1. Voluntary actions
+
+A voluntary action is an action performed under conscious control.
+
+It is generally coordinated by the brain, especially the cerebrum.
+
+Examples:
+- Writing.
+- Walking.
+- Picking up an object.
+- Speaking.
+- Throwing a ball.
+
+### Pathway of a voluntary action
+
+1. A stimulus is detected by a receptor.
+2. Sensory neurones transmit impulses to the CNS.
+3. The brain processes the information.
+4. The cerebrum coordinates the voluntary response.
+5. Motor neurones carry impulses towards skeletal muscles.
+6. The muscles contract or relax.
+7. A response occurs.
+
+### Example: Picking up a book
+
+1. The eyes detect the position of the book.
+2. Sensory information travels to the brain.
+3. The brain processes the information.
+4. The brain coordinates the movement.
+5. Motor neurones transmit impulses to the relevant muscles.
+6. Skeletal muscles contract.
+7. The hand reaches for and picks up the book.
+
+## 2. Involuntary actions
+
+An involuntary action occurs without conscious control.
+
+Many involuntary activities are regulated by the autonomic nervous system or specific reflex pathways.
+
+Examples:
+- Heartbeat.
+- Digestion.
+- Changes in pupil diameter.
+- Certain gland secretions.
+- Withdrawal reflex.
+
+Some involuntary actions are reflex actions, while others are automatic physiological activities.
+
+## 3. Reflex actions
+
+A reflex action is a rapid, automatic and involuntary response to a stimulus.
+
+It helps protect the body and maintain normal functioning.
+
+Examples:
+- Withdrawing a hand from a hot object.
+- Blinking when an object approaches the eye.
+- Knee-jerk reflex.
+- Pupil reflex.
+
+### Characteristics of reflex actions
+
+- Rapid.
+- Automatic.
+- Involuntary.
+- Usually stereotyped.
+- Helps protect the body or maintain normal function.
+
+## 4. Reflex arc
+
+A reflex arc is the pathway taken by nerve impulses during a reflex action.
+
+The basic pathway is:
+
+Stimulus → Receptor → Sensory neurone → Relay neurone in CNS → Motor neurone → Effector → Response
+
+### Example: Withdrawal reflex
+
+When a person touches a hot object:
+
+**Step 1: Detection**
+
+Receptors in the skin detect potentially damaging heat or pain.
+
+**Step 2: Sensory transmission**
+
+Sensory neurones carry impulses towards the spinal cord.
+
+**Step 3: Processing**
+
+The impulse is transmitted through synapses to relay neurones in the spinal cord.
+
+**Step 4: Motor transmission**
+
+The relay neurone passes the signal to a motor neurone.
+
+**Step 5: Effector activation**
+
+The motor neurone carries impulses to the relevant skeletal muscles.
+
+**Step 6: Response**
+
+The muscles contract and the hand is withdrawn.
+
+Information is also transmitted to the brain, allowing the person to become consciously aware of the pain.
+
+### Why is the withdrawal reflex important?
+
+It produces a rapid protective response that helps reduce the duration of contact with a harmful stimulus.
+
+## 5. Voluntary vs reflex actions
+
+| Voluntary action | Reflex action |
+|---|---|
+| Under conscious control | Automatic and involuntary |
+| Usually coordinated by the brain | Often coordinated through a reflex pathway in the spinal cord or brainstem |
+| Can be adjusted consciously | Usually follows a rapid, stereotyped pathway |
+| Example: Writing | Example: Withdrawal reflex |
+
+**Important:** Not every involuntary action is a reflex action. Heartbeat regulation and digestion are examples of involuntary activities that are not simply withdrawal-type reflexes.
+
+## 6. Pupil reflex
+
+The pupil reflex regulates the amount of light entering the eye.
+
+### In bright light
+
+1. Photoreceptors detect increased light.
+2. Sensory information is transmitted to the brain.
+3. The brain coordinates the response.
+4. Circular muscles of the iris contract.
+5. Radial muscles relax.
+6. The pupil becomes smaller.
+7. Less light enters the eye.
+
+### In dim light
+
+1. Photoreceptors detect reduced light.
+2. The nervous system coordinates the response.
+3. Radial muscles of the iris contract.
+4. Circular muscles relax.
+5. The pupil becomes larger.
+6. More light enters the eye.
+
+### Comparison
+
+| Bright light | Dim light |
+|---|---|
+| Circular muscles contract | Radial muscles contract |
+| Radial muscles relax | Circular muscles relax |
+| Pupil constricts | Pupil dilates |
+| Less light enters | More light enters |
+
+---
+
+# 12.5 HEALTH ISSUES RELATED TO THE NERVOUS SYSTEM
+
+The nervous system is essential for detecting stimuli, processing information and coordinating responses.
+
+Damage or disorders affecting the nervous system may interfere with movement, sensation, memory, coordination and normal body functions.
+
+Important examples include:
+
+## 1. Stroke
+
+A stroke occurs when the blood supply to part of the brain is interrupted or when bleeding occurs in or around the brain.
+
+Brain cells may be damaged because they do not receive sufficient oxygen and nutrients.
+
+### Main types of stroke
+
+**Ischaemic stroke**
+
+Occurs when a blood vessel supplying the brain becomes blocked.
+
+A blockage may be caused by a blood clot.
+
+**Haemorrhagic stroke**
+
+Occurs when a blood vessel in or around the brain ruptures and causes bleeding.
+
+### Possible effects
+
+- Weakness or paralysis.
+- Difficulty speaking.
+- Difficulty understanding language.
+- Problems with vision.
+- Loss of balance or coordination.
+- Memory or cognitive difficulties.
+
+### FAST warning signs
+
+- Face: one side of the face may droop.
+- Arms: weakness or difficulty raising an arm.
+- Speech: speech may become unclear.
+- Time: seek emergency medical help immediately.
+
+A suspected stroke is a medical emergency.
+
+## 2. Alzheimer's disease
+
+Alzheimer's disease is a progressive brain disorder that affects memory, thinking and behaviour.
+
+It is a major cause of dementia.
+
+### Possible effects
+
+- Difficulty remembering recent information.
+- Problems with reasoning.
+- Difficulty carrying out familiar tasks.
+- Changes in behaviour.
+- Difficulty communicating.
+
+The disease is associated with abnormal protein changes and damage to brain cells and their connections.
+
+## 3. Parkinson's disease
+
+Parkinson's disease is a progressive nervous system disorder that mainly affects movement.
+
+It is associated with the loss or dysfunction of dopamine-producing neurones in a region of the brain called the substantia nigra.
+
+Dopamine is important in controlling smooth and coordinated movement.
+
+### Possible symptoms
+
+- Tremor.
+- Muscle stiffness.
+- Slowness of movement.
+- Balance difficulties.
+- Changes in walking.
+
+## 4. Epilepsy
+
+Epilepsy is a neurological condition involving a tendency to experience recurrent unprovoked seizures.
+
+A seizure occurs due to abnormal excessive or synchronised electrical activity in the brain.
+
+### Possible features
+
+Depending on the type of seizure, a person may experience:
+- Temporary changes in awareness.
+- Uncontrolled movements.
+- Staring episodes.
+- Changes in sensation.
+- Temporary confusion.
+
+Epilepsy is not the same as a single seizure. A seizure can occur for several reasons, and not everyone who experiences one has epilepsy.
+
+## 5. Spinal cord injuries
+
+A spinal cord injury can damage nerve pathways that carry information between the brain and the body.
+
+Possible effects depend on the location and severity of the injury.
+
+These may include:
+- Loss of sensation.
+- Muscle weakness.
+- Paralysis.
+- Changes in bladder or bowel control.
+- Impaired reflexes or movement.
+
+## 6. Meningitis
+
+Meningitis is inflammation of the meninges, the protective membranes surrounding the brain and spinal cord.
+
+It may be caused by infections, including bacterial or viral infections.
+
+Possible symptoms:
+- Fever.
+- Headache.
+- Neck stiffness.
+- Sensitivity to light.
+- Vomiting.
+- Confusion.
+
+Bacterial meningitis can be life-threatening and requires urgent medical assessment.
+
+## 7. Ways to maintain nervous system health
+
+- Eat a balanced diet.
+- Get sufficient sleep.
+- Participate in appropriate physical activity.
+- Protect the head and spine from injury.
+- Avoid smoking and harmful substances.
+- Manage stress.
+- Seek medical care for concerning neurological symptoms.
+
+---
+
+# 12.6 THE ENDOCRINE SYSTEM
+
+The endocrine system is a coordination system consisting of endocrine glands that secrete hormones.
+
+Hormones are chemical messengers that regulate various body activities.
+
+They are released into the bloodstream and transported to target cells or organs.
+
+## 1. Hormones
+
+A hormone is a chemical messenger produced by an endocrine gland and transported through the blood to target cells or organs.
+
+Hormones regulate activities such as:
+- Growth.
+- Metabolism.
+- Reproduction.
+- Blood glucose concentration.
+- Water balance.
+- Stress responses.
+- Development.
+
+### Characteristics of hormones
+
+- Produced by endocrine cells or glands.
+- Released into the bloodstream.
+- Act on cells with suitable receptors.
+- Usually effective at relatively low concentrations.
+- May produce rapid or slower responses depending on the hormone and target tissue.
+
+## 2. Endocrine glands
+
+Endocrine glands are ductless glands that release hormones directly into the bloodstream or surrounding tissue fluid.
+
+They differ from exocrine glands, which release secretions through ducts.
+
+Examples of exocrine glands include:
+- Sweat glands.
+- Salivary glands.
+- Sebaceous glands.
+
+## 3. Major endocrine glands and their hormones
+
+### Pituitary gland
+
+The pituitary gland is located at the base of the brain.
+
+It is connected to the hypothalamus.
+
+It is often called the master gland because some of its hormones regulate other endocrine glands.
+
+Important hormones include:
+
+**Growth hormone (GH)**
+
+- Stimulates growth of bones and body tissues.
+- Helps regulate metabolism.
+
+**Thyroid-stimulating hormone (TSH)**
+
+- Stimulates the thyroid gland to produce thyroid hormones.
+
+**Adrenocorticotropic hormone (ACTH)**
+
+- Stimulates the adrenal cortex to produce certain hormones, including cortisol.
+
+**Follicle-stimulating hormone (FSH)**
+
+- Helps regulate reproductive processes.
+- In females, supports ovarian follicle development.
+- In males, supports sperm production.
+
+**Luteinising hormone (LH)**
+
+- In females, helps trigger ovulation and supports reproductive hormone production.
+- In males, stimulates testosterone production by the testes.
+
+**Antidiuretic hormone (ADH)**
+
+ADH is produced in the hypothalamus and stored and released by the posterior pituitary.
+
+It increases water reabsorption by the kidneys.
+
+**Oxytocin**
+
+Oxytocin is produced in the hypothalamus and released by the posterior pituitary.
+
+It contributes to uterine contractions during childbirth and milk ejection during breastfeeding.
+
+### Thyroid gland
+
+The thyroid gland is located in the front of the neck.
+
+It produces thyroid hormones, mainly thyroxine (T4) and triiodothyronine (T3).
+
+Functions:
+- Regulate metabolic rate.
+- Support normal growth and development.
+- Influence energy use and heat production.
+
+The thyroid gland also produces calcitonin, which participates in calcium regulation.
+
+### Parathyroid glands
+
+The parathyroid glands are usually four small glands located behind the thyroid gland.
+
+They produce parathyroid hormone (PTH).
+
+Functions:
+- Increase blood calcium concentration when it becomes too low.
+- Help regulate calcium balance in blood and bones.
+- Influence calcium reabsorption by the kidneys.
+
+### Adrenal glands
+
+The adrenal glands are located above the kidneys.
+
+Each adrenal gland consists of an outer cortex and inner medulla.
+
+**Adrenal cortex**
+
+Produces hormones such as:
+- Cortisol.
+- Aldosterone.
+- Adrenal androgens.
+
+Cortisol:
+- Helps regulate metabolism.
+- Supports the body's response to prolonged stress.
+- Influences inflammation and immune activity.
+
+Aldosterone:
+- Helps regulate sodium and potassium balance.
+- Increases sodium reabsorption by the kidneys.
+- Helps regulate blood volume and blood pressure.
+
+**Adrenal medulla**
+
+Produces:
+- Adrenaline.
+- Noradrenaline.
+
+Adrenaline helps prepare the body for immediate action.
+
+Effects include:
+- Increased heart rate.
+- Increased breathing rate.
+- Increased blood glucose availability.
+- Dilation of pupils.
+- Increased blood flow to skeletal muscles.
+
+### Pancreas
+
+The pancreas has both endocrine and exocrine functions.
+
+Its endocrine region contains clusters of cells called the islets of Langerhans.
+
+Important hormones:
+
+**Insulin**
+
+Produced by beta cells.
+
+Functions:
+- Lowers blood glucose concentration.
+- Stimulates glucose uptake by certain body cells.
+- Stimulates glycogen formation in the liver and muscles.
+- Supports the storage of excess nutrients.
+
+**Glucagon**
+
+Produced by alpha cells.
+
+Functions:
+- Raises blood glucose concentration.
+- Stimulates glycogen breakdown in the liver.
+- Promotes glucose production by the liver.
+
+### Testes
+
+The testes are male reproductive glands.
+
+They produce testosterone.
+
+Functions:
+- Supports development of male secondary sexual characteristics.
+- Supports sperm production.
+- Helps maintain reproductive functions.
+
+### Ovaries
+
+The ovaries are female reproductive glands.
+
+They produce:
+- Oestrogen.
+- Progesterone.
+
+**Oestrogen**
+
+Functions:
+- Supports development of female secondary sexual characteristics.
+- Helps regulate the menstrual cycle.
+- Supports growth of the uterine lining.
+
+**Progesterone**
+
+Functions:
+- Helps maintain the uterine lining.
+- Supports conditions suitable for pregnancy.
+- Helps regulate the menstrual cycle.
+
+## 4. Summary of endocrine glands and hormones
+
+| Gland | Hormone | Main function |
+|---|---|---|
+| Pituitary | Growth hormone | Stimulates growth |
+| Pituitary | TSH | Stimulates thyroid hormone production |
+| Pituitary | FSH and LH | Regulate reproductive processes |
+| Posterior pituitary | ADH | Increases water reabsorption by kidneys |
+| Posterior pituitary | Oxytocin | Uterine contractions and milk ejection |
+| Thyroid | Thyroxine | Regulates metabolic rate |
+| Thyroid | Calcitonin | Helps regulate blood calcium |
+| Parathyroid | PTH | Raises blood calcium |
+| Adrenal cortex | Cortisol | Stress response and metabolism |
+| Adrenal cortex | Aldosterone | Sodium and potassium balance |
+| Adrenal medulla | Adrenaline | Fight-or-flight response |
+| Pancreas | Insulin | Lowers blood glucose |
+| Pancreas | Glucagon | Raises blood glucose |
+| Testes | Testosterone | Male reproductive development and function |
+| Ovaries | Oestrogen | Female reproductive development and cycle |
+| Ovaries | Progesterone | Helps maintain uterine lining |
+
+## 5. Mechanism of hormone action
+
+Hormones affect only target cells that have suitable receptors.
+
+### Water-soluble hormones
+
+Many peptide and protein hormones cannot pass directly through the lipid bilayer of the cell membrane.
+
+They bind to receptors on the cell surface.
+
+This activates signalling pathways inside the target cell.
+
+Examples:
+- Insulin.
+- Glucagon.
+- ADH.
+
+### Lipid-soluble hormones
+
+Steroid hormones can pass through the cell membrane and bind to intracellular receptors.
+
+The hormone-receptor complex may influence gene expression and protein synthesis.
+
+Examples:
+- Cortisol.
+- Aldosterone.
+- Testosterone.
+- Oestrogen.
+- Progesterone.
+
+Thyroid hormones also act through intracellular receptors.
+
+## 6. Regulation of blood glucose concentration
+
+Blood glucose concentration must be regulated because glucose is an important respiratory substrate.
+
+The pancreas helps regulate blood glucose through insulin and glucagon.
+
+### When blood glucose concentration increases
+
+Example: After a carbohydrate-rich meal.
+
+1. Blood glucose concentration rises.
+2. Beta cells in the pancreas detect the increase.
+3. Beta cells secrete insulin.
+4. Insulin promotes glucose uptake by certain body cells.
+5. Insulin stimulates glycogen formation in the liver and muscles.
+6. Blood glucose concentration decreases towards the normal range.
+
+### When blood glucose concentration decreases
+
+Example: Between meals.
+
+1. Blood glucose concentration falls.
+2. Alpha cells in the pancreas detect the decrease.
+3. Alpha cells secrete glucagon.
+4. Glucagon acts mainly on the liver.
+5. Glycogen is broken down into glucose.
+6. The liver releases glucose into the blood.
+7. Blood glucose concentration increases towards the normal range.
+
+### Insulin vs glucagon
+
+| Insulin | Glucagon |
+|---|---|
+| Produced by beta cells | Produced by alpha cells |
+| Lowers blood glucose | Raises blood glucose |
+| Promotes glycogen formation | Promotes glycogen breakdown |
+| Supports glucose uptake by certain cells | Promotes glucose release by the liver |
+
+### Negative feedback in blood glucose regulation
+
+Insulin and glucagon act in opposing ways to help maintain blood glucose concentration within a suitable range.
+
+When blood glucose rises, insulin is released.
+
+When blood glucose falls, glucagon is released.
+
+This is an example of negative feedback regulation.
+
+## 7. Regulation of water balance by ADH
+
+ADH helps regulate the amount of water reabsorbed by the kidneys.
+
+The hypothalamus contains osmoreceptors that detect changes in the water potential of blood.
+
+### When blood water potential decreases
+
+This can occur when the body loses water.
+
+1. Blood water potential decreases.
+2. Osmoreceptors in the hypothalamus detect the change.
+3. More ADH is released from the posterior pituitary.
+4. ADH acts on the kidneys.
+5. The collecting ducts become more permeable to water.
+6. More water is reabsorbed into the blood.
+7. A smaller volume of more concentrated urine is produced.
+8. Blood water potential moves towards normal.
+
+### When blood water potential increases
+
+1. Osmoreceptors detect the increase.
+2. Less ADH is released.
+3. The collecting ducts become less permeable to water.
+4. Less water is reabsorbed.
+5. A larger volume of more dilute urine is produced.
+6. Blood water potential moves towards normal.
+
+### ADH summary
+
+| High ADH | Low ADH |
+|---|---|
+| More water reabsorbed | Less water reabsorbed |
+| Smaller urine volume | Larger urine volume |
+| More concentrated urine | More dilute urine |
+| Helps conserve water | Allows more water to be removed |
+
+## 8. Adrenaline and the fight-or-flight response
+
+Adrenaline is secreted by the adrenal medulla during situations requiring rapid action.
+
+It prepares the body for increased physical activity.
+
+Effects include:
+
+- Increased heart rate.
+- Increased breathing rate.
+- Dilation of pupils.
+- Increased blood glucose availability.
+- Increased blood flow to skeletal muscles.
+- Reduced digestive activity.
+
+These changes help supply more oxygen and energy to muscles.
+
+---
+
+# 12.7 HEALTH ISSUES RELATED TO THE ENDOCRINE SYSTEM
+
+The endocrine system regulates important body processes.
+
+Problems involving hormone production, secretion or action can cause endocrine disorders.
+
+## 1. Diabetes mellitus
+
+Diabetes mellitus is a condition involving persistently high blood glucose concentration due to problems with insulin production, insulin action or both.
+
+Insulin is essential for normal blood glucose regulation.
+
+### Type 1 diabetes mellitus
+
+Type 1 diabetes is commonly caused by an autoimmune reaction that destroys insulin-producing beta cells in the pancreas.
+
+Consequences:
+- Very little or no insulin is produced.
+- Blood glucose concentration becomes elevated.
+- Glucose regulation is impaired.
+
+People with type 1 diabetes require insulin treatment.
+
+### Type 2 diabetes mellitus
+
+Type 2 diabetes involves insulin resistance and, over time, insufficient insulin production to meet the body's needs.
+
+In insulin resistance, body cells do not respond effectively to insulin.
+
+Consequences:
+- Glucose uptake and regulation become less effective.
+- The pancreas may initially produce more insulin.
+- Blood glucose concentration may remain elevated.
+
+Management may involve:
+- Balanced eating habits.
+- Appropriate physical activity.
+- Medical monitoring.
+- Medication.
+- Insulin when required.
+
+### Symptoms of diabetes mellitus
+
+Possible symptoms include:
+- Frequent urination.
+- Excessive thirst.
+- Increased hunger.
+- Fatigue.
+- Blurred vision.
+- Slow wound healing.
+
+### Comparison of Type 1 and Type 2 diabetes
+
+| Type 1 | Type 2 |
+|---|---|
+| Commonly autoimmune destruction of beta cells | Insulin resistance and inadequate insulin response |
+| Very little or no insulin production | Insulin may still be produced |
+| Requires insulin treatment | Management varies and may include lifestyle changes and medication |
+| Can occur at different ages | More common in adults but can also occur in younger people |
+
+**Important:** Diabetes mellitus is not the same as diabetes insipidus.
+
+## 2. Diabetes insipidus
+
+Diabetes insipidus is a condition involving problems with ADH production or action.
+
+It causes the kidneys to conserve insufficient water.
+
+Possible effects:
+- Production of large volumes of dilute urine.
+- Excessive thirst.
+- Increased risk of dehydration.
+
+### Types
+
+**Central diabetes insipidus**
+
+Occurs when insufficient ADH is produced or released.
+
+**Nephrogenic diabetes insipidus**
+
+Occurs when the kidneys do not respond properly to ADH.
+
+### Diabetes mellitus vs diabetes insipidus
+
+| Diabetes mellitus | Diabetes insipidus |
+|---|---|
+| Involves insulin or insulin action | Involves ADH production or response |
+| Blood glucose regulation is affected | Water balance is affected |
+| May cause glucose in urine | Usually produces large volumes of dilute urine |
+| Causes hyperglycaemia | Does not primarily cause high blood glucose |
+
+## 3. Hyperthyroidism
+
+Hyperthyroidism occurs when the thyroid gland produces excessive thyroid hormones.
+
+This increases metabolic activity.
+
+Possible symptoms:
+- Rapid heartbeat.
+- Excessive sweating.
+- Heat intolerance.
+- Weight loss despite normal or increased appetite.
+- Tremors.
+- Anxiety or restlessness.
+
+One possible cause is Graves' disease, an autoimmune disorder.
+
+## 4. Hypothyroidism
+
+Hypothyroidism occurs when the thyroid gland produces insufficient thyroid hormones.
+
+This reduces metabolic activity.
+
+Possible symptoms:
+- Tiredness.
+- Cold intolerance.
+- Weight gain.
+- Dry skin.
+- Constipation.
+- Slower heart rate.
+
+In children, insufficient thyroid hormone during development can affect normal growth and brain development.
+
+## 5. Goitre
+
+Goitre is an enlargement of the thyroid gland.
+
+It may occur due to:
+- Iodine deficiency.
+- Autoimmune thyroid disorders.
+- Abnormal thyroid stimulation.
+- Other thyroid conditions.
+
+Iodine is required for the production of thyroid hormones.
+
+A lack of iodine can reduce thyroid hormone production and contribute to thyroid enlargement.
+
+## 6. Growth hormone disorders
+
+Growth hormone is secreted by the anterior pituitary gland.
+
+It regulates growth of bones and other tissues.
+
+### Growth hormone deficiency
+
+Insufficient growth hormone during childhood may result in reduced growth.
+
+### Excess growth hormone
+
+Excessive growth hormone during childhood, before growth plates close, can cause gigantism.
+
+Excessive growth hormone in adults, after growth plates have closed, can cause acromegaly.
+
+### Comparison
+
+| Condition | Cause | Main effect |
+|---|---|---|
+| Growth hormone deficiency | Insufficient GH | Reduced growth |
+| Gigantism | Excess GH during childhood | Excessive linear growth |
+| Acromegaly | Excess GH during adulthood | Enlargement of hands, feet and facial structures |
+
+## 7. Cushing's syndrome
+
+Cushing's syndrome occurs when the body is exposed to excessive cortisol for a prolonged period.
+
+Possible causes include:
+- Long-term use of certain corticosteroid medicines.
+- Excessive cortisol production by the adrenal glands.
+- Certain pituitary or adrenal tumours.
+
+Possible effects:
+- Increased fat accumulation around the trunk.
+- Muscle weakness.
+- High blood pressure.
+- High blood glucose.
+- Changes in skin appearance.
+
+## 8. Addison's disease
+
+Addison's disease is a condition in which the adrenal cortex produces insufficient amounts of certain hormones, particularly cortisol and often aldosterone.
+
+Possible symptoms:
+- Fatigue.
+- Weight loss.
+- Low blood pressure.
+- Salt craving.
+- Skin darkening in some cases.
+
+It can be caused by damage to the adrenal cortex, including autoimmune destruction.
+
+## 9. Importance of maintaining endocrine health
+
+- Maintain balanced eating habits.
+- Participate in appropriate physical activity.
+- Get sufficient sleep.
+- Attend medical check-ups when needed.
+- Follow prescribed treatment.
+- Avoid taking hormones or medicines without medical supervision.
+- Seek medical advice for persistent symptoms.
+
+---
+
+# IMPORTANT COMPARISON TABLES
+
+## Nervous system vs endocrine system
+
+| Nervous system | Endocrine system |
+|---|---|
+| Uses nerve impulses and neurotransmitters | Uses hormones |
+| Signals travel along neurones | Hormones travel through blood |
+| Generally rapid | Generally slower |
+| Often short-lasting | Often longer-lasting |
+| Usually localised effects | May affect multiple target organs |
+
+## Voluntary action vs reflex action
+
+| Voluntary | Reflex |
+|---|---|
+| Conscious control | Automatic |
+| Usually coordinated by cerebrum | Often coordinated by spinal cord or brainstem |
+| Can be consciously adjusted | Usually rapid and stereotyped |
+| Example: Writing | Example: Withdrawal reflex |
+
+## Sensory, relay and motor neurones
+
+| Type | Direction of impulse | Main role |
+|---|---|---|
+| Sensory | Receptor to CNS | Carries sensory information |
+| Relay | Within CNS | Connects neurones |
+| Motor | CNS to effector | Carries motor instructions |
+
+## Insulin vs glucagon
+
+| Insulin | Glucagon |
+|---|---|
+| Beta cells | Alpha cells |
+| Decreases blood glucose | Increases blood glucose |
+| Promotes glycogen formation | Promotes glycogen breakdown |
+
+## ADH vs insulin
+
+| ADH | Insulin |
+|---|---|
+| Regulates water balance | Regulates blood glucose |
+| Acts on kidneys | Acts on several target tissues, including liver, muscle and adipose tissue |
+| Increases water reabsorption | Promotes glucose uptake and storage |
+
+---
+
+# COMMON EXAM MISCONCEPTIONS
+
+1. A receptor is not the same as an effector. A receptor detects a stimulus; an effector produces a response.
+
+2. Sensory neurones do not carry impulses from the CNS to muscles. That is the role of motor neurones.
+
+3. Relay neurones are found mainly in the CNS.
+
+4. The myelin sheath insulates the axon and increases the speed of impulse transmission.
+
+5. A synapse is a junction between cells, not an entire neurone.
+
+6. Neurotransmitters are released from presynaptic terminals and bind to receptors on the postsynaptic membrane.
+
+7. The spinal cord is involved in reflex actions, but information can also travel to the brain for conscious awareness.
+
+8. Not all involuntary actions are reflex actions.
+
+9. The cerebellum coordinates movement and balance; the medulla oblongata regulates important involuntary activities.
+
+10. Hormones act only on target cells with suitable receptors.
+
+11. Insulin lowers blood glucose concentration; glucagon raises it.
+
+12. ADH regulates water balance, not blood glucose concentration.
+
+13. The posterior pituitary stores and releases ADH and oxytocin, which are produced in the hypothalamus.
+
+14. Diabetes mellitus involves insulin or insulin action; diabetes insipidus involves ADH or kidney response to ADH.
+
+15. Hyperthyroidism means excessive thyroid hormone activity; hypothyroidism means insufficient thyroid hormone activity.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS WITH ANSWERS
+
+## Question 1: Coordination
+
+**State the basic pathway of coordination in humans.**
+
+Answer:
+
+Stimulus → Receptor → Coordinator → Effector → Response.
+
+## Question 2: Homeostasis
+
+**Explain how negative feedback helps maintain homeostasis.**
+
+Answer:
+
+A change in the internal environment is detected by receptors. The information is transmitted to a control centre, which coordinates an appropriate response through effectors. The response opposes the original change and moves the condition towards its normal range.
+
+## Question 3: Brain
+
+**State the function of the cerebrum, cerebellum and medulla oblongata.**
+
+Answer:
+
+- Cerebrum: Controls voluntary actions, thinking, memory and sensory interpretation.
+- Cerebellum: Coordinates muscle movements, balance and posture.
+- Medulla oblongata: Regulates involuntary activities such as breathing and heart rate.
+
+## Question 4: Neurones
+
+**Explain how the structure of a myelinated neurone is adapted for efficient transmission of nerve impulses.**
+
+Answer:
+
+The axon conducts nerve impulses over long distances. The myelin sheath insulates the axon and reduces current leakage. Nodes of Ranvier allow action potentials to be regenerated at intervals. This produces saltatory conduction and increases the speed of transmission.
+
+## Question 5: Synapse
+
+**Describe the transmission of a nerve impulse across a chemical synapse.**
+
+Answer:
+
+An action potential arrives at the presynaptic terminal and opens voltage-gated calcium channels. Calcium ions enter the terminal and stimulate synaptic vesicles to fuse with the presynaptic membrane. Neurotransmitters are released into the synaptic cleft by exocytosis. They diffuse across the cleft and bind to receptors on the postsynaptic membrane, producing a postsynaptic response.
+
+## Question 6: Reflex action
+
+**Explain the withdrawal reflex when a person touches a hot object.**
+
+Answer:
+
+Heat or pain receptors in the skin detect the stimulus. Sensory neurones carry impulses towards the spinal cord. Relay neurones transmit the impulses to motor neurones. Motor neurones carry impulses to skeletal muscles. The muscles contract and withdraw the hand from the hot object.
+
+## Question 7: Pupil reflex
+
+**Explain why the pupil becomes smaller when a person enters a brightly lit room.**
+
+Answer:
+
+Photoreceptors detect increased light intensity. The nervous system coordinates the response. Circular muscles of the iris contract while radial muscles relax. The pupil constricts, reducing the amount of light entering the eye.
+
+## Question 8: Hormones
+
+**Explain why hormones only affect particular target cells.**
+
+Answer:
+
+Hormones bind to specific receptors on or inside target cells. Cells without suitable receptors cannot respond to that particular hormone in the same way.
+
+## Question 9: Blood glucose
+
+**Explain how insulin reduces blood glucose concentration after a meal.**
+
+Answer:
+
+An increase in blood glucose stimulates beta cells in the pancreas to secrete insulin. Insulin promotes glucose uptake by certain cells and stimulates the liver and muscles to convert glucose into glycogen. Consequently, blood glucose concentration decreases towards the normal range.
+
+## Question 10: Blood glucose
+
+**Explain how glucagon increases blood glucose concentration when a person has not eaten for several hours.**
+
+Answer:
+
+A decrease in blood glucose stimulates alpha cells in the pancreas to secrete glucagon. Glucagon acts mainly on the liver and stimulates glycogen breakdown and glucose production. The liver releases glucose into the blood, increasing blood glucose concentration.
+
+## Question 11: Water balance
+
+**Explain how ADH regulates water balance when a person becomes dehydrated.**
+
+Answer:
+
+Blood water potential decreases and osmoreceptors in the hypothalamus detect the change. More ADH is released from the posterior pituitary. ADH increases the permeability of the kidney collecting ducts to water. More water is reabsorbed into the blood, producing a smaller volume of concentrated urine.
+
+## Question 12: Endocrine disorders
+
+**Differentiate between diabetes mellitus and diabetes insipidus.**
+
+Answer:
+
+Diabetes mellitus involves problems with insulin production or insulin action, resulting in high blood glucose concentration. Diabetes insipidus involves insufficient ADH activity or kidney response to ADH, resulting in excessive production of dilute urine.
+
+## Question 13: Thyroid gland
+
+**Explain the effect of hyperthyroidism on metabolic activity.**
+
+Answer:
+
+Excessive thyroid hormone increases metabolic activity. A person may experience increased heart rate, excessive sweating, heat intolerance and weight loss.
+
+## Question 14: Nervous system health
+
+**Explain why a stroke can affect movement and speech.**
+
+Answer:
+
+A stroke damages brain tissue by interrupting its blood supply or causing bleeding. If regions involved in controlling movement or processing language are affected, the person may experience weakness, paralysis or difficulty speaking.
+
+---
+
+# HIGHER-ORDER THINKING QUESTIONS
+
+## Scenario 1: Touching a hot object
+
+A student accidentally touches a hot metal surface and immediately withdraws their hand.
+
+**Explain why the response occurs before the student consciously thinks about it.**
+
+Suggested answer:
+
+The withdrawal reflex is coordinated through a rapid reflex pathway involving the spinal cord. Sensory neurones transmit impulses to the spinal cord, where relay neurones pass the signal to motor neurones. Motor neurones activate the muscles, causing the hand to withdraw. Information is also sent to the brain for conscious awareness of pain.
+
+## Scenario 2: Damage to myelin
+
+A disease damages the myelin sheath surrounding neurones.
+
+**Predict the effect on nerve impulse transmission.**
+
+Suggested answer:
+
+The insulating function of the myelin sheath is reduced. Saltatory conduction becomes less effective, slowing or disrupting nerve impulse transmission. This may interfere with normal movement and sensation.
+
+## Scenario 3: Synaptic transmission
+
+A chemical prevents neurotransmitters from binding to receptors on the postsynaptic membrane.
+
+**Explain the likely effect on transmission.**
+
+Suggested answer:
+
+Neurotransmitters cannot activate the postsynaptic receptors effectively. The postsynaptic membrane may not produce the required electrical response. Therefore, signal transmission across the synapse may be reduced or blocked.
+
+## Scenario 4: Insulin deficiency
+
+A person's pancreas produces very little insulin.
+
+**Explain why blood glucose concentration may remain high.**
+
+Suggested answer:
+
+Insufficient insulin reduces glucose uptake by insulin-responsive tissues and reduces glycogen formation. Consequently, less glucose is removed from the blood and blood glucose concentration remains elevated.
+
+## Scenario 5: Excessive water loss
+
+A person loses a large amount of water through sweating.
+
+**Predict the changes in ADH secretion and urine production.**
+
+Suggested answer:
+
+Blood water potential decreases. ADH secretion increases. The kidney collecting ducts become more permeable to water, resulting in greater water reabsorption. A smaller volume of concentrated urine is produced.
+
+## Scenario 6: Damage to the cerebellum
+
+A patient has difficulty maintaining balance and coordinating movements.
+
+**Identify the likely affected brain region and explain your answer.**
+
+Suggested answer:
+
+The cerebellum is likely affected because it coordinates muscle movements and helps maintain posture and balance.
+
+---
+
+# CHAPTER 12 KEY FORMULATIONS FOR EXAM ANSWERS
+
+## When asked to explain a nervous response
+
+Use this sequence:
+
+Stimulus detected → sensory neurone transmits impulse → CNS processes information → motor neurone transmits impulse → effector responds.
+
+## When asked to explain synaptic transmission
+
+Use this sequence:
+
+Impulse arrives → calcium channels open → calcium enters → vesicles fuse → neurotransmitter released → neurotransmitter diffuses → receptor binding → postsynaptic response.
+
+## When asked to explain insulin action
+
+Use this sequence:
+
+Blood glucose increases → beta cells stimulated → insulin secreted → glucose uptake and glycogen formation increase → blood glucose decreases.
+
+## When asked to explain glucagon action
+
+Use this sequence:
+
+Blood glucose decreases → alpha cells stimulated → glucagon secreted → liver breaks down glycogen and produces glucose → blood glucose increases.
+
+## When asked to explain ADH action
+
+Use this sequence:
+
+Blood water potential decreases → osmoreceptors detect change → ADH secretion increases → collecting ducts become more permeable → more water reabsorbed → concentrated urine produced.
+
+---
+
+# FINAL REVISION CHECKLIST
+
+A student should be able to:
+
+1. Define coordination, stimulus, response and homeostasis.
+2. Explain the basic pathway of coordination.
+3. Identify different types of receptors.
+4. Distinguish receptors from effectors.
+5. Compare nervous and hormonal coordination.
+6. Explain negative feedback.
+7. Identify the components of the central and peripheral nervous systems.
+8. Explain the functions of the cerebrum, cerebellum and medulla oblongata.
+9. Explain the functions of the spinal cord.
+10. Distinguish sensory, relay and motor neurones.
+11. Label the structures of a neurone.
+12. Explain resting potential and action potential.
+13. Describe depolarisation and repolarisation.
+14. Explain the role of the myelin sheath and nodes of Ranvier.
+15. Explain saltatory conduction.
+16. Describe the structure and function of a chemical synapse.
+17. Explain neurotransmitter release and removal.
+18. Distinguish voluntary and involuntary actions.
+19. Explain reflex actions and reflex arcs.
+20. Explain the pupil reflex in bright and dim light.
+21. Describe important nervous system disorders.
+22. Identify the major endocrine glands.
+23. State the hormones secreted by major endocrine glands.
+24. Explain how hormones act on target cells.
+25. Explain blood glucose regulation by insulin and glucagon.
+26. Explain water balance regulation by ADH.
+27. Explain the fight-or-flight response.
+28. Distinguish diabetes mellitus from diabetes insipidus.
+29. Explain hyperthyroidism and hypothyroidism.
+30. Explain growth hormone disorders.
+31. Apply nervous and endocrine system concepts to unfamiliar situations.
+32. Construct complete SPM explanations using correct biological terminology.
+
+---
+
+# CHAPTER 12 CORE SUMMARY
+
+The human body coordinates responses through two major systems.
+
+**THE NERVOUS SYSTEM**
+
+- Detects stimuli.
+- Transmits information through nerve impulses.
+- Processes information in the central nervous system.
+- Activates effectors through motor pathways.
+- Produces rapid responses.
+
+**THE ENDOCRINE SYSTEM**
+
+- Produces hormones.
+- Releases hormones into the bloodstream.
+- Acts on target cells with suitable receptors.
+- Regulates growth, metabolism, reproduction and homeostasis.
+- Often produces longer-lasting responses.
+
+**THE MAIN IDEA**
+
+The nervous and endocrine systems work together to coordinate body activities and maintain a stable internal environment. Their proper functioning is essential for survival, movement, growth, reproduction and normal body processes.
+
