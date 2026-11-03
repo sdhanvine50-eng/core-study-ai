@@ -1,0 +1,1430 @@
+# 10 TRANSPORT IN HUMANS AND ANIMALS
+
+Transport is essential in multicellular organisms because cells are located far from the external environment. Substances such as oxygen, nutrients, hormones and metabolic waste products must be transported between cells and different parts of the body.
+
+In small organisms, substances may move directly between cells and the environment by diffusion. However, as an organism becomes larger and more complex, diffusion alone becomes too slow to meet the needs of all cells.
+
+A transport system therefore allows substances to be transported efficiently throughout the organism.
+
+---
+
+# 10.1 TYPES OF CIRCULATORY SYSTEM
+
+## Why do multicellular organisms need a circulatory system?
+
+A multicellular organism has many cells arranged into tissues and organs. Most cells are not directly exposed to the external environment.
+
+The distance between cells and the external environment may therefore be too large for diffusion alone to supply substances quickly enough.
+
+A circulatory system helps transport:
+
+- oxygen
+- carbon dioxide
+- digested nutrients
+- hormones
+- metabolic waste products
+- heat
+- immune components
+
+The circulatory system generally consists of:
+
+1. a transport fluid
+2. blood vessels or transport channels
+3. a pumping mechanism
+
+There are two main types of circulatory system:
+
+- open circulatory system
+- closed circulatory system
+
+---
+
+## Open circulatory system
+
+In an open circulatory system, the circulatory fluid is not always confined inside blood vessels.
+
+The fluid is pumped from the heart into body spaces called sinuses or haemocoel.
+
+The organs are directly surrounded by the circulatory fluid.
+
+The fluid eventually returns to the heart.
+
+### Examples
+
+Open circulatory systems occur in many:
+
+- insects
+- other arthropods
+- some molluscs
+
+### Advantages
+
+The system is relatively simple and requires less energy to operate.
+
+### Disadvantage
+
+The pressure of the circulating fluid is generally lower than in a closed circulatory system.
+
+Therefore, transport can be less precisely directed.
+
+---
+
+## Closed circulatory system
+
+In a closed circulatory system, blood is continuously confined within blood vessels.
+
+Blood travels through:
+
+- arteries
+- capillaries
+- veins
+
+The heart pumps blood into arteries.
+
+Arteries branch into smaller vessels called arterioles.
+
+Arterioles branch into capillaries.
+
+Capillaries join to form venules.
+
+Venules join to form veins.
+
+Veins return blood towards the heart.
+
+### Examples
+
+Closed circulatory systems occur in:
+
+- humans
+- other mammals
+- birds
+- fish
+- annelids
+
+### Advantages
+
+A closed system allows:
+
+- higher blood pressure
+- faster transport
+- efficient delivery of substances
+- precise control of blood flow to different tissues
+
+---
+
+## Single circulation
+
+In a single circulatory system, blood passes through the heart once during one complete circuit of the body.
+
+Fish have a single circulatory system.
+
+The pathway is approximately:
+
+Heart → gills → body tissues → heart
+
+The heart pumps deoxygenated blood to the gills.
+
+At the gills:
+
+- carbon dioxide diffuses out
+- oxygen diffuses into the blood
+
+Oxygenated blood then travels to body tissues.
+
+After oxygen is delivered, blood becomes deoxygenated and returns to the heart.
+
+### Limitation
+
+Blood pressure decreases as blood passes through the capillaries of the gills.
+
+Therefore, blood reaching the body tissues has relatively lower pressure.
+
+---
+
+## Double circulation
+
+Humans and other mammals have a double circulatory system.
+
+Blood passes through the heart twice during one complete circuit.
+
+There are two major circuits:
+
+### Pulmonary circulation
+
+Pulmonary circulation transports blood between:
+
+**heart ↔ lungs**
+
+Deoxygenated blood:
+
+Right ventricle → pulmonary artery → lungs
+
+Oxygenated blood:
+
+Lungs → pulmonary veins → left atrium
+
+### Systemic circulation
+
+Systemic circulation transports blood between:
+
+**heart ↔ body tissues**
+
+Oxygenated blood:
+
+Left ventricle → aorta → body tissues
+
+Deoxygenated blood:
+
+Body tissues → venae cavae → right atrium
+
+---
+
+## Why double circulation is efficient
+
+The two circuits separate oxygenated and deoxygenated blood.
+
+The left ventricle pumps oxygenated blood to the entire body at high pressure.
+
+This is important because body tissues require a continuous supply of oxygen for aerobic respiration.
+
+---
+
+## Important comparison
+
+| Feature | Open circulation | Closed circulation |
+|---|---|---|
+| Transport fluid | Not always confined to vessels | Confined to vessels |
+| Pressure | Generally lower | Generally higher |
+| Transport efficiency | Lower | Higher |
+| Control of blood flow | Less precise | More precise |
+| Examples | Insects | Humans, fish, mammals |
+
+---
+
+# 10.2 CIRCULATORY SYSTEM OF HUMANS
+
+The human circulatory system is a closed, double circulatory system.
+
+It consists mainly of:
+
+1. heart
+2. blood
+3. blood vessels
+
+---
+
+## Human heart
+
+The heart is a muscular organ that pumps blood throughout the body.
+
+It is located in the thoracic cavity between the lungs.
+
+The heart is surrounded by a protective sac called the pericardium.
+
+The pericardial fluid reduces friction when the heart contracts and relaxes.
+
+---
+
+## Four chambers of the heart
+
+The human heart has four chambers:
+
+### Right atrium
+
+Receives deoxygenated blood from the body through:
+
+- superior vena cava
+- inferior vena cava
+
+### Right ventricle
+
+Receives blood from the right atrium and pumps it to the lungs through the pulmonary artery.
+
+### Left atrium
+
+Receives oxygenated blood from the lungs through the pulmonary veins.
+
+### Left ventricle
+
+Receives oxygenated blood from the left atrium and pumps it to the entire body through the aorta.
+
+---
+
+## Why is the left ventricle thicker?
+
+The left ventricle has a much thicker muscular wall than the right ventricle.
+
+This is because the left ventricle must generate enough pressure to pump blood throughout the entire body.
+
+The right ventricle only pumps blood to the nearby lungs.
+
+### Exam point
+
+Do not say:
+
+"Left ventricle is thicker because it contains oxygenated blood."
+
+That is incorrect.
+
+The correct reason is:
+
+**The left ventricle needs to generate greater pressure to pump blood through the systemic circulation.**
+
+---
+
+## Septum
+
+The septum is the muscular wall separating the left and right sides of the heart.
+
+Its main importance is preventing mixing between:
+
+- oxygenated blood
+- deoxygenated blood
+
+This helps maintain efficient oxygen transport.
+
+---
+
+# Heart valves
+
+Valves prevent the backflow of blood.
+
+Important valves include:
+
+### Atrioventricular valves
+
+Located between the atria and ventricles.
+
+They include:
+
+- tricuspid valve
+- bicuspid/mitral valve
+
+### Semilunar valves
+
+Located at the bases of:
+
+- pulmonary artery
+- aorta
+
+---
+
+## Function of valves
+
+Valves open when blood moves in the correct direction.
+
+They close when blood attempts to flow backwards.
+
+Therefore, valves ensure that blood flows in one direction.
+
+---
+
+# Major blood vessels
+
+## Aorta
+
+Carries oxygenated blood from the left ventricle to the body.
+
+## Pulmonary artery
+
+Carries deoxygenated blood from the right ventricle to the lungs.
+
+## Pulmonary veins
+
+Carry oxygenated blood from the lungs to the left atrium.
+
+## Venae cavae
+
+Return deoxygenated blood from the body to the right atrium.
+
+There are:
+
+- superior vena cava
+- inferior vena cava
+
+---
+
+## Important misconception
+
+Do not classify vessels according to oxygen concentration.
+
+Classify them according to the **direction of blood flow relative to the heart**.
+
+### Artery
+
+Carries blood **away from the heart**.
+
+### Vein
+
+Carries blood **towards the heart**.
+
+Therefore:
+
+- pulmonary artery carries deoxygenated blood
+- pulmonary vein carries oxygenated blood
+
+---
+
+# Blood vessels
+
+## Arteries
+
+Arteries carry blood away from the heart.
+
+They have:
+
+- thick muscular walls
+- elastic walls
+- relatively narrow lumen
+
+Blood pressure in arteries is relatively high.
+
+The elastic walls help the arteries withstand high pressure and maintain blood flow.
+
+---
+
+## Veins
+
+Veins carry blood towards the heart.
+
+They have:
+
+- thinner walls
+- less muscle and elastic tissue
+- wider lumen
+
+Veins contain valves that prevent backflow.
+
+Blood movement in veins is assisted by contraction of surrounding skeletal muscles.
+
+---
+
+## Capillaries
+
+Capillaries are extremely small blood vessels connecting arterioles and venules.
+
+Their walls are approximately one cell thick.
+
+This provides a short diffusion distance.
+
+Capillaries are suitable for exchange of:
+
+- oxygen
+- carbon dioxide
+- nutrients
+- water
+- waste products
+
+between blood and tissues.
+
+---
+
+# Blood
+
+Blood is a connective tissue consisting of:
+
+- plasma
+- red blood cells
+- white blood cells
+- platelets
+
+---
+
+## Plasma
+
+Plasma is the liquid component of blood.
+
+It transports:
+
+- nutrients
+- hormones
+- carbon dioxide
+- urea
+- mineral ions
+- antibodies
+- heat
+
+---
+
+## Red blood cells
+
+Red blood cells transport oxygen.
+
+They contain haemoglobin.
+
+Haemoglobin combines reversibly with oxygen to form oxyhaemoglobin.
+
+Red blood cells are adapted for oxygen transport because they:
+
+- have a biconcave shape
+- have a large surface area
+- have no nucleus when mature
+- contain a high concentration of haemoglobin
+
+---
+
+## White blood cells
+
+White blood cells are involved in defence against pathogens.
+
+They can:
+
+- engulf pathogens
+- produce antibodies
+- produce antitoxins
+
+---
+
+## Platelets
+
+Platelets are cell fragments involved in blood clotting.
+
+They help prevent excessive blood loss when blood vessels are damaged.
+
+---
+
+# 10.3 MECHANISM OF HEARTBEAT
+
+The heartbeat is a coordinated sequence of contraction and relaxation of the heart chambers.
+
+The main stages are:
+
+1. atrial systole
+2. ventricular systole
+3. complete diastole
+
+---
+
+## Diastole
+
+Diastole refers to relaxation of the heart muscle.
+
+During general diastole:
+
+- the atria and ventricles relax
+- blood enters the atria
+- blood flows into the ventricles
+
+---
+
+## Atrial systole
+
+Atrial systole is the contraction of the atria.
+
+The atria contract and push blood into the ventricles.
+
+The atrioventricular valves are open.
+
+The semilunar valves remain closed.
+
+---
+
+## Ventricular systole
+
+The ventricles contract.
+
+Pressure inside the ventricles increases.
+
+The atrioventricular valves close.
+
+This prevents blood from flowing back into the atria.
+
+When ventricular pressure becomes greater than pressure in the arteries:
+
+- semilunar valves open
+- blood is forced into the pulmonary artery and aorta
+
+---
+
+## Complete cardiac cycle
+
+A simplified sequence is:
+
+**Atrial systole → ventricular systole → diastole**
+
+The process repeats continuously.
+
+---
+
+# Electrical coordination of the heartbeat
+
+The heart has specialised cardiac muscle cells that generate and conduct electrical impulses.
+
+The sinoatrial node, or SAN, acts as the natural pacemaker of the heart.
+
+It initiates an electrical impulse.
+
+The impulse spreads through the atrial walls.
+
+The atria contract.
+
+The impulse then reaches the atrioventricular node, or AVN.
+
+The signal is transmitted through specialised conducting fibres towards the ventricles.
+
+The ventricles then contract in a coordinated manner.
+
+This ensures efficient pumping.
+
+---
+
+## Why must the ventricles contract together?
+
+The ventricles need to generate sufficient pressure to pump blood effectively.
+
+Coordinated contraction prevents inefficient pumping.
+
+---
+
+# Heart sounds
+
+The familiar heartbeat sounds are associated with valve closure.
+
+The first sound is mainly associated with closure of the atrioventricular valves.
+
+The second sound is mainly associated with closure of the semilunar valves.
+
+Valves therefore play an important role in producing normal heart sounds.
+
+---
+
+# 10.4 MECHANISM OF BLOOD CLOTTING
+
+Blood clotting prevents excessive blood loss when a blood vessel is damaged.
+
+It also helps prevent pathogens from entering through the wound.
+
+The process involves:
+
+- platelets
+- clotting factors
+- calcium ions
+- vitamin K
+- thrombin
+- fibrinogen
+- fibrin
+
+---
+
+## Sequence of blood clotting
+
+When a blood vessel is damaged:
+
+### Step 1 — Blood vessel damage
+
+The damaged blood vessel exposes tissues beneath the vessel lining.
+
+Platelets become activated and accumulate at the damaged region.
+
+### Step 2 — Platelet plug formation
+
+Platelets adhere to the damaged area and to one another.
+
+This forms an initial platelet plug.
+
+### Step 3 — Activation of clotting pathway
+
+A series of clotting reactions leads to activation of clotting factors.
+
+Calcium ions and other factors participate in the process.
+
+### Step 4 — Formation of thrombin
+
+Prothrombin is converted into thrombin.
+
+### Step 5 — Conversion of fibrinogen
+
+Thrombin converts soluble fibrinogen into insoluble fibrin.
+
+### Step 6 — Fibrin mesh
+
+Fibrin forms a network around the damaged area.
+
+Blood cells and platelets become trapped within this network.
+
+A stronger blood clot forms.
+
+### Step 7 — Clot contraction and repair
+
+The clot helps seal the damaged area while tissue repair takes place.
+
+---
+
+## Why fibrin is important
+
+Fibrin is a protein that forms an insoluble mesh.
+
+This mesh traps blood cells and helps stabilise the clot.
+
+---
+
+## Important terms
+
+**Fibrinogen**
+
+A soluble plasma protein involved in clot formation.
+
+**Fibrin**
+
+An insoluble protein forming the mesh of the clot.
+
+**Prothrombin**
+
+An inactive clotting protein that can be converted into thrombin.
+
+**Thrombin**
+
+An enzyme involved in converting fibrinogen into fibrin.
+
+---
+
+# 10.5 BLOOD GROUPS OF HUMANS
+
+Human blood groups are determined by specific antigens and antibodies.
+
+The ABO system contains four main blood groups:
+
+- A
+- B
+- AB
+- O
+
+---
+
+## ABO blood group system
+
+### Blood group A
+
+Red blood cells have:
+
+**A antigen**
+
+Plasma contains:
+
+**anti-B antibody**
+
+### Blood group B
+
+Red blood cells have:
+
+**B antigen**
+
+Plasma contains:
+
+**anti-A antibody**
+
+### Blood group AB
+
+Red blood cells have:
+
+**A and B antigens**
+
+Plasma contains:
+
+**neither anti-A nor anti-B antibody**
+
+### Blood group O
+
+Red blood cells have:
+
+**no A or B antigens**
+
+Plasma contains:
+
+**anti-A and anti-B antibodies**
+
+---
+
+## Why must blood transfusion be compatible?
+
+If incompatible blood is transfused, antibodies in the recipient's plasma may react with antigens on the donor's red blood cells.
+
+This may cause agglutination.
+
+Agglutinated red blood cells can block blood vessels and cause serious complications.
+
+Therefore, blood compatibility must be checked before transfusion.
+
+---
+
+## ABO compatibility
+
+For red-cell transfusion in the simplified ABO system:
+
+| Recipient | Compatible donor groups |
+|---|---|
+| A | A, O |
+| B | B, O |
+| AB | A, B, AB, O |
+| O | O |
+
+For actual clinical transfusion, compatibility is more complex and includes other blood-group systems and crossmatching.
+
+---
+
+# Rhesus blood group
+
+The Rh system is another important blood group system.
+
+A person may be:
+
+- Rh positive
+- Rh negative
+
+A person who has the relevant Rh antigen is Rh positive.
+
+A person who lacks it is Rh negative.
+
+Rh compatibility is important in blood transfusions and pregnancy.
+
+---
+
+# 10.6 HEALTH ISSUES RELATED TO THE HUMAN CIRCULATORY SYSTEM
+
+The circulatory system can be affected by many diseases and lifestyle factors.
+
+Important conditions include:
+
+- atherosclerosis
+- coronary heart disease
+- hypertension
+- heart attack
+- stroke
+- anaemia
+
+---
+
+## Atherosclerosis
+
+Atherosclerosis involves the build-up of fatty deposits and other material in the walls of arteries.
+
+This can narrow the artery.
+
+Consequences include:
+
+- reduced blood flow
+- reduced oxygen supply
+- increased risk of blood clots
+
+---
+
+## Coronary heart disease
+
+The coronary arteries supply oxygenated blood to the heart muscle.
+
+If coronary arteries become narrowed or blocked, the heart muscle may receive insufficient oxygen.
+
+This is coronary heart disease.
+
+Possible symptoms include:
+
+- chest discomfort
+- shortness of breath
+- fatigue
+
+---
+
+## Heart attack
+
+A heart attack occurs when part of the heart muscle does not receive sufficient blood and oxygen, commonly because a coronary artery becomes blocked.
+
+This can damage heart muscle.
+
+It is a medical emergency.
+
+---
+
+## Hypertension
+
+Hypertension means persistently high blood pressure.
+
+Long-term hypertension can increase the risk of:
+
+- heart disease
+- stroke
+- kidney damage
+- damage to blood vessels
+
+---
+
+## Stroke
+
+A stroke occurs when blood supply to part of the brain is interrupted or when bleeding occurs within the brain.
+
+Brain cells can become damaged because they require a continuous supply of oxygen and nutrients.
+
+---
+
+## Anaemia
+
+Anaemia occurs when the blood has reduced oxygen-carrying capacity.
+
+One possible cause is insufficient haemoglobin or red blood cells.
+
+Symptoms can include:
+
+- tiredness
+- weakness
+- shortness of breath
+
+---
+
+## Factors that increase cardiovascular disease risk
+
+Important risk factors include:
+
+- smoking
+- unhealthy diet
+- lack of physical activity
+- obesity
+- high blood pressure
+- high blood cholesterol
+- diabetes
+- family history
+- increasing age
+
+Some factors cannot be changed, while lifestyle factors can often be modified.
+
+---
+
+# 10.7 LYMPHATIC SYSTEM OF HUMANS
+
+The lymphatic system works closely with the circulatory system.
+
+It consists of:
+
+- lymph
+- lymph capillaries
+- lymph vessels
+- lymph nodes
+- lymphatic organs
+
+Important lymphatic organs include:
+
+- spleen
+- thymus
+- tonsils
+
+---
+
+# Formation of tissue fluid
+
+At the arterial end of a capillary, blood pressure forces some plasma out through the capillary wall.
+
+This forms tissue fluid around cells.
+
+Tissue fluid allows substances to move between blood and cells.
+
+For example:
+
+Oxygen and nutrients can move from tissue fluid into cells.
+
+Carbon dioxide and other metabolic wastes can move from cells into tissue fluid.
+
+---
+
+## What happens to excess tissue fluid?
+
+Not all tissue fluid returns directly into blood capillaries.
+
+Excess tissue fluid enters lymphatic capillaries.
+
+Once inside the lymphatic system, it is called lymph.
+
+Lymph eventually returns to the bloodstream.
+
+---
+
+# Lymphatic vessels
+
+Lymphatic vessels transport lymph towards the bloodstream.
+
+Like veins, many lymphatic vessels contain valves.
+
+These valves prevent backflow.
+
+Lymph movement is assisted by:
+
+- contraction of surrounding skeletal muscles
+- pressure changes during breathing
+- contraction of smooth muscle in some lymphatic vessels
+- one-way valves
+
+Unlike blood circulation, the lymphatic system does not have a heart-like central pump.
+
+---
+
+# Lymph nodes
+
+Lymph nodes are small structures located along lymphatic vessels.
+
+They contain immune cells.
+
+Lymph passes through lymph nodes, where foreign particles and pathogens can be filtered and immune responses can occur.
+
+Lymph nodes may become enlarged when the immune system is actively responding to infection.
+
+---
+
+# Functions of the lymphatic system
+
+The lymphatic system has several important functions.
+
+## 1. Returns excess tissue fluid
+
+It returns excess fluid to the bloodstream.
+
+This helps maintain fluid balance.
+
+## 2. Transports absorbed fats
+
+Special lymphatic vessels called lacteals in intestinal villi absorb and transport many products of lipid digestion.
+
+## 3. Defence
+
+Lymphatic tissues contain cells involved in immune responses.
+
+## 4. Filters harmful substances
+
+Lymph nodes help filter lymph and expose foreign substances to immune cells.
+
+---
+
+# Relationship between circulatory and lymphatic systems
+
+The two systems work together.
+
+Blood capillaries → tissue fluid → lymphatic capillaries → lymphatic vessels → bloodstream
+
+This prevents excessive accumulation of fluid in tissues.
+
+---
+
+# 10.8 HEALTH ISSUES RELATED TO THE HUMAN LYMPHATIC SYSTEM
+
+Problems with the lymphatic system can interfere with fluid balance and immune function.
+
+---
+
+## Oedema
+
+Oedema is abnormal accumulation of fluid in tissues.
+
+It can occur when the normal movement of fluid into the lymphatic system is disrupted.
+
+Possible causes include:
+
+- damage to lymphatic vessels
+- blockage of lymphatic vessels
+- inflammation
+- certain diseases
+
+The affected area may become swollen.
+
+---
+
+## Lymphatic blockage
+
+If lymphatic vessels become blocked, lymph cannot drain effectively.
+
+This causes lymph to accumulate in tissues.
+
+Persistent blockage can cause significant swelling.
+
+---
+
+## Lymphoedema
+
+Lymphoedema is swelling caused by impaired lymphatic drainage.
+
+It may occur because of:
+
+- damage to lymphatic vessels
+- removal or damage of lymph nodes
+- congenital problems
+- certain infections
+
+---
+
+## Lymphatic system and cancer
+
+Cancer cells can sometimes spread through lymphatic vessels.
+
+Cancer cells may enter lymphatic vessels and travel to nearby lymph nodes.
+
+Lymph nodes are therefore important in assessing the spread of some cancers.
+
+---
+
+# HIGH-VALUE COMPARISONS
+
+## Artery vs vein
+
+| Artery | Vein |
+|---|---|
+| Carries blood away from heart | Carries blood towards heart |
+| Generally high pressure | Generally low pressure |
+| Thick muscular wall | Thinner wall |
+| Narrower lumen | Wider lumen |
+| Generally no valves along the main vessel | Valves commonly present |
+| Blood flow is generally rapid | Blood flow is generally slower |
+
+---
+
+## Artery vs vein vs capillary
+
+| Feature | Artery | Vein | Capillary |
+|---|---|---|---|
+| Direction | Away from heart | Towards heart | Connects small vessels |
+| Wall | Thick | Thin | One cell thick |
+| Lumen | Relatively narrow | Relatively wide | Very narrow |
+| Pressure | High | Low | Low |
+| Main role | Transport | Return | Exchange |
+
+---
+
+# HIGH-VALUE HEART BLOOD-FLOW SEQUENCE
+
+Memorise this sequence:
+
+**Body → venae cavae → right atrium → tricuspid valve → right ventricle → pulmonary semilunar valve → pulmonary artery → lungs → pulmonary veins → left atrium → bicuspid/mitral valve → left ventricle → aortic semilunar valve → aorta → body**
+
+This is one of the most important sequences in the chapter.
+
+---
+
+# OXYGENATED VS DEOXYGENATED BLOOD
+
+## Oxygenated blood
+
+Generally contains more oxygen and less carbon dioxide.
+
+Main pathway:
+
+**Lungs → pulmonary veins → left atrium → left ventricle → aorta → body**
+
+## Deoxygenated blood
+
+Generally contains less oxygen and more carbon dioxide.
+
+Main pathway:
+
+**Body → venae cavae → right atrium → right ventricle → pulmonary artery → lungs**
+
+---
+
+# COMMON EXAM TRAPS
+
+### Trap 1
+
+"All arteries carry oxygenated blood."
+
+Incorrect.
+
+The pulmonary artery carries deoxygenated blood.
+
+### Trap 2
+
+"All veins carry deoxygenated blood."
+
+Incorrect.
+
+The pulmonary veins carry oxygenated blood.
+
+### Trap 3
+
+"Valves pump blood."
+
+Incorrect.
+
+The heart muscles generate pressure. Valves mainly prevent backflow.
+
+### Trap 4
+
+"Left ventricle is thicker because oxygenated blood is more important."
+
+Incorrect.
+
+It is thicker because it pumps blood through the systemic circulation at high pressure.
+
+### Trap 5
+
+"Capillaries have thick walls to withstand high pressure."
+
+Incorrect.
+
+Capillaries have very thin walls to allow efficient exchange.
+
+### Trap 6
+
+"Lymph is produced directly by lymph nodes."
+
+Incorrect.
+
+Lymph originates from excess tissue fluid entering lymphatic capillaries.
+
+---
+
+# EXAM COMMAND-WORD GUIDE
+
+## STATE
+
+Give the required fact directly.
+
+Example:
+
+**State the function of valves.**
+
+Answer:
+
+Valves prevent the backflow of blood.
+
+---
+
+## DEFINE
+
+Give the scientific meaning.
+
+Example:
+
+**Define double circulation.**
+
+Answer:
+
+Double circulation is a circulatory system in which blood passes through the heart twice during one complete circulation.
+
+---
+
+## DESCRIBE
+
+State what happens in sequence.
+
+Use ordered points.
+
+---
+
+## EXPLAIN
+
+Give the process plus reasons.
+
+Do not simply list facts.
+
+Useful structure:
+
+**Point → mechanism → consequence**
+
+---
+
+## COMPARE
+
+Give similarities and/or differences according to the question.
+
+A table is useful when several differences are required.
+
+---
+
+## JUSTIFY
+
+Give a reason that directly supports the statement.
+
+---
+
+# SPM-STYLE PRACTICE
+
+## Question 1
+
+Explain why the wall of a capillary is only one cell thick.
+
+### Answer
+
+The capillary wall is only one cell thick to provide a short diffusion distance. This allows substances such as oxygen, carbon dioxide, nutrients and metabolic waste products to diffuse efficiently between the blood and surrounding tissues.
+
+---
+
+## Question 2
+
+Explain why the left ventricle has a thicker muscular wall than the right ventricle.
+
+### Answer
+
+The left ventricle pumps blood through the systemic circulation to the entire body. Therefore, it must generate a higher pressure. Its thicker muscular wall enables stronger contraction and produces sufficient pressure to pump blood throughout the body.
+
+---
+
+## Question 3
+
+Explain how valves ensure unidirectional blood flow.
+
+### Answer
+
+Valves open when blood flows in the correct direction. When blood attempts to flow backwards, the valves close. Therefore, valves prevent backflow and ensure that blood flows in one direction.
+
+---
+
+## Question 4
+
+Explain why the pulmonary artery is classified as an artery although it carries deoxygenated blood.
+
+### Answer
+
+An artery is defined according to the direction of blood flow relative to the heart. The pulmonary artery carries blood away from the right ventricle towards the lungs. Therefore, it is an artery even though the blood is deoxygenated.
+
+---
+
+## Question 5
+
+Explain why the circulatory system is important in humans.
+
+### Answer
+
+The circulatory system transports oxygen and nutrients to cells for cellular processes and transports carbon dioxide and metabolic waste products away from cells. It also transports hormones, immune components and heat, allowing the body to maintain normal physiological functions.
+
+---
+
+# CHAPTER 10 CORE MAP
+
+## Circulation
+
+Open/closed systems
+
+↓
+
+Single/double circulation
+
+↓
+
+Human double circulation
+
+↓
+
+Heart
+
+↓
+
+Blood vessels
+
+↓
+
+Blood
+
+↓
+
+Heartbeat
+
+↓
+
+Blood clotting
+
+↓
+
+Blood groups
+
+↓
+
+Circulatory diseases
+
+↓
+
+Lymphatic system
+
+↓
+
+Tissue fluid
+
+↓
+
+Lymph
+
+↓
+
+Lymph vessels and nodes
+
+↓
+
+Lymphatic health issues
+
+---
+
+# MUST-KNOW TERMS
+
+- circulatory system
+- open circulatory system
+- closed circulatory system
+- single circulation
+- double circulation
+- pulmonary circulation
+- systemic circulation
+- atrium
+- ventricle
+- septum
+- valve
+- aorta
+- vena cava
+- pulmonary artery
+- pulmonary vein
+- artery
+- vein
+- capillary
+- plasma
+- haemoglobin
+- platelet
+- systole
+- diastole
+- SAN
+- AVN
+- fibrinogen
+- fibrin
+- thrombin
+- antigen
+- antibody
+- agglutination
+- atherosclerosis
+- hypertension
+- stroke
+- lymph
+- tissue fluid
+- lymph node
+- lymphatic vessel
+- oedema
+- lymphoedema
+- lacteal
+
+---
+
+# FINAL REVISION CHECKLIST
+
+Before considering Chapter 10 mastered, a student should be able to:
+
+1. Explain why large organisms require transport systems.
+2. Compare open and closed circulatory systems.
+3. Explain single and double circulation.
+4. Trace blood through the entire human circulatory system.
+5. Identify all four heart chambers.
+6. Explain the functions of the major valves.
+7. Explain why the left ventricle is thicker.
+8. Compare arteries, veins and capillaries.
+9. Explain adaptations of capillaries for exchange.
+10. Explain the cardiac cycle.
+11. Explain systole and diastole.
+12. Explain how the SAN and AVN coordinate heartbeat.
+13. Explain the blood-clotting process.
+14. Distinguish fibrinogen, fibrin, prothrombin and thrombin.
+15. Explain ABO blood groups.
+16. Explain why incompatible blood can cause agglutination.
+17. Explain the importance of the Rh system.
+18. Explain major circulatory health problems.
+19. Explain how tissue fluid is formed.
+20. Explain how tissue fluid becomes lymph.
+21. Explain the functions of the lymphatic system.
+22. Explain the role of lymph nodes.
+23. Explain how lymphatic blockage can cause oedema.
+24. Answer SPM questions using appropriate command words.
+25. Draw or interpret a labelled heart and blood-flow pathway.
+
+# CORE IDEA
+
+The entire chapter can be understood as one connected system:
+
+**Heart creates pressure → blood vessels transport blood → capillaries allow exchange → tissue fluid surrounds cells → excess tissue fluid enters lymphatic vessels → lymph returns to the bloodstream.**
+
+The circulatory and lymphatic systems therefore work together to maintain the internal environment of the human body.
