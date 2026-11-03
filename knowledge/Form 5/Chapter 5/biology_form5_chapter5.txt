@@ -1,0 +1,1565 @@
+# BIOLOGY FORM 5 — CHAPTER 5
+
+# RESPONSE IN PLANTS
+
+SUBJECT: Biology  
+FORM: Form 5  
+CHAPTER: Chapter 5  
+CHAPTER_TITLE: Response in Plants  
+TOPICS: 5.1, 5.2, 5.3  
+SOURCE_TYPE: Original Learning Material  
+STATUS: Original Educational Content
+
+---
+
+# CHAPTER INTRODUCTION
+
+Plants are living organisms that can detect and respond to changes in their surroundings.
+
+Although plants do not have a nervous system like animals, they are able to respond to stimuli through:
+
+- Growth responses.
+- Changes in cell growth.
+- Changes in cell turgor.
+- Chemical signals.
+- Plant hormones or phytohormones.
+
+Examples of stimuli that plants respond to include:
+
+- Light.
+- Gravity.
+- Water.
+- Touch.
+- Chemicals.
+- Temperature.
+
+Plant responses allow plants to:
+
+1. Obtain sufficient light for photosynthesis.
+2. Grow in an appropriate direction.
+3. Obtain water and mineral salts.
+4. Avoid or tolerate environmental stress.
+5. Coordinate growth and development.
+6. Reproduce successfully.
+7. Respond to agricultural treatments.
+
+The major sections of this chapter are:
+
+1. Types of responses in plants.
+2. Phytohormones.
+3. Applications of phytohormones in agriculture.
+
+---
+
+# 5.1 TYPES OF RESPONSES
+
+## 5.1.1 Introduction to Plant Responses
+
+A stimulus is a change in the internal or external environment that can be detected by an organism and produces a response.
+
+Plants detect stimuli using specialised cells or tissues and respond through changes in growth, cell activity or movement.
+
+Plant responses can generally be divided into:
+
+1. Tropisms.
+2. Nastic responses.
+
+---
+
+# 5.1.2 TROPISMS
+
+A tropism is a directional growth response of a plant part towards or away from a stimulus.
+
+The direction of the response depends on the direction of the stimulus.
+
+The main types of tropism are:
+
+1. Phototropism.
+2. Geotropism or gravitropism.
+3. Hydrotropism.
+4. Thigmotropism.
+5. Chemotropism.
+
+A tropism can be:
+
+### Positive tropism
+
+Growth towards the stimulus.
+
+### Negative tropism
+
+Growth away from the stimulus.
+
+---
+
+# 5.1.3 PHOTOTROPISM
+
+Phototropism is the growth response of a plant towards or away from light.
+
+The main plant organ involved is the shoot.
+
+### Positive Phototropism
+
+A shoot usually shows positive phototropism.
+
+The shoot grows towards the light source.
+
+This allows leaves to receive more light for photosynthesis.
+
+### Negative Phototropism
+
+Roots commonly show a negative response to light.
+
+They generally grow away from light.
+
+This supports their growth into the soil, where they can obtain water and mineral salts.
+
+---
+
+# 5.1.4 MECHANISM OF PHOTOTROPISM
+
+Auxin is an important phytohormone involved in phototropism.
+
+Consider a shoot receiving light from one side.
+
+### Step 1
+
+Light is detected by the shoot tip.
+
+### Step 2
+
+Auxin is redistributed towards the shaded side of the shoot.
+
+### Step 3
+
+A higher concentration of auxin develops on the shaded side.
+
+### Step 4
+
+In shoots, auxin stimulates cell elongation.
+
+### Step 5
+
+Cells on the shaded side elongate more rapidly than cells on the illuminated side.
+
+### Step 6
+
+The shoot bends towards the light.
+
+This produces positive phototropism.
+
+### Simplified sequence
+
+Light from one side  
+↓  
+Auxin accumulates on shaded side  
+↓  
+Greater cell elongation on shaded side  
+↓  
+Unequal growth  
+↓  
+Shoot bends towards light
+
+---
+
+# 5.1.5 WHY DOES THE SHOOT BEND?
+
+The shoot does not bend because auxin physically pushes it towards the light.
+
+Instead, the bending occurs because cells on one side grow faster than cells on the other side.
+
+This unequal growth causes the shoot to curve.
+
+**Important exam phrase:**
+
+"Unequal distribution of auxin causes unequal cell elongation on the two sides of the shoot."
+
+---
+
+# 5.1.6 GEOTROPISM / GRAVITROPISM
+
+Geotropism, also called gravitropism, is a growth response to gravity.
+
+### Positive geotropism
+
+Growth towards the direction of gravity.
+
+Roots generally show positive geotropism.
+
+Roots grow downwards.
+
+### Negative geotropism
+
+Growth away from the direction of gravity.
+
+Shoots generally show negative geotropism.
+
+Shoots grow upwards.
+
+### Biological importance
+
+Root growth towards gravity helps roots penetrate the soil.
+
+This allows roots to:
+
+- Anchor the plant.
+- Absorb water.
+- Absorb mineral ions.
+
+Shoot growth away from gravity helps stems and leaves grow towards the aerial environment where light is available.
+
+---
+
+# 5.1.7 MECHANISM OF ROOT GRAVITROPISM
+
+Root gravitropism involves gravity sensing and redistribution of auxin.
+
+The root tip contains specialised cells that help detect gravity.
+
+When a root is placed horizontally:
+
+1. Gravity causes auxin to become redistributed towards the lower side.
+2. In roots, a relatively high concentration of auxin inhibits cell elongation.
+3. Cells on the upper side elongate more rapidly.
+4. Unequal growth occurs.
+5. The root bends downwards.
+
+### Important comparison
+
+Auxin generally:
+
+- Promotes cell elongation in shoots.
+- At sufficiently high concentrations, inhibits cell elongation in roots.
+
+This difference is extremely important in understanding plant tropisms.
+
+---
+
+# 5.1.8 HYDROTROPISM
+
+Hydrotropism is the growth response of a plant towards or away from water or a moisture gradient.
+
+Roots generally show positive hydrotropism.
+
+Roots grow towards regions with greater water availability.
+
+### Biological importance
+
+Positive hydrotropism helps roots:
+
+- Locate water in the soil.
+- Improve water absorption.
+- Support plant survival during periods of limited water availability.
+
+### Example
+
+If one side of the soil around a plant is more moist than another, growing roots may show a tendency to grow towards the region with greater moisture.
+
+---
+
+# 5.1.9 THIGMOTROPISM
+
+Thigmotropism is a directional growth response to touch or physical contact.
+
+It is especially important in climbing plants.
+
+### Example
+
+A tendril comes into contact with a support.
+
+The cells on different sides of the tendril grow at different rates.
+
+This causes the tendril to coil around the support.
+
+### Biological importance
+
+Thigmotropism allows climbing plants to:
+
+- Obtain physical support.
+- Grow upwards.
+- Reach regions with greater light availability.
+- Reduce the need to develop thick supporting stems.
+
+---
+
+# 5.1.10 CHEMOTROPISM
+
+Chemotropism is a directional growth response to a chemical stimulus.
+
+A well-known example occurs during plant reproduction.
+
+The pollen tube grows towards the ovule in response to chemical signals released by tissues of the female reproductive structure.
+
+This helps the male gamete reach the female gamete for fertilisation.
+
+### Biological importance
+
+Chemotropism helps coordinate growth in response to chemical signals.
+
+---
+
+# 5.1.11 SUMMARY OF TROPISMS
+
+| Type | Stimulus | Typical response | Example |
+|---|---|---|---|
+| Phototropism | Light | Shoot grows towards light | Shoot bends towards window |
+| Geotropism/gravitropism | Gravity | Roots grow downwards | Root growth |
+| Hydrotropism | Water | Roots grow towards water | Root growth in moist soil |
+| Thigmotropism | Touch | Growth towards/around support | Tendril coiling |
+| Chemotropism | Chemicals | Growth towards chemical signal | Pollen tube growth |
+
+---
+
+# 5.1.12 NASTIC RESPONSES
+
+A nastic response is a plant response in which the direction of the response does not depend on the direction of the stimulus.
+
+This differs from tropism.
+
+Nastic responses often involve changes in cell turgor rather than directional growth.
+
+Examples include:
+
+- Seismonasty.
+- Nyctinasty.
+
+---
+
+# 5.1.13 SEISMONASTY
+
+Seismonasty is a nastic response to mechanical stimuli such as:
+
+- Touch.
+- Vibration.
+- Shaking.
+
+### Example: Mimosa pudica
+
+When the leaves of Mimosa pudica are touched:
+
+1. The stimulus is detected.
+2. Electrical and chemical signals are transmitted through the plant.
+3. Cells in specialised structures called pulvini lose turgor.
+4. The leaflets fold.
+5. The leaf appears to close.
+
+This response can help reduce damage or discourage herbivores.
+
+### Important
+
+The response is not a directional growth response.
+
+Therefore, it is a nastic response rather than a tropism.
+
+---
+
+# 5.1.14 NYCTINASTY
+
+Nyctinasty is a nastic movement associated with the daily cycle of light and darkness.
+
+Some plants show changes in leaf or flower position between day and night.
+
+For example:
+
+- Leaves may fold or droop at night.
+- Some flowers open during the day and close at night.
+
+These movements may involve changes in turgor pressure in specialised motor cells.
+
+---
+
+# 5.1.15 TROPISM VS NASTIC RESPONSE
+
+| Feature | Tropism | Nastic response |
+|---|---|---|
+| Direction depends on stimulus direction? | Yes | No |
+| Common mechanism | Directional growth | Growth or turgor changes |
+| Usually slow or fast? | Often relatively slow | Some can be rapid |
+| Example | Phototropism | Seismonasty |
+| Typical stimulus | Light, gravity, water, touch, chemicals | Touch, vibration, day/night cycle |
+
+---
+
+# 5.1.16 IMPORTANCE OF PLANT RESPONSES
+
+Plant responses are essential for survival.
+
+### Light
+
+Shoots grow towards light to improve photosynthesis.
+
+### Gravity
+
+Roots grow into soil while shoots grow upwards.
+
+### Water
+
+Roots grow towards water sources.
+
+### Touch
+
+Climbing plants use supports to grow upwards.
+
+### Chemicals
+
+Pollen tubes respond to chemical signals during reproduction.
+
+### Mechanical stimulation
+
+Some plants rapidly change leaf position when touched.
+
+---
+
+# 5.2 PHYTOHORMONES
+
+## 5.2.1 Definition of Phytohormones
+
+Phytohormones are naturally occurring chemical substances produced by plants that regulate growth, development and physiological processes.
+
+They are effective in very small concentrations.
+
+Phytohormones can be produced in one part of a plant and transported to another part.
+
+They can affect:
+
+- Cell division.
+- Cell elongation.
+- Cell differentiation.
+- Root growth.
+- Shoot growth.
+- Flowering.
+- Fruit development.
+- Fruit ripening.
+- Seed germination.
+- Dormancy.
+- Leaf fall.
+- Responses to environmental stress.
+
+The major phytohormones discussed in this chapter are:
+
+1. Auxin.
+2. Gibberellin.
+3. Cytokinin.
+4. Abscisic acid.
+5. Ethylene.
+
+---
+
+# 5.2.2 AUXIN
+
+Auxin is a phytohormone involved in plant growth and development.
+
+A common natural auxin is indole-3-acetic acid, or IAA.
+
+Auxin is produced mainly in:
+
+- Shoot tips.
+- Young leaves.
+- Developing seeds and fruits.
+
+### Functions of Auxin
+
+Auxin:
+
+1. Promotes cell elongation in shoots.
+2. Controls phototropic responses.
+3. Influences gravitropic responses.
+4. Promotes apical dominance.
+5. Stimulates root formation at suitable concentrations.
+6. Can promote fruit development.
+7. Can delay certain forms of leaf and fruit abscission.
+8. Can be used in agriculture as a rooting agent.
+
+---
+
+# 5.2.3 AUXIN AND APICAL DOMINANCE
+
+Apical dominance is the inhibition of lateral bud growth by the shoot apical bud.
+
+The shoot tip produces auxin.
+
+Auxin helps maintain dominance of the main shoot over lateral buds.
+
+### If the shoot tip is removed
+
+The source of auxin is reduced.
+
+Lateral buds may then grow more actively.
+
+This produces a bushier plant.
+
+### Agricultural application
+
+Pruning or removal of shoot tips can be used to encourage branching in certain crops.
+
+---
+
+# 5.2.4 AUXIN AND ROOT FORMATION
+
+Auxin can stimulate root formation at suitable concentrations.
+
+This is especially useful in vegetative propagation.
+
+For example, a cutting from a plant can be treated with a suitable rooting hormone to encourage the formation of adventitious roots.
+
+However, the effect of auxin depends on concentration and tissue type.
+
+Very high auxin concentrations can inhibit root growth.
+
+---
+
+# 5.2.5 GIBBERELLIN
+
+Gibberellins are phytohormones involved in growth and development.
+
+They are produced in various actively growing tissues.
+
+### Functions of Gibberellin
+
+Gibberellins:
+
+1. Promote stem elongation.
+2. Promote growth of some leaves and fruits.
+3. Break seed dormancy in some species.
+4. Promote seed germination.
+5. Stimulate enzyme production during seed germination.
+6. Can promote flowering in some plants.
+7. Can increase fruit size in some crops.
+
+---
+
+# 5.2.6 GIBBERELLIN AND SEED GERMINATION
+
+Gibberellin plays an important role in the germination of many seeds.
+
+When a seed absorbs water:
+
+1. Metabolic activity increases.
+2. Gibberellin production/signalling increases.
+3. Gibberellin stimulates cells in the aleurone layer of cereal grains.
+4. The aleurone cells produce hydrolytic enzymes.
+5. One important enzyme is amylase.
+6. Amylase breaks down starch stored in the endosperm.
+7. Soluble sugars are released.
+8. The growing embryo uses these sugars for respiration and growth.
+
+### Simplified sequence
+
+Water enters seed  
+↓  
+Gibberellin signalling increases  
+↓  
+Aleurone cells activated  
+↓  
+Amylase produced  
+↓  
+Starch hydrolysed  
+↓  
+Soluble sugars released  
+↓  
+Respiration and embryo growth
+
+---
+
+# 5.2.7 CYTOKININ
+
+Cytokinins are phytohormones that promote cell division and influence plant development.
+
+They are produced in various tissues, including actively growing roots.
+
+### Functions of Cytokinin
+
+Cytokinins:
+
+1. Promote cell division.
+2. Promote cell differentiation in combination with other hormones.
+3. Stimulate lateral bud growth.
+4. Can reduce apical dominance.
+5. Delay leaf senescence.
+6. Support nutrient mobilisation towards developing tissues.
+
+### Cytokinin and Apical Dominance
+
+Cytokinins generally promote lateral bud growth.
+
+Auxin from the shoot tip promotes apical dominance.
+
+The balance between auxin and cytokinin influences whether the main shoot or lateral shoots grow more strongly.
+
+---
+
+# 5.2.8 CYTOKININ AND SENESCENCE
+
+Senescence is the process of ageing in plant organs.
+
+Examples:
+
+- Ageing leaves.
+- Ageing flowers.
+- Ageing fruits.
+
+Cytokinins can delay leaf senescence.
+
+This allows leaves to remain physiologically active for longer.
+
+Cytokinins can help maintain:
+
+- Protein synthesis.
+- Chlorophyll.
+- Cellular activity.
+
+---
+
+# 5.2.9 ABSCISIC ACID
+
+Abscisic acid, commonly abbreviated as ABA, is a phytohormone involved especially in stress responses, stomatal regulation and seed dormancy.
+
+### Functions of ABA
+
+ABA:
+
+1. Promotes stomatal closure during water stress.
+2. Helps plants respond to drought.
+3. Promotes seed dormancy.
+4. Inhibits growth in certain situations.
+5. Helps seeds tolerate unfavourable conditions.
+
+---
+
+# 5.2.10 ABA AND STOMATAL CLOSURE
+
+When a plant experiences water stress:
+
+1. Water availability decreases.
+2. ABA concentration/signalling increases.
+3. ABA acts on guard cells.
+4. Ions are redistributed from guard cells.
+5. Water leaves the guard cells by osmosis.
+6. Guard cells become less turgid.
+7. Stomatal pores close.
+8. Water loss through transpiration decreases.
+
+### Simplified sequence
+
+Water stress  
+↓  
+ABA signalling increases  
+↓  
+Guard cell ion loss  
+↓  
+Water leaves guard cells  
+↓  
+Guard cells become flaccid  
+↓  
+Stomata close  
+↓  
+Transpiration decreases
+
+This is an important adaptation to drought.
+
+---
+
+# 5.2.11 ETHYLENE
+
+Ethylene is a gaseous phytohormone.
+
+Unlike most plant hormones, ethylene is volatile and can diffuse through air spaces.
+
+It is especially important in:
+
+- Fruit ripening.
+- Leaf abscission.
+- Senescence.
+- Responses to mechanical stress.
+
+### Functions of Ethylene
+
+Ethylene:
+
+1. Promotes fruit ripening.
+2. Promotes senescence.
+3. Promotes leaf and fruit abscission.
+4. Helps plants respond to mechanical stress.
+5. Can influence root and shoot growth.
+
+---
+
+# 5.2.12 ETHYLENE AND FRUIT RIPENING
+
+Ethylene promotes the ripening of many fruits.
+
+During ripening:
+
+- Cell walls may soften.
+- Starch may be converted into sugars.
+- Acids may change.
+- Pigments may change.
+- Aroma compounds may be produced.
+
+These changes alter the:
+
+- Texture.
+- Taste.
+- Colour.
+- Smell.
+
+Ethylene can stimulate further ethylene production in many climacteric fruits, producing a coordinated ripening response.
+
+---
+
+# 5.2.13 ETHYLENE AND ABSCISSION
+
+Abscission is the natural separation of a plant organ such as:
+
+- Leaf.
+- Flower.
+- Fruit.
+
+Ethylene can promote the development of an abscission zone.
+
+Cells in this region become weakened, allowing the organ to detach.
+
+This is part of normal plant development.
+
+---
+
+# 5.2.14 COMPARISON OF PHYTOHORMONES
+
+| Phytohormone | Major functions |
+|---|---|
+| Auxin | Cell elongation, phototropism, apical dominance, root formation |
+| Gibberellin | Stem elongation, seed germination, dormancy breaking, fruit growth |
+| Cytokinin | Cell division, lateral bud growth, delays senescence |
+| Abscisic acid | Stomatal closure, seed dormancy, drought response |
+| Ethylene | Fruit ripening, senescence, abscission |
+
+---
+
+# 5.2.15 HORMONE BALANCE
+
+Plant responses are not normally controlled by one hormone acting independently.
+
+Different hormones interact with each other.
+
+The final response depends on:
+
+- Hormone concentration.
+- Tissue type.
+- Developmental stage.
+- Environmental conditions.
+- Presence of other hormones.
+
+For example:
+
+### Auxin + Cytokinin
+
+The balance between auxin and cytokinin influences:
+
+- Root formation.
+- Shoot formation.
+- Cell division.
+- Apical dominance.
+
+### Auxin + Gibberellin
+
+Both can influence aspects of plant growth, including stem elongation and development.
+
+### ABA + Ethylene
+
+Both can be involved in responses associated with stress and ageing, although their effects depend on the tissue and conditions.
+
+**Important:**
+
+A phytohormone does not always have one effect under every condition. Its effect depends on concentration, target tissue and interactions with other hormones.
+
+---
+
+# 5.3 APPLICATION OF PHYTOHORMONES IN AGRICULTURE
+
+Phytohormones and synthetic plant growth regulators are widely used in agriculture and horticulture.
+
+They can be used to control:
+
+- Root formation.
+- Plant height.
+- Fruit development.
+- Fruit ripening.
+- Seed germination.
+- Dormancy.
+- Branching.
+- Fruit drop.
+- Tissue culture.
+
+---
+
+# 5.3.1 AUXIN IN AGRICULTURE
+
+## A. Rooting of Cuttings
+
+Auxin-based rooting hormones can stimulate the formation of adventitious roots.
+
+### Application
+
+A suitable auxin preparation can be applied to the base of a plant cutting before it is placed in a suitable growing medium.
+
+### Benefit
+
+- Increases the likelihood of root formation.
+- Supports vegetative propagation.
+- Allows desirable plants to be reproduced efficiently.
+
+---
+
+# 5.3.2 AUXIN AND FRUIT DEVELOPMENT
+
+Auxin can promote fruit development.
+
+In some crops, auxin treatments can stimulate fruit growth or fruit development under controlled conditions.
+
+Certain synthetic auxins can also be used to reduce premature fruit drop in some crops.
+
+The response depends on:
+
+- Crop species.
+- Variety.
+- Concentration.
+- Timing of application.
+
+---
+
+# 5.3.3 SYNTHETIC AUXINS AS HERBICIDES
+
+Some synthetic auxin-like compounds are used as selective herbicides.
+
+They interfere with normal growth regulation in susceptible broad-leaved weeds.
+
+At sufficiently high doses, they cause abnormal growth and eventually plant death.
+
+Some grasses are relatively less affected by certain selective auxin herbicides, allowing them to be used in particular crops.
+
+**Important:**
+
+The effectiveness and selectivity depend on:
+
+- Herbicide.
+- Concentration.
+- Plant species.
+- Growth stage.
+- Application conditions.
+
+---
+
+# 5.3.4 GIBBERELLIN IN AGRICULTURE
+
+Gibberellins have several agricultural applications.
+
+## A. Increasing Stem Elongation
+
+Gibberellin can stimulate stem elongation.
+
+This can be useful in controlled horticultural applications.
+
+## B. Breaking Seed Dormancy
+
+Gibberellin can help overcome dormancy in certain seeds.
+
+This can promote germination when suitable environmental conditions are present.
+
+## C. Increasing Fruit Size
+
+Gibberellin treatments can increase the size of certain fruits.
+
+For example, gibberellins are used in some grape production systems.
+
+## D. Improving Fruit Quality
+
+Gibberellins can influence fruit development and may affect characteristics such as fruit size and shape in certain crops.
+
+---
+
+# 5.3.5 CYTOKININ IN AGRICULTURE
+
+Cytokinins are particularly important in plant tissue culture.
+
+### Tissue Culture
+
+Plant tissue culture involves growing plant cells, tissues or organs under controlled conditions on a nutrient medium.
+
+Plant hormones are used to regulate development.
+
+The balance between auxin and cytokinin influences whether tissues develop:
+
+- Roots.
+- Shoots.
+- Undifferentiated callus tissue.
+
+### General principle
+
+A relatively higher auxin influence often favours root formation.
+
+A relatively higher cytokinin influence often favours shoot formation.
+
+The exact response depends on plant species, tissue type and hormone concentrations.
+
+---
+
+# 5.3.6 CYTOKININ AND DELAYING SENESCENCE
+
+Cytokinins can delay leaf ageing.
+
+This may help:
+
+- Maintain chlorophyll.
+- Maintain photosynthetic activity.
+- Extend the useful life of leaves.
+- Maintain quality of certain harvested plant tissues.
+
+This application can be useful in horticultural and post-harvest management.
+
+---
+
+# 5.3.7 ABA IN AGRICULTURE
+
+Abscisic acid can be used or studied in agriculture because of its effects on:
+
+- Stomatal closure.
+- Seed dormancy.
+- Stress responses.
+
+Under water-limited conditions, ABA signalling helps plants reduce water loss by promoting stomatal closure.
+
+However, excessive stomatal closure also reduces carbon dioxide entry and may reduce photosynthesis.
+
+Therefore, plant growth and water conservation must be balanced.
+
+---
+
+# 5.3.8 ETHYLENE IN AGRICULTURE
+
+Ethylene is particularly important in fruit production and post-harvest management.
+
+## A. Fruit Ripening
+
+Ethylene can be used to promote and coordinate ripening of certain fruits.
+
+This can help farmers and distributors manage the timing of ripening.
+
+## B. Controlled Ripening
+
+Fruit may be harvested before complete ripening and then exposed to controlled ethylene conditions later.
+
+This allows ripening to be coordinated during storage and distribution.
+
+## C. Fruit Abscission
+
+Ethylene can influence the separation of plant organs.
+
+This can be useful in some agricultural practices where controlled fruit or leaf drop is desired.
+
+---
+
+# 5.3.9 APPLICATION OF PHYTOHORMONES IN TISSUE CULTURE
+
+Plant tissue culture is an important agricultural application of plant hormones.
+
+A small piece of plant tissue is placed on a sterile nutrient medium containing suitable concentrations of:
+
+- Auxin.
+- Cytokinin.
+- Other nutrients and growth factors.
+
+### General Process
+
+1. A suitable plant tissue is selected.
+2. The tissue is sterilised.
+3. It is placed on a sterile nutrient medium.
+4. Hormone concentrations are adjusted.
+5. Cells divide and form tissue.
+6. Shoots or roots develop.
+7. Plantlets are transferred to growing conditions.
+8. Plants are gradually adapted to normal environmental conditions.
+
+### Importance
+
+Tissue culture can produce:
+
+- Large numbers of plants.
+- Genetically similar plants from a selected parent.
+- Disease-free planting material when appropriate clean starting material and techniques are used.
+- Plants throughout the year under controlled conditions.
+
+---
+
+# 5.3.10 AUXIN-TO-CYTOKININ BALANCE IN TISSUE CULTURE
+
+The relative concentration of auxin and cytokinin affects the developmental pathway of cultured plant tissues.
+
+A simplified model is:
+
+### Higher auxin relative to cytokinin
+
+→ Root development is favoured.
+
+### Higher cytokinin relative to auxin
+
+→ Shoot development is favoured.
+
+### Intermediate or suitable balance
+
+→ Callus formation may occur under appropriate conditions.
+
+**Important:**
+
+This is a general principle rather than a universal fixed ratio. The exact response depends on plant species, tissue and culture conditions.
+
+---
+
+# 5.3.11 AGRICULTURAL IMPORTANCE OF PHYTOHORMONES
+
+Phytohormones can help farmers control plant development more efficiently.
+
+Applications include:
+
+1. Promoting root formation.
+2. Controlling plant height.
+3. Promoting seed germination.
+4. Breaking seed dormancy.
+5. Increasing fruit size.
+6. Controlling fruit ripening.
+7. Delaying senescence.
+8. Controlling fruit or leaf abscission.
+9. Producing plants through tissue culture.
+10. Managing certain weeds using synthetic hormone-like compounds.
+
+---
+
+# 5.3.12 ADVANTAGES OF USING PHYTOHORMONES
+
+### 1. Improved crop production
+
+Hormones can be used to influence growth and development.
+
+### 2. Faster propagation
+
+Auxin can encourage rooting of cuttings.
+
+### 3. Controlled ripening
+
+Ethylene can help coordinate fruit ripening.
+
+### 4. Improved fruit development
+
+Gibberellins and other regulators can influence fruit size and development in certain crops.
+
+### 5. Mass production of plants
+
+Auxin and cytokinin are important in tissue culture.
+
+### 6. Improved agricultural management
+
+Hormones allow farmers to manipulate certain aspects of plant growth under controlled conditions.
+
+---
+
+# 5.3.13 LIMITATIONS AND RISKS
+
+Phytohormones must be used carefully.
+
+### 1. Concentration matters
+
+A hormone can have different effects at different concentrations.
+
+### 2. Plant species differ
+
+The same treatment may produce different responses in different species.
+
+### 3. Timing matters
+
+The developmental stage of the plant can affect the response.
+
+### 4. Environmental conditions matter
+
+Temperature, light, water availability and nutrient conditions can influence hormone responses.
+
+### 5. Excessive application can damage plants
+
+Too much of a growth regulator can cause abnormal growth or inhibit normal development.
+
+### 6. Hormones interact
+
+A treatment involving one hormone can affect the action of other hormones.
+
+Therefore, agricultural use requires appropriate dosage and timing.
+
+---
+
+# IMPORTANT COMPARISONS
+
+## 1. Positive vs Negative Tropism
+
+Positive tropism:
+
+- Growth towards the stimulus.
+
+Negative tropism:
+
+- Growth away from the stimulus.
+
+Example:
+
+- Shoot towards light = positive phototropism.
+- Root away from light = negative phototropism.
+
+---
+
+## 2. Tropism vs Nastic Response
+
+Tropism:
+
+- Direction depends on stimulus direction.
+- Usually involves directional growth.
+- Example: phototropism.
+
+Nastic response:
+
+- Direction does not depend on stimulus direction.
+- Often involves turgor changes.
+- Example: Mimosa leaf folding.
+
+---
+
+## 3. Auxin vs Cytokinin
+
+Auxin:
+
+- Promotes shoot cell elongation.
+- Promotes apical dominance.
+- Can stimulate root formation at suitable concentrations.
+- Important in phototropism.
+
+Cytokinin:
+
+- Promotes cell division.
+- Promotes lateral bud growth.
+- Delays senescence.
+- Important in tissue culture.
+
+---
+
+## 4. Gibberellin vs Abscisic Acid
+
+Gibberellin:
+
+- Promotes growth.
+- Promotes seed germination in many species.
+- Can break dormancy.
+
+ABA:
+
+- Promotes seed dormancy.
+- Promotes stomatal closure.
+- Helps plants respond to drought.
+
+Their effects can therefore oppose each other in processes such as seed dormancy and germination.
+
+---
+
+## 5. ABA vs Ethylene
+
+ABA:
+
+- Important in water-stress responses.
+- Promotes stomatal closure.
+- Promotes seed dormancy.
+
+Ethylene:
+
+- Promotes fruit ripening.
+- Promotes senescence.
+- Promotes abscission.
+
+---
+
+# COMMON EXAM MISTAKES
+
+1. Do not say phototropism is simply "movement towards light." It is a directional growth response to light.
+2. Do not confuse tropism with nastic responses.
+3. Do not say all auxin promotes root growth regardless of concentration.
+4. Do not forget that high auxin concentrations can inhibit root elongation.
+5. Do not state that cytokinin only promotes roots. Its major roles include cell division and lateral shoot growth.
+6. Do not confuse gibberellin with ABA in seed dormancy.
+7. Do not say ABA promotes stomatal opening during drought. ABA promotes stomatal closure.
+8. Do not confuse ethylene with auxin.
+9. Do not say all fruits respond to ethylene in exactly the same way.
+10. Do not assume one fixed auxin-to-cytokinin ratio works for every plant tissue culture system.
+11. Do not assume every phytohormone has one effect regardless of concentration and tissue.
+12. Do not forget that plant hormones interact with one another.
+
+---
+
+# EXAM TIPS
+
+## Question: Explain phototropism in a shoot.
+
+Suggested answer:
+
+1. Light is detected by the shoot.
+2. Auxin becomes concentrated on the shaded side.
+3. Auxin promotes cell elongation on the shaded side.
+4. Cells on the shaded side elongate faster than cells on the illuminated side.
+5. Unequal growth causes the shoot to bend towards the light.
+
+## Question: Explain root gravitropism.
+
+Suggested answer:
+
+1. Gravity causes auxin to accumulate on the lower side of the root.
+2. A relatively high concentration of auxin inhibits cell elongation in the root.
+3. Cells on the upper side elongate faster.
+4. Unequal growth causes the root to bend downwards.
+
+## Question: State two functions of gibberellin.
+
+Suggested answer:
+
+1. Promotes stem elongation.
+2. Promotes seed germination or breaks seed dormancy in some species.
+
+## Question: Explain how ABA helps a plant survive drought.
+
+Suggested answer:
+
+1. Water stress increases ABA signalling.
+2. ABA causes stomata to close.
+3. Water loss through transpiration decreases.
+4. This helps conserve water.
+
+## Question: Explain the role of ethylene in fruit ripening.
+
+Suggested answer:
+
+1. Ethylene promotes biochemical changes associated with fruit ripening.
+2. Starch may be converted into sugars.
+3. Cell walls may soften.
+4. Changes in pigments, acids and aroma compounds occur.
+5. The fruit becomes ripe.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## QUESTION 1
+
+Define phototropism.
+
+**Suggested answer:**
+
+Phototropism is the directional growth response of a plant towards or away from light.
+
+## QUESTION 2
+
+Differentiate between positive and negative tropism.
+
+**Suggested answer:**
+
+Positive tropism is growth towards a stimulus, whereas negative tropism is growth away from a stimulus.
+
+## QUESTION 3
+
+Explain why a shoot bends towards light.
+
+**Suggested answer:**
+
+1. Light causes auxin to become concentrated on the shaded side of the shoot.
+2. Auxin promotes cell elongation on the shaded side.
+3. Cells on the shaded side elongate faster.
+4. Unequal growth causes the shoot to bend towards the light.
+
+## QUESTION 4
+
+Explain how a horizontally placed root bends downwards.
+
+**Suggested answer:**
+
+1. Gravity causes auxin to accumulate on the lower side of the root.
+2. A relatively high auxin concentration inhibits cell elongation in the root.
+3. Cells on the upper side elongate faster.
+4. Unequal growth causes the root to bend downwards.
+
+## QUESTION 5
+
+A student touches the leaves of Mimosa pudica and observes that the leaflets fold.
+
+Identify the type of response.
+
+**Suggested answer:**
+
+The response is seismonasty.
+
+## QUESTION 6
+
+Explain why the response of Mimosa pudica is classified as a nastic response rather than a tropism.
+
+**Suggested answer:**
+
+The response does not depend on the direction from which the stimulus is applied. Therefore, it is a nastic response rather than a directional tropic growth response.
+
+## QUESTION 7
+
+State three functions of auxin.
+
+**Suggested answer:**
+
+1. Promotes cell elongation in shoots.
+2. Controls phototropic responses.
+3. Promotes apical dominance.
+
+## QUESTION 8
+
+Explain the role of gibberellin during seed germination in cereal grains.
+
+**Suggested answer:**
+
+1. Gibberellin signalling increases after the seed absorbs water.
+2. It stimulates aleurone cells.
+3. Aleurone cells produce hydrolytic enzymes such as amylase.
+4. Amylase breaks down starch into soluble sugars.
+5. The sugars are used by the embryo for respiration and growth.
+
+## QUESTION 9
+
+Explain how ABA helps a plant during drought.
+
+**Suggested answer:**
+
+1. Water stress increases ABA signalling.
+2. ABA causes ions to leave guard cells.
+3. Water leaves the guard cells by osmosis.
+4. Guard cells become less turgid.
+5. Stomata close.
+6. Water loss through transpiration decreases.
+
+## QUESTION 10
+
+State two functions of ethylene.
+
+**Suggested answer:**
+
+1. Promotes fruit ripening.
+2. Promotes senescence or abscission.
+
+## QUESTION 11
+
+Explain how phytohormones are used in tissue culture.
+
+**Suggested answer:**
+
+1. Plant tissues are grown on a nutrient medium.
+2. Auxin and cytokinin are added in suitable concentrations.
+3. The relative balance of the hormones influences tissue development.
+4. A higher relative auxin influence can favour root formation.
+5. A higher relative cytokinin influence can favour shoot formation.
+
+## QUESTION 12
+
+Explain one agricultural application of auxin.
+
+**Suggested answer:**
+
+Auxin can be applied to plant cuttings to promote the formation of adventitious roots. This improves the success of vegetative propagation.
+
+## QUESTION 13
+
+Explain two agricultural applications of gibberellin.
+
+**Suggested answer:**
+
+1. Gibberellin can be used to promote seed germination or break dormancy in suitable seeds.
+2. Gibberellin can be used to increase the size of certain fruits, such as grapes.
+
+## QUESTION 14
+
+Compare auxin and cytokinin in plant development.
+
+**Suggested answer:**
+
+1. Auxin promotes shoot cell elongation, whereas cytokinin promotes cell division.
+2. Auxin promotes apical dominance, whereas cytokinin promotes lateral bud growth.
+3. Auxin can promote root formation at suitable concentrations, whereas cytokinin can favour shoot formation in suitable tissue culture conditions.
+
+## QUESTION 15
+
+Explain why phytohormones must be applied at appropriate concentrations in agriculture.
+
+**Suggested answer:**
+
+1. Hormone effects depend on concentration.
+2. Different concentrations can produce different responses.
+3. Excessive concentrations may inhibit growth or cause abnormal development.
+4. The response also depends on plant species and tissue type.
+5. Therefore, the appropriate concentration must be selected for the intended agricultural application.
+
+---
+
+# CHAPTER 5 — FINAL REVISION SUMMARY
+
+## 5.1 TYPES OF RESPONSES
+
+- Plants respond to environmental stimuli.
+- Tropism is a directional growth response.
+- Positive tropism is growth towards a stimulus.
+- Negative tropism is growth away from a stimulus.
+- Phototropism responds to light.
+- Geotropism/gravitropism responds to gravity.
+- Hydrotropism responds to water.
+- Thigmotropism responds to touch.
+- Chemotropism responds to chemicals.
+- Nastic responses do not depend on the direction of the stimulus.
+- Seismonasty is a response to mechanical stimulation.
+- Nyctinasty is associated with daily light/dark cycles.
+
+## 5.2 PHYTOHORMONES
+
+### Auxin
+
+- Cell elongation.
+- Phototropism.
+- Apical dominance.
+- Root formation at suitable concentrations.
+
+### Gibberellin
+
+- Stem elongation.
+- Seed germination.
+- Breaking dormancy.
+- Fruit growth.
+
+### Cytokinin
+
+- Cell division.
+- Lateral bud growth.
+- Delays senescence.
+- Important in tissue culture.
+
+### Abscisic acid
+
+- Stomatal closure.
+- Drought response.
+- Seed dormancy.
+
+### Ethylene
+
+- Fruit ripening.
+- Senescence.
+- Abscission.
+
+## 5.3 AGRICULTURAL APPLICATIONS
+
+- Auxin → rooting of cuttings.
+- Auxin → fruit development and some fruit-drop control.
+- Synthetic auxin-like compounds → selective weed control.
+- Gibberellin → seed germination/dormancy breaking.
+- Gibberellin → fruit growth.
+- Cytokinin → tissue culture and delayed senescence.
+- ABA → water-stress management and dormancy-related applications.
+- Ethylene → controlled fruit ripening.
+- Auxin + cytokinin → regulation of root/shoot development in tissue culture.
+
+---
+
+# KEY BIOLOGY TERMS
+
+1. Stimulus
+2. Response
+3. Tropism
+4. Positive tropism
+5. Negative tropism
+6. Phototropism
+7. Geotropism
+8. Gravitropism
+9. Hydrotropism
+10. Thigmotropism
+11. Chemotropism
+12. Nastic response
+13. Seismonasty
+14. Nyctinasty
+15. Phytohormone
+16. Auxin
+17. Gibberellin
+18. Cytokinin
+19. Abscisic acid
+20. Ethylene
+21. Apical dominance
+22. Senescence
+23. Abscission
+24. Seed dormancy
+25. Tissue culture
+26. Adventitious root
+27. Plant growth regulator
+
+---
+
+# HIGH-YIELD MEMORY MAP
+
+**PLANT RESPONSE**
+
+→ Light  
+→ Phototropism  
+→ Auxin
+
+→ Gravity  
+→ Gravitropism  
+→ Auxin
+
+→ Water  
+→ Hydrotropism
+
+→ Touch  
+→ Thigmotropism  
+→ Seismonasty
+
+→ Chemicals  
+→ Chemotropism
+
+**PHYTOHORMONES**
+
+→ Auxin = elongation + apical dominance + rooting
+
+→ Gibberellin = growth + germination
+
+→ Cytokinin = cell division + lateral buds + delay senescence
+
+→ ABA = drought + stomatal closure + dormancy
+
+→ Ethylene = ripening + senescence + abscission
+
+**AGRICULTURE**
+
+→ Auxin = rooting
+
+→ Gibberellin = fruit size + germination
+
+→ Cytokinin = tissue culture
+
+→ ABA = water-stress response
+
+→ Ethylene = fruit ripening
+
+---
+
+# FINAL EXAM REMINDERS
+
+1. Auxin promotes cell elongation in shoots but relatively high concentrations can inhibit root elongation.
+2. Roots are generally positively gravitropic.
+3. Shoots are generally negatively gravitropic.
+4. Shoots are generally positively phototropic.
+5. Tropism depends on the direction of the stimulus.
+6. Nastic responses do not depend on stimulus direction.
+7. ABA promotes stomatal closure during water stress.
+8. Gibberellin generally promotes germination and can break dormancy.
+9. Cytokinin promotes cell division and lateral bud growth.
+10. Ethylene promotes fruit ripening.
+11. Phytohormone effects depend on concentration, tissue and environmental conditions.
+12. Auxin and cytokinin balance is important in tissue culture.
+
+**END OF FORM 5 BIOLOGY — CHAPTER 5: RESPONSE IN PLANTS**
