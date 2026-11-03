@@ -1,0 +1,1774 @@
+# BIOLOGY FORM 5 — CHAPTER 4
+
+# TRANSPORT IN PLANTS
+
+SUBJECT: Biology  
+FORM: Form 5  
+CHAPTER: Chapter 4  
+CHAPTER_TITLE: Transport in Plants  
+TOPICS: 4.1, 4.2, 4.3, 4.4  
+SOURCE_TYPE: Original Learning Material  
+STATUS: Original Educational Content
+
+---
+
+# CHAPTER INTRODUCTION
+
+Plants are living organisms that require water, mineral salts and organic nutrients to survive, grow and reproduce.
+
+Unlike animals, most plants do not have a heart or a specialised pumping organ to transport substances around their bodies. Instead, plants use specialised vascular tissues to move materials over long distances.
+
+The two main vascular tissues are:
+
+1. Xylem
+2. Phloem
+
+**Xylem** transports water and mineral salts, mainly from the roots towards the stems and leaves.
+
+**Phloem** transports organic substances, especially sucrose, from sources where they are produced or released to sinks where they are used or stored.
+
+Transport in plants is important for:
+
+- Photosynthesis.
+- Respiration.
+- Growth and development.
+- Storage of nutrients.
+- Maintenance of cell functions.
+- Removal or management of certain harmful substances.
+
+This chapter explains the structures and functions of vascular tissues, the movement of water and mineral salts, translocation and the use of plants to remove or manage pollutants.
+
+---
+
+# 4.1 VASCULAR TISSUES
+
+## 4.1.1 Introduction to Vascular Tissues
+
+Vascular tissues are specialised plant tissues responsible for transporting substances throughout a plant.
+
+They form a continuous transport system connecting the roots, stems and leaves.
+
+There are two main types:
+
+**1. Xylem**
+
+- Transports water and mineral salts.
+- Transport is mainly upwards, from roots to leaves.
+- Also provides mechanical support to the plant.
+
+**2. Phloem**
+
+- Transports organic substances such as sucrose and amino acids.
+- Moves substances from sources to sinks.
+- Transport can occur in different directions in different sieve tubes.
+
+Both tissues are found in vascular bundles.
+
+A vascular bundle is a strand of vascular tissue containing xylem and phloem.
+
+## 4.1.2 Structure and Functions of Xylem
+
+Xylem is a complex permanent tissue responsible for transporting water and dissolved mineral salts from the roots to other parts of the plant.
+
+It also provides mechanical strength.
+
+Xylem consists of several types of cells:
+
+1. Vessel elements.
+2. Tracheids.
+3. Xylem fibres.
+4. Xylem parenchyma.
+
+### A. Vessel Elements
+
+Vessel elements are elongated cells arranged end to end to form continuous vessels.
+
+Characteristics:
+
+- Mature vessel elements are dead.
+- They do not contain a nucleus or cytoplasm.
+- Their end walls are perforated or absent, allowing water to flow between neighbouring elements.
+- Their walls are thickened with lignin.
+- They form hollow tubes with a relatively wide lumen.
+
+Functions:
+
+1. Transport water and mineral salts.
+2. Provide a continuous pathway for water movement.
+3. Support the plant through lignified walls.
+
+**Why are vessel elements dead at maturity?**
+
+The absence of cytoplasm and other internal contents creates a hollow space. This reduces resistance to water movement through the vessel.
+
+### B. Tracheids
+
+Tracheids are long, narrow cells with tapering ends.
+
+Characteristics:
+
+- Mature tracheids are dead.
+- Their walls are thickened with lignin.
+- They have pits in their walls.
+- They do not have perforated end plates like typical vessel elements.
+
+Functions:
+
+1. Transport water between neighbouring cells through pits.
+2. Provide mechanical support.
+3. Help maintain the structure of the xylem.
+
+Water can move from one tracheid to another through pits in their walls.
+
+### C. Xylem Fibres
+
+Xylem fibres are elongated cells with thick, lignified walls.
+
+Characteristics:
+
+- They are usually dead at maturity.
+- Their walls are thick and strong.
+- They have narrow internal spaces.
+
+Function:
+
+- Provide mechanical strength and support to the plant.
+
+### D. Xylem Parenchyma
+
+Xylem parenchyma consists of living parenchyma cells associated with the xylem.
+
+Functions:
+
+1. Store food substances such as starch.
+2. Participate in the movement of substances within the xylem.
+3. Help maintain and support xylem tissue.
+
+### Summary of Xylem Cell Types
+
+| Cell type | Living or dead at maturity | Main function |
+|---|---|---|
+| Vessel elements | Dead | Water transport |
+| Tracheids | Dead | Water transport and support |
+| Xylem fibres | Usually dead | Mechanical support |
+| Xylem parenchyma | Living | Storage and transport support |
+
+## 4.1.3 Lignification of Xylem
+
+Lignin is a complex substance deposited in the walls of certain plant cells.
+
+The deposition of lignin is called lignification.
+
+Lignification makes xylem walls:
+
+- Strong.
+- Rigid.
+- Less likely to collapse.
+- More resistant to pressure changes.
+
+Different patterns of lignin deposition can occur in xylem vessels, including:
+
+- Annular thickening.
+- Spiral thickening.
+- Scalariform thickening.
+- Reticulate thickening.
+- Pitted thickening.
+
+These patterns allow vessels to provide support while accommodating different growth and transport requirements.
+
+**Why is lignin important in xylem?**
+
+Water transported through xylem is under tension during transpiration. Lignified walls help prevent the vessels from collapsing under this tension.
+
+Lignin also strengthens the plant and helps stems remain upright.
+
+## 4.1.4 Structure and Functions of Phloem
+
+Phloem is a complex permanent tissue responsible for transporting organic substances throughout a plant.
+
+The main substances transported include:
+
+- Sucrose.
+- Amino acids.
+- Other organic nutrients.
+
+Phloem consists of:
+
+1. Sieve tube elements.
+2. Companion cells.
+3. Phloem parenchyma.
+4. Phloem fibres.
+
+### A. Sieve Tube Elements
+
+Sieve tube elements are elongated living cells arranged end to end.
+
+Characteristics:
+
+- They form long sieve tubes.
+- Their end walls form sieve plates.
+- Sieve plates contain pores that allow substances to pass between neighbouring sieve tube elements.
+- Mature sieve tube elements have very little cytoplasm.
+- They lack a nucleus at maturity.
+- They depend on companion cells to support their metabolic activities.
+
+Functions:
+
+- Transport dissolved organic substances through the plant.
+- Allow movement of substances between neighbouring sieve tube elements.
+
+### B. Sieve Plates
+
+Sieve plates are specialised end walls between neighbouring sieve tube elements.
+
+They contain pores that allow phloem sap to pass from one sieve tube element to another.
+
+The pores reduce resistance to the movement of substances along the sieve tube.
+
+### C. Companion Cells
+
+Companion cells are living cells closely associated with sieve tube elements.
+
+Characteristics:
+
+- They contain a nucleus.
+- They contain dense cytoplasm.
+- They have many mitochondria.
+- They are connected to sieve tube elements through plasmodesmata.
+
+Functions:
+
+1. Provide metabolic support to sieve tube elements.
+2. Supply energy for active transport processes involved in phloem loading and unloading.
+3. Help regulate the movement of substances into and out of sieve tubes.
+
+**Why do sieve tube elements need companion cells?**
+
+Mature sieve tube elements lack a nucleus and have limited cytoplasm. Companion cells help maintain their functions and provide metabolic support.
+
+### D. Phloem Parenchyma
+
+Phloem parenchyma consists of living cells.
+
+Functions:
+
+- Store organic substances.
+- Help with the lateral movement of substances.
+- Support the functioning of phloem tissue.
+
+### E. Phloem Fibres
+
+Phloem fibres are elongated cells with thick walls.
+
+They mainly provide mechanical support to the plant.
+
+Some phloem fibres are dead at maturity.
+
+## 4.1.5 Comparison Between Xylem and Phloem
+
+| Feature | Xylem | Phloem |
+|---|---|---|
+| Main function | Transports water and mineral salts | Transports organic substances |
+| Main transported material | Water and mineral ions | Mainly sucrose and amino acids |
+| Direction | Mainly upwards | Source to sink |
+| Main conducting cells | Vessel elements and tracheids | Sieve tube elements |
+| Conducting cells at maturity | Dead | Living, but sieve tube elements lack a nucleus |
+| Supporting cells | Xylem fibres | Phloem fibres |
+| Special structures | Lignified walls and pits | Sieve plates and companion cells |
+| Energy requirement | Water transport is mainly passive | Loading and unloading may require energy |
+| Additional role | Mechanical support | Distribution of organic nutrients |
+
+**Important exam point:**
+
+Do not write that phloem always transports substances upwards or always downwards. Phloem transport depends on the locations of sources and sinks.
+
+## 4.1.6 Arrangement of Vascular Tissues
+
+Xylem and phloem are arranged in vascular bundles.
+
+Their arrangement differs between plant organs.
+
+### A. In Roots
+
+In many dicot roots:
+
+- Xylem is found near the centre.
+- Xylem often forms a star-shaped arrangement.
+- Phloem is located between the arms of the xylem.
+
+### B. In Stems
+
+In many dicot stems:
+
+- Vascular bundles are arranged in a ring.
+- Xylem is located towards the inside.
+- Phloem is located towards the outside.
+- Vascular cambium may be present between xylem and phloem.
+
+### C. In Leaves
+
+Vascular tissues form the veins and midrib of leaves.
+
+- Xylem is generally towards the upper side of the vascular bundle.
+- Phloem is generally towards the lower side.
+
+The veins transport water and mineral salts to leaf tissues and carry organic substances away from photosynthetic tissues.
+
+**Note:** These are common arrangements in typical flowering plants. Vascular bundle arrangements can vary between plant groups.
+
+## 4.1.7 Importance of Vascular Tissues
+
+Vascular tissues allow plants to grow larger and develop more complex structures.
+
+Without an efficient transport system:
+
+- Water absorbed by roots would not reach distant leaves effectively.
+- Mineral salts would not be distributed efficiently.
+- Sugars produced during photosynthesis would not be distributed to non-photosynthetic tissues.
+- Growth and metabolism would be limited.
+
+Xylem and phloem therefore work together to maintain the life processes of plants.
+
+---
+
+# 4.2 TRANSPORT OF WATER AND MINERAL SALTS
+
+## 4.2.1 Introduction
+
+Plants absorb water and mineral salts mainly through their roots.
+
+Water is essential for:
+
+1. Photosynthesis.
+2. Maintaining cell turgidity.
+3. Supporting plant tissues.
+4. Transporting dissolved substances.
+5. Maintaining the temperature of plant tissues.
+6. Participating in metabolic reactions.
+
+Mineral salts provide essential elements required for plant growth and metabolism.
+
+Examples include:
+
+- Nitrate ions.
+- Magnesium ions.
+- Phosphate ions.
+- Potassium ions.
+- Calcium ions.
+
+Water and mineral salts are absorbed from the soil and transported through the xylem.
+
+The movement of water through a plant can be understood in three main stages:
+
+1. Absorption by root hairs.
+2. Movement through the root cortex and into the xylem.
+3. Transport through the xylem towards the leaves.
+
+## 4.2.2 Structure and Adaptations of Root Hair Cells
+
+Root hair cells are specialised epidermal cells found near the tips of young roots.
+
+They increase the surface area available for absorbing water and mineral ions.
+
+### Adaptations of Root Hair Cells
+
+**1. Long hair-like projection**
+
+- Provides a large surface area.
+- Increases contact with soil particles.
+- Improves the absorption of water and mineral ions.
+
+**2. Thin cell wall**
+
+- Provides a short distance for water to move into the cell.
+- Allows efficient absorption.
+
+**3. Large vacuole**
+
+- Contains cell sap.
+- Helps maintain a low water potential inside the cell.
+- Supports the entry of water by osmosis.
+
+**4. Many mitochondria**
+
+- Provide ATP through cellular respiration.
+- Supply energy for active transport of mineral ions.
+
+**5. Close contact with soil particles**
+
+- Allows the root hair to absorb water and dissolved mineral ions from the soil solution.
+
+**Exam tip:**
+
+When explaining why root hair cells are efficient at absorbing water, connect their large surface area and water potential difference to osmosis.
+
+When explaining mineral ion absorption, mention active transport where ions move against their concentration gradient.
+
+## 4.2.3 Absorption of Water by Osmosis
+
+Water enters root hair cells mainly by osmosis.
+
+Osmosis is the net movement of water molecules from a region of higher water potential to a region of lower water potential through a selectively permeable membrane.
+
+The soil solution usually has a higher water potential than the cell sap of a root hair cell.
+
+Therefore, water moves:
+
+Soil solution  
+↓  
+Root hair cell
+
+The selectively permeable plasma membrane controls the movement of water and other substances into the cell.
+
+After entering the root hair cell, water moves through neighbouring cells towards the centre of the root.
+
+**Important:**
+
+Water does not move because the root hair cell simply "wants" water. The movement occurs because of a water potential gradient.
+
+## 4.2.4 Absorption of Mineral Salts
+
+Mineral ions are absorbed from the soil solution by root cells.
+
+Some mineral ions enter by diffusion when their concentration is higher in the soil solution than inside the root cells.
+
+However, many mineral ions are absorbed by active transport.
+
+Active transport is the movement of substances across a membrane against their concentration gradient using energy from ATP and transport proteins.
+
+### Why is Active Transport Needed?
+
+Sometimes the concentration of a particular mineral ion is lower in the soil solution than inside the root cell.
+
+The plant may still need to absorb the ion.
+
+Therefore, the ion must move against its concentration gradient.
+
+Active transport allows this movement.
+
+### Role of Mitochondria
+
+Mitochondria carry out aerobic respiration and produce ATP.
+
+ATP provides energy for active transport.
+
+This is why root hair cells contain many mitochondria.
+
+**Comparison: Diffusion and Active Transport**
+
+| Feature | Diffusion | Active transport |
+|---|---|---|
+| Direction | Down a concentration gradient | Against a concentration gradient |
+| Energy | Does not require ATP directly | Requires energy, commonly from ATP |
+| Membrane proteins | May or may not be involved | Requires specific transport proteins |
+| Example | Movement of some mineral ions into roots | Uptake of mineral ions against their concentration gradient |
+
+## 4.2.5 Pathways of Water Movement Across Roots
+
+After entering the root hair cells, water moves across the root cortex towards the xylem.
+
+There are two main pathways:
+
+1. Apoplast pathway.
+2. Symplast pathway.
+
+### A. Apoplast Pathway
+
+The apoplast pathway involves the movement of water through:
+
+- Cell walls.
+- Intercellular spaces.
+
+Water moves outside the plasma membranes of living cells.
+
+Characteristics:
+
+- Water moves through the cell walls and spaces between cells.
+- It does not need to cross the plasma membrane at every cell boundary.
+- Movement can be relatively rapid.
+
+However, the apoplast pathway is interrupted at the endodermis by the Casparian strip.
+
+### B. Symplast Pathway
+
+The symplast pathway involves the movement of water through the cytoplasm of living cells.
+
+Neighbouring cells are connected by plasmodesmata.
+
+Plasmodesmata are small cytoplasmic channels that pass through cell walls and connect adjacent plant cells.
+
+Characteristics:
+
+- Water enters the cytoplasm through a plasma membrane.
+- It moves from cell to cell through plasmodesmata.
+- It passes through the living contents of the cells.
+
+### Comparison Between Apoplast and Symplast Pathways
+
+| Feature | Apoplast | Symplast |
+|---|---|---|
+| Route | Cell walls and intercellular spaces | Cytoplasm of living cells |
+| Plasma membrane crossing | Not required at every cell boundary | Water enters the symplast through a membrane |
+| Main connections | Cell walls and spaces | Plasmodesmata |
+| Casparian strip | Blocked at endodermis | Can continue through the endodermal cytoplasm |
+
+## 4.2.6 Role of the Endodermis and Casparian Strip
+
+The endodermis is a specialised layer of cells surrounding the vascular cylinder in roots.
+
+The walls of endodermal cells contain a waterproof band called the Casparian strip.
+
+The Casparian strip contains suberin, a water-resistant substance.
+
+### Functions of the Casparian Strip
+
+1. Blocks uncontrolled movement of water through cell walls.
+2. Forces water and dissolved substances to cross a plasma membrane before entering the vascular cylinder.
+3. Helps regulate which ions enter the xylem.
+4. Reduces the passive entry of some unwanted substances.
+
+**Why is the Casparian strip important?**
+
+It ensures that water and mineral ions entering the vascular cylinder are subject to selective control by cell membranes.
+
+This helps the plant regulate the composition of substances entering the xylem.
+
+## 4.2.7 Movement of Water into the Xylem
+
+Water moves from the root cortex towards the vascular cylinder.
+
+It crosses the endodermis and enters the xylem.
+
+Mineral ions are also transported into the xylem.
+
+The accumulation of dissolved ions in the xylem can lower its water potential.
+
+Water then moves into the xylem by osmosis.
+
+The water in the xylem forms a continuous column extending from the roots towards the stems and leaves.
+
+## 4.2.8 Transport of Water Through Xylem
+
+Water is transported upwards through xylem mainly through the transpiration pull mechanism.
+
+Transpiration is the loss of water vapour from the aerial parts of a plant, mainly through the stomata of leaves.
+
+The loss of water from leaves creates tension in the xylem.
+
+This tension helps pull water upwards from the roots.
+
+The movement of water through xylem is explained by the cohesion-tension mechanism.
+
+## 4.2.9 Cohesion-Tension Mechanism
+
+The cohesion-tension mechanism explains how water moves upwards through xylem.
+
+It depends on:
+
+1. Transpiration.
+2. Cohesion.
+3. Adhesion.
+4. Tension in the xylem.
+
+### Step-by-Step Mechanism
+
+**Step 1: Water evaporates from mesophyll cells**
+
+Water evaporates from the moist surfaces of mesophyll cells into the air spaces inside the leaf.
+
+**Step 2: Water vapour diffuses out**
+
+Water vapour diffuses from the leaf air spaces through the stomata into the surrounding atmosphere.
+
+This process is part of transpiration.
+
+**Step 3: Water potential in the leaf decreases**
+
+As water is lost from mesophyll cell surfaces, the water potential of the leaf tissues decreases.
+
+**Step 4: Water moves from the xylem into leaf tissues**
+
+Water moves from the xylem towards the mesophyll cells by osmosis and other water movement pathways.
+
+**Step 5: Tension develops in the xylem**
+
+The removal of water from the xylem creates tension, or negative pressure, in the water column.
+
+**Step 6: Water is pulled upwards**
+
+The tension is transmitted down the continuous column of water.
+
+Water is pulled upwards from the roots through the xylem.
+
+**Step 7: Roots absorb replacement water**
+
+Water enters the root hair cells from the soil and moves towards the xylem, replacing water lost through transpiration.
+
+### Role of Cohesion
+
+Cohesion is the attraction between molecules of the same substance.
+
+Water molecules attract one another through hydrogen bonding.
+
+Cohesion helps maintain a continuous column of water inside xylem vessels.
+
+### Role of Adhesion
+
+Adhesion is the attraction between molecules of different substances.
+
+Water molecules are attracted to the walls of xylem vessels.
+
+Adhesion helps water remain in contact with the vessel walls and supports water movement through narrow tubes.
+
+### Role of Transpiration Pull
+
+Transpiration pull is the pulling force generated by water loss from the leaves.
+
+It creates tension in the xylem and pulls the continuous water column upwards.
+
+**Important exam distinction:**
+
+- Cohesion: attraction between water molecules.
+- Adhesion: attraction between water molecules and xylem walls.
+- Transpiration pull: pulling force created by water loss from leaves.
+- Tension: negative pressure generated in the xylem.
+
+## 4.2.10 Other Factors Contributing to Water Movement
+
+### A. Root Pressure
+
+Root pressure is a positive pressure that can develop in the xylem when mineral ions accumulate in it and water enters by osmosis.
+
+This can push water upwards over short distances.
+
+Root pressure may contribute to guttation in some plants.
+
+However, root pressure is generally not sufficient to explain water transport in tall plants.
+
+### B. Capillary Action
+
+Capillary action is the movement of liquid through narrow tubes due to cohesion and adhesion.
+
+The narrow diameter of xylem vessels helps capillary effects occur.
+
+However, capillary action alone cannot explain the transport of water to the tops of tall trees.
+
+### C. Transpiration Pull
+
+Transpiration pull is the main driving force for the upward movement of water in most tall plants.
+
+## 4.2.11 Factors Affecting the Rate of Transpiration
+
+The rate of transpiration is affected by environmental conditions and leaf characteristics.
+
+### A. Light Intensity
+
+When light intensity increases:
+
+- Stomata generally open.
+- More water vapour can diffuse out.
+- Transpiration rate generally increases.
+
+In darkness, stomata often close, reducing water loss.
+
+### B. Temperature
+
+When temperature increases:
+
+- Water evaporates more rapidly from mesophyll surfaces.
+- Water vapour diffuses more rapidly.
+- Transpiration rate generally increases.
+
+Extremely high temperatures may cause stomata to close, reducing transpiration.
+
+### C. Humidity
+
+Humidity refers to the amount of water vapour in the air.
+
+When humidity is high:
+
+- The water vapour concentration gradient between the leaf and atmosphere becomes smaller.
+- Diffusion of water vapour out of the leaf becomes slower.
+- Transpiration rate decreases.
+
+When humidity is low, transpiration generally increases.
+
+### D. Wind Speed
+
+When wind speed increases:
+
+- Water vapour surrounding the leaf is removed.
+- The boundary layer becomes thinner.
+- The water vapour concentration gradient is maintained.
+- Transpiration generally increases.
+
+Very strong wind may cause stomata to close or trigger water stress responses.
+
+### E. Water Availability in Soil
+
+When water is readily available:
+
+- Root cells can absorb water.
+- Stomata may remain open under suitable conditions.
+- Transpiration can continue.
+
+When soil water is limited:
+
+- Plants may close their stomata.
+- Water loss decreases.
+- Photosynthesis may also decrease because less carbon dioxide can enter.
+
+### F. Leaf Surface Area
+
+A larger leaf surface area may increase the area available for water evaporation.
+
+However, the actual transpiration rate also depends on stomatal number, cuticle thickness and environmental conditions.
+
+### Summary Table
+
+| Factor | Increase in factor | General effect on transpiration |
+|---|---|---|
+| Light intensity | More light | Increases |
+| Temperature | Higher temperature | Increases |
+| Humidity | More humid air | Decreases |
+| Wind speed | Faster air movement | Increases |
+| Soil water availability | More available water | May support higher transpiration |
+| Leaf surface area | Larger surface area | May increase water loss |
+
+## 4.2.12 Transpiration and Stomata
+
+Stomata are small pores found mainly on the epidermis of leaves.
+
+Each stoma is surrounded by two guard cells.
+
+Guard cells regulate the opening and closing of the stomatal pore.
+
+### When Guard Cells Become Turgid
+
+1. Guard cells absorb water.
+2. Their turgor pressure increases.
+3. The cells change shape.
+4. The stomatal pore opens.
+
+### When Guard Cells Become Flaccid
+
+1. Guard cells lose water.
+2. Their turgor pressure decreases.
+3. The cells become less swollen.
+4. The stomatal pore closes or becomes narrower.
+
+Opening and closing of stomata regulate the exchange of gases and the loss of water vapour.
+
+## 4.2.13 Potometer
+
+A potometer is an apparatus used to estimate the rate of water uptake by a cut shoot.
+
+It is commonly used to investigate how environmental factors affect water uptake.
+
+### Principle
+
+When a shoot loses water through transpiration, it takes up more water through its cut stem.
+
+The movement of an air bubble in a potometer can be used to estimate the rate of water uptake.
+
+### Limitations
+
+A potometer does not directly measure the rate of transpiration.
+
+This is because:
+
+- Some absorbed water may be used in photosynthesis and other metabolic processes.
+- Some water may be stored in plant tissues.
+- Not all absorbed water is necessarily lost through transpiration.
+
+Therefore, water uptake is used as an estimate of transpiration.
+
+### Factors That Must Be Controlled
+
+When investigating the effect of one environmental factor, other variables should be kept constant.
+
+Examples:
+
+- Leaf area.
+- Temperature.
+- Light intensity.
+- Wind speed.
+- Humidity.
+- Type and size of shoot.
+
+## 4.2.14 Guttation
+
+Guttation is the loss of liquid water droplets from the edges or tips of leaves through specialised structures called hydathodes.
+
+It commonly occurs when:
+
+- Soil water availability is high.
+- Transpiration is low.
+- Root pressure develops.
+
+### Guttation vs Transpiration
+
+| Feature | Guttation | Transpiration |
+|---|---|---|
+| Form of water lost | Liquid droplets | Water vapour |
+| Main structures | Hydathodes | Mainly stomata |
+| Common conditions | High soil water availability and low transpiration | Occurs under conditions that allow evaporation and diffusion |
+| Main driving factor | Root pressure often contributes | Transpiration pull is associated with water loss |
+
+Do not confuse guttation with dew. Dew forms when water vapour in the surrounding air condenses on a cool surface.
+
+---
+
+# 4.3 TRANSLOCATION
+
+## 4.3.1 Introduction to Translocation
+
+Translocation is the transport of organic substances through the phloem from sources to sinks.
+
+The main transported substance is sucrose.
+
+Other transported substances include:
+
+- Amino acids.
+- Organic acids.
+- Hormones.
+- Other dissolved organic compounds.
+
+Translocation distributes the products of photosynthesis and stored organic materials to different parts of the plant.
+
+Examples:
+
+- Sucrose produced in leaves can be transported to growing roots.
+- Organic substances can be transported to developing fruits.
+- Stored substances can be moved from storage organs to growing shoots.
+
+## 4.3.2 Sources and Sinks
+
+Understanding translocation requires understanding two important terms:
+
+1. Source.
+2. Sink.
+
+### A. Source
+
+A source is a region of a plant where organic substances are produced or released into the phloem.
+
+Examples:
+
+- Mature photosynthetic leaves producing sucrose.
+- Storage organs releasing stored sugars during growth.
+- Cotyledons supplying nutrients to a developing seedling.
+
+### B. Sink
+
+A sink is a region where transported organic substances are used or stored.
+
+Examples:
+
+- Growing roots.
+- Developing leaves.
+- Flowers.
+- Fruits.
+- Seeds.
+- Storage organs such as tubers.
+
+A plant organ can act as a source at one stage of development and a sink at another.
+
+For example:
+
+- A young leaf is usually a sink because it receives sugars.
+- A mature leaf can become a source when it produces more sugars than it uses.
+
+## 4.3.3 Examples of Translocation
+
+**Example 1: Mature leaf to root**
+
+A mature leaf produces sucrose during photosynthesis.
+
+Sucrose enters the phloem and is transported to the root.
+
+The root uses the sucrose for respiration and growth or stores it.
+
+**Example 2: Leaf to fruit**
+
+A photosynthetic leaf produces organic substances.
+
+These substances are transported through the phloem to a developing fruit.
+
+The fruit uses them for growth and may store them.
+
+**Example 3: Storage organ to growing shoot**
+
+A storage organ may contain stored carbohydrates.
+
+When a plant begins to grow, these carbohydrates can be converted into soluble sugars and transported to developing shoots.
+
+## 4.3.4 Phloem Sap
+
+Phloem sap is the fluid transported through the sieve tubes.
+
+It contains dissolved organic substances, especially sucrose.
+
+Its composition can vary depending on:
+
+- Plant species.
+- Developmental stage.
+- Source and sink locations.
+- Environmental conditions.
+
+The movement of phloem sap is associated with pressure differences between source and sink regions.
+
+## 4.3.5 Pressure Flow Hypothesis
+
+The pressure flow hypothesis, also known as the mass flow hypothesis, explains the movement of phloem sap from sources to sinks.
+
+It proposes that differences in hydrostatic pressure between source and sink regions drive the bulk flow of phloem sap.
+
+### Step-by-Step Mechanism
+
+**Step 1: Sucrose is produced at the source**
+
+Mature leaves produce glucose during photosynthesis.
+
+Some glucose is converted into sucrose.
+
+Sucrose is the main sugar transported in phloem.
+
+**Step 2: Sucrose is loaded into the phloem**
+
+Sucrose moves from source cells into the sieve tube elements.
+
+Phloem loading may involve active transport and transport proteins.
+
+Companion cells provide metabolic support and energy for this process.
+
+**Step 3: Water enters the sieve tubes**
+
+As sucrose concentration increases in the sieve tube:
+
+- Its solute concentration increases.
+- Its water potential decreases.
+- Water moves from nearby xylem into the phloem by osmosis.
+
+**Step 4: Hydrostatic pressure increases**
+
+The entry of water increases the hydrostatic pressure inside the sieve tube at the source.
+
+**Step 5: Phloem sap moves towards the sink**
+
+The pressure at the source is higher than the pressure at the sink.
+
+This pressure difference causes phloem sap to move by mass flow towards the sink.
+
+**Step 6: Sucrose is unloaded at the sink**
+
+Sucrose leaves the sieve tube and enters sink cells.
+
+It may be:
+
+- Used in respiration.
+- Used for growth.
+- Converted into other organic substances.
+- Stored as starch.
+
+**Step 7: Water leaves the phloem**
+
+When sucrose is removed from the phloem:
+
+- The solute concentration decreases.
+- The water potential increases.
+- Water may move out of the phloem by osmosis.
+- Water can return to the xylem.
+
+This helps maintain the pressure difference needed for continued mass flow.
+
+### Simplified Flow
+
+Source  
+↓  
+Sucrose enters phloem  
+↓  
+Water enters by osmosis  
+↓  
+Hydrostatic pressure increases  
+↓  
+Phloem sap moves towards sink  
+↓  
+Sucrose is unloaded  
+↓  
+Water may leave the phloem
+
+## 4.3.6 Role of Companion Cells in Translocation
+
+Companion cells are important for the functioning of sieve tube elements.
+
+They:
+
+1. Provide metabolic support.
+2. Help load sucrose into sieve tubes.
+3. Help unload sucrose at sinks in some tissues.
+4. Supply energy for active transport.
+5. Maintain the functioning of sieve tube elements.
+
+The close association between companion cells and sieve tube elements allows efficient transport of organic substances.
+
+## 4.3.7 Direction of Translocation
+
+Translocation occurs from sources to sinks.
+
+It is not restricted to one fixed direction throughout the entire plant.
+
+For example:
+
+- Sucrose may move downwards from leaves to roots.
+- Sucrose may move upwards from storage organs to growing shoots.
+- Sucrose may move towards developing fruits.
+
+Different sieve tubes can transport substances in different directions at the same time.
+
+**Important exam point:**
+
+Xylem transport is mainly upward, while phloem transport follows source-to-sink relationships.
+
+Do not state that all phloem transport is always downward.
+
+## 4.3.8 Comparison Between Translocation and Transpiration
+
+| Feature | Translocation | Transpiration |
+|---|---|---|
+| Main tissue involved | Phloem | Water movement through xylem is linked to water loss from leaves |
+| Main substance involved | Organic substances, especially sucrose | Water vapour is lost from aerial plant surfaces |
+| Main function | Distributes organic nutrients | Helps drive water transport and contributes to cooling |
+| Direction | Source to sink | Water movement through xylem is mainly upwards |
+| Main mechanism | Pressure-driven mass flow in phloem | Evaporation and diffusion create tension in xylem |
+
+## 4.3.9 Importance of Translocation
+
+Translocation is essential because not every plant cell can carry out photosynthesis.
+
+Roots, developing fruits, flowers and many storage organs depend on organic substances transported from other parts of the plant.
+
+Translocation allows plants to:
+
+1. Supply sucrose for cellular respiration.
+2. Support growth and development.
+3. Supply nutrients to developing fruits and seeds.
+4. Store carbohydrates in roots, stems and other organs.
+5. Distribute organic substances between different regions.
+
+Without translocation, non-photosynthetic tissues would not receive sufficient organic nutrients.
+
+---
+
+# 4.4 PHYTOREMEDIATION
+
+## 4.4.1 Introduction to Phytoremediation
+
+Phytoremediation is the use of plants and their associated microorganisms to remove, reduce, contain or transform pollutants in the environment.
+
+The word can be understood as:
+
+- Phyto: plant.
+- Remediation: the process of making something less harmful or improving a polluted environment.
+
+Phytoremediation is an environmentally friendly approach that can be used to manage certain types of pollution.
+
+It can be applied to:
+
+- Contaminated soil.
+- Polluted water.
+- Some contaminated sediments.
+- Certain polluted industrial or agricultural sites.
+
+Plants may absorb pollutants, accumulate them in tissues, stabilise them in the soil or support their breakdown.
+
+## 4.4.2 Types of Pollutants That Can Be Managed
+
+Examples include:
+
+### A. Heavy Metals
+
+Heavy metals are metallic elements that can become harmful when present at excessive concentrations.
+
+Examples include:
+
+- Lead.
+- Cadmium.
+- Mercury.
+- Arsenic is a metalloid but is also an important environmental contaminant.
+
+Some plants can absorb and accumulate certain metals in their tissues.
+
+### B. Excess Nutrients
+
+Excess nitrate and phosphate in water can contribute to eutrophication.
+
+Certain plants can absorb these nutrients and help reduce their concentration in polluted water.
+
+### C. Organic Pollutants
+
+Some organic pollutants may be broken down or transformed by plant enzymes or microorganisms associated with plant roots.
+
+Examples include certain petroleum-related compounds and some pesticides.
+
+The effectiveness depends on the pollutant, plant species and environmental conditions.
+
+## 4.4.3 Main Mechanisms of Phytoremediation
+
+Different phytoremediation methods work in different ways.
+
+### A. Phytoextraction
+
+Phytoextraction occurs when plants absorb contaminants from the soil through their roots and accumulate them in their above-ground tissues.
+
+The contaminated plant material can then be harvested and removed.
+
+**Process:**
+
+1. Plants are grown in contaminated soil.
+2. Their roots absorb certain pollutants.
+3. The pollutants are transported into plant tissues.
+4. Some pollutants accumulate in stems and leaves.
+5. The plants are harvested.
+6. The contaminated biomass is managed safely.
+
+**Importance:**
+
+Phytoextraction can reduce the concentration of certain contaminants in soil.
+
+**Limitation:**
+
+The process may be slow, especially when contamination is deep or highly concentrated.
+
+### B. Phytostabilisation
+
+Phytostabilisation involves the use of plants to reduce the movement of pollutants in soil.
+
+Plants may:
+
+- Hold soil together with their roots.
+- Reduce soil erosion.
+- Reduce the movement of contaminated particles.
+- Reduce the movement of some contaminants into surrounding water.
+
+**Importance:**
+
+It helps prevent pollutants from spreading to other areas.
+
+**Limitation:**
+
+It does not necessarily remove the pollutants from the site. The contaminants may remain in the soil.
+
+### C. Rhizofiltration
+
+Rhizofiltration uses plant roots to absorb or adsorb contaminants from polluted water.
+
+Absorption means a substance enters the plant or root tissue.
+
+Adsorption means a substance attaches to a surface.
+
+**Process:**
+
+1. Plant roots are placed in contact with polluted water.
+2. Contaminants attach to root surfaces or enter root tissues.
+3. Contaminants are removed from the water.
+4. The plant material is collected and managed safely.
+
+**Importance:**
+
+It can be used to reduce certain contaminants in water.
+
+**Limitation:**
+
+The roots and plant material may become contaminated and require proper disposal or treatment.
+
+### D. Phytodegradation
+
+Phytodegradation occurs when plants take up certain organic pollutants and break them down through metabolic processes.
+
+Plant enzymes may transform complex pollutants into simpler substances.
+
+**Importance:**
+
+It can help reduce certain organic contaminants.
+
+**Limitation:**
+
+Not all pollutants can be broken down by plants. Some breakdown products may still require further treatment.
+
+### E. Rhizodegradation
+
+Rhizodegradation involves microorganisms living around plant roots breaking down pollutants.
+
+The roots release substances into the surrounding soil that can support microbial activity.
+
+These microorganisms may use certain organic pollutants as sources of carbon or energy.
+
+**Importance:**
+
+It can help break down some organic contaminants in soil.
+
+**Limitation:**
+
+It depends on suitable microorganisms and environmental conditions such as oxygen, moisture and temperature.
+
+## 4.4.4 Comparison of Phytoremediation Methods
+
+| Method | Main mechanism | Main target or effect |
+|---|---|---|
+| Phytoextraction | Plants absorb and accumulate pollutants in harvestable tissues | Removes certain contaminants from soil |
+| Phytostabilisation | Roots and plant activity reduce pollutant movement | Contains or stabilises contaminants |
+| Rhizofiltration | Roots absorb or adsorb contaminants from water | Reduces contaminants in polluted water |
+| Phytodegradation | Plant enzymes transform or break down pollutants | Reduces certain organic pollutants |
+| Rhizodegradation | Root-associated microorganisms break down pollutants | Reduces certain organic pollutants in soil |
+
+## 4.4.5 Advantages of Phytoremediation
+
+**1. Environmentally friendly**
+
+It uses plants and natural biological processes to manage pollution.
+
+**2. Potentially lower cost**
+
+For suitable sites, phytoremediation may cost less than some conventional physical or chemical treatment methods.
+
+**3. Can reduce soil erosion**
+
+Plant roots help bind soil particles together.
+
+**4. Can improve the appearance of polluted areas**
+
+Vegetation can restore plant cover to degraded sites.
+
+**5. Can treat large areas**
+
+Some phytoremediation approaches can be applied over relatively large areas of contaminated land.
+
+**6. May require less disturbance**
+
+Some methods can be carried out without removing large amounts of soil.
+
+## 4.4.6 Limitations of Phytoremediation
+
+**1. Slow process**
+
+Plants may require months or years to reduce pollutant concentrations.
+
+**2. Limited root depth**
+
+Plants can only treat contaminants within the areas reached by their roots.
+
+**3. Depends on plant tolerance**
+
+Some pollutants are toxic to plants and may prevent their growth.
+
+**4. Seasonal limitations**
+
+Plant growth and pollutant uptake may change with seasons and environmental conditions.
+
+**5. Contaminated plant material**
+
+Plants that accumulate pollutants may need to be harvested and disposed of safely.
+
+**6. Not suitable for every pollutant**
+
+Some pollutants cannot be effectively absorbed, stabilised or broken down by plants.
+
+**7. Risk of pollutants entering food chains**
+
+If contaminated plants are eaten by animals or humans, pollutants may enter food chains.
+
+Therefore, contaminated plants must be managed carefully.
+
+## 4.4.7 Applications of Phytoremediation
+
+Phytoremediation can be used in several situations.
+
+### A. Contaminated Agricultural Soil
+
+Plants may be used to remove or stabilise certain heavy metals in contaminated soil.
+
+### B. Industrial Sites
+
+Certain plants may help manage contamination at abandoned or polluted industrial locations.
+
+### C. Polluted Water
+
+Aquatic plants or plants grown in treatment systems may absorb excess nutrients or certain contaminants.
+
+### D. Areas Affected by Mining
+
+Plants may help stabilise contaminated soil and reduce erosion around mining sites.
+
+## 4.4.8 Important Considerations in Phytoremediation
+
+A successful phytoremediation project must consider:
+
+1. The type of pollutant.
+2. The concentration of the pollutant.
+3. The depth of contamination.
+4. The plant species selected.
+5. The ability of the plant to tolerate the pollutant.
+6. The local climate and soil conditions.
+7. The safe management of contaminated plant material.
+8. The possibility of pollutants entering food chains.
+
+The correct plant must be selected according to the pollutant and the purpose of treatment.
+
+**Important:**
+
+Phytoremediation does not mean that plants can remove every type of pollution. Its effectiveness depends on the pollutant, plant species and environmental conditions.
+
+---
+
+# CHAPTER 4 — IMPORTANT COMPARISONS
+
+## 1. Xylem vs Phloem
+
+Xylem:
+
+- Transports water and mineral salts.
+- Mainly transports substances upwards.
+- Contains dead conducting cells at maturity.
+- Has lignified walls.
+- Provides mechanical support.
+
+Phloem:
+
+- Transports organic substances.
+- Moves substances from sources to sinks.
+- Contains living sieve tube elements.
+- Has sieve plates.
+- Depends on companion cells for metabolic support.
+
+## 2. Apoplast vs Symplast
+
+Apoplast:
+
+- Movement through cell walls and intercellular spaces.
+- Does not cross the plasma membrane at every cell boundary.
+- Blocked by the Casparian strip at the endodermis.
+
+Symplast:
+
+- Movement through cytoplasm.
+- Cells are connected by plasmodesmata.
+- Water enters the symplast through a plasma membrane.
+
+## 3. Cohesion vs Adhesion
+
+Cohesion:
+
+- Attraction between molecules of the same substance.
+- Water molecules attract one another.
+- Helps maintain a continuous water column.
+
+Adhesion:
+
+- Attraction between molecules of different substances.
+- Water is attracted to xylem walls.
+- Helps water remain in contact with vessel walls.
+
+## 4. Transpiration vs Guttation
+
+Transpiration:
+
+- Loss of water vapour.
+- Mainly occurs through stomata.
+- Associated with transpiration pull.
+
+Guttation:
+
+- Loss of liquid water droplets.
+- Occurs through hydathodes.
+- Often associated with root pressure.
+
+## 5. Transpiration vs Translocation
+
+Transpiration:
+
+- Involves water loss from aerial plant parts.
+- Water moves through xylem towards leaves.
+- Helps generate transpiration pull.
+
+Translocation:
+
+- Involves transport of organic substances.
+- Occurs through phloem.
+- Moves substances from sources to sinks.
+
+## 6. Phytoextraction vs Phytostabilisation
+
+Phytoextraction:
+
+- Plants absorb pollutants.
+- Pollutants accumulate in plant tissues.
+- Harvesting removes contaminated plant material from the site.
+
+Phytostabilisation:
+
+- Plants reduce pollutant movement.
+- Roots help stabilise soil.
+- Pollutants may remain at the site.
+
+---
+
+# COMMON EXAM MISTAKES
+
+1. Do not confuse xylem with phloem.
+2. Do not state that all phloem transport is downward.
+3. Do not state that cohesion is the attraction between water and xylem walls. That is adhesion.
+4. Do not confuse transpiration with translocation.
+5. Do not say that a potometer directly measures transpiration. It estimates water uptake.
+6. Do not confuse guttation with transpiration.
+7. Do not say that root pressure is the main force responsible for water transport in tall plants.
+8. Do not forget that mineral ions can be absorbed by active transport.
+9. Do not confuse the apoplast pathway with the symplast pathway.
+10. Do not forget the role of the Casparian strip.
+11. Do not state that phytoextraction and phytostabilisation are the same process.
+12. Do not claim that phytoremediation can remove every pollutant.
+
+---
+
+# EXAM TECHNIQUES AND MARK-AWARE ANSWERING
+
+## Command Words
+
+**STATE**
+
+Give the required fact directly.
+
+**DEFINE**
+
+Give the exact scientific meaning of a term.
+
+**DESCRIBE**
+
+Explain the characteristics or sequence of a process.
+
+**EXPLAIN**
+
+Give the scientific reason and explain how or why something happens.
+
+**COMPARE**
+
+State similarities or differences between two or more things.
+
+**DIFFERENTIATE**
+
+Give clear contrasting characteristics.
+
+**SUGGEST**
+
+Provide a scientifically reasonable answer based on the information given.
+
+**JUSTIFY**
+
+Give a decision supported by scientific reasons.
+
+## Mark-Aware Answering
+
+For 1 mark:
+
+- Give one accurate scientific point.
+
+For 2 marks:
+
+- Give two relevant points, or a point with the required explanation.
+
+For 3 marks:
+
+- Give three relevant marking points.
+
+For 4 marks:
+
+- Give four relevant marking points.
+
+For higher-mark questions:
+
+- Organise the answer into clear scientific points.
+- Include the correct biological terminology.
+- Explain the sequence of events.
+- Connect causes to effects.
+- Answer every part of the question.
+
+The exact marking points depend on the question and its marking scheme. Do not assume every mark always requires a separate sentence.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## QUESTION 1
+
+Differentiate between xylem and phloem.
+
+**Suggested answer:**
+
+1. Xylem transports water and mineral salts, whereas phloem transports organic substances such as sucrose.
+2. Xylem transport is mainly upwards, whereas phloem transports substances from sources to sinks.
+3. Xylem conducting cells are dead at maturity, whereas sieve tube elements are living but lack a nucleus at maturity.
+
+## QUESTION 2
+
+Explain how root hair cells are adapted for water absorption.
+
+**Suggested answer:**
+
+1. Root hair cells have long projections that provide a large surface area for absorption.
+2. Their thin cell walls provide a short distance for water movement.
+3. Their large vacuoles help maintain a lower water potential in the cell sap.
+4. Water enters the root hair cells from the soil solution by osmosis.
+
+## QUESTION 3
+
+Explain why mineral ions are absorbed by active transport.
+
+**Suggested answer:**
+
+1. The concentration of some mineral ions in the soil solution may be lower than their concentration inside root cells.
+2. The ions must move against their concentration gradient.
+3. Active transport uses energy from ATP.
+4. Transport proteins help move the ions across the plasma membrane.
+
+## QUESTION 4
+
+Describe the apoplast and symplast pathways.
+
+**Suggested answer:**
+
+1. The apoplast pathway involves water moving through cell walls and intercellular spaces.
+2. The symplast pathway involves water moving through the cytoplasm of living cells.
+3. Neighbouring cells in the symplast are connected by plasmodesmata.
+4. The Casparian strip blocks the apoplast pathway at the endodermis.
+
+## QUESTION 5
+
+Explain the role of the Casparian strip in water movement through roots.
+
+**Suggested answer:**
+
+1. The Casparian strip contains the water-resistant substance suberin.
+2. It blocks the uncontrolled movement of water through cell walls.
+3. Water and dissolved substances must cross a plasma membrane before entering the vascular cylinder.
+4. This allows selective control over the substances entering the xylem.
+
+## QUESTION 6
+
+Explain the cohesion-tension mechanism in the transport of water through xylem.
+
+**Suggested answer:**
+
+1. Water evaporates from mesophyll cell surfaces into the leaf air spaces.
+2. Water vapour diffuses out through the stomata during transpiration.
+3. Water loss reduces the water potential of leaf tissues.
+4. Water is drawn from the xylem into the leaf tissues.
+5. Tension develops in the xylem and pulls the continuous water column upwards.
+6. Cohesion between water molecules helps maintain the continuous water column.
+
+## QUESTION 7
+
+Differentiate between cohesion and adhesion.
+
+**Suggested answer:**
+
+1. Cohesion is the attraction between molecules of the same substance.
+2. Adhesion is the attraction between molecules of different substances.
+3. Cohesion helps maintain a continuous water column, whereas adhesion helps water remain attached to xylem walls.
+
+## QUESTION 8
+
+Explain why an increase in humidity generally reduces the rate of transpiration.
+
+**Suggested answer:**
+
+1. High humidity means that the surrounding air contains more water vapour.
+2. The water vapour concentration gradient between the leaf and atmosphere becomes smaller.
+3. Diffusion of water vapour out of the leaf becomes slower.
+4. Therefore, the rate of transpiration decreases.
+
+## QUESTION 9
+
+A student uses a potometer to investigate the effect of wind speed on water uptake.
+
+State two variables that should be kept constant.
+
+**Suggested answer:**
+
+Any two:
+
+1. Light intensity.
+2. Temperature.
+3. Humidity.
+4. Leaf area.
+5. Type and size of plant shoot.
+
+## QUESTION 10
+
+Explain the pressure flow hypothesis of translocation.
+
+**Suggested answer:**
+
+1. Sucrose is produced at the source and loaded into the phloem.
+2. The sucrose concentration in the sieve tube increases.
+3. Water enters the sieve tube from the xylem by osmosis.
+4. Hydrostatic pressure increases at the source.
+5. Phloem sap moves towards the sink due to the pressure difference.
+6. Sucrose is unloaded at the sink and used or stored.
+
+## QUESTION 11
+
+Explain why phloem transport can occur in different directions in a plant.
+
+**Suggested answer:**
+
+1. Phloem transport occurs from sources to sinks.
+2. Sources and sinks can be located in different parts of the plant.
+3. Different sieve tubes can transport substances towards different sinks.
+4. Therefore, phloem transport is not restricted to one fixed direction.
+
+## QUESTION 12
+
+Differentiate between phytoextraction and phytostabilisation.
+
+**Suggested answer:**
+
+1. Phytoextraction involves plants absorbing pollutants and accumulating them in their tissues.
+2. Contaminated plant material is harvested and removed during phytoextraction.
+3. Phytostabilisation uses plants to reduce the movement of pollutants in soil.
+4. Pollutants may remain at the site during phytostabilisation.
+
+## QUESTION 13
+
+Explain two advantages and two limitations of phytoremediation.
+
+**Suggested answer:**
+
+Advantages:
+
+1. It can be environmentally friendly because it uses plants and biological processes.
+2. It may be less costly than some conventional treatment methods.
+
+Limitations:
+
+1. It can be slow and may take months or years.
+2. It is limited by root depth and the ability of plants to tolerate pollutants.
+
+## QUESTION 14
+
+A plant is grown in soil contaminated with a heavy metal. The metal accumulates in its leaves and stems. The plant is then harvested.
+
+Identify the phytoremediation method and explain how it works.
+
+**Suggested answer:**
+
+1. The method is phytoextraction.
+2. The plant absorbs the heavy metal through its roots.
+3. The metal is transported and accumulates in above-ground tissues.
+4. The contaminated plant material is harvested and managed safely.
+
+## QUESTION 15
+
+A plant is used to prevent contaminated soil from being washed into a nearby river.
+
+Identify the phytoremediation method and explain its function.
+
+**Suggested answer:**
+
+1. The method is phytostabilisation.
+2. Plant roots hold soil particles together.
+3. This reduces soil erosion and the movement of contaminated particles.
+4. Therefore, the spread of pollutants into nearby water can be reduced.
+
+---
+
+# CHAPTER 4 — FINAL REVISION SUMMARY
+
+## 4.1 VASCULAR TISSUES
+
+- Vascular tissues transport substances throughout plants.
+- Xylem transports water and mineral salts.
+- Phloem transports organic substances.
+- Xylem contains vessel elements, tracheids, fibres and parenchyma.
+- Phloem contains sieve tube elements, companion cells, fibres and parenchyma.
+- Xylem walls are strengthened by lignin.
+- Sieve plates connect neighbouring sieve tube elements.
+
+## 4.2 TRANSPORT OF WATER AND MINERAL SALTS
+
+- Root hair cells absorb water and mineral ions.
+- Water enters mainly by osmosis.
+- Mineral ions may enter by diffusion or active transport.
+- Water moves through apoplast and symplast pathways.
+- The Casparian strip controls entry into the vascular cylinder.
+- Water enters the xylem and moves towards the leaves.
+- Transpiration pull is the main driving force for water transport in tall plants.
+- Cohesion maintains a continuous water column.
+- Adhesion attracts water to xylem walls.
+- Humidity, temperature, light intensity and wind speed affect transpiration.
+- A potometer estimates water uptake.
+
+## 4.3 TRANSLOCATION
+
+- Translocation is the movement of organic substances through phloem.
+- Sucrose is the main transported sugar.
+- A source supplies organic substances.
+- A sink uses or stores organic substances.
+- The pressure flow hypothesis explains mass flow through phloem.
+- Sucrose loading lowers water potential in the phloem.
+- Water enters by osmosis and increases hydrostatic pressure.
+- Phloem sap moves towards a sink.
+- Different sieve tubes can transport substances in different directions.
+
+## 4.4 PHYTOREMEDIATION
+
+- Phytoremediation uses plants and associated microorganisms to manage pollutants.
+- Phytoextraction removes certain pollutants through plant uptake and harvesting.
+- Phytostabilisation reduces pollutant movement.
+- Rhizofiltration uses roots to absorb or adsorb contaminants from water.
+- Phytodegradation uses plant processes to transform pollutants.
+- Rhizodegradation involves microorganisms around roots breaking down pollutants.
+- Phytoremediation can be environmentally friendly but may be slow.
+- Contaminated plant material must be managed safely.
+
+---
+
+# KEY BIOLOGY TERMS
+
+1. Vascular tissue
+2. Xylem
+3. Phloem
+4. Vessel element
+5. Tracheid
+6. Lignification
+7. Sieve tube element
+8. Sieve plate
+9. Companion cell
+10. Root hair cell
+11. Osmosis
+12. Active transport
+13. Apoplast pathway
+14. Symplast pathway
+15. Plasmodesmata
+16. Endodermis
+17. Casparian strip
+18. Transpiration
+19. Transpiration pull
+20. Cohesion
+21. Adhesion
+22. Cohesion-tension mechanism
+23. Root pressure
+24. Guttation
+25. Potometer
+26. Translocation
+27. Source
+28. Sink
+29. Phloem sap
+30. Pressure flow hypothesis
+31. Phytoremediation
+32. Phytoextraction
+33. Phytostabilisation
+34. Rhizofiltration
+35. Phytodegradation
+36. Rhizodegradation
+
+**END OF FORM 5 BIOLOGY — CHAPTER 4: TRANSPORT IN PLANTS**
