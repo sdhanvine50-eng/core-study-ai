@@ -1,0 +1,958 @@
+# 13 Homeostasis and the Human Urinary System
+
+## 13.1 Homeostasis
+
+### 1. Meaning of Homeostasis
+
+Homeostasis is the regulation of the physical and chemical conditions inside the body so that they remain relatively constant within a suitable range, even when the external environment changes.
+
+The internal environment includes:
+- Body temperature
+- Blood glucose concentration
+- Water content
+- Mineral ion concentration
+- pH of body fluids
+
+Cells and enzymes function most effectively when internal conditions remain within suitable limits. If these conditions change too much, normal cell activities may be affected.
+
+**Examples of homeostasis:**
+- Maintaining body temperature at approximately 37°C.
+- Regulating blood glucose concentration.
+- Controlling water and salt balance in the body.
+
+### 2. Importance of Homeostasis
+
+Homeostasis is important because it:
+1. Maintains suitable conditions for enzyme activity.
+2. Allows cells to function normally.
+3. Maintains the balance of water and mineral ions.
+4. Prevents major changes in the internal environment.
+5. Supports the normal functioning of organs and body systems.
+
+### 3. Negative Feedback Mechanism
+
+Negative feedback is a regulatory mechanism in which a change from the normal condition triggers responses that reverse the original change.
+
+It helps return a condition towards its normal level.
+
+**Main components:**
+1. Receptor – detects a change in the internal environment.
+2. Control centre – receives information and coordinates a response.
+3. Effector – carries out the response.
+4. Response – acts to reduce the original change.
+
+**General sequence:**
+
+Change in internal condition → Receptor detects the change → Control centre processes information → Effector responds → Condition moves back towards normal.
+
+Negative feedback does not necessarily maintain a perfectly fixed value. Instead, it keeps conditions within a suitable range.
+
+### 4. Regulation of Body Temperature (Thermoregulation)
+
+Thermoregulation is the regulation of body temperature.
+
+The hypothalamus in the brain acts as the main temperature-regulating control centre. It receives information about body temperature and coordinates responses.
+
+#### When body temperature increases
+
+Examples of causes:
+- Hot surroundings
+- Physical activity
+- High environmental temperature
+
+Responses include:
+
+**a. Increased sweating**
+- Sweat glands produce more sweat.
+- Sweat spreads over the skin surface.
+- Water in the sweat evaporates.
+- Evaporation absorbs heat from the skin.
+- Heat loss increases and body temperature decreases.
+
+**b. Vasodilation**
+- Arterioles supplying the skin widen.
+- More blood flows through blood capillaries near the skin surface.
+- More heat is transferred from the blood to the surroundings.
+- Heat loss increases.
+
+**c. Reduced metabolic heat production**
+- Some heat-producing activities may be reduced as the body coordinates its response.
+
+#### When body temperature decreases
+
+Examples of causes:
+- Cold surroundings
+- Exposure to cold wind
+- Immersion in cold water
+
+Responses include:
+
+**a. Reduced sweating**
+- Sweat glands produce less sweat.
+- Less heat is lost through evaporation.
+
+**b. Vasoconstriction**
+- Arterioles supplying the skin narrow.
+- Less blood flows near the skin surface.
+- Heat loss to the surroundings decreases.
+
+**c. Shivering**
+- Skeletal muscles contract and relax rapidly and involuntarily.
+- Muscle activity increases cellular respiration.
+- More heat is produced.
+
+**d. Hair erection**
+- Small muscles attached to hair follicles contract.
+- Body hairs stand more upright.
+- In furry mammals, trapped air can provide insulation.
+- In humans, this response has little effect because body hair is relatively sparse.
+
+**e. Increased metabolic heat production**
+- The body can increase heat production through metabolic responses.
+
+### 5. Regulation of Blood Glucose Concentration
+
+Blood glucose concentration must be regulated because glucose is an important respiratory substrate used by cells to release energy.
+
+The pancreas contains groups of endocrine cells called the islets of Langerhans.
+
+Two important hormones are:
+- Insulin – lowers blood glucose concentration.
+- Glucagon – raises blood glucose concentration.
+
+#### When blood glucose concentration increases
+
+For example, after a meal containing carbohydrates:
+
+1. Blood glucose concentration increases.
+2. Beta cells in the pancreas detect the increase.
+3. Beta cells secrete insulin.
+4. Insulin promotes the uptake of glucose by body cells.
+5. Insulin stimulates the liver and muscles to convert excess glucose into glycogen.
+6. Blood glucose concentration decreases towards normal.
+
+This process is called glycogenesis when glucose is converted into glycogen.
+
+#### When blood glucose concentration decreases
+
+For example, between meals:
+
+1. Blood glucose concentration decreases.
+2. Alpha cells in the pancreas detect the decrease.
+3. Alpha cells secrete glucagon.
+4. Glucagon stimulates the liver to break down glycogen into glucose.
+5. The liver releases glucose into the blood.
+6. Blood glucose concentration increases towards normal.
+
+The breakdown of glycogen into glucose is called glycogenolysis.
+
+The liver can also produce glucose from non-carbohydrate sources through gluconeogenesis.
+
+#### Comparison of insulin and glucagon
+
+| Feature | Insulin | Glucagon |
+|---|---|---|
+| Secreted by | Beta cells | Alpha cells |
+| Blood glucose effect | Decreases it | Increases it |
+| Main action | Promotes glucose uptake and glycogenesis | Stimulates glycogenolysis and gluconeogenesis |
+| Main target organ | Liver, muscles and other tissues | Mainly liver |
+
+Insulin and glucagon work antagonistically because they produce opposite effects on blood glucose concentration.
+
+### 6. Regulation of Water Content (Osmoregulation)
+
+Osmoregulation is the regulation of water and dissolved substances in the body.
+
+The kidneys play an important role by adjusting the amount of water reabsorbed from the kidney tubules.
+
+The hormone involved is antidiuretic hormone (ADH).
+
+ADH is produced by the hypothalamus and stored and released by the posterior pituitary gland.
+
+#### When the body has insufficient water
+
+For example, after excessive sweating or insufficient water intake:
+
+1. Blood becomes more concentrated.
+2. Osmoreceptors in the hypothalamus detect the increase in blood concentration.
+3. More ADH is released from the posterior pituitary gland.
+4. ADH increases the permeability of the collecting ducts to water.
+5. More water is reabsorbed into the blood.
+6. A smaller volume of concentrated urine is produced.
+
+#### When the body has excess water
+
+1. Blood becomes more dilute.
+2. Osmoreceptors detect the decrease in blood concentration.
+3. Less ADH is released.
+4. Collecting ducts become less permeable to water.
+5. Less water is reabsorbed into the blood.
+6. A larger volume of dilute urine is produced.
+
+#### Summary of ADH action
+
+| Condition | ADH secretion | Water reabsorption | Urine |
+|---|---|---|---|
+| Insufficient body water | Increases | Increases | Small volume, concentrated |
+| Excess body water | Decreases | Decreases | Large volume, dilute |
+
+### 7. Positive Feedback and Negative Feedback
+
+Negative feedback reverses a change and helps maintain homeostasis.
+
+Positive feedback increases or strengthens the original change until a particular event is completed.
+
+| Negative feedback | Positive feedback |
+|---|---|
+| Reverses the original change | Strengthens the original change |
+| Helps maintain stable internal conditions | Drives a process towards completion |
+| Example: regulation of body temperature | Example: oxytocin increasing uterine contractions during childbirth |
+
+**Exam tip:** If asked to explain negative feedback, do not only state that the body returns to normal. Explain the sequence involving the receptor, control centre, effector and response.
+
+---
+
+## 13.2 The Urinary System
+
+### 1. Functions of the Urinary System
+
+The urinary system removes metabolic waste products and helps regulate the composition of blood.
+
+Its main functions are:
+1. Excreting urea and other metabolic waste products.
+2. Regulating water content in the blood.
+3. Regulating mineral ion concentrations.
+4. Helping maintain the pH of blood.
+5. Contributing to blood pressure regulation.
+6. Producing urine.
+
+**Excretion** is the removal of metabolic waste products and substances in excess from the body.
+
+**Urine** is a liquid waste produced by the kidneys.
+
+### 2. Main Organs of the Human Urinary System
+
+The human urinary system consists of:
+- Two kidneys
+- Two ureters
+- One urinary bladder
+- One urethra
+
+#### Kidneys
+- Two bean-shaped organs located towards the back of the abdominal cavity.
+- Filter blood and produce urine.
+- Regulate water and mineral ion balance.
+- Remove urea and other waste substances.
+
+#### Ureters
+- Two narrow muscular tubes.
+- Carry urine from the kidneys to the urinary bladder.
+- Urine moves through the ureters by peristaltic contractions.
+
+#### Urinary bladder
+- A muscular, expandable sac.
+- Temporarily stores urine.
+- Its muscular wall contracts during urination.
+
+#### Urethra
+- A tube that carries urine from the urinary bladder to the outside of the body.
+- Urine leaves the body through the urethra during urination.
+
+### 3. Structure of the Kidney
+
+A longitudinal section of a kidney shows three main regions:
+
+**a. Renal cortex**
+- Outer region of the kidney.
+- Contains the renal corpuscles and parts of the kidney tubules.
+- Renal corpuscles consist of the glomerulus and Bowman's capsule.
+
+**b. Renal medulla**
+- Inner region of the kidney.
+- Contains renal pyramids and parts of the kidney tubules and collecting ducts.
+
+**c. Renal pelvis**
+- Central, funnel-shaped region.
+- Collects urine from the collecting ducts through the calyces.
+- Directs urine into the ureter.
+
+Other important structures:
+- Renal artery – carries blood containing metabolic wastes into the kidney.
+- Renal vein – carries filtered blood away from the kidney.
+- Ureter – carries urine to the urinary bladder.
+
+### 4. Nephron: The Functional Unit of the Kidney
+
+A nephron is the structural and functional unit of the kidney. Each kidney contains a very large number of nephrons.
+
+Each nephron filters blood and selectively reabsorbs useful substances.
+
+**Main structures of a nephron:**
+
+1. Afferent arteriole – carries blood into the glomerulus.
+2. Glomerulus – a network of blood capillaries where ultrafiltration occurs.
+3. Bowman's capsule – surrounds the glomerulus and collects glomerular filtrate.
+4. Efferent arteriole – carries blood away from the glomerulus.
+5. Proximal convoluted tubule (PCT) – where selective reabsorption of many useful substances occurs.
+6. Loop of Henle – helps establish the concentration gradient in the kidney medulla.
+7. Distal convoluted tubule (DCT) – involved in further adjustment of the filtrate.
+8. Collecting duct – receives filtrate from nephrons and allows further regulation of water reabsorption.
+
+The nephron is closely associated with blood capillaries that allow substances to move between the blood and kidney tubule.
+
+### 5. Formation of Urine
+
+Urine formation involves three main processes:
+
+1. Ultrafiltration
+2. Selective reabsorption
+3. Tubular secretion
+
+#### A. Ultrafiltration
+
+Ultrafiltration occurs at the glomerulus and Bowman's capsule.
+
+**How it occurs:**
+
+1. Blood enters the glomerulus through the afferent arteriole.
+2. The blood is under relatively high hydrostatic pressure.
+3. This pressure forces water and small dissolved substances through the filtration barrier into Bowman's capsule.
+4. The fluid collected in Bowman's capsule is called glomerular filtrate.
+
+Substances that normally enter the filtrate include:
+- Water
+- Glucose
+- Amino acids
+- Mineral ions
+- Urea
+
+Substances that normally remain in the blood include:
+- Blood cells
+- Most large plasma proteins
+
+**Why do blood cells and large proteins remain in the blood?**
+
+They are generally too large to pass through the filtration barrier.
+
+**Important:** Ultrafiltration is not the same as selective reabsorption. Ultrafiltration is pressure-driven filtration of small substances from blood into Bowman's capsule.
+
+#### B. Selective Reabsorption
+
+Selective reabsorption is the process in which useful substances are reabsorbed from the kidney tubule into the blood.
+
+It occurs mainly in the proximal convoluted tubule.
+
+Substances reabsorbed include:
+- All or almost all glucose under normal conditions
+- Amino acids
+- Much of the water
+- Mineral ions
+
+**How selective reabsorption occurs:**
+
+1. Glucose and amino acids are transported from the filtrate into the cells of the tubule wall.
+2. Transport proteins help move these substances across cell membranes.
+3. Many substances enter the surrounding blood capillaries.
+4. Water follows the movement of dissolved substances by osmosis.
+5. Useful substances return to the blood.
+
+Selective reabsorption prevents the loss of valuable substances in urine.
+
+**Adaptations of the proximal convoluted tubule:**
+- Numerous microvilli provide a large surface area.
+- Many mitochondria supply ATP for active transport.
+- The tubule wall is thin, allowing efficient movement of substances.
+- It is surrounded by blood capillaries for efficient exchange.
+
+#### C. Tubular Secretion
+
+Tubular secretion is the movement of certain substances from the blood in surrounding capillaries into the kidney tubule.
+
+It helps regulate blood composition and remove additional substances.
+
+Substances that may be secreted include:
+- Hydrogen ions
+- Potassium ions
+- Ammonium ions
+- Certain drugs and metabolic waste products
+
+**Importance of tubular secretion:**
+1. Helps regulate blood pH.
+2. Helps regulate mineral ion concentration.
+3. Allows additional waste substances to enter the filtrate.
+4. Supports the removal of certain drugs and foreign substances.
+
+### 6. Formation of Urine: Overall Summary
+
+| Process | Location | Main event |
+|---|---|---|
+| Ultrafiltration | Glomerulus and Bowman's capsule | Water and small dissolved substances enter Bowman's capsule |
+| Selective reabsorption | Mainly PCT | Useful substances return to the blood |
+| Tubular secretion | Mainly PCT and DCT | Certain substances move from blood into the tubule |
+
+The fluid remaining in the collecting duct becomes urine.
+
+Urine normally contains:
+- Water
+- Urea
+- Mineral ions
+- Other dissolved waste substances
+
+Urine normally contains no detectable glucose and no significant amount of blood cells or large plasma proteins.
+
+### 7. Composition of Blood, Glomerular Filtrate and Urine
+
+| Substance | Blood | Glomerular filtrate | Normal urine |
+|---|---|---|---|
+| Blood cells | Present | Absent | Absent |
+| Large plasma proteins | Present | Normally absent | Normally absent |
+| Water | Present | Present | Present |
+| Glucose | Present | Present | Normally absent |
+| Amino acids | Present | Present | Normally absent |
+| Urea | Present | Present | Present |
+| Mineral ions | Present | Present | Present |
+
+**Important:** Glucose is filtered into Bowman's capsule but is normally reabsorbed before urine is produced.
+
+### 8. Regulation of Water Reabsorption by ADH
+
+The kidneys adjust the amount of water reabsorbed according to the body's water needs.
+
+ADH affects the permeability of the collecting ducts and late distal tubules to water.
+
+**When blood is too concentrated:**
+- More ADH is released.
+- More water channels are inserted into the cell membranes.
+- More water is reabsorbed into the blood.
+- A smaller volume of concentrated urine is produced.
+
+**When blood is too dilute:**
+- Less ADH is released.
+- Fewer water channels are present.
+- Less water is reabsorbed.
+- A larger volume of dilute urine is produced.
+
+This is an example of negative feedback that helps maintain water balance.
+
+### 9. Pathway of Urine
+
+The pathway of urine is:
+
+Collecting ducts → Renal calyces → Renal pelvis → Ureter → Urinary bladder → Urethra → Outside the body.
+
+**Do not confuse:**
+- Renal artery: carries blood into the kidney.
+- Renal vein: carries blood away from the kidney.
+- Ureter: carries urine from the kidney to the bladder.
+- Urethra: carries urine from the bladder out of the body.
+
+### 10. Excretion and Egestion
+
+| Excretion | Egestion |
+|---|---|
+| Removal of metabolic waste products | Removal of undigested food |
+| Involves kidneys, lungs and skin | Involves the digestive system |
+| Example: removal of urea in urine | Example: removal of faeces |
+
+Urea is formed mainly in the liver from the breakdown of excess amino acids. It is transported in the blood to the kidneys for excretion.
+
+### 11. Other Functions of the Kidneys
+
+Besides urine production, kidneys help maintain internal balance.
+
+**a. Regulation of water balance**
+- Adjusts the amount of water reabsorbed.
+- Works with ADH.
+
+**b. Regulation of mineral ions**
+- Adjusts the excretion and reabsorption of ions such as sodium and potassium.
+
+**c. Regulation of blood pH**
+- Secretes hydrogen ions.
+- Reabsorbs filtered bicarbonate ions.
+- Helps maintain acid-base balance.
+
+**d. Regulation of blood pressure**
+- Kidneys influence blood volume and release renin, which contributes to the renin-angiotensin-aldosterone system.
+
+**e. Production of erythropoietin**
+- Kidneys produce erythropoietin, a hormone that stimulates red blood cell production in the bone marrow when oxygen availability is low.
+
+---
+
+## 13.3 Health Issues Related to the Urinary System
+
+### 1. Urinary Tract Infection (UTI)
+
+A urinary tract infection occurs when microorganisms, commonly bacteria, infect part of the urinary system.
+
+A UTI may affect:
+- Urethra
+- Urinary bladder
+- Ureters
+- Kidneys
+
+**Possible symptoms:**
+- Pain or burning sensation during urination
+- Frequent urge to urinate
+- Cloudy urine
+- Lower abdominal discomfort
+
+A kidney infection may cause fever, chills, back or side pain and nausea.
+
+**Prevention and care:**
+- Maintain suitable personal hygiene.
+- Drink sufficient water.
+- Avoid delaying urination for long periods.
+- Seek medical assessment when symptoms occur.
+
+Antibiotics may be prescribed by a healthcare professional for bacterial UTIs. Treatment depends on the site and severity of infection.
+
+### 2. Kidney Stones
+
+Kidney stones are hard deposits formed when certain minerals and salts in urine crystallise.
+
+They may form when urine becomes too concentrated or when substances that form crystals are present in high concentrations.
+
+**Possible symptoms:**
+- Severe pain in the side or back
+- Pain that may spread towards the lower abdomen or groin
+- Blood in the urine
+- Nausea or vomiting
+- Pain during urination
+
+**Factors that may increase risk:**
+- Insufficient water intake
+- Certain dietary patterns
+- Family history
+- Some medical conditions
+
+**Prevention and management:**
+- Drink sufficient water unless medically advised otherwise.
+- Follow medical advice about diet.
+- Seek medical assessment for suspected kidney stones.
+- Treatment depends on stone size, location and symptoms.
+
+### 3. Kidney Failure
+
+Kidney failure occurs when the kidneys lose their ability to perform their normal functions effectively.
+
+The kidneys may become unable to:
+- Remove sufficient metabolic waste.
+- Regulate water balance.
+- Maintain mineral ion balance.
+- Maintain acid-base balance.
+
+As a result, waste products and excess fluid may accumulate in the body.
+
+**Possible causes include:**
+- Long-term diabetes mellitus
+- High blood pressure
+- Severe kidney infections
+- Certain kidney diseases
+- Serious injury or reduced blood supply to the kidneys
+
+**Possible effects:**
+- Accumulation of urea and other waste products in the blood
+- Swelling due to fluid retention
+- Changes in urine production
+- Disturbance of mineral ion levels
+- Anaemia and other complications
+
+Kidney failure requires medical management.
+
+### 4. Haemodialysis
+
+Haemodialysis is a treatment that uses a dialysis machine to remove waste products and excess water from the blood when the kidneys cannot perform these functions adequately.
+
+**How haemodialysis works:**
+
+1. Blood is taken from the patient's body through a blood vessel access.
+2. Blood flows through a dialyser containing partially permeable membranes.
+3. Dialysis fluid flows on the other side of the membrane.
+4. The concentration of urea and other waste substances is higher in the blood than in the dialysis fluid.
+5. Waste substances diffuse from the blood into the dialysis fluid.
+6. Excess water can also be removed by controlled ultrafiltration.
+7. The cleaned blood is returned to the patient's body.
+
+**Important features of dialysis fluid:**
+- Contains a suitable concentration of glucose.
+- Contains mineral ions at suitable concentrations.
+- Normally contains no urea.
+- Its composition is controlled to encourage removal of waste while preventing excessive loss of useful substances.
+
+**Role of the partially permeable membrane:**
+- Allows small molecules to pass through.
+- Prevents blood cells and large plasma proteins from passing through.
+
+### 5. Peritoneal Dialysis
+
+Peritoneal dialysis uses the peritoneum, a membrane lining the abdominal cavity, as the exchange surface.
+
+**General process:**
+1. Dialysis fluid is introduced into the abdominal cavity through a catheter.
+2. Waste products and excess substances move from blood vessels in the peritoneum into the dialysis fluid.
+3. The fluid remains in the abdominal cavity for a prescribed period.
+4. The used dialysis fluid is drained and replaced.
+
+The exact treatment schedule and method are determined by healthcare professionals.
+
+### 6. Kidney Transplant
+
+A kidney transplant is a surgical procedure in which a healthy kidney from a suitable donor is placed into a person whose kidneys no longer function adequately.
+
+**Advantages:**
+- Can provide long-term kidney function.
+- May reduce the need for regular dialysis.
+- Can improve quality of life for suitable patients.
+
+**Limitations and risks:**
+- A suitable donor is required.
+- The immune system may reject the transplanted kidney.
+- The recipient usually needs immunosuppressant medication.
+- Surgery and long-term follow-up are required.
+
+### 7. Comparison Between Haemodialysis and Kidney Transplant
+
+| Haemodialysis | Kidney transplant |
+|---|---|
+| Uses a dialysis machine to filter blood | Uses a donated functioning kidney |
+| Usually requires repeated treatment sessions | May provide long-term kidney function |
+| Does not replace all kidney functions | A transplanted kidney can perform many kidney functions |
+| Requires access to a dialysis service | Requires a suitable donor and surgery |
+| Does not involve transplant rejection | Risk of immune rejection |
+
+### 8. Comparison Between Haemodialysis and Peritoneal Dialysis
+
+| Haemodialysis | Peritoneal dialysis |
+|---|---|
+| Uses a dialyser outside the body | Uses the peritoneum as the exchange membrane |
+| Blood passes through the dialyser | Dialysis fluid enters the abdominal cavity |
+| Requires blood vessel access | Requires a catheter in the abdominal cavity |
+| Usually performed in scheduled sessions | Can be performed using a prescribed home-based schedule |
+
+### 9. Importance of Maintaining Urinary System Health
+
+Healthy habits can help reduce the risk of some urinary system problems.
+
+1. Drink sufficient water according to individual needs and medical advice.
+2. Maintain good personal hygiene.
+3. Avoid delaying urination unnecessarily.
+4. Maintain a balanced diet.
+5. Manage blood pressure and blood glucose.
+6. Seek medical attention for persistent urinary symptoms.
+7. Avoid taking medicines or supplements without appropriate advice, especially if kidney disease is suspected.
+
+People with existing kidney or heart conditions may need individual fluid or dietary advice from their healthcare team.
+
+---
+
+# Important Exam Comparisons
+
+## 1. Ultrafiltration vs Selective Reabsorption
+
+| Ultrafiltration | Selective reabsorption |
+|---|---|
+| Occurs at the glomerulus and Bowman's capsule | Occurs mainly at the PCT |
+| Driven by blood pressure | Uses transport processes, including active transport and diffusion |
+| Small substances enter Bowman's capsule | Useful substances return to the blood |
+| Blood cells and large proteins normally remain in blood | Glucose, amino acids, water and ions are reabsorbed |
+
+## 2. Concentrated Urine vs Dilute Urine
+
+| Concentrated urine | Dilute urine |
+|---|---|
+| Produced when the body needs to conserve water | Produced when the body has excess water |
+| Smaller volume | Larger volume |
+| Higher concentration of dissolved waste | Lower concentration of dissolved waste |
+| More ADH is released | Less ADH is released |
+| More water is reabsorbed | Less water is reabsorbed |
+
+## 3. Vasodilation vs Vasoconstriction
+
+| Vasodilation | Vasoconstriction |
+|---|---|
+| Arterioles widen | Arterioles narrow |
+| More blood flows near the skin surface | Less blood flows near the skin surface |
+| Increases heat loss | Reduces heat loss |
+| Helps cool the body | Helps conserve heat |
+
+---
+
+# Common Examination Mistakes
+
+1. **Confusing ureter and urethra:** The ureter carries urine from the kidney to the bladder. The urethra carries urine out of the body.
+2. **Saying glucose is not filtered:** Glucose enters Bowman's capsule but is normally reabsorbed.
+3. **Saying ultrafiltration occurs in the PCT:** Ultrafiltration occurs at the glomerulus and Bowman's capsule.
+4. **Saying all substances in filtrate become urine:** Useful substances are selectively reabsorbed.
+5. **Confusing insulin and glucagon:** Insulin lowers blood glucose; glucagon raises it.
+6. **Confusing ADH production and release:** ADH is produced in the hypothalamus and stored and released by the posterior pituitary.
+7. **Saying sweating cools the body because sweat is cold:** Evaporation of sweat removes heat from the skin.
+8. **Confusing excretion and egestion:** Excretion removes metabolic waste; egestion removes undigested food.
+9. **Saying dialysis completely replaces every kidney function:** Dialysis removes waste and excess fluid but does not perform every function of healthy kidneys.
+10. **Forgetting the negative feedback sequence:** Explain the change, detection, control response and return towards normal.
+
+---
+
+# SPM-Style Practice Questions
+
+## Section A: Structured Questions
+
+### Question 1: Homeostasis
+
+(a) Define homeostasis. [2 marks]
+
+(b) State TWO internal conditions regulated by homeostasis. [2 marks]
+
+(c) Explain how the body responds when body temperature rises above normal. [4 marks]
+
+(d) Explain the role of insulin when blood glucose concentration increases. [4 marks]
+
+### Question 2: Osmoregulation
+
+(a) Define osmoregulation. [2 marks]
+
+(b) Name the hormone responsible for regulating water reabsorption in the kidneys. [1 mark]
+
+(c) Explain how the body responds when a person is dehydrated. [4 marks]
+
+(d) Compare the volume and concentration of urine produced when ADH secretion is high and low. [4 marks]
+
+### Question 3: Urinary System
+
+(a) Name the four main organs of the human urinary system. [4 marks]
+
+(b) State the function of the kidney. [2 marks]
+
+(c) Explain the difference between the renal artery and renal vein. [2 marks]
+
+(d) Describe the pathway of urine from the kidney until it leaves the body. [4 marks]
+
+### Question 4: Nephron
+
+(a) Define nephron. [2 marks]
+
+(b) Name the structure where ultrafiltration occurs. [2 marks]
+
+(c) Explain how ultrafiltration takes place. [4 marks]
+
+(d) Explain why glucose is normally absent from urine. [3 marks]
+
+(e) State TWO adaptations of the proximal convoluted tubule for selective reabsorption. [2 marks]
+
+### Question 5: Kidney Health
+
+(a) What is kidney failure? [2 marks]
+
+(b) Explain how haemodialysis removes urea from the blood. [5 marks]
+
+(c) State TWO advantages of kidney transplantation compared with regular haemodialysis. [2 marks]
+
+(d) State TWO risks or limitations of kidney transplantation. [2 marks]
+
+## Section B: Application and HOTS Questions
+
+### Question 6: ADH and Urine Production
+
+A student exercises outdoors on a hot day and loses a large amount of water through sweating.
+
+(a) Predict the change in ADH secretion. [1 mark]
+
+(b) Explain how the kidneys respond to this change. [3 marks]
+
+(c) Describe the characteristics of the urine produced. [2 marks]
+
+### Question 7: Glucose in Urine
+
+A patient's urine test shows the presence of glucose.
+
+(a) State the normal process that prevents glucose from remaining in urine. [1 mark]
+
+(b) Suggest one possible medical condition associated with glucose in urine. [1 mark]
+
+(c) Explain why glucose may appear in the urine of a person with uncontrolled diabetes mellitus. [3 marks]
+
+### Question 8: Kidney Function
+
+A patient has damaged kidneys and cannot remove sufficient urea and excess water from the blood.
+
+(a) Explain why urea accumulates in the blood. [2 marks]
+
+(b) Suggest a treatment that can help remove waste products from the blood. [1 mark]
+
+(c) Explain the principle of the treatment. [4 marks]
+
+---
+
+# Suggested Answers
+
+## Question 1
+
+(a) Homeostasis is the regulation of the internal environment to maintain relatively constant conditions within a suitable range.
+
+(b) Any two:
+- Body temperature
+- Blood glucose concentration
+- Water content
+- Mineral ion concentration
+- Blood pH
+
+(c)
+- The hypothalamus detects the increase in body temperature.
+- Sweat glands produce more sweat.
+- Evaporation of sweat removes heat from the skin.
+- Vasodilation increases blood flow near the skin surface and increases heat loss.
+
+(d)
+- Beta cells in the pancreas detect the increase in blood glucose.
+- Beta cells secrete insulin.
+- Insulin increases glucose uptake by body cells.
+- Insulin stimulates conversion of glucose into glycogen in the liver and muscles.
+- Blood glucose concentration decreases towards normal.
+
+## Question 2
+
+(a) Osmoregulation is the regulation of water and dissolved substances in the body.
+
+(b) ADH.
+
+(c)
+- Osmoreceptors in the hypothalamus detect an increase in blood concentration.
+- More ADH is released from the posterior pituitary gland.
+- The collecting ducts become more permeable to water.
+- More water is reabsorbed into the blood.
+- A smaller volume of concentrated urine is produced.
+
+(d)
+- High ADH: more water is reabsorbed and a smaller volume of concentrated urine is produced.
+- Low ADH: less water is reabsorbed and a larger volume of dilute urine is produced.
+
+## Question 3
+
+(a)
+- Kidneys
+- Ureters
+- Urinary bladder
+- Urethra
+
+(b)
+- Filters blood.
+- Removes urea and other waste products.
+- Regulates water and mineral ion balance.
+
+(c)
+- Renal artery carries blood into the kidney.
+- Renal vein carries blood away from the kidney.
+
+(d)
+Collecting ducts → Renal calyces → Renal pelvis → Ureter → Urinary bladder → Urethra → Outside the body.
+
+## Question 4
+
+(a) Nephron is the structural and functional unit of the kidney.
+
+(b) Glomerulus and Bowman's capsule.
+
+(c)
+- Blood enters the glomerulus through the afferent arteriole.
+- High hydrostatic pressure is produced in the glomerulus.
+- Water and small dissolved substances are forced through the filtration barrier.
+- The filtrate enters Bowman's capsule.
+- Blood cells and large plasma proteins normally remain in the blood.
+
+(d)
+- Glucose is filtered into Bowman's capsule.
+- It is selectively reabsorbed, mainly in the proximal convoluted tubule.
+- It returns to the blood and is normally absent from urine.
+
+(e) Any two:
+- Numerous microvilli provide a large surface area.
+- Many mitochondria supply ATP for active transport.
+- Thin tubule wall allows efficient exchange.
+- Surrounding blood capillaries allow efficient transport.
+
+## Question 5
+
+(a) Kidney failure occurs when the kidneys lose the ability to perform their normal functions adequately.
+
+(b)
+- Blood flows through a dialyser.
+- The dialyser contains partially permeable membranes.
+- Dialysis fluid flows on the other side of the membrane.
+- Urea concentration is lower in the dialysis fluid than in the blood.
+- Urea diffuses from the blood into the dialysis fluid.
+- Cleaned blood is returned to the patient.
+
+(c) Any two:
+- May provide long-term kidney function.
+- May reduce the need for regular dialysis.
+- Can improve quality of life for suitable patients.
+
+(d) Any two:
+- A suitable donor is required.
+- The immune system may reject the transplanted kidney.
+- Immunosuppressant medication is usually required.
+- Surgery carries risks.
+
+## Question 6
+
+(a) ADH secretion increases.
+
+(b)
+- More ADH is released.
+- The collecting ducts become more permeable to water.
+- More water is reabsorbed into the blood.
+
+(c)
+- Smaller volume of urine.
+- More concentrated urine.
+
+## Question 7
+
+(a) Selective reabsorption.
+
+(b) Diabetes mellitus.
+
+(c)
+- Uncontrolled diabetes mellitus can cause blood glucose concentration to become very high.
+- The amount of glucose filtered may exceed the reabsorption capacity of the kidney tubules.
+- Some glucose remains in the filtrate and is excreted in urine.
+
+## Question 8
+
+(a)
+- Damaged kidneys cannot filter and remove urea effectively.
+- Urea accumulates in the blood.
+
+(b) Haemodialysis.
+
+(c)
+- Blood passes through a dialyser.
+- The dialyser contains a partially permeable membrane.
+- Urea diffuses from the blood into dialysis fluid because of a concentration gradient.
+- Blood cells and large plasma proteins remain in the blood.
+- Cleaned blood returns to the body.
+
+---
+
+# Chapter 13 Final Revision Checklist
+
+Before your examination, make sure you can:
+
+- [ ] Define homeostasis and negative feedback.
+- [ ] Explain thermoregulation when body temperature rises and falls.
+- [ ] Explain the roles of insulin and glucagon.
+- [ ] Explain osmoregulation and the action of ADH.
+- [ ] Identify the organs of the urinary system.
+- [ ] Describe the structure of a kidney.
+- [ ] Label the main parts of a nephron.
+- [ ] Explain ultrafiltration.
+- [ ] Explain selective reabsorption.
+- [ ] Explain tubular secretion.
+- [ ] Compare blood, glomerular filtrate and urine.
+- [ ] Trace the pathway of urine.
+- [ ] Explain haemodialysis and peritoneal dialysis.
+- [ ] Compare dialysis with kidney transplantation.
+- [ ] Explain urinary tract infections, kidney stones and kidney failure.
+
+**Core idea to remember:** Homeostasis keeps the internal environment stable. The kidneys contribute by filtering blood, removing metabolic wastes and adjusting the amount of water and ions reabsorbed.
