@@ -1,0 +1,1562 @@
+# BIOLOGY FORM 5 — CHAPTER 6
+
+# SEXUAL REPRODUCTION IN FLOWERING PLANTS
+
+SUBJECT: Biology  
+FORM: Form 5  
+CHAPTER: Chapter 6  
+CHAPTER_TITLE: Sexual Reproduction in Flowering Plants  
+TOPICS: 6.1, 6.2, 6.3, 6.4, 6.5  
+SOURCE_TYPE: Original Learning Material  
+STATUS: Original Educational Content
+
+---
+
+# 6.1 STRUCTURE OF A FLOWER
+
+A flower is the reproductive structure of an angiosperm, or flowering plant.
+
+The main functions of a flower are to:
+
+1. Produce male and female gametes.
+2. Attract pollinating agents.
+3. Allow pollination to occur.
+4. Provide a site for fertilisation.
+5. Develop into fruits and seeds after fertilisation.
+
+A typical flower contains four main floral parts:
+
+1. Sepals
+2. Petals
+3. Stamens
+4. Carpels
+
+---
+
+## 6.1.1 SEPALS
+
+Sepals are usually green, leaf-like structures surrounding the developing flower bud.
+
+A group of sepals is called the calyx.
+
+Functions:
+
+- Protect the developing flower bud.
+- Carry out limited photosynthesis when green.
+- Support the flower before it opens.
+
+---
+
+## 6.1.2 PETALS
+
+Petals are usually brightly coloured structures surrounding the reproductive organs.
+
+A group of petals is called the corolla.
+
+Functions:
+
+- Attract pollinating agents such as insects and birds.
+- Provide visual signals that help pollinators locate flowers.
+- In some flowers, produce or help display nectar guides.
+
+Some flowers have small or inconspicuous petals because they are mainly pollinated by wind.
+
+---
+
+# 6.1.3 STAMEN
+
+The stamen is the male reproductive structure of a flower.
+
+A stamen consists of:
+
+1. Anther
+2. Filament
+
+### A. ANTHER
+
+The anther is the structure where pollen grains develop.
+
+It contains pollen sacs, also called microsporangia.
+
+Pollen grains contain the male gametophyte of the flowering plant.
+
+### B. FILAMENT
+
+The filament is a stalk that supports the anther.
+
+Its position helps expose the anther so pollen can be released and transferred.
+
+---
+
+# 6.1.4 CARPEL
+
+The carpel is the female reproductive structure of a flower.
+
+A carpel consists of:
+
+1. Stigma
+2. Style
+3. Ovary
+
+Several carpels may be fused together to form a compound pistil.
+
+### A. STIGMA
+
+The stigma is the upper part of the carpel.
+
+Functions:
+
+- Receives pollen grains.
+- Provides a surface where compatible pollen can germinate.
+- May have a sticky surface that helps pollen grains adhere.
+
+### B. STYLE
+
+The style is the stalk connecting the stigma to the ovary.
+
+Functions:
+
+- Provides a pathway for the pollen tube.
+- Connects the stigma with the ovary.
+
+### C. OVARY
+
+The ovary is the enlarged basal part of the carpel.
+
+It contains one or more ovules.
+
+After fertilisation:
+
+- Ovules develop into seeds.
+- The ovary develops into a fruit or part of a fruit.
+
+---
+
+# 6.1.5 OVULE
+
+An ovule is a structure inside the ovary that contains the female gametophyte.
+
+The embryo sac develops inside the ovule.
+
+After fertilisation, the ovule develops into a seed.
+
+---
+
+# 6.1.6 NECTAR
+
+Nectar is a sugary liquid produced by specialised structures called nectaries in many flowers.
+
+Functions:
+
+- Provides a food reward for pollinators.
+- Encourages animals to visit flowers.
+- Increases the likelihood of pollen transfer.
+
+---
+
+# 6.1.7 COMPLETE FLOWER STRUCTURE
+
+A simplified structure can be remembered as:
+
+**Male reproductive structure:**
+
+Anther → Filament → Stamen
+
+**Female reproductive structure:**
+
+Stigma → Style → Ovary → Ovule → Carpel
+
+---
+
+# 6.1.8 COMPLETE AND INCOMPLETE FLOWERS
+
+A complete flower contains all four major floral parts:
+
+- Sepals
+- Petals
+- Stamens
+- Carpels
+
+An incomplete flower lacks one or more of these parts.
+
+---
+
+# 6.1.9 BISEXUAL AND UNISEXUAL FLOWERS
+
+### BISEXUAL FLOWER
+
+A bisexual flower contains both:
+
+- Stamens
+- Carpels
+
+Example:
+
+Hibiscus flowers are commonly used as an example of bisexual flowers.
+
+### UNISEXUAL FLOWER
+
+A unisexual flower contains either:
+
+- Stamens only, or
+- Carpels only.
+
+Examples include male and female flowers in maize.
+
+---
+
+# 6.1.10 WIND-POLLINATED AND ANIMAL-POLLINATED FLOWERS
+
+Different flower structures are adapted to different pollinating agents.
+
+| Feature | Wind-pollinated | Animal-pollinated |
+|---|---|---|
+| Petals | Usually small or inconspicuous | Usually conspicuous |
+| Scent | Usually absent | Often present |
+| Nectar | Usually absent | Often present |
+| Pollen | Small, light and produced abundantly | Often larger/heavier and produced in smaller quantities |
+| Anthers | Often exposed | Usually positioned to contact pollinator |
+| Stigma | Often large and feathery | Usually sticky |
+| Main pollinating agent | Wind | Animals |
+
+These are general patterns rather than rules applying to every species.
+
+---
+
+# 6.2 DEVELOPMENT OF POLLEN GRAINS AND EMBRYO SAC
+
+Sexual reproduction in flowering plants involves the production of male and female reproductive structures.
+
+The male reproductive structure develops pollen grains.
+
+The female reproductive structure develops an embryo sac containing the egg cell.
+
+---
+
+# 6.2.1 DEVELOPMENT OF POLLEN GRAINS
+
+Pollen grains develop inside the anthers.
+
+The process is called **microsporogenesis** when microspore mother cells undergo meiosis to produce haploid microspores.
+
+### STEP 1: MICROSPOROCYTE
+
+A diploid microspore mother cell, also called a microsporocyte, is formed in the pollen sac.
+
+It has:
+
+**2n chromosomes**
+
+### STEP 2: MEIOSIS
+
+The microspore mother cell undergoes meiosis.
+
+This produces four genetically different haploid microspores.
+
+Each microspore contains:
+
+**n chromosomes**
+
+### STEP 3: POLLEN GRAIN DEVELOPMENT
+
+Each microspore develops into a pollen grain.
+
+A mature pollen grain contains the male gametophyte.
+
+In many flowering plants, the pollen grain contains:
+
+- A vegetative cell.
+- A generative cell.
+
+The generative cell later divides by mitosis to produce two male gametes.
+
+---
+
+# 6.2.2 STRUCTURE OF A POLLEN GRAIN
+
+A pollen grain usually has:
+
+### EXINE
+
+The outer wall of the pollen grain.
+
+It provides protection and is often made of a highly resistant substance called sporopollenin.
+
+### INTINE
+
+The inner wall of the pollen grain.
+
+### VEGETATIVE CELL
+
+The vegetative cell forms the pollen tube after pollen germination.
+
+### GENERATIVE CELL
+
+The generative cell divides to produce two male gametes.
+
+---
+
+# 6.2.3 DEVELOPMENT OF THE EMBRYO SAC
+
+The female gametophyte of a flowering plant is called the embryo sac.
+
+It develops inside the ovule.
+
+The process begins with a diploid megaspore mother cell.
+
+This cell is also called a megasporocyte.
+
+---
+
+## STEP 1: MEIOSIS
+
+The diploid megaspore mother cell undergoes meiosis.
+
+This produces four haploid megaspores.
+
+Usually:
+
+- Three megaspores degenerate.
+- One functional megaspore remains.
+
+---
+
+## STEP 2: MITOTIC DIVISIONS
+
+The functional megaspore undergoes repeated mitotic divisions.
+
+This produces nuclei that organise into the embryo sac.
+
+---
+
+## STEP 3: MATURE EMBRYO SAC
+
+A typical mature embryo sac contains:
+
+- One egg cell.
+- Two synergids.
+- Three antipodal cells.
+- Two polar nuclei in the central cell.
+
+This gives a total of seven cells containing eight nuclei in the typical Polygonum-type embryo sac.
+
+The egg cell is the female gamete.
+
+---
+
+# 6.2.4 IMPORTANT COMPARISON
+
+| Pollen development | Embryo sac development |
+|---|---|
+| Occurs in anther | Occurs in ovule |
+| Begins with microspore mother cell | Begins with megaspore mother cell |
+| Meiosis produces microspores | Meiosis produces megaspores |
+| Usually four microspores develop | Usually one functional megaspore remains |
+| Produces male gametophyte | Produces female gametophyte |
+
+---
+
+# 6.3 POLLINATION AND FERTILISATION
+
+## 6.3.1 POLLINATION
+
+Pollination is the transfer of pollen grains from the anther to a stigma of a flower of a compatible plant.
+
+Pollination is **not** the same as fertilisation.
+
+Pollination happens before fertilisation.
+
+---
+
+# 6.3.2 TYPES OF POLLINATION
+
+There are two major types:
+
+1. Self-pollination
+2. Cross-pollination
+
+---
+
+## A. SELF-POLLINATION
+
+Self-pollination occurs when pollen is transferred to the stigma of:
+
+- The same flower, or
+- Another flower on the same plant.
+
+Advantages:
+
+- Does not require another plant of the same species nearby.
+- Can allow reproduction when pollinators are limited.
+- Helps ensure reproductive success.
+
+Disadvantages:
+
+- Produces less genetic variation.
+- May increase the expression of harmful recessive alleles in some populations.
+- Offspring are genetically more similar to the parent.
+
+---
+
+## B. CROSS-POLLINATION
+
+Cross-pollination occurs when pollen is transferred from a flower on one plant to the stigma of a flower on another plant of the same species.
+
+Advantages:
+
+- Increases genetic variation.
+- Can produce offspring with new combinations of alleles.
+- May improve the ability of populations to adapt to environmental changes.
+
+Disadvantages:
+
+- Requires suitable pollinating agents or mechanisms.
+- Depends on another compatible plant being available.
+- Pollen may be wasted.
+
+---
+
+# 6.3.3 POLLINATING AGENTS
+
+Pollinating agents include:
+
+- Wind
+- Insects
+- Birds
+- Other animals
+
+---
+
+# 6.3.4 POLLEN GERMINATION
+
+When a compatible pollen grain lands on a suitable stigma, it may germinate.
+
+The pollen grain forms a pollen tube.
+
+The pollen tube grows through:
+
+**Stigma → Style → Ovary → Ovule**
+
+The pollen tube carries the male gametes towards the embryo sac.
+
+---
+
+# 6.3.5 ROLE OF THE POLLEN TUBE
+
+The pollen tube:
+
+1. Grows from the pollen grain.
+2. Penetrates the stigma.
+3. Grows through the style.
+4. Enters the ovary.
+5. Grows towards an ovule.
+6. Enters the embryo sac.
+7. Delivers two male gametes.
+
+The growth of the pollen tube is guided by chemical signals from tissues around the ovule.
+
+---
+
+# 6.3.6 FERTILISATION
+
+Fertilisation is the fusion of male and female gametes to form a zygote.
+
+In flowering plants, a special process called **double fertilisation** occurs.
+
+---
+
+# 6.3.7 DOUBLE FERTILISATION
+
+Two fertilisation events occur.
+
+### FIRST FUSION
+
+One male gamete fuses with the egg cell.
+
+This produces a:
+
+**Diploid zygote**
+
+The zygote develops into the embryo.
+
+### SECOND FUSION
+
+The second male gamete fuses with the two polar nuclei in the central cell.
+
+This produces the:
+
+**Triploid primary endosperm nucleus**
+
+The endosperm develops and provides nutrients to the developing embryo.
+
+---
+
+# 6.3.8 WHY IS IT CALLED DOUBLE FERTILISATION?
+
+It is called double fertilisation because:
+
+1. One male gamete fuses with the egg cell.
+2. Another male gamete fuses with the polar nuclei.
+
+Both events occur during the same reproductive process.
+
+---
+
+# 6.3.9 PLOIDY DURING DOUBLE FERTILISATION
+
+Remember:
+
+- Male gamete = n
+- Egg cell = n
+- Zygote = 2n
+- Polar nucleus = n each
+- Two polar nuclei = 2n total
+- Second male gamete = n
+- Endosperm nucleus = 3n
+
+Memory pattern:
+
+**n + n → 2n**
+
+**n + n + n → 3n**
+
+---
+
+# 6.3.10 SELF-INCOMPATIBILITY
+
+Some flowering plants have mechanisms that prevent self-fertilisation.
+
+Self-incompatibility allows a plant to recognise genetically similar or incompatible pollen and prevent successful fertilisation.
+
+This promotes cross-pollination and increases genetic variation.
+
+---
+
+# 6.4 DEVELOPMENT OF SEEDS AND FRUITS
+
+After fertilisation, major changes occur inside the flower.
+
+The fertilised ovule develops into a seed.
+
+The ovary develops into a fruit.
+
+---
+
+# 6.4.1 DEVELOPMENT OF THE ZYGOTE
+
+The zygote undergoes mitotic divisions.
+
+It develops into an embryo.
+
+The embryo eventually develops structures such as:
+
+- Radicle
+- Plumule
+- Cotyledons
+
+### RADICLE
+
+The radicle develops into the embryonic root.
+
+### PLUMULE
+
+The plumule develops into the embryonic shoot.
+
+### COTYLEDONS
+
+Cotyledons are embryonic leaves.
+
+Depending on the plant, they may:
+
+- Store food.
+- Absorb nutrients from endosperm.
+- Become the first seed leaves.
+
+---
+
+# 6.4.2 DEVELOPMENT OF THE ENDOSPERM
+
+The primary endosperm nucleus develops into endosperm.
+
+The endosperm provides nutrients to the developing embryo in many flowering plants.
+
+It may remain in the mature seed or be largely absorbed by the developing embryo.
+
+---
+
+# 6.4.3 DEVELOPMENT OF SEED COAT
+
+The integuments of the ovule develop into the seed coat.
+
+The seed coat protects the embryo from:
+
+- Physical damage.
+- Pathogens.
+- Excessive water loss.
+
+The seed coat may become hard or tough.
+
+---
+
+# 6.4.4 OVULE → SEED
+
+A key relationship to memorise:
+
+**Ovule → Seed**
+
+The seed contains:
+
+- Embryo.
+- Food reserve or nutritive tissue.
+- Protective seed coat.
+
+---
+
+# 6.4.5 OVARY → FRUIT
+
+Another key relationship:
+
+**Ovary → Fruit**
+
+The ovary wall develops into the pericarp.
+
+The fruit protects the seeds and can help with seed dispersal.
+
+---
+
+# 6.4.6 FRUIT FUNCTIONS
+
+Fruits can:
+
+1. Protect developing seeds.
+2. Assist seed dispersal.
+3. Attract animals that may disperse seeds.
+4. Help prevent seeds from being deposited too close to the parent plant.
+
+---
+
+# 6.4.7 SIMPLE SEED DEVELOPMENT SEQUENCE
+
+A useful sequence is:
+
+**Pollination**
+
+↓
+
+**Pollen germination**
+
+↓
+
+**Pollen tube growth**
+
+↓
+
+**Double fertilisation**
+
+↓
+
+**Zygote formation**
+
+↓
+
+**Embryo development**
+
+↓
+
+**Seed development**
+
+↓
+
+**Fruit development**
+
+---
+
+# 6.4.8 CHANGES AFTER FERTILISATION
+
+| Flower structure | Fate after fertilisation |
+|---|---|
+| Ovule | Seed |
+| Ovary | Fruit |
+| Ovary wall | Pericarp |
+| Zygote | Embryo |
+| Integuments | Seed coat |
+| Primary endosperm nucleus | Endosperm |
+| Petals | Usually wither and fall |
+| Stamens | Usually wither and fall |
+
+Not every flower follows exactly the same visible pattern, but these are the major relationships.
+
+---
+
+# 6.4.9 PARTHENOCARPY
+
+Parthenocarpy is the development of fruit without fertilisation.
+
+Such fruits are often seedless or contain very few developed seeds.
+
+Parthenocarpic fruit production can be useful in agriculture because consumers may prefer seedless fruits.
+
+Plant hormones can be involved in inducing fruit development without normal fertilisation.
+
+---
+
+# 6.5 IMPORTANCE OF SEEDS FOR SURVIVAL
+
+Seeds are important reproductive structures that help flowering plants survive and spread.
+
+---
+
+# 6.5.1 SEEDS PROTECT THE EMBRYO
+
+The seed coat protects the developing embryo from environmental conditions.
+
+Protection may include:
+
+- Physical damage.
+- Pathogens.
+- Desiccation.
+- Unfavourable environmental conditions.
+
+---
+
+# 6.5.2 SEEDS CONTAIN FOOD RESERVES
+
+Seeds contain stored nutrients that support the embryo during germination.
+
+Food reserves may be stored in:
+
+- Endosperm.
+- Cotyledons.
+
+Common stored substances include:
+
+- Starch.
+- Lipids.
+- Proteins.
+
+These reserves provide energy and materials for growth before the young plant becomes fully photosynthetic.
+
+---
+
+# 6.5.3 SEED DORMANCY
+
+Seed dormancy is a period during which a viable seed does not germinate even when some environmental conditions appear suitable.
+
+Dormancy can prevent seeds from germinating at an unsuitable time.
+
+Importance:
+
+1. Helps seeds survive unfavourable conditions.
+2. Prevents all seeds from germinating simultaneously.
+3. Allows germination to occur when conditions are more favourable.
+
+---
+
+# 6.5.4 SEED DISPERSAL
+
+Seed dispersal is the movement of seeds away from the parent plant.
+
+Dispersal agents include:
+
+- Wind.
+- Water.
+- Animals.
+- Explosive mechanisms.
+
+### IMPORTANCE OF SEED DISPERSAL
+
+Seed dispersal:
+
+1. Reduces competition between parent and offspring plants.
+2. Reduces competition among seedlings.
+3. Allows plants to colonise new areas.
+4. Helps spread the species.
+5. Reduces the concentration of offspring in one location.
+
+---
+
+# 6.5.5 ADAPTATIONS FOR SEED DISPERSAL
+
+Different fruits and seeds have different adaptations.
+
+### WIND DISPERSAL
+
+Seeds may have:
+
+- Wings.
+- Hairs.
+- Lightweight structures.
+
+These increase their ability to be carried by air currents.
+
+### WATER DISPERSAL
+
+Some seeds or fruits have:
+
+- Air spaces.
+- Fibrous tissues.
+- Waterproof outer layers.
+
+These allow them to float.
+
+### ANIMAL DISPERSAL
+
+Seeds may be dispersed when:
+
+- Animals eat fleshy fruits and later deposit seeds elsewhere.
+- Seeds attach to animal fur.
+- Animals carry or store seeds.
+
+### EXPLOSIVE DISPERSAL
+
+Some fruits build up mechanical tension and suddenly split open.
+
+The seeds are projected away from the parent plant.
+
+---
+
+# 6.5.6 GENETIC VARIATION
+
+Sexual reproduction produces genetic variation because:
+
+1. Meiosis produces genetically different gametes.
+2. Crossing over and independent assortment occur during meiosis.
+3. Random fertilisation combines genetic material from two gametes.
+4. Cross-pollination can bring together genetic material from different plants.
+
+Genetic variation is important because it increases the chance that some individuals can survive environmental changes.
+
+---
+
+# 6.5.7 SEEDS AND UNFAVOURABLE CONDITIONS
+
+Seeds can survive periods when conditions are unsuitable for plant growth.
+
+Examples:
+
+- Drought.
+- Low temperature.
+- Lack of suitable water.
+- Seasonal changes.
+
+Seeds may remain dormant until suitable conditions return.
+
+---
+
+# 6.5.8 IMPORTANCE OF SEEDS FOR PLANT SURVIVAL
+
+Seeds help plants:
+
+- Reproduce sexually.
+- Protect embryos.
+- Store food.
+- Survive unfavourable conditions.
+- Disperse to new habitats.
+- Generate genetically varied offspring.
+- Continue the species.
+
+---
+
+# IMPORTANT COMPARISONS
+
+## SELF-POLLINATION VS CROSS-POLLINATION
+
+| Self-pollination | Cross-pollination |
+|---|---|
+| Pollen transferred within the same flower or same plant | Pollen transferred between different plants of the same species |
+| Usually less genetic variation | Greater genetic variation |
+| Less dependent on another plant | Requires another compatible plant |
+| Can occur when pollinators are limited | Often requires effective pollen transfer |
+| Greater genetic similarity among offspring | Greater genetic diversity |
+
+---
+
+## POLLINATION VS FERTILISATION
+
+| Pollination | Fertilisation |
+|---|---|
+| Transfer of pollen to stigma | Fusion of gametes |
+| Occurs before fertilisation | Occurs after pollen tube growth |
+| Does not produce a zygote | Produces a zygote |
+| Involves pollen transfer | Involves male and female gametes |
+
+---
+
+## POLLEN GRAIN VS EMBRYO SAC
+
+| Pollen grain | Embryo sac |
+|---|---|
+| Male gametophyte | Female gametophyte |
+| Develops in anther | Develops in ovule |
+| Produces/carries male gametes | Contains egg cell |
+| Involved in pollen tube formation | Site of fertilisation |
+
+---
+
+## OVULE VS OVARY
+
+| Ovule | Ovary |
+|---|---|
+| Located inside ovary | Part of carpel |
+| Contains embryo sac | Contains one or more ovules |
+| Develops into seed | Develops into fruit |
+
+---
+
+# COMMON EXAM TRAPS
+
+## 1. Pollination is NOT fertilisation
+
+Do not write that pollination is the fusion of gametes.
+
+Correct:
+
+**Pollination = transfer of pollen to stigma.**
+
+**Fertilisation = fusion of male and female gametes.**
+
+---
+
+## 2. Ovule becomes seed
+
+Remember:
+
+**OVULE → SEED**
+
+Not:
+
+**Ovule → fruit**
+
+---
+
+## 3. Ovary becomes fruit
+
+Remember:
+
+**OVARY → FRUIT**
+
+---
+
+## 4. Double fertilisation involves two fusion events
+
+One male gamete:
+
+**Egg → zygote**
+
+Second male gamete:
+
+**Polar nuclei → endosperm nucleus**
+
+---
+
+## 5. Endosperm is not the embryo
+
+The embryo develops from the zygote.
+
+The endosperm develops from the primary endosperm nucleus and mainly provides nutrition for the developing embryo.
+
+---
+
+## 6. Pollen grain is not the male gamete itself
+
+The pollen grain contains the male gametophyte and gives rise to or carries the male gametes.
+
+---
+
+## 7. Cross-pollination is not the same as cross-fertilisation
+
+Cross-pollination describes pollen transfer between different plants of the same species.
+
+Fertilisation is the actual fusion of gametes.
+
+---
+
+# EXAM COMMAND WORDS
+
+## STATE
+
+Give the required fact directly.
+
+Example:
+
+**State the male reproductive structure of a flower.**
+
+Answer:
+
+**Stamen.**
+
+---
+
+## DEFINE
+
+Give the exact scientific meaning.
+
+Example:
+
+**Define pollination.**
+
+Answer:
+
+**Pollination is the transfer of pollen grains from the anther to the stigma of a compatible flower.**
+
+---
+
+## DESCRIBE
+
+Give characteristics or the sequence of events.
+
+Example:
+
+**Describe pollen tube growth.**
+
+Include:
+
+- Pollen grain germinates.
+- Pollen tube grows through stigma.
+- Pollen tube grows through style.
+- Pollen tube enters ovary.
+- Pollen tube reaches ovule.
+- Male gametes are delivered into embryo sac.
+
+---
+
+## EXPLAIN
+
+Give the biological reason or mechanism.
+
+Example:
+
+**Explain why cross-pollination increases genetic variation.**
+
+Answer should connect:
+
+Cross-pollination → pollen from a different plant → different genetic material → new combinations of alleles in offspring → greater genetic variation.
+
+---
+
+## COMPARE
+
+Give similarities and/or differences according to the question.
+
+Use paired statements.
+
+Example:
+
+**Compare self-pollination and cross-pollination.**
+
+Self-pollination occurs within the same plant, whereas cross-pollination occurs between different plants of the same species.
+
+---
+
+# MARK-AWARE ANSWERING
+
+## 1 MARK
+
+Give one accurate biological point.
+
+Example:
+
+**State one function of the stigma.**
+
+Answer:
+
+**It receives pollen grains.**
+
+---
+
+## 2 MARKS
+
+Give two relevant points or a point plus explanation, depending on the question.
+
+Example:
+
+**State two functions of seeds.**
+
+Answer:
+
+1. Protect the embryo.
+2. Store food reserves for the developing embryo.
+
+---
+
+## 3 MARKS
+
+Give three distinct marking points.
+
+Example:
+
+**Explain the importance of seed dispersal.**
+
+Answer:
+
+1. Reduces competition between parent and offspring plants.
+2. Reduces competition among seedlings.
+3. Allows the species to spread to new areas.
+
+---
+
+## 4–5 MARKS
+
+Use a logical sequence.
+
+Example:
+
+**Explain double fertilisation.**
+
+Answer:
+
+1. The pollen tube carries two male gametes into the embryo sac.
+2. One male gamete fuses with the egg cell.
+3. A diploid zygote is formed.
+4. The second male gamete fuses with the two polar nuclei.
+5. A triploid primary endosperm nucleus is formed.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## QUESTION 1
+
+State two functions of petals.
+
+### SUGGESTED ANSWER
+
+1. Attract pollinating agents.
+2. Help facilitate pollen transfer by providing visual signals or structures associated with pollination.
+
+---
+
+## QUESTION 2
+
+Differentiate between the stamen and carpel.
+
+### SUGGESTED ANSWER
+
+1. Stamen is the male reproductive structure, whereas carpel is the female reproductive structure.
+2. Stamen consists of anther and filament, whereas carpel consists of stigma, style and ovary.
+
+---
+
+## QUESTION 3
+
+Explain the development of pollen grains from a microspore mother cell.
+
+### SUGGESTED ANSWER
+
+1. A diploid microspore mother cell undergoes meiosis.
+2. Four haploid microspores are produced.
+3. The microspores develop into pollen grains.
+4. The generative cell later divides by mitosis to form two male gametes.
+
+---
+
+## QUESTION 4
+
+Explain how an embryo sac develops.
+
+### SUGGESTED ANSWER
+
+1. A diploid megaspore mother cell undergoes meiosis.
+2. Four haploid megaspores are produced.
+3. Usually three megaspores degenerate.
+4. One functional megaspore remains.
+5. The functional megaspore undergoes mitotic divisions.
+6. A mature embryo sac develops containing the egg cell and other cells/nuclei.
+
+---
+
+## QUESTION 5
+
+Differentiate between self-pollination and cross-pollination.
+
+### SUGGESTED ANSWER
+
+1. Self-pollination involves transfer of pollen within the same flower or plant, whereas cross-pollination involves transfer between different plants of the same species.
+2. Self-pollination generally produces less genetic variation, whereas cross-pollination generally produces greater genetic variation.
+
+---
+
+## QUESTION 6
+
+Explain the pathway of a pollen tube after pollen lands on a compatible stigma.
+
+### SUGGESTED ANSWER
+
+1. The pollen grain germinates on the stigma.
+2. A pollen tube grows through the stigma.
+3. The pollen tube grows down the style.
+4. It enters the ovary.
+5. It grows towards an ovule and enters the embryo sac.
+6. The male gametes are released for fertilisation.
+
+---
+
+## QUESTION 7
+
+Explain double fertilisation in flowering plants.
+
+### SUGGESTED ANSWER
+
+1. The pollen tube delivers two male gametes into the embryo sac.
+2. One male gamete fuses with the egg cell.
+3. A diploid zygote is formed.
+4. The second male gamete fuses with the two polar nuclei.
+5. A triploid primary endosperm nucleus is formed.
+
+---
+
+## QUESTION 8
+
+State the structures that develop into the following after fertilisation:
+
+a) Ovule  
+b) Ovary  
+c) Zygote  
+d) Integuments
+
+### SUGGESTED ANSWER
+
+a) Seed  
+b) Fruit  
+c) Embryo  
+d) Seed coat
+
+---
+
+## QUESTION 9
+
+Explain why seeds are important for the survival of flowering plants.
+
+### SUGGESTED ANSWER
+
+1. The seed protects the embryo.
+2. It contains food reserves for the developing embryo.
+3. Dormancy allows seeds to survive unfavourable conditions.
+4. Seed dispersal reduces competition.
+5. Seeds allow plants to colonise new habitats.
+6. Sexual reproduction produces genetic variation that can improve adaptation.
+
+---
+
+## QUESTION 10
+
+A student observes that pollen grains from one plant are transferred to the stigma of another plant of the same species.
+
+Identify the type of pollination and explain one advantage.
+
+### SUGGESTED ANSWER
+
+The type of pollination is cross-pollination.
+
+An advantage is that it increases genetic variation in the offspring.
+
+---
+
+## QUESTION 11
+
+A flower is brightly coloured, produces nectar and has a strong scent.
+
+Suggest the likely pollinating agent and explain your answer.
+
+### SUGGESTED ANSWER
+
+The likely pollinating agent is an animal such as an insect.
+
+The bright colour and scent attract animals, while nectar provides a food reward that encourages visits to the flower and increases the chance of pollen transfer.
+
+---
+
+## QUESTION 12
+
+Explain how seed dispersal benefits a plant population.
+
+### SUGGESTED ANSWER
+
+1. Seeds are moved away from the parent plant.
+2. Competition for light, water, minerals and space is reduced.
+3. Competition between seedlings is reduced.
+4. Seeds can reach new habitats.
+5. The species can spread over a larger area.
+
+---
+
+## QUESTION 13
+
+Compare pollen grain development and embryo sac development.
+
+### SUGGESTED ANSWER
+
+1. Pollen grains develop in the anther, whereas the embryo sac develops in the ovule.
+2. Pollen development begins with a microspore mother cell, whereas embryo sac development begins with a megaspore mother cell.
+3. Both processes involve meiosis followed by further development of haploid structures.
+4. Pollen grains form the male gametophyte, whereas the embryo sac forms the female gametophyte.
+
+---
+
+## QUESTION 14
+
+Explain how sexual reproduction contributes to genetic variation in flowering plants.
+
+### SUGGESTED ANSWER
+
+1. Meiosis produces genetically different haploid cells.
+2. Crossing over can exchange genetic material between homologous chromosomes.
+3. Independent assortment produces different combinations of chromosomes.
+4. Cross-pollination can bring pollen from genetically different plants.
+5. Random fusion of gametes produces new combinations of alleles.
+
+---
+
+## QUESTION 15
+
+A farmer wants to produce seedless fruits.
+
+Suggest a reproductive process or agricultural approach that could be used and explain the principle involved.
+
+### SUGGESTED ANSWER
+
+Parthenocarpy can be used.
+
+Parthenocarpy is the development of fruit without fertilisation. Plant hormones can be used in some crops to stimulate fruit development without normal seed formation, producing seedless or nearly seedless fruits.
+
+---
+
+# HIGH-YIELD MEMORY MAP
+
+## FLOWER
+
+**Sepal → protection**
+
+**Petal → attraction**
+
+**Stamen → male**
+
+**Carpel → female**
+
+---
+
+## STAMEN
+
+**Anther + Filament**
+
+Anther → pollen production
+
+Filament → supports anther
+
+---
+
+## CARPEL
+
+**Stigma + Style + Ovary**
+
+Stigma → receives pollen
+
+Style → pollen tube pathway
+
+Ovary → contains ovules
+
+---
+
+## POLLEN DEVELOPMENT
+
+**Microspore mother cell (2n)**
+
+↓
+
+Meiosis
+
+↓
+
+**4 microspores (n)**
+
+↓
+
+Pollen grains
+
+↓
+
+Male gametes
+
+---
+
+## EMBRYO SAC DEVELOPMENT
+
+**Megaspore mother cell (2n)**
+
+↓
+
+Meiosis
+
+↓
+
+**4 megaspores (n)**
+
+↓
+
+3 degenerate
+
+↓
+
+1 functional megaspore
+
+↓
+
+Mitosis
+
+↓
+
+**Embryo sac**
+
+---
+
+## POLLINATION
+
+**Anther → Stigma**
+
+---
+
+## POLLEN TUBE
+
+**Stigma → Style → Ovary → Ovule → Embryo sac**
+
+---
+
+## DOUBLE FERTILISATION
+
+**Male gamete + Egg**
+
+↓
+
+**Zygote (2n)**
+
+And:
+
+**Male gamete + Two polar nuclei**
+
+↓
+
+**Endosperm nucleus (3n)**
+
+---
+
+## AFTER FERTILISATION
+
+**Ovule → Seed**
+
+**Ovary → Fruit**
+
+**Zygote → Embryo**
+
+**Integuments → Seed coat**
+
+**Primary endosperm nucleus → Endosperm**
+
+---
+
+# KEY TERMS
+
+- Flower
+- Sepal
+- Petal
+- Stamen
+- Anther
+- Filament
+- Carpel
+- Stigma
+- Style
+- Ovary
+- Ovule
+- Pollen grain
+- Microspore
+- Microspore mother cell
+- Megaspore
+- Megaspore mother cell
+- Embryo sac
+- Egg cell
+- Pollination
+- Self-pollination
+- Cross-pollination
+- Pollen tube
+- Fertilisation
+- Double fertilisation
+- Zygote
+- Endosperm
+- Seed
+- Fruit
+- Seed coat
+- Embryo
+- Dormancy
+- Seed dispersal
+- Genetic variation
+- Parthenocarpy
+
+---
+
+# FINAL REVISION SUMMARY
+
+## 6.1 STRUCTURE OF A FLOWER
+
+- Sepals protect the developing flower.
+- Petals attract pollinating agents.
+- Stamens are male reproductive structures.
+- Anther produces pollen grains.
+- Filament supports the anther.
+- Carpel is the female reproductive structure.
+- Stigma receives pollen.
+- Style provides a pathway for the pollen tube.
+- Ovary contains ovules.
+
+## 6.2 DEVELOPMENT OF POLLEN GRAINS AND EMBRYO SAC
+
+- Microspore mother cells undergo meiosis to produce haploid microspores.
+- Microspores develop into pollen grains.
+- Megaspore mother cells undergo meiosis to produce haploid megaspores.
+- Usually one functional megaspore develops into the embryo sac.
+- The embryo sac contains the egg cell and other cells/nuclei.
+
+## 6.3 POLLINATION AND FERTILISATION
+
+- Pollination is pollen transfer to a stigma.
+- Self-pollination occurs within the same plant.
+- Cross-pollination occurs between different plants of the same species.
+- Pollen germinates and forms a pollen tube.
+- The pollen tube delivers two male gametes.
+- Double fertilisation produces a diploid zygote and a triploid endosperm nucleus.
+
+## 6.4 DEVELOPMENT OF SEEDS AND FRUITS
+
+- Zygote develops into embryo.
+- Ovule develops into seed.
+- Integuments develop into seed coat.
+- Primary endosperm nucleus develops into endosperm.
+- Ovary develops into fruit.
+- Ovary wall develops into pericarp.
+
+## 6.5 IMPORTANCE OF SEEDS
+
+- Protect the embryo.
+- Store food.
+- Allow dormancy.
+- Survive unfavourable conditions.
+- Allow dispersal.
+- Reduce competition.
+- Help plants colonise new habitats.
+- Support sexual reproduction and genetic variation.
+
+# ULTRA-HIGH-YIELD FACTS
+
+1. **Anther → pollen**
+2. **Stigma → receives pollen**
+3. **Ovule → seed**
+4. **Ovary → fruit**
+5. **Zygote → embryo**
+6. **Integuments → seed coat**
+7. **Pollination ≠ fertilisation**
+8. **Double fertilisation = two fusion events**
+9. **Zygote = 2n**
+10. **Endosperm nucleus = 3n**
+11. **Self-pollination generally produces less genetic variation**
+12. **Cross-pollination generally increases genetic variation**
+13. **Seeds protect and nourish the embryo**
+14. **Seed dispersal reduces competition**
+15. **Dormancy helps seeds survive unfavourable conditions**
