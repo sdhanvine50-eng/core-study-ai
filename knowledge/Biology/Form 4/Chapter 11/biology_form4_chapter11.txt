@@ -1,0 +1,1017 @@
+
+
+# 11 IMMUNITY IN HUMANS
+
+Immunity is the ability of the human body to resist infection and protect itself against pathogens and harmful foreign substances.
+
+Pathogens include bacteria, viruses, fungi and protozoa. They can enter the body and cause diseases.
+
+The human body has three lines of defence to protect itself against pathogens.
+
+1. First line of defence — physical and chemical barriers.
+2. Second line of defence — non-specific internal defence.
+3. Third line of defence — specific immune response.
+
+The first and second lines of defence are part of **innate immunity**. They provide general protection and do not target only one particular antigen.
+
+The third line of defence is part of **adaptive immunity**. It recognises specific antigens and can produce immunological memory.
+
+---
+
+# 11.1 BODY DEFENCE
+
+## Three lines of defence
+
+### First line of defence: Physical and chemical barriers
+
+The first line of defence prevents pathogens from entering the body.
+
+It consists of physical and chemical barriers that protect the body's external surfaces and openings.
+
+This defence is non-specific because it protects against many different pathogens.
+
+#### 1. Skin
+
+The skin forms a physical barrier covering the external surface of the body.
+
+Its outer layer consists of closely packed cells containing keratin.
+
+Functions:
+- Prevents pathogens from entering the body.
+- Provides a physical barrier against microorganisms.
+- Helps prevent excessive water loss.
+
+If the skin is damaged, pathogens may enter the underlying tissues.
+
+#### 2. Mucus
+
+Mucus is produced by specialised cells and glands in parts of the respiratory and digestive systems.
+
+Functions:
+- Traps dust particles.
+- Traps microorganisms.
+- Prevents foreign particles from reaching deeper tissues.
+
+#### 3. Cilia
+
+Cilia are tiny hair-like structures found lining parts of the respiratory tract.
+
+Functions:
+- Move mucus towards the throat.
+- Remove trapped microorganisms and foreign particles from the respiratory tract.
+
+**Important distinction:**
+- Mucus traps microorganisms.
+- Cilia move the mucus.
+
+#### 4. Tears
+
+Tears protect the surface of the eyes.
+
+Functions:
+- Wash away microorganisms and foreign particles.
+- Contain antimicrobial substances such as lysozyme, which can damage bacterial cell walls.
+
+#### 5. Saliva
+
+Saliva helps protect the mouth.
+
+Functions:
+- Washes microorganisms away from the mouth.
+- Contains antimicrobial substances that help control certain microorganisms.
+
+#### 6. Hydrochloric acid in the stomach
+
+The stomach produces hydrochloric acid, creating a highly acidic environment.
+
+Functions:
+- Destroys many microorganisms entering the digestive system.
+- Helps prevent pathogens from surviving in the stomach.
+
+### Summary of first-line defence
+
+| Barrier | Function |
+|---|---|
+| Skin | Prevents pathogen entry |
+| Mucus | Traps microorganisms |
+| Cilia | Moves mucus towards the throat |
+| Tears | Washes away microorganisms and contains lysozyme |
+| Saliva | Washes the mouth and contains antimicrobial substances |
+| Hydrochloric acid | Destroys many microorganisms in the stomach |
+
+---
+
+### Second line of defence: Non-specific internal defence
+
+If pathogens successfully pass through the first line of defence, the body's internal defence mechanisms respond.
+
+The second line of defence acts against invading pathogens without targeting only one particular antigen.
+
+Important mechanisms include:
+
+- Phagocytosis
+- Inflammation
+- Fever
+
+## 1. Phagocytosis
+
+Phagocytosis is the process by which certain white blood cells engulf and digest pathogens or foreign particles.
+
+White blood cells that perform phagocytosis are called phagocytes.
+
+Examples:
+- Neutrophils
+- Macrophages
+
+### Steps of phagocytosis
+
+**Step 1: Recognition**
+
+The phagocyte recognises a pathogen or foreign particle.
+
+**Step 2: Movement**
+
+The phagocyte moves towards the pathogen.
+
+**Step 3: Engulfment**
+
+The cell membrane extends around the pathogen and surrounds it.
+
+**Step 4: Formation of phagosome**
+
+The pathogen becomes enclosed inside a vesicle called a phagosome.
+
+**Step 5: Lysosome fusion**
+
+A lysosome fuses with the phagosome.
+
+**Step 6: Digestion**
+
+Digestive enzymes from the lysosome break down the pathogen.
+
+**Step 7: Removal**
+
+The digested material is processed or removed from the cell.
+
+### Importance of phagocytosis
+
+- Destroys invading pathogens.
+- Prevents pathogens from spreading.
+- Helps protect tissues from infection.
+
+## 2. Inflammatory response
+
+Inflammation is a protective response that occurs when tissues are damaged or infected.
+
+Common signs include:
+- Redness
+- Swelling
+- Warmth
+- Pain
+
+### Mechanism of inflammation
+
+1. Tissue damage or infection occurs.
+2. Chemical signals are released by damaged cells and immune cells.
+3. Blood vessels dilate.
+4. Blood flow to the affected area increases.
+5. Blood vessel permeability increases.
+6. Fluid and immune cells move into the affected tissue.
+7. Immune cells help destroy pathogens and remove damaged material.
+
+### Why does inflammation cause swelling?
+
+Increased permeability of blood vessels allows more fluid to move into the surrounding tissue.
+
+The accumulation of fluid causes swelling.
+
+### Why does inflammation cause redness and warmth?
+
+Blood vessel dilation increases blood flow to the affected area.
+
+This produces redness and warmth.
+
+## 3. Fever
+
+Fever is an increase in body temperature above the normal range.
+
+It can occur as part of the body's response to infection.
+
+A moderate increase in body temperature may:
+- Interfere with the growth or reproduction of certain pathogens.
+- Support some immune responses.
+
+However, excessively high body temperature can be dangerous.
+
+### Summary of second-line defence
+
+| Mechanism | Main function |
+|---|---|
+| Phagocytosis | Engulfs and digests pathogens |
+| Inflammation | Brings immune components to damaged or infected tissues |
+| Fever | Changes body temperature as part of the response to infection |
+
+---
+
+### Third line of defence: Specific immune response
+
+The third line of defence is an adaptive immune response.
+
+It recognises specific antigens and produces targeted responses against them.
+
+It involves:
+- B lymphocytes
+- T lymphocytes
+- Antibodies
+- Memory cells
+
+## Antigens
+
+An antigen is a foreign substance or molecular structure recognised by the immune system.
+
+Antigens may be found on or associated with:
+- Bacteria
+- Viruses
+- Other pathogens
+- Foreign cells
+- Toxins
+
+Different antigens have different molecular structures.
+
+The immune system can recognise these differences.
+
+## Lymphocytes
+
+Lymphocytes are white blood cells involved in specific immune responses.
+
+Two major groups are B lymphocytes and T lymphocytes.
+
+### B lymphocytes
+
+B lymphocytes are involved in antibody-mediated immunity.
+
+When activated by the appropriate antigen and immune signals, B lymphocytes can differentiate into:
+
+**Plasma cells**
+
+- Produce and release antibodies.
+- Antibodies bind to specific antigens.
+
+**Memory B cells**
+
+- Remain in the body after the initial immune response.
+- Recognise the same antigen during later exposure.
+- Help produce a faster secondary immune response.
+
+### T lymphocytes
+
+T lymphocytes are involved in cell-mediated immunity.
+
+Different types of T lymphocytes have different roles.
+
+**Helper T cells**
+- Release signalling molecules.
+- Help activate B lymphocytes and other immune cells.
+
+**Cytotoxic T cells**
+- Recognise and destroy certain infected or abnormal body cells.
+
+**Memory T cells**
+- Remain after an immune response.
+- Help the body respond more rapidly to a previously encountered antigen.
+
+## Specificity of the immune response
+
+The immune system recognises particular antigens.
+
+Antibodies produced against one antigen may not bind effectively to a different antigen.
+
+This is called antigen-antibody specificity.
+
+## Primary immune response
+
+The primary immune response occurs when the body encounters a particular antigen for the first time.
+
+Sequence:
+
+1. Antigen enters the body.
+2. Specific lymphocytes recognise the antigen.
+3. Appropriate lymphocytes become activated.
+4. B lymphocytes can differentiate into plasma cells.
+5. Plasma cells produce antibodies.
+6. Memory cells are formed.
+
+There is usually a delay before a high concentration of specific antibodies is produced.
+
+## Secondary immune response
+
+The secondary immune response occurs when the same antigen enters the body again.
+
+Memory cells recognise the antigen and help trigger a faster, stronger response.
+
+Characteristics:
+- Shorter delay.
+- Faster antibody production.
+- Higher antibody concentration.
+- Often longer-lasting protection.
+
+### Primary vs secondary immune response
+
+| Primary response | Secondary response |
+|---|---|
+| First exposure to antigen | Subsequent exposure to same antigen |
+| Usually slower | Usually faster |
+| Longer delay | Shorter delay |
+| Antibody concentration rises more slowly | Antibody concentration rises more rapidly and often higher |
+| Memory cells are formed | Memory cells respond rapidly |
+
+---
+
+# 11.2 ACTIONS OF ANTIBODIES
+
+An antibody is a specific protein produced by plasma cells derived from activated B lymphocytes.
+
+Antibodies recognise and bind to particular antigens.
+
+The binding site of an antibody has a complementary shape to a specific antigenic determinant.
+
+Antibodies help protect the body through several mechanisms.
+
+## Structure of an antibody
+
+An antibody is commonly represented as a Y-shaped protein.
+
+Its important features include:
+
+- Two antigen-binding sites.
+- Variable regions that determine antigen specificity.
+- Constant regions that help interact with other components of the immune system.
+
+The two antigen-binding sites allow an antibody to bind to matching antigens.
+
+## 1. Neutralisation
+
+Neutralisation occurs when antibodies bind to toxins or pathogens and prevent them from interacting effectively with body cells.
+
+Example:
+
+An antibody binds to a bacterial toxin and prevents it from attaching to its target cells.
+
+This reduces the harmful effect of the toxin.
+
+## 2. Agglutination
+
+Agglutination occurs when antibodies bind to antigens on the surfaces of pathogens or cells and cause them to clump together.
+
+Benefits:
+- Makes pathogens easier for phagocytes to recognise.
+- Helps prevent the spread of individual pathogens.
+- Supports pathogen removal.
+
+**Agglutination means clumping.**
+
+## 3. Precipitation
+
+Antibodies can bind to soluble antigens and form antigen-antibody complexes.
+
+These complexes may become insoluble and form precipitates.
+
+They can then be removed by immune mechanisms.
+
+## 4. Opsonisation
+
+Antibodies can coat pathogens and make them easier for phagocytes to recognise and engulf.
+
+This process is called opsonisation.
+
+## Antibodies and immune memory
+
+After an immune response, memory B cells can remain in the body.
+
+If the same antigen enters again, memory cells help produce a rapid response.
+
+This is important in vaccination.
+
+### Summary of antibody actions
+
+| Action | Explanation |
+|---|---|
+| Neutralisation | Prevents toxins or pathogens from acting effectively |
+| Agglutination | Causes pathogens or cells to clump together |
+| Precipitation | Forms complexes with soluble antigens |
+| Opsonisation | Makes pathogens easier for phagocytes to engulf |
+
+---
+
+# 11.3 TYPES OF IMMUNITY
+
+Immunity can be classified into active immunity and passive immunity.
+
+Both can be acquired naturally or artificially.
+
+## Active immunity
+
+Active immunity occurs when a person's own immune system produces antibodies in response to an antigen.
+
+Memory cells can also be formed.
+
+Active immunity usually develops more slowly than passive immunity but can provide longer-lasting protection.
+
+### 1. Natural active immunity
+
+Natural active immunity develops after a person is naturally exposed to a pathogen.
+
+Sequence:
+
+Natural infection → immune response → antibody production → memory cell formation.
+
+The person may develop protection against the same pathogen after recovery.
+
+### 2. Artificial active immunity
+
+Artificial active immunity develops through vaccination.
+
+A vaccine introduces antigenic material that stimulates an immune response.
+
+Depending on the vaccine, it may contain weakened or inactivated pathogens, purified antigens, or other forms of antigenic material.
+
+The immune system responds by producing:
+- Antibodies
+- Memory cells
+
+### How vaccination works
+
+1. Vaccine introduces antigenic material.
+2. The immune system recognises the antigen.
+3. Specific lymphocytes become activated.
+4. Antibodies are produced.
+5. Memory cells are formed.
+6. If the actual pathogen enters later, memory cells help produce a rapid secondary response.
+
+Vaccination can reduce the risk of severe disease.
+
+## Passive immunity
+
+Passive immunity occurs when a person receives antibodies produced by another source.
+
+It provides relatively rapid protection.
+
+However, the transferred antibodies eventually break down.
+
+The recipient does not normally develop long-term immune memory from the transferred antibodies.
+
+### 1. Natural passive immunity
+
+Natural passive immunity occurs when antibodies are transferred naturally from mother to child.
+
+Examples:
+
+**Through the placenta**
+
+Maternal antibodies, especially IgG, can cross the placenta and enter the foetal circulation.
+
+**Through breast milk**
+
+Antibodies, particularly secretory IgA, can be transferred through breast milk and help protect the infant's mucosal surfaces.
+
+### 2. Artificial passive immunity
+
+Artificial passive immunity occurs when ready-made antibodies are administered to a person.
+
+This can provide rapid protection or treatment when immediate antibody activity is needed.
+
+Examples include certain immunoglobulin preparations and antitoxins.
+
+## Comparison of active and passive immunity
+
+| Feature | Active immunity | Passive immunity |
+|---|---|---|
+| Antibody source | Produced by person's own immune system | Received from another source |
+| Speed | Usually slower to develop | Usually rapid |
+| Duration | Often longer-lasting | Usually temporary |
+| Memory cells | Can be formed | Not normally formed from transferred antibodies |
+| Examples | Infection, vaccination | Maternal antibodies, antibody administration |
+
+## Comparison of natural and artificial immunity
+
+| Type | How acquired | Example |
+|---|---|---|
+| Natural active | Natural infection | Recovery followed by immune memory |
+| Artificial active | Medical intervention | Vaccination |
+| Natural passive | Natural antibody transfer | Placenta and breast milk |
+| Artificial passive | Medical administration | Immunoglobulin or antitoxin |
+
+## Herd immunity
+
+Herd immunity is population-level protection that occurs when a sufficiently large proportion of a population is immune to an infectious disease.
+
+When many people are immune:
+- There are fewer susceptible individuals.
+- Transmission opportunities may decrease.
+- Transmission chains may become harder to maintain.
+- Vulnerable individuals may receive indirect protection.
+
+Vaccination can contribute to herd immunity.
+
+The level of immunity needed depends on how easily the disease spreads and other population factors.
+
+---
+
+# 11.4 HEALTH ISSUES RELATED TO IMMUNITY
+
+The immune system protects the body, but problems can occur when immune responses are excessive, inappropriate or insufficient.
+
+Important health issues include:
+- Allergies
+- Autoimmune diseases
+- Immunodeficiency
+- HIV and AIDS
+- Transplant rejection
+
+## 1. Allergies
+
+An allergy is an inappropriate or excessive immune response to a substance that is usually harmless to most people.
+
+The substance that triggers an allergic response is called an allergen.
+
+Examples:
+- Pollen
+- Dust mites
+- Certain foods
+- Animal allergens
+- Some insect substances
+
+### Mechanism of allergic response
+
+1. The immune system encounters an allergen.
+2. In a sensitised individual, an immune response develops.
+3. IgE antibodies can bind to mast cells.
+4. On subsequent exposure, the allergen can cross-link IgE on mast cells.
+5. Mast cells release histamine and other chemical mediators.
+6. Inflammation and allergy symptoms occur.
+
+Possible symptoms:
+- Sneezing
+- Itching
+- Runny nose
+- Skin rashes
+- Swelling
+- Breathing difficulties in severe reactions
+
+A severe, rapidly developing allergic reaction is called anaphylaxis and requires emergency medical treatment.
+
+## 2. Autoimmune diseases
+
+An autoimmune disease occurs when the immune system mistakenly attacks the body's own cells or tissues.
+
+Normally, the immune system distinguishes between:
+- Self: the body's own cells and tissues.
+- Non-self: foreign substances and cells.
+
+In autoimmune diseases, immune tolerance is disrupted.
+
+Examples:
+
+**Rheumatoid arthritis**
+
+The immune system attacks tissues in joints, causing inflammation and damage.
+
+**Systemic lupus erythematosus**
+
+The immune system can attack multiple tissues and organs.
+
+**Type 1 diabetes mellitus**
+
+The immune system destroys insulin-producing beta cells in the pancreas.
+
+## 3. Immunodeficiency
+
+Immunodeficiency occurs when part of the immune system does not function effectively.
+
+This can make a person more susceptible to infections.
+
+It can be:
+
+- Primary immunodeficiency: caused by inherited or developmental problems.
+- Secondary immunodeficiency: develops due to other conditions, infections, treatments or factors affecting immune function.
+
+## 4. HIV and AIDS
+
+HIV stands for human immunodeficiency virus.
+
+HIV infects important immune cells, particularly CD4 T lymphocytes.
+
+As infection progresses without effective treatment, the immune system may become severely weakened.
+
+AIDS stands for acquired immunodeficiency syndrome.
+
+AIDS is an advanced stage of HIV-related immune deficiency.
+
+It is associated with severe immune damage and increased susceptibility to opportunistic infections and certain cancers.
+
+**Important distinction:**
+
+- HIV is the virus.
+- AIDS is a syndrome associated with advanced HIV-related immune deficiency.
+
+Modern antiretroviral treatment can suppress HIV and greatly reduce the risk of progression to AIDS.
+
+## Opportunistic infections
+
+Opportunistic infections occur when microorganisms take advantage of weakened immune defences.
+
+An infection that would normally be controlled may become severe when the immune system is impaired.
+
+## 5. Organ transplant rejection
+
+When an organ from another person is transplanted into a recipient, the recipient's immune system may recognise molecules on the transplanted tissue as foreign.
+
+The immune system may attack the transplanted organ.
+
+This is called transplant rejection.
+
+Doctors reduce the risk through:
+- Donor-recipient tissue matching.
+- Blood-group compatibility checks where relevant.
+- Immunosuppressive medicines.
+- Careful medical monitoring.
+
+## Immunosuppressants
+
+Immunosuppressants are medicines that reduce immune activity.
+
+They may be used to prevent the immune system from attacking a transplanted organ.
+
+However, suppressing immune activity can increase the risk of infection.
+
+This demonstrates a biological trade-off:
+
+Reduced immune attack on transplanted tissue → reduced risk of rejection.
+
+Reduced immune activity → potentially increased susceptibility to infection.
+
+---
+
+# COMPLETE THREE-LINE DEFENCE SUMMARY
+
+| Line of defence | Type | Main function | Examples |
+|---|---|---|---|
+| First | Non-specific, innate | Prevents pathogen entry | Skin, mucus, cilia, tears, saliva, stomach acid |
+| Second | Non-specific, innate | Attacks pathogens that enter | Phagocytosis, inflammation, fever |
+| Third | Specific, adaptive | Recognises particular antigens and develops immune memory | B lymphocytes, T lymphocytes, antibodies, memory cells |
+
+## The three lines working together
+
+Pathogen approaches the body.
+
+↓
+
+**First line:** Physical and chemical barriers try to prevent entry.
+
+↓
+
+If the pathogen enters:
+
+**Second line:** Phagocytes, inflammation and other internal defences respond.
+
+↓
+
+If a specific immune response is required:
+
+**Third line:** Lymphocytes recognise particular antigens and produce targeted responses.
+
+↓
+
+Antibodies and immune cells help eliminate the pathogen.
+
+↓
+
+Memory cells may remain and respond rapidly during later exposure.
+
+---
+
+# HIGH-VALUE COMPARISONS
+
+## Innate vs adaptive immunity
+
+| Innate immunity | Adaptive immunity |
+|---|---|
+| Present from birth | Develops through exposure to antigens |
+| Non-specific | Antigen-specific |
+| First and second lines | Third line |
+| Responds rapidly | Primary response usually takes longer |
+| Does not produce antigen-specific memory in the same way | Produces memory cells |
+
+## Antigen vs antibody
+
+| Antigen | Antibody |
+|---|---|
+| Molecular structure recognised by immune system | Specific protein produced by plasma cells |
+| Can stimulate an immune response | Binds to a corresponding antigen |
+| Found on or associated with pathogens and foreign substances | Helps neutralise or remove antigens |
+
+## B lymphocytes vs T lymphocytes
+
+| B lymphocytes | T lymphocytes |
+|---|---|
+| Involved in antibody-mediated immunity | Involved in cell-mediated immunity |
+| Can differentiate into plasma cells | Include helper and cytotoxic T cells |
+| Produce antibodies through plasma cells | Do not produce antibodies |
+| Can form memory B cells | Can form memory T cells |
+
+---
+
+# COMMON EXAM TRAPS
+
+**Trap 1: There are only two lines of defence.**
+
+Incorrect. The body's defence is commonly organised into three lines.
+
+**Trap 2: The first line of defence destroys pathogens that have entered the bloodstream.**
+
+Incorrect. Its main function is to prevent pathogen entry.
+
+**Trap 3: Mucus and cilia have the same function.**
+
+Incorrect. Mucus traps particles; cilia move mucus.
+
+**Trap 4: Phagocytosis is the third line of defence.**
+
+Incorrect. Phagocytosis is a non-specific internal defence and belongs to the second line.
+
+**Trap 5: Antibodies are produced by T lymphocytes.**
+
+Incorrect. Antibodies are secreted by plasma cells derived from B lymphocytes.
+
+**Trap 6: Vaccination directly gives a person ready-made antibodies.**
+
+Generally incorrect. Vaccination stimulates the person's own immune system to produce an immune response.
+
+**Trap 7: Passive immunity produces long-term immune memory.**
+
+Generally incorrect. Transferred antibodies provide temporary protection and do not normally produce the recipient's own long-term memory response.
+
+**Trap 8: Antigen and antibody mean the same thing.**
+
+Incorrect. An antigen is recognised by the immune system; an antibody is a protein that binds to a specific antigen.
+
+**Trap 9: HIV and AIDS are the same.**
+
+Incorrect. HIV is the virus; AIDS is a syndrome associated with advanced HIV-related immune deficiency.
+
+---
+
+# SPM COMMAND-WORD GUIDE
+
+## STATE
+
+Give the required fact directly.
+
+Example: State one component of the first line of defence.
+
+Answer: Skin.
+
+## DEFINE
+
+Give the scientific meaning.
+
+Example: Define immunity.
+
+Answer: Immunity is the body's ability to resist infection and protect itself against pathogens and harmful foreign substances.
+
+## DESCRIBE
+
+Explain events in sequence.
+
+Example: Describe phagocytosis.
+
+Use: Recognition → movement → engulfment → phagosome formation → lysosome fusion → digestion.
+
+## EXPLAIN
+
+Give the mechanism and reason.
+
+Example: Explain how vaccination protects the body.
+
+Answer structure:
+
+Vaccine introduces antigenic material → specific immune response occurs → antibodies and memory cells form → later exposure triggers a faster secondary response.
+
+## COMPARE
+
+Give paired similarities or differences.
+
+For active and passive immunity, compare:
+- Source of antibodies.
+- Speed of protection.
+- Duration.
+- Memory cell formation.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## Question 1
+
+State the three lines of defence in humans.
+
+**Answer:**
+
+1. First line: Physical and chemical barriers.
+2. Second line: Non-specific internal defence.
+3. Third line: Specific immune response.
+
+## Question 2
+
+Explain how mucus and cilia protect the respiratory system.
+
+**Answer:**
+
+Mucus traps dust particles and microorganisms entering the respiratory tract. Cilia move the mucus towards the throat, where it can be swallowed or expelled. Therefore, microorganisms are prevented from reaching deeper parts of the respiratory system.
+
+## Question 3
+
+Explain how phagocytes destroy pathogens.
+
+**Answer:**
+
+Phagocytes recognise and move towards pathogens. Their cell membranes surround and engulf the pathogens, forming phagosomes. Lysosomes fuse with the phagosomes and release digestive enzymes. These enzymes digest and destroy the pathogens.
+
+## Question 4
+
+Explain how the third line of defence protects the body.
+
+**Answer:**
+
+Specific lymphocytes recognise particular antigens. B lymphocytes can differentiate into plasma cells that produce specific antibodies. T lymphocytes help coordinate immune responses or destroy infected cells. Memory cells are also formed, allowing a faster response during subsequent exposure to the same antigen.
+
+## Question 5
+
+Explain why a secondary immune response is faster than a primary immune response.
+
+**Answer:**
+
+Memory cells are formed during the primary immune response. When the same antigen enters the body again, memory cells recognise it rapidly and stimulate a stronger immune response. Therefore, antibodies are produced faster and often reach a higher concentration.
+
+## Question 6
+
+Explain how vaccination provides protection against a disease.
+
+**Answer:**
+
+Vaccination introduces antigenic material that stimulates a specific immune response. The body produces antibodies and memory cells. If the same pathogen enters the body later, memory cells trigger a faster and stronger secondary immune response, reducing the risk or severity of disease.
+
+## Question 7
+
+A patient receives ready-made antibodies from an external source. Identify the type of immunity and explain your answer.
+
+**Answer:**
+
+Artificial passive immunity. The patient receives antibodies produced by another source rather than producing the antibodies through their own immune response.
+
+## Question 8
+
+Explain why a person with severe immunodeficiency may experience repeated infections.
+
+**Answer:**
+
+The person's immune system cannot provide effective defence against pathogens. The reduced activity or number of immune components makes it harder to recognise and eliminate pathogens, increasing susceptibility to infections.
+
+---
+
+# HIGHER-ORDER THINKING QUESTIONS
+
+## Scenario 1
+
+A student has a cut on the skin.
+
+Explain why the risk of infection increases.
+
+**Suggested answer:**
+
+The skin normally acts as the first line of defence by preventing pathogen entry. A cut damages this physical barrier and allows pathogens to enter underlying tissues.
+
+## Scenario 2
+
+A person has damaged cilia in the respiratory tract.
+
+Predict the effect on respiratory defence.
+
+**Suggested answer:**
+
+Mucus and trapped microorganisms may not be moved effectively towards the throat. This reduces the removal of foreign particles and increases the possibility of infection.
+
+## Scenario 3
+
+A vaccinated person encounters the same pathogen several months later.
+
+Explain why the immune response may be faster.
+
+**Suggested answer:**
+
+Memory cells formed after vaccination recognise the antigen and stimulate a rapid secondary immune response. Antibodies can therefore be produced more quickly.
+
+## Scenario 4
+
+A patient receives an organ transplant and is prescribed immunosuppressants.
+
+Explain why.
+
+**Suggested answer:**
+
+Immunosuppressants reduce immune activity and lower the risk of the recipient's immune system attacking the transplanted organ. However, they can also increase susceptibility to infections.
+
+---
+
+# MUST-KNOW TERMS
+
+- Immunity
+- Pathogen
+- Innate immunity
+- Adaptive immunity
+- First line of defence
+- Second line of defence
+- Third line of defence
+- Antigen
+- Antibody
+- Phagocyte
+- Phagocytosis
+- Inflammation
+- Fever
+- Lymphocyte
+- B lymphocyte
+- T lymphocyte
+- Plasma cell
+- Memory cell
+- Neutralisation
+- Agglutination
+- Precipitation
+- Opsonisation
+- Active immunity
+- Passive immunity
+- Natural immunity
+- Artificial immunity
+- Vaccination
+- Herd immunity
+- Allergen
+- Allergy
+- Autoimmune disease
+- Immunodeficiency
+- HIV
+- AIDS
+- Opportunistic infection
+- Transplant rejection
+- Immunosuppressant
+
+---
+
+# FINAL REVISION CHECKLIST
+
+A student should be able to:
+
+1. Define immunity.
+2. Explain why the body needs defence mechanisms.
+3. Identify and explain all three lines of defence.
+4. Distinguish innate and adaptive immunity.
+5. Explain the functions of skin, mucus, cilia, tears, saliva and stomach acid.
+6. Describe phagocytosis step by step.
+7. Explain inflammation.
+8. Explain the role of fever.
+9. Distinguish antigens from antibodies.
+10. Explain the roles of B and T lymphocytes.
+11. Explain antibody specificity.
+12. Describe the actions of antibodies.
+13. Explain primary and secondary immune responses.
+14. Explain immune memory.
+15. Distinguish active and passive immunity.
+16. Distinguish natural and artificial immunity.
+17. Explain how vaccination works.
+18. Explain herd immunity.
+19. Explain allergies.
+20. Explain autoimmune diseases.
+21. Explain immunodeficiency.
+22. Distinguish HIV from AIDS.
+23. Explain opportunistic infections.
+24. Explain transplant rejection.
+25. Explain why immunosuppressants are used.
+26. Apply immunity concepts to unfamiliar situations.
+27. Answer SPM questions using appropriate command words.
+
+# CHAPTER 11 CORE IDEA
+
+The body's defence works through three coordinated lines:
+
+**FIRST LINE: PREVENT ENTRY**
+
+Skin, mucus, cilia and chemical barriers prevent pathogens from entering.
+
+**SECOND LINE: GENERAL INTERNAL DEFENCE**
+
+Phagocytes, inflammation and fever respond to pathogens that enter.
+
+**THIRD LINE: SPECIFIC IMMUNE DEFENCE**
+
+B and T lymphocytes recognise particular antigens and produce targeted immune responses. Antibodies help remove pathogens, while memory cells allow faster responses during future exposure.
+
+The three lines work together to protect the human body against infection.
+
