@@ -1,0 +1,739 @@
+# FORM 5 BIOLOGY
+
+# CHAPTER 1: ORGANISATION OF PLANT TISSUES AND GROWTH
+
+## 1.1 ORGANISATION OF PLANT TISSUES
+
+### 1.1.1 Organisation in Plants
+
+Plants are multicellular organisms made up of different types of cells. These cells are organised into tissues and organs that work together to carry out life processes.
+
+The levels of organisation in plants are:
+
+**Cell → Tissue → Organ → System → Organism**
+
+- **Cell:** The basic structural and functional unit of a living organism.
+- **Tissue:** A group of similar cells that work together to perform a specific function.
+- **Organ:** A structure made up of different tissues working together.
+- **System:** A group of organs that work together to perform particular functions.
+- **Organism:** A complete living individual.
+
+Examples:
+
+- Cells form tissues such as xylem and phloem.
+- Different tissues form organs such as roots, stems and leaves.
+- Roots, stems and leaves work together as part of the plant shoot and root systems.
+
+### 1.1.2 Types of Plant Tissues
+
+Plant tissues can be classified into two main groups:
+
+1. Meristematic tissue
+2. Permanent tissue
+
+#### A. Meristematic Tissue
+
+Meristematic tissue consists of actively dividing cells. These cells are responsible for producing new cells that allow plants to grow.
+
+Characteristics:
+
+- Cells are small and generally have thin cell walls.
+- Cells have dense cytoplasm.
+- Cells contain a prominent nucleus.
+- Vacuoles are absent or very small.
+- Cells are closely packed with little or no intercellular space.
+- Cells undergo mitosis actively.
+
+Functions:
+
+- Produces new cells.
+- Increases the length of roots and shoots.
+- Increases the thickness of stems and roots in plants with lateral meristems.
+- Replaces damaged or old cells in certain growing regions.
+
+#### B. Permanent Tissue
+
+Permanent tissues are formed when meristematic cells differentiate and become specialised to perform particular functions.
+
+Differentiation is the process by which an unspecialised cell develops into a specialised cell with a specific structure and function.
+
+Permanent tissues include simple permanent tissues and complex permanent tissues.
+
+### 1.1.3 Simple Permanent Tissues
+
+Simple permanent tissues consist mainly of one type of cell.
+
+**1. Parenchyma**
+
+Characteristics:
+
+- Living cells.
+- Thin cell walls.
+- Usually have large vacuoles.
+- Often have intercellular spaces.
+- Generally have a flexible structure.
+
+Functions:
+
+- Stores food such as starch.
+- Stores water.
+- Performs photosynthesis when chloroplasts are present.
+- Helps with gas exchange.
+- Can contribute to tissue repair and regeneration.
+
+Examples:
+
+- Cortex and pith of stems and roots.
+- Mesophyll tissue in leaves.
+- Storage tissues in fruits and other plant organs.
+
+**2. Collenchyma**
+
+Characteristics:
+
+- Living cells.
+- Cell walls are unevenly thickened, especially at the corners.
+- Cell walls contain cellulose and pectin.
+- Cells provide flexible support.
+
+Functions:
+
+- Supports young stems and leaves.
+- Provides flexibility.
+- Allows growing plant parts to bend without breaking easily.
+
+**3. Sclerenchyma**
+
+Characteristics:
+
+- Cells usually become dead at maturity.
+- Cell walls are thick and strengthened with lignin.
+- Have a strong and rigid structure.
+- Include fibres and sclereids.
+
+Functions:
+
+- Provides mechanical strength.
+- Supports mature plant parts.
+- Protects certain plant structures.
+
+### Comparison of Simple Permanent Tissues
+
+| Feature              | Parenchyma                 | Collenchyma        | Sclerenchyma             |
+| -------------------- | -------------------------- | ------------------ | ------------------------ |
+| Cell status          | Living                     | Living             | Usually dead at maturity |
+| Cell wall            | Thin                       | Unevenly thickened | Thick and lignified      |
+| Main function        | Storage and photosynthesis | Flexible support   | Rigid support            |
+| Intercellular spaces | Often present              | Usually little     | Usually absent           |
+
+**Exam tip:** Do not confuse collenchyma and sclerenchyma. Collenchyma provides flexible support in growing regions, whereas sclerenchyma provides strong, rigid support.
+
+### 1.1.4 Complex Permanent Tissues
+
+Complex permanent tissues consist of different types of cells working together to perform a common function.
+
+The two main complex permanent tissues are xylem and phloem.
+
+#### A. Xylem
+
+Xylem transports water and mineral salts from the roots to other parts of the plant.
+
+Main components:
+
+**1. Vessel elements**
+
+- Dead cells at maturity.
+- Arranged end to end.
+- End walls are perforated or absent, forming continuous vessels.
+- Walls are strengthened with lignin.
+- Transport water and mineral salts.
+
+**2. Tracheids**
+
+- Dead cells at maturity.
+- Long, narrow cells with tapering ends.
+- Have thick lignified walls.
+- Water moves between cells through pits.
+- Provide support and transport water.
+
+**3. Xylem fibres**
+
+- Dead cells.
+- Thick, lignified walls.
+- Provide mechanical support.
+
+**4. Xylem parenchyma**
+
+- Living cells.
+- Store food and assist in lateral transport of substances.
+
+Functions of xylem:
+
+- Transports water and mineral salts.
+- Provides mechanical support due to lignified walls.
+
+#### B. Phloem
+
+Phloem transports organic substances, especially sucrose and amino acids, from sources to sinks. This movement is known as translocation.
+
+Main components:
+
+**1. Sieve tube elements**
+
+- Living cells, but have no nucleus at maturity.
+- Arranged end to end.
+- End walls form sieve plates.
+- Transport dissolved organic substances.
+
+**2. Companion cells**
+
+- Living cells with a nucleus.
+- Closely associated with sieve tube elements.
+- Provide metabolic support.
+- Help control the movement of substances into and out of sieve tubes.
+
+**3. Phloem fibres**
+
+- Usually dead at maturity.
+- Have thick walls.
+- Provide mechanical support.
+
+**4. Phloem parenchyma**
+
+- Living cells.
+- Function in storage and transport of substances.
+
+### Comparison Between Xylem and Phloem
+
+| Feature                      | Xylem                         | Phloem                                                |
+| ---------------------------- | ----------------------------- | ----------------------------------------------------- |
+| Main substances              | Water and mineral salts       | Sucrose and other organic substances                  |
+| Main function                | Water transport               | Translocation                                         |
+| Main conducting cells        | Vessel elements and tracheids | Sieve tube elements                                   |
+| Conducting cells at maturity | Dead                          | Living, but sieve tube elements lack nuclei           |
+| Direction                    | Mainly upwards                | From sources to sinks; can be in different directions |
+
+**Important:** Phloem transport is not simply always upwards or always downwards. It depends on the locations of sources and sinks.
+
+### 1.1.5 Organisation of Plant Organs
+
+A plant has organs that contain different tissues.
+
+**Roots**
+
+- Anchor the plant.
+- Absorb water and mineral salts.
+- Store food in some plants.
+- Contain vascular tissues for transport.
+
+**Stems**
+
+- Support leaves, flowers and fruits.
+- Transport water, mineral salts and organic substances.
+- May store food or water.
+
+**Leaves**
+
+- Main site of photosynthesis.
+- Allow gaseous exchange through stomata.
+- Control water loss through transpiration.
+
+### 1.1.6 Vascular Bundles
+
+Vascular bundles contain xylem and phloem.
+
+Their arrangement differs between plant organs and plant groups.
+
+- In many dicot stems, vascular bundles are arranged in a ring.
+- In many monocot stems, vascular bundles are scattered throughout the ground tissue.
+- In roots, xylem and phloem have a different arrangement from stems.
+
+The vascular tissues form a transport network connecting roots, stems and leaves.
+
+---
+
+## 1.2 MERISTEM TISSUE AND GROWTH
+
+### 1.2.1 Plant Growth
+
+Growth is a permanent and irreversible increase in the size, volume, dry mass or number of cells of an organism.
+
+In plants, growth occurs mainly in regions containing meristematic tissue.
+
+Plant growth involves three major processes:
+
+1. Cell division
+2. Cell elongation
+3. Cell differentiation
+
+### 1.2.2 Cell Division
+
+Cell division occurs through mitosis in meristematic regions.
+
+During mitosis:
+
+- One parent cell divides.
+- Two daughter cells are produced.
+- The daughter cells normally have the same chromosome number as the parent cell.
+- The new cells increase the number of cells in the growing region.
+
+Cell division supplies new cells for plant growth.
+
+### 1.2.3 Cell Elongation
+
+After cell division, some new cells increase in length or size.
+
+Cell elongation occurs through:
+
+- Enlargement of the vacuole.
+- Absorption of water.
+- Expansion of the cell.
+- Loosening and extension of the cell wall.
+
+Cell elongation contributes to an increase in the length of roots and shoots.
+
+### 1.2.4 Cell Differentiation
+
+New cells become specialised to perform particular functions.
+
+Examples:
+
+- Some cells differentiate into xylem vessels for water transport.
+- Some cells become phloem sieve tube elements for translocation.
+- Some cells develop into epidermal cells for protection.
+
+Differentiation allows different tissues to perform specialised functions.
+
+### 1.2.5 Types of Meristematic Tissue
+
+Meristematic tissues are classified according to their location.
+
+#### A. Apical Meristem
+
+\<figure>\</figure>
+
+Location:
+
+- At the tips of roots.
+- At the tips of shoots.
+
+Functions:
+
+- Responsible for primary growth.
+- Increases the length of roots and shoots.
+- Produces primary tissues.
+
+Primary growth is the increase in the length of a plant due to the activity of apical meristems.
+
+Examples:
+
+- A young root growing deeper into the soil.
+- A shoot growing upwards towards light.
+
+#### B. Lateral Meristem
+
+Location:
+
+- Along the sides of stems and roots.
+
+Examples:
+
+- Vascular cambium.
+- Cork cambium.
+
+Functions:
+
+- Responsible for secondary growth.
+- Increases the diameter or thickness of stems and roots.
+- Produces secondary tissues.
+
+Secondary growth is the increase in the thickness of stems and roots due to the activity of lateral meristems.
+
+**Vascular cambium**
+
+- Produces secondary xylem towards the inside.
+- Produces secondary phloem towards the outside.
+- Contributes to the increase in stem and root diameter.
+
+**Cork cambium**
+
+- Produces cork cells that form part of the protective outer covering.
+- Helps replace the epidermis as the plant organ increases in thickness.
+
+Secondary growth is especially prominent in many dicot plants and gymnosperms. Most monocots do not show typical secondary growth.
+
+#### C. Intercalary Meristem
+
+Location:
+
+- At the bases of leaves.
+- At the nodes or internodes of certain plants, especially grasses.
+
+Functions:
+
+- Allows rapid elongation of plant parts.
+- Helps grasses regrow after being cut or grazed.
+
+Example:
+
+- Grass can continue growing from the base even when its upper parts have been cut.
+
+### Comparison of Meristems
+
+| Feature     | Apical              | Lateral                  | Intercalary         |
+| ----------- | ------------------- | ------------------------ | ------------------- |
+| Location    | Root and shoot tips | Sides of stems and roots | Leaf bases or nodes |
+| Growth      | Primary             | Secondary                | Elongation          |
+| Main effect | Increases length    | Increases thickness      | Extends plant parts |
+| Example     | Root tip            | Vascular cambium         | Grass               |
+
+### 1.2.6 Primary Growth
+
+Primary growth increases the length of roots and shoots.
+
+In a root tip, the regions can be described in order from the tip upwards:
+
+**1. Root cap**
+
+- Protects the delicate root tip.
+- Helps the root move through the soil.
+
+**2. Region of cell division**
+
+- Contains the apical meristem.
+- Cells divide actively by mitosis.
+
+**3. Region of cell elongation**
+
+- Newly formed cells increase in length.
+- Contributes significantly to root lengthening.
+
+**4. Region of cell differentiation**
+
+- Cells become specialised.
+- Different permanent tissues develop.
+- Root hair cells may be present in this region.
+
+### 1.2.7 Secondary Growth
+
+Secondary growth increases the diameter of stems and roots.
+
+In a typical woody dicot stem:
+
+1. Vascular cambium becomes active.
+2. It divides and produces secondary xylem towards the inside.
+3. It produces secondary phloem towards the outside.
+4. Accumulation of secondary xylem contributes to the increase in thickness.
+5. Cork cambium produces protective cork tissue.
+
+Secondary xylem forms much of the wood in woody plants.
+
+Annual rings may form in trees growing in environments with seasonal changes. Differences in the growth of xylem during different seasons can produce visible rings.
+
+**Exam tip:** Primary growth increases length. Secondary growth increases thickness. Do not reverse these definitions.
+
+### 1.2.8 Factors Affecting Plant Growth
+
+Plant growth is affected by internal and external factors.
+
+**Internal factors**
+
+- Genetic information.
+- Plant hormones.
+- Age and developmental stage of the plant.
+
+**External factors**
+
+- Light intensity and duration.
+- Water availability.
+- Mineral availability.
+- Temperature.
+- Oxygen availability.
+- Carbon dioxide availability for photosynthesis.
+
+These factors influence processes such as photosynthesis, respiration, cell division and cell expansion.
+
+### 1.2.9 Plant Hormones and Growth
+
+Plant hormones are chemical substances produced in small quantities that regulate plant growth and development.
+
+Examples include:
+
+**Auxins**
+
+- Promote cell elongation in many plant tissues.
+- Involved in phototropism and gravitropism.
+- Help regulate apical dominance.
+
+**Gibberellins**
+
+- Promote stem elongation.
+- Can stimulate seed germination.
+- May promote flowering or fruit development in certain plants.
+
+**Cytokinins**
+
+- Promote cell division.
+- Help regulate shoot development.
+- Can delay leaf ageing in some situations.
+
+**Abscisic acid (ABA)**
+
+- Helps plants respond to water stress.
+- Promotes stomatal closure during water shortage.
+- Can maintain seed dormancy.
+
+**Ethylene**
+
+- A gaseous plant hormone.
+- Promotes fruit ripening.
+- Is involved in leaf and fruit ageing and abscission.
+
+---
+
+## 1.3 GROWTH CURVES
+
+### 1.3.1 Meaning of a Growth Curve
+
+A growth curve is a graph that shows changes in the growth of an organism over a period of time.
+
+Growth may be measured using:
+
+- Height.
+- Length.
+- Dry mass.
+- Fresh mass.
+- Volume.
+- Number of cells.
+
+The choice of measurement depends on the organism and the investigation.
+
+### 1.3.2 Sigmoid Growth Curve
+
+A sigmoid growth curve is an S-shaped curve commonly associated with the growth of many plants and other organisms under suitable conditions.
+
+It can be divided into several phases.
+
+**1. Lag phase**
+
+- Growth is slow at first.
+- Cells become active and adjust to conditions.
+- There may be limited measurable increase in size.
+
+**2. Exponential phase**
+
+- Growth occurs rapidly.
+- Cells divide and expand actively.
+- The growth rate increases.
+
+**3. Stationary phase**
+
+- Growth rate slows.
+- The organism approaches its maximum size under the given conditions.
+- Factors such as nutrients, space or other environmental limitations may restrict further growth.
+
+The exact shape and duration of each phase depend on the organism and conditions.
+
+### 1.3.3 Discontinuous Growth in Arthropods
+
+Arthropods, such as insects and crustaceans, have an exoskeleton.
+
+The exoskeleton is rigid and does not expand continuously with the animal's body.
+
+Therefore, arthropods grow through a process called moulting or ecdysis.
+
+Moulting is the process of shedding the old exoskeleton and forming a new one.
+
+Stages:
+
+1. The animal prepares to shed its old exoskeleton.
+2. The old exoskeleton splits.
+3. The animal emerges from the old exoskeleton.
+4. The new exoskeleton is initially soft.
+5. The animal's body expands.
+6. The new exoskeleton hardens.
+
+Growth occurs in steps rather than as a continuous increase in body size.
+
+A graph of body size against time may show:
+
+- A period with little change in measurable external size.
+- A sudden increase after moulting.
+- Another period of relatively stable size before the next moult.
+
+### 1.3.4 Growth Curves in Plants and Arthropods
+
+| Feature        | Typical plant growth         | Arthropod growth                      |
+| -------------- | ---------------------------- | ------------------------------------- |
+| Growth pattern | Often continuous             | Discontinuous in measurable body size |
+| Main reason    | Meristem activity            | Exoskeleton limits expansion          |
+| Growth process | Cell division and elongation | Growth followed by moulting           |
+| Graph          | Often sigmoid                | Step-like pattern                     |
+
+**Important:** Not every plant or organism follows an identical growth curve. Growth patterns depend on species, developmental stage and environmental conditions.
+
+### 1.3.5 Measuring Plant Growth
+
+Plant growth can be investigated by measuring:
+
+- Height over time.
+- Number of leaves.
+- Root length.
+- Fresh mass.
+- Dry mass.
+
+Dry mass is often useful because fresh mass can change due to differences in water content.
+
+A fair test should:
+
+- Use similar plants.
+- Keep environmental conditions consistent.
+- Measure at regular time intervals.
+- Use suitable measuring equipment.
+- Repeat measurements where possible.
+
+### 1.3.6 Interpreting Growth Curves
+
+When interpreting a growth graph:
+
+1. Read the axes and units.
+2. Identify the period being compared.
+3. Determine whether growth is increasing, decreasing or remaining stable.
+4. Compare the gradients to identify changes in growth rate.
+5. Support conclusions using data from the graph.
+
+The gradient of a growth curve represents the rate of growth.
+
+A steeper positive gradient indicates a faster rate of growth.
+
+A horizontal section indicates little or no measurable increase during that interval.
+
+---
+
+# IMPORTANT DEFINITIONS
+
+| Term                | Definition                                                    |
+| ------------------- | ------------------------------------------------------------- |
+| Tissue              | A group of similar cells performing a specific function       |
+| Meristematic tissue | Tissue containing actively dividing cells                     |
+| Permanent tissue    | Tissue formed when cells differentiate and become specialised |
+| Differentiation     | Development of an unspecialised cell into a specialised cell  |
+| Primary growth      | Increase in plant length due to apical meristem activity      |
+| Secondary growth    | Increase in plant thickness due to lateral meristem activity  |
+| Moulting            | Shedding of an old exoskeleton                                |
+| Growth curve        | Graph showing growth over time                                |
+| Translocation       | Movement of organic substances through phloem                 |
+| Cambium             | Meristematic tissue involved in the production of new tissues |
+
+# COMMON EXAM MISTAKES
+
+1. Saying that xylem transports food. Xylem mainly transports water and mineral salts.
+2. Saying that phloem transports only sucrose. It also transports other organic substances.
+3. Confusing collenchyma with sclerenchyma.
+4. Saying that primary growth increases thickness. Primary growth increases length.
+5. Saying that secondary growth increases length. Secondary growth increases thickness.
+6. Confusing cell division with cell elongation.
+7. Saying that arthropods grow continuously without moulting.
+8. Forgetting that the new exoskeleton is initially soft after moulting.
+9. Assuming that all plant species have the same pattern of secondary growth.
+10. Describing a growth curve without referring to the axes or data.
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## Section A: Structured Questions
+
+**Question 1**
+
+(a) State the two main groups of plant tissues. [2 marks]
+
+(b) Explain the differences between parenchyma, collenchyma and sclerenchyma. [6 marks]
+
+(c) Explain why xylem is important to a plant. [3 marks]
+
+**Suggested answers:**
+
+(a)
+
+- Meristematic tissue.
+- Permanent tissue.
+
+(b)
+
+- Parenchyma consists of living cells with thin cell walls and functions in storage and photosynthesis.
+- Collenchyma consists of living cells with unevenly thickened walls and provides flexible support.
+- Sclerenchyma cells are usually dead at maturity, have thick lignified walls and provide rigid support.
+
+(c)
+
+- Xylem transports water from the roots to other plant parts.
+- It transports dissolved mineral salts.
+- Its lignified walls provide mechanical support.
+
+## Section B: Application Questions
+
+**Question 2**
+
+A student observes that the stem of a young plant increases in length over several weeks.
+
+(a) Name the meristem responsible for this growth. [1 mark]
+
+(b) Explain how this meristem increases the length of the plant. [3 marks]
+
+**Suggested answers:**
+
+(a) Apical meristem.
+
+(b)
+
+- Cells in the apical meristem divide by mitosis.
+- New cells are produced.
+- The cells elongate and differentiate, increasing the length of the shoot.
+
+**Question 3**
+
+A grass plant is cut close to the ground. After several days, new leaves grow from its base.
+
+(a) Name the meristem responsible. [1 mark]
+
+(b) Explain its role. [2 marks]
+
+**Suggested answers:**
+
+(a) Intercalary meristem.
+
+(b)
+
+- It contains actively dividing cells near the base of the leaves or nodes.
+- These cells divide and elongate, allowing the grass to regrow.
+
+## Section C: Growth Curves
+
+**Question 4**
+
+(a) What is a growth curve? [2 marks]
+
+(b) Describe the main phases of a sigmoid growth curve. [6 marks]
+
+(c) Explain why arthropods show discontinuous growth. [4 marks]
+
+**Suggested answers:**
+
+(a)
+
+- A graph showing changes in growth.
+- The changes are measured over a period of time.
+
+(b)
+
+- Lag phase: growth is initially slow.
+- Exponential phase: growth occurs rapidly.
+- Stationary phase: growth rate slows as the organism approaches its maximum size under the given conditions.
+
+(c)
+
+- Arthropods have a rigid exoskeleton.
+- The exoskeleton cannot expand continuously with the growing body.
+- The animal sheds its old exoskeleton through moulting.
+- Its body expands before the new exoskeleton hardens.
+
+#
