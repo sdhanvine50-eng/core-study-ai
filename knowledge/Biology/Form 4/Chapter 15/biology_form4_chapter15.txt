@@ -1,0 +1,2123 @@
+# CHAPTER 15: SEXUAL REPRODUCTION, DEVELOPMENT AND GROWTH IN HUMANS AND ANIMALS
+
+## PURPOSE OF THIS KNOWLEDGE FILE
+
+This chapter covers sexual reproduction, gamete formation, menstrual-cycle regulation, embryonic and foetal development, twin formation, reproductive health and growth in humans and animals.
+
+The AI tutor should:
+- Explain biological processes step by step.
+- Explain the relationship between structures and their functions.
+- Explain why each process occurs, not only what happens.
+- Use correct biological terminology.
+- Explain hormone interactions and feedback mechanisms.
+- Include relevant chromosome numbers and cell divisions.
+- Distinguish similar biological terms.
+- Use examples to clarify complex processes.
+- Provide answers according to the marks allocated in examination questions.
+
+---
+
+# 15.1 REPRODUCTIVE SYSTEM OF HUMANS
+
+## 15.1.1 Introduction to Human Sexual Reproduction
+
+Sexual reproduction is the production of offspring through the fusion of male and female gametes.
+
+In humans:
+- The male gamete is the sperm cell.
+- The female gamete is the ovum (the mature female gamete).
+- The formation of male gametes occurs through spermatogenesis.
+- The formation of female gametes occurs through oogenesis.
+- Fertilisation involves the fusion of the nuclei of the male and female gametes.
+
+Humans reproduce sexually and are viviparous animals because the embryo develops inside the mother's reproductive system and the baby is born alive.
+
+### Importance of sexual reproduction
+
+1. Produces genetic variation among offspring.
+2. Combines genetic material from two parents.
+3. Allows characteristics to be inherited from both parents.
+4. Contributes to variation within a population.
+5. Genetic variation provides the basis for natural selection and evolution.
+
+### Chromosome number in human reproduction
+
+Human body cells normally contain 46 chromosomes arranged in 23 pairs.
+
+These cells are diploid (2n).
+
+Human gametes contain 23 chromosomes and are haploid (n).
+
+During fertilisation:
+
+- Sperm contributes 23 chromosomes.
+- Ovum contributes 23 chromosomes.
+- The zygote receives 46 chromosomes.
+- The diploid chromosome number is restored.
+
+Therefore:
+
+23 + 23 = 46 chromosomes.
+
+The reduction of chromosome number during meiosis prevents the chromosome number from doubling in every generation.
+
+## 15.1.2 Male Reproductive System
+
+The male reproductive system consists of organs that produce sperm, support sperm maturation, transport sperm and produce male sex hormones.
+
+### A. Testes
+
+The testes are a pair of male reproductive organs located in the scrotum.
+
+Functions:
+
+1. Produce sperm through spermatogenesis.
+2. Secrete testosterone.
+3. Support the development of male secondary sexual characteristics.
+4. Testosterone also contributes to sperm production and reproductive function.
+
+**Internal structure of the testes:**
+
+- Each testis contains many tightly coiled seminiferous tubules.
+- Spermatogenesis occurs inside the seminiferous tubules.
+- Developing sperm cells are supported by Sertoli cells.
+- Leydig cells, located between seminiferous tubules, secrete testosterone.
+
+**Sertoli cells:**
+- Provide nutrients and support to developing sperm cells.
+- Help regulate the environment for sperm development.
+- Contribute to the blood-testis barrier.
+
+**Leydig cells:**
+- Respond to luteinising hormone (LH).
+- Produce testosterone.
+- Testosterone supports spermatogenesis and male reproductive development.
+
+### B. Scrotum
+
+The scrotum is a pouch of skin that contains the testes.
+
+Functions:
+
+1. Protects the testes.
+2. Maintains the testes at a temperature slightly lower than normal body temperature.
+3. Provides suitable conditions for sperm production.
+
+The testes need a temperature approximately 2–3°C below core body temperature for normal spermatogenesis.
+
+Temperature regulation involves:
+- Cremaster muscle, which raises or lowers the testes.
+- Dartos muscle, which wrinkles or relaxes the scrotal skin.
+- Blood vessels that help regulate heat exchange.
+
+When the surrounding temperature is cold:
+- The testes move closer to the body.
+- The scrotal skin becomes more wrinkled.
+- Heat loss decreases.
+
+When the surrounding temperature is warm:
+- The testes move further from the body.
+- The scrotal skin becomes smoother.
+- Heat loss increases.
+
+**Biological importance:** Excessive heat can interfere with normal sperm production.
+
+### C. Epididymis
+
+The epididymis is a long, highly coiled tube located along the back of each testis.
+
+Functions:
+1. Stores sperm temporarily.
+2. Allows sperm to mature.
+3. Enables sperm to develop progressive motility.
+4. Transports sperm towards the sperm duct.
+
+Sperm leaving the testes are not fully mature. They undergo further maturation in the epididymis.
+
+### D. Sperm Duct (Vas Deferens)
+
+The sperm duct is a muscular tube that transports sperm from the epididymis towards the ejaculatory duct and urethra.
+
+Its muscular wall contracts through peristaltic movements to help propel sperm.
+
+### E. Seminal Vesicles
+
+The seminal vesicles are glands that produce a fluid containing nutrients such as fructose.
+
+Functions:
+1. Supply fructose as an energy source for sperm.
+2. Produce fluid that forms a major part of semen.
+3. Provide substances that support sperm survival and movement.
+
+### F. Prostate Gland
+
+The prostate gland is located below the urinary bladder and surrounds part of the urethra.
+
+Functions:
+1. Produces fluid that contributes to semen.
+2. Adds substances that support sperm function.
+3. Its secretion helps protect sperm in the reproductive tract.
+
+### G. Bulbourethral Glands
+
+These glands produce a lubricating mucus-like secretion.
+
+Functions:
+- Lubricate the urethra.
+- Help reduce friction.
+- Contribute a small amount of fluid to the reproductive tract.
+
+### H. Urethra
+
+The urethra is a tube that passes through the penis.
+
+Functions:
+- Carries urine out of the body.
+- Carries semen out of the body during ejaculation.
+
+Urine and semen do not normally pass through the urethra simultaneously because muscular control prevents this.
+
+### I. Penis
+
+The penis is the external male reproductive organ.
+
+It contains erectile tissue that becomes filled with blood during an erection.
+
+Functions:
+- Transfers semen into the female reproductive tract during sexual intercourse.
+- Provides a passage for urine to leave the body.
+
+### Pathway of sperm
+
+Sperm cells follow this general pathway:
+
+Seminiferous tubules → Epididymis → Sperm duct → Ejaculatory duct → Urethra → Outside the body.
+
+**Important:** Seminal vesicles and the prostate gland contribute secretions to semen, but sperm are produced in the testes.
+
+## 15.1.3 Female Reproductive System
+
+The female reproductive system produces ova, secretes female sex hormones and provides a suitable environment for fertilisation, implantation and foetal development.
+
+### A. Ovaries
+
+The ovaries are a pair of female reproductive organs located in the pelvic cavity.
+
+Functions:
+
+1. Produce female gametes through oogenesis.
+2. Secrete oestrogen.
+3. Secrete progesterone.
+4. Support the menstrual cycle and pregnancy.
+
+**Structure of the ovary:**
+
+- The ovarian cortex contains developing follicles.
+- Each follicle contains an immature oocyte surrounded by supporting cells.
+- The ovarian medulla contains connective tissue, blood vessels and nerves.
+- During a reproductive cycle, a follicle may develop until it releases a secondary oocyte.
+
+### B. Fallopian Tubes (Oviducts)
+
+The fallopian tubes connect the region near the ovaries to the uterus.
+
+Functions:
+
+1. Receive the ovulated secondary oocyte.
+2. Transport the oocyte towards the uterus.
+3. Provide the usual site of fertilisation.
+
+**Adaptations:**
+- Finger-like projections called fimbriae help guide the ovulated oocyte into the tube.
+- Cilia help move the oocyte or early embryo.
+- Muscular contractions of the tube assist transportation.
+
+Fertilisation usually occurs in the ampulla, the wider region of the fallopian tube.
+
+### C. Uterus
+
+The uterus is a muscular, hollow organ where implantation occurs and the embryo develops.
+
+Functions:
+1. Receives the blastocyst during implantation.
+2. Supports embryonic and foetal development.
+3. Protects the developing embryo and foetus.
+4. Contracts during childbirth.
+
+**Layers of the uterus:**
+
+1. Endometrium
+   - Inner lining of the uterus.
+   - Contains blood vessels and glands.
+   - Changes thickness during the menstrual cycle.
+   - Provides the site for implantation.
+   - Is shed during menstruation when pregnancy does not occur.
+
+2. Myometrium
+   - Thick middle layer of smooth muscle.
+   - Expands during pregnancy.
+   - Contracts during childbirth.
+
+3. Perimetrium
+   - Outer covering of the uterus.
+   - Provides protection to the uterus.
+
+### D. Cervix
+
+The cervix is the narrow lower part of the uterus.
+
+Functions:
+- Connects the uterus to the vagina.
+- Helps retain the developing foetus during pregnancy.
+- Produces cervical mucus.
+- Dilates during childbirth to allow the baby to pass through.
+
+### E. Vagina
+
+The vagina is an elastic muscular canal connecting the cervix to the outside of the body.
+
+Functions:
+1. Receives sperm during sexual intercourse.
+2. Allows menstrual flow to leave the body.
+3. Acts as the birth canal during childbirth.
+
+### Pathway of the ovum
+
+Ovary → Fallopian tube → Uterus.
+
+If fertilisation occurs:
+- Fertilisation usually happens in the fallopian tube.
+- The early embryo travels towards the uterus.
+- Implantation takes place in the endometrium.
+
+## 15.1.4 Comparison Between Male and Female Reproductive Systems
+
+| Male reproductive organ | Female reproductive organ | Main role |
+|---|---|---|
+| Testes | Ovaries | Produce gametes and sex hormones |
+| Epididymis | — | Sperm maturation and storage |
+| Sperm duct | Fallopian tube | Transport reproductive cells |
+| Seminal vesicles | — | Produce nutrient-rich seminal fluid |
+| Prostate gland | — | Adds fluid to semen |
+| Penis | Vagina | Reproductive passage |
+| — | Uterus | Supports embryonic development |
+| — | Cervix | Connects uterus and vagina |
+
+## 15.1.5 Hormonal Regulation in the Male Reproductive System
+
+The hypothalamus and pituitary gland help regulate male reproductive function.
+
+1. The hypothalamus secretes gonadotropin-releasing hormone (GnRH).
+2. GnRH stimulates the anterior pituitary gland.
+3. The anterior pituitary secretes FSH and LH.
+4. LH stimulates Leydig cells to produce testosterone.
+5. FSH acts on Sertoli cells.
+6. FSH and testosterone work together to support spermatogenesis.
+7. Testosterone provides negative feedback to the hypothalamus and pituitary gland.
+
+This feedback mechanism helps regulate hormone levels.
+
+## 15.1.6 Secondary Sexual Characteristics
+
+Secondary sexual characteristics develop during puberty under the influence of sex hormones.
+
+**In males:**
+- Voice becomes deeper.
+- Facial and body hair develops.
+- Muscle mass increases.
+- Shoulders generally broaden.
+- Reproductive organs mature.
+
+**In females:**
+- Breasts develop.
+- Hips generally widen.
+- Pubic and underarm hair develops.
+- Menstruation begins.
+- Reproductive organs mature.
+
+These changes are associated with testosterone in males and oestrogen in females, together with other hormonal influences.
+
+---
+
+# 15.2 GAMETOGENESIS IN HUMANS
+
+## 15.2.1 Definition of Gametogenesis
+
+Gametogenesis is the process of producing haploid reproductive cells called gametes.
+
+It occurs in the reproductive organs:
+
+- Spermatogenesis occurs in the testes.
+- Oogenesis occurs in the ovaries.
+
+Gametogenesis involves meiosis and cell differentiation.
+
+### Importance of gametogenesis
+
+1. Produces haploid gametes.
+2. Reduces the chromosome number from diploid to haploid.
+3. Prevents chromosome number from doubling after each generation.
+4. Creates genetic variation.
+5. Allows fertilisation to restore the diploid chromosome number.
+
+## 15.2.2 Spermatogenesis
+
+Spermatogenesis is the process of sperm production in the seminiferous tubules of the testes.
+
+It begins at puberty and generally continues throughout adult life.
+
+### Stages of spermatogenesis
+
+**Stage 1: Spermatogonium**
+
+- Spermatogonia are diploid cells (2n).
+- They are located near the outer wall of the seminiferous tubules.
+- They divide through mitosis.
+- Some cells remain as spermatogonia to maintain the supply of germ cells.
+- Others differentiate into primary spermatocytes.
+
+**Stage 2: Primary spermatocyte**
+
+- A primary spermatocyte is diploid (2n).
+- It replicates its DNA before meiosis.
+- It undergoes meiosis I.
+- Homologous chromosomes separate.
+- Two haploid secondary spermatocytes are produced.
+
+**Stage 3: Secondary spermatocytes**
+
+- Each secondary spermatocyte is haploid (n).
+- Each contains duplicated chromosomes at the beginning of meiosis II.
+- Sister chromatids separate during meiosis II.
+- Two haploid spermatids are formed from each secondary spermatocyte.
+
+**Stage 4: Spermatids**
+
+- Four spermatids are formed from one primary spermatocyte.
+- Spermatids are haploid.
+- They are not yet fully functional sperm cells.
+- They undergo differentiation.
+
+**Stage 5: Spermiogenesis**
+
+Spermiogenesis is the process through which spermatids develop into mature sperm cells.
+
+Changes include:
+- The nucleus becomes condensed.
+- An acrosome develops from the Golgi apparatus.
+- A flagellum develops.
+- Excess cytoplasm is removed.
+- Mitochondria become concentrated in the middle piece.
+
+**Overall process:**
+
+Spermatogonium (2n) → Primary spermatocyte (2n) → Two secondary spermatocytes (n) → Four spermatids (n) → Four sperm cells (n).
+
+### Structure of a sperm cell
+
+**1. Head**
+
+- Contains the haploid nucleus.
+- Contains 23 chromosomes.
+- Contains the acrosome.
+- The acrosome contains enzymes that help the sperm pass through the outer coverings of the ovum.
+
+**2. Middle piece**
+
+- Contains numerous mitochondria.
+- Mitochondria produce ATP through cellular respiration.
+- ATP supplies energy for movement of the flagellum.
+
+**3. Tail**
+
+- Also called the flagellum.
+- Produces movement.
+- Helps propel sperm through the female reproductive tract.
+
+### Adaptations of sperm
+
+| Structure | Adaptation | Advantage |
+|---|---|---|
+| Head | Haploid nucleus | Contributes one set of chromosomes |
+| Acrosome | Contains enzymes | Helps penetrate ovum coverings |
+| Middle piece | Many mitochondria | Supplies ATP |
+| Tail | Flagellum | Enables movement |
+| Overall shape | Streamlined | Reduces resistance during movement |
+
+## 15.2.3 Oogenesis
+
+Oogenesis is the process of producing female gametes in the ovaries.
+
+Unlike spermatogenesis, oogenesis begins before birth.
+
+### Stages of oogenesis
+
+**Stage 1: Oogonium**
+
+- Oogonia are diploid cells (2n).
+- They multiply through mitosis during foetal development.
+- They develop into primary oocytes.
+
+**Stage 2: Primary oocyte**
+
+- Primary oocytes begin meiosis I before birth.
+- They become arrested in prophase I.
+- They remain in this state until further development after puberty.
+
+**Stage 3: Completion of meiosis I**
+
+During a reproductive cycle, a selected primary oocyte may complete meiosis I.
+
+It produces:
+- One large secondary oocyte.
+- One small first polar body.
+
+The division of cytoplasm is unequal.
+
+Most of the cytoplasm is retained in the secondary oocyte because it needs nutrients and organelles to support early development.
+
+**Stage 4: Secondary oocyte**
+
+- The secondary oocyte is haploid (n).
+- It begins meiosis II.
+- It becomes arrested at metaphase II.
+- It is released from the ovary during ovulation.
+
+**Stage 5: Completion of meiosis II**
+
+Meiosis II is completed only if fertilisation occurs.
+
+It produces:
+- One mature ovum.
+- A second polar body.
+
+The polar bodies usually degenerate.
+
+### Result of oogenesis
+
+One primary oocyte generally produces:
+- One functional female gamete.
+- Polar bodies that usually degenerate.
+
+### Why does oogenesis produce only one functional ovum?
+
+The cytoplasm divides unequally.
+
+The ovum receives most of the cytoplasm, organelles and stored materials. These support the early stages of embryonic development before implantation.
+
+## 15.2.4 Comparison Between Spermatogenesis and Oogenesis
+
+| Feature | Spermatogenesis | Oogenesis |
+|---|---|---|
+| Location | Seminiferous tubules of testes | Ovaries |
+| Begins | Puberty | Before birth |
+| Process | Generally continuous after puberty | Cyclic maturation |
+| Cytoplasmic division | Approximately equal | Unequal |
+| Products from one primary cell | Four sperm cells | One functional ovum |
+| Gamete size | Small | Large |
+| Motility | Motile | Non-motile |
+| Meiosis completion | Both meiotic divisions occur during sperm formation | Meiosis II completes only after fertilisation |
+
+## 15.2.5 Genetic Variation During Meiosis
+
+Meiosis contributes to genetic variation through two important processes.
+
+**A. Crossing over**
+
+- Occurs during prophase I.
+- Homologous chromosomes pair.
+- Non-sister chromatids exchange corresponding sections of DNA.
+- New combinations of alleles are produced.
+
+**B. Independent assortment**
+
+- Homologous chromosome pairs arrange randomly at metaphase I.
+- Their separation during anaphase I creates different combinations of maternal and paternal chromosomes in gametes.
+
+These processes contribute to genetic variation among offspring.
+
+## 15.2.6 Importance of Haploid Gametes
+
+If human gametes were diploid:
+- Fertilisation would produce a zygote with 92 chromosomes.
+- The chromosome number would increase in every generation.
+
+Meiosis prevents this by producing gametes with 23 chromosomes.
+
+Fertilisation restores the normal diploid number of 46.
+
+---
+
+# 15.3 MENSTRUAL CYCLE
+
+## 15.3.1 Definition
+
+The menstrual cycle is a series of cyclic changes in the ovaries and uterus that prepares the female reproductive system for possible pregnancy.
+
+An average cycle is approximately 28 days, but normal cycle lengths vary.
+
+Day 1 is the first day of menstrual bleeding.
+
+The menstrual cycle involves:
+- Changes in the ovarian follicles.
+- Changes in the endometrium.
+- Changes in hormone concentrations.
+- Ovulation.
+- Preparation of the uterus for possible implantation.
+
+## 15.3.2 Main Hormones Involved
+
+Four major hormones regulate the menstrual cycle:
+
+1. Follicle-stimulating hormone (FSH).
+2. Luteinising hormone (LH).
+3. Oestrogen.
+4. Progesterone.
+
+### A. Follicle-stimulating hormone (FSH)
+
+Source: Anterior pituitary gland.
+
+Functions:
+- Stimulates the growth and development of ovarian follicles.
+- Supports the development of the oocyte within the follicle.
+- Stimulates follicular cells to produce oestrogen.
+
+### B. Luteinising hormone (LH)
+
+Source: Anterior pituitary gland.
+
+Functions:
+- A sudden increase in LH causes ovulation.
+- Stimulates the formation of the corpus luteum.
+- Supports progesterone secretion by the corpus luteum.
+
+### C. Oestrogen
+
+Main source: Developing ovarian follicles.
+
+Functions:
+- Repairs the endometrium after menstruation.
+- Stimulates thickening of the endometrium.
+- Helps regulate FSH and LH secretion.
+- Sustained high oestrogen levels before ovulation contribute to the LH surge.
+
+### D. Progesterone
+
+Main source after ovulation: Corpus luteum.
+
+Functions:
+- Maintains the thickened endometrium.
+- Stimulates secretory activity of the endometrium.
+- Prepares the uterus for possible implantation.
+- Inhibits further FSH and LH secretion through negative feedback.
+
+## 15.3.3 Ovarian Cycle
+
+The ovarian cycle describes changes occurring in the ovaries.
+
+### Stage 1: Follicular development
+
+- FSH stimulates several ovarian follicles to begin developing.
+- The follicles contain developing oocytes.
+- Follicular cells produce oestrogen.
+- Usually, one follicle becomes dominant and continues to mature.
+- The remaining follicles usually undergo atresia.
+
+### Stage 2: Ovulation
+
+- The dominant follicle produces increasing amounts of oestrogen.
+- Sustained high oestrogen levels cause positive feedback on the hypothalamus and pituitary gland.
+- A large LH surge occurs.
+- The LH surge causes the mature follicle to rupture.
+- The secondary oocyte is released from the ovary.
+- The secondary oocyte enters the fallopian tube.
+
+Ovulation commonly occurs approximately 14 days before the next menstruation, rather than always occurring on Day 14.
+
+### Stage 3: Formation of corpus luteum
+
+- The ruptured follicle develops into the corpus luteum.
+- The corpus luteum secretes progesterone and some oestrogen.
+- These hormones maintain the endometrium.
+
+### Stage 4: Degeneration of corpus luteum
+
+If pregnancy does not occur:
+- The corpus luteum degenerates.
+- Progesterone and oestrogen levels decrease.
+- The endometrium is no longer maintained.
+- Menstruation begins.
+
+## 15.3.4 Uterine Cycle
+
+The uterine cycle describes changes in the endometrium.
+
+### A. Menstrual phase
+
+Approximately Days 1–5 in a typical 28-day cycle.
+
+What happens:
+- The corpus luteum from the previous cycle degenerates.
+- Progesterone and oestrogen levels fall.
+- The endometrium breaks down.
+- Blood, mucus and tissue fragments are discharged through the vagina.
+
+Why does menstruation occur?
+
+The endometrium is maintained by ovarian hormones. When progesterone and oestrogen decrease, the endometrium can no longer be maintained and is shed.
+
+### B. Proliferative phase
+
+Approximately Days 6–14 in a typical cycle.
+
+What happens:
+- FSH stimulates follicle development.
+- Developing follicles secrete oestrogen.
+- Oestrogen stimulates regeneration of the endometrium.
+- The endometrium becomes thicker.
+- Blood vessels and uterine glands develop further.
+
+Purpose:
+- Prepares the uterus for possible implantation.
+
+### C. Secretory phase
+
+Approximately Days 15–28 in a typical cycle.
+
+What happens:
+- Ovulation has occurred.
+- The corpus luteum secretes progesterone.
+- The endometrium becomes more vascular.
+- Uterine glands become more active and secrete nutrient-rich substances.
+- The endometrium is maintained in preparation for implantation.
+
+If pregnancy does not occur:
+- The corpus luteum degenerates.
+- Progesterone decreases.
+- The endometrium breaks down.
+- A new menstrual cycle begins.
+
+## 15.3.5 Relationship Between the Ovarian and Uterine Cycles
+
+| Ovarian event | Hormonal change | Uterine response |
+|---|---|---|
+| Follicular development | Oestrogen increases | Endometrium repairs and thickens |
+| Ovulation | LH surge | Endometrium continues developing |
+| Corpus luteum formation | Progesterone increases | Endometrium becomes secretory and is maintained |
+| Corpus luteum degeneration | Progesterone and oestrogen decrease | Endometrium breaks down |
+
+## 15.3.6 Hormonal Feedback Mechanisms
+
+Hormonal feedback is essential for coordinating the menstrual cycle.
+
+**Negative feedback:**
+- Moderate oestrogen levels generally suppress FSH and LH secretion.
+- Progesterone suppresses the secretion of FSH and LH after ovulation.
+- This helps prevent unnecessary development of additional follicles.
+
+**Positive feedback before ovulation:**
+- A sustained high level of oestrogen from the dominant follicle stimulates the hypothalamus and pituitary gland.
+- This produces a surge in LH.
+- The LH surge triggers ovulation.
+
+This is an important example of positive feedback in the reproductive system.
+
+## 15.3.7 What Happens if Fertilisation Does Not Occur?
+
+1. The secondary oocyte is not fertilised.
+2. The corpus luteum eventually degenerates.
+3. Progesterone and oestrogen concentrations decrease.
+4. The endometrium loses hormonal support.
+5. The endometrium breaks down.
+6. Menstruation occurs.
+
+## 15.3.8 What Happens if Pregnancy Occurs?
+
+1. Fertilisation occurs in the fallopian tube.
+2. The early embryo develops and travels towards the uterus.
+3. The blastocyst implants into the endometrium.
+4. Developing embryonic tissue produces human chorionic gonadotropin (hCG).
+5. hCG helps maintain the corpus luteum during early pregnancy.
+6. Progesterone secretion continues.
+7. The endometrium is maintained.
+8. Menstruation does not occur during an ongoing pregnancy.
+
+Later, the placenta becomes the major source of progesterone and oestrogen.
+
+## 15.3.9 Important Differences
+
+| Term | Meaning |
+|---|---|
+| Menstruation | Shedding of the endometrium |
+| Ovulation | Release of a secondary oocyte |
+| Fertilisation | Fusion of gamete nuclei |
+| Implantation | Embedding of the blastocyst in the endometrium |
+| Menstrual cycle | Cyclic ovarian and uterine changes |
+
+---
+
+# 15.4 DEVELOPMENT OF HUMAN FOETUS
+
+## 15.4.1 Fertilisation
+
+Fertilisation is the fusion of the nucleus of a male gamete with the nucleus of a female gamete.
+
+It usually occurs in the ampulla of the fallopian tube.
+
+### Steps of fertilisation
+
+1. Sperm cells travel through the female reproductive tract.
+2. A sperm reaches the secondary oocyte.
+3. The acrosome releases enzymes that help the sperm penetrate the outer coverings.
+4. The sperm membrane fuses with the oocyte membrane.
+5. The sperm nucleus enters the oocyte.
+6. Changes to the oocyte membrane and its surrounding structures help prevent additional sperm from entering.
+7. The secondary oocyte completes meiosis II.
+8. The male and female genetic material combines.
+9. A diploid zygote is formed.
+
+**Important:** The secondary oocyte completes meiosis II only after sperm entry.
+
+## 15.4.2 Early Embryonic Development
+
+After fertilisation, the zygote undergoes repeated mitotic divisions.
+
+This series of divisions is called cleavage.
+
+### A. Zygote
+
+- The first diploid cell formed after fertilisation.
+- Contains genetic material from both parents.
+- Begins dividing by mitosis.
+
+### B. Morula
+
+- A solid ball of cells formed after several cleavage divisions.
+- Contains many blastomeres.
+- Continues travelling towards the uterus.
+
+### C. Blastocyst
+
+- A hollow, fluid-filled structure.
+- Contains an outer layer called the trophoblast.
+- Contains an inner cell mass.
+- The inner cell mass develops into the embryo.
+- The trophoblast contributes to the development of supporting structures, including part of the placenta.
+
+### D. Implantation
+
+Implantation occurs when the blastocyst attaches to and becomes embedded in the endometrium.
+
+Importance:
+- Establishes a connection with maternal tissues.
+- Allows development of the placenta.
+- Supports exchange of nutrients and gases.
+- Provides a suitable environment for further development.
+
+## 15.4.3 Embryonic Development and Germ Layers
+
+During early embryonic development, cells differentiate into three primary germ layers.
+
+**1. Ectoderm**
+
+Develops into structures including:
+- Epidermis of the skin.
+- Brain.
+- Spinal cord.
+- Many parts of the nervous system.
+
+**2. Mesoderm**
+
+Develops into structures including:
+- Muscles.
+- Bones.
+- Blood.
+- Heart.
+- Blood vessels.
+- Kidneys.
+- Reproductive organs.
+
+**3. Endoderm**
+
+Develops into structures including:
+- Epithelial lining of much of the digestive tract.
+- Epithelial lining of the respiratory tract.
+- Liver.
+- Pancreas.
+
+The three germ layers provide the foundation for the development of different organs and tissues.
+
+## 15.4.4 Embryo and Foetus
+
+**Embryo:**
+- The developing human during the early stages after fertilisation.
+- Major body structures and organs begin to form.
+- Organ formation is called organogenesis.
+
+**Foetus:**
+- The developing human from approximately the ninth week after fertilisation until birth.
+- Organs continue growing and maturing.
+- Body size and mass increase significantly.
+
+## 15.4.5 Structures Supporting Foetal Development
+
+### A. Placenta
+
+The placenta is a temporary organ that develops between maternal and foetal tissues.
+
+It provides an exchange surface between maternal blood and foetal blood.
+
+**Functions:**
+
+1. Transfers oxygen from maternal blood to foetal blood.
+2. Transfers nutrients such as glucose and amino acids to the foetus.
+3. Allows carbon dioxide to move from foetal blood to maternal blood.
+4. Allows metabolic waste products to move from foetal blood to maternal blood.
+5. Produces hormones that help maintain pregnancy.
+6. Provides partial protection by acting as a selective barrier.
+
+**Placental exchange:**
+
+- Oxygen moves from maternal blood to foetal blood by diffusion.
+- Carbon dioxide moves from foetal blood to maternal blood.
+- Glucose and other nutrients cross the placental barrier through appropriate transport mechanisms.
+- Waste products pass from foetal blood to maternal blood for removal.
+
+**Important:** Maternal and foetal blood normally do not mix directly. Their substances are exchanged across the placental barrier.
+
+The placenta is not a complete barrier. Some medicines, alcohol, nicotine, harmful chemicals and pathogens can cross it.
+
+### B. Umbilical Cord
+
+The umbilical cord connects the foetus to the placenta.
+
+It contains:
+- Two umbilical arteries.
+- One umbilical vein.
+
+**Umbilical arteries:**
+- Carry blood from the foetus to the placenta.
+- Blood is relatively low in oxygen.
+- Blood contains carbon dioxide and metabolic waste.
+
+**Umbilical vein:**
+- Carries blood from the placenta to the foetus.
+- Blood is relatively high in oxygen.
+- Blood contains nutrients.
+
+The umbilical vein carries oxygenated blood even though it is a vein.
+
+The umbilical arteries carry deoxygenated blood even though they are arteries.
+
+This is because arteries and veins are classified according to the direction of blood flow relative to the heart, not according to oxygen content.
+
+### C. Amnion
+
+The amnion is a membrane that surrounds the developing embryo and foetus.
+
+It encloses the amniotic cavity containing amniotic fluid.
+
+### D. Amniotic Fluid
+
+Functions:
+1. Absorbs shocks and reduces the effects of mechanical impacts.
+2. Protects the foetus from physical injury.
+3. Allows free movement.
+4. Prevents the foetus from sticking to surrounding membranes.
+5. Helps maintain a stable environment.
+6. Supports normal musculoskeletal development through movement.
+
+### E. Chorion
+
+The chorion is the outer embryonic membrane.
+
+It contributes to the development of the foetal part of the placenta and forms structures involved in exchange between the mother and developing embryo.
+
+### F. Uterus
+
+Functions:
+- Houses the developing embryo and foetus.
+- Expands as the foetus grows.
+- Contains the placenta and amniotic structures during pregnancy.
+- Produces powerful muscular contractions during labour.
+
+## 15.4.6 Maternal and Foetal Blood Circulation
+
+Maternal blood enters the spaces surrounding the placental villi.
+
+Foetal blood flows through capillaries inside the chorionic villi.
+
+The thin placental barrier separates the two blood supplies.
+
+Exchange occurs across this barrier.
+
+**Substances moving from mother to foetus:**
+- Oxygen.
+- Glucose.
+- Amino acids.
+- Fatty acids.
+- Vitamins.
+- Water.
+- Mineral ions.
+
+**Substances moving from foetus to mother:**
+- Carbon dioxide.
+- Urea.
+- Other metabolic waste products.
+
+## 15.4.7 Foetal Development by Trimesters
+
+Pregnancy is divided into three trimesters.
+
+### First trimester
+
+Approximately Weeks 1–12 of pregnancy.
+
+Major events:
+- Fertilisation and implantation occur.
+- Embryonic development takes place.
+- The three germ layers form.
+- Major organs begin developing.
+- The heart begins beating early in development.
+- Limb structures develop.
+- The embryo becomes recognisable as a foetus.
+
+### Second trimester
+
+Approximately Weeks 13–27.
+
+Major events:
+- Rapid growth occurs.
+- Bones become more developed.
+- Muscles strengthen.
+- Foetal movement becomes more noticeable.
+- External body features become more recognisable.
+- Organ systems continue maturing.
+
+### Third trimester
+
+Approximately Week 28 until birth.
+
+Major events:
+- The foetus gains considerable body mass.
+- The brain develops further.
+- The lungs continue maturing.
+- Fat accumulates beneath the skin.
+- The foetus prepares for life outside the uterus.
+- The foetus often moves into a head-down position before birth.
+
+## 15.4.8 Childbirth (Parturition)
+
+Childbirth is the process through which the baby is delivered from the uterus.
+
+It involves coordinated hormonal and muscular changes.
+
+**Stages of childbirth:**
+
+1. Dilation stage
+   - Uterine contractions begin.
+   - The cervix gradually dilates.
+   - The amniotic sac may rupture.
+
+2. Expulsion stage
+   - Strong uterine contractions push the baby through the cervix and vagina.
+   - The baby is delivered.
+
+3. Placental stage
+   - Further uterine contractions detach and expel the placenta and associated membranes.
+
+Oxytocin stimulates uterine contractions and participates in positive feedback during labour.
+
+## 15.4.9 Factors Affecting Foetal Development
+
+### Maternal nutrition
+
+- Protein is needed for tissue formation.
+- Iron is needed for haemoglobin production.
+- Calcium is needed for bone development.
+- Folic acid supports normal neural tube development.
+- Iodine supports thyroid hormone production.
+- Adequate energy and other nutrients support growth.
+
+### Harmful substances
+
+- Alcohol can interfere with brain and body development.
+- Smoking exposes the foetus to harmful substances and reduces oxygen availability.
+- Certain drugs and medicines may affect development.
+- Some environmental chemicals can harm the developing foetus.
+
+### Maternal health
+
+- Certain infections can affect foetal development.
+- Poorly controlled chronic diseases may increase pregnancy risks.
+- Regular antenatal care helps identify and manage health problems.
+
+---
+
+# 15.5 FORMATION OF TWINS
+
+## 15.5.1 Introduction
+
+Twins are two offspring produced from the same pregnancy.
+
+There are two main types:
+1. Monozygotic twins (identical twins).
+2. Dizygotic twins (fraternal twins).
+
+The main difference is the number of zygotes involved in their formation.
+
+## 15.5.2 Monozygotic Twins (Identical Twins)
+
+Monozygotic twins develop from a single fertilised ovum.
+
+### Formation process
+
+1. One ovum is released from an ovary.
+2. One sperm fertilises the ovum.
+3. One diploid zygote is formed.
+4. During early development, the embryo separates into two groups of cells.
+5. Each group develops into an individual embryo.
+6. Two offspring develop.
+
+### Characteristics
+
+- Usually have the same biological sex.
+- Have almost identical nuclear genetic information.
+- Often have similar physical features.
+- Usually have very similar blood groups.
+- May have different fingerprints because fingerprints are also influenced by developmental conditions.
+
+### Placental arrangements
+
+The arrangement depends on when the embryo separates.
+
+- Early separation may result in two chorions and two amniotic sacs.
+- Later separation may result in one shared chorion but two amniotic sacs.
+- Even later separation may result in one shared chorion and one shared amniotic sac.
+- Very late or incomplete separation can result in conjoined twins.
+
+Not all identical twins share the same placenta or amniotic sac.
+
+## 15.5.3 Dizygotic Twins (Fraternal Twins)
+
+Dizygotic twins develop from two separate ova fertilised by two different sperm cells.
+
+### Formation process
+
+1. Two ova are released during the same reproductive cycle.
+2. Each ovum is fertilised by a different sperm.
+3. Two separate diploid zygotes are formed.
+4. Each zygote develops into an embryo.
+5. Two offspring develop in the same pregnancy.
+
+### Characteristics
+
+- Genetically similar to ordinary siblings.
+- Share approximately half of their segregating genetic variants on average.
+- May be the same biological sex or different biological sexes.
+- Usually develop with separate chorions and amniotic sacs.
+- Their placentas may appear fused if they implant close together.
+
+## 15.5.4 Comparison Between Monozygotic and Dizygotic Twins
+
+| Feature | Monozygotic | Dizygotic |
+|---|---|---|
+| Common name | Identical twins | Fraternal twins |
+| Number of ova | One | Two |
+| Number of sperm | One | Two |
+| Number of zygotes | One | Two |
+| Genetic similarity | Almost identical | Similar to ordinary siblings |
+| Biological sex | Usually the same | Same or different |
+| Placental arrangement | Depends on separation timing | Usually separate placentas |
+
+## 15.5.5 Factors Associated with Dizygotic Twinning
+
+The chance of releasing more than one ovum may be influenced by:
+- Maternal family history.
+- Maternal age.
+- Previous pregnancies.
+- Certain fertility treatments.
+
+Identical twinning is generally less strongly associated with inherited factors and often occurs without a clear identifiable cause.
+
+## 15.5.6 Higher-Order Multiple Births
+
+Triplets or other multiple births can form through different combinations.
+
+Examples:
+- Three separate ova fertilised by three sperm cells.
+- One zygote separating into three embryos.
+- A combination of monozygotic and dizygotic development.
+
+---
+
+# 15.6 HEALTH ISSUES RELATED TO THE HUMAN REPRODUCTIVE SYSTEM
+
+## 15.6.1 Infertility
+
+Infertility refers to a reproductive condition in which pregnancy has not occurred after a specified period of regular unprotected sexual intercourse. Clinical definitions commonly use 12 months, although earlier assessment may be appropriate depending on age and medical circumstances.
+
+Infertility can involve male factors, female factors or a combination of both.
+
+### A. Male infertility
+
+Possible causes:
+
+**1. Low sperm count**
+- Fewer sperm cells are present in semen.
+- This reduces the number of sperm available to reach an ovum.
+
+**2. Poor sperm motility**
+- Sperm cells have difficulty moving effectively.
+- This reduces their ability to travel through the female reproductive tract.
+
+**3. Abnormal sperm morphology**
+- Sperm may have abnormal head, middle-piece or tail structures.
+- These abnormalities may affect movement or fertilisation.
+
+**4. Blockage of reproductive ducts**
+- Prevents sperm from being transported normally.
+
+**5. Hormonal problems**
+- Abnormal FSH, LH or testosterone levels can interfere with sperm production.
+
+**6. Testicular damage**
+- Injury, certain infections or excessive heat can affect spermatogenesis.
+
+### B. Female infertility
+
+Possible causes:
+
+**1. Ovulation disorders**
+- The ovary may not release an oocyte regularly.
+- Hormonal imbalance may interfere with follicular development and ovulation.
+
+**2. Blocked fallopian tubes**
+- Prevent sperm and ovum from meeting normally.
+- May also interfere with movement of the early embryo.
+
+**3. Endometriosis**
+- Tissue similar to the uterine lining grows outside the uterus.
+- May cause inflammation, pain and reproductive complications.
+
+**4. Polycystic ovary syndrome (PCOS)**
+- A hormonal and metabolic condition.
+- May interfere with regular ovulation.
+
+**5. Uterine conditions**
+- Certain abnormalities or disorders may affect implantation.
+
+### C. Management of infertility
+
+Depending on the cause:
+- Medical investigations.
+- Hormonal treatment.
+- Treatment of infections or underlying conditions.
+- Surgery for selected structural problems.
+- Assisted reproductive technologies.
+
+### D. Assisted reproductive technologies
+
+**In vitro fertilisation (IVF)**
+
+IVF is a technique in which fertilisation takes place outside the body under controlled laboratory conditions.
+
+General stages:
+1. Medication stimulates the development of ovarian follicles.
+2. Mature oocytes are collected.
+3. Sperm is collected and prepared.
+4. Fertilisation occurs in a laboratory.
+5. The resulting embryos are monitored.
+6. A suitable embryo may be transferred into the uterus.
+7. Implantation may occur if development continues successfully.
+
+**Intracytoplasmic sperm injection (ICSI)**
+
+- A single sperm is injected directly into an oocyte.
+- It may be used in selected cases of male-factor infertility.
+
+**Important:** Assisted reproductive technologies do not guarantee pregnancy.
+
+## 15.6.2 Sexually Transmitted Infections (STIs)
+
+STIs are infections that are transmitted mainly through sexual contact.
+
+Some can also spread through infected blood or from an infected mother to her baby.
+
+### A. Human Immunodeficiency Virus (HIV)
+
+HIV is a virus that attacks the immune system, especially CD4 T lymphocytes.
+
+**Effects:**
+- Reduces the number and function of CD4 T cells.
+- Weakens immune defence.
+- Increases susceptibility to certain opportunistic infections.
+- Without effective treatment, HIV can progress to AIDS.
+
+**AIDS:**
+Acquired immunodeficiency syndrome is the advanced stage of HIV infection in which severe immune damage has occurred.
+
+**Management:**
+- Antiretroviral therapy (ART) suppresses viral replication.
+- ART helps preserve immune function.
+- People receiving effective treatment can live long and healthy lives.
+- Treatment also greatly reduces the risk of sexual transmission.
+
+HIV is not transmitted through ordinary social contact such as sharing food, shaking hands or hugging.
+
+### B. Gonorrhoea
+
+- Caused by the bacterium Neisseria gonorrhoeae.
+- Can infect the reproductive tract.
+- Symptoms may include unusual discharge and pain during urination.
+- Some people have no symptoms.
+- Untreated infection may cause pelvic inflammatory disease and infertility.
+- Requires appropriate antibiotic treatment.
+
+### C. Syphilis
+
+- Caused by Treponema pallidum.
+- May begin with a painless sore.
+- Later stages may involve skin, nervous system and organ complications.
+- Can be transmitted from an infected pregnant mother to the developing foetus.
+- Can be treated with appropriate antibiotics.
+
+### D. Genital herpes
+
+- Commonly caused by herpes simplex virus type 1 or type 2.
+- May cause painful blisters or sores.
+- Infection can remain in the body and recur.
+- Antiviral medicines can reduce symptoms and outbreaks but do not eliminate the virus.
+
+### E. Human papillomavirus (HPV)
+
+- A group of viruses that infect the skin and mucous membranes.
+- Some types cause genital warts.
+- Certain high-risk types can cause cervical and other cancers.
+- HPV vaccination reduces the risk of infection from important cancer-causing types.
+
+### F. Chlamydia
+
+- Caused by Chlamydia trachomatis.
+- Frequently causes no noticeable symptoms.
+- May cause abnormal discharge or pain during urination.
+- Untreated infection can lead to reproductive complications.
+- Can be treated with appropriate antibiotics.
+
+## 15.6.3 Prevention of STIs
+
+1. HPV and hepatitis B vaccination according to health recommendations.
+2. Correct and consistent condom use reduces the risk of many STIs.
+3. STI screening when appropriate.
+4. Early diagnosis and treatment.
+5. Avoid sharing needles or equipment contaminated with blood.
+6. Seeking medical advice after possible exposure.
+7. Understanding how infections are transmitted.
+
+Not all STIs have vaccines, and not all infections cause visible symptoms.
+
+## 15.6.4 Menstrual Disorders
+
+Menstrual disorders are conditions involving abnormal menstrual bleeding, timing or pain.
+
+### A. Dysmenorrhoea
+
+Dysmenorrhoea refers to painful menstruation.
+
+Possible causes:
+- Prostaglandins stimulate uterine contractions.
+- Strong contractions may temporarily reduce blood flow to uterine tissue.
+- This can cause pain and cramping.
+
+Management may include medical assessment, suitable pain relief and treatment of underlying causes.
+
+### B. Amenorrhoea
+
+Amenorrhoea is the absence of menstruation.
+
+Possible causes:
+- Pregnancy.
+- Hormonal disorders.
+- Certain medical conditions.
+- Major changes in body energy availability.
+- Stress or excessive physical demands.
+
+### C. Menorrhagia
+
+Menorrhagia refers to unusually heavy or prolonged menstrual bleeding.
+
+Possible effects:
+- Iron deficiency.
+- Anaemia.
+- Fatigue.
+- Reduced quality of life.
+
+### D. Irregular Menstrual Cycles
+
+Possible causes:
+- Hormonal changes.
+- PCOS.
+- Thyroid disorders.
+- Stress.
+- Certain illnesses.
+- Changes in reproductive development.
+
+Persistent or severe menstrual symptoms should be assessed by a healthcare professional.
+
+## 15.6.5 Other Reproductive Health Conditions
+
+### A. Endometriosis
+
+- Tissue similar to endometrium grows outside the uterus.
+- Can cause pelvic pain.
+- May cause painful menstruation.
+- Can contribute to infertility.
+
+### B. Cervical cancer
+
+- Many cases are associated with persistent infection by high-risk HPV types.
+- Abnormal cells develop in the cervix.
+- Screening can detect precancerous changes.
+- HPV vaccination reduces the risk of important HPV-related cancers.
+
+### C. Testicular cancer
+
+- Cancer develops in the testicular tissue.
+- May cause a lump, swelling or discomfort.
+- Early medical assessment is important.
+
+## 15.6.6 Reproductive Health Protection
+
+- Maintain personal hygiene.
+- Understand normal reproductive changes.
+- Seek medical attention for unusual symptoms.
+- Follow recommended vaccination schedules.
+- Attend appropriate health screenings.
+- Avoid smoking and harmful substances.
+- Obtain accurate health information from qualified professionals.
+
+---
+
+# 15.7 GROWTH IN HUMANS AND ANIMALS
+
+## 15.7.1 Definition of Growth
+
+Growth is a permanent and irreversible increase in an organism's size, dry mass or number of cells.
+
+Growth involves:
+1. Cell division.
+2. Cell enlargement.
+3. Cell differentiation.
+4. Development of tissues and organs.
+
+### Cell division
+
+Mitosis increases the number of cells.
+
+### Cell enlargement
+
+Cells increase in size through the synthesis of cellular components and accumulation of materials.
+
+### Cell differentiation
+
+Unspecialised cells develop specialised structures and functions.
+
+These processes contribute to the formation and growth of tissues and organs.
+
+## 15.7.2 Difference Between Growth and Development
+
+**Growth:**
+- Increase in size, dry mass or cell number.
+- Can be measured quantitatively.
+- Usually involves cell division and enlargement.
+
+**Development:**
+- Changes in structure, function and complexity.
+- Includes differentiation and maturation.
+- Can occur without a large increase in body size.
+
+Example:
+
+A child increasing in height demonstrates growth.
+
+A child developing improved coordination and more specialised body functions demonstrates development.
+
+## 15.7.3 Growth in Humans
+
+Human growth is generally continuous, although its rate varies at different stages of life.
+
+### A. Infancy
+
+- Very rapid increase in body mass and length.
+- Brain develops rapidly.
+- Muscles and bones grow.
+- Motor skills gradually develop.
+- The digestive and immune systems continue maturing.
+
+### B. Childhood
+
+- Body size increases.
+- Bones lengthen.
+- Muscles develop.
+- Coordination improves.
+- Cognitive and physical development continue.
+
+### C. Adolescence
+
+Adolescence is a period of rapid physical and sexual development.
+
+Important changes:
+- Puberty begins.
+- Sex hormones increase.
+- Secondary sexual characteristics develop.
+- Reproductive organs mature.
+- A growth spurt occurs.
+- Bone and muscle development accelerate.
+
+**Growth hormone:**
+- Secreted by the anterior pituitary gland.
+- Stimulates growth of bones and other tissues.
+- Acts partly through insulin-like growth factor 1 (IGF-1).
+
+**Thyroxine:**
+- Secreted by the thyroid gland.
+- Supports normal metabolism and growth.
+- Is important for normal development.
+
+**Sex hormones:**
+- Testosterone and oestrogen contribute to pubertal changes.
+- They help produce the adolescent growth spurt.
+- They also contribute to the eventual closure of growth plates.
+
+### D. Adulthood
+
+- Most individuals have completed growth in height.
+- Epiphyseal growth plates have closed.
+- Cells continue to divide for maintenance and repair.
+- Bone and muscle tissues continue undergoing remodelling.
+
+### E. Old Age
+
+- Some physiological functions gradually decline.
+- Muscle mass may decrease.
+- Bone density may decrease.
+- Tissue repair may become slower.
+- Cells continue to undergo replacement and maintenance.
+
+## 15.7.4 Human Growth at the Bone Level
+
+Long bones increase in length at the epiphyseal growth plates.
+
+The growth process involves:
+
+1. Cartilage cells divide at the growth plate.
+2. New cartilage is formed.
+3. Older cartilage cells enlarge.
+4. Cartilage is gradually replaced by bone tissue.
+5. The bone increases in length.
+
+During late adolescence and adulthood, the growth plates close.
+
+Once they close, bones generally cannot increase in length through this process.
+
+Bones can still remodel throughout life.
+
+## 15.7.5 Factors Affecting Human Growth
+
+### A. Genetic factors
+
+- Genes influence height potential.
+- Genes influence body structure.
+- Genetic conditions can affect growth and development.
+
+### B. Nutrition
+
+**Protein:**
+- Needed for the formation of muscles, enzymes and body tissues.
+
+**Calcium and phosphorus:**
+- Important for bone mineralisation.
+
+**Vitamin D:**
+- Helps the body absorb calcium.
+- Supports normal bone development.
+
+**Iron:**
+- Needed for haemoglobin production and oxygen transport.
+
+**Iodine:**
+- Needed for thyroid hormone production.
+
+**Energy:**
+- Supports metabolism, cell division and growth.
+
+### C. Hormonal factors
+
+Important hormones:
+- Growth hormone.
+- Thyroxine.
+- Insulin.
+- Oestrogen.
+- Testosterone.
+
+An imbalance in these hormones may interfere with normal growth.
+
+### D. Environmental and health factors
+
+- Sleep.
+- Physical activity.
+- General health.
+- Chronic diseases.
+- Stress.
+- Access to adequate nutrition.
+
+## 15.7.6 Continuous Growth in Animals
+
+Continuous growth refers to growth that occurs gradually over time without requiring the animal to shed an entire rigid external skeleton.
+
+Examples include many mammals and birds.
+
+Characteristics:
+- Body size increases through cell division and enlargement.
+- The internal skeleton grows along with the body.
+- Growth rate is usually higher during early life.
+- Growth gradually slows as the animal approaches maturity.
+
+Examples:
+- Humans.
+- Cats.
+- Dogs.
+- Cows.
+- Birds.
+
+## 15.7.7 Discontinuous Growth in Animals
+
+Discontinuous growth occurs in many arthropods, such as insects and crustaceans.
+
+These animals possess an exoskeleton.
+
+The rigid exoskeleton:
+- Provides support.
+- Protects internal organs.
+- Provides attachment points for muscles.
+- Restricts continuous expansion of the body.
+
+Therefore, growth requires the animal to shed its old exoskeleton.
+
+This process is called ecdysis or moulting.
+
+### Stages of moulting
+
+1. The old exoskeleton separates from the underlying epidermis.
+2. A new exoskeleton begins forming underneath.
+3. The old exoskeleton is shed.
+4. The animal expands its body while the new exoskeleton is soft.
+5. The new exoskeleton hardens.
+
+The animal is particularly vulnerable during the period when its new exoskeleton is soft.
+
+### Why is moulting necessary?
+
+The rigid exoskeleton cannot expand continuously with the growing animal.
+
+Shedding the old exoskeleton provides space for body expansion.
+
+## 15.7.8 Complete Metamorphosis
+
+Complete metamorphosis involves four stages:
+
+Egg → Larva → Pupa → Adult.
+
+Example: Butterfly.
+
+### A. Egg
+
+- Embryonic development occurs inside the egg.
+- The larva emerges after development.
+
+### B. Larva
+
+- The larva is specialised for feeding and growth.
+- It consumes food and increases in size.
+- It undergoes several moults.
+- Its body structure differs significantly from that of the adult.
+
+Example: Caterpillar.
+
+### C. Pupa
+
+- The insect enters a stage of major transformation.
+- Adult structures develop.
+- Body tissues undergo extensive reorganisation.
+- The pupa generally does not feed.
+
+Example: Chrysalis in butterflies.
+
+### D. Adult
+
+- The adult emerges from the pupal case.
+- Wings and reproductive structures are developed.
+- Adults are responsible for reproduction.
+
+Other examples:
+- Mosquitoes.
+- Houseflies.
+- Beetles.
+
+## 15.7.9 Incomplete Metamorphosis
+
+Incomplete metamorphosis involves three stages:
+
+Egg → Nymph → Adult.
+
+Examples:
+- Grasshopper.
+- Cockroach.
+- Dragonfly.
+
+### A. Egg
+
+Embryonic development occurs inside the egg.
+
+### B. Nymph
+
+- Resembles a smaller version of the adult.
+- Does not usually have fully developed wings or reproductive organs.
+- Feeds and grows.
+- Undergoes repeated moulting.
+
+### C. Adult
+
+- Has fully developed reproductive organs.
+- May have fully developed wings.
+- Can reproduce.
+
+There is no pupal stage.
+
+## 15.7.10 Comparison Between Complete and Incomplete Metamorphosis
+
+| Feature | Complete metamorphosis | Incomplete metamorphosis |
+|---|---|---|
+| Number of stages | Four | Three |
+| Stages | Egg, larva, pupa, adult | Egg, nymph, adult |
+| Larval stage | Present | Absent |
+| Pupal stage | Present | Absent |
+| Nymph stage | Absent | Present |
+| Appearance of immature stage | Different from adult | Resembles adult |
+| Example | Butterfly | Grasshopper |
+
+## 15.7.11 Growth Curves
+
+A growth curve shows the relationship between a growth measurement and time.
+
+Growth can be measured using:
+- Height.
+- Length.
+- Body mass.
+- Dry mass.
+- Cell number.
+
+### A. Human growth curve
+
+Human growth generally shows a sigmoid pattern.
+
+**Phase 1: Infancy**
+- Rapid growth.
+- Cells divide and enlarge.
+- Body mass and length increase quickly.
+
+**Phase 2: Childhood**
+- Growth continues at a more moderate rate.
+- Height increases steadily.
+
+**Phase 3: Adolescence**
+- Rapid growth occurs during puberty.
+- Hormones stimulate increased growth of bones and other tissues.
+
+**Phase 4: Adulthood**
+- Growth in height slows and stops.
+- The growth curve reaches a plateau.
+
+### B. Insect growth curve
+
+Many insects show a step-like growth curve.
+
+Between moults:
+- The rigid exoskeleton restricts body expansion.
+- Body size increases very little.
+
+During and immediately after moulting:
+- The old exoskeleton is shed.
+- The body expands.
+- The new exoskeleton hardens.
+
+This produces sudden increases in body size separated by periods of limited external growth.
+
+## 15.7.12 How to Interpret Growth Curves
+
+When analysing a graph:
+
+1. Identify the x-axis and y-axis.
+2. Identify the growth measurement.
+3. Identify periods of rapid growth.
+4. Identify periods of slow growth or a plateau.
+5. Compare the growth patterns.
+6. Explain the biological reason for the pattern.
+
+**Important comparison:**
+
+Human growth:
+- Generally continuous.
+- No shedding of the internal skeleton.
+- Growth slows as maturity is reached.
+
+Insect growth:
+- Often discontinuous.
+- Rigid exoskeleton restricts expansion.
+- Growth increases significantly after moulting.
+
+---
+
+# CHAPTER 15: IMPORTANT BIOLOGICAL COMPARISONS
+
+## A. Fertilisation vs Implantation
+
+| Fertilisation | Implantation |
+|---|---|
+| Fusion of gamete nuclei | Embedding of blastocyst |
+| Usually occurs in fallopian tube | Occurs in endometrium |
+| Produces a zygote | Establishes attachment to maternal tissue |
+
+## B. Menstruation vs Ovulation
+
+| Menstruation | Ovulation |
+|---|---|
+| Endometrium is shed | Secondary oocyte is released |
+| Caused by decreased ovarian hormones | Triggered by LH surge |
+| Occurs at the beginning of a typical cycle | Usually occurs around the middle of a typical 28-day cycle |
+
+## C. Sperm vs Ovum
+
+| Sperm | Ovum |
+|---|---|
+| Small | Large |
+| Motile | Non-motile |
+| Has a flagellum | Does not have a flagellum |
+| Has an acrosome | Has protective outer coverings |
+| Very little cytoplasm | Large amount of cytoplasm |
+| Produced in testes | Produced in ovaries |
+
+## D. Monozygotic vs Dizygotic Twins
+
+| Monozygotic | Dizygotic |
+|---|---|
+| One zygote | Two zygotes |
+| One ovum fertilised | Two ova fertilised |
+| One sperm involved in initial fertilisation | Two sperm involved |
+| Almost identical nuclear genes | Genetic similarity like ordinary siblings |
+| Usually same biological sex | Same or different biological sex |
+
+## E. Continuous vs Discontinuous Growth
+
+| Continuous growth | Discontinuous growth |
+|---|---|
+| Gradual increase in size | Increase occurs in stages |
+| Common in many vertebrates | Common in arthropods |
+| Internal skeleton grows with body | Rigid exoskeleton must be shed |
+| No whole-body exoskeleton moulting | Moulting occurs |
+
+---
+
+# CHAPTER 15: IMPORTANT DEFINITIONS
+
+1. Sexual reproduction: Reproduction involving the fusion of male and female gametes.
+2. Gametogenesis: Formation of haploid gametes.
+3. Spermatogenesis: Formation of sperm cells.
+4. Oogenesis: Formation of female gametes.
+5. Fertilisation: Fusion of male and female gamete nuclei.
+6. Zygote: Diploid cell formed after fertilisation.
+7. Ovulation: Release of a secondary oocyte from the ovary.
+8. Menstruation: Shedding of the endometrium.
+9. Implantation: Attachment and embedding of the blastocyst in the endometrium.
+10. Placenta: Temporary organ that facilitates exchange between maternal and foetal blood.
+11. Monozygotic twins: Twins developing from one zygote.
+12. Dizygotic twins: Twins developing from two zygotes.
+13. Infertility: Difficulty achieving pregnancy.
+14. Growth: Permanent and irreversible increase in size, dry mass or cell number.
+15. Development: Changes in structure and function as an organism matures.
+16. Ecdysis: Shedding of the old exoskeleton.
+17. Metamorphosis: Transformation through distinct developmental stages.
+18. Cleavage: Rapid mitotic divisions of the early embryo.
+19. Morula: Solid ball of cells formed during early embryonic development.
+20. Blastocyst: Early embryonic structure containing an inner cell mass and outer trophoblast.
+21. Parturition: The process of childbirth.
+22. Corpus luteum: Temporary endocrine structure formed from the ruptured ovarian follicle.
+23. Spermiogenesis: Differentiation of spermatids into sperm cells.
+24. Atresia: Degeneration of ovarian follicles that do not continue development.
+
+---
+
+# CHAPTER 15: COMMON EXAMINATION ERRORS
+
+1. Fertilisation usually occurs in the fallopian tube, not the uterus.
+2. Implantation occurs in the endometrium, not in the fallopian tube.
+3. The testes produce sperm in the seminiferous tubules.
+4. The epididymis is responsible for sperm maturation and temporary storage.
+5. The scrotum maintains a suitable temperature for spermatogenesis.
+6. One primary spermatocyte produces four haploid sperm cells.
+7. One primary oocyte generally produces one functional ovum.
+8. Spermatogenesis begins at puberty, whereas oogenesis begins before birth.
+9. The LH surge triggers ovulation; FSH stimulates follicular development.
+10. Progesterone is important for maintaining the endometrium after ovulation.
+11. The corpus luteum forms from the ruptured ovarian follicle.
+12. Menstruation occurs when ovarian hormone levels decrease and the endometrium breaks down.
+13. The secondary oocyte completes meiosis II only after fertilisation.
+14. The placenta allows exchange but maternal and foetal blood normally do not mix directly.
+15. The umbilical vein carries oxygenated blood towards the foetus.
+16. The umbilical arteries carry relatively deoxygenated blood towards the placenta.
+17. Identical twins develop from one zygote; fraternal twins develop from two.
+18. The placenta does not completely prevent harmful substances from reaching the foetus.
+19. Growth and development are related but are not identical.
+20. Insects with rigid exoskeletons require moulting to increase in size.
+21. Complete metamorphosis has a pupal stage; incomplete metamorphosis does not.
+22. Human growth is not equally rapid at every life stage.
+
+---
+
+# CHAPTER 15: SPM-STYLE PRACTICE QUESTIONS AND ANSWER GUIDANCE
+
+## SECTION A: STRUCTURED QUESTIONS
+
+### Question 1: Human Reproductive System
+
+(a) State two functions of the testes. [2 marks]
+
+(b) Explain the importance of the scrotum in sperm production. [3 marks]
+
+(c) Explain how the structure of the fallopian tube supports fertilisation and movement of the early embryo. [3 marks]
+
+**Suggested answer:**
+
+(a)
+- Produces sperm cells.
+- Secretes testosterone.
+
+(b)
+- The scrotum contains the testes outside the abdominal cavity.
+- It maintains the testes at a temperature lower than core body temperature.
+- This temperature is suitable for normal spermatogenesis.
+
+(c)
+- The fallopian tube is the usual site of fertilisation.
+- Cilia help move the ovum and early embryo.
+- Muscular contractions assist movement towards the uterus.
+
+### Question 2: Gametogenesis
+
+(a) Define gametogenesis. [2 marks]
+
+(b) Describe the stages of spermatogenesis. [5 marks]
+
+(c) Explain why oogenesis produces only one functional ovum. [3 marks]
+
+**Suggested answer guidance:**
+
+(a)
+- Formation of haploid gametes through specialised cell division and differentiation.
+
+(b)
+- Spermatogonia divide by mitosis.
+- Some develop into primary spermatocytes.
+- Primary spermatocytes undergo meiosis I.
+- Secondary spermatocytes undergo meiosis II.
+- Four haploid spermatids are formed and differentiate into sperm cells.
+
+(c)
+- Cytoplasm divides unequally during oogenesis.
+- Most cytoplasm is retained in the secondary oocyte.
+- This provides sufficient cytoplasm and organelles for early development.
+
+### Question 3: Menstrual Cycle
+
+(a) Name the hormone responsible for triggering ovulation. [1 mark]
+
+(b) Explain the role of oestrogen during the proliferative phase. [3 marks]
+
+(c) Explain why menstruation occurs if pregnancy does not take place. [4 marks]
+
+**Suggested answer guidance:**
+
+(a)
+- Luteinising hormone (LH).
+
+(b)
+- Oestrogen is secreted by developing ovarian follicles.
+- It stimulates repair of the endometrium.
+- It causes the endometrium to thicken.
+
+(c)
+- The corpus luteum degenerates.
+- Progesterone and oestrogen concentrations decrease.
+- The endometrium loses hormonal support.
+- The endometrium breaks down and is discharged through the vagina.
+
+### Question 4: Foetal Development
+
+(a) Describe the development of a zygote into a blastocyst. [4 marks]
+
+(b) Explain three functions of the placenta. [3 marks]
+
+(c) Explain why maternal and foetal blood do not normally mix directly. [2 marks]
+
+**Suggested answer guidance:**
+
+(a)
+- The zygote undergoes repeated mitotic divisions called cleavage.
+- The cells are called blastomeres.
+- A solid ball of cells called the morula forms.
+- Further development produces a blastocyst.
+
+(b)
+- Transfers oxygen to the foetus.
+- Transfers nutrients to the foetus.
+- Allows carbon dioxide and metabolic waste to pass to the mother.
+
+(c)
+- Maternal and foetal blood flow through separate blood vessels.
+- Substances are exchanged across the placental barrier.
+
+### Question 5: Formation of Twins
+
+(a) Explain the formation of monozygotic twins. [3 marks]
+
+(b) Explain the formation of dizygotic twins. [3 marks]
+
+(c) State two differences between the two types of twins. [2 marks]
+
+**Suggested answer guidance:**
+
+(a)
+- One ovum is fertilised by one sperm.
+- One zygote is formed.
+- The early embryo separates into two groups of cells, developing into two individuals.
+
+(b)
+- Two ova are released.
+- Each ovum is fertilised by a different sperm.
+- Two separate zygotes develop into two individuals.
+
+(c)
+- Monozygotic twins develop from one zygote, whereas dizygotic twins develop from two.
+- Monozygotic twins are genetically almost identical, whereas dizygotic twins are genetically similar to ordinary siblings.
+
+### Question 6: Reproductive Health
+
+(a) Explain how HIV affects the human immune system. [3 marks]
+
+(b) State two ways to reduce the transmission of STIs. [2 marks]
+
+(c) Explain how untreated reproductive tract infections may cause infertility. [3 marks]
+
+**Suggested answer guidance:**
+
+(a)
+- HIV infects CD4 T lymphocytes.
+- It damages immune function.
+- This reduces the body's ability to defend itself against infections.
+
+(b)
+- Appropriate vaccination.
+- Correct and consistent condom use.
+- Screening and early treatment are also acceptable.
+
+(c)
+- Some infections cause inflammation in reproductive organs.
+- Inflammation may cause scarring or blockage of reproductive ducts or fallopian tubes.
+- This can interfere with gamete transport or fertilisation.
+
+### Question 7: Growth in Humans and Animals
+
+(a) Define growth. [2 marks]
+
+(b) Explain why insects undergo moulting. [3 marks]
+
+(c) Compare complete and incomplete metamorphosis. [4 marks]
+
+**Suggested answer guidance:**
+
+(a)
+- Permanent and irreversible increase in size, dry mass or number of cells.
+
+(b)
+- Insects possess a rigid exoskeleton.
+- The exoskeleton restricts continuous expansion.
+- The old exoskeleton must be shed to allow body expansion.
+
+(c)
+- Complete metamorphosis has four stages: egg, larva, pupa and adult.
+- Incomplete metamorphosis has three stages: egg, nymph and adult.
+- Complete metamorphosis includes a pupal stage.
+- Incomplete metamorphosis has no pupal stage.
+
+## SECTION B: APPLICATION AND HIGHER-ORDER THINKING
+
+### Question 8: Hormonal Changes
+
+A woman has a normal menstrual cycle. Her corpus luteum degenerates because fertilisation and implantation have not occurred.
+
+Explain how this affects the endometrium. [4 marks]
+
+**Answer guidance:**
+- The corpus luteum stops producing high levels of progesterone.
+- Progesterone concentration decreases.
+- The endometrium loses hormonal support.
+- The endometrium breaks down and menstruation occurs.
+
+### Question 9: Placental Exchange
+
+A pregnant mother is exposed to a harmful substance that can cross the placental barrier.
+
+Explain why the developing foetus may be affected. [3 marks]
+
+**Answer guidance:**
+- The placenta is a selective exchange surface.
+- It does not completely prevent harmful substances from crossing.
+- The substance may enter foetal circulation and interfere with normal development.
+
+### Question 10: Growth Curves
+
+An insect's body mass increases significantly after each moult, while its external body size changes very little between moults.
+
+Explain this pattern. [4 marks]
+
+**Answer guidance:**
+- The insect has a rigid exoskeleton.
+- The exoskeleton restricts external expansion.
+- The old exoskeleton is shed during moulting.
+- The insect expands before the new exoskeleton hardens.
+
+---
+
+# FINAL LEARNING OUTCOMES
+
+After studying Chapter 15, students should be able to:
+
+1. Identify and explain the functions of male and female reproductive organs.
+2. Explain the relationship between the hypothalamus, pituitary gland and testes.
+3. Describe spermatogenesis and oogenesis in correct sequence.
+4. Explain the chromosome changes during gametogenesis.
+5. Compare male and female gamete formation.
+6. Explain the role of FSH, LH, oestrogen and progesterone.
+7. Describe ovarian and uterine changes during the menstrual cycle.
+8. Explain hormonal feedback and ovulation.
+9. Describe fertilisation, cleavage, implantation and embryonic development.
+10. Explain the functions of the placenta, umbilical cord, amnion and amniotic fluid.
+11. Explain foetal development and childbirth.
+12. Compare monozygotic and dizygotic twins.
+13. Explain reproductive health conditions and their effects.
+14. Describe growth in humans and animals.
+15. Explain complete and incomplete metamorphosis.
+16. Interpret human and insect growth curves.
+
+**END OF CHAPTER 15 KNOWLEDGE FILE**
