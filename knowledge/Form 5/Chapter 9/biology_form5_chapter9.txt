@@ -1,0 +1,1879 @@
+# BIOLOGY FORM 5 — CHAPTER 9
+# ECOSYSTEM
+
+**SUBJECT:** Biology  
+**FORM:** Form 5  
+**CHAPTER:** Chapter 9  
+**CHAPTER TITLE:** Ecosystem  
+**TOPICS:** 9.1, 9.2  
+**SOURCE TYPE:** Original Learning Material  
+**STATUS:** Original Educational Content
+
+---
+
+# 9.1 COMMUNITY AND ECOSYSTEM
+
+## 9.1.1 Introduction to Ecology
+
+Ecology is the branch of biology that studies the interactions between organisms and their environment.
+
+It examines how organisms interact with:
+
+- Other organisms.
+- Physical environmental factors.
+- Chemical environmental factors.
+
+Examples of ecological studies include:
+
+- How plants compete for sunlight.
+- How predators affect prey populations.
+- How rainfall affects plant growth.
+- How decomposers recycle nutrients.
+- How human activities change ecosystems.
+
+## 9.1.2 Levels of Ecological Organisation
+
+Ecological organisation can be arranged from the smallest level to the largest level.
+
+**Organism → Population → Community → Ecosystem → Biome → Biosphere**
+
+### 1. Organism
+
+An organism is an individual living thing.
+
+Examples:
+
+- One grass plant.
+- One frog.
+- One tiger.
+- One bacterium.
+
+### 2. Population
+
+A population is a group of organisms of the same species living in the same geographical area at a particular time.
+
+Example:
+
+All frogs of the same species living in a particular pond.
+
+### 3. Community
+
+A community consists of populations of different species living and interacting in the same area.
+
+Example:
+
+A pond community may contain:
+
+- Fish.
+- Frogs.
+- Algae.
+- Aquatic insects.
+- Snails.
+- Bacteria.
+
+### 4. Ecosystem
+
+An ecosystem consists of a community of organisms interacting with one another and with the non-living components of their environment.
+
+Example:
+
+A pond ecosystem contains living organisms, water, sunlight, dissolved minerals, temperature and other environmental factors.
+
+### 5. Biome
+
+A biome is a large geographical region characterised by its climate and typical vegetation and animal communities.
+
+Examples:
+
+- Tropical rainforest.
+- Desert.
+- Grassland.
+- Tundra.
+
+### 6. Biosphere
+
+The biosphere is the part of Earth where life exists.
+
+It includes all ecosystems and living organisms.
+
+### Important Comparison
+
+| Level | Meaning |
+|---|---|
+| Organism | One individual living thing |
+| Population | Individuals of the same species in an area |
+| Community | Different populations interacting |
+| Ecosystem | Community interacting with the physical environment |
+| Biome | Large region with characteristic climate and organisms |
+| Biosphere | All regions of Earth where life exists |
+
+**Exam tip:**
+
+A population contains organisms of the same species, whereas a community contains populations of different species.
+
+An ecosystem includes both biotic and abiotic components.
+
+## 9.1.3 Components of an Ecosystem
+
+An ecosystem consists of two main components:
+
+1. Biotic components.
+2. Abiotic components.
+
+### A. Biotic Components
+
+Biotic components are the living components of an ecosystem.
+
+They include organisms such as:
+
+- Plants.
+- Animals.
+- Fungi.
+- Bacteria.
+- Algae.
+- Other microorganisms.
+
+Biotic components can be grouped according to their ecological roles.
+
+#### 1. Producers
+
+Producers are organisms that manufacture organic food from inorganic substances.
+
+Most producers carry out photosynthesis.
+
+Examples:
+
+- Green plants.
+- Algae.
+- Photosynthetic bacteria.
+
+During photosynthesis, light energy is converted into chemical energy stored in organic molecules.
+
+Producers form the base of most food chains.
+
+#### 2. Consumers
+
+Consumers obtain energy by feeding on other organisms or organic matter.
+
+They cannot manufacture all their organic food directly from inorganic substances.
+
+Types of consumers:
+
+**Primary Consumers**
+
+- Feed directly on producers.
+- Usually herbivores.
+
+Examples:
+
+- Grasshoppers.
+- Rabbits.
+- Deer.
+- Zooplankton feeding on phytoplankton.
+
+**Secondary Consumers**
+
+- Feed on primary consumers.
+
+Examples:
+
+- Frogs feeding on grasshoppers.
+- Small fish feeding on zooplankton.
+
+**Tertiary Consumers**
+
+- Feed on secondary consumers.
+
+Examples:
+
+- Snakes feeding on frogs.
+- Large predatory fish feeding on smaller predatory fish.
+
+**Quaternary Consumers**
+
+- Feed on tertiary consumers in food chains containing this level.
+
+The number of consumer levels varies between ecosystems.
+
+#### 3. Decomposers
+
+Decomposers break down dead organisms and organic waste into simpler substances.
+
+Examples:
+
+- Bacteria.
+- Fungi.
+
+Functions:
+
+1. Break down dead plants and animals.
+2. Break down organic waste.
+3. Release nutrients into the environment.
+4. Return nutrients to soil and water.
+5. Support nutrient cycling.
+
+**Important:**
+
+Decomposers do not simply make dead organisms disappear. They break down organic matter and release substances that can be reused by other organisms.
+
+### B. Abiotic Components
+
+Abiotic components are the non-living physical and chemical factors in an ecosystem.
+
+Examples include:
+
+**1. Light Intensity**
+
+- Provides energy for photosynthesis.
+- Influences plant growth.
+- Affects the activity of some animals.
+
+**2. Temperature**
+
+- Affects enzyme activity.
+- Influences metabolic rates.
+- Affects organism distribution.
+
+**3. Water Availability**
+
+- Essential for metabolic reactions.
+- Influences plant growth and survival.
+- Determines the distribution of many organisms.
+
+**4. pH**
+
+- Affects enzyme activity.
+- Influences the availability of mineral nutrients.
+- Determines whether organisms can survive in a particular environment.
+
+**5. Humidity**
+
+- Influences the rate of water loss from organisms.
+- Affects the distribution of terrestrial organisms.
+
+**6. Soil Minerals**
+
+- Provide essential mineral nutrients for plant growth.
+- Influence soil fertility.
+
+**7. Dissolved Oxygen**
+
+- Required for aerobic respiration by many aquatic organisms.
+- Influences the survival and distribution of aquatic animals.
+
+**8. Salinity**
+
+- Refers to the concentration of dissolved salts.
+- Influences the water balance of aquatic organisms.
+
+### Interaction Between Biotic and Abiotic Components
+
+Organisms depend on abiotic factors for survival.
+
+Examples:
+
+- Plants require sunlight, water and carbon dioxide for photosynthesis.
+- Fish require dissolved oxygen for aerobic respiration.
+- Earthworms require suitable soil moisture.
+- Aquatic organisms require suitable water temperature and pH.
+
+Abiotic conditions also influence which organisms can survive in an ecosystem.
+
+## 9.1.4 Habitat, Niche and Microhabitat
+
+### Habitat
+
+A habitat is the natural place where an organism lives.
+
+Examples:
+
+- A pond is a habitat for frogs.
+- A tree trunk can be a habitat for insects.
+- A mangrove forest is a habitat for certain crabs and fish.
+- Soil is a habitat for earthworms.
+
+### Microhabitat
+
+A microhabitat is a small, specific part of a larger habitat with particular environmental conditions.
+
+Examples:
+
+- The underside of a fallen log.
+- A small area beneath leaf litter.
+- The surface of a rock in a stream.
+- The space between the roots of a plant.
+
+Microhabitats may differ in moisture, temperature, light and shelter.
+
+### Ecological Niche
+
+An ecological niche refers to the role of an organism in its ecosystem and how it uses resources and interacts with other organisms and the environment.
+
+A niche may include:
+
+- Food sources.
+- Feeding behaviour.
+- Habitat requirements.
+- Activity patterns.
+- Reproductive behaviour.
+- Interactions with other species.
+
+**Example:**
+
+Two bird species may live in the same forest but occupy different niches if they feed on different foods or use different parts of trees.
+
+### Comparison
+
+| Habitat | Niche |
+|---|---|
+| Where an organism lives | The organism's ecological role |
+| Describes its living place | Describes how it lives and interacts |
+| Example: pond | Example: predator feeding on aquatic insects |
+
+## 9.1.5 Interactions Between Organisms
+
+Organisms interact with one another to obtain food, space, shelter and other resources.
+
+Important ecological interactions include:
+
+1. Competition.
+2. Predation.
+3. Symbiosis.
+
+### A. Competition
+
+Competition occurs when organisms require the same limited resource.
+
+Resources may include:
+
+- Food.
+- Water.
+- Light.
+- Space.
+- Minerals.
+- Nesting sites.
+- Mates.
+
+Competition may occur between organisms of the same species or different species.
+
+#### Intraspecific Competition
+
+Intraspecific competition occurs between individuals of the same species.
+
+Examples:
+
+- Two male deer competing for mates.
+- Plants of the same species competing for sunlight.
+- Two birds competing for nesting sites.
+
+Effects:
+
+1. Limits population growth.
+2. May reduce access to resources.
+3. May affect survival and reproductive success.
+
+#### Interspecific Competition
+
+Interspecific competition occurs between individuals of different species.
+
+Examples:
+
+- Different plant species competing for sunlight and soil nutrients.
+- Different predators competing for similar prey.
+- Different bird species competing for nesting sites.
+
+Effects:
+
+1. One species may become less abundant.
+2. Species may occupy different niches.
+3. Competition may influence the distribution of organisms.
+
+### B. Predation
+
+Predation occurs when one organism, called the predator, captures and feeds on another organism, called the prey.
+
+Examples:
+
+- A snake eating a rat.
+- A frog eating an insect.
+- A lion eating a zebra.
+- A spider catching a fly.
+
+Ecological importance:
+
+1. Transfers energy between trophic levels.
+2. Helps regulate prey populations.
+3. Influences community structure.
+4. Creates selection pressure that may favour adaptations in predators and prey.
+
+#### Predator Adaptations
+
+Predators may have:
+
+- Sharp teeth.
+- Claws.
+- Strong jaws.
+- Good eyesight.
+- Speed.
+- Camouflage.
+- Venom in certain species.
+
+#### Prey Adaptations
+
+Prey may have:
+
+- Camouflage.
+- Warning colours.
+- Protective shells.
+- Spines.
+- Speed.
+- Defensive chemicals.
+- Group behaviour.
+
+**Example:**
+
+A stick insect resembles a twig, making it harder for predators to detect.
+
+### C. Symbiosis
+
+Symbiosis refers to a close and persistent biological association between organisms of different species.
+
+Three commonly studied forms are:
+
+1. Mutualism.
+2. Commensalism.
+3. Parasitism.
+
+#### 1. Mutualism
+
+Mutualism is an interaction in which both organisms benefit.
+
+Examples:
+
+**Lichen**
+
+- Consists of a fungus and a photosynthetic partner, usually an alga or cyanobacterium.
+- The photosynthetic partner provides organic nutrients.
+- The fungus provides protection and helps retain water and minerals.
+
+**Rhizobium and Leguminous Plants**
+
+- Rhizobium bacteria live in root nodules of leguminous plants.
+- Bacteria fix atmospheric nitrogen into forms that can enter nitrogen compounds.
+- The plant supplies organic nutrients and a suitable environment.
+
+**Bees and Flowering Plants**
+
+- Bees obtain nectar or pollen.
+- Flowers receive pollen during pollination.
+
+#### 2. Commensalism
+
+Commensalism is an interaction in which one organism benefits while the other is neither significantly helped nor harmed.
+
+Examples:
+
+**Epiphytic Plants on Trees**
+
+- Epiphytic plants use trees as support.
+- They obtain light and access to air.
+- The supporting tree is generally not significantly affected.
+
+**Remora Fish and Sharks**
+
+- Remora fish may obtain transport and food scraps.
+- The shark is generally not significantly affected.
+
+#### 3. Parasitism
+
+Parasitism is an interaction in which one organism, the parasite, benefits while the host is harmed.
+
+Examples:
+
+**Tapeworm and Human**
+
+- The tapeworm obtains nutrients from the host's digestive system.
+- The host may experience nutrient loss and other health effects.
+
+**Mistletoe and Host Plant**
+
+- Mistletoe obtains water and mineral nutrients from its host.
+- The host plant may be weakened.
+
+**Plasmodium and Human**
+
+- Plasmodium obtains resources while living in a human host.
+- It causes malaria.
+
+### Comparison of Symbiotic Relationships
+
+| Interaction | Organism 1 | Organism 2 |
+|---|---|---|
+| Mutualism | Benefits | Benefits |
+| Commensalism | Benefits | Neither significantly benefits nor is harmed |
+| Parasitism | Benefits | Harmed |
+
+### Important Exam Distinction
+
+Predation and parasitism are different.
+
+- Predation usually involves a predator capturing and consuming prey.
+- Parasitism involves a parasite living on or in a host and obtaining resources from it, usually without immediately killing the host.
+
+## 9.1.6 Food Chains and Food Webs
+
+### Food Chain
+
+A food chain is a sequence showing the transfer of food energy from one organism to another.
+
+An arrow points from the organism being eaten towards the organism that eats it.
+
+Example:
+
+**Grass → Grasshopper → Frog → Snake → Eagle**
+
+Explanation:
+
+1. Grass is the producer.
+2. Grasshopper is the primary consumer.
+3. Frog is the secondary consumer.
+4. Snake is the tertiary consumer.
+5. Eagle is the quaternary consumer.
+
+The arrows represent the direction of energy transfer.
+
+### Trophic Level
+
+A trophic level is the feeding position occupied by an organism in a food chain.
+
+| Trophic level | Example |
+|---|---|
+| First | Producer |
+| Second | Primary consumer |
+| Third | Secondary consumer |
+| Fourth | Tertiary consumer |
+| Fifth | Quaternary consumer |
+
+### Food Web
+
+A food web consists of interconnected food chains in an ecosystem.
+
+It shows that organisms may have several food sources and several predators.
+
+Example:
+
+- Grass is eaten by grasshoppers and rabbits.
+- Grasshoppers are eaten by frogs and birds.
+- Rabbits are eaten by snakes and eagles.
+- Frogs are eaten by snakes.
+- Snakes may be eaten by eagles.
+
+### Importance of Food Webs
+
+1. Show feeding relationships in an ecosystem.
+2. Demonstrate the flow of energy.
+3. Show the dependence of organisms on one another.
+4. Help explain how population changes may affect other organisms.
+5. Show why ecosystems can be affected by the loss of a species.
+
+**Exam tip:**
+
+Always check the direction of the arrows. An arrow points from the food organism to the organism that consumes it.
+
+## 9.1.7 Energy Flow in an Ecosystem
+
+Energy enters most ecosystems through sunlight.
+
+Photosynthetic producers capture light energy and convert it into chemical energy.
+
+Energy then passes through food chains and food webs.
+
+### Main Stages of Energy Flow
+
+1. Sunlight provides energy.
+2. Producers absorb light energy during photosynthesis.
+3. Chemical energy is stored in organic compounds.
+4. Primary consumers obtain energy by eating producers.
+5. Higher-level consumers obtain energy by eating other consumers.
+6. Energy is transferred between trophic levels.
+
+### Why Energy Decreases at Higher Trophic Levels
+
+Not all energy in one trophic level is transferred to the next level.
+
+Energy is:
+
+- Used in cellular respiration.
+- Released as heat.
+- Used for movement.
+- Used for growth and reproduction.
+- Lost in waste products.
+- Present in parts that are not eaten or digested.
+
+Therefore, less energy is generally available at higher trophic levels.
+
+### The 10% Rule
+
+A simplified ecological model sometimes uses the 10% rule.
+
+It suggests that approximately 10% of the energy at one trophic level is transferred to the next trophic level.
+
+This is an approximation, not a fixed value for every ecosystem or food chain.
+
+**Example:**
+
+If producers contain 10,000 kJ of energy:
+
+- Primary consumers receive approximately 1,000 kJ.
+- Secondary consumers receive approximately 100 kJ.
+- Tertiary consumers receive approximately 10 kJ.
+
+The remaining energy is not transferred to the next trophic level.
+
+**Important:** Energy flows in one direction through an ecosystem and is not recycled. Nutrients, unlike energy, can be recycled.
+
+## 9.1.8 Ecological Pyramids
+
+Ecological pyramids represent the trophic structure of an ecosystem.
+
+There are three main types:
+
+1. Pyramid of numbers.
+2. Pyramid of biomass.
+3. Pyramid of energy.
+
+### A. Pyramid of Numbers
+
+Shows the number of individual organisms at each trophic level.
+
+In many grassland ecosystems, the pyramid is upright because:
+
+- Many producers support fewer primary consumers.
+- Fewer primary consumers support even fewer predators.
+
+However, a pyramid of numbers can be inverted or irregular.
+
+Example:
+
+One large tree may support many insects.
+
+### B. Pyramid of Biomass
+
+Shows the total dry mass of organisms at each trophic level per unit area at a particular time.
+
+Biomass is commonly expressed as dry mass to reduce the effect of water content.
+
+Pyramids of biomass are often upright in terrestrial ecosystems.
+
+Some aquatic ecosystems may have an inverted biomass pyramid at a particular moment because phytoplankton have a low standing biomass but reproduce rapidly.
+
+### C. Pyramid of Energy
+
+Shows the amount of energy available at each trophic level per unit area per unit time.
+
+The pyramid of energy is always upright because energy is lost at each transfer between trophic levels.
+
+### Comparison of Ecological Pyramids
+
+| Pyramid | What it measures | Can be inverted? |
+|---|---|---|
+| Numbers | Number of organisms | Yes |
+| Biomass | Total biomass | Yes |
+| Energy | Energy available or transferred | No |
+
+## 9.1.9 Nutrient Cycling
+
+Nutrients move between organisms and the physical environment.
+
+Unlike energy, nutrients can be recycled.
+
+Important processes include:
+
+- Feeding.
+- Excretion.
+- Death.
+- Decomposition.
+- Absorption by plants.
+
+### Role of Decomposers in Nutrient Cycling
+
+1. Dead organisms and organic waste contain nutrients.
+2. Decomposers break down organic matter.
+3. Nutrients are released into the environment.
+4. Plants absorb available mineral nutrients.
+5. Nutrients pass to consumers through feeding.
+6. Nutrients return to the environment through waste and death.
+
+**Important distinction:**
+
+Energy flows through ecosystems and is eventually dissipated as heat. Nutrients are recycled through biogeochemical cycles.
+
+---
+
+# 9.2 POPULATION ECOLOGY
+
+## 9.2.1 Introduction to Population Ecology
+
+Population ecology is the study of population size, structure, distribution, density and changes over time.
+
+A population consists of organisms of the same species living in the same geographical area at a particular time.
+
+Population ecology helps scientists understand:
+
+- Why populations increase or decrease.
+- How organisms are distributed.
+- How resources affect population size.
+- How environmental conditions affect survival.
+- How populations respond to competition, predation and disease.
+
+## 9.2.2 Population Characteristics
+
+Important population characteristics include:
+
+1. Population size.
+2. Population density.
+3. Population distribution.
+4. Population dispersion.
+5. Age structure.
+6. Birth rate and death rate.
+
+### A. Population Size
+
+Population size is the total number of individuals in a population.
+
+Example:
+
+A pond contains 150 frogs of the same species.
+
+Population size = 150 frogs.
+
+Population size may change because of:
+
+- Births.
+- Deaths.
+- Immigration.
+- Emigration.
+
+### B. Population Density
+
+Population density is the number of individuals per unit area or volume.
+
+Formula:
+
+**Population density = Number of individuals ÷ Area or volume**
+
+For terrestrial organisms, density may be expressed as individuals per square metre or square kilometre.
+
+For aquatic organisms, density may be expressed as individuals per cubic metre.
+
+**Example:**
+
+A grassland contains 200 rabbits in an area of 10 hectares.
+
+Population density:
+
+200 ÷ 10 = 20 rabbits per hectare.
+
+### C. Population Distribution
+
+Population distribution describes where individuals are found within an area.
+
+Three common dispersion patterns are:
+
+1. Clumped.
+2. Uniform.
+3. Random.
+
+#### 1. Clumped Distribution
+
+Individuals occur in groups or clusters.
+
+This is a common distribution pattern in nature.
+
+Causes:
+
+- Resources occur in patches.
+- Organisms form social groups.
+- Individuals gather for protection.
+- Reproduction occurs in particular areas.
+
+Examples:
+
+- Schools of fish.
+- Herds of elephants.
+- Groups of trees around water sources.
+
+Advantages may include:
+
+- Increased protection.
+- Easier access to concentrated resources.
+- Improved cooperation.
+
+#### 2. Uniform Distribution
+
+Individuals are spaced relatively evenly.
+
+Causes:
+
+- Territorial behaviour.
+- Competition for resources.
+- Chemical inhibition in some plants.
+
+Examples:
+
+- Nesting birds that defend territories.
+- Certain plants that release chemicals inhibiting nearby plant growth.
+
+#### 3. Random Distribution
+
+Individuals are distributed without a predictable pattern.
+
+This may occur when:
+
+- Resources are widely available.
+- Individuals do not strongly attract or repel one another.
+- Environmental conditions are relatively uniform.
+
+Random distribution is less common than clumped distribution in many natural populations.
+
+### Comparison of Dispersion Patterns
+
+| Pattern | Arrangement | Possible cause |
+|---|---|---|
+| Clumped | Individuals form groups | Patchy resources or social behaviour |
+| Uniform | Individuals are evenly spaced | Territorial behaviour or competition |
+| Random | No predictable arrangement | Weak attraction or repulsion |
+
+**Important distinction:**
+
+Population density measures the number of individuals per unit area or volume. Dispersion describes how individuals are arranged within the area.
+
+## 9.2.3 Factors Affecting Population Size
+
+Population size changes through four main processes:
+
+1. Natality.
+2. Mortality.
+3. Immigration.
+4. Emigration.
+
+### A. Natality
+
+Natality refers to the production of new individuals through reproduction.
+
+An increase in natality generally increases population size.
+
+Factors affecting natality:
+
+- Availability of mates.
+- Food supply.
+- Environmental conditions.
+- Reproductive age.
+- Disease and stress.
+
+### B. Mortality
+
+Mortality refers to the death of individuals in a population.
+
+An increase in mortality generally decreases population size.
+
+Causes include:
+
+- Predation.
+- Disease.
+- Food shortage.
+- Competition.
+- Extreme environmental conditions.
+- Ageing.
+
+### C. Immigration
+
+Immigration occurs when individuals enter a population from another area.
+
+Immigration increases population size.
+
+### D. Emigration
+
+Emigration occurs when individuals leave a population and move to another area.
+
+Emigration decreases population size.
+
+### Population Change Formula
+
+**Change in population size = (Births + Immigration) − (Deaths + Emigration)**
+
+Or:
+
+**N₂ = N₁ + B + I − D − E**
+
+Where:
+
+- N₁ = Initial population size.
+- N₂ = Final population size.
+- B = Number of births.
+- I = Number of immigrants.
+- D = Number of deaths.
+- E = Number of emigrants.
+
+**Example:**
+
+A population initially contains 500 individuals.
+
+During one year:
+
+- Births = 80.
+- Immigration = 20.
+- Deaths = 50.
+- Emigration = 10.
+
+Final population:
+
+500 + 80 + 20 − 50 − 10 = 540 individuals.
+
+The population increases by 40 individuals.
+
+## 9.2.4 Population Growth
+
+Population growth refers to the change in population size over time.
+
+Population growth depends on:
+
+- Birth rate.
+- Death rate.
+- Immigration.
+- Emigration.
+- Resource availability.
+- Environmental conditions.
+
+Two important population growth patterns are:
+
+1. Exponential growth.
+2. Logistic growth.
+
+### A. Exponential Growth
+
+Exponential growth occurs when a population increases rapidly under favourable conditions with abundant resources and limited environmental resistance.
+
+Characteristics:
+
+- Birth rate is high relative to death rate.
+- Resources are abundant.
+- Population growth accelerates as population size increases.
+- Produces a J-shaped growth curve.
+
+Examples may include:
+
+- Bacteria growing under favourable laboratory conditions.
+- A population introduced into a new environment with abundant resources and few limiting factors.
+
+### J-Shaped Growth Curve
+
+The J-shaped curve shows slow initial growth followed by rapid population increase.
+
+Main phases:
+
+**1. Lag Phase**
+
+- Population increases slowly.
+- Individuals adapt to the environment.
+- Reproduction may initially be limited.
+
+**2. Exponential Phase**
+
+- Population increases rapidly.
+- Resources are abundant.
+- Birth rate exceeds death rate.
+
+**3. Rapid Growth**
+
+- The population becomes very large over a relatively short period.
+- Environmental limitations may eventually become important.
+
+If resources become insufficient, the population may decline sharply.
+
+**Important:** A J-shaped curve does not mean a population can grow indefinitely in nature.
+
+### B. Logistic Growth
+
+Logistic growth occurs when population growth slows as environmental resistance increases.
+
+It produces an S-shaped growth curve.
+
+The population initially increases, but growth gradually slows as resources become limited.
+
+### S-Shaped Growth Curve
+
+**1. Lag Phase**
+
+- Population increases slowly.
+- Individuals adapt to environmental conditions.
+
+**2. Exponential Phase**
+
+- Population increases rapidly.
+- Resources are initially abundant.
+
+**3. Deceleration Phase**
+
+- Growth begins to slow.
+- Competition increases.
+- Resources become more limited.
+- Environmental resistance increases.
+
+**4. Stationary Phase**
+
+- Population size fluctuates around the carrying capacity.
+- Birth rate is approximately balanced by death rate, assuming little net migration.
+
+### Comparison of Exponential and Logistic Growth
+
+| Exponential growth | Logistic growth |
+|---|---|
+| J-shaped curve | S-shaped curve |
+| Resources are assumed to be abundant | Resources become limiting |
+| Rapid increase continues in the model | Growth slows as population approaches carrying capacity |
+| Environmental resistance is initially limited | Environmental resistance increases |
+
+## 9.2.5 Carrying Capacity
+
+Carrying capacity is the maximum population size that an environment can support sustainably over time under particular environmental conditions.
+
+It is commonly represented by the letter K.
+
+Carrying capacity depends on:
+
+- Food availability.
+- Water availability.
+- Space.
+- Shelter.
+- Nutrients.
+- Predation.
+- Disease.
+- Environmental conditions.
+
+### What Happens When a Population Reaches Carrying Capacity?
+
+When population size approaches carrying capacity:
+
+1. Competition for resources increases.
+2. Birth rate may decrease.
+3. Death rate may increase.
+4. Population growth slows.
+5. Population size may fluctuate around carrying capacity.
+
+Carrying capacity is not necessarily constant.
+
+It may change when environmental conditions change.
+
+**Example:**
+
+A drought reduces water and food availability. The environment may then support fewer herbivores, causing carrying capacity to decrease.
+
+## 9.2.6 Limiting Factors
+
+Limiting factors are environmental factors that restrict population growth, size or distribution.
+
+They may be density-dependent or density-independent.
+
+### A. Density-Dependent Factors
+
+Density-dependent factors have effects that often become stronger as population density increases.
+
+Examples:
+
+**1. Competition**
+
+- Individuals compete for limited food, water, space or mates.
+- Increased competition may reduce growth and reproduction.
+
+**2. Predation**
+
+- A higher prey population may provide more food for predators.
+- Predation may limit prey population growth.
+
+**3. Disease**
+
+- Diseases may spread more easily when individuals live close together.
+- High population density can increase contact between infected and healthy individuals.
+
+**4. Parasitism**
+
+- Parasites may spread more easily in crowded populations.
+- Parasitism can reduce survival and reproductive success.
+
+**5. Food Shortage**
+
+- A large population may consume resources faster than they can be replaced.
+- This can reduce survival and reproduction.
+
+### B. Density-Independent Factors
+
+Density-independent factors affect populations regardless of their density.
+
+Examples:
+
+- Floods.
+- Droughts.
+- Forest fires.
+- Extreme temperatures.
+- Storms.
+- Certain pollution events.
+
+Effects:
+
+1. May cause sudden deaths.
+2. May destroy habitats.
+3. May reduce food and water availability.
+4. May affect both small and large populations.
+
+### Comparison
+
+| Density-dependent | Density-independent |
+|---|---|
+| Often becomes stronger as density increases | Can affect populations regardless of density |
+| Competition | Flood |
+| Disease transmission in crowded populations | Drought |
+| Predation | Extreme temperature |
+| Parasitism | Forest fire |
+
+## 9.2.7 Population Sampling Methods
+
+Scientists often estimate population size instead of counting every organism.
+
+Sampling is useful when:
+
+- The habitat is large.
+- Organisms are numerous.
+- Organisms are difficult to observe.
+- Counting every individual would take too much time.
+
+Two important sampling approaches are:
+
+1. Quadrat sampling.
+2. Capture-mark-release-recapture.
+
+### A. Quadrat Sampling
+
+A quadrat is a square frame used to sample organisms within a defined area.
+
+It is commonly used for plants and slow-moving or stationary organisms.
+
+Examples:
+
+- Grass.
+- Small plants.
+- Mosses.
+- Certain slow-moving invertebrates.
+
+### How Quadrat Sampling Works
+
+1. Select a study area.
+2. Place quadrats at selected sampling positions.
+3. Count the organisms inside each quadrat.
+4. Repeat the sampling at several locations.
+5. Calculate the average number of organisms per quadrat.
+6. Estimate population size for the whole area if appropriate.
+
+### Random Sampling
+
+Quadrats are placed at randomly selected positions.
+
+Advantages:
+
+- Reduces selection bias.
+- Provides a more representative estimate when sampling is properly designed.
+
+### Systematic Sampling
+
+Quadrats are placed at regular intervals along a line or transect.
+
+It is useful for studying changes in organism distribution across environmental gradients.
+
+### Estimating Population Size
+
+A simplified formula is:
+
+**Estimated population size = Mean number of individuals per quadrat × Total area ÷ Quadrat area**
+
+**Example:**
+
+A grassland has a total area of 100 m².
+
+Each quadrat covers 1 m².
+
+The mean number of grass plants per quadrat is 12.
+
+Estimated population size:
+
+12 × 100 ÷ 1 = 1,200 grass plants.
+
+### Limitations of Quadrat Sampling
+
+1. Not suitable for highly mobile organisms.
+2. Organisms may be distributed unevenly.
+3. Too few quadrats may produce an unreliable estimate.
+4. Incorrect identification may affect results.
+5. Sampling bias may occur if positions are not selected properly.
+
+### B. Capture-Mark-Release-Recapture
+
+This method is used to estimate the population size of mobile animals.
+
+Examples:
+
+- Fish.
+- Beetles.
+- Small mammals.
+- Certain insects.
+
+### Basic Procedure
+
+1. Capture a first sample of animals.
+2. Count the animals.
+3. Mark them using a suitable method that does not harm them.
+4. Release them back into the population.
+5. Allow time for the marked animals to mix with the population.
+6. Capture a second sample.
+7. Count how many animals are marked and unmarked.
+8. Estimate the total population size.
+
+### Lincoln-Petersen Formula
+
+**Estimated population size = (First sample × Second sample) ÷ Number of marked animals recaptured**
+
+Or:
+
+**N = (M × C) ÷ R**
+
+Where:
+
+- N = Estimated population size.
+- M = Number of animals captured and marked initially.
+- C = Total number captured in the second sample.
+- R = Number of marked animals recaptured in the second sample.
+
+### Worked Example
+
+A researcher captures and marks 40 beetles.
+
+Later, the researcher captures 50 beetles.
+
+Of the second sample, 10 are marked.
+
+Calculate the estimated population size.
+
+Given:
+
+M = 40  
+C = 50  
+R = 10
+
+N = (40 × 50) ÷ 10
+
+N = 2,000 ÷ 10
+
+**Estimated population size = 200 beetles.**
+
+### Assumptions of Capture-Mark-Release-Recapture
+
+For the estimate to be reliable:
+
+1. The population should remain relatively closed during the study.
+2. Marked individuals should mix randomly with unmarked individuals.
+3. Marks should remain visible.
+4. Marks should not significantly affect survival or behaviour.
+5. Every individual should have a reasonable chance of being captured.
+6. Marked animals should not be unusually easy or difficult to recapture.
+
+### Limitations
+
+- Animals may lose their marks.
+- Marking may affect behaviour.
+- Animals may enter or leave the study area.
+- Marked animals may not mix evenly.
+- Capture probability may differ between individuals.
+
+## 9.2.8 Population Growth Rate
+
+Population growth rate describes how quickly a population changes in size over a particular period.
+
+A simple numerical change is:
+
+**Population change = Final population − Initial population**
+
+Percentage population change:
+
+**Percentage change = (Population change ÷ Initial population) × 100%**
+
+### Example
+
+A population increases from 200 to 260 individuals.
+
+Population change:
+
+260 − 200 = 60.
+
+Percentage change:
+
+(60 ÷ 200) × 100% = 30%.
+
+The population increased by 30%.
+
+**Important:** When calculating percentage change, use the initial population as the denominator.
+
+## 9.2.9 Human Population Growth
+
+Human population size is influenced by:
+
+- Birth rates.
+- Death rates.
+- Immigration.
+- Emigration.
+- Healthcare.
+- Food availability.
+- Sanitation.
+- Living conditions.
+
+Improvements in healthcare, sanitation and food production can reduce mortality and increase life expectancy.
+
+Rapid human population growth may increase pressure on:
+
+- Housing.
+- Food supplies.
+- Water resources.
+- Energy resources.
+- Land.
+- Ecosystems.
+
+Sustainable resource management is important to reduce environmental impacts.
+
+## 9.2.10 Age Structure of a Population
+
+Age structure refers to the distribution of individuals among different age groups.
+
+Common categories are:
+
+1. Pre-reproductive.
+2. Reproductive.
+3. Post-reproductive.
+
+Age structure helps scientists predict possible future population trends.
+
+### General Population Patterns
+
+**Growing Population**
+
+- Often has a relatively large proportion of young individuals.
+- Many individuals may enter reproductive age in the future.
+
+**Stable Population**
+
+- Age groups are more balanced.
+- Birth rates and death rates may be relatively balanced.
+
+**Declining Population**
+
+- May have a relatively small proportion of young individuals.
+- Birth rates may be insufficient to replace older generations.
+
+Age structure diagrams can help show these patterns.
+
+---
+
+# IMPORTANT FORMULAS AND CALCULATIONS
+
+## 1. Population Density
+
+Population density = Number of individuals ÷ Area or volume.
+
+## 2. Population Change
+
+Change in population = (Births + Immigration) − (Deaths + Emigration).
+
+## 3. Final Population Size
+
+N₂ = N₁ + B + I − D − E.
+
+## 4. Quadrat Sampling
+
+Estimated population = Mean number per quadrat × Total area ÷ Quadrat area.
+
+## 5. Capture-Mark-Release-Recapture
+
+N = (M × C) ÷ R.
+
+## 6. Percentage Population Change
+
+Percentage change = (Final population − Initial population) ÷ Initial population × 100%.
+
+---
+
+# COMMON EXAM MISTAKES
+
+1. A population contains individuals of the same species, while a community contains populations of different species.
+
+2. An ecosystem includes both living organisms and abiotic components.
+
+3. Habitat describes where an organism lives, while niche describes its ecological role.
+
+4. Competition occurs when organisms require the same limited resource.
+
+5. Mutualism benefits both organisms.
+
+6. Commensalism benefits one organism without significantly affecting the other.
+
+7. Parasitism benefits the parasite while harming the host.
+
+8. Food-chain arrows point from the food organism towards the organism consuming it.
+
+9. Energy flows through an ecosystem, whereas nutrients are recycled.
+
+10. The pyramid of energy is always upright.
+
+11. A pyramid of numbers and a pyramid of biomass may be inverted.
+
+12. Population density is not the same as population distribution.
+
+13. Immigration increases population size, while emigration decreases it.
+
+14. Carrying capacity is not necessarily fixed. It changes with environmental conditions.
+
+15. Density-dependent factors often become stronger when population density increases.
+
+16. Floods and droughts are examples of density-independent factors.
+
+17. Quadrat sampling is most suitable for stationary or slow-moving organisms.
+
+18. Capture-mark-release-recapture is used to estimate populations of mobile animals.
+
+19. The number of marked animals recaptured must be used as R in the Lincoln-Petersen formula.
+
+20. Use the initial population when calculating percentage population change.
+
+---
+
+# SPM EXAM TIPS
+
+## Command Words
+
+**STATE:** Give the required fact directly.
+
+**DEFINE:** Give the exact scientific meaning of a term.
+
+**IDENTIFY:** Name the correct structure, organism or process.
+
+**DESCRIBE:** Explain the characteristics or steps in a process.
+
+**EXPLAIN:** Give the scientific reason and explain how or why something happens.
+
+**COMPARE:** State similarities and differences.
+
+**DIFFERENTIATE:** Give clear contrasting characteristics.
+
+**CALCULATE:** Show the formula, substitution, working and final answer with units.
+
+**SUGGEST:** Give a scientifically reasonable answer based on the information provided.
+
+**JUSTIFY:** Give a decision or statement supported by scientific reasons.
+
+## Mark-Aware Answering
+
+For 1 mark:
+
+- Give one accurate point.
+
+For 2 marks:
+
+- Give two relevant points, or a point with the required explanation depending on the question.
+
+For 3 marks:
+
+- Give three relevant marking points.
+
+For 4 marks:
+
+- Give four relevant marking points.
+
+For calculation questions:
+
+1. Write the correct formula.
+2. Substitute the given values.
+3. Show the calculation.
+4. Give the final answer with the correct unit.
+
+The exact marking points depend on the question and marking scheme.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## Section A: Short-Answer Questions
+
+**QUESTION 1**
+
+Define the term population.
+
+**QUESTION 2**
+
+Differentiate between a community and an ecosystem.
+
+**QUESTION 3**
+
+State two abiotic factors that affect the distribution of organisms.
+
+**QUESTION 4**
+
+Name the three types of symbiotic relationships.
+
+**QUESTION 5**
+
+State the three types of ecological pyramids.
+
+**QUESTION 6**
+
+State two processes that increase population size.
+
+**QUESTION 7**
+
+State two processes that decrease population size.
+
+**QUESTION 8**
+
+Name two methods used to estimate population size.
+
+## Section B: Structured Questions
+
+**QUESTION 9**
+
+Explain the difference between habitat and ecological niche. Give one example of each.
+
+**QUESTION 10**
+
+Differentiate between mutualism, commensalism and parasitism. Give one example of each.
+
+**QUESTION 11**
+
+Explain why energy available to organisms generally decreases at higher trophic levels.
+
+**QUESTION 12**
+
+Explain the difference between exponential and logistic population growth.
+
+**QUESTION 13**
+
+Explain how carrying capacity affects population growth.
+
+**QUESTION 14**
+
+A researcher studies a population of grass plants in a field using quadrats.
+
+Explain why random quadrat sampling is useful and state two limitations of this method.
+
+**QUESTION 15**
+
+A researcher initially captures and marks 60 fish. Later, the researcher captures 80 fish, of which 20 are marked.
+
+Calculate the estimated population size.
+
+**QUESTION 16**
+
+A population initially contains 800 individuals. During one year, 120 individuals are born, 70 die, 30 immigrate and 50 emigrate.
+
+Calculate the final population size.
+
+**QUESTION 17**
+
+A population increases from 400 to 520 individuals.
+
+Calculate the percentage population increase.
+
+**QUESTION 18**
+
+Differentiate between density-dependent and density-independent factors. Give two examples of each.
+
+---
+
+# SUGGESTED ANSWERS
+
+## QUESTION 1
+
+A population is a group of organisms of the same species living in the same geographical area at a particular time.
+
+## QUESTION 2
+
+A community consists of populations of different species interacting in the same area, whereas an ecosystem consists of a community interacting with abiotic components of the environment.
+
+## QUESTION 3
+
+Any two:
+
+- Temperature.
+- Light intensity.
+- Water availability.
+- Soil pH.
+- Salinity.
+- Dissolved oxygen.
+- Humidity.
+
+## QUESTION 4
+
+1. Mutualism.
+2. Commensalism.
+3. Parasitism.
+
+## QUESTION 5
+
+1. Pyramid of numbers.
+2. Pyramid of biomass.
+3. Pyramid of energy.
+
+## QUESTION 6
+
+1. Natality.
+2. Immigration.
+
+## QUESTION 7
+
+1. Mortality.
+2. Emigration.
+
+## QUESTION 8
+
+1. Quadrat sampling.
+2. Capture-mark-release-recapture.
+
+## QUESTION 9
+
+1. Habitat is the natural place where an organism lives.
+2. Ecological niche refers to the organism's role and how it uses resources and interacts with its environment.
+3. Example of habitat: a pond where frogs live.
+4. Example of niche: a frog feeding on insects in a pond.
+
+## QUESTION 10
+
+**Mutualism:**
+
+- Both organisms benefit.
+- Example: bees obtain nectar while pollinating flowers.
+
+**Commensalism:**
+
+- One organism benefits while the other is not significantly affected.
+- Example: an epiphyte grows on a tree for support.
+
+**Parasitism:**
+
+- The parasite benefits while the host is harmed.
+- Example: tapeworms obtain nutrients from humans.
+
+## QUESTION 11
+
+1. Organisms use energy for cellular respiration and metabolic activities.
+2. Energy is released as heat.
+3. Some energy is lost in waste materials.
+4. Some parts of organisms are not eaten or digested.
+5. Therefore, less energy is transferred to the next trophic level.
+
+## QUESTION 12
+
+**Exponential growth:**
+
+- Occurs when resources are abundant and environmental resistance is limited.
+- Population increases rapidly.
+- Produces a J-shaped curve.
+
+**Logistic growth:**
+
+- Occurs as resources become limited.
+- Population growth slows as carrying capacity is approached.
+- Produces an S-shaped curve.
+
+## QUESTION 13
+
+1. Carrying capacity is the maximum population size an environment can sustainably support under particular conditions.
+2. As population size approaches carrying capacity, competition for resources increases.
+3. Birth rate may decrease and death rate may increase.
+4. Population growth slows and population size may fluctuate around carrying capacity.
+
+## QUESTION 14
+
+1. Random sampling reduces selection bias.
+2. It gives different parts of the field a chance of being sampled.
+3. It may not be suitable for mobile organisms.
+4. Too few quadrats or uneven organism distribution may produce an unreliable estimate.
+
+## QUESTION 15
+
+Given:
+
+M = 60  
+C = 80  
+R = 20
+
+Formula:
+
+N = (M × C) ÷ R
+
+Substitution:
+
+N = (60 × 80) ÷ 20
+
+N = 4,800 ÷ 20
+
+**Estimated population size = 240 fish.**
+
+## QUESTION 16
+
+Given:
+
+Initial population = 800  
+Births = 120  
+Deaths = 70  
+Immigration = 30  
+Emigration = 50
+
+Final population:
+
+800 + 120 + 30 − 70 − 50
+
+**Final population size = 830 individuals.**
+
+## QUESTION 17
+
+Population change:
+
+520 − 400 = 120.
+
+Percentage increase:
+
+(120 ÷ 400) × 100%
+
+**Percentage increase = 30%.**
+
+## QUESTION 18
+
+**Density-dependent factors:**
+
+- Effects often become stronger as population density increases.
+- Examples: competition and disease transmission.
+
+**Density-independent factors:**
+
+- Can affect populations regardless of population density.
+- Examples: floods and droughts.
+
+---
+
+# FINAL REVISION SUMMARY
+
+## 9.1 COMMUNITY AND ECOSYSTEM
+
+- Ecology studies interactions between organisms and their environment.
+- Organism → Population → Community → Ecosystem → Biome → Biosphere.
+- Ecosystems contain biotic and abiotic components.
+- Producers manufacture organic food.
+- Consumers obtain food by feeding on other organisms.
+- Decomposers break down dead organic matter and recycle nutrients.
+- Habitat is where an organism lives.
+- Niche is its ecological role.
+- Competition occurs when resources are limited.
+- Predation involves predators feeding on prey.
+- Symbiosis includes mutualism, commensalism and parasitism.
+- Food chains show energy transfer.
+- Food webs consist of interconnected food chains.
+- Energy generally decreases at higher trophic levels.
+- Ecological pyramids include numbers, biomass and energy.
+- The pyramid of energy is always upright.
+- Energy flows, while nutrients are recycled.
+
+## 9.2 POPULATION ECOLOGY
+
+- Population ecology studies population characteristics and changes.
+- Population size is the total number of individuals.
+- Population density is the number of individuals per unit area or volume.
+- Dispersion may be clumped, uniform or random.
+- Natality and immigration increase population size.
+- Mortality and emigration decrease population size.
+- Exponential growth produces a J-shaped curve.
+- Logistic growth produces an S-shaped curve.
+- Carrying capacity is the maximum population size an environment can sustainably support.
+- Limiting factors may be density-dependent or density-independent.
+- Quadrat sampling is useful for stationary organisms.
+- Capture-mark-release-recapture estimates mobile animal populations.
+- Age structure helps predict future population trends.
+
+---
+
+# KEY BIOLOGY TERMS
+
+**Ecology:** Study of interactions between organisms and their environment.
+
+**Organism:** An individual living thing.
+
+**Population:** Individuals of the same species living in the same area at a particular time.
+
+**Community:** Populations of different species interacting in an area.
+
+**Ecosystem:** A community interacting with its abiotic environment.
+
+**Biome:** A large region characterised by climate and typical organisms.
+
+**Biosphere:** The part of Earth where life exists.
+
+**Biotic component:** Living component of an ecosystem.
+
+**Abiotic component:** Non-living environmental factor.
+
+**Producer:** Organism that manufactures organic food.
+
+**Consumer:** Organism that obtains energy by feeding on other organisms or organic matter.
+
+**Decomposer:** Organism that breaks down dead organic matter and waste.
+
+**Habitat:** Natural place where an organism lives.
+
+**Microhabitat:** Small, specific part of a habitat.
+
+**Ecological niche:** Role of an organism in its ecosystem.
+
+**Competition:** Interaction in which organisms require the same limited resource.
+
+**Predation:** Interaction in which a predator captures and feeds on prey.
+
+**Mutualism:** Interaction in which both organisms benefit.
+
+**Commensalism:** Interaction in which one organism benefits and the other is not significantly affected.
+
+**Parasitism:** Interaction in which a parasite benefits while its host is harmed.
+
+**Food chain:** Sequence showing the transfer of food energy between organisms.
+
+**Food web:** Network of interconnected food chains.
+
+**Trophic level:** Feeding position in a food chain.
+
+**Biomass:** Total mass of biological material in a given area or volume.
+
+**Population size:** Total number of individuals in a population.
+
+**Population density:** Number of individuals per unit area or volume.
+
+**Natality:** Production of new individuals through reproduction.
+
+**Mortality:** Death of individuals in a population.
+
+**Immigration:** Movement of individuals into a population.
+
+**Emigration:** Movement of individuals out of a population.
+
+**Exponential growth:** Rapid population growth under conditions with abundant resources and limited environmental resistance.
+
+**Logistic growth:** Population growth that slows as environmental resistance increases.
+
+**Carrying capacity:** Maximum population size an environment can sustainably support under particular conditions.
+
+**Limiting factor:** Environmental factor that restricts population growth or distribution.
+
+**Quadrat:** Frame used to sample organisms within a defined area.
+
+**Capture-mark-release-recapture:** Sampling method used to estimate the population size of mobile animals.
