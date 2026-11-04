@@ -1,0 +1,1183 @@
+# BIOLOGY FORM 5 — CHAPTER 7
+
+# ADAPTATIONS OF PLANTS IN DIFFERENT HABITATS
+
+SUBJECT: Biology  
+FORM: Form 5  
+CHAPTER: Chapter 7  
+CHAPTER_TITLE: Adaptations of Plants in Different Habitats  
+TOPICS: 7.1  
+SOURCE_TYPE: Original Learning Material  
+STATUS: Original Educational Content
+
+---
+
+# 7.1 ADAPTATIONS OF PLANTS
+
+## 7.1.1 INTRODUCTION TO PLANT ADAPTATIONS
+
+Plants live in different habitats, including:
+
+- Deserts.
+- Tropical rainforests.
+- Mangrove swamps.
+- Freshwater environments.
+- Coastal areas.
+- Mountain environments.
+- Grasslands.
+
+Each habitat has different environmental conditions.
+
+Examples of environmental factors include:
+
+1. Availability of water.
+2. Light intensity.
+3. Temperature.
+4. Salinity.
+5. Soil conditions.
+6. Availability of mineral nutrients.
+7. Wind exposure.
+8. Oxygen availability around the roots.
+
+Plants possess adaptations that allow them to survive, grow and reproduce under the conditions of their habitats.
+
+**Adaptation** is an inherited structural, physiological or behavioural characteristic that increases an organism's ability to survive and reproduce in a particular environment.
+
+In plants, adaptations can be divided into three major categories.
+
+### A. STRUCTURAL ADAPTATIONS
+
+Structural adaptations are physical characteristics of a plant that help it survive in its habitat.
+
+Examples:
+
+- Thick waxy cuticle.
+- Reduced leaves.
+- Extensive root systems.
+- Pneumatophores.
+- Sunken stomata.
+- Succulent stems.
+
+### B. PHYSIOLOGICAL ADAPTATIONS
+
+Physiological adaptations involve internal processes and functions that help a plant survive.
+
+Examples:
+
+- Regulation of stomatal opening.
+- Salt exclusion or salt secretion.
+- Osmotic adjustment.
+- CAM photosynthesis.
+- Production of substances that protect cells against water loss.
+
+### C. REPRODUCTIVE ADAPTATIONS
+
+Reproductive adaptations help plants reproduce successfully in their habitats.
+
+Examples:
+
+- Floating fruits or seeds.
+- Vivipary in certain mangrove species.
+- Seed dormancy.
+- Seed dispersal by wind or water.
+
+IMPORTANT:
+
+A plant may possess several adaptations at the same time. These adaptations work together to improve survival under particular environmental conditions.
+
+---
+
+# 7.1.2 TERRESTRIAL PLANTS
+
+Terrestrial plants are plants that grow on land.
+
+However, land habitats differ greatly in their environmental conditions.
+
+For example:
+
+- Desert plants experience limited water availability.
+- Rainforest plants experience competition for light.
+- Plants in cold environments experience low temperatures.
+- Plants in windy habitats may experience mechanical stress.
+
+Different terrestrial plants therefore have different adaptations.
+
+---
+
+# A. XEROPHYTES
+
+Xerophytes are plants adapted to survive in habitats where water is limited.
+
+Examples of habitats:
+
+- Deserts.
+- Dry grasslands.
+- Rocky areas.
+- Regions with long dry seasons.
+
+Examples of xerophytic plants include:
+
+- Cacti.
+- Aloe.
+- Certain desert shrubs.
+
+## 7.1.3 ENVIRONMENTAL CHALLENGES FACED BY XEROPHYTES
+
+Xerophytes face several challenges:
+
+1. Limited water availability.
+2. High temperatures.
+3. High rates of evaporation.
+4. Strong sunlight.
+5. Low soil moisture.
+6. Irregular rainfall.
+
+The major challenge is preventing excessive water loss while obtaining enough water for photosynthesis and metabolism.
+
+---
+
+## 7.1.4 STRUCTURAL ADAPTATIONS OF XEROPHYTES
+
+### A. REDUCED LEAF SURFACE AREA
+
+Some xerophytes have very small leaves or leaves modified into spines.
+
+Explanation:
+
+1. Smaller leaves have less exposed surface area.
+2. Less leaf surface is exposed to the surrounding air.
+3. This reduces the potential area for water loss through transpiration.
+4. The plant conserves water.
+
+Example:
+
+Cacti have leaves modified into spines.
+
+IMPORTANT:
+
+Spines also provide protection against herbivores.
+
+The green stem carries out most photosynthesis in many cacti.
+
+### B. THICK WAXY CUTICLE
+
+The leaf or stem may have a thick waxy cuticle.
+
+Explanation:
+
+1. The cuticle forms a protective outer covering.
+2. Its waxy nature reduces evaporation from the epidermal surface.
+3. Less water is lost directly through the plant surface.
+4. This helps conserve water.
+
+### C. SUNKEN STOMATA
+
+Some xerophytes have stomata located in depressions below the leaf surface.
+
+Explanation:
+
+1. The depressions trap relatively humid air.
+2. Air movement around the stomata may be reduced.
+3. The water vapour concentration gradient between the leaf and surrounding air becomes smaller.
+4. The rate of water vapour diffusion can decrease.
+5. Transpiration is reduced.
+
+### D. LEAF ROLLING
+
+Some grasses roll their leaves during dry conditions.
+
+Explanation:
+
+1. Rolling reduces the exposed leaf surface.
+2. Stomata may become enclosed within the rolled leaf.
+3. Humid air can become trapped inside.
+4. Air movement around the stomata decreases.
+5. Water loss through transpiration is reduced.
+
+### E. HAIRY LEAF SURFACE
+
+Some xerophytes have hairs on their leaf surfaces.
+
+Explanation:
+
+1. Hairs trap a layer of still air near the leaf surface.
+2. Air movement is reduced.
+3. The air layer may become more humid.
+4. The water vapour gradient between the leaf and surrounding air decreases.
+5. Water loss is reduced.
+
+### F. SUCCULENT STEMS OR LEAVES
+
+Succulent plants have thick, fleshy stems or leaves that store water.
+
+Examples:
+
+- Cactus.
+- Aloe.
+
+Explanation:
+
+1. Water is stored in specialised water-storage tissues.
+2. The stored water can be used during dry periods.
+3. This allows the plant to continue essential metabolic activities when water is unavailable from the soil.
+
+### G. EXTENSIVE ROOT SYSTEM
+
+Some xerophytes possess extensive root systems.
+
+Two common patterns are:
+
+- Deep roots.
+- Wide-spreading shallow roots.
+
+Deep roots:
+
+1. Extend into deeper soil layers.
+2. Reach water that is unavailable near the surface.
+3. Allow water absorption during dry periods.
+
+Wide-spreading roots:
+
+1. Cover a large area of soil.
+2. Absorb water quickly after rainfall.
+3. Increase the volume of soil explored by the plant.
+
+---
+
+## 7.1.5 PHYSIOLOGICAL ADAPTATIONS OF XEROPHYTES
+
+### A. CAM PHOTOSYNTHESIS
+
+Some succulent plants use a photosynthetic pathway called Crassulacean Acid Metabolism (CAM).
+
+CAM is an adaptation that helps reduce water loss in hot and dry environments.
+
+In many CAM plants:
+
+**At night:**
+
+1. Stomata open.
+2. Carbon dioxide enters the leaf.
+3. Carbon dioxide is fixed into organic acids, mainly malic acid.
+4. These acids are stored in vacuoles.
+
+**During the day:**
+
+1. Stomata remain mostly closed.
+2. Stored organic acids release carbon dioxide.
+3. Carbon dioxide is used in the Calvin cycle.
+4. Photosynthesis continues while daytime water loss is reduced.
+
+WHY IS CAM IMPORTANT?
+
+Opening stomata at night reduces water loss because:
+
+- Temperatures are generally lower.
+- Relative humidity is often higher.
+- The water vapour gradient may be smaller.
+
+IMPORTANT:
+
+CAM plants do not necessarily photosynthesise only at night.
+
+They usually capture carbon dioxide at night and use the stored carbon dioxide during the day for photosynthesis.
+
+### B. STOMATAL REGULATION
+
+Xerophytes can regulate stomatal opening in response to water availability.
+
+During water stress:
+
+1. Chemical signals such as abscisic acid (ABA) increase.
+2. Guard cells lose turgor.
+3. Stomata close or become less open.
+4. Water vapour loss decreases.
+5. Water is conserved.
+
+However, closing stomata also reduces carbon dioxide entry, which may limit photosynthesis.
+
+---
+
+## 7.1.6 SUMMARY OF XEROPHYTE ADAPTATIONS
+
+| Adaptation | Function |
+|---|---|
+| Reduced leaves | Reduces exposed surface area |
+| Spines | Reduce leaf surface area and deter herbivores |
+| Thick waxy cuticle | Reduces evaporation |
+| Sunken stomata | Traps humid air and reduces water loss |
+| Rolled leaves | Reduces exposure of stomata |
+| Leaf hairs | Trap still, humid air |
+| Succulent stems | Store water |
+| Deep roots | Reach deeper water sources |
+| Wide root systems | Absorb water over a large area |
+| CAM photosynthesis | Allows carbon dioxide uptake mainly at night |
+
+---
+
+# B. MESOPHYTES
+
+Mesophytes are plants adapted to habitats with a moderate supply of water.
+
+They do not normally experience extremely dry or permanently waterlogged conditions.
+
+Examples:
+
+- Hibiscus.
+- Mango.
+- Sunflower.
+- Many garden plants.
+
+## 7.1.7 CHARACTERISTICS OF MESOPHYTES
+
+Mesophytes generally have:
+
+1. Well-developed leaves.
+2. A moderately developed cuticle.
+3. Stomata mainly on the lower epidermis in many broad-leaved plants.
+4. A root system that absorbs water from ordinary soil.
+5. Normal transpiration and photosynthesis under suitable conditions.
+
+Their structures are adapted to balance:
+
+- Water absorption.
+- Water loss.
+- Gas exchange.
+- Photosynthesis.
+
+### A. NORMAL LEAF STRUCTURE
+
+Mesophytes commonly possess broad leaves.
+
+Advantages:
+
+1. Large surface area receives sunlight.
+2. More light can be absorbed for photosynthesis.
+3. Leaves can exchange gases through stomata.
+
+### B. STOMATA
+
+Many mesophytic dicot leaves have more stomata on the lower epidermis.
+
+Advantages:
+
+1. The lower surface is often less exposed to direct sunlight.
+2. It may experience lower temperatures.
+3. This can reduce excessive transpiration while allowing gaseous exchange.
+
+This is a common pattern, not a universal feature of every mesophyte.
+
+### C. CUTICLE
+
+Mesophytes usually have a cuticle that helps reduce uncontrolled water loss.
+
+However, it is generally not as extremely thick as that of many xerophytes.
+
+### D. ROOT SYSTEM
+
+Mesophytes possess roots that absorb water and mineral ions from the soil.
+
+Root hairs increase the surface area available for absorption.
+
+---
+
+# C. HYDROPHYTES
+
+Hydrophytes are plants adapted to live in water or environments where water is abundant.
+
+Examples:
+
+- Water lily.
+- Hydrilla.
+- Water hyacinth.
+- Duckweed.
+
+Hydrophytes may be:
+
+1. Completely submerged.
+2. Floating on the water surface.
+3. Partially submerged with leaves or stems extending above water.
+
+---
+
+## 7.1.8 ENVIRONMENTAL CHALLENGES FACED BY HYDROPHYTES
+
+Although water is abundant, aquatic plants face other challenges:
+
+1. Limited carbon dioxide availability underwater.
+2. Reduced light intensity at greater water depths.
+3. Low oxygen availability in waterlogged sediments.
+4. Mechanical support is reduced because water provides buoyancy.
+5. Water movement may damage delicate structures.
+
+---
+
+## 7.1.9 STRUCTURAL ADAPTATIONS OF HYDROPHYTES
+
+### A. LARGE AIR SPACES
+
+Many aquatic plants contain large air spaces in their tissues.
+
+This tissue is called aerenchyma.
+
+Functions:
+
+1. Stores air.
+2. Helps transport gases within the plant.
+3. Provides buoyancy.
+4. Helps submerged tissues obtain oxygen.
+
+Example:
+
+Water hyacinth has swollen structures containing air spaces that assist flotation.
+
+### B. REDUCED ROOT SYSTEM
+
+Some floating hydrophytes have reduced roots.
+
+Explanation:
+
+1. Water is directly available around the plant.
+2. The plant may not require an extensive root system for water absorption.
+3. Roots may mainly provide anchorage or absorb some nutrients.
+
+IMPORTANT:
+
+Not all hydrophytes have reduced roots. Root development depends on the species and habitat.
+
+### C. REDUCED CUTICLE
+
+Submerged leaves often have a very thin cuticle or little cuticle.
+
+Explanation:
+
+1. Water is continuously available around the leaf.
+2. Preventing water loss is less important.
+3. A thin cuticle can allow substances to move across the leaf surface more easily.
+
+Floating leaves may still have a cuticle on their upper surface.
+
+### D. STOMATA POSITION
+
+In floating leaves:
+
+- Stomata are commonly found on the upper epidermis.
+- The lower surface is in contact with water.
+
+This arrangement allows gaseous exchange with the air above the water.
+
+Submerged leaves may lack functional stomata and exchange gases directly through their surfaces.
+
+### E. FLEXIBLE STEMS
+
+Some aquatic plants have flexible stems.
+
+Functions:
+
+1. Allow the plant to bend with water currents.
+2. Reduce the risk of mechanical damage.
+3. Help the plant remain attached while moving with water.
+
+### F. REDUCED SUPPORTING TISSUES
+
+Aquatic plants often have less developed supporting tissues.
+
+Reason:
+
+1. Water provides buoyancy.
+2. The plant does not need as much mechanical support against gravity as a terrestrial plant.
+3. Reduced supporting tissue can make stems and leaves more flexible.
+
+### G. FINELY DIVIDED SUBMERGED LEAVES
+
+Some submerged plants have narrow or finely divided leaves.
+
+Advantages:
+
+1. Increase the surface area exposed to water relative to tissue volume.
+2. Allow efficient exchange of dissolved gases and substances.
+3. Reduce resistance to water movement.
+
+---
+
+## 7.1.10 PHYSIOLOGICAL ADAPTATIONS OF HYDROPHYTES
+
+### A. GASEOUS EXCHANGE
+
+Submerged hydrophytes exchange gases directly with surrounding water.
+
+Carbon dioxide dissolved in water can enter the plant for photosynthesis.
+
+Oxygen produced during photosynthesis can diffuse into the surrounding water or be used in respiration.
+
+### B. INTERNAL GAS TRANSPORT
+
+Aerenchyma allows gases to move between different parts of aquatic plants.
+
+This is especially important when roots are surrounded by waterlogged sediments with low oxygen availability.
+
+### C. NUTRIENT ABSORPTION
+
+Some aquatic plants absorb mineral ions through:
+
+- Roots.
+- Submerged stems.
+- Leaves.
+
+The exact method depends on the species.
+
+---
+
+# 7.1.11 SUMMARY OF HYDROPHYTE ADAPTATIONS
+
+| Adaptation | Function |
+|---|---|
+| Aerenchyma | Stores and transports gases |
+| Large air spaces | Provide buoyancy |
+| Reduced cuticle in submerged leaves | Allows exchange across leaf surfaces |
+| Stomata on upper surface of floating leaves | Allows gaseous exchange with air |
+| Few or no functional stomata in submerged leaves | Gas exchange occurs through leaf surfaces |
+| Flexible stems | Withstand water movement |
+| Reduced supporting tissue | Water provides buoyancy |
+| Finely divided leaves | Increases exposed surface for exchange |
+| Reduced roots in some floating plants | Water is readily available |
+
+---
+
+# 7.1.12 COMPARISON: XEROPHYTES, MESOPHYTES AND HYDROPHYTES
+
+| Feature | Xerophytes | Mesophytes | Hydrophytes |
+|---|---|---|---|
+| Habitat | Dry | Moderate water supply | Aquatic or waterlogged |
+| Water availability | Limited | Moderate | Abundant |
+| Cuticle | Often thick | Moderate | Often thin in submerged leaves |
+| Leaves | Often reduced or modified | Usually broad and well-developed | May be floating or finely divided |
+| Stomata | May be sunken or reduced | Commonly on lower epidermis in many dicots | Upper surface of floating leaves or absent in submerged leaves |
+| Roots | Often extensive | Well-developed | Variable; sometimes reduced |
+| Air spaces | Not usually a major adaptation | Usually moderate | Often large |
+| Main challenge | Water conservation | Balancing water and gas exchange | Gas exchange and support underwater |
+
+---
+
+# D. HALOPHYTES
+
+Halophytes are plants adapted to grow in habitats with high salt concentrations.
+
+Examples of habitats:
+
+- Mangrove swamps.
+- Salt marshes.
+- Coastal salt flats.
+- Saline soils.
+
+Examples:
+
+- Rhizophora.
+- Avicennia.
+- Sonneratia.
+
+Mangrove plants are important examples of halophytes.
+
+---
+
+# 7.1.13 ENVIRONMENTAL CHALLENGES FACED BY HALOPHYTES
+
+Halophytes face several challenges:
+
+1. High salt concentration in the surrounding water or soil.
+2. Difficulty absorbing water because of low water potential in saline soil.
+3. Excess accumulation of toxic ions.
+4. Low oxygen availability in waterlogged sediments.
+5. Unstable muddy soil.
+6. Tidal flooding and strong coastal winds.
+
+IMPORTANT:
+
+Even though mangroves grow in water, the high salt concentration makes water uptake difficult.
+
+This is sometimes described as physiological drought.
+
+The plant may be surrounded by water but still experience difficulty obtaining water because the surrounding solution has a very low water potential.
+
+---
+
+# 7.1.14 STRUCTURAL ADAPTATIONS OF HALOPHYTES
+
+### A. PNEUMATOPHORES
+
+Pneumatophores are specialised aerial roots that grow upwards from the waterlogged soil.
+
+They are commonly found in certain mangrove species, such as Avicennia.
+
+Functions:
+
+1. Extend above the waterlogged sediment.
+2. Contain lenticels or pores for gaseous exchange.
+3. Allow oxygen to enter the root tissues.
+4. Help roots obtain oxygen in poorly aerated soil.
+
+This is important because waterlogged sediments contain little oxygen.
+
+### B. STILT ROOTS
+
+Stilt roots are supporting roots that grow from the stem or lower branches towards the soil.
+
+They are common in some Rhizophora mangroves.
+
+Functions:
+
+1. Provide mechanical support.
+2. Anchor the plant in soft muddy soil.
+3. Help the plant resist waves and tidal movement.
+
+### C. BUTTRESS ROOTS
+
+Some trees develop broad, flattened roots near the base of the trunk.
+
+Functions:
+
+1. Increase stability.
+2. Spread mechanical support over a larger area.
+3. Help the plant remain upright in unstable soil.
+
+### D. THICK AND FLESHY LEAVES
+
+Some halophytes have succulent leaves.
+
+Functions:
+
+1. Store water.
+2. Dilute accumulated salts.
+3. Help maintain water balance.
+
+### E. THICK CUTICLE
+
+Some halophytes possess a thick cuticle.
+
+Functions:
+
+1. Reduces excessive water loss.
+2. Helps protect leaves against dry coastal winds.
+3. Supports water conservation.
+
+---
+
+# 7.1.15 PHYSIOLOGICAL ADAPTATIONS OF HALOPHYTES
+
+### A. SALT EXCLUSION
+
+Some mangrove plants reduce the amount of salt entering their roots.
+
+Explanation:
+
+1. Specialised root tissues restrict the entry of many salt ions.
+2. Water can still be absorbed.
+3. Excessive salt accumulation in plant tissues is reduced.
+
+### B. SALT SECRETION
+
+Some halophytes remove excess salt through specialised salt glands.
+
+Explanation:
+
+1. Salt ions enter the plant.
+2. Specialised cells transport excess salts towards the leaf surface.
+3. Salt is released onto the leaf surface.
+4. Rain or other water movement may wash the salt away.
+
+This is found in certain mangrove species, including some Avicennia species.
+
+### C. ION COMPARTMENTALISATION
+
+Some halophytes store excess salts inside vacuoles.
+
+Explanation:
+
+1. Excess salt ions are transported into vacuoles.
+2. The cytoplasm is protected from excessive ion concentrations.
+3. Water balance can be regulated through osmotic adjustment.
+
+### D. OSMOTIC ADJUSTMENT
+
+Halophytes may accumulate compatible solutes such as certain sugars and amino-acid derivatives.
+
+These substances help lower the water potential of cells.
+
+As a result:
+
+1. Water absorption becomes more favourable.
+2. Cells maintain turgor.
+3. Normal cellular functions can continue under saline conditions.
+
+---
+
+# 7.1.16 REPRODUCTIVE ADAPTATIONS OF MANGROVES
+
+Some mangrove plants have a special reproductive adaptation called vivipary.
+
+### VIVIPARY
+
+Vivipary is a condition in which the seed germinates while still attached to the parent plant.
+
+In many viviparous mangroves:
+
+1. The embryo develops while the fruit remains attached to the parent plant.
+2. The elongated propagule develops.
+3. It eventually detaches from the parent plant.
+4. It may fall into the mud or water.
+5. It can become established in a suitable location.
+
+Advantages:
+
+- The young plant has already developed before detachment.
+- It may establish more quickly after reaching suitable sediment.
+- It increases the chance of successful establishment in unstable coastal habitats.
+
+IMPORTANT:
+
+Vivipary is found in some mangrove species, not all mangroves.
+
+---
+
+# 7.1.17 SUMMARY OF HALOPHYTE ADAPTATIONS
+
+| Adaptation | Function |
+|---|---|
+| Pneumatophores | Allow gaseous exchange in waterlogged soil |
+| Stilt roots | Provide anchorage and support |
+| Buttress roots | Increase stability |
+| Succulent leaves | Store water and help regulate salt concentration |
+| Thick cuticle | Reduces water loss |
+| Salt exclusion | Reduces salt entry |
+| Salt glands | Remove excess salt |
+| Vacuoles | Store excess ions away from cytoplasm |
+| Osmotic adjustment | Helps maintain water uptake and cell turgor |
+| Vivipary | Allows embryos to develop before detachment |
+
+---
+
+# 7.1.18 COMPARISON: XEROPHYTES AND HALOPHYTES
+
+Both xerophytes and halophytes may experience difficulty obtaining water.
+
+However, the main environmental causes differ.
+
+| Xerophytes | Halophytes |
+|---|---|
+| Adapted to dry habitats | Adapted to saline habitats |
+| Water is physically limited | Water may be present but difficult to absorb |
+| High evaporation is a major challenge | High salt concentration is a major challenge |
+| Often have reduced leaves and thick cuticles | May have salt exclusion or secretion mechanisms |
+| Some use CAM photosynthesis | Some use ion compartmentalisation and osmotic adjustment |
+
+---
+
+# 7.1.19 PLANTS IN DIFFERENT HABITATS: OVERALL COMPARISON
+
+| Habitat | Plant group | Main challenge | Important adaptations |
+|---|---|---|---|
+| Desert | Xerophytes | Water shortage | Spines, thick cuticle, succulent stems, deep roots |
+| Moderate terrestrial habitat | Mesophytes | Balancing water and gas exchange | Broad leaves, normal stomata and roots |
+| Aquatic habitat | Hydrophytes | Gas exchange and support | Aerenchyma, flexible stems, reduced cuticle |
+| Saline coastal habitat | Halophytes | Salt stress and low soil oxygen | Pneumatophores, salt glands, stilt roots |
+
+---
+
+# 7.1.20 WHY DO PLANTS NEED DIFFERENT ADAPTATIONS?
+
+Plants cannot survive equally well in every habitat because environmental conditions differ.
+
+For example:
+
+A cactus is adapted to conserve water in dry habitats.
+
+A water lily is adapted to float and exchange gases above the water surface.
+
+A mangrove is adapted to tolerate saline conditions and waterlogged soil.
+
+A typical garden hibiscus is adapted to conditions where water availability is more moderate.
+
+These examples show that an adaptation that is useful in one habitat may not be necessary or beneficial in another.
+
+---
+
+# 7.1.21 ADAPTATION DOES NOT MEAN THAT A PLANT NEVER EXPERIENCES STRESS
+
+Adaptations improve survival, but they do not make plants completely unaffected by environmental conditions.
+
+For example:
+
+- A cactus can still suffer if water shortage becomes too severe.
+- A hydrophyte can still be affected by pollution or insufficient light.
+- A mangrove can still be damaged by extreme changes in salinity.
+- A mesophyte can wilt when soil water becomes insufficient.
+
+Adaptations increase the likelihood of survival and reproduction under particular environmental conditions.
+
+---
+
+# COMMON EXAM MISTAKES
+
+## 1. Xerophytes and hydrophytes are not the same
+
+Xerophytes are adapted to dry habitats.
+
+Hydrophytes are adapted to aquatic or water-abundant habitats.
+
+## 2. Mangroves are halophytes
+
+Mangroves are adapted to saline coastal habitats.
+
+They may also possess adaptations for waterlogged soil.
+
+## 3. Pneumatophores are not ordinary absorption roots
+
+Pneumatophores are specialised aerial roots involved in gaseous exchange.
+
+## 4. Aerenchyma is important in aquatic plants
+
+Aerenchyma contains large air spaces.
+
+It assists internal gas movement and buoyancy.
+
+## 5. Spines reduce leaf surface area
+
+In cacti, leaves are modified into spines.
+
+The green stem performs much of the photosynthesis.
+
+## 6. Sunken stomata help conserve water
+
+They trap humid air and reduce air movement around the stomata.
+
+## 7. Not all aquatic plants have reduced roots
+
+Some hydrophytes have well-developed roots for anchorage and nutrient absorption.
+
+## 8. Not all mangroves have vivipary
+
+Vivipary occurs in certain mangrove species.
+
+## 9. Water abundance does not mean easy water absorption
+
+Saline soil can have low water potential, making water uptake difficult.
+
+## 10. CAM and ordinary photosynthesis are not separate alternatives
+
+CAM changes the timing of carbon dioxide uptake and helps conserve water.
+
+The plant still uses the Calvin cycle to produce carbohydrates.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## QUESTION 1
+
+Define xerophytes.
+
+SUGGESTED ANSWER:
+
+Xerophytes are plants adapted to survive in habitats where water availability is limited.
+
+## QUESTION 2
+
+Explain how a thick waxy cuticle helps xerophytes survive in dry habitats.
+
+SUGGESTED ANSWER:
+
+1. The thick waxy cuticle forms a protective covering over the plant surface.
+2. It reduces evaporation from the epidermal surface.
+3. Less water is lost to the surrounding environment.
+4. The plant conserves water during dry conditions.
+
+## QUESTION 3
+
+Explain how sunken stomata reduce water loss.
+
+SUGGESTED ANSWER:
+
+1. Sunken stomata are located in depressions below the leaf surface.
+2. Humid air becomes trapped around the stomata.
+3. Air movement around the stomata is reduced.
+4. The water vapour concentration gradient becomes smaller.
+5. The rate of transpiration decreases.
+
+## QUESTION 4
+
+A cactus has leaves modified into spines and a thick green stem.
+
+Explain the importance of these structures.
+
+SUGGESTED ANSWER:
+
+1. Spines reduce the leaf surface area exposed to the air.
+2. This reduces water loss through transpiration.
+3. The spines also provide protection against herbivores.
+4. The thick stem stores water.
+5. The green stem carries out photosynthesis.
+
+## QUESTION 5
+
+Describe CAM photosynthesis in xerophytes.
+
+SUGGESTED ANSWER:
+
+1. Stomata open mainly at night.
+2. Carbon dioxide enters the plant.
+3. Carbon dioxide is fixed into organic acids.
+4. Organic acids are stored in vacuoles.
+5. During the day, stomata remain mostly closed.
+6. Stored organic acids release carbon dioxide.
+7. Carbon dioxide is used in the Calvin cycle for photosynthesis.
+
+## QUESTION 6
+
+Define hydrophytes.
+
+SUGGESTED ANSWER:
+
+Hydrophytes are plants adapted to live in aquatic habitats or environments where water is abundant.
+
+## QUESTION 7
+
+Explain how aerenchyma helps aquatic plants survive.
+
+SUGGESTED ANSWER:
+
+1. Aerenchyma contains large air spaces.
+2. The air spaces store gases.
+3. They allow gases to move between different plant tissues.
+4. They provide buoyancy.
+5. This helps submerged tissues obtain oxygen and allows some plants to float.
+
+## QUESTION 8
+
+A floating aquatic plant has stomata mainly on its upper leaf surface.
+
+Explain why this arrangement is suitable.
+
+SUGGESTED ANSWER:
+
+1. The upper leaf surface is exposed to the air.
+2. The lower surface is in contact with water.
+3. Stomata on the upper surface allow carbon dioxide to enter from the atmosphere.
+4. Oxygen and water vapour can also move between the leaf and surrounding air.
+
+## QUESTION 9
+
+Define halophytes.
+
+SUGGESTED ANSWER:
+
+Halophytes are plants adapted to grow in habitats with high salt concentrations.
+
+## QUESTION 10
+
+Explain why mangrove plants may experience difficulty absorbing water even though they grow in water.
+
+SUGGESTED ANSWER:
+
+1. The surrounding water or soil contains a high concentration of dissolved salts.
+2. The water potential of the saline environment is low.
+3. Water absorption by the roots becomes difficult.
+4. The plant may experience physiological drought.
+
+## QUESTION 11
+
+Explain how pneumatophores help mangrove plants survive in waterlogged soil.
+
+SUGGESTED ANSWER:
+
+1. Pneumatophores grow upwards above the waterlogged sediment.
+2. They contain lenticels or pores.
+3. Oxygen enters through these structures.
+4. Oxygen is transported to underground root tissues.
+5. This allows root respiration in poorly aerated soil.
+
+## QUESTION 12
+
+Differentiate between pneumatophores and stilt roots.
+
+SUGGESTED ANSWER:
+
+Pneumatophores are specialised aerial roots that assist gaseous exchange, whereas stilt roots provide anchorage and mechanical support in soft muddy soil.
+
+## QUESTION 13
+
+Explain how salt secretion helps certain mangrove plants survive.
+
+SUGGESTED ANSWER:
+
+1. Excess salt ions are transported towards specialised salt glands.
+2. Salt is released onto the leaf surface.
+3. Rain or water movement washes the salt away.
+4. Excessive salt accumulation inside the plant is reduced.
+
+## QUESTION 14
+
+Compare xerophytes and hydrophytes.
+
+SUGGESTED ANSWER:
+
+1. Xerophytes are adapted to dry habitats, whereas hydrophytes are adapted to aquatic habitats.
+2. Xerophytes often have thick cuticles, whereas submerged hydrophytes often have thin cuticles.
+3. Xerophytes may have reduced leaves to conserve water, whereas hydrophytes may have finely divided submerged leaves for exchange.
+4. Xerophytes may have extensive root systems, whereas some floating hydrophytes have reduced roots.
+
+## QUESTION 15
+
+A plant grows in coastal mud that is frequently flooded by seawater. Its roots extend above the soil surface.
+
+Identify the likely plant group and explain the function of the exposed roots.
+
+SUGGESTED ANSWER:
+
+The plant is likely a halophyte, such as a mangrove.
+
+The exposed roots are likely pneumatophores. They allow oxygen to enter the underground root system because waterlogged soil contains limited oxygen.
+
+---
+
+# KEY TERMS
+
+- Adaptation
+- Structural adaptation
+- Physiological adaptation
+- Reproductive adaptation
+- Terrestrial plant
+- Xerophyte
+- Mesophyte
+- Hydrophyte
+- Halophyte
+- Transpiration
+- Cuticle
+- Sunken stomata
+- Succulent
+- CAM photosynthesis
+- Aerenchyma
+- Buoyancy
+- Pneumatophore
+- Lenticel
+- Stilt root
+- Buttress root
+- Salt exclusion
+- Salt secretion
+- Salt gland
+- Ion compartmentalisation
+- Osmotic adjustment
+- Physiological drought
+- Vivipary
+- Mangrove
+
+---
+
+# FINAL REVISION SUMMARY
+
+## XEROPHYTES
+
+Habitat: Dry environments.
+
+Main challenge: Water shortage and excessive water loss.
+
+Adaptations:
+
+- Reduced leaves or spines.
+- Thick waxy cuticle.
+- Sunken stomata.
+- Rolled leaves.
+- Leaf hairs.
+- Succulent stems or leaves.
+- Deep or wide-spreading roots.
+- CAM photosynthesis.
+- Stomatal closure during water stress.
+
+## MESOPHYTES
+
+Habitat: Environments with moderate water availability.
+
+Main challenge: Balancing water conservation with photosynthesis and gaseous exchange.
+
+Characteristics:
+
+- Broad, well-developed leaves.
+- Moderately developed cuticle.
+- Functional stomata.
+- Well-developed roots.
+- Normal transpiration under suitable conditions.
+
+## HYDROPHYTES
+
+Habitat: Aquatic or water-abundant environments.
+
+Main challenges: Gaseous exchange, light availability and mechanical support.
+
+Adaptations:
+
+- Large air spaces.
+- Aerenchyma.
+- Reduced cuticle in submerged leaves.
+- Stomata on the upper surface of floating leaves.
+- Flexible stems.
+- Reduced supporting tissues.
+- Finely divided submerged leaves.
+
+## HALOPHYTES
+
+Habitat: Saline environments, including mangrove swamps.
+
+Main challenges: High salt concentration, physiological drought and low oxygen in waterlogged soil.
+
+Adaptations:
+
+- Pneumatophores.
+- Stilt roots.
+- Buttress roots.
+- Thick cuticle.
+- Succulent leaves.
+- Salt exclusion.
+- Salt secretion.
+- Ion compartmentalisation.
+- Osmotic adjustment.
+- Vivipary in certain mangrove species.
+
+---
+
+# ULTRA-HIGH-YIELD MEMORY MAP
+
+**XEROPHYTES = DRY**
+
+- Thick cuticle.
+- Spines.
+- Sunken stomata.
+- Succulent stems.
+- Deep roots.
+- CAM.
+
+**MESOPHYTES = MODERATE WATER**
+
+- Broad leaves.
+- Normal stomata.
+- Moderate cuticle.
+- Well-developed roots.
+
+**HYDROPHYTES = WATER**
+
+- Aerenchyma.
+- Air spaces.
+- Buoyancy.
+- Flexible stems.
+- Reduced cuticle in submerged leaves.
+
+**HALOPHYTES = SALT**
+
+- Pneumatophores.
+- Stilt roots.
+- Salt glands.
+- Salt exclusion.
+- Osmotic adjustment.
+- Vivipary in some species.
+
+REMEMBER:
+
+An adaptation is useful because it improves survival or reproduction under particular environmental conditions. Always connect the structure or process to its biological function when answering an EXPLAIN question.
