@@ -1,0 +1,1834 @@
+# BIOLOGY FORM 5 — CHAPTER 8
+# BIODIVERSITY
+
+**SUBJECT:** Biology  
+**FORM:** Form 5  
+**CHAPTER:** Chapter 8  
+**CHAPTER TITLE:** Biodiversity  
+**TOPICS:** 8.1, 8.2, 8.3  
+**SOURCE TYPE:** Original Learning Material  
+**STATUS:** Original Educational Content
+
+---
+
+# 8.1 CLASSIFICATION SYSTEM AND NAMING OF ORGANISMS
+
+## 8.1.1 Introduction to Classification
+
+Classification is the process of organising organisms into groups based on their similarities and differences.
+
+Scientists classify organisms to make the study of the enormous diversity of living things easier and more systematic.
+
+There are millions of known species, and many more may still be undiscovered. Without classification, identifying and studying organisms would be difficult.
+
+### Importance of Classification
+
+1. Makes the study of organisms more organised.
+2. Helps scientists identify organisms accurately.
+3. Shows similarities and differences between organisms.
+4. Helps scientists understand evolutionary relationships.
+5. Provides a universal system for communicating about organisms.
+6. Reduces confusion caused by different common names in different languages and regions.
+
+**Example:**
+
+The organism commonly called a house cat may have different names in different languages. Its scientific name, *Felis catus*, is used internationally.
+
+## 8.1.2 Taxonomy
+
+Taxonomy is the branch of biology concerned with identifying, naming and classifying organisms.
+
+The three main activities in taxonomy are:
+
+- Identification: determining the identity of an organism.
+- Nomenclature: assigning scientific names to organisms.
+- Classification: arranging organisms into groups according to shared characteristics.
+
+A taxon is a group of organisms at any level of classification.
+
+## 8.1.3 Taxonomic Hierarchy
+
+Organisms are classified into several levels, from the broadest group to the most specific group.
+
+The commonly used hierarchy is:
+
+**Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species**
+
+For plants, the term division is commonly used instead of phylum.
+
+### Explanation of Each Level
+
+**1. Domain**
+
+- The broadest major classification level in the three-domain system.
+- Organisms are grouped according to fundamental cellular and molecular characteristics.
+- The three domains are Bacteria, Archaea and Eukarya.
+
+**2. Kingdom**
+
+- A major group within a domain.
+- Organisms share broad characteristics such as cell organisation and nutritional features.
+
+**3. Phylum**
+
+- Groups organisms that share important structural and organisational features.
+- For plants, this level is commonly called division.
+
+**4. Class**
+
+- A subdivision of a phylum.
+
+**5. Order**
+
+- A subdivision of a class.
+
+**6. Family**
+
+- A subdivision of an order.
+- Organisms in the same family share more characteristics than organisms that only belong to the same order.
+
+**7. Genus**
+
+- A group of closely related species.
+- Organisms in the same genus share many characteristics.
+
+**8. Species**
+
+- The most specific basic classification unit.
+- In the biological species concept, a species generally consists of natural populations whose members can interbreed and produce fertile offspring.
+
+### Example: Classification of Humans
+
+| Taxonomic level | Human classification |
+|---|---|
+| Domain | Eukarya |
+| Kingdom | Animalia |
+| Phylum | Chordata |
+| Class | Mammalia |
+| Order | Primates |
+| Family | Hominidae |
+| Genus | Homo |
+| Species | Homo sapiens |
+
+### Important Relationship
+
+As classification moves from domain towards species:
+
+- The number of organisms in each group generally decreases.
+- The similarities between organisms generally increase.
+- The characteristics shared by organisms become more specific.
+
+**Exam tip:**
+
+If asked why organisms in the same genus are more closely related than organisms in the same family, explain that a genus is a more specific taxonomic level and its members share more characteristics.
+
+## 8.1.4 Three-Domain Classification System
+
+The three-domain system divides organisms into three major domains.
+
+### A. Domain Bacteria
+
+Characteristics:
+
+- Prokaryotic organisms.
+- Usually unicellular.
+- No membrane-bound nucleus.
+- DNA is located in a nucleoid region.
+- Most have a cell wall containing peptidoglycan.
+- Reproduce mainly through binary fission.
+
+Examples:
+
+- *Escherichia coli*
+- *Lactobacillus*
+- Cyanobacteria
+
+### B. Domain Archaea
+
+Characteristics:
+
+- Prokaryotic organisms.
+- Usually unicellular.
+- No membrane-bound nucleus.
+- Cell walls do not contain bacterial peptidoglycan.
+- Their cell membrane chemistry differs from that of bacteria.
+- Some live in extreme environments, although many live in ordinary environments.
+
+Examples:
+
+- Methanogens.
+- Halophilic archaea.
+- Thermophilic archaea.
+
+**Important:** Not all archaea live in extreme environments.
+
+### C. Domain Eukarya
+
+Characteristics:
+
+- Cells have a membrane-bound nucleus.
+- Cells contain membrane-bound organelles.
+- Includes unicellular and multicellular organisms.
+
+Examples:
+
+- Animals.
+- Plants.
+- Fungi.
+- Protists.
+
+### Comparison of the Three Domains
+
+| Feature | Bacteria | Archaea | Eukarya |
+|---|---|---|---|
+| Cell type | Prokaryotic | Prokaryotic | Eukaryotic |
+| True nucleus | Absent | Absent | Present |
+| Membrane-bound organelles | Absent | Absent | Present |
+| Cell wall | Usually peptidoglycan | No peptidoglycan | Varies |
+| Organisation | Usually unicellular | Usually unicellular | Unicellular or multicellular |
+
+## 8.1.5 Five-Kingdom Classification System
+
+A commonly taught classification system groups organisms into five kingdoms.
+
+### 1. Kingdom Monera
+
+Traditional classification group containing prokaryotic organisms.
+
+Characteristics:
+
+- Unicellular.
+- No true nucleus.
+- No membrane-bound organelles.
+- Includes many bacteria.
+
+**Note:** Modern classification separates Bacteria and Archaea into different domains. Monera is a traditional grouping.
+
+### 2. Kingdom Protista
+
+Characteristics:
+
+- Eukaryotic.
+- Mostly unicellular, although some are multicellular or colonial.
+- Some are photosynthetic.
+- Others obtain nutrients from organic substances.
+
+Examples:
+
+- Amoeba.
+- Paramecium.
+- Euglena.
+
+### 3. Kingdom Fungi
+
+Characteristics:
+
+- Eukaryotic.
+- Most are multicellular; yeasts are unicellular.
+- Cell walls contain chitin.
+- Do not contain chlorophyll.
+- Obtain nutrients by absorption.
+- Many act as decomposers.
+
+Examples:
+
+- Mushrooms.
+- Yeast.
+- Moulds.
+
+### 4. Kingdom Plantae
+
+Characteristics:
+
+- Eukaryotic.
+- Mostly multicellular.
+- Cell walls contain cellulose.
+- Usually contain chloroplasts.
+- Carry out photosynthesis.
+- Store carbohydrates mainly as starch.
+
+Examples:
+
+- Mosses.
+- Ferns.
+- Flowering plants.
+
+### 5. Kingdom Animalia
+
+Characteristics:
+
+- Eukaryotic.
+- Multicellular.
+- Cells do not have cell walls.
+- Obtain nutrients by ingestion.
+- Most can move during at least one stage of their life cycle.
+- Usually have specialised tissues and organs.
+
+Examples:
+
+- Humans.
+- Fish.
+- Insects.
+- Birds.
+
+## 8.1.6 Binomial Nomenclature
+
+Binomial nomenclature is the scientific system of naming organisms using two words.
+
+It was developed and popularised by Carl Linnaeus.
+
+The two parts are:
+
+1. Genus name.
+2. Specific epithet.
+
+Together, they form the scientific name of a species.
+
+**Example:**
+
+*Homo sapiens*
+
+- *Homo* = genus.
+- *sapiens* = specific epithet.
+- *Homo sapiens* = complete scientific name.
+
+Other examples:
+
+- *Panthera leo* — lion.
+- *Panthera tigris* — tiger.
+- *Oryza sativa* — rice.
+- *Escherichia coli* — bacterium.
+
+### Rules of Binomial Nomenclature
+
+1. Each scientific name consists of two words.
+2. The genus name begins with a capital letter.
+3. The specific epithet begins with a lowercase letter.
+4. Both words are written in italics when typed.
+5. When handwritten, each word is underlined separately.
+6. Scientific names are generally Latin or Latinised.
+7. The scientific name is used internationally.
+
+**Correct:** *Homo sapiens*
+
+**Incorrect:** homo Sapiens
+
+**Incorrect:** *Homo Sapiens*
+
+### Advantages of Binomial Nomenclature
+
+- Provides a universal name.
+- Avoids confusion caused by different common names.
+- Identifies the genus and species.
+- Helps scientists communicate accurately.
+- Allows organisms to be organised systematically.
+
+## 8.1.7 Identification of Organisms Using a Dichotomous Key
+
+A dichotomous key is a tool used to identify organisms through a series of paired statements.
+
+The word dichotomous means divided into two parts.
+
+At each step, two contrasting characteristics are presented. The user selects the statement that matches the organism and follows the indicated direction.
+
+### How to Use a Dichotomous Key
+
+1. Observe the organism carefully.
+2. Read the first pair of statements.
+3. Select the statement that matches the organism.
+4. Follow the instruction or number given.
+5. Continue selecting between paired statements.
+6. Repeat until the organism is identified.
+
+### Example of a Simple Dichotomous Key
+
+Suppose four organisms have these characteristics:
+
+- Organism A: has wings and six legs.
+- Organism B: has six legs but no wings.
+- Organism C: has eight legs.
+- Organism D: has no legs.
+
+A simplified key:
+
+1a. Organism has legs → Go to 2  
+1b. Organism has no legs → Organism D
+
+2a. Organism has eight legs → Organism C  
+2b. Organism has six legs → Go to 3
+
+3a. Organism has wings → Organism A  
+3b. Organism has no wings → Organism B
+
+### Characteristics of a Good Dichotomous Key
+
+- Uses clear and observable characteristics.
+- Provides two contrasting choices at each step.
+- Avoids vague descriptions.
+- Uses characteristics that can be reliably identified.
+- Leads to one identification for each organism.
+
+**Exam tip:**
+
+When constructing a dichotomous key, use paired statements based on opposite or contrasting characteristics.
+
+---
+
+# 8.2 BIODIVERSITY
+
+## 8.2.1 Definition of Biodiversity
+
+Biodiversity refers to the variety of living organisms in an area or on Earth.
+
+It includes variation at three main levels:
+
+1. Genetic diversity.
+2. Species diversity.
+3. Ecosystem diversity.
+
+Biodiversity is important because organisms interact with one another and with their physical environment.
+
+## 8.2.2 Levels of Biodiversity
+
+### A. Genetic Diversity
+
+Genetic diversity refers to the variation in genetic information among individuals of the same species.
+
+Individuals of the same species may have different inherited characteristics because they possess different combinations of alleles.
+
+Examples:
+
+- Different varieties of rice.
+- Different breeds of domestic dogs.
+- Differences in flower colour among plants of the same species.
+- Differences in inherited characteristics among humans.
+
+**Importance:**
+
+1. Increases the ability of populations to adapt to environmental changes.
+2. Provides variation for natural selection.
+3. May increase resistance to diseases.
+4. Helps maintain the long-term survival of populations.
+
+**Example:**
+
+A crop population with greater genetic variation may contain some individuals that are more resistant to a particular disease.
+
+### B. Species Diversity
+
+Species diversity refers to the variety of species in a particular habitat or ecosystem.
+
+It considers:
+
+- Species richness: the number of different species.
+- Species evenness: how evenly individuals are distributed among those species.
+
+An ecosystem with many species and a relatively balanced distribution of individuals generally has higher species diversity than one dominated by only a few species.
+
+**Example:**
+
+A tropical rainforest may contain many species of plants, insects, birds, mammals, fungi and microorganisms.
+
+### C. Ecosystem Diversity
+
+Ecosystem diversity refers to the variety of ecosystems or habitats within a region.
+
+Examples:
+
+- Tropical rainforests.
+- Mangrove forests.
+- Coral reefs.
+- Rivers.
+- Lakes.
+- Peat swamps.
+- Grasslands.
+
+Different ecosystems support different communities of organisms because environmental conditions vary.
+
+### Comparison of the Three Levels
+
+| Level | Meaning | Example |
+|---|---|---|
+| Genetic diversity | Variation within a species | Different rice varieties |
+| Species diversity | Variety of species in an area | Many species in a rainforest |
+| Ecosystem diversity | Variety of ecosystems | Forests, rivers and coral reefs |
+
+## 8.2.3 Importance of Biodiversity
+
+Biodiversity provides ecological, economic, scientific and social benefits.
+
+### A. Ecological Importance
+
+1. Maintains ecosystem stability.
+2. Supports food webs and food chains.
+3. Helps maintain nutrient cycles.
+4. Supports pollination.
+5. Helps regulate populations through predator-prey relationships.
+6. Supports decomposition and soil formation.
+
+**Example:**
+
+Decomposers break down dead organisms and return nutrients to the environment. These nutrients can then be absorbed by plants.
+
+### B. Economic Importance
+
+Biodiversity provides natural resources that support human activities.
+
+Examples:
+
+- Food from plants and animals.
+- Timber and other forest products.
+- Natural fibres.
+- Medicines and useful biological compounds.
+- Materials used in agriculture and industry.
+
+**Example:**
+
+Some medicines are developed from chemical compounds originally discovered in plants, fungi and microorganisms.
+
+### C. Scientific and Educational Importance
+
+1. Provides organisms for scientific research.
+2. Helps scientists study evolution and adaptation.
+3. Supports the development of new medicines and technologies.
+4. Helps researchers understand ecosystem functions.
+
+### D. Social and Recreational Importance
+
+1. Supports ecotourism.
+2. Provides opportunities for recreation.
+3. Has cultural and educational value.
+4. Supports the identity and traditions of some communities.
+
+## 8.2.4 Threats to Biodiversity
+
+Biodiversity can decrease when habitats are destroyed, populations become too small or organisms are removed faster than they can reproduce.
+
+### A. Habitat Destruction
+
+Habitat destruction occurs when natural environments are removed or severely damaged.
+
+Causes include:
+
+- Deforestation.
+- Urban development.
+- Agricultural expansion.
+- Mining.
+- Construction of roads and dams.
+
+Effects:
+
+1. Organisms lose food and shelter.
+2. Breeding sites may be destroyed.
+3. Populations become smaller.
+4. Food webs are disrupted.
+5. Some species may become endangered or extinct.
+
+### B. Habitat Fragmentation
+
+Habitat fragmentation occurs when a large continuous habitat is divided into smaller isolated areas.
+
+Causes include:
+
+- Roads.
+- Farms.
+- Buildings.
+- Other forms of development.
+
+Effects:
+
+1. Organisms may become separated into small populations.
+2. Movement between populations becomes difficult.
+3. Gene flow may decrease.
+4. Inbreeding may become more likely in small isolated populations.
+5. Populations may become more vulnerable to extinction.
+
+**Important distinction:**
+
+Habitat destruction removes or damages habitat, whereas habitat fragmentation divides habitat into separate patches.
+
+### C. Pollution
+
+Pollution is the introduction of harmful substances or forms of energy into the environment.
+
+Types include:
+
+- Water pollution.
+- Air pollution.
+- Soil pollution.
+- Noise pollution.
+- Thermal pollution.
+
+Effects:
+
+1. Toxic substances may poison organisms.
+2. Water pollution may reduce dissolved oxygen.
+3. Fertiliser runoff may cause eutrophication.
+4. Air pollution may damage plant tissues.
+5. Noise pollution may interfere with animal communication and behaviour.
+
+**Example: Eutrophication**
+
+1. Excess fertilisers enter a water body.
+2. Nutrient levels increase.
+3. Algae grow rapidly, forming an algal bloom.
+4. Algae and other organisms die.
+5. Decomposers break down the dead organic matter.
+6. Decomposition uses dissolved oxygen.
+7. Oxygen levels decrease.
+8. Aquatic organisms may die due to insufficient oxygen.
+
+### D. Climate Change
+
+Climate change involves long-term changes in climate patterns.
+
+It can be influenced by increased greenhouse gas concentrations caused by human activities.
+
+Effects on biodiversity include:
+
+1. Changes in temperature and rainfall.
+2. Changes in the distribution of species.
+3. Loss of suitable habitats.
+4. Changes in breeding and migration patterns.
+5. Increased stress on organisms that cannot adapt or move.
+
+### E. Overexploitation
+
+Overexploitation occurs when organisms are harvested or removed from their environment at a rate faster than their populations can recover.
+
+Examples:
+
+- Overfishing.
+- Excessive hunting.
+- Illegal wildlife trade.
+- Excessive logging.
+
+Effects:
+
+1. Population sizes decrease.
+2. Reproductive populations may become too small.
+3. Food webs may be disrupted.
+4. Some species may become endangered or extinct.
+
+### F. Invasive Alien Species
+
+An invasive alien species is a non-native organism that becomes established and spreads in a new environment, causing or potentially causing harm.
+
+Effects may include:
+
+- Competition with native organisms.
+- Predation on native species.
+- Introduction of diseases.
+- Changes to habitats and food webs.
+
+**Important:** Not every non-native species becomes invasive.
+
+## 8.2.5 Conservation of Biodiversity
+
+Conservation is the protection, management and sustainable use of biodiversity.
+
+Its purpose is to maintain species, genetic variation and ecosystems for present and future generations.
+
+There are two major approaches.
+
+### A. In Situ Conservation
+
+In situ conservation means conserving organisms in their natural habitats.
+
+Methods include:
+
+**1. National Parks**
+
+- Protect natural ecosystems.
+- Restrict activities that damage habitats.
+- Provide areas where wildlife populations can survive.
+
+**2. Wildlife Reserves**
+
+- Protect wild animal populations.
+- Reduce threats such as hunting and habitat destruction.
+
+**3. Marine Protected Areas**
+
+- Protect marine habitats and organisms.
+- Restrict damaging activities in designated areas.
+- Help fish populations and coral reef ecosystems recover.
+
+**4. Forest Reserves**
+
+- Protect forest ecosystems.
+- Help maintain habitats and ecological processes.
+
+**Advantages of In Situ Conservation**
+
+1. Protects organisms within their natural ecosystems.
+2. Conserves interactions between species.
+3. Maintains natural breeding and behavioural patterns.
+4. Can protect many species at the same time.
+
+**Limitations**
+
+1. Habitats may still be affected by climate change or pollution.
+2. Illegal activities may be difficult to control.
+3. Large areas may require significant management resources.
+
+### B. Ex Situ Conservation
+
+Ex situ conservation means conserving organisms outside their natural habitats.
+
+Methods include:
+
+**1. Zoos**
+
+- Maintain and care for certain animal populations.
+- May support breeding and educational programmes.
+
+**2. Botanical Gardens**
+
+- Maintain collections of living plants.
+- Support plant conservation, research and education.
+
+**3. Seed Banks**
+
+- Store seeds under controlled conditions.
+- Preserve plant genetic material for future use.
+
+**4. Gene Banks**
+
+- Store genetic material such as seeds, tissues, sperm or embryos, depending on the species and technology used.
+
+**5. Captive Breeding Programmes**
+
+- Breed threatened animals under controlled conditions.
+- May support reintroduction into suitable natural habitats.
+
+**Advantages of Ex Situ Conservation**
+
+1. Provides protection from some threats in natural habitats.
+2. Allows controlled breeding.
+3. Preserves genetic material.
+4. Supports research and education.
+
+**Limitations**
+
+1. Can be expensive.
+2. Limited space may restrict the number of organisms maintained.
+3. Organisms may lose some natural behaviours.
+4. Does not conserve the entire natural ecosystem.
+
+### Comparison of In Situ and Ex Situ Conservation
+
+| In situ | Ex situ |
+|---|---|
+| Conserves organisms in natural habitats | Conserves organisms outside natural habitats |
+| Protects natural ecological interactions | Focuses on selected organisms or genetic material |
+| Examples: national parks and marine protected areas | Examples: zoos and seed banks |
+| May protect entire ecosystems | Usually protects selected species or samples |
+
+## 8.2.6 Sustainable Development and Biodiversity
+
+Sustainable development means meeting present needs without compromising the ability of future generations to meet their own needs.
+
+It involves balancing:
+
+- Environmental protection.
+- Economic development.
+- Social well-being.
+
+Examples of sustainable practices:
+
+1. Replanting trees after logging.
+2. Using resources at a rate that allows recovery.
+3. Reducing waste and pollution.
+4. Protecting natural habitats.
+5. Practising sustainable fishing.
+6. Using land responsibly.
+7. Supporting responsible ecotourism.
+
+**Example: Sustainable Forestry**
+
+Trees can be harvested under a managed system that allows forests to regenerate. This reduces damage compared with uncontrolled logging.
+
+## 8.2.7 Role of Individuals in Biodiversity Conservation
+
+Individuals can help conserve biodiversity by:
+
+- Reducing unnecessary consumption.
+- Reusing and recycling materials.
+- Avoiding products made from illegally traded wildlife.
+- Supporting habitat restoration.
+- Planting suitable native species.
+- Preventing pollution.
+- Respecting protected areas.
+- Reporting suspected illegal wildlife activities to the relevant authorities.
+
+**Exam tip:**
+
+For questions asking how humans can conserve biodiversity, give specific actions and explain how each action reduces a threat.
+
+---
+
+# 8.3 MICROORGANISMS AND VIRUSES
+
+## 8.3.1 Introduction to Microorganisms
+
+Microorganisms are organisms that are generally too small to be seen clearly with the unaided eye.
+
+They are commonly studied using microscopes.
+
+Examples include:
+
+- Bacteria.
+- Archaea.
+- Protozoa.
+- Microscopic fungi.
+- Microscopic algae.
+
+Viruses are microscopic infectious agents, but they are generally not considered living cells because they lack cellular organisation and cannot reproduce independently.
+
+Microorganisms are found in many environments:
+
+- Soil.
+- Water.
+- Air.
+- Food.
+- The bodies of plants and animals.
+- Extreme environments.
+
+## 8.3.2 Main Groups of Microorganisms
+
+### A. Bacteria
+
+Bacteria are unicellular prokaryotic organisms.
+
+Characteristics:
+
+1. Usually unicellular.
+2. No true nucleus.
+3. DNA is located in the nucleoid region.
+4. Usually contain a cell wall made of peptidoglycan.
+5. Have ribosomes.
+6. Reproduce mainly by binary fission.
+7. Some possess flagella for movement.
+
+### Structure of a Typical Bacterial Cell
+
+**Capsule**
+
+- Present in some bacteria.
+- Provides additional protection.
+- May help bacteria attach to surfaces.
+
+**Cell Wall**
+
+- Maintains cell shape.
+- Provides support and protection.
+- Most bacterial cell walls contain peptidoglycan.
+
+**Plasma Membrane**
+
+- Controls movement of substances into and out of the cell.
+- Contains proteins involved in cellular processes.
+
+**Cytoplasm**
+
+- Contains enzymes and cellular components.
+- Site of many metabolic reactions.
+
+**Nucleoid**
+
+- Region containing the main bacterial DNA.
+- Not surrounded by a nuclear membrane.
+
+**Plasmids**
+
+- Small circular DNA molecules found in some bacteria.
+- May carry genes that provide additional characteristics, such as antibiotic resistance.
+
+**Ribosomes**
+
+- Sites of protein synthesis.
+
+**Flagellum**
+
+- Present in some bacteria.
+- Helps the bacterium move.
+
+### Common Bacterial Shapes
+
+1. Coccus: spherical.
+2. Bacillus: rod-shaped.
+3. Spirillum: spiral-shaped.
+4. Vibrio: comma-shaped.
+
+### Reproduction in Bacteria
+
+Bacteria commonly reproduce through binary fission.
+
+Basic sequence:
+
+1. The bacterial DNA is replicated.
+2. The cell grows.
+3. The DNA copies move apart.
+4. The plasma membrane and cell wall begin to divide.
+5. The cell separates into two daughter cells.
+
+Under suitable conditions, bacterial populations can increase rapidly.
+
+**Important:** Binary fission is a form of asexual reproduction. It does not normally involve the fusion of gametes.
+
+### Useful Roles of Bacteria
+
+1. Decomposition of dead organic matter.
+2. Nitrogen fixation by certain species.
+3. Production of fermented foods.
+4. Production of useful substances in biotechnology.
+5. Normal microbial communities in the digestive systems of some animals.
+6. Wastewater treatment.
+
+**Examples:**
+
+- *Lactobacillus* is used in the production of yoghurt.
+- Certain bacteria help convert atmospheric nitrogen into compounds that plants can use.
+- Decomposer bacteria return nutrients to ecosystems.
+
+### Harmful Roles of Bacteria
+
+Some bacteria cause diseases or food spoilage.
+
+Examples:
+
+- *Mycobacterium tuberculosis* causes tuberculosis.
+- *Vibrio cholerae* causes cholera.
+- Certain strains of *Salmonella* cause foodborne illness.
+
+**Important:** Not all bacteria are harmful. Many are beneficial or harmless.
+
+## 8.3.3 Archaea
+
+Archaea are unicellular prokaryotic organisms that form a domain separate from Bacteria.
+
+Characteristics:
+
+- No true nucleus.
+- No membrane-bound organelles.
+- Cell walls do not contain bacterial peptidoglycan.
+- Cell membrane composition is chemically distinct from bacteria.
+- Some are adapted to extreme environments.
+
+Examples:
+
+**Methanogens**
+
+- Produce methane as part of their metabolism.
+- Found in environments such as wetlands and the digestive systems of some animals.
+
+**Halophiles**
+
+- Adapted to environments with high salt concentrations.
+
+**Thermophiles**
+
+- Adapted to high-temperature environments.
+
+**Importance:**
+
+- Contribute to nutrient cycles.
+- Some produce methane.
+- Help scientists understand the diversity of life and the limits of life in extreme environments.
+
+## 8.3.4 Protozoa
+
+Protozoa are mostly unicellular eukaryotic organisms.
+
+Characteristics:
+
+1. Have a true nucleus.
+2. Possess membrane-bound organelles.
+3. Mostly live in water or moist environments.
+4. Some are free-living.
+5. Some are parasites.
+6. Some move using specialised structures.
+
+### Types of Movement
+
+**Amoeboid Movement**
+
+- Uses temporary extensions of the cell called pseudopodia.
+- Pseudopodia help the organism move and capture food.
+
+Example: Amoeba.
+
+**Cilia**
+
+- Short hair-like structures.
+- Beat in coordinated patterns to move the organism or move substances around it.
+
+Example: Paramecium.
+
+**Flagella**
+
+- Longer whip-like structures.
+- Help the organism move.
+
+Example: Some protozoa, including *Giardia*.
+
+### Nutrition in Protozoa
+
+Some protozoa obtain food by engulfing particles.
+
+For example, Amoeba uses pseudopodia to surround food particles. The food is enclosed in a food vacuole, where digestion occurs.
+
+Other protozoa absorb nutrients from their surroundings or obtain nutrients from a host.
+
+### Examples of Protozoa
+
+**Amoeba**
+
+- Free-living in many freshwater environments.
+- Moves using pseudopodia.
+- Engulfs food particles.
+
+**Paramecium**
+
+- Has cilia.
+- Uses cilia for movement and feeding.
+- Commonly found in freshwater environments.
+
+**Plasmodium**
+
+- A parasitic protozoan.
+- Causes malaria.
+- Transmitted to humans by infected female *Anopheles* mosquitoes.
+
+**Giardia**
+
+- A parasitic protozoan.
+- Can cause intestinal illness.
+- Can spread through contaminated water.
+
+## 8.3.5 Microscopic Fungi
+
+Fungi are eukaryotic organisms that obtain nutrients through absorption.
+
+Some fungi are microscopic.
+
+Examples include:
+
+- Yeast.
+- Moulds.
+
+### Characteristics of Fungi
+
+1. Eukaryotic cells.
+2. Cell walls contain chitin.
+3. Do not contain chlorophyll.
+4. Obtain nutrients through absorption.
+5. Many are decomposers.
+6. Some are parasites or pathogens.
+
+### Yeast
+
+Yeast is a unicellular fungus.
+
+Characteristics:
+
+- Has a nucleus.
+- Has a cell wall containing fungal cell-wall materials.
+- Reproduces commonly by budding.
+- Can carry out fermentation under suitable conditions.
+
+**Budding in Yeast**
+
+1. A small outgrowth forms on the parent cell.
+2. The nucleus divides.
+3. One nucleus moves into the developing bud.
+4. The bud grows.
+5. The bud may separate and become an independent cell.
+
+**Importance of Yeast**
+
+- Used in bread-making.
+- Used in fermentation industries.
+- Produces carbon dioxide during alcoholic fermentation.
+
+### Mould
+
+Moulds are multicellular fungi made up of thread-like structures called hyphae.
+
+A mass of hyphae is called a mycelium.
+
+Functions:
+
+- Hyphae grow through the food source.
+- They secrete digestive enzymes.
+- Digested nutrients are absorbed.
+
+Some moulds reproduce by producing spores.
+
+**Importance of Fungi**
+
+Beneficial roles:
+
+- Decomposition.
+- Food production.
+- Production of some medicines.
+- Industrial fermentation.
+
+Harmful roles:
+
+- Food spoilage.
+- Plant diseases.
+- Human fungal infections.
+- Production of harmful toxins by certain species.
+
+## 8.3.6 Microscopic Algae
+
+Algae are photosynthetic organisms commonly found in aquatic or moist environments.
+
+Some are unicellular, while others are multicellular.
+
+Characteristics:
+
+- Eukaryotic algae have a nucleus.
+- Many contain chlorophyll.
+- Carry out photosynthesis.
+- Release oxygen during oxygenic photosynthesis.
+- Form part of aquatic food webs.
+
+Examples:
+
+- Chlamydomonas.
+- Chlorella.
+- Diatoms.
+
+### Importance of Algae
+
+1. Produce organic food through photosynthesis.
+2. Release oxygen.
+3. Form the base of many aquatic food webs.
+4. Support aquatic ecosystems.
+5. Some are used in food and biotechnology.
+
+### Harmful Algal Blooms
+
+Under certain conditions, some algae or cyanobacteria may grow rapidly and form blooms.
+
+Possible effects:
+
+- Reduce water quality.
+- Some species produce toxins.
+- Dense blooms may block light from reaching submerged plants.
+- Decomposition of dead bloom material can reduce dissolved oxygen.
+
+**Important:** Cyanobacteria are bacteria, not eukaryotic algae, even though they are sometimes called blue-green algae.
+
+## 8.3.7 Viruses
+
+Viruses are microscopic infectious agents that can reproduce only inside suitable host cells.
+
+They are not made of cells.
+
+They are generally not classified as living organisms because they cannot carry out independent metabolism or reproduce without a host cell.
+
+### Characteristics of Viruses
+
+1. Acellular: they do not have cellular organisation.
+2. Contain genetic material in the form of DNA or RNA.
+3. Genetic material is enclosed in a protein coat called a capsid.
+4. Some viruses have an outer lipid envelope.
+5. Lack independent metabolic machinery.
+6. Require host cells for replication.
+7. Can infect animals, plants, fungi, bacteria and other organisms.
+
+### Basic Structure of a Virus
+
+**Genetic Material**
+
+- May be DNA or RNA.
+- Contains instructions needed to produce new virus particles.
+
+**Capsid**
+
+- Protein coat surrounding the genetic material.
+- Protects the viral genome.
+- Helps determine the virus's structure.
+
+**Envelope**
+
+- Present in some viruses.
+- Outer lipid membrane derived from host-cell membranes.
+- May contain viral proteins that help the virus attach to host cells.
+
+**Surface Proteins**
+
+- Help the virus recognise and attach to suitable host cells.
+
+### Common Virus Shapes
+
+- Helical.
+- Icosahedral.
+- Complex.
+- Enveloped spherical or irregular forms.
+
+### Examples of Viruses
+
+- Influenza virus.
+- Human immunodeficiency virus (HIV).
+- Dengue virus.
+- Coronavirus.
+- Tobacco mosaic virus.
+- Bacteriophages.
+
+## 8.3.8 Viral Replication
+
+Viruses cannot reproduce independently. They use the machinery of a host cell to make new virus particles.
+
+A simplified viral replication sequence is:
+
+**1. Attachment**
+
+- The virus attaches to specific receptors on a suitable host cell.
+
+**2. Entry**
+
+- Viral genetic material or the virus particle enters the host cell, depending on the virus.
+
+**3. Replication and Synthesis**
+
+- The viral genome is copied.
+- The host cell's machinery is used to produce viral components.
+
+**4. Assembly**
+
+- Newly produced viral genetic material and proteins are assembled into new virus particles.
+
+**5. Release**
+
+- New virus particles leave the host cell.
+- Some viruses cause the host cell to rupture, while others leave through budding or other release processes.
+
+**Important:** The exact replication process differs between viruses. Not every virus follows an identical sequence.
+
+## 8.3.9 Lytic and Lysogenic Cycles of Bacteriophages
+
+A bacteriophage is a virus that infects bacteria.
+
+Some bacteriophages can follow lytic or lysogenic cycles.
+
+### A. Lytic Cycle
+
+In the lytic cycle:
+
+1. The bacteriophage attaches to a bacterial cell.
+2. Viral genetic material enters the bacterial cell.
+3. The host cell produces viral components.
+4. New bacteriophages are assembled.
+5. The bacterial cell breaks open.
+6. New bacteriophages are released.
+
+The lytic cycle results in the destruction of the host bacterial cell.
+
+### B. Lysogenic Cycle
+
+In the lysogenic cycle:
+
+1. The bacteriophage attaches to a bacterial cell.
+2. Viral genetic material enters the cell.
+3. Viral DNA becomes integrated into the bacterial chromosome.
+4. The integrated viral DNA is called a prophage.
+5. The bacterial cell reproduces and copies the prophage along with its own DNA.
+6. Under certain conditions, the prophage may become active and enter the lytic cycle.
+
+### Comparison of Lytic and Lysogenic Cycles
+
+| Lytic cycle | Lysogenic cycle |
+|---|---|
+| Viral components are produced soon after infection | Viral DNA becomes integrated into host DNA |
+| New viruses are assembled | Viral DNA is copied with host DNA |
+| Host cell usually breaks open | Host cell is not immediately destroyed |
+| Produces rapid release of new viruses | May remain inactive for a period |
+
+## 8.3.10 Differences Between Bacteria and Viruses
+
+| Feature | Bacteria | Viruses |
+|---|---|---|
+| Organisation | Cellular | Acellular |
+| Cell type | Prokaryotic | No cell |
+| Genetic material | DNA | DNA or RNA |
+| Ribosomes | Present | Absent |
+| Independent metabolism | Yes | No |
+| Reproduction | Mainly binary fission | Replication inside host cells |
+| Response to antibiotics | Some bacterial infections can be treated with suitable antibiotics | Antibiotics do not treat viral infections |
+
+**Important exam point:**
+
+Antibiotics act against bacteria by targeting bacterial structures or processes. They do not work against viruses because viruses lack those bacterial targets and reproduce using host-cell machinery.
+
+## 8.3.11 Beneficial and Harmful Effects of Microorganisms
+
+### Beneficial Effects
+
+**1. Decomposition**
+
+- Bacteria and fungi break down dead organisms.
+- Nutrients are returned to the environment.
+- Nutrient cycling is maintained.
+
+**2. Food Production**
+
+- Yeast is used in bread-making.
+- Bacteria are used in yoghurt production.
+- Microorganisms are used in other fermentation processes.
+
+**3. Medicine and Biotechnology**
+
+- Some microorganisms produce useful antibiotics or other compounds.
+- Microorganisms can be used to manufacture useful biological products.
+- Genetically modified microorganisms can produce certain proteins.
+
+**4. Agriculture**
+
+- Nitrogen-fixing bacteria help improve nitrogen availability.
+- Some microorganisms act as biological control agents.
+- Microorganisms contribute to soil nutrient cycling.
+
+**5. Environmental Management**
+
+- Microorganisms are used in wastewater treatment.
+- Some can break down pollutants through bioremediation.
+
+### Harmful Effects
+
+**1. Human Diseases**
+
+Examples include:
+
+- Tuberculosis — caused by *Mycobacterium tuberculosis*.
+- Cholera — caused by *Vibrio cholerae*.
+- Malaria — caused by *Plasmodium*.
+- Influenza — caused by influenza viruses.
+- Dengue — caused by dengue viruses.
+
+**2. Plant Diseases**
+
+Some bacteria, fungi and viruses infect crops.
+
+Effects may include:
+
+- Reduced photosynthesis.
+- Damaged plant tissues.
+- Poor growth.
+- Reduced crop yield.
+
+**3. Food Spoilage**
+
+Microorganisms can grow on food and cause it to spoil.
+
+**4. Toxin Production**
+
+Certain microorganisms produce toxins that can harm humans and animals.
+
+**5. Ecosystem Disruption**
+
+Some introduced microorganisms can spread diseases or alter ecological relationships.
+
+## 8.3.12 Prevention and Control of Microbial Diseases
+
+Methods include:
+
+1. Maintaining personal hygiene.
+2. Washing hands properly.
+3. Drinking safe water.
+4. Preparing and storing food safely.
+5. Vaccination where available.
+6. Proper sanitation.
+7. Controlling disease vectors.
+8. Using antibiotics only when prescribed for suitable bacterial infections.
+9. Following infection-control advice from healthcare professionals.
+
+### Vaccination
+
+Vaccination exposes the immune system to an antigen or instructions for producing an antigen in a controlled way.
+
+This helps the immune system develop an immune response and memory.
+
+If the vaccinated person later encounters the relevant pathogen, the immune system may respond more rapidly.
+
+**Important:**
+
+- Vaccines can prevent or reduce the severity of certain infectious diseases.
+- Antibiotics treat certain bacterial infections.
+- Antibiotics do not treat viral infections.
+- Vaccines and antibiotics have different functions.
+
+---
+
+# COMPARISON AND REVISION TABLES
+
+## 1. Prokaryotic and Eukaryotic Cells
+
+| Prokaryotic cells | Eukaryotic cells |
+|---|---|
+| No true nucleus | True nucleus present |
+| No membrane-bound organelles | Membrane-bound organelles present |
+| Usually smaller and simpler | Usually larger and more complex |
+| Examples: bacteria and archaea | Examples: animals, plants, fungi and protists |
+
+## 2. Bacteria and Archaea
+
+| Bacteria | Archaea |
+|---|---|
+| Prokaryotic | Prokaryotic |
+| Most have peptidoglycan cell walls | Do not have bacterial peptidoglycan |
+| Distinct bacterial membrane chemistry | Distinct archaeal membrane chemistry |
+| Includes many common bacteria | Includes methanogens, halophiles and thermophiles |
+
+## 3. Bacteria and Fungi
+
+| Bacteria | Fungi |
+|---|---|
+| Prokaryotic | Eukaryotic |
+| No true nucleus | True nucleus |
+| Usually unicellular | Unicellular or multicellular |
+| Most have peptidoglycan cell walls | Cell walls contain chitin |
+| Reproduce mainly by binary fission | Reproduce through methods such as budding or spore formation |
+
+## 4. Microorganisms and Viruses
+
+| Microorganisms | Viruses |
+|---|---|
+| Include cellular organisms | Acellular infectious agents |
+| May carry out independent metabolism | Lack independent metabolism |
+| Many can reproduce independently | Require host cells to replicate |
+| Include bacteria, fungi, protozoa and microscopic algae | Contain DNA or RNA enclosed by a protein capsid |
+
+## 5. In Situ and Ex Situ Conservation
+
+| In situ | Ex situ |
+|---|---|
+| Natural habitat | Outside natural habitat |
+| National parks | Zoos |
+| Wildlife reserves | Botanical gardens |
+| Marine protected areas | Seed banks |
+| Conserves ecological interactions | Conserves selected organisms or genetic material |
+
+---
+
+# COMMON EXAM MISTAKES
+
+1. Classification and identification are not the same. Classification groups organisms, while identification determines which organism is being examined.
+
+2. A species is the most specific basic taxonomic level.
+
+3. Genus begins with a capital letter, while the specific epithet begins with a lowercase letter.
+
+4. Scientific names are written in italics when typed.
+
+5. Biodiversity is not only the number of species. It includes genetic, species and ecosystem diversity.
+
+6. Species richness and species evenness are different. Richness is the number of species; evenness describes how individuals are distributed among them.
+
+7. Habitat destruction and habitat fragmentation are not the same.
+
+8. In situ conservation takes place in natural habitats, while ex situ conservation takes place outside natural habitats.
+
+9. Not all bacteria are harmful. Many are useful in decomposition, food production and nutrient cycling.
+
+10. Archaea are different from bacteria, even though both are prokaryotic.
+
+11. Fungi do not carry out photosynthesis because they do not contain chlorophyll.
+
+12. Cyanobacteria are bacteria, not eukaryotic algae.
+
+13. Viruses are acellular and cannot reproduce independently.
+
+14. Antibiotics do not treat viral infections.
+
+15. Vaccines help prepare the immune system; they are not the same as antibiotics.
+
+16. A virus may contain either DNA or RNA as its genome.
+
+17. Not all viruses have an envelope.
+
+18. Not every non-native species becomes invasive.
+
+---
+
+# SPM EXAM TIPS
+
+## Command Words
+
+**STATE**
+
+Give the required fact directly.
+
+**DEFINE**
+
+Give the exact scientific meaning of a term.
+
+**IDENTIFY**
+
+Name the correct organism, structure or process.
+
+**DESCRIBE**
+
+Give the characteristics or steps of a process.
+
+**EXPLAIN**
+
+Give the scientific reason and explain how or why something happens.
+
+**COMPARE**
+
+Give similarities and differences between the items.
+
+**DIFFERENTIATE**
+
+Give clear contrasting characteristics.
+
+**SUGGEST**
+
+Provide a scientifically reasonable answer based on the information given.
+
+**JUSTIFY**
+
+Give a decision or statement supported by scientific reasons.
+
+## Mark-Aware Answering
+
+For 1 mark:
+
+- Give one accurate point.
+
+For 2 marks:
+
+- Give two relevant points, or a point with the required explanation depending on the question.
+
+For 3 marks:
+
+- Give three relevant marking points.
+
+For 4 marks:
+
+- Give four relevant marking points.
+
+For higher-mark questions:
+
+- Organise the answer into clear scientific points.
+- Explain cause-and-effect relationships.
+- Use correct biological terminology.
+- Address every part of the question.
+
+The exact marking points depend on the question and marking scheme. Do not assume every mark always requires a separate sentence.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## Section A: Short-Answer Questions
+
+**QUESTION 1**
+
+State the eight taxonomic levels in order from the broadest to the most specific.
+
+**QUESTION 2**
+
+State two rules of binomial nomenclature.
+
+**QUESTION 3**
+
+Define biodiversity.
+
+**QUESTION 4**
+
+Name the three levels of biodiversity.
+
+**QUESTION 5**
+
+State two differences between bacteria and viruses.
+
+**QUESTION 6**
+
+Name the two main types of conservation and give one example of each.
+
+**QUESTION 7**
+
+State the three main structural components of a typical virus.
+
+## Section B: Structured Questions
+
+**QUESTION 8**
+
+Explain why classification is important in the study of organisms.
+
+**QUESTION 9**
+
+A forest contains many different species of plants and animals. However, one species makes up almost all the individuals in the forest.
+
+Explain why species richness alone is insufficient to describe species diversity.
+
+**QUESTION 10**
+
+Differentiate between habitat destruction and habitat fragmentation. Explain one possible effect of each on biodiversity.
+
+**QUESTION 11**
+
+Explain how excessive fertiliser runoff can reduce biodiversity in an aquatic ecosystem.
+
+**QUESTION 12**
+
+Compare in situ and ex situ conservation. Give two examples of each.
+
+**QUESTION 13**
+
+Describe the structure of a typical bacterial cell and explain the function of four structures.
+
+**QUESTION 14**
+
+Explain the difference between the lytic and lysogenic cycles of a bacteriophage.
+
+**QUESTION 15**
+
+A student claims that antibiotics can treat influenza because influenza is caused by a microorganism.
+
+Evaluate this claim scientifically.
+
+---
+
+# SUGGESTED ANSWERS
+
+## QUESTION 1
+
+1. Domain.
+2. Kingdom.
+3. Phylum.
+4. Class.
+5. Order.
+6. Family.
+7. Genus.
+8. Species.
+
+## QUESTION 2
+
+1. The genus name begins with a capital letter.
+2. The specific epithet begins with a lowercase letter.
+3. Both words are written in italics when typed.
+4. When handwritten, both words are underlined separately.
+
+Any two appropriate points.
+
+## QUESTION 3
+
+Biodiversity is the variety of living organisms in an area or on Earth, including genetic, species and ecosystem diversity.
+
+## QUESTION 4
+
+1. Genetic diversity.
+2. Species diversity.
+3. Ecosystem diversity.
+
+## QUESTION 5
+
+1. Bacteria are cellular prokaryotic organisms, whereas viruses are acellular.
+2. Bacteria contain ribosomes, whereas viruses do not.
+3. Bacteria can reproduce independently through processes such as binary fission, whereas viruses require host cells to replicate.
+
+Any two appropriate differences.
+
+## QUESTION 6
+
+1. In situ conservation — national parks or wildlife reserves.
+2. Ex situ conservation — zoos, botanical gardens or seed banks.
+
+## QUESTION 7
+
+1. Genetic material.
+2. Protein capsid.
+3. Lipid envelope in enveloped viruses.
+
+Note: Not all viruses possess an envelope.
+
+## QUESTION 8
+
+1. Classification organises organisms into groups based on shared characteristics.
+2. It makes organisms easier to identify and study.
+3. It allows scientists to compare similarities and differences.
+4. It provides a common system for scientific communication.
+5. It helps scientists understand relationships between organisms.
+
+## QUESTION 9
+
+1. Species richness refers only to the number of different species.
+2. Species evenness describes how evenly individuals are distributed among the species.
+3. A forest may have many species but be dominated by one species.
+4. Therefore, both richness and evenness are needed to describe species diversity more completely.
+
+## QUESTION 10
+
+1. Habitat destruction removes or damages natural habitats, whereas habitat fragmentation divides a continuous habitat into smaller isolated patches.
+2. Habitat destruction causes organisms to lose food, shelter and breeding sites.
+3. Habitat fragmentation may isolate populations and reduce movement between them.
+4. Isolation may reduce gene flow and increase the vulnerability of small populations.
+
+## QUESTION 11
+
+1. Excess fertilisers enter the water through runoff.
+2. Nutrient concentrations increase.
+3. Algae grow rapidly and form an algal bloom.
+4. Algae and other organisms eventually die.
+5. Decomposers break down the dead organic matter.
+6. Decomposition uses dissolved oxygen.
+7. Oxygen concentration decreases.
+8. Aquatic organisms may die due to insufficient oxygen.
+
+## QUESTION 12
+
+**In situ conservation:**
+
+- Conserves organisms in their natural habitats.
+- Maintains natural ecological interactions.
+- Examples include national parks and wildlife reserves.
+
+**Ex situ conservation:**
+
+- Conserves organisms outside their natural habitats.
+- May involve controlled breeding or storage of genetic material.
+- Examples include zoos and seed banks.
+
+## QUESTION 13
+
+1. The cell wall maintains shape and provides protection.
+2. The plasma membrane controls the movement of substances.
+3. The cytoplasm is the site of many metabolic reactions.
+4. The nucleoid contains the main bacterial DNA.
+5. Ribosomes are the sites of protein synthesis.
+6. Plasmids may carry additional genes.
+7. A flagellum helps some bacteria move.
+
+Any four correctly explained structures.
+
+## QUESTION 14
+
+**Lytic cycle:**
+
+1. Viral genetic material enters the bacterial cell.
+2. The host cell produces viral components.
+3. New bacteriophages are assembled.
+4. The bacterial cell breaks open and releases new viruses.
+
+**Lysogenic cycle:**
+
+1. Viral DNA enters the bacterial cell.
+2. It integrates into the bacterial chromosome as a prophage.
+3. The bacterial cell reproduces and copies the prophage.
+4. Under certain conditions, the prophage may become active and enter the lytic cycle.
+
+## QUESTION 15
+
+1. The claim is incorrect.
+2. Influenza is caused by a virus, not a bacterium.
+3. Antibiotics act against suitable bacterial targets.
+4. Viruses lack those bacterial structures and reproduce using host-cell machinery.
+5. Therefore, antibiotics do not treat influenza itself.
+
+---
+
+# FINAL REVISION SUMMARY
+
+## 8.1 CLASSIFICATION SYSTEM AND NAMING OF ORGANISMS
+
+- Classification organises organisms based on similarities and differences.
+- Taxonomy involves identification, nomenclature and classification.
+- Taxonomic hierarchy: Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species.
+- Three domains: Bacteria, Archaea and Eukarya.
+- Binomial nomenclature uses two words: genus and specific epithet.
+- A dichotomous key identifies organisms through paired contrasting statements.
+
+## 8.2 BIODIVERSITY
+
+- Biodiversity is the variety of living organisms.
+- Three levels: genetic, species and ecosystem diversity.
+- Species diversity includes richness and evenness.
+- Biodiversity supports ecological stability, food production, medicine, research and recreation.
+- Threats include habitat destruction, fragmentation, pollution, climate change, overexploitation and invasive alien species.
+- In situ conservation protects organisms in natural habitats.
+- Ex situ conservation protects organisms or genetic material outside natural habitats.
+- Sustainable development balances environmental, economic and social needs.
+
+## 8.3 MICROORGANISMS AND VIRUSES
+
+- Microorganisms are generally too small to be seen clearly without a microscope.
+- Bacteria and archaea are prokaryotic.
+- Protozoa, fungi and eukaryotic algae have eukaryotic cells.
+- Bacteria reproduce mainly through binary fission.
+- Yeast commonly reproduces through budding.
+- Fungi act as decomposers and are also used in food production.
+- Algae carry out photosynthesis and support aquatic food webs.
+- Viruses are acellular infectious agents.
+- Viruses contain DNA or RNA surrounded by a protein capsid.
+- Viruses require host cells for replication.
+- Bacteriophages may follow lytic or lysogenic cycles.
+- Antibiotics do not treat viral infections.
+
+---
+
+# KEY BIOLOGY TERMS
+
+**Classification:** Organising organisms into groups based on shared characteristics.
+
+**Taxonomy:** The study of identifying, naming and classifying organisms.
+
+**Taxon:** A group of organisms at a particular classification level.
+
+**Species:** The most specific basic taxonomic unit.
+
+**Binomial nomenclature:** A scientific naming system using two words.
+
+**Genus:** A taxonomic group containing closely related species.
+
+**Dichotomous key:** An identification tool using paired contrasting statements.
+
+**Biodiversity:** The variety of living organisms.
+
+**Genetic diversity:** Variation in genetic information within a species.
+
+**Species richness:** The number of different species in an area.
+
+**Species evenness:** How evenly individuals are distributed among species.
+
+**Ecosystem diversity:** The variety of ecosystems in a region.
+
+**Habitat fragmentation:** Division of a continuous habitat into smaller isolated patches.
+
+**Conservation:** Protection and management of biodiversity.
+
+**In situ conservation:** Conservation in natural habitats.
+
+**Ex situ conservation:** Conservation outside natural habitats.
+
+**Microorganism:** An organism generally too small to be seen clearly with the unaided eye.
+
+**Prokaryote:** An organism whose cells lack a membrane-bound nucleus.
+
+**Eukaryote:** An organism whose cells contain a membrane-bound nucleus.
+
+**Binary fission:** A form of asexual reproduction in which one cell divides into two cells.
+
+**Hypha:** A thread-like structure forming part of a fungus.
+
+**Mycelium:** A mass or network of fungal hyphae.
+
+**Capsid:** The protein coat surrounding a virus's genetic material.
+
+**Bacteriophage:** A virus that infects bacteria.
+
+**Prophage:** Bacteriophage DNA integrated into a bacterial chromosome.
+
+**Lytic cycle:** A viral replication cycle that produces new viruses and commonly causes host-cell lysis.
+
+**Lysogenic cycle:** A cycle in which viral DNA is maintained within the host genome and copied as the host reproduces.
+
+**Bioremediation:** Use of organisms or biological processes to reduce or remove environmental pollutants.
+
+**Invasive alien species:** A non-native species that spreads and causes or may cause harm to the environment, economy or human health.
