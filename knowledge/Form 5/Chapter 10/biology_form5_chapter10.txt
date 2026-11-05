@@ -1,0 +1,1707 @@
+# BIOLOGY FORM 5 — CHAPTER 10
+# ENVIRONMENTAL SUSTAINABILITY
+
+**SUBJECT:** Biology  
+**FORM:** Form 5  
+**CHAPTER:** Chapter 10  
+**CHAPTER TITLE:** Environmental Sustainability  
+**TOPICS:** 10.1, 10.2, 10.3, 10.4  
+**SOURCE TYPE:** Original Learning Material  
+**STATUS:** Original Educational Content  
+
+---
+
+# 10.1 THREATS TO THE ENVIRONMENT
+
+## 10.1.1 Introduction to Environmental Sustainability
+
+Environmental sustainability refers to the responsible use and management of natural resources to meet present needs without compromising the ability of future generations to meet their own needs.
+
+The environment provides essential resources such as:
+
+- Clean air.
+- Clean water.
+- Food.
+- Fertile soil.
+- Forest resources.
+- Minerals.
+- Energy resources.
+- Habitats for organisms.
+
+Human activities can damage ecosystems when resources are used excessively or waste and pollutants are released into the environment.
+
+Environmental sustainability aims to:
+
+1. Protect biodiversity.
+2. Maintain ecological balance.
+3. Reduce pollution.
+4. Conserve natural resources.
+5. Reduce environmental damage.
+6. Ensure resources remain available for future generations.
+
+## 10.1.2 Human Activities That Threaten the Environment
+
+### A. DEFORESTATION
+
+Deforestation is the large-scale removal of trees and forests, usually to make land available for other purposes.
+
+**Causes:**
+
+- Clearing land for agriculture.
+- Logging for timber.
+- Urban development.
+- Construction of roads and infrastructure.
+- Mining activities.
+- Establishment of plantations.
+
+**Effects on the environment:**
+
+1. **Habitat destruction**
+
+   Forest organisms lose their natural habitats, reducing available food, shelter and breeding sites.
+
+2. **Loss of biodiversity**
+
+   Species may experience population declines or become locally extinct when their habitats are destroyed.
+
+3. **Soil erosion**
+
+   Tree roots help hold soil particles together. Removing trees exposes soil to rainfall and surface runoff.
+
+4. **Increased atmospheric carbon dioxide**
+
+   Fewer trees are available to absorb carbon dioxide through photosynthesis. Burning and decomposition of cleared vegetation can also release carbon dioxide.
+
+5. **Disruption of the water cycle**
+
+   Reduced transpiration can affect local atmospheric moisture and rainfall patterns.
+
+6. **Increased risk of flooding**
+
+   Reduced vegetation and changes in soil conditions can increase surface runoff.
+
+**Possible solutions:**
+
+- Practise sustainable logging.
+- Replant trees through reforestation.
+- Protect existing forests.
+- Establish protected forest reserves.
+- Reduce unnecessary use of paper and timber.
+- Improve agricultural land management.
+
+### B. AIR POLLUTION
+
+Air pollution occurs when harmful substances enter the atmosphere at concentrations that can negatively affect living organisms and the environment.
+
+**Sources of air pollutants:**
+
+- Vehicle exhaust emissions.
+- Industrial activities.
+- Burning of fossil fuels.
+- Open burning.
+- Forest fires.
+- Construction activities.
+
+**Important air pollutants:**
+
+| Pollutant | Main sources | Possible effects |
+|---|---|---|
+| Carbon monoxide (CO) | Incomplete combustion | Reduces oxygen transport in blood |
+| Sulphur dioxide (SO₂) | Burning sulphur-containing fuels | Respiratory irritation and acid rain |
+| Nitrogen oxides (NOₓ) | Vehicles and power stations | Smog and acid rain |
+| Particulate matter | Smoke, dust and combustion | Respiratory and cardiovascular problems |
+| Carbon dioxide (CO₂) | Fossil fuel combustion and deforestation | Enhances the greenhouse effect |
+| Ground-level ozone (O₃) | Reactions involving NOₓ and volatile organic compounds in sunlight | Damages respiratory tissues and plants |
+
+**Effects of air pollution:**
+
+1. Causes respiratory problems.
+2. Reduces visibility through haze.
+3. Damages plant tissues.
+4. Contributes to acid rain.
+5. Contributes to climate change through greenhouse gas emissions.
+6. Can damage buildings and monuments.
+
+### C. WATER POLLUTION
+
+Water pollution occurs when harmful substances enter rivers, lakes, seas or groundwater and reduce water quality.
+
+**Sources:**
+
+- Untreated sewage.
+- Industrial waste.
+- Agricultural fertilisers.
+- Pesticides.
+- Oil spills.
+- Plastic waste.
+- Detergents.
+- Soil and sediment runoff.
+
+**Effects of water pollution:**
+
+1. **Death of aquatic organisms**
+
+   Toxic chemicals and low dissolved oxygen can cause aquatic organisms to die.
+
+2. **Eutrophication**
+
+   Excessive nutrients, especially nitrates and phosphates, can cause rapid growth of algae and aquatic plants.
+
+3. **Bioaccumulation**
+
+   Certain pollutants accumulate in an organism when their rate of absorption exceeds their rate of elimination.
+
+4. **Biomagnification**
+
+   Concentrations of certain persistent pollutants increase at higher trophic levels in a food chain.
+
+5. **Spread of waterborne diseases**
+
+   Water contaminated with disease-causing microorganisms can transmit infections.
+
+6. **Reduction in water quality**
+
+   Polluted water becomes unsuitable for drinking, recreation and some industrial or agricultural uses.
+
+### D. SOIL POLLUTION
+
+Soil pollution occurs when harmful chemicals, waste or other contaminants accumulate in soil.
+
+**Sources:**
+
+- Excessive use of pesticides.
+- Excessive use of chemical fertilisers.
+- Improper disposal of industrial waste.
+- Landfills that are poorly managed.
+- Mining activities.
+- Oil and chemical spills.
+
+**Effects:**
+
+1. Reduces soil quality and fertility.
+2. Harms soil microorganisms.
+3. Contaminates crops.
+4. Pollutants may enter groundwater.
+5. Toxic substances may enter food chains.
+6. Can reduce plant growth.
+
+**Solutions:**
+
+- Apply fertilisers responsibly.
+- Use integrated pest management.
+- Treat industrial waste before disposal.
+- Manage landfills properly.
+- Restore contaminated land where possible.
+
+## 10.1.3 Greenhouse Effect and Global Warming
+
+### A. Greenhouse Effect
+
+The greenhouse effect is a natural process in which greenhouse gases absorb and re-emit infrared radiation, helping retain heat in Earth's atmosphere.
+
+This natural process keeps Earth warm enough to support life.
+
+**Main greenhouse gases:**
+
+- Carbon dioxide (CO₂).
+- Methane (CH₄).
+- Nitrous oxide (N₂O).
+- Water vapour.
+- Ozone.
+- Certain industrial gases.
+
+**How the greenhouse effect occurs:**
+
+1. Solar radiation enters Earth's atmosphere.
+2. Some radiation is reflected back into space.
+3. Earth's surface absorbs some of the incoming energy and warms up.
+4. The warmed surface emits infrared radiation.
+5. Greenhouse gases absorb and re-emit some of this infrared radiation.
+6. Some energy is directed back towards Earth's surface and lower atmosphere.
+
+Human activities increase the concentration of certain greenhouse gases, strengthening the greenhouse effect.
+
+### B. Global Warming
+
+Global warming refers to the long-term increase in Earth's average surface temperature, mainly due to the increased concentration of greenhouse gases from human activities.
+
+**Human activities that contribute to global warming:**
+
+- Burning fossil fuels.
+- Deforestation.
+- Industrial processes.
+- Agriculture and livestock farming.
+- Waste decomposition in landfills.
+
+**Effects of global warming:**
+
+1. Rising average temperatures.
+2. Melting glaciers and ice sheets.
+3. Rising sea levels.
+4. Changes in rainfall patterns.
+5. More frequent or intense heat extremes.
+6. Increased stress on ecosystems.
+7. Changes in species distribution.
+8. Increased risks to agriculture and food security.
+
+**Ways to reduce global warming:**
+
+- Reduce fossil fuel consumption.
+- Use renewable energy.
+- Improve energy efficiency.
+- Protect forests.
+- Reforest degraded areas.
+- Reduce methane emissions.
+- Use public transportation.
+- Reduce unnecessary waste.
+
+**IMPORTANT COMPARISON:**
+
+- Greenhouse effect: The process by which greenhouse gases help retain heat in the atmosphere.
+- Enhanced greenhouse effect: Additional heat retention caused by increased greenhouse gas concentrations.
+- Global warming: The long-term rise in Earth's average temperature.
+
+The natural greenhouse effect is necessary for life. The problem is its human-driven enhancement.
+
+## 10.1.4 Acid Rain
+
+Acid rain refers to precipitation that is more acidic than normal due mainly to sulphur dioxide and nitrogen oxides reacting in the atmosphere to form acids.
+
+**Main causes:**
+
+- Burning fossil fuels in power stations.
+- Industrial emissions.
+- Vehicle emissions.
+- Certain natural sources, such as volcanic activity.
+
+**Formation of acid rain:**
+
+1. Sulphur dioxide and nitrogen oxides are released into the atmosphere.
+2. These gases undergo chemical reactions involving oxygen and water.
+3. Sulphuric acid and nitric acid can form.
+4. The acids enter precipitation and fall to Earth's surface.
+
+**Effects of acid rain:**
+
+1. Increases the acidity of lakes and rivers.
+2. Can harm fish and other aquatic organisms.
+3. Leaches essential mineral nutrients from soil.
+4. Can release toxic aluminium ions into soil and water.
+5. Damages leaves and reduces plant growth.
+6. Corrodes buildings and structures made from certain materials.
+
+**Prevention:**
+
+- Reduce sulphur dioxide emissions.
+- Reduce nitrogen oxide emissions.
+- Use cleaner energy sources.
+- Install suitable emission-control systems.
+- Improve energy efficiency.
+- Reduce dependence on fossil fuels.
+
+## 10.1.5 Eutrophication
+
+Eutrophication is the enrichment of a body of water with nutrients, especially nitrates and phosphates, which can cause excessive growth of algae and aquatic plants.
+
+Excessive nutrient input can lead to cultural eutrophication, which is accelerated by human activities.
+
+**Sources of excess nutrients:**
+
+- Fertiliser runoff from farms.
+- Untreated sewage.
+- Detergents containing phosphates.
+- Animal waste.
+- Certain industrial discharges.
+
+**Process of eutrophication:**
+
+1. Excess nitrates and phosphates enter a water body.
+2. Algae reproduce rapidly, forming an algal bloom.
+3. The algal bloom reduces light penetration into deeper water.
+4. Submerged aquatic plants receive less light and photosynthesise less.
+5. Some aquatic plants die.
+6. Decomposers break down dead organisms.
+7. Decomposers use dissolved oxygen during aerobic respiration.
+8. Dissolved oxygen levels decrease.
+9. Fish and other aerobic aquatic organisms may die due to oxygen shortage.
+
+**Effects:**
+
+- Reduced dissolved oxygen.
+- Fish deaths.
+- Loss of aquatic biodiversity.
+- Unpleasant smell.
+- Reduced water quality.
+- Disruption of aquatic food webs.
+
+**Prevention:**
+
+- Treat sewage before releasing it.
+- Control fertiliser application.
+- Prevent agricultural runoff.
+- Use phosphate-free detergents where suitable.
+- Maintain vegetation buffer zones near waterways.
+
+**IMPORTANT EXAM POINT:**
+
+The main reason fish die during severe eutrophication is often the reduction in dissolved oxygen caused by the respiration of decomposers breaking down dead organic matter.
+
+## 10.1.6 Bioaccumulation and Biomagnification
+
+### A. Bioaccumulation
+
+Bioaccumulation is the gradual accumulation of a substance, such as a persistent pollutant, inside an organism over time.
+
+It occurs when the rate of absorption is greater than the rate of elimination.
+
+Examples of substances that may bioaccumulate include:
+
+- Mercury.
+- Certain persistent pesticides.
+- Some industrial pollutants.
+
+### B. Biomagnification
+
+Biomagnification is the increase in concentration of certain persistent pollutants at successive trophic levels in a food chain.
+
+**Illustrative food chain:**
+
+Water → Plankton → Small fish → Large fish → Fish-eating bird
+
+A persistent pollutant may become more concentrated in organisms at higher trophic levels because predators consume many contaminated prey.
+
+**Differences:**
+
+| Bioaccumulation | Biomagnification |
+|---|---|
+| Occurs within an organism over time | Occurs across trophic levels |
+| Pollutant builds up in an organism | Pollutant concentration increases higher in a food chain |
+| Depends on absorption and elimination | Depends on transfer through feeding relationships |
+
+**IMPORTANT:**
+
+Not every pollutant biomagnifies. Biomagnification is most associated with substances that persist in the environment and accumulate in organisms.
+
+## 10.1.7 Loss of Biodiversity
+
+Biodiversity refers to the variety of living organisms at genetic, species and ecosystem levels.
+
+**Threats to biodiversity:**
+
+- Habitat destruction.
+- Habitat fragmentation.
+- Pollution.
+- Climate change.
+- Overexploitation.
+- Invasive alien species.
+- Illegal wildlife trade.
+
+**Consequences of biodiversity loss:**
+
+1. Disruption of food webs.
+2. Loss of genetic resources.
+3. Reduced ecosystem stability.
+4. Loss of potential medicinal resources.
+5. Reduced ecosystem services such as pollination.
+6. Increased vulnerability to environmental changes.
+
+---
+
+# 10.2 PRESERVATION, CONSERVATION AND RESTORATION OF ECOSYSTEMS
+
+## 10.2.1 Meaning of Preservation
+
+Preservation refers to protecting natural environments and organisms from harmful human interference.
+
+Its main aim is to maintain ecosystems in their existing condition.
+
+**Examples:**
+
+- Establishing protected areas.
+- Preventing illegal logging.
+- Protecting endangered species.
+- Preventing destruction of natural habitats.
+- Restricting damaging human activities in sensitive ecosystems.
+
+Preservation is especially important for ecosystems that are rare, fragile or highly valuable.
+
+## 10.2.2 Meaning of Conservation
+
+Conservation refers to the responsible management and sustainable use of natural resources to prevent depletion and maintain biodiversity.
+
+Unlike strict protection, conservation can allow controlled human use of resources.
+
+**Examples:**
+
+- Sustainable forestry.
+- Controlled fishing.
+- Wildlife management.
+- Responsible water use.
+- Replanting trees.
+- Protecting breeding populations.
+- Sustainable agriculture.
+
+**Importance of conservation:**
+
+1. Maintains biodiversity.
+2. Prevents extinction.
+3. Protects habitats.
+4. Maintains ecological balance.
+5. Preserves natural resources.
+6. Supports future generations.
+7. Protects ecosystem services.
+
+## 10.2.3 Meaning of Restoration
+
+Ecological restoration is the process of assisting the recovery of an ecosystem that has been degraded, damaged or destroyed.
+
+The aim is to improve ecosystem structure, function and biodiversity.
+
+**Examples:**
+
+- Replanting native trees in degraded forests.
+- Restoring mangrove ecosystems.
+- Rehabilitating damaged riverbanks.
+- Restoring wetlands.
+- Removing invasive alien species where appropriate.
+- Rehabilitating mined land.
+
+**Steps involved in ecosystem restoration:**
+
+1. Identify the cause and extent of environmental damage.
+2. Assess the condition of the ecosystem.
+3. Remove or reduce the main sources of damage.
+4. Reintroduce suitable native vegetation where appropriate.
+5. Restore habitats and natural processes.
+6. Monitor the recovery of the ecosystem.
+7. Continue management when necessary.
+
+Restoration may take many years, and a restored ecosystem may not become exactly identical to its original condition.
+
+## 10.2.4 Differences Between Preservation, Conservation and Restoration
+
+| Preservation | Conservation | Restoration |
+|---|---|---|
+| Protects ecosystems from harmful interference | Manages resources responsibly | Helps damaged ecosystems recover |
+| Focuses on maintaining existing conditions | Focuses on sustainable use and protection | Focuses on repairing ecological damage |
+| Example: Protecting an untouched forest | Example: Sustainable timber harvesting | Example: Replanting a degraded forest |
+
+**EXAM TIP:**
+
+If a question asks for the difference:
+
+- Preservation = protect.
+- Conservation = manage sustainably.
+- Restoration = repair and recover.
+
+## 10.2.5 In Situ Conservation
+
+In situ conservation refers to conserving organisms within their natural habitats.
+
+**Examples:**
+
+- National parks.
+- Wildlife sanctuaries.
+- Marine protected areas.
+- Forest reserves.
+- Nature reserves.
+
+**Advantages:**
+
+1. Protects organisms in their natural habitats.
+2. Conserves many species together.
+3. Maintains natural ecological interactions.
+4. Allows natural breeding and evolution.
+5. Protects habitats and ecosystems.
+
+**Limitations:**
+
+1. Natural disasters can damage protected habitats.
+2. Poaching may still occur.
+3. Protected areas require continuous monitoring.
+4. Some species may remain threatened by disease or climate change.
+
+## 10.2.6 Ex Situ Conservation
+
+Ex situ conservation refers to conserving organisms outside their natural habitats under controlled conditions.
+
+**Examples:**
+
+- Zoos.
+- Botanical gardens.
+- Seed banks.
+- Gene banks.
+- Captive breeding programmes.
+- Aquariums.
+- Tissue culture collections.
+
+**Advantages:**
+
+1. Provides protection from some threats in natural habitats.
+2. Allows controlled breeding.
+3. Supports scientific research.
+4. Can help maintain endangered species.
+5. Seeds and genetic material can be stored for future use.
+
+**Limitations:**
+
+1. Can be expensive.
+2. Limited space may restrict the number of organisms kept.
+3. Captive organisms may lose certain natural behaviours.
+4. Genetic diversity may be limited if breeding populations are small.
+5. Reintroducing organisms into the wild can be difficult.
+
+## 10.2.7 Comparison Between In Situ and Ex Situ Conservation
+
+| In situ | Ex situ |
+|---|---|
+| Conservation in natural habitats | Conservation outside natural habitats |
+| Protects ecosystems and natural interactions | Protects selected organisms or genetic material |
+| Examples: national parks and wildlife reserves | Examples: zoos and seed banks |
+| Allows natural ecological processes | Uses controlled conditions |
+| Habitat protection is essential | Requires suitable facilities and management |
+
+**IMPORTANT:**
+
+In situ and ex situ conservation are complementary approaches. Both may be needed to protect threatened species effectively.
+
+## 10.2.8 Sustainable Management of Natural Resources
+
+Natural resources should be managed so that their use does not exceed their ability to recover or be replenished.
+
+**Examples:**
+
+1. **Forests**
+
+   - Use selective logging.
+   - Replant trees.
+   - Protect high-conservation-value forests.
+   - Reduce illegal logging.
+
+2. **Fisheries**
+
+   - Set suitable fishing limits.
+   - Protect breeding seasons.
+   - Reduce destructive fishing methods.
+   - Establish marine protected areas.
+
+3. **Water**
+
+   - Prevent water pollution.
+   - Treat wastewater.
+   - Reduce unnecessary water consumption.
+   - Protect water catchment areas.
+
+4. **Soil**
+
+   - Practise crop rotation.
+   - Maintain vegetation cover.
+   - Reduce excessive pesticide use.
+   - Apply suitable erosion-control methods.
+
+5. **Wildlife**
+
+   - Protect breeding habitats.
+   - Prevent illegal hunting.
+   - Maintain wildlife corridors.
+   - Support responsible conservation programmes.
+
+---
+
+# 10.3 PRACTICES IN ENVIRONMENTAL SUSTAINABILITY
+
+## 10.3.1 Introduction
+
+Environmental sustainability can be improved through responsible practices by individuals, communities, industries and governments.
+
+These practices aim to reduce resource consumption, prevent pollution and minimise environmental damage.
+
+One important approach is the 5R concept.
+
+## 10.3.2 The 5R Concept
+
+### A. REFUSE
+
+Refuse means avoiding products or materials that are unnecessary or harmful to the environment.
+
+**Examples:**
+
+- Refuse unnecessary single-use plastic items.
+- Avoid products with excessive packaging.
+- Choose reusable alternatives.
+- Avoid disposable items when a suitable alternative exists.
+
+**Environmental benefits:**
+
+- Reduces waste generation.
+- Reduces demand for raw materials.
+- Reduces unnecessary packaging.
+- Prevents some plastic waste from entering ecosystems.
+
+### B. REDUCE
+
+Reduce means using fewer resources and producing less waste.
+
+**Examples:**
+
+- Switch off unused electrical appliances.
+- Use water responsibly.
+- Buy only what is needed.
+- Reduce food waste.
+- Use digital documents when appropriate.
+
+**Benefits:**
+
+- Conserves natural resources.
+- Reduces energy consumption.
+- Reduces waste disposal.
+- Reduces greenhouse gas emissions associated with production and transport.
+
+### C. REUSE
+
+Reuse means using an item again instead of discarding it after one use.
+
+**Examples:**
+
+- Use reusable water bottles.
+- Reuse suitable containers.
+- Donate clothes and books.
+- Repair damaged items.
+- Use reusable shopping bags.
+
+**Benefits:**
+
+- Extends product lifespan.
+- Reduces waste.
+- Reduces demand for new products.
+- Saves resources and energy used in manufacturing.
+
+### D. RECYCLE
+
+Recycle means processing waste materials into new products or raw materials.
+
+**Examples:**
+
+- Recycling paper.
+- Recycling glass.
+- Recycling aluminium cans.
+- Recycling suitable plastics.
+- Recycling certain electronic waste through authorised facilities.
+
+**Benefits:**
+
+- Reduces waste sent to landfills.
+- Conserves raw materials.
+- Can reduce energy consumption compared with producing certain materials from virgin resources.
+- Reduces environmental pollution.
+
+**IMPORTANT:**
+
+Different materials require different recycling processes. Not every type of plastic or waste can be recycled through every local recycling programme.
+
+### E. RECOVER
+
+Recover means obtaining useful materials or energy from waste that cannot reasonably be reused or recycled.
+
+**Examples:**
+
+- Recovering energy from suitable waste through controlled waste-to-energy systems.
+- Recovering metals from certain industrial waste.
+- Recovering useful materials from electronic waste.
+
+**Benefits:**
+
+- Reduces the amount of waste requiring final disposal.
+- Allows useful energy or materials to be obtained.
+- Can reduce dependence on some new raw materials.
+
+**IMPORTANT:**
+
+Recovery must be properly managed because poorly controlled waste treatment can release harmful pollutants.
+
+## 10.3.3 Comparison of the 5R Concept
+
+| Practice | Meaning | Example |
+|---|---|---|
+| Refuse | Avoid unnecessary products | Refuse unnecessary plastic bags |
+| Reduce | Use fewer resources | Save electricity |
+| Reuse | Use an item again | Reuse containers |
+| Recycle | Process waste into new materials | Recycle aluminium cans |
+| Recover | Obtain useful energy or materials from waste | Recover energy from suitable waste |
+
+## 10.3.4 Sustainable Agriculture
+
+Sustainable agriculture refers to farming practices that produce food while protecting natural resources and maintaining environmental quality over the long term.
+
+**Practices:**
+
+1. **Crop rotation**
+
+   Different crops are grown in sequence on the same land.
+
+   Benefits:
+   - Helps maintain soil fertility.
+   - Can interrupt pest and disease cycles.
+   - Reduces dependence on continuous cultivation of one crop.
+
+2. **Organic fertilisers**
+
+   Examples include compost and animal manure.
+
+   Benefits:
+   - Add organic matter to soil.
+   - Improve soil structure.
+   - Support soil organisms.
+
+3. **Integrated pest management (IPM)**
+
+   Combines biological, cultural, physical and carefully selected chemical methods to control pests.
+
+   Benefits:
+   - Reduces unnecessary pesticide use.
+   - Helps protect beneficial organisms.
+   - Reduces environmental contamination.
+
+4. **Contour farming**
+
+   Crops are planted along the contours of sloping land.
+
+   Benefits:
+   - Slows surface runoff.
+   - Reduces soil erosion.
+
+5. **Terracing**
+
+   Sloping land is converted into a series of steps.
+
+   Benefits:
+   - Reduces the speed of water runoff.
+   - Helps reduce soil erosion.
+
+6. **Agroforestry**
+
+   Trees are grown together with crops or livestock.
+
+   Benefits:
+   - Provides additional habitats.
+   - Can reduce soil erosion.
+   - May improve carbon storage.
+   - Provides additional products such as fruit or timber.
+
+## 10.3.5 Sustainable Forestry
+
+Sustainable forestry involves managing forests so that timber and other forest resources can be used without destroying the long-term health of forest ecosystems.
+
+**Practices:**
+
+- Selective logging.
+- Reforestation.
+- Reduced-impact logging.
+- Protection of wildlife habitats.
+- Prevention of illegal logging.
+- Maintenance of forest corridors.
+- Monitoring forest recovery.
+
+**Selective logging:**
+
+Only selected trees are harvested instead of clearing the entire forest.
+
+**Advantages:**
+
+1. Reduces large-scale habitat destruction.
+2. Maintains more forest cover.
+3. Can reduce soil erosion.
+4. Allows some forest structure and biodiversity to remain.
+
+However, selective logging still requires proper planning because poorly managed harvesting can damage surrounding trees, soil and habitats.
+
+## 10.3.6 Sustainable Fisheries
+
+Sustainable fisheries aim to maintain fish populations and aquatic ecosystems while allowing fishing activities to continue.
+
+**Practices:**
+
+- Follow fishing quotas.
+- Protect breeding seasons.
+- Avoid catching undersized fish.
+- Use selective fishing equipment.
+- Prevent destructive fishing methods.
+- Establish marine protected areas.
+- Monitor fish populations.
+
+**Importance:**
+
+1. Prevents overfishing.
+2. Allows fish populations to reproduce.
+3. Maintains aquatic food webs.
+4. Protects marine biodiversity.
+5. Supports long-term food security.
+
+## 10.3.7 Sustainable Transportation
+
+Transportation contributes to air pollution and greenhouse gas emissions, particularly when vehicles use fossil fuels.
+
+**Sustainable practices:**
+
+- Use public transportation.
+- Walk or cycle for suitable short journeys.
+- Carpool.
+- Use fuel-efficient vehicles.
+- Support suitable electric transport systems.
+- Maintain vehicles properly.
+
+**Benefits:**
+
+- Reduces fuel consumption.
+- Can reduce traffic congestion.
+- Reduces emissions per passenger when public transport is used efficiently.
+- Improves urban air quality.
+
+## 10.3.8 Individual and Community Responsibilities
+
+Individuals can contribute to environmental sustainability through daily actions.
+
+**At home:**
+
+- Separate recyclable waste.
+- Reduce water consumption.
+- Switch off unused electrical appliances.
+- Avoid food waste.
+- Use reusable products.
+
+**At school:**
+
+- Organise recycling programmes.
+- Reduce paper waste.
+- Maintain school gardens.
+- Conduct environmental awareness campaigns.
+- Keep drains and surroundings free from litter.
+
+**In the community:**
+
+- Participate in tree-planting programmes.
+- Join river or beach clean-ups.
+- Support conservation projects.
+- Report illegal dumping to relevant authorities.
+- Encourage responsible resource use.
+
+**IMPORTANT:**
+
+Environmental sustainability requires cooperation among individuals, communities, businesses and governments. Individual actions are valuable, but large-scale environmental problems also require effective policies, infrastructure and industry changes.
+
+---
+
+# 10.4 GREEN TECHNOLOGY
+
+## 10.4.1 Meaning of Green Technology
+
+Green technology refers to the development and application of products, equipment and systems that reduce negative environmental impacts and promote sustainable resource use.
+
+Green technology aims to:
+
+1. Reduce pollution.
+2. Reduce greenhouse gas emissions.
+3. Improve energy efficiency.
+4. Conserve natural resources.
+5. Reduce waste.
+6. Promote renewable energy.
+7. Support sustainable development.
+
+Green technology is used in transportation, energy production, buildings, agriculture, waste management and water treatment.
+
+## 10.4.2 Renewable Energy
+
+Renewable energy comes from natural sources that are replenished continuously or over relatively short periods.
+
+Examples include:
+
+- Solar energy.
+- Wind energy.
+- Hydroelectric energy.
+- Geothermal energy.
+- Biomass energy.
+
+### A. SOLAR ENERGY
+
+Solar energy is energy obtained from sunlight.
+
+Solar panels containing photovoltaic cells convert light energy directly into electrical energy.
+
+**How photovoltaic cells work:**
+
+1. Sunlight reaches the photovoltaic cell.
+2. Light energy is absorbed by semiconductor material.
+3. The absorbed energy releases charge carriers.
+4. An electric current is produced through the photovoltaic system.
+5. The electrical energy can be used directly, stored in batteries or supplied to an electrical grid.
+
+**Advantages:**
+
+- Renewable energy source.
+- Produces electricity without direct combustion.
+- Reduces dependence on fossil fuels.
+- Can be installed on rooftops.
+- Has relatively low operating emissions.
+
+**Limitations:**
+
+- Electricity production depends on sunlight.
+- Initial installation can be expensive.
+- Energy storage may be needed.
+- Manufacturing and disposal of panels have environmental impacts.
+- Large installations require land.
+
+### B. WIND ENERGY
+
+Wind energy is obtained from moving air.
+
+Wind turbines convert the kinetic energy of wind into electrical energy.
+
+**How a wind turbine works:**
+
+1. Wind moves the turbine blades.
+2. The blades rotate a rotor.
+3. The rotor drives a generator directly or through a gearbox.
+4. The generator converts mechanical energy into electrical energy.
+
+**Advantages:**
+
+- Renewable.
+- Produces electricity without direct fuel combustion.
+- Reduces dependence on fossil fuels.
+- Has low operating greenhouse gas emissions.
+
+**Limitations:**
+
+- Depends on wind availability.
+- Suitable locations may be limited.
+- Can cause noise and visual impacts.
+- May affect birds and bats if poorly located.
+- Requires suitable transmission infrastructure.
+
+### C. HYDROELECTRIC ENERGY
+
+Hydroelectric energy is generated using the energy of moving or falling water.
+
+**How hydroelectric power generation works:**
+
+1. Water stored at a higher level flows through a channel or pipe.
+2. Moving water turns a turbine.
+3. The turbine drives a generator.
+4. The generator produces electricity.
+
+**Advantages:**
+
+- Renewable when water resources are managed sustainably.
+- Can produce large amounts of electricity.
+- Electricity generation can be controlled by managing water flow.
+- Reservoirs may provide additional water-management benefits.
+
+**Limitations:**
+
+- Dams can flood large areas.
+- Habitats may be destroyed.
+- Fish migration may be disrupted.
+- Communities may need to be relocated.
+- Electricity production may be affected by drought.
+
+### D. GEOTHERMAL ENERGY
+
+Geothermal energy is heat obtained from within Earth.
+
+The heat can be used directly or to generate electricity.
+
+**How geothermal electricity generation works:**
+
+1. Heat from underground warms water.
+2. Hot water or steam is brought to the surface.
+3. Steam or another working fluid drives a turbine.
+4. The turbine turns a generator.
+5. Electricity is produced.
+
+**Advantages:**
+
+- Provides a relatively reliable energy source in suitable locations.
+- Has low operating greenhouse gas emissions.
+- Requires less land than some large energy installations.
+
+**Limitations:**
+
+- Suitable locations are geographically limited.
+- Drilling and construction can be expensive.
+- Some systems may release underground gases.
+- Poorly managed extraction can affect underground reservoirs.
+
+### E. BIOMASS ENERGY
+
+Biomass energy is obtained from organic materials such as plant matter and certain forms of organic waste.
+
+Examples:
+
+- Wood residues.
+- Agricultural waste.
+- Food-processing waste.
+- Biogas from organic waste.
+
+**Advantages:**
+
+- Can use certain agricultural and organic wastes.
+- Can reduce dependence on fossil fuels.
+- Biogas can be used for heat and electricity.
+- Some biomass systems can provide controllable energy.
+
+**Limitations:**
+
+- Burning biomass can release air pollutants.
+- Unsustainable harvesting can cause deforestation.
+- Large-scale energy crops may compete with food production.
+- Biomass is not automatically carbon-neutral; its total environmental impact depends on how it is produced, transported and used.
+
+## 10.4.3 Comparison of Renewable Energy Sources
+
+| Energy source | Main energy input | Main technology | Important limitation |
+|---|---|---|---|
+| Solar | Sunlight | Photovoltaic panels | Depends on sunlight |
+| Wind | Moving air | Wind turbines | Depends on wind |
+| Hydroelectric | Moving or falling water | Turbines and generators | Can affect river ecosystems |
+| Geothermal | Heat inside Earth | Steam or heat systems | Location-dependent |
+| Biomass | Organic matter | Combustion or biogas systems | Can cause pollution if poorly managed |
+
+## 10.4.4 Green Buildings
+
+Green buildings are designed, constructed and operated to reduce environmental impacts throughout their life cycle.
+
+**Features:**
+
+1. Energy-efficient lighting.
+2. Natural ventilation.
+3. Suitable insulation.
+4. Solar panels.
+5. Rainwater harvesting.
+6. Water-efficient fittings.
+7. Sustainable building materials.
+8. Green roofs and vegetation.
+9. Efficient waste management systems.
+
+**Advantages:**
+
+- Reduces electricity consumption.
+- Reduces water wastage.
+- Improves indoor environmental quality.
+- Reduces operating costs over time.
+- Can reduce greenhouse gas emissions.
+
+**Example:**
+
+A building with natural lighting, efficient air-conditioning, rooftop solar panels and rainwater collection can reduce its dependence on external energy and water supplies.
+
+## 10.4.5 Green Transportation
+
+Green transportation aims to reduce the environmental impacts of moving people and goods.
+
+**Examples:**
+
+- Electric vehicles.
+- Hybrid vehicles.
+- Electric buses.
+- Trains powered by low-carbon electricity.
+- Cycling infrastructure.
+- Walking-friendly urban planning.
+
+### Electric Vehicles (EVs)
+
+Electric vehicles use electric motors powered by electricity stored in rechargeable batteries.
+
+**Advantages:**
+
+1. Produce no exhaust emissions during driving.
+2. Can reduce urban air pollution.
+3. Are generally more energy-efficient than conventional petrol vehicles.
+4. Can reduce greenhouse gas emissions when charged using low-carbon electricity.
+
+**Limitations:**
+
+1. Battery production requires raw materials.
+2. Battery recycling and disposal must be properly managed.
+3. Charging infrastructure may be limited.
+4. Total emissions depend partly on how electricity is generated.
+
+**IMPORTANT:**
+
+Electric vehicles have no tailpipe emissions, but they are not completely emission-free across their entire life cycle.
+
+## 10.4.6 Waste Management Technology
+
+Green technology can improve the management and treatment of waste.
+
+### A. RECYCLING TECHNOLOGY
+
+Recycling technology processes used materials into materials that can be used again.
+
+Examples:
+
+- Paper recycling systems.
+- Glass recycling.
+- Metal recovery.
+- Plastic sorting and processing.
+
+**Benefits:**
+
+- Reduces waste sent to landfills.
+- Conserves raw materials.
+- Can reduce energy consumption.
+- Reduces some forms of pollution.
+
+### B. COMPOSTING
+
+Composting is the biological decomposition of suitable organic waste by microorganisms under managed conditions.
+
+Examples of compostable materials:
+
+- Fruit and vegetable scraps.
+- Dry leaves.
+- Grass clippings.
+- Certain food-processing waste.
+
+**Benefits:**
+
+- Reduces organic waste sent to landfills.
+- Produces compost that can improve soil.
+- Recycles nutrients.
+- Can reduce methane emissions when compared with uncontrolled anaerobic decomposition in landfills.
+
+### C. BIOGAS TECHNOLOGY
+
+Biogas is produced when microorganisms break down organic matter under anaerobic conditions, meaning in the absence of oxygen.
+
+Biogas commonly contains methane and carbon dioxide.
+
+**Process:**
+
+1. Organic waste is placed in an anaerobic digester.
+2. Microorganisms break down the organic material.
+3. Biogas is produced.
+4. The biogas can be collected and used as an energy source.
+5. The remaining digestate may be used as a soil amendment if it meets safety requirements.
+
+**Advantages:**
+
+- Uses organic waste.
+- Produces a useful energy source.
+- Can reduce uncontrolled methane release.
+- Recycles nutrients.
+
+### D. WASTEWATER TREATMENT
+
+Wastewater treatment removes or reduces contaminants before water is discharged or reused.
+
+**General stages:**
+
+1. **Preliminary treatment**
+
+   Screens and grit-removal systems remove large objects and sand.
+
+2. **Primary treatment**
+
+   Suspended solids settle or are removed through physical processes.
+
+3. **Secondary treatment**
+
+   Microorganisms break down biodegradable organic matter.
+
+4. **Tertiary or advanced treatment**
+
+   Additional processes remove remaining nutrients, pathogens or other pollutants when required.
+
+5. **Disinfection**
+
+   Suitable methods such as ultraviolet treatment, chlorine or ozone may reduce disease-causing microorganisms.
+
+**Importance:**
+
+- Protects rivers and other water bodies.
+- Reduces the spread of waterborne diseases.
+- Improves water quality.
+- Supports safe water reuse where appropriate.
+
+## 10.4.7 Green Technology in Agriculture
+
+Green technology can make agricultural production more efficient while reducing environmental damage.
+
+**Examples:**
+
+1. **Drip irrigation**
+
+   Delivers water close to plant roots.
+
+   Benefits:
+   - Reduces water wastage.
+   - Improves water-use efficiency.
+   - Can reduce unnecessary wetting of surrounding soil.
+
+2. **Precision agriculture**
+
+   Uses sensors, GPS, data and other technologies to manage agricultural inputs accurately.
+
+   Benefits:
+   - Helps apply fertilisers and water where needed.
+   - Reduces unnecessary chemical use.
+   - Improves resource efficiency.
+
+3. **Biological pest control**
+
+   Uses natural predators, parasites or pathogens to control pests.
+
+   Benefits:
+   - Can reduce dependence on chemical pesticides.
+   - May protect beneficial organisms when properly managed.
+
+4. **Controlled-environment agriculture**
+
+   Uses systems such as greenhouses or indoor farms to control growing conditions.
+
+   Benefits:
+   - Allows more precise control of water and nutrients.
+   - Can improve production efficiency.
+   - May reduce certain pest problems.
+
+## 10.4.8 Advantages and Limitations of Green Technology
+
+**Advantages:**
+
+1. Reduces pollution.
+2. Improves energy efficiency.
+3. Reduces dependence on non-renewable resources.
+4. Helps reduce greenhouse gas emissions.
+5. Encourages sustainable development.
+6. Promotes innovation and green industries.
+7. Can reduce long-term operating costs.
+
+**Limitations:**
+
+1. High initial investment.
+2. Some technologies depend on weather conditions.
+3. Certain technologies require specialised maintenance.
+4. Manufacturing may require scarce raw materials.
+5. Waste from old equipment must be managed properly.
+6. Not every technology is suitable for every location.
+
+## 10.4.9 Importance of Green Technology in Sustainable Development
+
+Sustainable development balances three important dimensions:
+
+1. Environmental protection.
+2. Economic development.
+3. Social well-being.
+
+Green technology contributes by:
+
+- Reducing environmental damage.
+- Supporting cleaner industries.
+- Improving access to efficient energy.
+- Creating employment in green sectors.
+- Supporting better waste and water management.
+- Improving quality of life.
+
+Green technology should be selected based on its full environmental impact, cost, suitability and long-term benefits.
+
+---
+
+# COMPARISON AND REVISION TABLES
+
+## 1. Environmental Threats
+
+| Threat | Main cause | Main environmental effect |
+|---|---|---|
+| Deforestation | Forest clearing | Habitat loss and soil erosion |
+| Air pollution | Harmful atmospheric emissions | Respiratory problems and environmental damage |
+| Water pollution | Waste entering water bodies | Harm to aquatic ecosystems |
+| Soil pollution | Contaminants entering soil | Reduced soil quality |
+| Global warming | Increased greenhouse gases | Rising global temperatures |
+| Acid rain | SO₂ and NOₓ emissions | Acidification of soil and water |
+| Eutrophication | Excess nutrients in water | Reduced dissolved oxygen |
+| Biodiversity loss | Habitat destruction and other threats | Decline in species and ecosystem diversity |
+
+## 2. Preservation, Conservation and Restoration
+
+- Preservation: Protect ecosystems from harmful interference.
+- Conservation: Manage natural resources sustainably.
+- Restoration: Help damaged ecosystems recover.
+
+## 3. In Situ and Ex Situ Conservation
+
+- In situ: Conservation in natural habitats.
+- Ex situ: Conservation outside natural habitats.
+
+## 4. 5R Concept
+
+- Refuse: Avoid unnecessary products.
+- Reduce: Use fewer resources.
+- Reuse: Use items again.
+- Recycle: Process waste into new materials.
+- Recover: Obtain useful energy or materials from waste.
+
+## 5. Renewable Energy
+
+- Solar: Sunlight.
+- Wind: Moving air.
+- Hydroelectric: Moving or falling water.
+- Geothermal: Heat from Earth.
+- Biomass: Organic material.
+
+---
+
+# EXAM TIPS AND COMMON MISTAKES
+
+## Important Exam Tips
+
+1. When explaining eutrophication, include excess nutrients, algal bloom, reduced light penetration, decomposition and reduced dissolved oxygen.
+
+2. When explaining global warming, connect increased greenhouse gas concentrations to greater absorption and re-emission of infrared radiation.
+
+3. When explaining acid rain, identify sulphur dioxide and nitrogen oxides as important precursor gases.
+
+4. When explaining biomagnification, describe increasing pollutant concentration at higher trophic levels.
+
+5. When comparing in situ and ex situ conservation, state where conservation takes place and give an example of each.
+
+6. When explaining the 5R concept, give the correct meaning and a relevant example for each R.
+
+7. When describing green technology, explain how it reduces environmental impact rather than merely naming the technology.
+
+8. When evaluating renewable energy, include both advantages and limitations.
+
+## Common Mistakes
+
+**Mistake 1:** Saying that the greenhouse effect is entirely harmful.
+
+Correction: The natural greenhouse effect is essential for maintaining Earth's temperature. The enhanced greenhouse effect contributes to global warming.
+
+**Mistake 2:** Saying that all pollutants undergo biomagnification.
+
+Correction: Biomagnification is associated with certain persistent pollutants that accumulate in organisms and become more concentrated at higher trophic levels.
+
+**Mistake 3:** Confusing bioaccumulation and biomagnification.
+
+Correction: Bioaccumulation occurs within an organism over time. Biomagnification occurs across trophic levels.
+
+**Mistake 4:** Saying that eutrophication happens because algae directly consume all the oxygen.
+
+Correction: Decomposers breaking down dead organic matter use dissolved oxygen, contributing to oxygen depletion.
+
+**Mistake 5:** Confusing preservation and restoration.
+
+Correction: Preservation protects existing ecosystems, while restoration helps damaged ecosystems recover.
+
+**Mistake 6:** Saying that recycling and reusing are the same.
+
+Correction: Reusing means using an item again, while recycling involves processing waste into new materials.
+
+**Mistake 7:** Claiming that electric vehicles have zero environmental impact.
+
+Correction: EVs have no tailpipe emissions, but battery production, electricity generation and disposal can have environmental impacts.
+
+**Mistake 8:** Assuming all renewable energy sources are completely harmless.
+
+Correction: Renewable energy sources have environmental impacts that must be managed.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## QUESTION 1 — 4 MARKS
+
+State four human activities that can threaten the environment.
+
+**Suggested answer:**
+
+1. Deforestation.
+2. Open burning.
+3. Excessive use of chemical fertilisers.
+4. Discharge of untreated industrial waste.
+
+## QUESTION 2 — 4 MARKS
+
+Explain how deforestation can contribute to environmental problems.
+
+**Suggested answer:**
+
+1. Deforestation destroys natural habitats.
+2. This reduces the population of organisms and biodiversity.
+3. Removal of tree roots exposes soil to erosion.
+4. Fewer trees are available to absorb carbon dioxide through photosynthesis.
+
+## QUESTION 3 — 5 MARKS
+
+Explain the formation of acid rain.
+
+**Suggested answer:**
+
+1. Burning fossil fuels releases sulphur dioxide and nitrogen oxides.
+2. These gases enter the atmosphere.
+3. They react with oxygen and water through atmospheric chemical reactions.
+4. Sulphuric acid and nitric acid can form.
+5. These acids enter precipitation and fall to Earth's surface.
+
+## QUESTION 4 — 6 MARKS
+
+Explain how eutrophication causes the death of aquatic organisms.
+
+**Suggested answer:**
+
+1. Excess nitrates and phosphates enter a water body.
+2. Algae reproduce rapidly and form an algal bloom.
+3. The algal bloom reduces light penetration.
+4. Submerged aquatic plants receive less light and may die.
+5. Decomposers break down dead organic matter and use dissolved oxygen.
+6. The dissolved oxygen level decreases, causing aquatic organisms to die.
+
+## QUESTION 5 — 4 MARKS
+
+Differentiate between bioaccumulation and biomagnification.
+
+**Suggested answer:**
+
+1. Bioaccumulation is the gradual accumulation of a pollutant within an organism over time.
+2. It occurs when absorption exceeds elimination.
+3. Biomagnification is the increase in pollutant concentration at successive trophic levels.
+4. It occurs when predators consume contaminated prey.
+
+## QUESTION 6 — 4 MARKS
+
+Differentiate between preservation and conservation.
+
+**Suggested answer:**
+
+1. Preservation protects ecosystems from harmful human interference.
+2. It aims to maintain existing natural conditions.
+3. Conservation involves responsible management and sustainable use of natural resources.
+4. It aims to prevent resource depletion and maintain biodiversity.
+
+## QUESTION 7 — 4 MARKS
+
+Differentiate between in situ and ex situ conservation.
+
+**Suggested answer:**
+
+1. In situ conservation takes place within an organism's natural habitat.
+2. Examples include national parks and wildlife sanctuaries.
+3. Ex situ conservation takes place outside an organism's natural habitat.
+4. Examples include zoos, botanical gardens and seed banks.
+
+## QUESTION 8 — 5 MARKS
+
+Explain five practices in the 5R concept.
+
+**Suggested answer:**
+
+1. Refuse means avoiding unnecessary products.
+2. Reduce means using fewer resources.
+3. Reuse means using an item again instead of discarding it.
+4. Recycle means processing waste materials into new products.
+5. Recover means obtaining useful energy or materials from waste.
+
+## QUESTION 9 — 5 MARKS
+
+Explain how sustainable agriculture helps protect the environment.
+
+**Suggested answer:**
+
+1. Crop rotation helps maintain soil fertility.
+2. Organic fertilisers add organic matter to the soil.
+3. Integrated pest management reduces unnecessary pesticide use.
+4. Contour farming slows surface runoff.
+5. Terracing reduces soil erosion on slopes.
+
+## QUESTION 10 — 4 MARKS
+
+Describe how solar panels generate electricity.
+
+**Suggested answer:**
+
+1. Sunlight reaches photovoltaic cells.
+2. Semiconductor material absorbs light energy.
+3. The absorbed energy releases charge carriers.
+4. Their movement produces an electric current.
+
+## QUESTION 11 — 4 MARKS
+
+State two advantages and two limitations of wind energy.
+
+**Suggested answer:**
+
+Advantages:
+
+1. Wind is a renewable energy source.
+2. Wind turbines generate electricity without direct fuel combustion.
+
+Limitations:
+
+3. Electricity production depends on wind availability.
+4. Wind turbines may affect birds and bats if poorly located.
+
+## QUESTION 12 — 5 MARKS
+
+Explain how biogas technology contributes to environmental sustainability.
+
+**Suggested answer:**
+
+1. Organic waste is placed in an anaerobic digester.
+2. Microorganisms break down organic matter without oxygen.
+3. Biogas containing methane is produced.
+4. The biogas can be used to generate heat or electricity.
+5. The technology makes useful use of organic waste and can reduce uncontrolled methane emissions.
+
+## QUESTION 13 — 6 MARKS
+
+Discuss the importance of green technology in environmental sustainability.
+
+**Suggested answer:**
+
+1. Green technology reduces environmental pollution.
+2. Renewable energy technology reduces dependence on fossil fuels.
+3. Energy-efficient systems reduce energy consumption.
+4. Waste-management technology reduces the amount of waste sent to landfills.
+5. Water-treatment technology reduces the release of pollutants into water bodies.
+6. Green technology supports sustainable development and improves quality of life.
+
+## QUESTION 14 — 6 MARKS
+
+A river near an agricultural area experiences frequent algal blooms. Suggest measures to reduce this problem.
+
+**Suggested answer:**
+
+1. Control the application of chemical fertilisers.
+2. Avoid applying fertilisers immediately before heavy rainfall.
+3. Establish vegetation buffer zones along riverbanks.
+4. Treat sewage before discharge.
+5. Prevent animal waste from entering the river.
+6. Monitor nutrient concentrations in the water.
+
+## QUESTION 15 — 8 MARKS
+
+Discuss how individuals and governments can work together to achieve environmental sustainability.
+
+**Suggested answer:**
+
+1. Individuals can practise the 5R concept to reduce waste.
+2. Individuals can conserve water and electricity.
+3. Communities can participate in tree-planting programmes.
+4. Individuals can use public transportation to reduce emissions.
+5. Governments can enforce environmental protection laws.
+6. Governments can establish protected areas to conserve biodiversity.
+7. Governments can promote renewable energy and green technology.
+8. Governments can provide environmental education and support sustainable development programmes.
+
+---
+
+# KEY TERMS TO MEMORISE
+
+**Environmental sustainability**
+- Sustainable development.
+- Natural resources.
+- Biodiversity.
+- Ecological balance.
+
+**Environmental threats**
+- Deforestation.
+- Air pollution.
+- Water pollution.
+- Soil pollution.
+- Greenhouse effect.
+- Global warming.
+- Acid rain.
+- Eutrophication.
+- Bioaccumulation.
+- Biomagnification.
+
+**Ecosystem protection**
+- Preservation.
+- Conservation.
+- Restoration.
+- In situ conservation.
+- Ex situ conservation.
+- Protected areas.
+- Sustainable resource management.
+
+**Environmental practices**
+- Refuse.
+- Reduce.
+- Reuse.
+- Recycle.
+- Recover.
+- Sustainable agriculture.
+- Sustainable forestry.
+- Sustainable fisheries.
+
+**Green technology**
+- Renewable energy.
+- Photovoltaic cells.
+- Wind turbines.
+- Hydroelectricity.
+- Geothermal energy.
+- Biomass.
+- Green buildings.
+- Electric vehicles.
+- Composting.
+- Biogas.
+- Wastewater treatment.
+
+---
+
+# FINAL CHAPTER 10 REVISION SUMMARY
+
+## 10.1 Threats to the Environment
+
+- Deforestation destroys habitats and contributes to soil erosion.
+- Air pollution introduces harmful substances into the atmosphere.
+- Water pollution damages aquatic ecosystems.
+- Soil pollution reduces soil quality.
+- The enhanced greenhouse effect contributes to global warming.
+- Acid rain is mainly associated with sulphur dioxide and nitrogen oxides.
+- Eutrophication can reduce dissolved oxygen in water.
+- Bioaccumulation occurs within an organism.
+- Biomagnification occurs across trophic levels.
+- Biodiversity loss disrupts ecosystem functions.
+
+## 10.2 Preservation, Conservation and Restoration
+
+- Preservation protects natural ecosystems.
+- Conservation manages resources sustainably.
+- Restoration helps damaged ecosystems recover.
+- In situ conservation takes place in natural habitats.
+- Ex situ conservation takes place outside natural habitats.
+- Both approaches help protect biodiversity.
+
+## 10.3 Practices in Environmental Sustainability
+
+- Refuse unnecessary products.
+- Reduce resource consumption.
+- Reuse items.
+- Recycle waste materials.
+- Recover useful materials or energy.
+- Practise sustainable agriculture.
+- Manage forests and fisheries responsibly.
+- Use sustainable transportation.
+- Encourage individual and community participation.
+
+## 10.4 Green Technology
+
+- Green technology reduces environmental impacts.
+- Solar panels convert light energy into electrical energy.
+- Wind turbines convert wind energy into electrical energy.
+- Hydroelectric systems use moving water to drive turbines.
+- Geothermal systems use heat from Earth.
+- Biomass systems use organic materials.
+- Green buildings improve resource efficiency.
+- Electric vehicles reduce tailpipe emissions.
+- Composting and biogas technology use organic waste.
+- Wastewater treatment reduces water pollution.
+
+**FINAL EXAM REMINDER:**
+
+For environmental questions, remember to connect:
+
+**Human activity → Environmental change → Effect on organisms or ecosystems → Possible solution**
+
+This structure helps produce clear, logical explanations for SPM-style questions.
