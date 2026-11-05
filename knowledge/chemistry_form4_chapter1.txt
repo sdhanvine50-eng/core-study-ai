@@ -1,0 +1,2431 @@
+
+SUBJECT: CHEMISTRY
+FORM: 4
+CHAPTER: 1
+CHAPTER_TITLE: INTRODUCTION TO CHEMISTRY
+TOPICS:
+1.1 Development in Chemistry and Its Importance in Daily Life
+1.2 Scientific Investigation in Chemistry
+1.3 Usage, Management and Handling of Apparatus and Materials
+
+SOURCE_TYPE: KSSM CURRICULUM-ALIGNED LEARNING CONTENT
+STATUS: DETAILED KNOWLEDGE BASE
+LANGUAGE: ENGLISH
+
+============================================================
+SECTION 1: CHAPTER OVERVIEW AND LEARNING OBJECTIVES
+============================================================
+
+Chemistry is an important branch of science that explains the composition, properties and changes of matter. It helps human beings understand the substances around them and develop technologies that improve everyday life.
+
+This chapter introduces the meaning and development of chemistry, the importance of chemical substances and chemical technology, scientific investigation methods, and the correct handling of laboratory apparatus and materials.
+
+The chapter contains three main learning areas.
+
+1.1 DEVELOPMENT IN CHEMISTRY AND ITS IMPORTANCE IN DAILY LIFE
+
+Students should be able to:
+- State the meaning of chemistry.
+- State examples of chemicals commonly used in daily life.
+- Generate ideas about the development of chemistry and the contributions of chemical technology towards mankind.
+- State examples of careers related to chemistry.
+
+1.2 SCIENTIFIC INVESTIGATION IN CHEMISTRY
+
+Students should be able to:
+- Design an experiment to test a hypothesis.
+- Investigate experimentally the effect of temperature on the solubility of salt in water using a scientific method.
+
+1.3 USAGE, MANAGEMENT AND HANDLING OF APPARATUS AND MATERIALS
+
+Students should be able to:
+- Explain the types and functions of personal protective equipment and laboratory safety equipment.
+- Demonstrate methods of managing and handling apparatus and materials.
+- Communicate emergency management procedures in the laboratory.
+
+============================================================
+SECTION 2: DETAILED TEACHING CONTENT
+============================================================
+
+------------------------------------------------------------
+TOPIC 1.1: DEVELOPMENT IN CHEMISTRY AND ITS IMPORTANCE
+IN DAILY LIFE
+------------------------------------------------------------
+
+1.1.1 MEANING OF CHEMISTRY
+
+Chemistry is a branch of science that studies the composition, properties and changes of matter.
+
+To understand this definition, students must understand three important terms.
+
+A. COMPOSITION OF MATTER
+
+Composition refers to the substances and particles that make up a material.
+
+Matter may consist of atoms, molecules or ions.
+
+For example:
+
+- Pure water consists of water molecules.
+- Oxygen gas consists of oxygen molecules.
+- Sodium chloride consists of sodium ions and chloride ions arranged in an ionic lattice.
+
+Chemistry investigates what substances are made of and how their particles are arranged.
+
+B. PROPERTIES OF MATTER
+
+Properties are the characteristics of a substance that can be observed or measured.
+
+Examples of physical properties:
+- Colour.
+- Density.
+- Melting point.
+- Boiling point.
+- Electrical conductivity.
+- Solubility.
+- Physical state.
+
+Examples of chemical properties:
+- Flammability.
+- Ability to react with acids.
+- Ability to react with oxygen.
+- Chemical stability.
+
+Physical properties can generally be observed without changing a substance into a different chemical substance.
+
+Chemical properties describe how a substance behaves during chemical reactions.
+
+C. CHANGES IN MATTER
+
+Chemistry studies how substances change physically and chemically.
+
+Physical change:
+A physical change changes the physical form or state of a substance without producing a new substance.
+
+Examples:
+- Ice melting into water.
+- Water boiling into steam.
+- Sugar dissolving in water.
+
+Chemical change:
+A chemical change produces one or more new substances with different chemical properties.
+
+Examples:
+- Iron rusting.
+- Wood burning.
+- Food undergoing chemical changes during cooking.
+
+Chemistry helps explain why these changes occur and the conditions that affect them.
+
+IMPORTANCE OF STUDYING CHEMISTRY
+
+Chemistry helps people:
+1. Understand substances found in nature.
+2. Develop medicines and healthcare products.
+3. Improve agricultural production.
+4. Manufacture useful materials.
+5. Develop food processing and preservation methods.
+6. Produce and store energy.
+7. Monitor and reduce environmental pollution.
+8. Develop new technologies.
+9. Solve problems involving materials and chemical processes.
+
+1.1.2 EXAMPLES OF CHEMICAL SUBSTANCES COMMONLY USED IN
+DAILY LIFE
+
+Chemical substances are found in almost every part of daily life.
+
+They are used in food, medicine, agriculture and industry.
+
+A. CHEMICALS IN FOOD
+
+Food contains many chemical substances that provide energy, support growth and maintain normal body functions.
+
+Examples include:
+
+1. Carbohydrates
+
+Carbohydrates are organic compounds that are an important source of energy.
+
+Examples:
+- Glucose.
+- Fructose.
+- Sucrose.
+- Starch.
+
+Glucose has the chemical formula C6H12O6.
+
+Sucrose has the chemical formula C12H22O11.
+
+Starch is a large carbohydrate made from many glucose units.
+
+Importance:
+- Provide energy.
+- Support normal body activities.
+- Act as energy-storage substances in certain organisms.
+
+2. Proteins
+
+Proteins are large biological molecules made from amino acids.
+
+They contain elements such as carbon, hydrogen, oxygen and nitrogen. Some proteins also contain sulfur.
+
+Examples of protein sources:
+- Eggs.
+- Fish.
+- Meat.
+- Milk.
+- Soybeans.
+
+Importance:
+- Growth and repair of body tissues.
+- Formation of enzymes.
+- Formation of certain hormones.
+- Support of immune functions.
+
+3. Fats and Oils
+
+Fats and oils are substances that provide concentrated energy.
+
+They are mainly composed of triglycerides.
+
+Importance:
+- Energy storage.
+- Thermal insulation.
+- Protection of internal organs.
+- Absorption of fat-soluble vitamins.
+
+4. Food Preservatives
+
+Food preservatives are substances added to food to slow down spoilage and extend shelf life.
+
+Examples:
+- Sodium benzoate.
+- Potassium sorbate.
+
+Preservatives help reduce the growth of certain microorganisms or slow chemical changes that cause food spoilage.
+
+The suitability and permitted concentration of a preservative depend on food regulations.
+
+5. Food Colourings
+
+Food colourings are substances used to provide or restore colour in food.
+
+They may be natural or synthetic.
+
+Examples of natural colour sources include:
+- Turmeric.
+- Beetroot.
+- Certain plant pigments.
+
+Food colourings must comply with food safety regulations.
+
+6. Food Flavourings
+
+Food flavourings are substances used to improve or provide flavour and aroma.
+
+Examples:
+- Vanillin, which provides a vanilla-like flavour.
+- Certain esters, which can have fruity aromas.
+
+7. Sodium Chloride
+
+Chemical formula: NaCl.
+
+Common name: Table salt.
+
+Uses:
+- Adds flavour to food.
+- Used in food preservation.
+- Used in food preparation.
+
+Sodium chloride is an ionic compound consisting of sodium ions and chloride ions.
+
+IMPORTANT DISTINCTION:
+
+Not every chemical substance is artificial or harmful.
+
+Water, glucose, sodium chloride, proteins and vitamins are all chemical substances.
+
+The safety of a chemical depends on its identity, properties, concentration, amount of exposure and method of use.
+
+B. CHEMICALS IN MEDICINE
+
+Chemistry plays an important role in the development, production and testing of medicines.
+
+Examples:
+
+1. Paracetamol
+
+Chemical formula: C8H9NO2.
+
+Use:
+- Relieves pain.
+- Reduces fever.
+
+2. Aspirin
+
+Chemical formula: C9H8O4.
+
+Use:
+- Used for pain relief.
+- Has anti-inflammatory properties.
+- Certain prescribed low-dose preparations are used to reduce blood clot formation.
+
+3. Antacids
+
+Antacids are substances that neutralise excess stomach acid.
+
+Examples:
+- Magnesium hydroxide, Mg(OH)2.
+- Calcium carbonate, CaCO3.
+
+Magnesium hydroxide reacts with hydrochloric acid according to the equation:
+
+Mg(OH)2 + 2HCl -> MgCl2 + 2H2O
+
+Calcium carbonate reacts with hydrochloric acid according to the equation:
+
+CaCO3 + 2HCl -> CaCl2 + H2O + CO2
+
+These are examples of acid-base reactions.
+
+4. Antibiotics
+
+Antibiotics are medicines used to treat bacterial infections.
+
+Examples:
+- Penicillin.
+- Amoxicillin.
+
+Antibiotics do not treat viral infections such as the common cold.
+
+5. Vitamins
+
+Vitamins are organic compounds required in relatively small amounts for normal body functions.
+
+Examples:
+- Vitamin C.
+- Vitamin D.
+- Vitamin A.
+
+Importance:
+- Support normal growth and development.
+- Maintain normal body functions.
+- Prevent certain deficiency diseases.
+
+HOW CHEMISTRY CONTRIBUTES TO MEDICINE
+
+Chemistry helps scientists:
+- Identify active ingredients.
+- Determine the chemical composition of medicines.
+- Study the stability of medicinal substances.
+- Develop suitable formulations.
+- Analyse the purity of medicines.
+- Perform quality-control testing.
+
+C. CHEMICALS IN AGRICULTURE
+
+Chemistry contributes to agriculture by improving soil conditions, supplying plant nutrients and controlling agricultural pests and diseases.
+
+1. Fertilisers
+
+Fertilisers are substances added to soil or plants to supply essential nutrients required for plant growth.
+
+Three important plant nutrients are:
+
+NITROGEN (N)
+
+Functions:
+- Required for the formation of amino acids and proteins.
+- Important for chlorophyll production.
+- Supports healthy leaf and stem growth.
+
+PHOSPHORUS (P)
+
+Functions:
+- Important in energy-transfer processes.
+- Supports root development.
+- Contributes to flowering and seed development.
+
+POTASSIUM (K)
+
+Functions:
+- Supports enzyme activity.
+- Helps regulate water balance.
+- Contributes to overall plant health.
+
+The three primary fertiliser nutrients are commonly represented as NPK.
+
+Examples of fertilisers:
+- Ammonium nitrate.
+- Ammonium sulfate.
+- Potassium chloride.
+- Potassium nitrate.
+
+2. Pesticides
+
+Pesticides are substances used to control pests that damage crops or affect agricultural production.
+
+Examples of categories:
+
+Insecticides:
+Used to control insects.
+
+Herbicides:
+Used to control unwanted plants or weeds.
+
+Fungicides:
+Used to control fungal diseases.
+
+Excessive or improper pesticide use can cause environmental contamination and harm non-target organisms.
+
+3. Soil Treatment Substances
+
+Chemical substances can be used to improve soil conditions.
+
+For example, agricultural lime is used to reduce soil acidity.
+
+Calcium carbonate (CaCO3) is one material used for this purpose.
+
+HOW CHEMISTRY CONTRIBUTES TO AGRICULTURE
+
+Chemistry helps:
+- Improve soil fertility.
+- Understand soil acidity.
+- Develop suitable fertilisers.
+- Analyse nutrient content.
+- Improve crop quality.
+- Monitor chemical residues.
+- Develop safer agricultural practices.
+
+D. CHEMICALS IN INDUSTRY
+
+Chemical industries convert raw materials into useful products.
+
+Examples:
+
+1. Soap and Detergents
+
+Soap is produced through a chemical process called saponification.
+
+Soap is generally a sodium or potassium salt of a long-chain fatty acid.
+
+Detergents are cleaning substances that help remove dirt and grease.
+
+Uses:
+- Washing clothes.
+- Cleaning dishes.
+- Cleaning surfaces.
+- Personal hygiene.
+
+2. Acids
+
+Acids are important industrial chemicals.
+
+Examples:
+
+Sulfuric acid (H2SO4):
+- Used in fertiliser manufacturing.
+- Used in certain industrial chemical processes.
+- Used in lead-acid batteries.
+
+Hydrochloric acid (HCl):
+- Used in metal cleaning and processing.
+- Used in chemical manufacturing.
+
+Nitric acid (HNO3):
+- Used in fertiliser production.
+- Used in industrial chemical synthesis.
+
+3. Polymers
+
+Polymers are large molecules made from repeating smaller units called monomers.
+
+Examples:
+- Polyethene.
+- Polypropene.
+- Polyvinyl chloride.
+
+Uses:
+- Packaging.
+- Pipes.
+- Containers.
+- Textiles.
+- Household products.
+
+4. Glass
+
+Glass is an inorganic material commonly made using silica and other raw materials.
+
+Uses:
+- Windows.
+- Bottles.
+- Laboratory equipment.
+- Optical instruments.
+
+5. Cement
+
+Cement is an important construction material.
+
+It is produced through industrial processes involving carefully controlled heating and processing of raw materials.
+
+Uses:
+- Construction.
+- Buildings.
+- Bridges.
+- Roads.
+
+6. Paint
+
+Paint contains substances such as pigments, binders and solvents or other liquid carriers.
+
+Uses:
+- Protects surfaces.
+- Provides colour.
+- Improves appearance.
+- Reduces corrosion of suitable materials.
+
+1.1.3 DEVELOPMENT OF CHEMISTRY AND CONTRIBUTIONS OF
+CHEMICAL TECHNOLOGY TOWARDS MANKIND
+
+Chemistry has developed through scientific discoveries, experiments and technological improvements.
+
+The development of chemistry has allowed people to understand matter more accurately and manufacture products with improved properties.
+
+A. DEVELOPMENT OF THE CHEMISTRY FIELD
+
+Early human activities involved practical chemical processes.
+
+Examples:
+- Extraction and processing of metals.
+- Production of pottery.
+- Glassmaking.
+- Fermentation.
+- Production of dyes.
+- Preparation of medicines.
+
+Over time, chemistry developed into a systematic scientific discipline based on experiments, measurements and evidence.
+
+Modern chemistry uses advanced instruments and technologies to study substances at very small scales.
+
+Examples of modern developments:
+- Advanced analytical instruments.
+- Pharmaceutical research.
+- Biotechnology.
+- Nanotechnology.
+- Green chemistry.
+- Advanced materials.
+- Environmental monitoring.
+
+B. BIOTECHNOLOGY
+
+Biotechnology is the application of biological organisms, cells, biological systems or biological processes to develop products and technologies that benefit humans.
+
+Biotechnology combines knowledge from biology, chemistry and other scientific fields.
+
+Importance and applications:
+
+1. Medicine and Healthcare
+
+Biotechnology is used to:
+- Produce certain vaccines.
+- Manufacture some therapeutic proteins.
+- Develop diagnostic methods.
+- Support medical research.
+
+Example:
+
+Recombinant DNA technology allows certain microorganisms to produce human insulin.
+
+The insulin produced can be purified and used in medical treatment.
+
+2. Agriculture
+
+Biotechnology can improve agricultural production through:
+- Development of selected crop varieties.
+- Tissue culture.
+- Molecular breeding.
+- Development of crops with useful characteristics.
+
+Plant tissue culture allows many plants to be produced from small pieces of plant tissue under controlled conditions.
+
+3. Food Production
+
+Biotechnology is used in fermentation processes.
+
+Examples:
+- Bread production.
+- Yoghurt production.
+- Cheese production.
+
+Microorganisms carry out biochemical reactions that produce substances useful in food production.
+
+4. Environmental Protection
+
+Biotechnology can be applied in bioremediation.
+
+Bioremediation uses living organisms, particularly microorganisms, to break down or transform certain environmental pollutants.
+
+Examples:
+- Treatment of certain wastewater.
+- Breakdown of some organic pollutants.
+- Management of certain contaminated environments.
+
+C. NANOTECHNOLOGY
+
+Nanotechnology involves the study and application of materials and structures at the nanoscale.
+
+A nanometre is one-billionth of a metre.
+
+1 nm = 0.000000001 m
+
+Nanotechnology can produce materials with properties that differ from their larger-scale forms.
+
+Applications include:
+- Medical research.
+- Electronics.
+- Sensors.
+- Energy technology.
+- Protective coatings.
+- Advanced materials.
+
+The properties of nanomaterials depend on factors such as their size, shape, composition and surface characteristics.
+
+D. GREEN TECHNOLOGY
+
+Green technology involves the development and use of technologies that reduce environmental impact and support sustainable development.
+
+Examples:
+- Renewable energy technologies.
+- Improved water-treatment systems.
+- Waste reduction.
+- Recycling.
+- Cleaner manufacturing processes.
+- Energy-efficient materials.
+
+Green chemistry supports green technology by designing chemical products and processes that reduce or eliminate hazardous substances.
+
+E. CONTRIBUTIONS OF CHEMICAL TECHNOLOGY TO MANKIND
+
+Chemical technology has contributed to several important areas.
+
+HEALTHCARE:
+- Development of medicines.
+- Production of vaccines and medical materials.
+- Improved medical testing.
+
+AGRICULTURE:
+- Improved fertilisers.
+- Better crop protection.
+- Improved soil analysis.
+
+FOOD:
+- Food preservation.
+- Food packaging.
+- Quality control.
+- Fermentation technology.
+
+INDUSTRY:
+- Production of polymers.
+- Manufacture of construction materials.
+- Development of stronger and lighter materials.
+
+ENERGY:
+- Battery technology.
+- Fuel cells.
+- Improved energy storage materials.
+
+ENVIRONMENT:
+- Water purification.
+- Wastewater treatment.
+- Pollution monitoring.
+- Development of environmentally friendly materials.
+
+POTENTIAL NEGATIVE EFFECTS
+
+Chemical technology also creates challenges if substances and processes are not managed properly.
+
+Examples:
+- Industrial pollution.
+- Chemical waste.
+- Air pollution.
+- Water contamination.
+- Improper pesticide use.
+- Plastic waste.
+
+Therefore, chemical technology must be developed and used responsibly.
+
+1.1.4 CAREERS RELATED TO THE FIELD OF CHEMISTRY
+
+Chemistry knowledge is used in many professions.
+
+1. CHEMIST
+
+A chemist studies substances, their composition, properties and reactions.
+
+Responsibilities:
+- Conduct experiments.
+- Analyse chemical samples.
+- Develop chemical products.
+- Investigate chemical reactions.
+- Perform quality-control testing.
+
+2. PHARMACIST
+
+A pharmacist is a healthcare professional who specialises in medicines.
+
+Responsibilities:
+- Dispense medicines.
+- Explain correct medicine use.
+- Check medicine safety.
+- Advise patients about medicines.
+- Monitor possible medicine interactions.
+
+3. PHARMACOLOGIST
+
+A pharmacologist studies how drugs and other chemical substances affect biological systems.
+
+Responsibilities:
+- Study drug actions.
+- Investigate drug effects.
+- Support pharmaceutical research.
+- Evaluate potential drug safety and effectiveness.
+
+4. CHEMICAL ENGINEER
+
+A chemical engineer applies chemistry, physics, mathematics and engineering principles to design and improve industrial processes.
+
+Responsibilities:
+- Design chemical-processing systems.
+- Improve manufacturing efficiency.
+- Monitor industrial processes.
+- Improve product quality.
+- Support process safety.
+
+5. FORENSIC SCIENTIST
+
+A forensic scientist analyses scientific evidence that may be used in investigations.
+
+Chemical analysis may be used to identify substances found in samples.
+
+Responsibilities:
+- Analyse chemical samples.
+- Examine evidence.
+- Use laboratory instruments.
+- Prepare scientific reports.
+
+6. FOOD TECHNOLOGIST
+
+A food technologist applies scientific knowledge to food processing, preservation and quality control.
+
+Responsibilities:
+- Improve food quality.
+- Study food composition.
+- Develop food-processing methods.
+- Monitor food safety.
+- Improve food shelf life.
+
+7. ENVIRONMENTAL SCIENTIST
+
+An environmental scientist studies environmental conditions and pollution.
+
+Responsibilities:
+- Analyse water and soil samples.
+- Monitor environmental pollutants.
+- Investigate contamination.
+- Support environmental protection.
+
+8. COSMETIC SCIENTIST
+
+A cosmetic scientist develops and evaluates cosmetic products.
+
+Responsibilities:
+- Formulate cosmetic products.
+- Study ingredient compatibility.
+- Test product stability.
+- Evaluate product quality.
+
+9. MATERIALS SCIENTIST
+
+A materials scientist studies the composition, structure and properties of materials.
+
+Responsibilities:
+- Develop new materials.
+- Test material properties.
+- Improve material performance.
+- Investigate polymers, ceramics and metals.
+
+10. LABORATORY TECHNOLOGIST
+
+A laboratory technologist performs laboratory testing and helps maintain laboratory equipment.
+
+Responsibilities:
+- Prepare samples.
+- Operate laboratory instruments.
+- Record results.
+- Maintain equipment.
+- Follow laboratory safety procedures.
+
+============================================================
+TOPIC 1.2: SCIENTIFIC INVESTIGATION IN CHEMISTRY
+============================================================
+
+1.2.1 DESIGNING AN EXPERIMENT TO TEST A HYPOTHESIS
+
+A scientific investigation is a systematic process used to study a problem and obtain evidence through observations and experiments.
+
+A scientific investigation helps scientists determine whether a hypothesis is supported by experimental results.
+
+A. OBSERVATION
+
+Observation is the process of collecting information using the senses or suitable scientific instruments.
+
+Examples:
+- A solution changes colour.
+- A gas is released.
+- A solid forms.
+- The temperature increases.
+- A substance dissolves.
+
+Observations can be qualitative or quantitative.
+
+Qualitative observations describe characteristics without numerical measurements.
+
+Quantitative observations involve numerical measurements.
+
+B. MAKING AN INFERENCE
+
+Inference is the process of explaining an observation using collected information and previous knowledge.
+
+Example:
+
+Observation:
+A colourless gas is released when certain substances react.
+
+Inference:
+A chemical reaction may have produced a gas.
+
+An inference is an explanation based on evidence. It is not necessarily a confirmed conclusion.
+
+C. IDENTIFYING THE PROBLEM
+
+A problem statement is a question that identifies what the investigator wants to investigate.
+
+Example:
+
+Does temperature affect the solubility of salt in water?
+
+The question identifies the relationship being studied.
+
+D. FORMING A HYPOTHESIS
+
+A hypothesis is a testable statement predicting the relationship between the manipulated variable and the responding variable.
+
+Example:
+
+The higher the temperature of water, the greater the solubility of a particular salt in water.
+
+A good hypothesis:
+- Is clear.
+- Is testable.
+- Identifies the expected relationship.
+- Can be investigated through an experiment.
+
+E. IDENTIFYING VARIABLES
+
+There are three main types of experimental variables.
+
+1. MANIPULATED VARIABLE
+
+The manipulated variable is the factor deliberately changed during an experiment.
+
+Example:
+Temperature of water.
+
+2. RESPONDING VARIABLE
+
+The responding variable is the factor measured or observed to determine the effect of changing the manipulated variable.
+
+Example:
+Mass of salt that dissolves in a fixed amount of water at a particular temperature.
+
+3. FIXED VARIABLE
+
+A fixed variable is a factor kept constant throughout the investigation.
+
+Examples:
+- Volume of water.
+- Type of salt.
+- Purity of salt.
+- Pressure, where relevant.
+
+F. CONTROLLING VARIABLES
+
+A fair test requires the investigator to change the manipulated variable while keeping the relevant fixed variables unchanged.
+
+This allows the investigator to determine whether changes in the responding variable are associated with changes in the manipulated variable.
+
+G. PLANNING AN EXPERIMENT
+
+An experimental plan should include:
+
+1. Aim.
+2. Problem statement.
+3. Hypothesis.
+4. Manipulated variable.
+5. Responding variable.
+6. Fixed variables.
+7. Apparatus.
+8. Materials.
+9. Procedure.
+10. Method of collecting data.
+11. Safety precautions.
+
+H. COLLECTING DATA
+
+Data are collected through observations and measurements.
+
+Examples:
+- Temperature in degrees Celsius (°C).
+- Mass in grams (g).
+- Volume in cubic centimetres (cm3).
+- Time in seconds (s).
+
+Data must be recorded clearly and accurately.
+
+I. INTERPRETING DATA
+
+Data interpretation involves examining experimental results to identify relationships and patterns.
+
+Data can be presented through:
+- Tables.
+- Graphs.
+- Charts.
+- Calculations.
+
+J. MAKING A CONCLUSION
+
+A conclusion explains what the experimental results show.
+
+The conclusion must relate to the original hypothesis.
+
+The hypothesis may be supported or not supported by the results.
+
+Scientific conclusions should be based on evidence rather than personal opinions.
+
+K. PREPARING AN EXPERIMENTAL REPORT
+
+An experimental report communicates the investigation and its findings.
+
+A report generally includes:
+- Title.
+- Aim.
+- Problem statement.
+- Hypothesis.
+- Variables.
+- Apparatus and materials.
+- Procedure.
+- Results.
+- Discussion.
+- Conclusion.
+- Safety precautions.
+
+1.2.2 INVESTIGATION OF THE EFFECT OF TEMPERATURE ON THE
+SOLUBILITY OF SALT IN WATER
+
+A. MEANING OF SOLUBILITY
+
+Solubility is the maximum amount of solute that can dissolve in a given amount of solvent at a specified temperature to form a saturated solution.
+
+Important terms:
+
+SOLUTE:
+The substance that dissolves.
+
+SOLVENT:
+The substance that dissolves the solute.
+
+SOLUTION:
+A homogeneous mixture formed when a solute dissolves in a solvent.
+
+SATURATED SOLUTION:
+A solution that contains the maximum amount of dissolved solute at a specified temperature in equilibrium with undissolved solute, if present.
+
+UNSATURATED SOLUTION:
+A solution that contains less dissolved solute than the maximum amount possible at a specified temperature.
+
+SUPERSATURATED SOLUTION:
+A solution containing more dissolved solute than is normally present in a saturated solution at the same temperature. It is unstable and may crystallise when disturbed or seeded.
+
+B. EFFECT OF TEMPERATURE ON SOLUBILITY
+
+The solubility of many solid salts in water changes when temperature changes.
+
+For many solid salts, solubility increases as temperature increases.
+
+However, the extent of the change depends on the identity of the salt.
+
+Some salts show only a small change in solubility when temperature increases.
+
+Therefore, students must not assume that all salts behave identically.
+
+C. DIFFERENCE BETWEEN SOLUBILITY AND RATE OF DISSOLVING
+
+Solubility and rate of dissolving are different concepts.
+
+SOLUBILITY:
+The maximum amount of solute that can dissolve in a specified amount of solvent at a particular temperature.
+
+RATE OF DISSOLVING:
+How quickly a solute dissolves in a solvent.
+
+Increasing temperature can increase the rate of dissolving because particles move faster and interact more frequently.
+
+However, this does not mean that solubility and rate of dissolving are the same.
+
+The experiment in this learning standard investigates the effect of temperature on solubility, not merely how quickly a solid disappears.
+
+D. DESIGNING THE INVESTIGATION
+
+Aim:
+To investigate the effect of temperature on the solubility of salt in water.
+
+Problem statement:
+Does the temperature of water affect the solubility of salt in water?
+
+Hypothesis:
+The higher the temperature of water, the greater the solubility of a salt whose solubility increases with temperature.
+
+Manipulated variable:
+Temperature of water.
+
+Responding variable:
+Maximum mass of salt that dissolves in a fixed mass or volume of water at the specified temperature.
+
+Fixed variables:
+- Type of salt.
+- Mass or volume of water.
+- Purity of salt.
+- Experimental pressure.
+- Method used to determine saturation.
+
+Apparatus:
+- Beakers.
+- Thermometer.
+- Electronic balance.
+- Measuring cylinder or suitable measuring apparatus.
+- Glass stirring rod.
+- Suitable water bath or heating apparatus.
+- Suitable container for the solution.
+
+Materials:
+- Water.
+- A specified salt.
+
+E. SCIENTIFIC PRINCIPLE
+
+When a solid salt is added to water, its particles separate from the solid and become distributed throughout the water.
+
+The dissolved particles interact with water molecules.
+
+As more salt is added, the amount dissolved increases until the solution reaches saturation at that temperature.
+
+At saturation, the solution cannot dissolve additional amounts of that salt under the same conditions.
+
+If the temperature changes, the maximum amount of salt that can dissolve may also change.
+
+F. DATA COLLECTION
+
+The investigator should record:
+- Temperature of the water.
+- Mass of water used.
+- Mass of salt added.
+- Maximum amount of salt dissolved.
+
+A suitable table:
+
+Temperature of water (°C) | Mass of water (g) | Mass of dissolved salt (g)
+
+The results should be organised systematically.
+
+If solubility is expressed as grams of solute per 100 g of water, the calculation is:
+
+Solubility =
+(Mass of dissolved solute / Mass of water) x 100
+
+Unit:
+g per 100 g of water.
+
+Example:
+
+Suppose 20 g of a salt dissolves in 50 g of water at a specified temperature.
+
+Solubility =
+(20 / 50) x 100
+
+Solubility = 40 g per 100 g of water.
+
+This is an illustrative calculation, not an official experimental result.
+
+G. INTERPRETING RESULTS
+
+Compare the solubility values obtained at different temperatures.
+
+If the calculated solubility increases as temperature increases, the results indicate that the solubility of the selected salt increases with temperature.
+
+The conclusion must be based on the actual experimental results.
+
+H. SOURCES OF ERROR
+
+Possible sources of experimental error:
+- Incorrect temperature readings.
+- Inaccurate mass measurements.
+- Failure to reach saturation.
+- Loss of solution during transfer.
+- Evaporation of water.
+- Inconsistent stirring.
+- Failure to maintain the required temperature.
+
+IMPROVEMENTS:
+- Use suitable calibrated apparatus.
+- Maintain a constant temperature.
+- Measure mass carefully.
+- Repeat the investigation.
+- Prevent unnecessary evaporation.
+- Use the same experimental procedure for every temperature.
+
+I. SCIENTIFIC SAFETY
+
+- Wear safety goggles when required.
+- Handle heated water carefully.
+- Use appropriate holders for hot apparatus.
+- Avoid direct contact with hot surfaces.
+- Follow the teacher's instructions.
+- Keep the working area dry and organised.
+
+============================================================
+TOPIC 1.3: USAGE, MANAGEMENT AND HANDLING OF APPARATUS
+AND MATERIALS
+============================================================
+
+1.3.1 TYPES AND FUNCTIONS OF PERSONAL PROTECTIVE
+EQUIPMENT AND SAFETY IN THE LABORATORY
+
+A. IMPORTANCE OF LABORATORY SAFETY
+
+A chemistry laboratory contains apparatus and substances that may cause injury if handled incorrectly.
+
+Laboratory safety procedures are designed to:
+- Prevent accidents.
+- Reduce exposure to hazardous chemicals.
+- Protect students and laboratory personnel.
+- Prevent contamination.
+- Protect laboratory equipment.
+- Ensure experiments are carried out responsibly.
+
+B. PERSONAL PROTECTIVE EQUIPMENT
+
+1. SAFETY GOGGLES
+
+Function:
+Protect the eyes from chemical splashes and particles.
+
+Importance:
+The eyes are sensitive to chemical exposure. Safety goggles provide a protective barrier.
+
+2. LABORATORY COAT
+
+Function:
+Protects clothing and reduces contact between the body and laboratory substances.
+
+Importance:
+It provides an additional protective layer during experiments.
+
+3. PROTECTIVE GLOVES
+
+Function:
+Reduce direct contact between the hands and suitable chemicals.
+
+Importance:
+Gloves help reduce skin exposure.
+
+Important:
+Different glove materials provide different levels of chemical protection. The correct type must be selected for the chemical being handled.
+
+4. CLOSED SHOES
+
+Function:
+Protect the feet from chemical spills and broken glass.
+
+Importance:
+Open footwear exposes the feet to unnecessary laboratory hazards.
+
+5. FACE MASK
+
+Function:
+Provides protection against certain airborne particles when suitable for the hazard.
+
+Important:
+An ordinary face mask does not protect against every chemical vapour or gas.
+
+C. LABORATORY SAFETY EQUIPMENT
+
+1. EYEWASH STATION
+
+Function:
+Used to rinse the eyes immediately after exposure to chemicals or other harmful substances.
+
+2. SAFETY SHOWER
+
+Function:
+Used to rinse chemicals from the body during an emergency involving significant chemical exposure.
+
+3. FUME CHAMBER
+
+Function:
+Removes or contains hazardous vapours and fumes generated during certain experiments.
+
+Importance:
+Reduces the exposure of laboratory users to harmful airborne substances.
+
+4. FIRE EXTINGUISHER
+
+Function:
+Used to control certain types of fire when appropriate and by trained personnel.
+
+Different extinguishers are designed for different types of fires.
+
+5. HANDWASHING FACILITY
+
+Function:
+Allows students to wash their hands after laboratory work.
+
+6. FIRE BLANKET
+
+Function:
+A safety device designed for certain small fire emergencies, according to the laboratory emergency procedure.
+
+7. FIRST-AID KIT
+
+Function:
+Contains basic first-aid materials for initial response to minor injuries while appropriate assistance is arranged.
+
+1.3.2 METHODS OF MANAGING AND HANDLING APPARATUS
+AND MATERIALS
+
+A. GENERAL RULES FOR HANDLING APPARATUS
+
+1. Inspect apparatus before use.
+2. Do not use cracked or damaged glassware.
+3. Select apparatus suitable for the experiment.
+4. Handle apparatus carefully.
+5. Keep apparatus clean.
+6. Do not use apparatus for purposes for which it is not designed.
+7. Return apparatus to its proper storage location after use.
+8. Report damaged apparatus to the teacher.
+
+B. HANDLING CHEMICAL SUBSTANCES
+
+1. Read chemical labels before use.
+2. Identify the chemical and its hazards.
+3. Use the quantity specified by the teacher.
+4. Never taste chemicals.
+5. Never smell chemicals directly.
+6. Avoid direct contact with chemicals.
+7. Keep containers properly labelled.
+8. Close containers after use.
+9. Do not return unused chemicals to the original container unless specifically instructed.
+10. Follow instructions for chemical storage and disposal.
+
+C. HANDLING APPARATUS IN COMMON CHEMISTRY PROCEDURES
+
+1. DISTILLATION
+
+Distillation is a separation technique used to separate substances based on differences in volatility and boiling points.
+
+Basic apparatus:
+- Distillation flask.
+- Thermometer.
+- Condenser.
+- Receiving flask.
+- Suitable heating apparatus.
+
+Principle:
+
+A liquid is heated to form vapour.
+
+The vapour passes through a condenser, where it loses heat and changes back into liquid.
+
+The collected liquid is called the distillate.
+
+Important handling principles:
+- Use suitable heat-resistant apparatus.
+- Ensure glassware is properly supported.
+- Check that connections are secure.
+- Use cooling water in the condenser as instructed.
+- Never heat a completely sealed distillation system.
+- Follow teacher supervision.
+
+2. TITRATION
+
+Titration is a quantitative analytical technique used to determine the concentration of a solution by reacting it with a solution of known concentration.
+
+Common apparatus:
+- Burette.
+- Volumetric pipette.
+- Conical flask.
+- Retort stand and clamp.
+
+Important handling principles:
+
+Burette:
+- Must be clean.
+- Must be rinsed appropriately with the solution it will contain.
+- Must be checked for air bubbles in the tip.
+- Initial and final readings must be recorded.
+
+Volumetric pipette:
+- Used to transfer a fixed volume accurately.
+- Must be handled carefully.
+- A suitable pipette filler must be used.
+- Never pipette by mouth.
+
+Conical flask:
+- Holds the measured sample during titration.
+- Can be swirled carefully to mix the reactants.
+
+3. FILTRATION
+
+Filtration is a separation method used to separate an insoluble solid from a liquid.
+
+Apparatus:
+- Filter funnel.
+- Filter paper.
+- Beaker or conical flask.
+
+Principle:
+
+The mixture passes through filter paper.
+
+The liquid that passes through is called the filtrate.
+
+The insoluble solid retained on the filter paper is called the residue.
+
+Important handling principles:
+- Fold filter paper correctly.
+- Place it properly inside the funnel.
+- Avoid overfilling the filter paper.
+- Support the funnel securely.
+
+4. COLLECTION OF GASES
+
+Gases can be collected using suitable methods depending on their properties.
+
+Common methods include:
+- Collection over water.
+- Upward delivery.
+- Downward delivery.
+
+The selected method depends on:
+- Solubility of the gas in water.
+- Density of the gas compared with air.
+- Whether the gas reacts with water.
+
+A gas that is highly soluble in water should not normally be collected over water.
+
+The apparatus must be arranged correctly to avoid gas leakage.
+
+5. TESTING OF GASES
+
+Gas tests help identify gases through characteristic observations.
+
+Common examples:
+
+OXYGEN:
+A glowing wooden splint relights in oxygen.
+
+HYDROGEN:
+A lighted splint produces a characteristic 'pop' sound when hydrogen is tested under appropriate laboratory conditions.
+
+CARBON DIOXIDE:
+Carbon dioxide turns limewater milky due to the formation of calcium carbonate.
+
+AMMONIA:
+Ammonia turns moist red litmus paper blue.
+
+CHLORINE:
+Chlorine bleaches moist litmus paper after initially turning it red.
+
+Gas testing must be conducted under teacher supervision and using appropriate safety precautions.
+
+6. ELECTROLYSIS
+
+Electrolysis is a chemical process in which electrical energy is used to drive a chemical reaction.
+
+Apparatus may include:
+- Electrolytic cell.
+- Electrodes.
+- Direct-current power supply.
+- Connecting wires.
+
+Important handling principles:
+- Ensure the power supply is switched off before adjusting connections.
+- Use suitable electrodes.
+- Avoid touching exposed electrical connections.
+- Follow the teacher's instructions.
+
+7. HEATING OF SOLIDS
+
+Heating is used to investigate thermal decomposition and other chemical changes.
+
+Important handling principles:
+- Use suitable heat-resistant apparatus.
+- Support the apparatus securely.
+- Keep the opening of a heated test tube pointed away from people.
+- Use appropriate holders.
+- Allow apparatus to cool safely.
+- Never touch hot glassware directly.
+
+8. WEIGHING OF SOLIDS
+
+An electronic balance is used to measure the mass of substances.
+
+Important handling principles:
+- Place the balance on a stable surface.
+- Ensure the balance reads zero before measurement.
+- Use a suitable weighing container.
+- Avoid placing chemicals directly on the balance pan.
+- Do not exceed the balance capacity.
+- Record the reading with the correct unit.
+
+D. STORAGE OF CHEMICAL SUBSTANCES
+
+Chemicals must be stored according to their physical and chemical properties.
+
+Important storage principles:
+
+1. Keep chemical containers properly labelled.
+2. Store chemicals in suitable containers.
+3. Keep incompatible chemicals separated.
+4. Store volatile substances in appropriate ventilated storage.
+5. Keep flammable substances away from ignition sources.
+6. Protect chemicals from unsuitable heat, light or moisture.
+7. Follow the manufacturer's storage instructions.
+8. Keep chemical storage areas secure and organised.
+
+Examples of chemical properties requiring special storage considerations:
+
+CORROSIVE SUBSTANCES:
+May damage skin, eyes and materials.
+
+FLAMMABLE SUBSTANCES:
+Can ignite when exposed to an ignition source.
+
+OXIDISING SUBSTANCES:
+May intensify combustion.
+
+TOXIC SUBSTANCES:
+Can cause harmful effects through exposure.
+
+VOLATILE SUBSTANCES:
+Evaporate easily and may release vapours.
+
+REACTIVE SUBSTANCES:
+May react dangerously with incompatible materials.
+
+E. MANAGEMENT AND DISPOSAL OF CHEMICAL WASTE
+
+Chemical waste must not automatically be poured into a sink or mixed with other waste.
+
+The correct disposal method depends on the chemical's identity and properties.
+
+The KSSM curriculum highlights the management and disposal of:
+
+1. Chemicals.
+2. Glass.
+3. Rubber.
+4. Chemicals with pH below 5.
+5. Chemicals with pH above 9.
+6. Organic solvents.
+7. Hydrocarbons such as grease, oil and oil paint.
+8. Hydrogen peroxide.
+9. Toxic materials.
+10. Heavy metals.
+11. Volatile substances.
+12. Reactive substances.
+
+IMPORTANT WASTE MANAGEMENT PRINCIPLES:
+
+A. Chemicals with pH below 5
+
+These substances are acidic.
+
+They may cause corrosion or other hazards depending on their concentration and chemical identity.
+
+They should be collected and disposed of according to laboratory waste instructions.
+
+B. Chemicals with pH above 9
+
+These substances are alkaline.
+
+Strongly alkaline substances may cause serious chemical burns.
+
+They must be managed according to laboratory waste procedures.
+
+C. Organic Solvents
+
+Organic solvents are carbon-containing liquids used to dissolve other substances.
+
+Some organic solvents are volatile and flammable.
+
+They should be stored in suitable containers and disposed of through the appropriate chemical-waste system.
+
+D. Hydrocarbons
+
+Examples:
+- Grease.
+- Oil.
+- Oil paint.
+
+These substances should not be poured into drains because they may cause environmental contamination and drainage problems.
+
+E. Hydrogen Peroxide
+
+Chemical formula: H2O2.
+
+Hydrogen peroxide is an oxidising substance.
+
+Its concentration affects its hazards and storage requirements.
+
+F. Toxic Materials
+
+Toxic substances may cause harmful effects if inhaled, swallowed or absorbed through the skin.
+
+They require controlled handling and disposal.
+
+G. Heavy Metals
+
+Heavy metals may contaminate water and soil.
+
+Some heavy-metal compounds can remain in the environment and accumulate in living organisms.
+
+They must be collected through appropriate hazardous-waste procedures.
+
+H. Volatile Substances
+
+Volatile substances evaporate easily.
+
+They may release vapours that require suitable ventilation and storage.
+
+I. Reactive Substances
+
+Reactive substances may undergo chemical reactions with water, air or other chemicals.
+
+They must be stored separately from incompatible materials.
+
+F. STORAGE AND DISPOSAL OF BROKEN GLASS AND RUBBER
+
+Broken glass:
+- Must not be handled with bare hands.
+- Must be collected using suitable tools by authorised personnel.
+- Must be placed in a designated glass-waste container.
+
+Rubber waste:
+- Must be separated according to the laboratory's waste-management system.
+- Must not be burned or disposed of in an uncontrolled manner.
+
+1.3.3 EMERGENCY MANAGEMENT PROCEDURES IN THE
+LABORATORY
+
+A. GENERAL RESPONSE TO LABORATORY ACCIDENTS
+
+When an accident occurs:
+
+1. Stop the experiment if it is safe to do so.
+2. Alert the teacher immediately.
+3. Warn nearby students.
+4. Keep away from the hazardous area.
+5. Follow the laboratory emergency procedure.
+6. Obtain appropriate first aid or emergency assistance.
+7. Do not attempt to handle an unknown chemical hazard independently.
+
+B. CHEMICAL SPILLAGE
+
+Chemical spillage occurs when a chemical substance is accidentally released onto a surface, apparatus or the floor.
+
+The correct response depends on the identity, quantity and hazards of the spilled chemical.
+
+General response:
+
+1. Inform the teacher immediately.
+2. Keep students away from the affected area.
+3. Avoid touching the chemical.
+4. Do not attempt to clean an unknown or hazardous spill.
+5. Follow the chemical safety instructions.
+6. Allow trained personnel to manage the spill using suitable equipment.
+7. Dispose of contaminated materials through the correct waste-management system.
+
+IMPORTANT:
+
+Different chemical spills require different procedures.
+
+A small harmless water spill is not the same as a corrosive chemical spill or a toxic chemical spill.
+
+Never assume that every chemical can be cleaned using water.
+
+C. CHEMICAL CONTACT WITH SKIN
+
+If a chemical comes into contact with the skin:
+
+1. Inform the teacher immediately.
+2. Use the safety shower or running water as appropriate.
+3. Rinse the affected area thoroughly.
+4. Remove contaminated clothing or accessories when safe.
+5. Obtain medical attention according to the chemical's safety instructions.
+
+Do not attempt to neutralise a chemical on the skin using another chemical.
+
+D. CHEMICAL CONTACT WITH EYES
+
+If a chemical enters the eyes:
+
+1. Alert the teacher immediately.
+2. Use the eyewash station.
+3. Rinse the eyes continuously with clean running water.
+4. Hold the eyelids open during rinsing.
+5. Continue rinsing for at least 15 minutes or longer if the chemical safety instructions require it.
+6. Obtain urgent medical assessment.
+
+Do not rub the eyes.
+
+E. FIRE IN THE LABORATORY
+
+If a fire occurs:
+
+1. Alert the teacher immediately.
+2. Stop the experiment if it is safe to do so.
+3. Follow the laboratory fire emergency procedure.
+4. Evacuate when instructed.
+5. Do not attempt to fight a fire unless trained and specifically directed by authorised personnel.
+
+F. BURNS
+
+Burns may occur due to hot apparatus, flames or hot substances.
+
+General response:
+- Inform the teacher immediately.
+- Cool a thermal burn under cool running water for 20 minutes where appropriate.
+- Do not apply ice.
+- Do not apply creams or household substances.
+- Obtain medical assistance when necessary.
+
+Chemical burns require immediate appropriate chemical-exposure first aid and medical assessment.
+
+G. BROKEN GLASS
+
+If glassware breaks:
+
+1. Inform the teacher.
+2. Keep away from broken pieces.
+3. Do not pick up glass with bare hands.
+4. Allow authorised personnel to clean the area.
+5. Dispose of the glass in a designated container.
+
+H. INHALATION OF HARMFUL VAPOURS
+
+If someone experiences symptoms after inhaling harmful vapours:
+
+1. Alert the teacher immediately.
+2. Move away from the contaminated area to fresh air if safe.
+3. Do not enter a contaminated area to rescue another person.
+4. Obtain emergency assistance.
+
+I. MERCURY POISONING
+
+Mercury is a chemical element with the symbol Hg.
+
+Mercury is a toxic heavy metal.
+
+Exposure to mercury can cause mercury poisoning.
+
+Mercury may exist in different chemical forms, and the toxicity and effects depend on the form, amount and route of exposure.
+
+Elemental mercury can release vapour at room temperature.
+
+Inhaling mercury vapour is a significant exposure concern.
+
+SOURCES OF MERCURY EXPOSURE
+
+Examples:
+- Accidental release from certain mercury-containing equipment.
+- Exposure to mercury-contaminated environments.
+- Exposure to certain mercury-containing compounds.
+
+SYMPTOMS OF MERCURY EXPOSURE
+
+Possible effects depend on the type and amount of exposure.
+
+They may include:
+- Headache.
+- Nausea.
+- Tremors.
+- Irritability.
+- Memory difficulties.
+- Kidney damage.
+- Nervous-system effects.
+
+Severe exposure may cause serious health complications.
+
+EMERGENCY RESPONSE TO A MERCURY SPILL
+
+1. Inform the teacher or laboratory supervisor immediately.
+2. Keep students away from the affected area.
+3. Do not touch the mercury.
+4. Do not sweep or vacuum the mercury.
+5. Do not attempt to collect it yourself.
+6. Prevent further access to the contaminated area.
+7. Allow trained personnel to manage the spill using the correct mercury-spill procedure.
+8. Obtain medical or poison-control advice if exposure is suspected.
+
+WHY MUST MERCURY NOT BE VACUUMED?
+
+Vacuuming mercury can increase the spread of mercury contamination and release more mercury vapour into the air.
+
+WHY MUST MERCURY NOT BE HANDLED WITH BARE HANDS?
+
+Direct contact may cause contamination and exposure.
+
+TREATMENT OF MERCURY POISONING
+
+Treatment depends on:
+- Type of mercury.
+- Route of exposure.
+- Amount of exposure.
+- Symptoms.
+- Medical assessment.
+
+A person suspected of mercury poisoning requires professional medical evaluation.
+
+Healthcare professionals may use appropriate treatment and, in selected cases, specific medicines to reduce the body's mercury burden.
+
+Chelation therapy is a medical treatment that uses certain medicines to bind specific toxic metals so they can be eliminated from the body.
+
+It must only be prescribed and supervised by qualified healthcare professionals.
+
+Students must never attempt to treat mercury poisoning themselves.
+
+============================================================
+SECTION 3: IMPORTANT COMPARISONS AND CONCEPTUAL
+RELATIONSHIPS
+============================================================
+
+1. PHYSICAL CHANGE VS CHEMICAL CHANGE
+
+Physical change:
+- No new substance is formed.
+- Usually involves changes in state, shape or size.
+- Example: melting ice.
+
+Chemical change:
+- One or more new substances are formed.
+- Chemical composition changes.
+- Example: rusting iron.
+
+2. QUALITATIVE DATA VS QUANTITATIVE DATA
+
+Qualitative:
+- Descriptive observations.
+- Not expressed as numerical measurements.
+- Example: solution changes colour.
+
+Quantitative:
+- Numerical measurements.
+- Uses suitable units.
+- Example: temperature increases from 25 °C to 40 °C.
+
+3. MANIPULATED VS RESPONDING VS FIXED VARIABLES
+
+Manipulated:
+- Deliberately changed.
+
+Responding:
+- Measured or observed.
+
+Fixed:
+- Kept unchanged.
+
+4. SOLUBILITY VS RATE OF DISSOLVING
+
+Solubility:
+- Maximum amount of solute that dissolves at a specified temperature.
+
+Rate of dissolving:
+- Speed at which the solute dissolves.
+
+5. FILTRATE VS RESIDUE
+
+Filtrate:
+- Liquid that passes through filter paper.
+
+Residue:
+- Solid retained by filter paper.
+
+6. PERSONAL PROTECTIVE EQUIPMENT VS LABORATORY
+SAFETY EQUIPMENT
+
+Personal protective equipment is worn by the user to reduce exposure to hazards.
+
+Examples:
+- Safety goggles.
+- Laboratory coat.
+- Protective gloves.
+
+Laboratory safety equipment is installed or provided to support emergency response and safe laboratory operation.
+
+Examples:
+- Eyewash station.
+- Safety shower.
+- Fume chamber.
+- Fire extinguisher.
+
+============================================================
+SECTION 4: CHEMICAL SYMBOLS, FORMULAE AND SCIENTIFIC
+NOTATION
+============================================================
+
+Students must understand the following symbols and formulae.
+
+ELEMENT SYMBOLS:
+
+H = Hydrogen
+O = Oxygen
+C = Carbon
+N = Nitrogen
+Na = Sodium
+Cl = Chlorine
+Ca = Calcium
+Mg = Magnesium
+K = Potassium
+S = Sulfur
+Hg = Mercury
+
+CHEMICAL FORMULAE:
+
+Water = H2O
+Oxygen gas = O2
+Hydrogen gas = H2
+Carbon dioxide = CO2
+Sodium chloride = NaCl
+Glucose = C6H12O6
+Sucrose = C12H22O11
+Hydrochloric acid = HCl
+Sulfuric acid = H2SO4
+Nitric acid = HNO3
+Calcium carbonate = CaCO3
+Magnesium hydroxide = Mg(OH)2
+Hydrogen peroxide = H2O2
+
+IMPORTANT SYMBOLS:
+
+°C = degree Celsius
+g = gram
+cm3 = cubic centimetre
+s = second
+nm = nanometre
+pH = measure related to acidity or alkalinity
+
+IMPORTANT MATHEMATICAL EXPRESSION:
+
+Solubility in grams per 100 grams of water:
+
+Solubility =
+(Mass of solute dissolved / Mass of water) x 100
+
+Always include the unit:
+
+g per 100 g of water.
+
+CHEMICAL EQUATIONS:
+
+Magnesium hydroxide + hydrochloric acid:
+
+Mg(OH)2 + 2HCl -> MgCl2 + 2H2O
+
+Calcium carbonate + hydrochloric acid:
+
+CaCO3 + 2HCl -> CaCl2 + H2O + CO2
+
+These equations are balanced.
+
+The arrow -> means produces or forms.
+
+The number written before a formula is called a coefficient.
+
+The small number written after an element symbol is called a subscript.
+
+Never change a chemical formula merely to balance an equation. Only coefficients may be changed when balancing an equation.
+
+============================================================
+SECTION 5: EXAMINATION TIPS, COMMON MISTAKES AND
+SPM-STYLE ANSWER TECHNIQUES
+============================================================
+
+A. IMPORTANT EXAMINATION TIPS
+
+1. When asked to STATE, provide the required fact directly.
+
+2. When asked to DEFINE, provide a precise scientific meaning.
+
+3. When asked to EXPLAIN, provide a statement followed by a scientific reason.
+
+4. When asked to COMPARE, provide similarities or differences using clear criteria.
+
+5. When asked to JUSTIFY, provide a decision and support it with scientific reasons.
+
+6. When asked to DESIGN AN EXPERIMENT, include:
+   - Aim.
+   - Problem statement.
+   - Hypothesis.
+   - Variables.
+   - Apparatus and materials.
+   - Procedure.
+   - Data collection.
+   - Conclusion.
+
+7. When asked to IDENTIFY VARIABLES, do not confuse manipulated and responding variables.
+
+8. When asked about laboratory accidents, state the correct emergency equipment and procedure.
+
+B. COMMON STUDENT MISTAKES
+
+Mistake 1:
+Thinking that all chemicals are dangerous.
+
+Correction:
+All matter consists of chemical substances. Their hazards depend on their properties and exposure conditions.
+
+Mistake 2:
+Confusing physical and chemical changes.
+
+Correction:
+A physical change does not produce a new substance, while a chemical change produces new substances.
+
+Mistake 3:
+Confusing solubility with dissolving rate.
+
+Correction:
+Solubility is the maximum amount that can dissolve. Rate of dissolving describes how quickly dissolving occurs.
+
+Mistake 4:
+Changing multiple variables during an experiment.
+
+Correction:
+Change the manipulated variable and maintain relevant fixed variables.
+
+Mistake 5:
+Assuming every salt has the same solubility-temperature relationship.
+
+Correction:
+Different salts have different solubility curves.
+
+Mistake 6:
+Assuming every chemical spill can be cleaned with water.
+
+Correction:
+The response depends on the chemical's identity and hazards.
+
+Mistake 7:
+Vacuuming mercury.
+
+Correction:
+Vacuuming can spread contamination and increase mercury vapour exposure.
+
+Mistake 8:
+Using incorrect chemical formulae.
+
+Correction:
+Check element symbols, subscripts, brackets and chemical charges where relevant.
+
+C. MARK-AWARE ANSWERING
+
+For a 2-mark question:
+Provide two separate relevant scientific points.
+
+For a 3-mark explanation:
+Provide a scientific statement, explanation and relevant consequence or example.
+
+For a 4-mark experiment question:
+Cover the aim, hypothesis, variables and a suitable procedure or measurement method, according to the question.
+
+For a 6-mark experiment question:
+Provide a complete investigation plan with sufficient detail for the required marks.
+
+Never add irrelevant information just to make an answer longer.
+
+============================================================
+SECTION 6: SPM-STYLE PRACTICE QUESTIONS WITH SUGGESTED
+ANSWERS
+============================================================
+
+QUESTION 1 (2 MARKS)
+
+Define chemistry.
+
+SUGGESTED ANSWER:
+
+Chemistry is a branch of science that studies the composition, properties and changes of matter.
+
+QUESTION 2 (3 MARKS)
+
+State three examples of chemical substances commonly used in daily life.
+
+SUGGESTED ANSWER:
+
+1. Sodium chloride, used in food preparation.
+2. Magnesium hydroxide, used in antacids.
+3. Ammonium nitrate, used in fertilisers.
+
+QUESTION 3 (3 MARKS)
+
+Explain three contributions of chemistry to human life.
+
+SUGGESTED ANSWER:
+
+1. Chemistry contributes to healthcare through the development and production of medicines.
+2. Chemistry improves agriculture through the development of fertilisers.
+3. Chemistry supports industry through the production of useful materials such as polymers and glass.
+
+QUESTION 4 (2 MARKS)
+
+What is biotechnology?
+
+SUGGESTED ANSWER:
+
+Biotechnology is the application of biological organisms, cells, systems or processes to develop useful products and technologies.
+
+QUESTION 5 (3 MARKS)
+
+State three applications of biotechnology.
+
+SUGGESTED ANSWER:
+
+1. Production of certain vaccines and therapeutic proteins.
+2. Plant tissue culture in agriculture.
+3. Fermentation in food production.
+
+QUESTION 6 (2 MARKS)
+
+Differentiate between a manipulated variable and a responding variable.
+
+SUGGESTED ANSWER:
+
+A manipulated variable is the factor deliberately changed during an experiment.
+
+A responding variable is the factor measured or observed to determine the effect of the manipulated variable.
+
+QUESTION 7 (3 MARKS)
+
+An experiment investigates the effect of temperature on the solubility of salt in water.
+
+Identify:
+(a) Manipulated variable.
+(b) Responding variable.
+(c) One fixed variable.
+
+SUGGESTED ANSWER:
+
+(a) Temperature of water.
+
+(b) Maximum mass of salt dissolved in a fixed amount of water.
+
+(c) Mass of water used.
+
+QUESTION 8 (2 MARKS)
+
+Differentiate between solubility and rate of dissolving.
+
+SUGGESTED ANSWER:
+
+Solubility is the maximum amount of solute that dissolves in a given amount of solvent at a specified temperature.
+
+Rate of dissolving is the speed at which a solute dissolves in a solvent.
+
+QUESTION 9 (3 MARKS)
+
+Why must fixed variables be controlled during an experiment?
+
+SUGGESTED ANSWER:
+
+Fixed variables must be controlled to ensure a fair test.
+
+This prevents other factors from affecting the responding variable.
+
+Therefore, the effect of the manipulated variable can be investigated more reliably.
+
+QUESTION 10 (2 MARKS)
+
+State two functions of safety goggles.
+
+SUGGESTED ANSWER:
+
+1. Protect the eyes from chemical splashes.
+2. Protect the eyes from particles and other laboratory hazards.
+
+QUESTION 11 (3 MARKS)
+
+Explain the function of a fume chamber.
+
+SUGGESTED ANSWER:
+
+A fume chamber removes or contains hazardous fumes and vapours.
+
+It reduces the exposure of laboratory users to harmful airborne substances.
+
+QUESTION 12 (3 MARKS)
+
+State the difference between filtrate and residue.
+
+SUGGESTED ANSWER:
+
+Filtrate is the liquid that passes through the filter paper.
+
+Residue is the insoluble solid retained by the filter paper.
+
+QUESTION 13 (3 MARKS)
+
+State three laboratory safety rules.
+
+SUGGESTED ANSWER:
+
+1. Wear suitable personal protective equipment.
+2. Never taste laboratory chemicals.
+3. Report accidents immediately to the teacher.
+
+QUESTION 14 (3 MARKS)
+
+Why must mercury not be vacuumed when a mercury spill occurs?
+
+SUGGESTED ANSWER:
+
+Vacuuming can spread mercury contamination.
+
+It can also increase the release of mercury vapour into the air.
+
+This increases the risk of exposure and mercury poisoning.
+
+QUESTION 15 (4 MARKS)
+
+Explain how chemistry contributes to environmental protection.
+
+SUGGESTED ANSWER:
+
+1. Chemistry helps analyse water pollutants.
+2. Chemical processes are used in wastewater treatment.
+3. Chemistry helps monitor air pollution.
+4. Green chemistry develops processes that reduce hazardous waste.
+
+QUESTION 16 (4 MARKS)
+
+A student measures the mass of salt that dissolves in 100 g of water at different temperatures.
+
+Explain why the mass of dissolved salt must be measured carefully.
+
+SUGGESTED ANSWER:
+
+Accurate mass measurements are needed to determine the amount of salt dissolved.
+
+The measurements allow the solubility to be calculated correctly.
+
+Inaccurate measurements may produce incorrect results.
+
+This affects the reliability of the conclusion.
+
+QUESTION 17 (6 MARKS)
+
+Design an experiment to investigate the effect of temperature on the solubility of a salt in water.
+
+SUGGESTED ANSWER:
+
+Aim:
+To investigate the effect of temperature on the solubility of a salt in water.
+
+Hypothesis:
+The higher the temperature, the greater the solubility of a selected salt whose solubility increases with temperature.
+
+Manipulated variable:
+Temperature of water.
+
+Responding variable:
+Maximum mass of salt dissolved in a fixed mass of water.
+
+Fixed variables:
+Type of salt and mass of water.
+
+Procedure:
+1. Measure a fixed mass of water into a suitable container.
+2. Adjust the water to the selected temperature.
+3. Add the selected salt gradually while stirring.
+4. Continue until the saturation condition is reached.
+5. Record the maximum mass of dissolved salt.
+6. Repeat the investigation at different temperatures using the same method.
+
+Conclusion:
+Compare the solubility values obtained at different temperatures and determine the relationship between temperature and solubility.
+
+============================================================
+SECTION 7: FINAL REVISION SUMMARY, KEY TERMS AND MEMORY
+MAP
+============================================================
+
+A. CHAPTER 1 FINAL REVISION SUMMARY
+
+TOPIC 1.1:
+Development in Chemistry and Its Importance in Daily Life
+
+Chemistry:
+Study of the composition, properties and changes of matter.
+
+Common chemicals:
+- Food.
+- Medicine.
+- Agriculture.
+- Industry.
+
+Development of chemistry:
+- Biotechnology.
+- Nanotechnology.
+- Green technology.
+- Chemical manufacturing.
+
+Careers:
+- Chemist.
+- Pharmacist.
+- Pharmacologist.
+- Chemical engineer.
+- Forensic scientist.
+- Food technologist.
+- Environmental scientist.
+- Cosmetic scientist.
+- Materials scientist.
+- Laboratory technologist.
+
+TOPIC 1.2:
+Scientific Investigation in Chemistry
+
+Important steps:
+1. Observation.
+2. Inference.
+3. Identify the problem.
+4. Form a hypothesis.
+5. Identify variables.
+6. Control variables.
+7. Plan an experiment.
+8. Collect data.
+9. Interpret data.
+10. Make a conclusion.
+11. Prepare a report.
+
+Main experiment:
+Investigate the effect of temperature on the solubility of salt in water.
+
+TOPIC 1.3:
+Usage, Management and Handling of Apparatus and Materials
+
+Personal protective equipment:
+- Safety goggles.
+- Laboratory coat.
+- Gloves.
+- Closed shoes.
+- Face mask when suitable.
+
+Laboratory safety equipment:
+- Eyewash station.
+- Safety shower.
+- Fume chamber.
+- Fire extinguisher.
+- Handwashing facility.
+- First-aid kit.
+
+Apparatus handling:
+- Distillation.
+- Titration.
+- Filtration.
+- Gas collection.
+- Gas testing.
+- Electrolysis.
+- Heating solids.
+- Weighing solids.
+
+Chemical management:
+- Correct storage.
+- Correct labelling.
+- Waste separation.
+- Safe disposal.
+
+Emergency management:
+- Chemical spillage.
+- Skin exposure.
+- Eye exposure.
+- Fire.
+- Burns.
+- Broken glass.
+- Harmful vapour inhalation.
+- Mercury poisoning.
+
+B. KEY SCIENTIFIC TERMS
+
+Chemistry:
+Study of composition, properties and changes of matter.
+
+Matter:
+Anything that has mass and occupies space.
+
+Biotechnology:
+Application of biological systems and processes to develop useful products and technologies.
+
+Nanotechnology:
+Study and application of materials and structures at the nanoscale.
+
+Green technology:
+Technology developed or applied to reduce environmental impact.
+
+Scientific investigation:
+Systematic process of investigating scientific problems.
+
+Hypothesis:
+A testable statement predicting the relationship between variables.
+
+Manipulated variable:
+Factor deliberately changed.
+
+Responding variable:
+Factor measured or observed.
+
+Fixed variable:
+Factor kept unchanged.
+
+Solubility:
+Maximum amount of solute that dissolves in a specified amount of solvent at a specified temperature.
+
+Solute:
+Substance that dissolves.
+
+Solvent:
+Substance that dissolves the solute.
+
+Solution:
+Homogeneous mixture formed when a solute dissolves in a solvent.
+
+Saturated solution:
+Solution containing the maximum amount of dissolved solute at a specified temperature.
+
+Filtrate:
+Liquid passing through filter paper.
+
+Residue:
+Solid retained by filter paper.
+
+Titration:
+Quantitative analytical method used to determine the concentration of a solution through a chemical reaction.
+
+Distillation:
+Separation technique based on differences in volatility and boiling points.
+
+Mercury poisoning:
+Harmful effects resulting from exposure to mercury.
+
+C. MEMORY MAP
+
+INTRODUCTION TO CHEMISTRY
+|
+|-- 1.1 DEVELOPMENT AND IMPORTANCE
+|   |
+|   |-- Meaning of chemistry
+|   |-- Chemicals in daily life
+|   |   |-- Food
+|   |   |-- Medicine
+|   |   |-- Agriculture
+|   |   |-- Industry
+|   |
+|   |-- Development of chemistry
+|   |   |-- Biotechnology
+|   |   |-- Nanotechnology
+|   |   |-- Green technology
+|   |
+|   |-- Chemistry-related careers
+|
+|-- 1.2 SCIENTIFIC INVESTIGATION
+|   |
+|   |-- Scientific method
+|   |-- Hypothesis
+|   |-- Variables
+|   |-- Experimental design
+|   |-- Data collection
+|   |-- Data interpretation
+|   |-- Conclusion
+|   |
+|   |-- Solubility experiment
+|       |-- Temperature
+|       |-- Salt
+|       |-- Water
+|       |-- Solubility measurement
+|
+|-- 1.3 LABORATORY MANAGEMENT
+    |
+    |-- Personal protective equipment
+    |-- Safety equipment
+    |-- Apparatus handling
+    |-- Chemical storage
+    |-- Waste disposal
+    |-- Emergency procedures
+    |-- Mercury poisoning
+
+D. IMPORTANT REMINDERS FOR STUDENTS
+
+1. Chemistry is not limited to artificial substances. Natural substances are also chemicals.
+
+2. Chemical technology has both benefits and possible environmental impacts.
+
+3. A hypothesis must be testable.
+
+4. The manipulated variable is changed deliberately.
+
+5. The responding variable is measured or observed.
+
+6. Fixed variables must be controlled for a fair test.
+
+7. Solubility and rate of dissolving are different concepts.
+
+8. Different salts may have different solubility-temperature relationships.
+
+9. Laboratory apparatus must be used according to its intended function.
+
+10. Chemical waste must be disposed of according to its hazards and laboratory procedures.
+
+11. Never handle unknown chemical spills independently.
+
+12. Mercury spills require specialised management.
+
+E. AI TEACHING INSTRUCTIONS FOR THIS CHAPTER
+
+When answering questions about Chapter 1:
+
+- Use this chapter's content as the main reference.
+- Explain scientific concepts in detailed, student-friendly language.
+- Follow KSSM Form 4 Chemistry terminology.
+- Distinguish between scientific definitions and examples.
+- Do not confuse solubility with rate of dissolving.
+- Explain manipulated, responding and fixed variables correctly.
+- Show the working for calculations.
+- Use correct chemical formulae and balanced equations.
+- Include appropriate units.
+- When designing experiments, identify all relevant variables.
+- Do not invent experimental results.
+- When answering laboratory safety questions, prioritise safe emergency procedures.
+- Do not recommend that students handle hazardous chemical spills themselves.
+- If a question requires information not covered by this chapter, clearly identify the missing information rather than inventing an answer.
+- Match the depth of the answer to the question and allocated marks.
+- Do not unnecessarily introduce Form 5 Chemistry concepts.
+
+END OF CHEMISTRY FORM 4 CHAPTER 1
