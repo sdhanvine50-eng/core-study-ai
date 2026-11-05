@@ -1,0 +1,1737 @@
+# BIOLOGY FORM 5 — CHAPTER 11
+# INHERITANCE
+
+**SUBJECT:** Biology  
+**FORM:** Form 5  
+**CHAPTER:** Chapter 11  
+**CHAPTER TITLE:** Inheritance  
+**TOPICS:** 11.1, 11.2, 11.3, 11.4  
+**SOURCE TYPE:** Original Learning Material  
+**STATUS:** Original Educational Content  
+
+---
+
+# 11.1 MONOHYBRID INHERITANCE
+
+## 11.1.1 Introduction to Inheritance
+
+Inheritance is the transmission of genetic characteristics from parents to offspring through genes.
+
+Characteristics inherited from parents are called inherited characteristics or hereditary traits.
+
+Examples include:
+
+- Blood group.
+- Natural hair texture.
+- Certain eye characteristics.
+- Biological sex.
+- Some inherited genetic conditions.
+
+Inheritance explains why offspring resemble their parents but are not necessarily identical to them.
+
+Genetic information is carried by DNA, which is organised into chromosomes.
+
+Genes are sections of DNA that influence inherited characteristics.
+
+## 11.1.2 Important Genetic Terms
+
+**Character**
+
+A characteristic that can be inherited.
+
+Example: flower colour.
+
+**Trait**
+
+A particular form of a character.
+
+Example: purple flowers or white flowers.
+
+**Gene**
+
+A section of DNA that contains information influencing a particular characteristic or functional product.
+
+**Allele**
+
+An alternative form of a gene.
+
+Example: an allele associated with purple flowers and an allele associated with white flowers.
+
+**Dominant allele**
+
+An allele that is expressed in the phenotype of a heterozygote in a simple complete-dominance pattern.
+
+It is represented by a capital letter.
+
+Example: T.
+
+**Recessive allele**
+
+An allele whose effect is masked in a heterozygote under complete dominance.
+
+It is represented by a lowercase letter.
+
+Example: t.
+
+**Genotype**
+
+The genetic constitution or allele combination of an organism for a particular gene.
+
+Examples:
+
+- TT
+- Tt
+- tt
+
+**Phenotype**
+
+The observable characteristic of an organism resulting from its genotype and environmental influences.
+
+Examples:
+
+- Tall plant.
+- Short plant.
+- Purple flower.
+- White flower.
+
+**Homozygous**
+
+An organism has two identical alleles for a particular gene.
+
+Examples:
+
+- TT: homozygous dominant.
+- tt: homozygous recessive.
+
+**Heterozygous**
+
+An organism has two different alleles for a particular gene.
+
+Example:
+
+- Tt.
+
+**Gamete**
+
+A reproductive cell containing one allele for each gene.
+
+Examples:
+
+- Sperm cell.
+- Ovum.
+
+**Fertilisation**
+
+The fusion of male and female gametes to form a diploid zygote.
+
+## 11.1.3 Mendel's Experiments
+
+Gregor Mendel is known as the father of genetics because his experiments on pea plants helped establish fundamental principles of inheritance.
+
+He studied characteristics such as:
+
+- Plant height.
+- Seed shape.
+- Seed colour.
+- Flower colour.
+- Pod shape.
+- Pod colour.
+- Flower position.
+
+Mendel selected pea plants because:
+
+1. They have clear contrasting characteristics.
+2. They can reproduce through self-pollination.
+3. Cross-pollination can be controlled.
+4. They produce many offspring.
+5. They have a relatively short generation time.
+
+### Example: Plant Height
+
+Consider two contrasting traits:
+
+- Tall plants.
+- Short plants.
+
+For this example:
+
+- T = allele for tallness.
+- t = allele for shortness.
+
+Assume complete dominance, where T is dominant over t.
+
+### Parental Generation (P)
+
+A homozygous tall plant is crossed with a homozygous short plant.
+
+Genotypes:
+
+- Tall parent = TT.
+- Short parent = tt.
+
+Gametes:
+
+- Tall parent produces T gametes.
+- Short parent produces t gametes.
+
+All offspring receive T from one parent and t from the other.
+
+### First Filial Generation (F₁)
+
+Cross:
+
+TT × tt
+
+Punnett square:
+
+| | T | T |
+|---|---|---|
+| t | Tt | Tt |
+| t | Tt | Tt |
+
+Results:
+
+- Genotype: 100% Tt.
+- Phenotype: 100% tall.
+
+All F₁ offspring are heterozygous tall plants.
+
+### Second Filial Generation (F₂)
+
+When two F₁ plants are crossed:
+
+Tt × Tt
+
+Punnett square:
+
+| | T | t |
+|---|---|---|
+| T | TT | Tt |
+| t | Tt | tt |
+
+Genotypic ratio:
+
+1 TT : 2 Tt : 1 tt
+
+Phenotypic ratio:
+
+3 tall : 1 short
+
+Explanation:
+
+- TT is tall.
+- Tt is tall because T is dominant.
+- tt is short because both alleles are recessive.
+
+Therefore, three out of four possible offspring genotypes show the tall phenotype.
+
+**IMPORTANT:**
+
+The 3:1 phenotypic ratio applies to a typical monohybrid cross between two heterozygous parents under complete dominance, with normal segregation and random fertilisation.
+
+## 11.1.4 Mendel's Law of Segregation
+
+The Law of Segregation states that the two alleles of a gene separate during gamete formation, so each gamete receives only one allele.
+
+For an organism with genotype Tt:
+
+- Some gametes receive T.
+- Other gametes receive t.
+
+Each type is expected in equal proportions under normal segregation.
+
+During fertilisation, gametes combine randomly to restore two alleles for the gene in the offspring.
+
+**Why is this important?**
+
+It explains why offspring can inherit different combinations of alleles from the same parents.
+
+## 11.1.5 How to Solve Monohybrid Inheritance Questions
+
+Follow these steps:
+
+1. Identify the characteristic being studied.
+2. Identify the dominant and recessive alleles.
+3. Assign suitable symbols.
+4. Write the parental genotypes.
+5. Determine the possible gametes.
+6. Draw a Punnett square.
+7. Determine the offspring genotypes.
+8. Calculate the genotypic ratio.
+9. Calculate the phenotypic ratio.
+10. State the required probability or percentage.
+
+### Worked Example 1
+
+In a plant species, purple flowers (P) are dominant over white flowers (p).
+
+Two heterozygous purple-flowered plants are crossed.
+
+Determine:
+
+a) The possible offspring genotypes.  
+b) The genotypic ratio.  
+c) The phenotypic ratio.  
+d) The probability of producing a white-flowered plant.
+
+**Step 1: Parental genotypes**
+
+Pp × Pp
+
+**Step 2: Gametes**
+
+First parent: P and p.
+
+Second parent: P and p.
+
+**Step 3: Punnett square**
+
+| | P | p |
+|---|---|---|
+| P | PP | Pp |
+| p | Pp | pp |
+
+**Step 4: Genotypes**
+
+- PP
+- Pp
+- Pp
+- pp
+
+**Answers:**
+
+a) PP, Pp and pp.
+
+b) Genotypic ratio = 1 PP : 2 Pp : 1 pp.
+
+c) Phenotypic ratio = 3 purple : 1 white.
+
+d) Probability of white flowers = 1/4 = 25%.
+
+### Worked Example 2: Test Cross
+
+A plant has a dominant phenotype, but its genotype is unknown.
+
+It could be:
+
+- TT.
+- Tt.
+
+A test cross is performed by crossing the organism with a homozygous recessive organism.
+
+Unknown genotype × tt
+
+**Case 1: Unknown plant is TT**
+
+TT × tt
+
+All offspring are Tt.
+
+All offspring show the dominant phenotype.
+
+**Case 2: Unknown plant is Tt**
+
+Tt × tt
+
+| | T | t |
+|---|---|---|
+| t | Tt | tt |
+| t | Tt | tt |
+
+Results:
+
+- 50% Tt.
+- 50% tt.
+- Phenotypic ratio = 1 dominant : 1 recessive.
+
+**Conclusion:**
+
+A recessive-phenotype offspring indicates that the dominant-phenotype parent carries a recessive allele, assuming the stated inheritance model.
+
+---
+
+# 11.2 DIHYBRID INHERITANCE
+
+## 11.2.1 Introduction to Dihybrid Inheritance
+
+Dihybrid inheritance is the inheritance of two characteristics controlled by two different genes.
+
+A dihybrid cross studies how alleles of two genes are passed from parents to offspring.
+
+Example:
+
+In pea plants:
+
+- Seed shape: round or wrinkled.
+- Seed colour: yellow or green.
+
+For this example:
+
+- R = round seed.
+- r = wrinkled seed.
+- Y = yellow seed.
+- y = green seed.
+
+Assume:
+
+- R is dominant over r.
+- Y is dominant over y.
+- The genes assort independently.
+
+## 11.2.2 Gametes in Dihybrid Inheritance
+
+A heterozygous dihybrid organism has genotype:
+
+RrYy
+
+During gamete formation, each gamete receives one allele from each gene.
+
+Possible gametes:
+
+1. RY
+2. Ry
+3. rY
+4. ry
+
+Under independent assortment and equal segregation, these four gamete types occur in equal proportions.
+
+**IMPORTANT:**
+
+The possible gametes are not RR, Rr, YY or Yy. A gamete receives only one allele from each gene.
+
+## 11.2.3 Mendel's Law of Independent Assortment
+
+The Law of Independent Assortment states that alleles of different genes can assort independently during gamete formation.
+
+This applies when the genes behave as independently assorting genes, such as genes on different chromosomes or sufficiently far apart on the same chromosome.
+
+It explains how different combinations of alleles can occur in offspring.
+
+## 11.2.4 Dihybrid Cross: RrYy × RrYy
+
+Both parents are heterozygous for both characteristics.
+
+Parent genotypes:
+
+RrYy × RrYy
+
+Possible gametes from each parent:
+
+RY, Ry, rY, ry.
+
+### Punnett Square
+
+| | RY | Ry | rY | ry |
+|---|---|---|---|---|
+| RY | RRYY | RRYy | RrYY | RrYy |
+| Ry | RRYy | RRyy | RrYy | Rryy |
+| rY | RrYY | RrYy | rrYY | rrYy |
+| ry | RrYy | Rryy | rrYy | rryy |
+
+### Phenotypic Classification
+
+Under complete dominance:
+
+**Round yellow:**
+
+- R_Y_
+
+**Round green:**
+
+- R_yy
+
+**Wrinkled yellow:**
+
+- rrY_
+
+**Wrinkled green:**
+
+- rryy
+
+The underscore represents either possible allele at that position.
+
+### Phenotypic Ratio
+
+For a typical cross of RrYy × RrYy with independent assortment and complete dominance:
+
+9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green
+
+This is the classic 9:3:3:1 phenotypic ratio.
+
+### Why Does the 9:3:3:1 Ratio Occur?
+
+Each gene separately produces a 3:1 phenotypic ratio.
+
+For seed shape:
+
+- 3/4 round.
+- 1/4 wrinkled.
+
+For seed colour:
+
+- 3/4 yellow.
+- 1/4 green.
+
+Because the genes assort independently, the probabilities can be multiplied:
+
+Round yellow:
+
+3/4 × 3/4 = 9/16.
+
+Round green:
+
+3/4 × 1/4 = 3/16.
+
+Wrinkled yellow:
+
+1/4 × 3/4 = 3/16.
+
+Wrinkled green:
+
+1/4 × 1/4 = 1/16.
+
+Therefore, the ratio is:
+
+9 : 3 : 3 : 1.
+
+## 11.2.5 Dihybrid Test Cross
+
+A dihybrid test cross involves crossing an organism with a dominant phenotype for both characteristics with an organism that is homozygous recessive for both genes.
+
+Example:
+
+RrYy × rryy
+
+Gametes:
+
+- RrYy parent: RY, Ry, rY, ry.
+- rryy parent: ry only.
+
+Offspring:
+
+| Gamete from first parent | Gamete from second parent | Offspring |
+|---|---|---|
+| RY | ry | RrYy |
+| Ry | ry | Rryy |
+| rY | ry | rrYy |
+| ry | ry | rryy |
+
+Expected phenotypic ratio under independent assortment:
+
+1 round yellow : 1 round green : 1 wrinkled yellow : 1 wrinkled green.
+
+## 11.2.6 Comparing Monohybrid and Dihybrid Inheritance
+
+| Monohybrid inheritance | Dihybrid inheritance |
+|---|---|
+| Studies one characteristic | Studies two characteristics |
+| Involves one gene | Involves two genes |
+| Example: plant height | Example: seed shape and colour |
+| Heterozygous parent Tt produces T and t gametes | Heterozygous parent RrYy produces RY, Ry, rY and ry gametes |
+| Typical F₂ phenotypic ratio is 3:1 | Typical F₂ phenotypic ratio is 9:3:3:1 |
+
+## 11.2.7 Conditions for Mendelian Ratios
+
+The classic Mendelian ratios depend on certain assumptions:
+
+1. Complete dominance occurs.
+2. Alleles segregate normally.
+3. The genes assort independently for a dihybrid cross.
+4. Fertilisation is random.
+5. The offspring survive equally.
+6. There are sufficiently many offspring for observed results to approach expected ratios.
+
+Actual offspring numbers may differ from expected ratios because of chance.
+
+---
+
+# 11.3 GENES AND ALLELES
+
+## 11.3.1 Genes and DNA
+
+Genes are sections of DNA that contain instructions for producing functional products, such as proteins or functional RNA.
+
+DNA is the molecule that stores hereditary information.
+
+DNA is made up of nucleotides.
+
+Each nucleotide consists of:
+
+- A phosphate group.
+- A deoxyribose sugar.
+- A nitrogenous base.
+
+The four bases in DNA are:
+
+- Adenine (A).
+- Thymine (T).
+- Cytosine (C).
+- Guanine (G).
+
+DNA is organised into chromosomes.
+
+A chromosome contains a long DNA molecule associated with proteins.
+
+Genes occupy particular positions on chromosomes called loci.
+
+## 11.3.2 Relationship Between DNA, Genes and Chromosomes
+
+The relationship can be represented as:
+
+DNA → contains genes → organised into chromosomes.
+
+More precisely:
+
+- A chromosome contains a long DNA molecule.
+- A gene is a specific section of DNA.
+- Different genes are located at different positions on chromosomes.
+- Genes contain information that contributes to inherited characteristics.
+
+In diploid organisms, chromosomes generally occur in homologous pairs.
+
+One homologous chromosome is inherited from the mother and the other from the father.
+
+Homologous chromosomes have corresponding gene loci, although the alleles at those loci may differ.
+
+## 11.3.3 Genes and Alleles
+
+A gene may exist in different forms called alleles.
+
+For example, a gene influencing flower colour may have different alleles associated with different flower colours.
+
+An individual typically inherits one allele of an autosomal gene from each biological parent.
+
+The combination of alleles determines the genotype.
+
+Example:
+
+| Genotype | Description |
+|---|---|
+| AA | Homozygous dominant |
+| Aa | Heterozygous |
+| aa | Homozygous recessive |
+
+**IMPORTANT:**
+
+An allele is not the same as a gene.
+
+A gene is a section of DNA associated with a characteristic or functional product. An allele is one of the alternative forms of that gene.
+
+## 11.3.4 Dominant and Recessive Alleles
+
+### Dominant Allele
+
+A dominant allele is expressed in a heterozygote under complete dominance.
+
+Example:
+
+A = dominant allele.
+
+a = recessive allele.
+
+Both AA and Aa show the dominant phenotype.
+
+### Recessive Allele
+
+A recessive allele is expressed in the phenotype under complete dominance only when the organism has two recessive alleles.
+
+Example:
+
+aa shows the recessive phenotype.
+
+**IMPORTANT:**
+
+Dominant does not mean:
+
+- More common.
+- Better.
+- Stronger.
+- More beneficial.
+- More likely to be inherited.
+
+Dominance describes how an allele is expressed in a particular genotype.
+
+A recessive allele can be common in a population.
+
+## 11.3.5 Homozygous and Heterozygous
+
+### Homozygous
+
+An organism has two identical alleles at a gene locus.
+
+Examples:
+
+- AA.
+- aa.
+
+A homozygous organism generally produces one allele type for that gene in its gametes.
+
+### Heterozygous
+
+An organism has two different alleles at a gene locus.
+
+Example:
+
+Aa.
+
+A heterozygous organism can produce gametes carrying either A or a.
+
+## 11.3.6 Genotype and Phenotype
+
+**Genotype** refers to the allele combination of an organism.
+
+**Phenotype** refers to the observable characteristics resulting from the genotype and environmental influences.
+
+Example under complete dominance:
+
+- AA = dominant phenotype.
+- Aa = dominant phenotype.
+- aa = recessive phenotype.
+
+Different genotypes can produce the same phenotype.
+
+Therefore, an organism's phenotype alone may not reveal its exact genotype.
+
+## 11.3.7 Multiple Alleles
+
+Multiple alleles occur when a gene has more than two alternative alleles in a population.
+
+However, a diploid individual still carries only two alleles of that gene, one on each homologous chromosome.
+
+Example: ABO blood group.
+
+The ABO blood group system involves three common alleles:
+
+- Iᴬ
+- Iᴮ
+- i
+
+The relationships are:
+
+- Iᴬ and Iᴮ are codominant.
+- Both Iᴬ and Iᴮ are dominant over i.
+
+Possible genotypes:
+
+| Genotype | Blood group |
+|---|---|
+| IᴬIᴬ | A |
+| Iᴬi | A |
+| IᴮIᴮ | B |
+| Iᴮi | B |
+| IᴬIᴮ | AB |
+| ii | O |
+
+## 11.3.8 Codominance
+
+Codominance occurs when both alleles in a heterozygous individual are expressed clearly in the phenotype.
+
+Example:
+
+AB blood group.
+
+An individual with genotype IᴬIᴮ expresses both A and B antigens on red blood cells.
+
+Neither allele completely masks the other.
+
+## 11.3.9 Incomplete Dominance
+
+Incomplete dominance occurs when the heterozygote has an intermediate phenotype between the two homozygous phenotypes.
+
+Illustrative example:
+
+- RR = red flowers.
+- rr = white flowers.
+- Rr = pink flowers.
+
+Cross:
+
+Rr × Rr
+
+Punnett square:
+
+| | R | r |
+|---|---|---|
+| R | RR | Rr |
+| r | Rr | rr |
+
+Genotypic ratio:
+
+1 RR : 2 Rr : 1 rr.
+
+Phenotypic ratio:
+
+1 red : 2 pink : 1 white.
+
+**Difference between codominance and incomplete dominance:**
+
+- Codominance: both alleles are expressed in the heterozygote.
+- Incomplete dominance: the heterozygote shows an intermediate phenotype.
+
+## 11.3.10 Mutation and Genetic Variation
+
+A mutation is a change in the genetic material.
+
+Mutations can occur in DNA sequences or chromosome structure and number.
+
+Some mutations produce new alleles.
+
+**Causes of mutations:**
+
+- Errors during DNA replication.
+- Certain chemicals.
+- Ionising radiation.
+- Ultraviolet radiation.
+
+**Types of gene mutations:**
+
+1. Substitution: one nucleotide is replaced by another.
+2. Insertion: one or more nucleotides are added.
+3. Deletion: one or more nucleotides are removed.
+
+Mutations may:
+
+- Have no noticeable effect.
+- Alter protein structure or function.
+- Affect an organism's phenotype.
+- Cause genetic disorders.
+- Sometimes produce variation that contributes to evolution.
+
+Mutations in cells that give rise to gametes may be passed to offspring. Mutations in ordinary body cells are generally not inherited by offspring.
+
+---
+
+# 11.4 INHERITANCE IN HUMANS
+
+## 11.4.1 Introduction to Human Inheritance
+
+Human inheritance refers to the transmission of genetic characteristics from biological parents to their offspring.
+
+Human characteristics are influenced by:
+
+1. Genes inherited from parents.
+2. Interactions between genes.
+3. Environmental factors.
+4. Interactions between genes and the environment.
+
+Examples of inherited human characteristics include:
+
+- ABO blood group.
+- Rh blood group.
+- Certain inherited disorders.
+- Biological sex.
+- Some aspects of eye and hair characteristics.
+
+Many human characteristics are controlled by multiple genes and may also be influenced by environmental factors.
+
+## 11.4.2 Human Chromosomes
+
+Most human body cells are diploid and contain 46 chromosomes arranged in 23 pairs.
+
+These include:
+
+- 22 pairs of autosomes.
+- 1 pair of sex chromosomes.
+
+Autosomes are chromosomes that are not classified as sex chromosomes.
+
+In the typical human chromosome pattern:
+
+- XX is associated with female biological sex.
+- XY is associated with male biological sex.
+
+The 23rd pair consists of sex chromosomes.
+
+**Gametes:**
+
+- Human ovum contains 23 chromosomes, including an X chromosome.
+- Human sperm contains 23 chromosomes, including either an X or a Y chromosome.
+
+When fertilisation occurs, the chromosomes combine to form a diploid zygote with 46 chromosomes.
+
+## 11.4.3 Sex Determination in Humans
+
+In typical human sex determination:
+
+- The ovum contributes an X chromosome.
+- The sperm contributes either an X or a Y chromosome.
+
+Possible combinations:
+
+| Sperm | Ovum | Zygote chromosome pattern |
+|---|---|---|
+| X | X | XX |
+| Y | X | XY |
+
+Punnett square:
+
+| | X (ovum) | X (ovum) |
+|---|---|---|
+| X (sperm) | XX | XX |
+| Y (sperm) | XY | XY |
+
+Expected probability under this simplified model:
+
+- 50% XX.
+- 50% XY.
+
+This is an expected probability, not a guarantee for every pregnancy.
+
+**IMPORTANT EXAM POINT:**
+
+The sperm determines whether the fertilising gamete contributes an X or Y chromosome in the typical XX/XY system.
+
+## 11.4.4 Autosomal Inheritance
+
+Autosomal genes are located on autosomes.
+
+An autosomal characteristic can be inherited by individuals of any biological sex.
+
+### A. Autosomal Dominant Inheritance
+
+A dominant allele can produce the characteristic in a heterozygous individual.
+
+Illustrative example:
+
+- A = dominant allele associated with a particular inherited characteristic.
+- a = alternative recessive allele.
+
+Cross:
+
+Aa × aa
+
+Punnett square:
+
+| | A | a |
+|---|---|---|
+| a | Aa | aa |
+| a | Aa | aa |
+
+Results:
+
+- 50% Aa.
+- 50% aa.
+
+Expected phenotypic ratio:
+
+1 affected : 1 unaffected, assuming the allele causes the stated characteristic and complete dominance applies.
+
+**Typical pattern:**
+
+- The characteristic may appear in successive generations.
+- An affected heterozygous parent can pass the allele to offspring.
+- Both sexes can be affected and transmit the allele.
+
+### B. Autosomal Recessive Inheritance
+
+A recessive inherited condition is expressed when an individual inherits two recessive alleles.
+
+Illustrative example:
+
+- A = normal-function allele.
+- a = recessive disease-associated allele.
+
+For a simplified recessive condition:
+
+- AA = unaffected, non-carrier.
+- Aa = unaffected carrier.
+- aa = affected.
+
+Cross between two carriers:
+
+Aa × Aa
+
+Punnett square:
+
+| | A | a |
+|---|---|---|
+| A | AA | Aa |
+| a | Aa | aa |
+
+Expected results:
+
+- 25% AA.
+- 50% Aa.
+- 25% aa.
+
+Therefore:
+
+- 75% are unaffected.
+- 25% are affected.
+
+The unaffected offspring include both carriers and non-carriers.
+
+**IMPORTANT:**
+
+These percentages describe probabilities for each pregnancy under the stated assumptions. They do not mean that exactly one out of every four children in a family must be affected.
+
+## 11.4.5 Sex-Linked Inheritance
+
+Sex-linked inheritance occurs when a gene is located on a sex chromosome.
+
+Many commonly studied sex-linked traits involve genes on the X chromosome.
+
+Males with one X chromosome have only one copy of most X-linked genes.
+
+Therefore, a recessive allele on their X chromosome may be expressed because there is no corresponding allele on the Y chromosome to mask it.
+
+### A. X-Linked Recessive Inheritance
+
+Examples include:
+
+- Red-green colour vision deficiency.
+- Haemophilia A.
+- Haemophilia B.
+
+For an illustrative X-linked recessive characteristic:
+
+- Xᴺ = allele associated with normal function.
+- Xⁿ = recessive allele associated with the condition.
+- Y = Y chromosome.
+
+Possible genotypes:
+
+| Genotype | Description |
+|---|---|
+| XᴺXᴺ | Unaffected female, non-carrier |
+| XᴺXⁿ | Unaffected carrier female |
+| XⁿXⁿ | Affected female |
+| XᴺY | Unaffected male |
+| XⁿY | Affected male |
+
+**Why are X-linked recessive conditions often more common in males?**
+
+1. Males typically have one X chromosome.
+2. They have only one allele for most X-linked genes.
+3. A recessive allele on that X chromosome can be expressed.
+4. Females typically have two X chromosomes and usually need two recessive alleles to express a fully recessive X-linked condition.
+
+### B. Example: Carrier Mother and Unaffected Father
+
+Cross:
+
+XᴺXⁿ × XᴺY
+
+Gametes:
+
+- Mother: Xᴺ and Xⁿ.
+- Father: Xᴺ and Y.
+
+Punnett square:
+
+| | Xᴺ (father) | Y (father) |
+|---|---|---|
+| Xᴺ (mother) | XᴺXᴺ | XᴺY |
+| Xⁿ (mother) | XᴺXⁿ | XⁿY |
+
+Expected offspring:
+
+- 25% XᴺXᴺ: unaffected non-carrier female.
+- 25% XᴺXⁿ: unaffected carrier female.
+- 25% XᴺY: unaffected male.
+- 25% XⁿY: affected male.
+
+Among sons:
+
+- 50% are expected to be affected.
+- 50% are expected to be unaffected.
+
+Among daughters:
+
+- None are expected to be affected in this particular cross.
+- 50% are expected to be carriers.
+
+**IMPORTANT:**
+
+An affected father does not pass his X chromosome to his sons. He passes his Y chromosome to his sons and his X chromosome to his daughters.
+
+## 11.4.6 Haemophilia
+
+Haemophilia is an inherited bleeding disorder in which blood clotting is impaired because certain clotting factors are deficient or do not function properly.
+
+Examples:
+
+- Haemophilia A: deficiency of clotting factor VIII.
+- Haemophilia B: deficiency of clotting factor IX.
+
+Many common forms of haemophilia A and B follow X-linked recessive inheritance.
+
+**Effects:**
+
+- Bleeding may continue longer than usual.
+- Internal bleeding can occur.
+- Bleeding into joints can cause pain and damage.
+- Severe cases may require regular medical treatment.
+
+**Inheritance example:**
+
+A carrier mother may pass the affected allele to her children.
+
+A son who inherits the affected allele on his X chromosome may have the condition.
+
+A daughter who inherits one affected allele is commonly a carrier, although symptoms can occur in some female carriers.
+
+**IMPORTANT:**
+
+Haemophilia is not caused by blood failing to contain platelets. It is mainly associated with problems involving blood-clotting factors.
+
+## 11.4.7 Red-Green Colour Vision Deficiency
+
+Red-green colour vision deficiency is a condition in which a person has difficulty distinguishing certain shades of red and green.
+
+Common forms are associated with genes on the X chromosome.
+
+**Inheritance:**
+
+- It is commonly inherited as an X-linked recessive characteristic.
+- Males are more frequently affected.
+- Females may be carriers.
+- An affected father passes his X chromosome to all daughters and his Y chromosome to all sons.
+
+The exact colour vision pattern depends on the particular genetic variation.
+
+## 11.4.8 ABO Blood Group Inheritance
+
+The ABO blood group system is controlled by three common alleles:
+
+- Iᴬ
+- Iᴮ
+- i
+
+Iᴬ and Iᴮ are codominant.
+
+Both are dominant over i.
+
+### Genotypes and Phenotypes
+
+| Blood group | Possible genotype |
+|---|---|
+| A | IᴬIᴬ or Iᴬi |
+| B | IᴮIᴮ or Iᴮi |
+| AB | IᴬIᴮ |
+| O | ii |
+
+### Example 1: Parent with Blood Group A (Iᴬi) and Parent with Blood Group B (Iᴮi)
+
+Cross:
+
+Iᴬi × Iᴮi
+
+Punnett square:
+
+| | Iᴮ | i |
+|---|---|---|
+| Iᴬ | IᴬIᴮ | Iᴬi |
+| i | Iᴮi | ii |
+
+Possible offspring:
+
+- 25% blood group AB.
+- 25% blood group A.
+- 25% blood group B.
+- 25% blood group O.
+
+This shows that parents with blood groups A and B can have a child with blood group O if both parents carry the i allele.
+
+### Example 2: Parent with Blood Group AB and Parent with Blood Group O
+
+Cross:
+
+IᴬIᴮ × ii
+
+Gametes:
+
+- AB parent: Iᴬ or Iᴮ.
+- O parent: i only.
+
+Possible offspring:
+
+- Iᴬi = blood group A.
+- Iᴮi = blood group B.
+
+Expected results:
+
+- 50% blood group A.
+- 50% blood group B.
+- No blood group AB.
+- No blood group O.
+
+## 11.4.9 Rh Blood Group System
+
+The Rh blood group system includes several antigens. The D antigen is commonly used to classify a person as Rh-positive or Rh-negative.
+
+For a simplified Mendelian model:
+
+- D = allele associated with the D antigen.
+- d = allele associated with absence of the D antigen.
+
+Under this simplified model:
+
+| Genotype | Rh phenotype |
+|---|---|
+| DD | Rh-positive |
+| Dd | Rh-positive |
+| dd | Rh-negative |
+
+Rh-positive is dominant over Rh-negative in this simplified model.
+
+### Rh Incompatibility in Pregnancy
+
+Rh incompatibility may occur when:
+
+- The mother is Rh-negative.
+- The foetus is Rh-positive.
+
+If foetal red blood cells enter the mother's circulation, the mother's immune system may become sensitised and produce anti-D antibodies.
+
+In a later Rh-positive pregnancy, maternal antibodies may cross the placenta and destroy foetal red blood cells.
+
+This can cause haemolytic disease of the foetus and newborn.
+
+**Prevention:**
+
+Anti-D immunoglobulin can be given to eligible Rh-negative mothers to reduce the risk of sensitisation.
+
+**IMPORTANT:**
+
+Rh incompatibility does not automatically mean that every pregnancy will be affected. Medical assessment and prevention are available.
+
+## 11.4.10 Chromosomal Mutations and Disorders
+
+A chromosome mutation or chromosomal abnormality involves a change in chromosome structure or number.
+
+Some conditions occur when an individual has an extra or missing chromosome.
+
+### A. Down Syndrome
+
+Down syndrome is usually caused by trisomy 21.
+
+This means that a person has three copies of chromosome 21 instead of the usual two.
+
+Possible characteristics include:
+
+- Distinctive facial features.
+- Variable learning and developmental differences.
+- Low muscle tone in infancy.
+- Increased likelihood of certain medical conditions.
+
+The characteristics and support needs vary between individuals.
+
+### B. Turner Syndrome
+
+Turner syndrome commonly involves a person with one complete X chromosome and absence of all or part of the second sex chromosome.
+
+A common chromosome pattern is 45,X.
+
+Possible characteristics include:
+
+- Short stature.
+- Reduced ovarian function.
+- Delayed or absent puberty without treatment.
+- Possible heart or kidney conditions.
+
+### C. Klinefelter Syndrome
+
+Klinefelter syndrome commonly involves a male with an additional X chromosome.
+
+A common chromosome pattern is 47,XXY.
+
+Possible characteristics include:
+
+- Reduced testosterone production.
+- Small testes.
+- Reduced fertility.
+- Taller-than-average stature in some individuals.
+- Differences in language or learning development in some individuals.
+
+**IMPORTANT:**
+
+These conditions are not caused by ordinary dominant or recessive inheritance at a single gene locus. They involve chromosome-number abnormalities.
+
+## 11.4.11 Genetic Counselling and Genetic Testing
+
+Genetic counselling is a process in which trained healthcare professionals help individuals and families understand inherited conditions and genetic risks.
+
+It may involve:
+
+- Family medical history.
+- Discussion of inheritance patterns.
+- Explanation of possible risks to offspring.
+- Information about available genetic tests.
+- Discussion of medical and reproductive options.
+
+Genetic testing examines DNA, chromosomes or gene products to identify certain genetic variations or chromosome abnormalities.
+
+**Importance:**
+
+1. Helps identify certain inherited conditions.
+2. Supports informed medical decisions.
+3. Helps assess the possibility of passing certain conditions to offspring.
+4. Can support early diagnosis and management.
+5. Helps families understand genetic risks.
+
+Genetic testing has limitations. A result may not always predict exactly how severe a condition will be or whether symptoms will occur.
+
+---
+
+# IMPORTANT COMPARISON TABLES
+
+## 1. Monohybrid and Dihybrid Crosses
+
+| Monohybrid | Dihybrid |
+|---|---|
+| One gene studied | Two genes studied |
+| Two alleles considered for one gene | Two alleles considered for each of two genes |
+| Example: Tt × Tt | Example: RrYy × RrYy |
+| Typical F₂ phenotype ratio: 3:1 | Typical F₂ phenotype ratio: 9:3:3:1 |
+
+## 2. Genotype and Phenotype
+
+| Genotype | Phenotype |
+|---|---|
+| Genetic allele combination | Observable characteristic |
+| Written using allele symbols | Described using traits |
+| Example: Tt | Example: tall |
+
+## 3. Dominant and Recessive Alleles
+
+| Dominant | Recessive |
+|---|---|
+| Expressed in a heterozygote under complete dominance | Masked in a heterozygote under complete dominance |
+| Usually represented by a capital letter | Usually represented by a lowercase letter |
+| Example: T | Example: t |
+
+## 4. Codominance and Incomplete Dominance
+
+| Codominance | Incomplete dominance |
+|---|---|
+| Both alleles are expressed in the heterozygote | Heterozygote has an intermediate phenotype |
+| Example: AB blood group | Illustrative example: pink flowers from red and white parents |
+
+## 5. Autosomal and Sex-Linked Inheritance
+
+| Autosomal inheritance | Sex-linked inheritance |
+|---|---|
+| Gene is located on an autosome | Gene is located on a sex chromosome |
+| Can affect individuals of any biological sex | Inheritance pattern may differ between sexes |
+| Example: many autosomal dominant or recessive conditions | Example: red-green colour vision deficiency |
+
+## 6. X-Linked Recessive Inheritance
+
+- Males may express a recessive allele on their single X chromosome.
+- Females usually need two recessive alleles to express a fully recessive X-linked condition.
+- A carrier mother can pass the allele to sons or daughters.
+- An affected father passes his X chromosome to daughters, not sons.
+
+---
+
+# EXAM TIPS AND COMMON MISTAKES
+
+## Exam Tips
+
+1. Always define the dominant and recessive alleles before drawing a Punnett square.
+2. Write the parental genotypes clearly.
+3. List all possible gametes before completing the cross.
+4. Remember that each gamete receives one allele for each gene.
+5. Separate genotypic ratios from phenotypic ratios.
+6. For probability questions, count the relevant outcomes and divide by the total number of equally likely outcomes.
+7. In dihybrid crosses, list all four possible gametes from a RrYy parent when independent assortment applies.
+8. For human inheritance questions, identify whether the gene is autosomal or sex-linked.
+9. Use the correct X-linked notation, such as XᴺXⁿ and XⁿY.
+10. In ABO blood group questions, remember that Iᴬ and Iᴮ are codominant.
+11. In chromosome-number questions, identify the chromosome involved and state whether it is an extra or missing chromosome.
+12. Always state the assumptions when a question uses simplified inheritance patterns.
+
+## Common Mistakes
+
+**Mistake 1:** Saying that a dominant allele is always more common.
+
+Correction: Dominance describes expression in a heterozygote, not how common an allele is in a population.
+
+**Mistake 2:** Confusing genotype and phenotype.
+
+Correction: Genotype is the allele combination, while phenotype is the observable characteristic.
+
+**Mistake 3:** Writing two alleles in a gamete.
+
+Correction: A gamete contains only one allele for each gene.
+
+**Mistake 4:** Giving a 3:1 genotypic ratio for Tt × Tt.
+
+Correction: The genotypic ratio is 1:2:1, while the phenotypic ratio under complete dominance is 3:1.
+
+**Mistake 5:** Giving a 9:3:3:1 ratio without checking independent assortment.
+
+Correction: This ratio applies under the usual Mendelian assumptions, including independent assortment and complete dominance.
+
+**Mistake 6:** Saying that a carrier of an autosomal recessive condition is affected.
+
+Correction: A heterozygous carrier is usually unaffected under a simple recessive inheritance model.
+
+**Mistake 7:** Saying that fathers pass their X chromosome to their sons.
+
+Correction: In typical XY inheritance, fathers pass their Y chromosome to sons and their X chromosome to daughters.
+
+**Mistake 8:** Saying that blood group AB is recessive.
+
+Correction: Iᴬ and Iᴮ are codominant.
+
+**Mistake 9:** Confusing Down syndrome with a single-gene inherited condition.
+
+Correction: Down syndrome is usually caused by an extra copy of chromosome 21.
+
+---
+
+# SPM-STYLE PRACTICE QUESTIONS
+
+## QUESTION 1 — 4 MARKS
+
+Define the following terms:
+
+a) Gene.  
+b) Allele.  
+c) Genotype.  
+d) Phenotype.
+
+**Suggested answer:**
+
+a) A gene is a section of DNA that contains information for a functional product or influences an inherited characteristic.
+
+b) An allele is an alternative form of a gene.
+
+c) Genotype is the genetic constitution or allele combination of an organism.
+
+d) Phenotype is the observable characteristic resulting from the genotype and environmental influences.
+
+## QUESTION 2 — 4 MARKS
+
+A heterozygous tall plant (Tt) is crossed with another heterozygous tall plant (Tt). Tallness is dominant over shortness.
+
+Determine:
+
+a) The genotypic ratio.  
+b) The phenotypic ratio.
+
+**Suggested answer:**
+
+Cross: Tt × Tt.
+
+| | T | t |
+|---|---|---|
+| T | TT | Tt |
+| t | Tt | tt |
+
+a) Genotypic ratio = 1 TT : 2 Tt : 1 tt.
+
+b) Phenotypic ratio = 3 tall : 1 short.
+
+## QUESTION 3 — 3 MARKS
+
+Explain Mendel's Law of Segregation.
+
+**Suggested answer:**
+
+1. An organism has two alleles for a gene.
+2. The alleles separate during gamete formation.
+3. Each gamete receives only one allele.
+
+## QUESTION 4 — 4 MARKS
+
+In a plant, purple flower colour (P) is dominant over white flower colour (p). Two heterozygous plants are crossed.
+
+Calculate the probability of producing white-flowered offspring.
+
+**Suggested answer:**
+
+Cross: Pp × Pp.
+
+Possible offspring:
+
+- PP.
+- Pp.
+- Pp.
+- pp.
+
+Only pp produces white flowers.
+
+Probability = 1/4 × 100% = 25%.
+
+## QUESTION 5 — 4 MARKS
+
+A dihybrid plant has genotype RrYy.
+
+State all possible gametes produced by this plant, assuming independent assortment.
+
+**Suggested answer:**
+
+1. RY.
+2. Ry.
+3. rY.
+4. ry.
+
+## QUESTION 6 — 4 MARKS
+
+Two plants with genotype RrYy are crossed. Round seeds (R) are dominant over wrinkled seeds (r), while yellow seeds (Y) are dominant over green seeds (y).
+
+State the expected phenotypic ratio.
+
+**Suggested answer:**
+
+The expected phenotypic ratio is:
+
+9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.
+
+This ratio applies under complete dominance and independent assortment.
+
+## QUESTION 7 — 4 MARKS
+
+Differentiate between codominance and incomplete dominance.
+
+**Suggested answer:**
+
+1. Codominance occurs when both alleles are expressed in the heterozygote.
+2. An example is AB blood group.
+3. Incomplete dominance occurs when the heterozygote has an intermediate phenotype.
+4. An illustrative example is a pink flower produced from red and white flower parents.
+
+## QUESTION 8 — 4 MARKS
+
+Explain why males are more frequently affected by some X-linked recessive conditions.
+
+**Suggested answer:**
+
+1. Males typically have only one X chromosome.
+2. They possess only one allele for most X-linked genes.
+3. A recessive allele on their X chromosome can therefore be expressed.
+4. Females usually need two recessive alleles to express a fully recessive X-linked condition.
+
+## QUESTION 9 — 4 MARKS
+
+A mother is a carrier of an X-linked recessive condition, while the father is unaffected.
+
+Determine the expected proportion of affected sons.
+
+**Suggested answer:**
+
+Cross:
+
+XᴺXⁿ × XᴺY.
+
+Among sons:
+
+- XᴺY = unaffected.
+- XⁿY = affected.
+
+Expected proportion of affected sons = 1/2 = 50%.
+
+## QUESTION 10 — 4 MARKS
+
+A couple has genotypes Iᴬi and Iᴮi for the ABO blood group system.
+
+State the possible blood groups of their children.
+
+**Suggested answer:**
+
+Cross:
+
+Iᴬi × Iᴮi.
+
+Possible genotypes:
+
+- IᴬIᴮ = AB.
+- Iᴬi = A.
+- Iᴮi = B.
+- ii = O.
+
+All four blood groups are possible, each with an expected probability of 25%.
+
+## QUESTION 11 — 4 MARKS
+
+Explain the difference between autosomal and sex-linked inheritance.
+
+**Suggested answer:**
+
+1. Autosomal inheritance involves genes located on autosomes.
+2. Autosomal characteristics can affect individuals of any biological sex.
+3. Sex-linked inheritance involves genes located on sex chromosomes.
+4. Sex-linked inheritance patterns may differ between males and females.
+
+## QUESTION 12 — 4 MARKS
+
+Explain how Down syndrome occurs.
+
+**Suggested answer:**
+
+1. Down syndrome is usually caused by trisomy 21.
+2. The individual has three copies of chromosome 21.
+3. This results in an additional copy of genetic material from chromosome 21.
+4. The additional genetic material affects development and may cause characteristic physical and learning differences.
+
+## QUESTION 13 — 5 MARKS
+
+Compare haemophilia and red-green colour vision deficiency.
+
+**Suggested answer:**
+
+1. Both commonly follow X-linked recessive inheritance.
+2. Both are associated with genes on the X chromosome.
+3. Haemophilia affects the blood-clotting process.
+4. Red-green colour vision deficiency affects the ability to distinguish certain colours.
+5. Both conditions are more frequently expressed in males than females.
+
+## QUESTION 14 — 5 MARKS
+
+Explain why two unaffected parents may have a child with an autosomal recessive inherited condition.
+
+**Suggested answer:**
+
+1. Both parents may be heterozygous carriers.
+2. Each parent has one dominant and one recessive allele.
+3. Each parent can pass either allele to their offspring.
+4. The offspring may inherit the recessive allele from both parents.
+5. The offspring then has a homozygous recessive genotype and may express the condition.
+
+## QUESTION 15 — 6 MARKS
+
+A plant breeder crosses two heterozygous plants for seed shape and seed colour.
+
+Explain how independent assortment produces different combinations of characteristics in the offspring.
+
+**Suggested answer:**
+
+1. Each parent has genotype RrYy.
+2. The alleles separate during gamete formation.
+3. Each gamete receives one allele for seed shape and one allele for seed colour.
+4. Four gamete combinations can form: RY, Ry, rY and ry.
+5. Fertilisation combines gametes from the two parents.
+6. Different allele combinations produce different offspring genotypes and phenotypes.
+
+---
+
+# KEY TERMS TO MEMORISE
+
+**Basic genetics:**
+
+- Inheritance.
+- Gene.
+- Allele.
+- Character.
+- Trait.
+- Dominant allele.
+- Recessive allele.
+- Genotype.
+- Phenotype.
+- Homozygous.
+- Heterozygous.
+- Gamete.
+- Fertilisation.
+
+**Monohybrid inheritance:**
+
+- Parental generation.
+- First filial generation.
+- Second filial generation.
+- Law of Segregation.
+- Test cross.
+- Punnett square.
+- Genotypic ratio.
+- Phenotypic ratio.
+
+**Dihybrid inheritance:**
+
+- Dihybrid cross.
+- Independent assortment.
+- Gamete combinations.
+- 9:3:3:1 ratio.
+- Dihybrid test cross.
+
+**Genes and alleles:**
+
+- DNA.
+- Chromosome.
+- Locus.
+- Multiple alleles.
+- Codominance.
+- Incomplete dominance.
+- Mutation.
+- Genetic variation.
+
+**Human inheritance:**
+
+- Autosomes.
+- Sex chromosomes.
+- X-linked inheritance.
+- Autosomal dominant.
+- Autosomal recessive.
+- Haemophilia.
+- Red-green colour vision deficiency.
+- ABO blood group.
+- Rh factor.
+- Down syndrome.
+- Turner syndrome.
+- Klinefelter syndrome.
+- Genetic counselling.
+
+---
+
+# FINAL CHAPTER 11 REVISION SUMMARY
+
+## 11.1 Monohybrid Inheritance
+
+- Studies one characteristic controlled by one gene.
+- A gene may have different alleles.
+- Dominant alleles are expressed in heterozygotes under complete dominance.
+- Recessive alleles are expressed when no dominant allele masks them.
+- Tt × Tt gives a typical genotypic ratio of 1:2:1.
+- Under complete dominance, the phenotypic ratio is 3:1.
+- Mendel's Law of Segregation explains how alleles separate during gamete formation.
+
+## 11.2 Dihybrid Inheritance
+
+- Studies two characteristics controlled by two genes.
+- A RrYy parent can produce RY, Ry, rY and ry gametes.
+- Independent assortment produces different allele combinations.
+- RrYy × RrYy gives the typical phenotypic ratio 9:3:3:1 under the usual Mendelian assumptions.
+- A dihybrid test cross can produce a 1:1:1:1 ratio under independent assortment.
+
+## 11.3 Genes and Alleles
+
+- Genes are sections of DNA.
+- Alleles are alternative forms of a gene.
+- Genes are located at specific loci on chromosomes.
+- Genotype describes allele combinations.
+- Phenotype describes observable characteristics.
+- Homozygous means two identical alleles.
+- Heterozygous means two different alleles.
+- Codominance expresses both alleles.
+- Incomplete dominance produces an intermediate heterozygous phenotype.
+- Multiple alleles means more than two allele forms exist in a population.
+
+## 11.4 Inheritance in Humans
+
+- Most human body cells contain 46 chromosomes.
+- Human gametes contain 23 chromosomes.
+- Autosomal genes are located on autosomes.
+- Sex-linked genes are located on sex chromosomes.
+- Typical human sex determination involves XX and XY chromosome patterns.
+- Haemophilia and common red-green colour vision deficiencies often follow X-linked recessive inheritance.
+- ABO blood groups are controlled by Iᴬ, Iᴮ and i alleles.
+- Iᴬ and Iᴮ are codominant.
+- Rh incompatibility can occur when an Rh-negative mother carries an Rh-positive foetus.
+- Down syndrome is usually caused by trisomy 21.
+- Genetic counselling helps individuals understand inherited conditions and genetic risks.
+
+**FINAL EXAM REMINDER:**
+
+For every inheritance question:
+
+1. Identify the genes and alleles.
+2. Determine the parental genotypes.
+3. List the gametes.
+4. Draw the Punnett square.
+5. Identify offspring genotypes.
+6. Determine phenotypes.
+7. Calculate the requested ratio or probability.
+8. State the conclusion clearly.
+
+Always check whether the question involves complete dominance, codominance, incomplete dominance, autosomal inheritance or sex-linked inheritance before choosing your method.
