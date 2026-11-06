@@ -1,0 +1,2865 @@
+
+SUBJECT: Chemistry
+FORM: Form 4
+CHAPTER: 3
+CHAPTER_TITLE: The Mole Concept, Chemical Formulae and Equations
+TOPICS: 3.1 Relative Atomic Mass and Relative Molecular Mass; 3.2 Mole Concept; 3.3 Chemical Formula; 3.4 Chemical Equation
+SOURCE_TYPE: KSSM-aligned educational knowledge base
+STATUS: Detailed teaching content
+
+============================================================
+CHAPTER 3: THE MOLE CONCEPT, CHEMICAL FORMULAE AND EQUATIONS
+============================================================
+
+PURPOSE OF THIS CHAPTER
+
+This chapter explains how chemists measure the amount of
+substances, calculate the number of particles, determine
+chemical formulae, write balanced chemical equations and
+calculate the quantities of reactants and products.
+
+The student must understand the relationship between:
+- Relative atomic mass (Ar)
+- Relative molecular mass (Mr)
+- Relative formula mass
+- Number of moles (n)
+- Number of particles (N)
+- Avogadro constant (NA)
+- Molar mass
+- Mass
+- Molar volume
+- Volume of gas
+- Empirical formula
+- Molecular formula
+- Balanced chemical equations
+- Mole ratio
+- Stoichiometry
+
+IMPORTANT TEACHING RULE:
+Never teach this chapter as a collection of formulas to
+memorise. Explain what each quantity means, why a formula
+is used, when it should be used and how the quantities
+are connected.
+
+============================================================
+SECTION 1: CHAPTER OVERVIEW AND LEARNING OBJECTIVES
+============================================================
+
+By the end of this chapter, students should be able to:
+
+1. Explain relative atomic mass using the carbon-12 scale.
+2. Explain relative molecular mass.
+3. Calculate relative molecular mass and relative formula mass.
+4. Define one mole.
+5. Explain the Avogadro constant.
+6. Calculate the number of particles using the number of moles.
+7. Calculate the number of moles from the number of particles.
+8. Explain molar mass.
+9. Relate mass, molar mass and number of moles.
+10. Explain molar volume.
+11. Calculate the volume of a gas using the number of moles.
+12. Distinguish between empirical and molecular formulae.
+13. Determine empirical formulae from experimental data.
+14. Determine molecular formulae from empirical formulae.
+15. Construct chemical formulae of compounds.
+16. Write balanced chemical equations.
+17. Interpret chemical equations qualitatively and quantitatively.
+18. Solve stoichiometry problems using mole ratios.
+
+============================================================
+SECTION 2: DETAILED TEACHING CONTENT
+============================================================
+
+------------------------------------------------------------
+TOPIC 3.1: RELATIVE ATOMIC MASS AND RELATIVE MOLECULAR MASS
+------------------------------------------------------------
+
+3.1.1 UNDERSTANDING RELATIVE ATOMIC MASS (Ar)
+
+Atoms are extremely small. Their masses cannot conveniently
+be measured using ordinary laboratory balances.
+
+Scientists therefore use a relative scale to compare the
+masses of atoms.
+
+The relative atomic mass of an element is the average mass
+of one atom of the element compared with one-twelfth of the
+mass of one carbon-12 atom.
+
+Definition:
+
+Relative atomic mass, Ar, is the average mass of one atom
+of an element compared with one-twelfth of the mass of
+one carbon-12 atom.
+
+The reference standard is carbon-12.
+
+Why is carbon-12 used?
+
+1. Carbon-12 is a stable isotope.
+2. It provides an agreed reference for comparing atomic
+   masses.
+3. Its mass is divided into twelve equal parts.
+4. The relative masses of other atoms are compared with
+   one-twelfth of the mass of carbon-12.
+
+Important:
+Ar is a relative value. It has no unit.
+
+Examples of commonly used relative atomic masses:
+
+H = 1
+C = 12
+N = 14
+O = 16
+Na = 23
+Mg = 24
+Al = 27
+S = 32
+Cl = 35.5
+K = 39
+Ca = 40
+Fe = 56
+Cu = 63.5
+Zn = 65
+
+These are commonly used examination values. Always follow
+the relative atomic masses supplied in the question if
+different values are given.
+
+Understanding the meaning:
+
+If the relative atomic mass of magnesium is 24, this means
+that a magnesium atom has an average mass 24 times as large
+as one-twelfth of the mass of a carbon-12 atom.
+
+It does NOT mean that one magnesium atom has a mass of
+24 grams.
+
+Common mistake:
+Do not write g after Ar.
+
+Correct: Ar of Mg = 24
+Incorrect: Ar of Mg = 24 g
+
+3.1.2 RELATIVE MOLECULAR MASS (Mr)
+
+A molecule consists of two or more atoms chemically bonded
+together.
+
+Relative molecular mass is the mass of a molecule compared
+with one-twelfth of the mass of a carbon-12 atom.
+
+Definition:
+
+Relative molecular mass, Mr, is the average mass of one
+molecule compared with one-twelfth of the mass of one
+carbon-12 atom.
+
+It is calculated by adding the relative atomic masses of
+all atoms present in the molecular formula.
+
+Formula:
+
+Mr = sum of the Ar values of all atoms in a molecule.
+
+EXAMPLE 1: Calculate the Mr of water, H2O.
+
+Given:
+Ar(H) = 1
+Ar(O) = 16
+
+Step 1: Identify the atoms.
+Water contains:
+2 hydrogen atoms
+1 oxygen atom
+
+Step 2: Multiply each Ar by the number of atoms.
+
+Hydrogen contribution:
+2 x 1 = 2
+
+Oxygen contribution:
+1 x 16 = 16
+
+Step 3: Add the contributions.
+
+Mr(H2O) = 2 + 16
+Mr(H2O) = 18
+
+Answer: Mr of water = 18.
+
+EXAMPLE 2: Calculate the Mr of carbon dioxide, CO2.
+
+Given:
+Ar(C) = 12
+Ar(O) = 16
+
+Mr(CO2) = 12 + (2 x 16)
+Mr(CO2) = 12 + 32
+Mr(CO2) = 44
+
+Answer: Mr of carbon dioxide = 44.
+
+EXAMPLE 3: Calculate the Mr of sulphuric acid, H2SO4.
+
+Given:
+Ar(H) = 1
+Ar(S) = 32
+Ar(O) = 16
+
+Mr(H2SO4) = (2 x 1) + 32 + (4 x 16)
+Mr(H2SO4) = 2 + 32 + 64
+Mr(H2SO4) = 98
+
+Answer: Mr of sulphuric acid = 98.
+
+EXAMPLE 4: Calculate the Mr of calcium hydroxide,
+Ca(OH)2.
+
+Given:
+Ar(Ca) = 40
+Ar(O) = 16
+Ar(H) = 1
+
+The bracket means that the entire OH group occurs twice.
+
+Mr(Ca(OH)2) = 40 + 2(16 + 1)
+= 40 + 34
+= 74
+
+Answer: Mr of calcium hydroxide = 74.
+
+IMPORTANT RULES FOR BRACKETS:
+
+For Ca(OH)2:
+- There is 1 calcium atom.
+- There are 2 oxygen atoms.
+- There are 2 hydrogen atoms.
+
+For Al2(SO4)3:
+- There are 2 aluminium atoms.
+- There are 3 sulphur atoms.
+- There are 12 oxygen atoms.
+
+The number outside a bracket multiplies every atom
+inside that bracket.
+
+3.1.3 RELATIVE FORMULA MASS
+
+Ionic compounds do not normally exist as separate
+molecules. They form giant ionic lattices.
+
+Therefore, the term relative formula mass is used for
+ionic compounds.
+
+Relative formula mass is calculated by adding the
+relative atomic masses of all atoms represented in
+the chemical formula.
+
+Example: Calculate the relative formula mass of NaCl.
+
+Ar(Na) = 23
+Ar(Cl) = 35.5
+
+Relative formula mass = 23 + 35.5
+= 58.5
+
+Example: Calculate the relative formula mass of MgCl2.
+
+Ar(Mg) = 24
+Ar(Cl) = 35.5
+
+Relative formula mass = 24 + (2 x 35.5)
+= 24 + 71
+= 95
+
+Difference between Mr and relative formula mass:
+
+Relative molecular mass:
+- Used for molecular substances.
+- Refers to the mass of a molecule relative to the
+  carbon-12 standard.
+
+Relative formula mass:
+- Used for ionic compounds.
+- Calculated using the formula unit of the compound.
+
+IMPORTANT:
+Both values are dimensionless relative quantities.
+Do not attach the unit g/mol to Mr or relative formula mass.
+
+------------------------------------------------------------
+TOPIC 3.2: MOLE CONCEPT
+------------------------------------------------------------
+
+3.2.1 WHAT IS A MOLE?
+
+Atoms, ions and molecules are extremely small.
+A normal sample of matter contains an enormous number
+of particles.
+
+Counting individual particles one by one is impractical.
+
+Chemists therefore use a counting unit called the mole.
+
+Definition:
+
+One mole is the amount of substance that contains exactly
+6.02214076 x 10^23 elementary entities.
+
+The mole is represented by the symbol mol.
+
+The elementary entities may be:
+- Atoms
+- Molecules
+- Ions
+- Electrons
+- Other specified particles
+
+For Form 4 calculations, the particle type must be
+identified clearly.
+
+Examples:
+
+1 mol of carbon atoms contains
+6.02214076 x 10^23 carbon atoms.
+
+1 mol of oxygen molecules contains
+6.02214076 x 10^23 oxygen molecules.
+
+1 mol of sodium ions contains
+6.02214076 x 10^23 sodium ions.
+
+IMPORTANT DISTINCTION:
+
+Oxygen atom = O
+
+Oxygen molecule = O2
+
+One mole of oxygen atoms is not the same particle
+description as one mole of oxygen molecules.
+
+One mole of O atoms contains NA oxygen atoms.
+
+One mole of O2 molecules contains NA oxygen molecules,
+which contain 2NA oxygen atoms in total.
+
+3.2.2 AVOGADRO CONSTANT (NA)
+
+The Avogadro constant is the number of specified
+elementary entities in one mole of a substance.
+
+Symbol:
+
+NA
+
+Value:
+
+NA = 6.02214076 x 10^23 mol^-1
+
+In many school calculations, it may be rounded to:
+
+NA = 6.02 x 10^23 mol^-1
+
+Use the value provided by the question or examination.
+
+The unit mol^-1 means per mole.
+
+RELATIONSHIP BETWEEN NUMBER OF PARTICLES AND MOLES
+
+Formula:
+
+N = n x NA
+
+Where:
+N = number of particles
+n = number of moles, in mol
+NA = Avogadro constant, in mol^-1
+
+To calculate number of moles:
+
+n = N / NA
+
+To calculate number of particles:
+
+N = n x NA
+
+EXAMPLE 1: Calculate the number of atoms in 2 mol of
+magnesium.
+
+Given:
+n = 2 mol
+NA = 6.02 x 10^23 mol^-1
+
+Formula:
+N = n x NA
+
+Substitute:
+N = 2 x 6.02 x 10^23
+
+N = 1.204 x 10^24 atoms
+
+Answer:
+1.204 x 10^24 magnesium atoms.
+
+EXAMPLE 2: Calculate the number of molecules in
+0.5 mol of carbon dioxide.
+
+Given:
+n = 0.5 mol
+NA = 6.02 x 10^23 mol^-1
+
+N = n x NA
+
+N = 0.5 x 6.02 x 10^23
+
+N = 3.01 x 10^23 molecules
+
+Answer:
+3.01 x 10^23 carbon dioxide molecules.
+
+EXAMPLE 3: A sample contains 1.204 x 10^24
+oxygen molecules. Calculate the number of moles.
+
+Given:
+N = 1.204 x 10^24 molecules
+NA = 6.02 x 10^23 mol^-1
+
+Formula:
+n = N / NA
+
+Substitute:
+n = (1.204 x 10^24) / (6.02 x 10^23)
+
+n = 2 mol
+
+Answer: 2 mol of oxygen molecules.
+
+IMPORTANT:
+Always identify whether the question asks for atoms,
+molecules or ions. Do not change the particle type
+without explaining the relationship.
+
+3.2.3 MOLAR MASS
+
+Molar mass is the mass of one mole of a substance.
+
+Symbol:
+M
+
+Common unit:
+g mol^-1
+
+Molar mass has the same numerical value as the
+relative atomic mass, relative molecular mass or
+relative formula mass, but it has a unit.
+
+Examples:
+
+Ar(Mg) = 24
+Molar mass of Mg = 24 g mol^-1
+
+Mr(H2O) = 18
+Molar mass of H2O = 18 g mol^-1
+
+Relative formula mass of NaCl = 58.5
+Molar mass of NaCl = 58.5 g mol^-1
+
+Difference:
+
+Mr(H2O) = 18 (no unit)
+
+Molar mass of H2O = 18 g mol^-1
+
+3.2.4 RELATIONSHIP BETWEEN MASS, MOLES AND
+MOLAR MASS
+
+Formula:
+
+n = m / M
+
+Where:
+n = number of moles, mol
+m = mass of substance, g
+M = molar mass, g mol^-1
+
+Rearranged formulae:
+
+m = n x M
+
+M = m / n
+
+Use the formula that matches the unknown quantity.
+
+EXAMPLE 1: Calculate the number of moles in 36 g
+of water.
+
+Given:
+Mass = 36 g
+Mr(H2O) = 18
+Molar mass = 18 g mol^-1
+
+Formula:
+n = m / M
+
+Substitute:
+n = 36 / 18
+
+n = 2 mol
+
+Answer: 2 mol of water.
+
+EXAMPLE 2: Calculate the mass of 0.5 mol of carbon
+dioxide.
+
+Given:
+n = 0.5 mol
+Mr(CO2) = 44
+M = 44 g mol^-1
+
+Formula:
+m = n x M
+
+Substitute:
+m = 0.5 x 44
+
+m = 22 g
+
+Answer: 22 g of carbon dioxide.
+
+EXAMPLE 3: A sample of magnesium has a mass of 12 g.
+Calculate the number of moles.
+
+Given:
+m = 12 g
+Ar(Mg) = 24
+M = 24 g mol^-1
+
+n = m / M
+
+n = 12 / 24
+
+n = 0.5 mol
+
+Answer: 0.5 mol of magnesium atoms.
+
+3.2.5 MOLAR VOLUME OF A GAS
+
+Molar volume is the volume occupied by one mole of
+a gas at a specified temperature and pressure.
+
+The molar volume depends on the temperature and pressure.
+
+For the KSSM Form 4 calculations, distinguish between
+the conditions stated in the question.
+
+Common school values:
+
+At standard temperature and pressure (STP):
+Molar volume = 22.4 dm^3 mol^-1
+
+At room conditions:
+Molar volume = 24 dm^3 mol^-1
+
+IMPORTANT:
+Use the value specified by the question or the
+conditions required by the prescribed syllabus.
+Do not use 22.4 and 24 interchangeably.
+
+Formula at STP:
+
+V = n x 22.4
+
+Formula at room conditions:
+
+V = n x 24
+
+Where:
+V = volume of gas, dm^3
+n = number of moles, mol
+
+To calculate number of moles:
+
+At STP:
+n = V / 22.4
+
+At room conditions:
+n = V / 24
+
+If volume is given in cm^3, convert it into dm^3
+before using these formulae.
+
+1 dm^3 = 1000 cm^3
+
+1 cm^3 = 0.001 dm^3
+
+EXAMPLE 1: Calculate the volume occupied by 2 mol
+of a gas at room conditions.
+
+Given:
+n = 2 mol
+Molar volume = 24 dm^3 mol^-1
+
+Formula:
+V = n x 24
+
+Substitute:
+V = 2 x 24
+
+V = 48 dm^3
+
+Answer: 48 dm^3.
+
+EXAMPLE 2: Calculate the number of moles in 600 cm^3
+of gas at room conditions.
+
+Step 1: Convert cm^3 into dm^3.
+
+600 / 1000 = 0.600 dm^3
+
+Step 2: Use the molar volume formula.
+
+n = V / 24
+
+n = 0.600 / 24
+
+n = 0.025 mol
+
+Answer: 0.025 mol.
+
+EXAMPLE 3: Calculate the volume occupied by 0.25 mol
+of gas at STP.
+
+Given:
+n = 0.25 mol
+Molar volume = 22.4 dm^3 mol^-1
+
+V = n x 22.4
+
+V = 0.25 x 22.4
+
+V = 5.6 dm^3
+
+Answer: 5.6 dm^3.
+
+IMPORTANT GAS CALCULATION RULES:
+
+1. Identify whether the question states STP or room
+   conditions.
+2. Identify the volume unit.
+3. Convert cm^3 into dm^3 when necessary.
+4. Select the correct molar volume.
+5. Substitute the values correctly.
+6. Include the correct unit.
+
+3.2.6 SUMMARY OF RELATIONSHIPS
+
+Number of particles and moles:
+
+N = n x NA
+
+n = N / NA
+
+Mass and moles:
+
+n = m / M
+
+m = n x M
+
+Gas volume at STP:
+
+V = n x 22.4
+
+n = V / 22.4
+
+Gas volume at room conditions:
+
+V = n x 24
+
+n = V / 24
+
+The student must understand which formula applies
+to the information provided.
+
+------------------------------------------------------------
+TOPIC 3.3: CHEMICAL FORMULA
+------------------------------------------------------------
+
+3.3.1 MEANING OF CHEMICAL FORMULA
+
+A chemical formula represents the types and relative
+numbers of atoms or ions present in a substance.
+
+Examples:
+
+H2O = water
+CO2 = carbon dioxide
+NaCl = sodium chloride
+MgO = magnesium oxide
+H2SO4 = sulphuric acid
+
+A chemical formula provides information about the
+composition of a substance.
+
+SUBSCRIPTS:
+
+A subscript is a small number written at the lower
+right of a chemical symbol.
+
+Example:
+
+H2O
+
+The subscript 2 means that one water molecule contains
+two hydrogen atoms.
+
+O has no subscript, which means one oxygen atom.
+
+If there is no subscript, the number of atoms is one.
+
+Examples:
+
+CO2:
+1 carbon atom
+2 oxygen atoms
+
+NH3:
+1 nitrogen atom
+3 hydrogen atoms
+
+Al2O3:
+2 aluminium atoms
+3 oxygen atoms
+
+3.3.2 EMPIRICAL FORMULA
+
+Definition:
+
+The empirical formula is the simplest whole-number
+ratio of atoms of each element in a compound.
+
+It does not necessarily show the actual number of atoms
+in one molecule.
+
+Examples:
+
+Molecular formula C6H12O6
+Empirical formula CH2O
+
+Molecular formula H2O2
+Empirical formula HO
+
+Molecular formula C2H4
+Empirical formula CH2
+
+The empirical formula shows the simplest ratio.
+
+3.3.3 DETERMINING EMPIRICAL FORMULA FROM MASS
+
+General method:
+
+STEP 1:
+Write down the mass of each element.
+
+STEP 2:
+Convert the mass of each element into moles.
+
+Formula:
+Number of moles = mass / Ar
+
+STEP 3:
+Divide all mole values by the smallest mole value.
+
+STEP 4:
+Obtain the simplest whole-number ratio.
+
+STEP 5:
+Write the empirical formula using the ratio as
+the subscripts.
+
+EXAMPLE 1: A compound contains 24 g of magnesium
+and 16 g of oxygen. Determine its empirical formula.
+
+Given:
+Ar(Mg) = 24
+Ar(O) = 16
+
+STEP 1: Write the masses.
+
+Magnesium = 24 g
+Oxygen = 16 g
+
+STEP 2: Calculate the number of moles.
+
+Moles of Mg = 24 / 24 = 1
+
+Moles of O = 16 / 16 = 1
+
+STEP 3: Divide by the smallest value.
+
+Mg = 1 / 1 = 1
+
+O = 1 / 1 = 1
+
+STEP 4: Simplest ratio.
+
+Mg : O = 1 : 1
+
+STEP 5: Write the empirical formula.
+
+MgO
+
+Answer: MgO.
+
+EXAMPLE 2: A compound contains 12 g of carbon
+and 4 g of hydrogen. Determine its empirical formula.
+
+Given:
+Ar(C) = 12
+Ar(H) = 1
+
+STEP 1: Masses.
+
+Carbon = 12 g
+Hydrogen = 4 g
+
+STEP 2: Convert to moles.
+
+Moles of C = 12 / 12 = 1 mol
+
+Moles of H = 4 / 1 = 4 mol
+
+STEP 3: Divide by the smallest value.
+
+C = 1 / 1 = 1
+
+H = 4 / 1 = 4
+
+STEP 4: Ratio.
+
+C : H = 1 : 4
+
+STEP 5: Empirical formula.
+
+CH4
+
+Answer: CH4.
+
+3.3.4 HANDLING NON-WHOLE-NUMBER RATIOS
+
+Sometimes division by the smallest mole value gives
+a ratio containing fractions or decimals.
+
+Convert the ratio into the simplest whole-number ratio.
+
+Common conversions:
+
+0.5 -> multiply all ratios by 2
+0.33 -> multiply all ratios by 3
+0.25 -> multiply all ratios by 4
+0.2 -> multiply all ratios by 5
+0.67 -> multiply all ratios by 3
+0.75 -> multiply all ratios by 4
+
+EXAMPLE:
+
+Suppose the mole ratio is:
+
+A : B = 1 : 1.5
+
+Multiply both values by 2:
+
+A : B = 2 : 3
+
+The empirical formula ratio is 2 : 3.
+
+IMPORTANT:
+Do not round a ratio carelessly.
+A value such as 1.5 must not be rounded to 2.
+Use the correct multiplier to obtain whole numbers.
+
+3.3.5 DETERMINING EMPIRICAL FORMULA FROM
+PERCENTAGE COMPOSITION
+
+If percentage composition is given, assume the total
+mass of the sample is 100 g.
+
+This allows each percentage to be treated as a mass
+in grams.
+
+EXAMPLE:
+
+A compound contains:
+40% carbon
+6.67% hydrogen
+53.33% oxygen
+
+Determine its empirical formula.
+
+Given:
+Ar(C) = 12
+Ar(H) = 1
+Ar(O) = 16
+
+STEP 1: Assume 100 g of compound.
+
+Carbon = 40 g
+Hydrogen = 6.67 g
+Oxygen = 53.33 g
+
+STEP 2: Convert each mass into moles.
+
+C = 40 / 12 = 3.333 mol
+
+H = 6.67 / 1 = 6.67 mol
+
+O = 53.33 / 16 = 3.333 mol
+
+STEP 3: Divide by the smallest value.
+
+C = 3.333 / 3.333 = 1
+
+H = 6.67 / 3.333 = 2
+
+O = 3.333 / 3.333 = 1
+
+STEP 4: Ratio.
+
+C : H : O = 1 : 2 : 1
+
+STEP 5: Write empirical formula.
+
+CH2O
+
+Answer: CH2O.
+
+3.3.6 DETERMINING EMPIRICAL FORMULA FROM
+EXPERIMENTAL DATA
+
+Magnesium oxide is a common example used to understand
+empirical formula determination.
+
+When magnesium reacts with oxygen, magnesium oxide
+is formed.
+
+Word equation:
+
+Magnesium + Oxygen -> Magnesium oxide
+
+Balanced chemical equation:
+
+2Mg(s) + O2(g) -> 2MgO(s)
+
+The empirical formula of magnesium oxide is MgO.
+
+The ratio of magnesium atoms to oxygen atoms is 1 : 1.
+
+In an experimental calculation, the mass of oxygen
+combined with magnesium can be obtained from the
+difference between the final and initial relevant masses,
+provided the measurements are correctly taken.
+
+Mass of oxygen = mass of magnesium oxide - mass of
+magnesium
+
+Then:
+
+Moles of magnesium = mass of magnesium / Ar(Mg)
+
+Moles of oxygen = mass of oxygen / Ar(O)
+
+Divide both mole values by the smaller value to
+obtain the simplest ratio.
+
+Copper(II) oxide can be studied in a similar way.
+
+Copper reacts with oxygen to form copper(II) oxide.
+
+2Cu(s) + O2(g) -> 2CuO(s)
+
+The formula CuO represents a 1 : 1 ratio of copper
+to oxygen atoms.
+
+IMPORTANT EXPERIMENTAL ACCURACY:
+Do not invent experimental masses or claim a particular
+experimental result unless the question provides the data.
+The calculated empirical formula must come from the
+actual measured or supplied values.
+
+3.3.7 MOLECULAR FORMULA
+
+Definition:
+
+The molecular formula shows the actual number of atoms
+of each element present in one molecule of a compound.
+
+The molecular formula may be the same as or a whole-number
+multiple of the empirical formula.
+
+Examples:
+
+Empirical formula: CH2
+Molecular formula: C2H4
+
+Empirical formula: CH2O
+Molecular formula: C6H12O6
+
+3.3.8 DETERMINING MOLECULAR FORMULA
+
+Formula:
+
+Molecular formula = (Empirical formula)n
+
+Where:
+
+n = Mr / empirical formula mass
+
+The value of n must be a positive whole number for
+a valid molecular formula.
+
+METHOD:
+
+STEP 1:
+Determine the empirical formula.
+
+STEP 2:
+Calculate the empirical formula mass.
+
+STEP 3:
+Divide the relative molecular mass by the empirical
+formula mass.
+
+STEP 4:
+Multiply every subscript in the empirical formula
+by the resulting whole number.
+
+EXAMPLE:
+
+A compound has empirical formula CH2O and relative
+molecular mass 180. Determine its molecular formula.
+
+Given:
+Ar(C) = 12
+Ar(H) = 1
+Ar(O) = 16
+
+STEP 1: Empirical formula.
+
+CH2O
+
+STEP 2: Calculate empirical formula mass.
+
+= 12 + (2 x 1) + 16
+= 30
+
+STEP 3: Calculate n.
+
+n = Mr / empirical formula mass
+
+n = 180 / 30
+
+n = 6
+
+STEP 4: Multiply every subscript by 6.
+
+CH2O becomes C6H12O6.
+
+Answer: C6H12O6.
+
+IMPORTANT:
+Multiply every subscript, including an implied subscript
+of 1. Do not multiply only one element.
+
+3.3.9 CONSTRUCTING CHEMICAL FORMULAE OF COMPOUNDS
+
+Chemical formulae must represent the correct ratio
+of ions or atoms in a compound.
+
+For ionic compounds, the total positive charge must
+balance the total negative charge.
+
+Examples:
+
+Sodium ion = Na+
+Chloride ion = Cl-
+
+NaCl
+
+Magnesium ion = Mg2+
+Chloride ion = Cl-
+
+MgCl2
+
+Aluminium ion = Al3+
+Oxide ion = O2-
+
+Al2O3
+
+Calcium ion = Ca2+
+Hydroxide ion = OH-
+
+Ca(OH)2
+
+IMPORTANT RULES:
+
+1. The final compound must be electrically neutral.
+2. Use the correct ionic charges.
+3. Use the simplest whole-number ratio.
+4. Use brackets when a polyatomic ion occurs more
+   than once.
+5. Do not write the charges as part of the final
+   neutral compound formula.
+
+Common polyatomic ions:
+
+Hydroxide: OH-
+Nitrate: NO3-
+Sulphate: SO4^2-
+Carbonate: CO3^2-
+Ammonium: NH4+
+Phosphate: PO4^3-
+
+Examples:
+
+NaNO3
+Mg(NO3)2
+Al2(SO4)3
+(NH4)2SO4
+CaCO3
+
+Do not confuse a chemical formula with a chemical
+equation. A formula represents a substance; an equation
+represents a chemical reaction.
+
+------------------------------------------------------------
+TOPIC 3.4: CHEMICAL EQUATION
+------------------------------------------------------------
+
+3.4.1 MEANING OF A CHEMICAL EQUATION
+
+A chemical equation is a symbolic representation of
+a chemical reaction using chemical formulae and symbols.
+
+A chemical equation shows:
+
+- Reactants
+- Products
+- Relative amounts of substances
+- Physical states when included
+- Conditions of reaction when indicated
+
+Reactants are the substances that undergo a chemical
+reaction.
+
+Products are the new substances formed.
+
+Example:
+
+2Mg + O2 -> 2MgO
+
+Reactants:
+Magnesium and oxygen.
+
+Product:
+Magnesium oxide.
+
+3.4.2 WORD EQUATIONS
+
+A word equation represents a chemical reaction using
+the names of substances.
+
+Example:
+
+Magnesium + Oxygen -> Magnesium oxide
+
+A word equation can be converted into a chemical equation
+by writing the correct chemical formulae and balancing
+the equation.
+
+3.4.3 WRITING CHEMICAL FORMULAE IN EQUATIONS
+
+The correct chemical formula must be used before
+balancing an equation.
+
+Examples:
+
+Hydrogen = H2
+Oxygen = O2
+Nitrogen = N2
+Chlorine = Cl2
+Water = H2O
+Carbon dioxide = CO2
+Magnesium oxide = MgO
+Sodium chloride = NaCl
+
+Some elements exist naturally as diatomic molecules.
+
+Common diatomic elements:
+
+H2
+N2
+O2
+F2
+Cl2
+Br2
+I2
+
+Do not automatically write oxygen as O in an equation
+when elemental oxygen gas is intended. Its correct
+molecular formula is O2.
+
+3.4.4 BALANCING CHEMICAL EQUATIONS
+
+The law of conservation of mass states that matter
+is not created or destroyed during an ordinary
+chemical reaction.
+
+Therefore, the number of atoms of each element must
+be the same on both sides of a balanced equation.
+
+Coefficients are numbers placed in front of chemical
+formulae.
+
+They are used to balance the equation.
+
+IMPORTANT:
+Never change subscripts to balance a chemical equation.
+Changing a subscript changes the identity of the substance.
+
+EXAMPLE 1:
+
+Unbalanced:
+
+Mg + O2 -> MgO
+
+Count atoms:
+
+Left:
+Mg = 1
+O = 2
+
+Right:
+Mg = 1
+O = 1
+
+Put coefficient 2 in front of MgO:
+
+Mg + O2 -> 2MgO
+
+Now right:
+Mg = 2
+O = 2
+
+Put coefficient 2 in front of Mg:
+
+2Mg + O2 -> 2MgO
+
+Final balanced equation:
+
+2Mg + O2 -> 2MgO
+
+Check:
+Left Mg = 2, O = 2
+Right Mg = 2, O = 2
+
+EXAMPLE 2: Formation of water.
+
+Unbalanced:
+
+H2 + O2 -> H2O
+
+Balance oxygen by putting 2 in front of water:
+
+H2 + O2 -> 2H2O
+
+Right:
+H = 4
+O = 2
+
+Balance hydrogen by putting 2 in front of H2:
+
+2H2 + O2 -> 2H2O
+
+Check:
+Left H = 4, O = 2
+Right H = 4, O = 2
+
+EXAMPLE 3: Formation of ammonia.
+
+Unbalanced:
+
+N2 + H2 -> NH3
+
+Balance nitrogen:
+
+N2 + H2 -> 2NH3
+
+Right hydrogen = 6.
+
+Balance hydrogen:
+
+N2 + 3H2 -> 2NH3
+
+Check:
+Left N = 2, H = 6
+Right N = 2, H = 6
+
+EXAMPLE 4: Decomposition of copper(II) carbonate.
+
+Word equation:
+
+Copper(II) carbonate -> Copper(II) oxide + Carbon dioxide
+
+Formula equation:
+
+CuCO3 -> CuO + CO2
+
+The equation is already balanced.
+
+EXAMPLE 5: Formation of ammonium chloride.
+
+Word equation:
+
+Ammonia + Hydrogen chloride -> Ammonium chloride
+
+Formula equation:
+
+NH3 + HCl -> NH4Cl
+
+The equation is already balanced.
+
+EXAMPLE 6: Formation of lead(II) iodide.
+
+Word equation:
+
+Lead(II) nitrate + Potassium iodide ->
+Lead(II) iodide + Potassium nitrate
+
+Formula equation:
+
+Pb(NO3)2 + KI -> PbI2 + KNO3
+
+Balanced equation:
+
+Pb(NO3)2 + 2KI -> PbI2 + 2KNO3
+
+Check:
+Pb = 1 on both sides.
+K = 2 on both sides.
+I = 2 on both sides.
+N = 2 on both sides.
+O = 6 on both sides.
+
+3.4.5 PHYSICAL STATE SYMBOLS
+
+Physical state symbols indicate the physical state
+of each substance in a chemical equation.
+
+(s) = solid
+(l) = liquid
+(g) = gas
+(aq) = aqueous solution
+
+Examples:
+
+Mg(s) + 2HCl(aq) ->
+MgCl2(aq) + H2(g)
+
+The symbol (aq) means that the substance is dissolved
+in water to form an aqueous solution.
+
+The symbol (g) indicates a gas.
+
+The symbol (s) indicates a solid.
+
+The symbol (l) indicates a liquid.
+
+3.4.6 QUALITATIVE INTERPRETATION OF EQUATIONS
+
+Qualitative interpretation explains the substances
+involved in a chemical reaction.
+
+Example:
+
+2Mg(s) + O2(g) -> 2MgO(s)
+
+Qualitative interpretation:
+
+Solid magnesium reacts with oxygen gas to form
+solid magnesium oxide.
+
+3.4.7 QUANTITATIVE INTERPRETATION OF EQUATIONS
+
+Quantitative interpretation explains the numerical
+relationship between the substances in a balanced
+chemical equation.
+
+Example:
+
+2Mg(s) + O2(g) -> 2MgO(s)
+
+The coefficient ratio is:
+
+Mg : O2 : MgO = 2 : 1 : 2
+
+This means:
+
+2 mol of magnesium reacts with 1 mol of oxygen
+to produce 2 mol of magnesium oxide.
+
+It also represents the ratio of particles:
+
+2 magnesium atoms react with 1 oxygen molecule
+to form 2 formula units of magnesium oxide.
+
+IMPORTANT:
+The coefficients show mole ratios, not mass ratios.
+
+For example:
+
+2Mg + O2 -> 2MgO
+
+The mole ratio is 2 : 1 : 2.
+
+It does not mean that the masses are 2 g : 1 g : 2 g.
+
+The mass of each substance depends on its molar mass.
+
+============================================================
+SECTION 3: STOICHIOMETRY AND THE FOUR-STAGE
+CALCULATION METHOD
+============================================================
+
+3.4.8 MEANING OF STOICHIOMETRY
+
+Stoichiometry is the calculation of the quantitative
+relationships between reactants and products in a
+balanced chemical equation.
+
+It allows chemists to calculate:
+
+- Mass of reactants required.
+- Mass of products formed.
+- Number of moles of reactants.
+- Number of moles of products.
+- Volume of gases involved.
+- Amount of substances consumed or produced.
+
+THE MOST IMPORTANT CALCULATION RULE FOR THIS AI:
+
+Whenever solving a reaction stoichiometry question,
+the AI MUST use the following four stages in this
+exact order.
+
+STAGE 1: WRITE THE BALANCED CHEMICAL EQUATION.
+
+STAGE 2: FIND THE NUMBER OF MOLES OF THE KNOWN
+SUBSTANCE.
+
+STAGE 3: APPLY THE MOLE RATIO FROM THE BALANCED
+CHEMICAL EQUATION.
+
+STAGE 4: CALCULATE THE FINAL ANSWER IN THE
+REQUIRED UNIT.
+
+Never skip a stage.
+Never reverse the order.
+Never use an unbalanced equation to obtain a mole ratio.
+
+------------------------------------------------------------
+THE FOUR-STAGE METHOD IN DETAIL
+------------------------------------------------------------
+
+STAGE 1: WRITE THE BALANCED CHEMICAL EQUATION
+
+Identify the reactants and products.
+
+Write their correct chemical formulae.
+
+Balance the equation.
+
+Check that the number of atoms of every element
+is equal on both sides.
+
+Only after balancing can the coefficients be used
+as a mole ratio.
+
+STAGE 2: FIND THE NUMBER OF MOLES
+
+Identify the substance whose mass, volume or particle
+quantity is supplied.
+
+Calculate its number of moles using the appropriate
+formula.
+
+If mass is given:
+
+n = m / M
+
+If number of particles is given:
+
+n = N / NA
+
+If gas volume at STP is given:
+
+n = V / 22.4
+
+If gas volume at room conditions is given:
+
+n = V / 24
+
+The AI must show the formula, substitution and answer.
+
+STAGE 3: APPLY THE MOLE RATIO
+
+Take the coefficients from the balanced equation.
+
+General relationship:
+
+Moles of required substance =
+Moles of known substance x
+(coefficient of required substance /
+coefficient of known substance)
+
+The coefficient ratio must be taken from the balanced
+equation, not from the chemical formula subscripts.
+
+STAGE 4: CALCULATE THE FINAL ANSWER
+
+Convert the moles of the required substance into the
+quantity requested.
+
+If mass is required:
+
+m = n x M
+
+If gas volume is required at STP:
+
+V = n x 22.4
+
+If gas volume is required at room conditions:
+
+V = n x 24
+
+If number of particles is required:
+
+N = n x NA
+
+Write the final answer with the correct unit.
+
+------------------------------------------------------------
+FULL FOUR-STAGE WORKED EXAMPLE 1
+------------------------------------------------------------
+
+QUESTION:
+
+Magnesium reacts with oxygen to form magnesium oxide.
+
+Calculate the mass of magnesium oxide produced when
+12 g of magnesium reacts completely with oxygen.
+
+Given:
+Ar(Mg) = 24
+Ar(O) = 16
+
+STAGE 1: WRITE THE BALANCED CHEMICAL EQUATION
+
+Word equation:
+
+Magnesium + Oxygen -> Magnesium oxide
+
+Chemical equation:
+
+2Mg(s) + O2(g) -> 2MgO(s)
+
+Check:
+Mg atoms: 2 on each side.
+O atoms: 2 on each side.
+
+Balanced equation:
+
+2Mg + O2 -> 2MgO
+
+STAGE 2: FIND THE NUMBER OF MOLES
+
+Known substance: magnesium.
+
+Mass of magnesium = 12 g
+
+Molar mass of magnesium = 24 g mol^-1
+
+Formula:
+
+n = m / M
+
+Substitute:
+
+n(Mg) = 12 / 24
+
+n(Mg) = 0.5 mol
+
+STAGE 3: APPLY THE MOLE RATIO
+
+From the balanced equation:
+
+2Mg + O2 -> 2MgO
+
+Mole ratio:
+
+Mg : MgO = 2 : 2
+
+Therefore:
+
+n(MgO) = 0.5 x (2 / 2)
+
+n(MgO) = 0.5 mol
+
+STAGE 4: CALCULATE THE FINAL ANSWER
+
+Find the molar mass of magnesium oxide.
+
+M(MgO) = 24 + 16
+
+M(MgO) = 40 g mol^-1
+
+Formula:
+
+m = n x M
+
+Substitute:
+
+m(MgO) = 0.5 x 40
+
+m(MgO) = 20 g
+
+FINAL ANSWER:
+
+20 g of magnesium oxide is produced.
+
+------------------------------------------------------------
+FULL FOUR-STAGE WORKED EXAMPLE 2
+------------------------------------------------------------
+
+QUESTION:
+
+Calcium carbonate decomposes when heated.
+
+Calculate the mass of carbon dioxide produced when
+25 g of calcium carbonate decomposes completely.
+
+Given:
+Ar(Ca) = 40
+Ar(C) = 12
+Ar(O) = 16
+
+STAGE 1: WRITE THE BALANCED CHEMICAL EQUATION
+
+CaCO3(s) -> CaO(s) + CO2(g)
+
+Check:
+Ca = 1 on both sides.
+C = 1 on both sides.
+O = 3 on both sides.
+
+The equation is balanced.
+
+STAGE 2: FIND THE NUMBER OF MOLES
+
+Known substance: calcium carbonate.
+
+M(CaCO3) = 40 + 12 + (3 x 16)
+
+M(CaCO3) = 100 g mol^-1
+
+Formula:
+
+n = m / M
+
+Substitute:
+
+n(CaCO3) = 25 / 100
+
+n(CaCO3) = 0.25 mol
+
+STAGE 3: APPLY THE MOLE RATIO
+
+CaCO3 : CO2 = 1 : 1
+
+Therefore:
+
+n(CO2) = 0.25 x (1 / 1)
+
+n(CO2) = 0.25 mol
+
+STAGE 4: CALCULATE THE FINAL ANSWER
+
+M(CO2) = 12 + (2 x 16)
+
+M(CO2) = 44 g mol^-1
+
+m = n x M
+
+m(CO2) = 0.25 x 44
+
+m(CO2) = 11 g
+
+FINAL ANSWER:
+
+11 g of carbon dioxide is produced.
+
+------------------------------------------------------------
+FULL FOUR-STAGE WORKED EXAMPLE 3
+------------------------------------------------------------
+
+QUESTION:
+
+Hydrogen reacts with oxygen to produce water.
+
+Calculate the mass of water produced when 4 g of
+hydrogen reacts completely with excess oxygen.
+
+Given:
+Ar(H) = 1
+Ar(O) = 16
+
+STAGE 1: WRITE THE BALANCED CHEMICAL EQUATION
+
+2H2(g) + O2(g) -> 2H2O(l)
+
+Check:
+Hydrogen atoms = 4 on each side.
+Oxygen atoms = 2 on each side.
+
+STAGE 2: FIND THE NUMBER OF MOLES
+
+Known substance: hydrogen gas.
+
+M(H2) = 2 x 1
+
+M(H2) = 2 g mol^-1
+
+n = m / M
+
+n(H2) = 4 / 2
+
+n(H2) = 2 mol
+
+STAGE 3: APPLY THE MOLE RATIO
+
+From the equation:
+
+2H2 + O2 -> 2H2O
+
+H2 : H2O = 2 : 2
+
+n(H2O) = 2 x (2 / 2)
+
+n(H2O) = 2 mol
+
+STAGE 4: CALCULATE THE FINAL ANSWER
+
+M(H2O) = (2 x 1) + 16
+
+M(H2O) = 18 g mol^-1
+
+m = n x M
+
+m(H2O) = 2 x 18
+
+m(H2O) = 36 g
+
+FINAL ANSWER:
+
+36 g of water is produced.
+
+------------------------------------------------------------
+FULL FOUR-STAGE WORKED EXAMPLE 4: GAS VOLUME
+------------------------------------------------------------
+
+QUESTION:
+
+Calcium carbonate reacts with hydrochloric acid.
+
+Calculate the volume of carbon dioxide produced at
+room conditions when 10 g of calcium carbonate reacts
+completely with excess hydrochloric acid.
+
+Given:
+Ar(Ca) = 40
+Ar(C) = 12
+Ar(O) = 16
+
+STAGE 1: WRITE THE BALANCED CHEMICAL EQUATION
+
+CaCO3(s) + 2HCl(aq) ->
+CaCl2(aq) + H2O(l) + CO2(g)
+
+Check:
+Ca = 1
+C = 1
+H = 2
+Cl = 2
+O = 3
+
+All atoms are balanced.
+
+STAGE 2: FIND THE NUMBER OF MOLES
+
+M(CaCO3) = 40 + 12 + (3 x 16)
+
+M(CaCO3) = 100 g mol^-1
+
+n = m / M
+
+n(CaCO3) = 10 / 100
+
+n(CaCO3) = 0.1 mol
+
+STAGE 3: APPLY THE MOLE RATIO
+
+CaCO3 : CO2 = 1 : 1
+
+n(CO2) = 0.1 x (1 / 1)
+
+n(CO2) = 0.1 mol
+
+STAGE 4: CALCULATE THE FINAL ANSWER
+
+At room conditions:
+
+Molar volume = 24 dm^3 mol^-1
+
+V = n x 24
+
+V(CO2) = 0.1 x 24
+
+V(CO2) = 2.4 dm^3
+
+FINAL ANSWER:
+
+2.4 dm^3 of carbon dioxide is produced.
+
+------------------------------------------------------------
+FULL FOUR-STAGE WORKED EXAMPLE 5:
+CALCULATING NUMBER OF PARTICLES
+------------------------------------------------------------
+
+QUESTION:
+
+Calculate the number of carbon dioxide molecules
+produced when 0.2 mol of calcium carbonate reacts
+completely with excess hydrochloric acid.
+
+STAGE 1: WRITE THE BALANCED CHEMICAL EQUATION
+
+CaCO3 + 2HCl -> CaCl2 + H2O + CO2
+
+STAGE 2: FIND THE NUMBER OF MOLES
+
+The question already gives:
+
+n(CaCO3) = 0.2 mol
+
+STAGE 3: APPLY THE MOLE RATIO
+
+CaCO3 : CO2 = 1 : 1
+
+n(CO2) = 0.2 x (1 / 1)
+
+n(CO2) = 0.2 mol
+
+STAGE 4: CALCULATE THE FINAL ANSWER
+
+N = n x NA
+
+N = 0.2 x 6.02 x 10^23
+
+N = 1.204 x 10^23 molecules
+
+FINAL ANSWER:
+
+1.204 x 10^23 carbon dioxide molecules.
+
+============================================================
+SECTION 4: IMPORTANT COMPARISONS AND RELATIONSHIPS
+============================================================
+
+4.1 Ar VERSUS Mr
+
+Ar:
+- Relative atomic mass.
+- Refers to an atom.
+- Based on the carbon-12 scale.
+- Has no unit.
+
+Mr:
+- Relative molecular mass.
+- Refers to a molecule.
+- Calculated by adding Ar values.
+- Has no unit.
+
+4.2 Mr VERSUS MOLAR MASS
+
+Mr:
+- Relative mass of a molecule.
+- No unit.
+- Example: Mr(H2O) = 18.
+
+Molar mass:
+- Mass of one mole of a substance.
+- Unit g mol^-1.
+- Example: M(H2O) = 18 g mol^-1.
+
+4.3 EMPIRICAL FORMULA VERSUS MOLECULAR FORMULA
+
+Empirical formula:
+- Simplest whole-number ratio.
+- Does not necessarily show actual atom numbers.
+
+Molecular formula:
+- Actual number of each type of atom in one molecule.
+- May be a whole-number multiple of the empirical formula.
+
+4.4 MOLE VERSUS NUMBER OF PARTICLES
+
+Mole:
+- Amount of substance.
+- Unit mol.
+
+Number of particles:
+- Total number of specified entities.
+- No unit as a count.
+
+4.5 MOLECULAR FORMULA VERSUS CHEMICAL EQUATION
+
+Chemical formula:
+- Represents a substance.
+- Example: H2O.
+
+Chemical equation:
+- Represents a reaction.
+- Example: 2H2 + O2 -> 2H2O.
+
+4.6 COEFFICIENT VERSUS SUBSCRIPT
+
+Coefficient:
+- Number in front of a chemical formula.
+- Changes the number of particles or moles represented.
+
+Subscript:
+- Small number within a chemical formula.
+- Shows the number of atoms in the formula.
+
+Example:
+
+2H2O
+
+Coefficient = 2
+Subscript for H = 2
+
+This represents two water molecules, containing
+four hydrogen atoms and two oxygen atoms in total.
+
+4.7 MOLE RATIO VERSUS MASS RATIO
+
+Mole ratio:
+- Taken from coefficients in a balanced equation.
+
+Mass ratio:
+- Depends on the mole ratio and molar masses.
+
+Never treat the coefficients as masses in grams.
+
+============================================================
+SECTION 5: FORMULAE, SYMBOLS AND NOTATION
+============================================================
+
+5.1 RELATIVE ATOMIC MASS
+
+Ar = relative atomic mass.
+
+No unit.
+
+5.2 RELATIVE MOLECULAR MASS
+
+Mr = sum of relative atomic masses in a molecule.
+
+No unit.
+
+5.3 NUMBER OF PARTICLES
+
+N = n x NA
+
+n = N / NA
+
+N = number of particles
+n = number of moles
+NA = Avogadro constant
+
+5.4 MASS AND MOLES
+
+n = m / M
+
+m = n x M
+
+M = m / n
+
+n = number of moles (mol)
+m = mass (g)
+M = molar mass (g mol^-1)
+
+5.5 GAS VOLUME AT STP
+
+V = n x 22.4
+
+n = V / 22.4
+
+V = volume in dm^3
+n = number of moles in mol
+
+5.6 GAS VOLUME AT ROOM CONDITIONS
+
+V = n x 24
+
+n = V / 24
+
+V = volume in dm^3
+n = number of moles in mol
+
+5.7 EMPIRICAL FORMULA
+
+Moles of element = mass / Ar
+
+Simplest ratio = each mole value / smallest mole value
+
+5.8 MOLECULAR FORMULA
+
+n = Mr / empirical formula mass
+
+Molecular formula = empirical formula multiplied
+by n.
+
+5.9 STOICHIOMETRY
+
+Moles of required substance =
+Moles of known substance x
+(coefficient of required substance /
+coefficient of known substance)
+
+5.10 UNIT CONVERSIONS
+
+1 dm^3 = 1000 cm^3
+
+1 cm^3 = 0.001 dm^3
+
+1 kg = 1000 g
+
+Always check the units before substituting values.
+
+============================================================
+SECTION 6: EXAM TIPS AND COMMON MISTAKES
+============================================================
+
+6.1 COMMON MISTAKES IN RELATIVE MASS
+
+Mistake:
+Adding the atomic masses without multiplying by
+the number of atoms.
+
+Correct approach:
+Multiply each Ar by its subscript first.
+
+Mistake:
+Ignoring brackets.
+
+Correct approach:
+Multiply all atoms inside the bracket by the number
+outside the bracket.
+
+Mistake:
+Adding units to Mr.
+
+Correct approach:
+Mr has no unit.
+
+6.2 COMMON MISTAKES IN MOLE CALCULATIONS
+
+Mistake:
+Using Mr instead of molar mass with units.
+
+Correct approach:
+Calculate Mr first, then express molar mass in
+g mol^-1.
+
+Mistake:
+Using N = n / NA.
+
+Correct approach:
+N = n x NA.
+
+Mistake:
+Confusing atoms and molecules.
+
+Correct approach:
+Identify the specified particle.
+
+Mistake:
+Using the wrong molar volume.
+
+Correct approach:
+Identify STP or room conditions.
+
+6.3 COMMON MISTAKES IN EMPIRICAL FORMULA
+
+Mistake:
+Using mass ratios directly as subscripts.
+
+Correct approach:
+Convert masses into moles first.
+
+Mistake:
+Rounding 1.5 to 2.
+
+Correct approach:
+Multiply all ratios by 2 to obtain whole numbers.
+
+Mistake:
+Forgetting to divide all mole values by the smallest.
+
+Correct approach:
+Divide every value by the smallest mole value.
+
+6.4 COMMON MISTAKES IN MOLECULAR FORMULA
+
+Mistake:
+Using Mr directly as a multiplier.
+
+Correct approach:
+First calculate empirical formula mass, then calculate:
+
+n = Mr / empirical formula mass.
+
+Mistake:
+Multiplying only one subscript.
+
+Correct approach:
+Multiply every subscript by n.
+
+6.5 COMMON MISTAKES IN BALANCING EQUATIONS
+
+Mistake:
+Changing a subscript to balance the equation.
+
+Correct approach:
+Change coefficients only.
+
+Mistake:
+Forgetting diatomic elements.
+
+Correct approach:
+Use the correct elemental formula such as H2, O2,
+N2 and Cl2 where applicable.
+
+Mistake:
+Using an unbalanced equation to calculate mole ratios.
+
+Correct approach:
+Balance and check the equation first.
+
+6.6 COMMON MISTAKES IN STOICHIOMETRY
+
+MOST IMPORTANT:
+
+The AI MUST use the four stages in this exact order.
+
+1. Write the balanced chemical equation.
+2. Find the number of moles.
+3. Apply the mole ratio.
+4. Calculate the final answer.
+
+Mistake:
+Calculating the mass of the product directly from
+the mass of the reactant without using the mole ratio.
+
+Correct approach:
+Convert the known mass into moles, use the mole ratio,
+then convert the required moles into mass.
+
+Mistake:
+Using the wrong coefficients.
+
+Correct approach:
+Take the coefficients from the balanced equation.
+
+Mistake:
+Reversing the mole ratio.
+
+Correct approach:
+Place the coefficient of the required substance
+in the numerator and the coefficient of the known
+substance in the denominator.
+
+Mistake:
+Forgetting the final unit.
+
+Correct approach:
+Write g for mass, dm^3 or cm^3 for volume, mol
+for amount of substance and particles or molecules
+for particle counts.
+
+6.7 EXAM ANSWERING STRATEGY
+
+For definition questions:
+- Give the complete scientific definition.
+- Include important terms.
+- Avoid vague explanations.
+
+For calculation questions:
+- State the formula.
+- Substitute values.
+- Show the calculation.
+- Give the final answer and unit.
+
+For stoichiometry:
+- Label all four stages clearly.
+- Show the balanced equation.
+- Show the mole calculation.
+- Show the mole ratio.
+- Show the final conversion.
+
+For empirical formula:
+- Show the mass values.
+- Convert to moles.
+- Divide by the smallest value.
+- Show the whole-number ratio.
+- Write the formula.
+
+============================================================
+SECTION 7: SPM-STYLE PRACTICE QUESTIONS AND ANSWERS
+============================================================
+
+QUESTION 1: RELATIVE MOLECULAR MASS
+
+Calculate the relative molecular mass of Al2(SO4)3.
+
+Given:
+Ar(Al) = 27
+Ar(S) = 32
+Ar(O) = 16
+
+Suggested answer:
+
+Mr = (2 x 27) + (3 x 32) + (12 x 16)
+
+Mr = 54 + 96 + 192
+
+Mr = 342
+
+Answer: 342.
+
+QUESTION 2: NUMBER OF PARTICLES
+
+Calculate the number of molecules in 0.25 mol
+of oxygen gas.
+
+Given:
+NA = 6.02 x 10^23 mol^-1
+
+Suggested answer:
+
+N = n x NA
+
+N = 0.25 x 6.02 x 10^23
+
+N = 1.505 x 10^23 molecules.
+
+QUESTION 3: MASS AND MOLES
+
+Calculate the number of moles in 9 g of water.
+
+Given:
+Ar(H) = 1
+Ar(O) = 16
+
+Suggested answer:
+
+M(H2O) = (2 x 1) + 16
+
+M(H2O) = 18 g mol^-1
+
+n = m / M
+
+n = 9 / 18
+
+n = 0.5 mol.
+
+QUESTION 4: GAS VOLUME
+
+Calculate the volume of 0.5 mol of gas at STP.
+
+Suggested answer:
+
+V = n x 22.4
+
+V = 0.5 x 22.4
+
+V = 11.2 dm^3.
+
+QUESTION 5: EMPIRICAL FORMULA
+
+A compound contains 24 g of carbon and 4 g of hydrogen.
+Determine its empirical formula.
+
+Given:
+Ar(C) = 12
+Ar(H) = 1
+
+Suggested answer:
+
+Moles of C = 24 / 12 = 2
+
+Moles of H = 4 / 1 = 4
+
+Ratio:
+
+C : H = 2 : 4
+
+Divide by 2:
+
+C : H = 1 : 2
+
+Empirical formula = CH2.
+
+QUESTION 6: MOLECULAR FORMULA
+
+A compound has empirical formula CH2 and relative
+molecular mass 56. Determine its molecular formula.
+
+Given:
+Ar(C) = 12
+Ar(H) = 1
+
+Suggested answer:
+
+Empirical formula mass = 12 + 2 = 14
+
+n = 56 / 14
+
+n = 4
+
+Molecular formula:
+
+(CH2) x 4 = C4H8
+
+Answer: C4H8.
+
+QUESTION 7: BALANCING EQUATIONS
+
+Balance the equation:
+
+Al + O2 -> Al2O3
+
+Suggested answer:
+
+4Al + 3O2 -> 2Al2O3
+
+Check:
+Al = 4 on both sides.
+O = 6 on both sides.
+
+QUESTION 8: QUANTITATIVE INTERPRETATION
+
+Interpret the following equation quantitatively:
+
+N2 + 3H2 -> 2NH3
+
+Suggested answer:
+
+1 mole of nitrogen reacts with 3 moles of hydrogen
+to produce 2 moles of ammonia.
+
+The mole ratio is:
+
+N2 : H2 : NH3 = 1 : 3 : 2.
+
+QUESTION 9: STOICHIOMETRY - MASS
+
+Calculate the mass of magnesium oxide produced when
+6 g of magnesium reacts completely with oxygen.
+
+Given:
+Ar(Mg) = 24
+Ar(O) = 16
+
+Suggested answer:
+
+STAGE 1: BALANCED EQUATION
+
+2Mg + O2 -> 2MgO
+
+STAGE 2: NUMBER OF MOLES
+
+M(Mg) = 24 g mol^-1
+
+n(Mg) = 6 / 24
+
+n(Mg) = 0.25 mol
+
+STAGE 3: MOLE RATIO
+
+Mg : MgO = 2 : 2
+
+n(MgO) = 0.25 x (2 / 2)
+
+n(MgO) = 0.25 mol
+
+STAGE 4: FINAL ANSWER
+
+M(MgO) = 24 + 16 = 40 g mol^-1
+
+m = n x M
+
+m = 0.25 x 40
+
+m = 10 g
+
+Answer: 10 g of magnesium oxide.
+
+QUESTION 10: STOICHIOMETRY - GAS VOLUME
+
+Calcium carbonate reacts with excess hydrochloric acid.
+
+Calculate the volume of carbon dioxide produced at
+room conditions when 5 g of calcium carbonate reacts
+completely.
+
+Given:
+Ar(Ca) = 40
+Ar(C) = 12
+Ar(O) = 16
+
+Suggested answer:
+
+STAGE 1: BALANCED EQUATION
+
+CaCO3 + 2HCl -> CaCl2 + H2O + CO2
+
+STAGE 2: NUMBER OF MOLES
+
+M(CaCO3) = 40 + 12 + (3 x 16)
+
+M(CaCO3) = 100 g mol^-1
+
+n = 5 / 100
+
+n = 0.05 mol
+
+STAGE 3: MOLE RATIO
+
+CaCO3 : CO2 = 1 : 1
+
+n(CO2) = 0.05 x (1 / 1)
+
+n(CO2) = 0.05 mol
+
+STAGE 4: FINAL ANSWER
+
+V = n x 24
+
+V = 0.05 x 24
+
+V = 1.2 dm^3
+
+Answer: 1.2 dm^3 of carbon dioxide.
+
+QUESTION 11: STOICHIOMETRY - MASS OF REACTANT
+
+Hydrogen reacts with oxygen to produce water.
+
+Calculate the mass of oxygen needed to react
+completely with 4 g of hydrogen.
+
+Given:
+Ar(H) = 1
+Ar(O) = 16
+
+Suggested answer:
+
+STAGE 1: BALANCED EQUATION
+
+2H2 + O2 -> 2H2O
+
+STAGE 2: NUMBER OF MOLES
+
+M(H2) = 2 g mol^-1
+
+n(H2) = 4 / 2
+
+n(H2) = 2 mol
+
+STAGE 3: MOLE RATIO
+
+H2 : O2 = 2 : 1
+
+n(O2) = 2 x (1 / 2)
+
+n(O2) = 1 mol
+
+STAGE 4: FINAL ANSWER
+
+M(O2) = 2 x 16
+
+M(O2) = 32 g mol^-1
+
+m(O2) = 1 x 32
+
+m(O2) = 32 g
+
+Answer: 32 g of oxygen.
+
+QUESTION 12: STOICHIOMETRY - PARTICLES
+
+Magnesium reacts with oxygen to form magnesium oxide.
+
+Calculate the number of magnesium oxide formula units
+produced when 0.5 mol of magnesium reacts completely
+with excess oxygen.
+
+Given:
+NA = 6.02 x 10^23 mol^-1
+
+Suggested answer:
+
+STAGE 1: BALANCED EQUATION
+
+2Mg + O2 -> 2MgO
+
+STAGE 2: NUMBER OF MOLES
+
+Given:
+
+n(Mg) = 0.5 mol
+
+STAGE 3: MOLE RATIO
+
+Mg : MgO = 2 : 2
+
+n(MgO) = 0.5 x (2 / 2)
+
+n(MgO) = 0.5 mol
+
+STAGE 4: FINAL ANSWER
+
+N = n x NA
+
+N = 0.5 x 6.02 x 10^23
+
+N = 3.01 x 10^23 formula units.
+
+Answer: 3.01 x 10^23 formula units of magnesium oxide.
+
+============================================================
+SECTION 8: FINAL REVISION SUMMARY
+============================================================
+
+3.1 RELATIVE MASS
+
+Ar:
+Relative atomic mass.
+
+Mr:
+Relative molecular mass.
+
+Relative formula mass:
+Relative mass of the formula unit of an ionic compound.
+
+Mr and relative formula mass are calculated by adding
+the relative atomic masses of the atoms represented
+in the formula.
+
+3.2 MOLE CONCEPT
+
+One mole contains exactly:
+
+6.02214076 x 10^23 elementary entities.
+
+Avogadro constant:
+
+NA = 6.02214076 x 10^23 mol^-1
+
+Number of particles:
+
+N = n x NA
+
+Mass:
+
+n = m / M
+
+Gas volume at STP:
+
+V = n x 22.4
+
+Gas volume at room conditions:
+
+V = n x 24
+
+3.3 CHEMICAL FORMULA
+
+Chemical formula:
+Represents the composition of a substance.
+
+Empirical formula:
+Simplest whole-number ratio.
+
+Molecular formula:
+Actual number of atoms in one molecule.
+
+Empirical formula method:
+Mass -> Moles -> Divide by smallest -> Simplest ratio.
+
+Molecular formula method:
+Empirical formula -> Empirical formula mass ->
+Mr divided by empirical formula mass ->
+Multiply every subscript.
+
+3.4 CHEMICAL EQUATION
+
+A balanced chemical equation has the same number
+of atoms of each element on both sides.
+
+Coefficients are used to balance equations.
+
+Subscripts must never be changed during balancing.
+
+Coefficients provide the mole ratio.
+
+STOICHIOMETRY:
+
+Always follow the four stages:
+
+1. Write the balanced chemical equation.
+2. Find the number of moles.
+3. Apply the mole ratio.
+4. Calculate the final answer.
+
+============================================================
+SECTION 9: KEY TERMS
+============================================================
+
+Relative atomic mass:
+Average mass of one atom compared with one-twelfth
+of the mass of a carbon-12 atom.
+
+Relative molecular mass:
+Mass of a molecule compared with one-twelfth
+of the mass of a carbon-12 atom.
+
+Relative formula mass:
+Relative mass of a formula unit of an ionic compound.
+
+Mole:
+Amount of substance containing Avogadro's number
+of specified elementary entities.
+
+Avogadro constant:
+Number of specified elementary entities in one mole.
+
+Molar mass:
+Mass of one mole of a substance.
+
+Molar volume:
+Volume occupied by one mole of gas at specified
+temperature and pressure.
+
+Chemical formula:
+Symbolic representation of the composition of a substance.
+
+Empirical formula:
+Simplest whole-number ratio of atoms of each element.
+
+Molecular formula:
+Actual number of atoms of each element in a molecule.
+
+Chemical equation:
+Symbolic representation of a chemical reaction.
+
+Reactants:
+Substances that react.
+
+Products:
+Substances formed.
+
+Coefficient:
+Number written in front of a chemical formula.
+
+Subscript:
+Small number indicating the number of atoms.
+
+Mole ratio:
+Ratio of coefficients in a balanced chemical equation.
+
+Stoichiometry:
+Quantitative calculation of reactants and products
+using a balanced chemical equation.
+
+============================================================
+SECTION 10: MEMORY MAP
+============================================================
+
+RELATIVE MASS
+|
+|-- Ar
+|-- Mr
+|-- Relative formula mass
+|
+MOLE CONCEPT
+|
+|-- Avogadro constant
+|-- Number of particles
+|-- Molar mass
+|-- Mass
+|-- Molar volume
+|-- Gas volume
+|
+CHEMICAL FORMULA
+|
+|-- Chemical formula
+|-- Empirical formula
+|-- Molecular formula
+|
+CHEMICAL EQUATION
+|
+|-- Reactants
+|-- Products
+|-- Balancing
+|-- Coefficients
+|-- State symbols
+|-- Quantitative interpretation
+|-- Stoichiometry
+|
+FOUR-STAGE CALCULATION METHOD
+|
+|-- 1. Balanced equation
+|-- 2. Number of moles
+|-- 3. Mole ratio
+|-- 4. Final answer
+
+============================================================
+SECTION 11: AI TEACHING AND ANSWERING INSTRUCTIONS
+============================================================
+
+You are teaching KSSM Form 4 Chemistry Chapter 3:
+The Mole Concept, Chemical Formulae and Equations.
+
+Your purpose is to teach students accurately and in
+detail, not simply produce short notes.
+
+GENERAL TEACHING RULES:
+
+1. Explain the concept before introducing its formula.
+2. Define every scientific symbol.
+3. Show the correct units.
+4. Explain why a formula is being used.
+5. Use correct chemical formulae and balanced equations.
+6. Stay within the student's requested topic and
+   KSSM Form 4 level unless the student requests more.
+7. Do not invent experimental results.
+8. If necessary information is missing, ask for it.
+9. Never present an uncertain calculation as certain.
+10. Use the values supplied in the question.
+
+CALCULATION RULES:
+
+For simple mole calculations:
+Identify the given information, select the correct
+relationship, substitute values and show the answer.
+
+For empirical formula:
+Use mass -> moles -> divide by smallest -> whole-number
+ratio -> empirical formula.
+
+For molecular formula:
+Calculate empirical formula mass, calculate the
+multiplier and multiply every subscript.
+
+FOR ALL REACTION STOICHIOMETRY QUESTIONS:
+
+The four stages are compulsory and must appear in
+this exact order.
+
+STAGE 1:
+Write the correct balanced chemical equation.
+
+STAGE 2:
+Calculate the number of moles of the known substance.
+
+STAGE 3:
+Apply the mole ratio using the coefficients of the
+balanced chemical equation.
+
+STAGE 4:
+Calculate the final required quantity and state the
+correct unit.
+
+Never skip these stages.
+
+Never calculate the required product mass directly
+from the reactant mass without applying the mole ratio.
+
+Never use coefficients from an unbalanced equation.
+
+Never confuse the coefficient ratio with the subscripts
+inside a chemical formula.
+
+SYMBOL ACCURACY RULES:
+
+Ar = relative atomic mass.
+Mr = relative molecular mass.
+M = molar mass.
+m = mass.
+n = number of moles.
+N = number of particles.
+NA = Avogadro constant.
+V = volume of gas.
+
+Do not interchange these symbols.
+
+Do not add units to Ar or Mr.
+
+Use g mol^-1 for molar mass.
+
+Use mol for amount of substance.
+
+Use dm^3 or cm^3 for volume.
+
+Use the correct molar volume for the specified
+conditions.
+
+EXPLANATION RULES:
+
+When a student does not understand a concept:
+1. Explain it in simple language.
+2. Give a scientific definition.
+3. Explain the scientific reasoning.
+4. Show an example.
+5. Explain common mistakes.
+6. Give a practice question.
+
+When a student asks for calculations:
+Show every mathematical step.
+Do not jump directly to the answer.
+Explain where every coefficient and number comes from.
+
+When a student asks for examination answers:
+Use precise scientific terminology.
+Match the answer length to the marks.
+Avoid unnecessary information.
+Show calculation working clearly.
+
+When a student asks for a question outside the
+available chapter source:
+Be transparent about the limitation.
+Do not pretend that missing information is in the source.
+
+END OF CHEMISTRY FORM 4 CHAPTER 3 KNOWLEDGE FILE
