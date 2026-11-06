@@ -1,0 +1,2552 @@
+
+SUBJECT: Chemistry
+FORM: Form 4
+CHAPTER: 2
+CHAPTER_TITLE: Matter and the Atomic Structure
+TOPICS: 2.1 Basic Concepts of Matter; 2.2 The Development of the Atomic Model; 2.3 Atomic Structure; 2.4 Isotopes and Its Uses
+SOURCE_TYPE: Original KSSM-aligned educational knowledge base
+STATUS: Complete chapter learning resource
+
+============================================================
+CHAPTER 2: MATTER AND THE ATOMIC STRUCTURE
+============================================================
+
+CHAPTER OVERVIEW
+
+This chapter introduces the microscopic structure of matter. Although matter can be observed in everyday life, its particles are too small to be seen directly using the naked eye.
+
+All matter consists of tiny particles. These particles may be atoms, molecules or ions.
+
+Students will learn:
+1. The meaning and characteristics of matter.
+2. The kinetic theory of matter.
+3. The properties of solids, liquids and gases.
+4. Changes of state of matter.
+5. The development of atomic models.
+6. The three main subatomic particles.
+7. Proton number and nucleon number.
+8. Electron arrangements.
+9. Isotopes and their applications.
+10. Calculations involving relative atomic mass based on isotopic abundance.
+
+The knowledge in this chapter is important for understanding chemical formulae, chemical equations, the Periodic Table and chemical bonding.
+
+============================================================
+SECTION 1: DETAILED TEACHING CONTENT
+============================================================
+
+------------------------------------------------------------
+2.1 BASIC CONCEPTS OF MATTER
+------------------------------------------------------------
+
+2.1.1 DEFINITION OF MATTER
+
+Matter is anything that has mass and occupies space.
+
+Examples of matter:
+- Water
+- Air
+- Wood
+- Iron
+- Oxygen
+- Carbon dioxide
+- Sugar
+- Salt
+
+Matter exists in different physical states.
+
+The three main states of matter are:
+1. Solid
+2. Liquid
+3. Gas
+
+Important concepts:
+
+Mass:
+The amount of matter contained in an object.
+
+Volume:
+The space occupied by matter.
+
+Matter must have both mass and volume.
+
+Example:
+Air is matter even though it cannot normally be seen. Air has mass and occupies space.
+
+Light and sound are not classified as matter because they do not have mass and occupy space in the same way as material substances.
+
+2.1.2 PARTICLES IN MATTER
+
+Matter consists of extremely small particles.
+
+Depending on the substance, its particles may be:
+- Atoms
+- Molecules
+- Ions
+
+Atom:
+The smallest particle of an element that retains the chemical properties of that element.
+
+Examples:
+- Helium atom, He
+- Sodium atom, Na
+- Carbon atom, C
+
+Molecule:
+A group of two or more atoms chemically bonded together.
+
+Examples:
+- Oxygen molecule, O2
+- Hydrogen molecule, H2
+- Water molecule, H2O
+- Carbon dioxide molecule, CO2
+
+Ion:
+An electrically charged particle formed when an atom or group of atoms loses or gains electrons.
+
+Examples:
+- Sodium ion, Na+
+- Chloride ion, Cl-
+- Magnesium ion, Mg2+
+- Sulphate ion, SO4^2-
+
+Important distinction:
+
+Atom:
+Usually electrically neutral.
+
+Molecule:
+A group of chemically bonded atoms. A molecule can be neutral overall.
+
+Ion:
+Has an electrical charge because the number of electrons is different from the number of protons.
+
+2.1.3 KINETIC THEORY OF MATTER
+
+The kinetic theory of matter explains the behaviour of particles in matter.
+
+Main ideas:
+
+1. Matter consists of tiny particles.
+2. The particles are in constant motion.
+3. The particles possess kinetic energy.
+4. The particles have spaces between them.
+5. There are attractive forces between particles.
+6. The movement and arrangement of particles differ between solids, liquids and gases.
+
+Kinetic energy:
+Energy possessed by a particle due to its motion.
+
+The higher the temperature of a substance, the higher the average kinetic energy of its particles.
+
+When temperature increases:
+- Particles gain kinetic energy.
+- Particles move faster on average.
+- The average separation between particles may increase during expansion.
+- The substance may eventually change state if enough energy is supplied.
+
+Temperature is related to the average kinetic energy of particles, not the total kinetic energy of all particles in a sample.
+
+2.1.4 THE THREE STATES OF MATTER
+
+A. SOLID
+
+Characteristics:
+- Has a fixed shape.
+- Has a fixed volume.
+- Particles are packed closely together.
+- Particles are arranged in an orderly arrangement in crystalline solids.
+- Strong attractive forces hold particles in position.
+- Particles vibrate about fixed positions.
+- Solids are generally difficult to compress.
+- Solids do not flow.
+
+Explanation:
+
+The particles in a solid are closely packed. They cannot move freely from one position to another. They only vibrate around their fixed positions.
+
+This explains why solids maintain their shape and volume.
+
+Examples:
+- Ice
+- Copper
+- Iron
+- Salt crystals
+- Wood
+
+B. LIQUID
+
+Characteristics:
+- Has a fixed volume.
+- Does not have a fixed shape.
+- Takes the shape of its container.
+- Particles are close together.
+- Particles are arranged randomly.
+- Attractive forces are weaker than those in a typical solid.
+- Particles can slide past one another.
+- Liquids can flow.
+- Liquids are difficult to compress.
+
+Explanation:
+
+Liquid particles have enough kinetic energy to move past one another while remaining relatively close together.
+
+This allows liquids to flow and take the shape of their containers.
+
+Examples:
+- Water
+- Ethanol
+- Cooking oil
+- Mercury
+
+C. GAS
+
+Characteristics:
+- Has no fixed shape.
+- Has no fixed volume.
+- Expands to fill its container.
+- Particles are far apart.
+- Particles move rapidly and randomly.
+- Attractive forces between particles are very weak under ordinary conditions.
+- Gases can be compressed easily.
+- Gases have low density compared with most solids and liquids.
+
+Explanation:
+
+Gas particles are separated by large spaces. They move freely in random directions and collide with one another and the walls of their container.
+
+This explains why gases expand to fill the available space.
+
+Examples:
+- Oxygen
+- Nitrogen
+- Carbon dioxide
+- Helium
+- Water vapour
+
+COMPARISON OF THE THREE STATES
+
+Solid:
+- Shape: Fixed
+- Volume: Fixed
+- Particle arrangement: Closely packed and generally orderly
+- Particle movement: Vibrate at fixed positions
+- Attractive forces: Strong
+- Compressibility: Very low
+
+Liquid:
+- Shape: Not fixed
+- Volume: Fixed
+- Particle arrangement: Close together but randomly arranged
+- Particle movement: Slide past one another
+- Attractive forces: Moderate
+- Compressibility: Very low
+
+Gas:
+- Shape: Not fixed
+- Volume: Not fixed
+- Particle arrangement: Far apart and random
+- Particle movement: Move freely and rapidly
+- Attractive forces: Very weak
+- Compressibility: High
+
+2.1.5 CHANGES OF STATE OF MATTER
+
+Matter can change from one physical state to another when heat energy is absorbed or released.
+
+The main changes of state are:
+
+1. Melting
+2. Freezing
+3. Boiling
+4. Condensation
+5. Sublimation
+6. Deposition
+
+A. MELTING
+
+Melting is the process in which a solid changes into a liquid when heat energy is absorbed.
+
+Example:
+Ice changes into liquid water.
+
+Explanation:
+- Heat energy is absorbed.
+- Particles gain energy.
+- Particles vibrate more vigorously.
+- At the melting point, particles overcome some of the attractive forces holding them in fixed positions.
+- Particles can move past one another.
+- The solid becomes a liquid.
+
+B. FREEZING
+
+Freezing is the process in which a liquid changes into a solid when heat energy is released.
+
+Example:
+Liquid water changes into ice.
+
+Explanation:
+- Heat energy is released to the surroundings.
+- Particles lose kinetic energy.
+- Their movement becomes slower.
+- Attractive forces hold particles in fixed positions.
+- The liquid becomes a solid.
+
+C. BOILING
+
+Boiling is the process in which a liquid changes into a gas throughout the liquid at its boiling point.
+
+Example:
+Water changes into steam when it boils.
+
+Explanation:
+- Heat energy is absorbed.
+- Particles gain kinetic energy.
+- At the boiling point, particles have enough energy to overcome the attractive forces holding them in the liquid.
+- Gas bubbles form throughout the liquid.
+- The liquid changes into gas.
+
+D. EVAPORATION
+
+Evaporation is the process in which particles escape from the surface of a liquid to form gas.
+
+Evaporation:
+- Occurs at the surface of a liquid.
+- Can occur at temperatures below the boiling point.
+- Does not require the entire liquid to reach its boiling point.
+
+Factors affecting the rate of evaporation:
+1. Temperature
+2. Surface area
+3. Air movement
+4. Humidity
+
+Higher temperature:
+Particles have higher average kinetic energy, so more particles can escape from the surface.
+
+Larger surface area:
+More particles are exposed at the surface, increasing the rate of evaporation.
+
+Greater air movement:
+Removes water vapour near the surface and can increase evaporation.
+
+Higher humidity:
+Reduces the rate of evaporation because the surrounding air already contains more water vapour.
+
+E. CONDENSATION
+
+Condensation is the process in which a gas changes into a liquid when heat energy is released.
+
+Example:
+Water vapour forms liquid water droplets on a cold surface.
+
+Explanation:
+- Gas particles lose kinetic energy.
+- Their movement becomes slower.
+- Particles move closer together.
+- Attractive forces become more significant.
+- A liquid is formed.
+
+F. SUBLIMATION
+
+Sublimation is the direct change of a solid into a gas without passing through the liquid state.
+
+Examples:
+- Dry ice, solid carbon dioxide, changes directly into carbon dioxide gas.
+- Iodine can sublime when heated under suitable conditions.
+
+G. DEPOSITION
+
+Deposition is the direct change of a gas into a solid without passing through the liquid state.
+
+Example:
+Formation of frost from water vapour under suitable conditions.
+
+IMPORTANT COMPARISON
+
+Melting:
+Solid -> Liquid
+Heat absorbed.
+
+Freezing:
+Liquid -> Solid
+Heat released.
+
+Boiling:
+Liquid -> Gas
+Heat absorbed.
+
+Condensation:
+Gas -> Liquid
+Heat released.
+
+Sublimation:
+Solid -> Gas
+Heat absorbed.
+
+Deposition:
+Gas -> Solid
+Heat released.
+
+2.1.6 EFFECT OF HEAT ON PARTICLE MOVEMENT
+
+When a substance is heated:
+- Its particles absorb energy.
+- Their average kinetic energy increases.
+- Their movement becomes faster.
+- The substance may expand.
+- If sufficient energy is supplied, a change of state may occur.
+
+When a substance is cooled:
+- Its particles release energy.
+- Their average kinetic energy decreases.
+- Their movement becomes slower.
+- The substance may contract.
+- It may change into another state.
+
+Important:
+During a change of state at a fixed pressure, the temperature of a pure substance remains constant while the change occurs.
+
+This is because the energy supplied or released is involved in overcoming or forming attractive forces between particles rather than increasing or decreasing their average kinetic energy.
+
+2.1.7 HEATING CURVE AND COOLING CURVE
+
+A heating curve shows how the temperature of a substance changes as heat is supplied.
+
+For a pure substance initially in the solid state, the typical heating curve contains five stages:
+
+Stage A:
+Solid is heated.
+
+- Particles gain kinetic energy.
+- Particles vibrate more vigorously.
+- Temperature increases.
+
+Stage B:
+Melting occurs.
+
+- Solid and liquid coexist.
+- Temperature remains constant at the melting point.
+- Energy is absorbed to overcome attractive forces between particles.
+
+Stage C:
+Liquid is heated.
+
+- Liquid particles gain kinetic energy.
+- Particles move faster.
+- Temperature increases.
+
+Stage D:
+Boiling occurs.
+
+- Liquid and gas coexist.
+- Temperature remains constant at the boiling point.
+- Energy is absorbed to overcome attractive forces between particles.
+
+Stage E:
+Gas is heated.
+
+- Gas particles gain kinetic energy.
+- Particles move faster.
+- Temperature increases.
+
+COOLING CURVE
+
+A cooling curve shows how temperature changes when a substance loses heat.
+
+During freezing:
+- Liquid changes into solid.
+- Temperature remains constant at the freezing point while freezing occurs.
+- Energy is released as attractive forces form or become more effective.
+
+During condensation:
+- Gas changes into liquid.
+- Temperature remains constant at the condensation point while condensation occurs.
+- Energy is released.
+
+IMPORTANT EXAM CONCEPT:
+
+A horizontal section of a heating or cooling curve indicates a change of state at constant temperature for a pure substance under constant pressure.
+
+A sloping section indicates a change in temperature within one physical state.
+
+2.1.8 MELTING POINT AND BOILING POINT
+
+Melting point:
+The temperature at which a solid changes into a liquid at a specified pressure.
+
+Boiling point:
+The temperature at which the saturated vapour pressure of a liquid equals the external pressure, allowing boiling to occur throughout the liquid.
+
+For a pure substance at a fixed pressure:
+- Melting occurs at a constant temperature.
+- Boiling occurs at a constant temperature.
+
+Impurities can affect melting and boiling behaviour.
+
+Generally:
+- Impurities lower the melting point of a pure solid.
+- Impurities can cause the boiling point of a liquid to increase, depending on the substance and conditions.
+
+A pure substance normally has a sharp melting point, while an impure substance often melts over a temperature range.
+
+2.1.9 DETERMINING THE MELTING POINT AND BOILING POINT OF NAPHTHALENE
+
+An activity involving naphthalene can be used to study changes of state and the effect of heating on temperature.
+
+Naphthalene is a molecular substance that is solid at room temperature.
+
+General experimental idea:
+
+1. A sample of naphthalene is heated using an appropriate laboratory setup.
+2. Its temperature is measured at regular time intervals.
+3. The temperature readings are recorded.
+4. A temperature-time graph is plotted.
+5. The graph is examined to identify the melting region and boiling region, where relevant to the experimental procedure.
+
+Expected observations:
+- Before melting, temperature increases.
+- During melting, the temperature remains approximately constant for a pure sample under controlled conditions.
+- After melting, the liquid temperature increases when heating continues.
+- During boiling, temperature remains approximately constant under fixed pressure.
+
+Scientific explanation:
+
+At the melting point, energy supplied is used to overcome attractive forces between particles rather than increasing average kinetic energy.
+
+Therefore, the temperature remains constant during the change of state.
+
+EXPERIMENTAL VARIABLES
+
+Manipulated variable:
+Time of heating or another variable specified in the experimental design.
+
+Responding variable:
+Temperature of the naphthalene.
+
+Fixed variables:
+- Mass of naphthalene.
+- Heating conditions.
+- Apparatus arrangement.
+- Pressure.
+- Temperature measurement method.
+
+Safety:
+Heating naphthalene and handling heated apparatus must only be done under teacher supervision using an approved laboratory procedure. Avoid inhaling vapours and follow laboratory safety instructions.
+
+Do not assume that an experimental graph or measured value must match an ideal textbook graph exactly. Experimental readings can be affected by heat loss, thermometer response and other practical limitations.
+
+------------------------------------------------------------
+2.2 THE DEVELOPMENT OF THE ATOMIC MODEL
+------------------------------------------------------------
+
+2.2.1 INTRODUCTION TO ATOMS
+
+An atom is the smallest particle of an element that retains the chemical properties of that element.
+
+Atoms are extremely small and consist of subatomic particles.
+
+The three main subatomic particles are:
+1. Proton
+2. Neutron
+3. Electron
+
+Protons and neutrons are found in the nucleus.
+
+Electrons occupy regions around the nucleus called electron shells or energy levels in the simplified atomic model used at this level.
+
+2.2.2 DALTON'S ATOMIC MODEL
+
+Scientist:
+John Dalton.
+
+Historical contribution:
+Dalton proposed an early scientific atomic theory.
+
+Main ideas:
+- Matter consists of tiny particles called atoms.
+- Atoms of the same element were proposed to be identical in mass and properties.
+- Atoms of different elements were proposed to have different masses and properties.
+- Atoms combine in simple whole-number ratios to form compounds.
+- Chemical reactions involve rearrangement of atoms.
+- Atoms are not created or destroyed in ordinary chemical reactions.
+
+Model:
+An atom was represented as a tiny, solid, indivisible sphere.
+
+Limitation:
+Dalton's model could not explain the existence of subatomic particles because atoms are actually made up of protons, neutrons and electrons.
+
+Modern correction:
+Atoms of the same element can have different numbers of neutrons. These atoms are called isotopes.
+
+2.2.3 THOMSON'S ATOMIC MODEL
+
+Scientist:
+J. J. Thomson.
+
+Discovery:
+The electron.
+
+Thomson's experiments involving cathode rays provided evidence for negatively charged particles within atoms.
+
+Main ideas of Thomson's model:
+- An atom is a positively charged sphere.
+- Negatively charged electrons are embedded throughout the positive sphere.
+- The total positive charge balances the total negative charge.
+- The atom is electrically neutral.
+
+Model name:
+Plum pudding model.
+
+Explanation:
+The positive charge was imagined to be spread throughout the atom, with electrons embedded inside it.
+
+Limitation:
+Thomson's model could not explain the results of Rutherford's alpha-particle scattering experiment.
+
+2.2.4 RUTHERFORD'S ATOMIC MODEL
+
+Scientist:
+Ernest Rutherford.
+
+Experiment:
+Alpha-particle scattering experiment using a thin gold foil.
+
+Main observations:
+1. Most alpha particles passed straight through the gold foil.
+2. Some alpha particles were deflected.
+3. A very small number were deflected through large angles or bounced back.
+
+Conclusions:
+
+Observation 1:
+Most alpha particles passed straight through.
+
+Conclusion:
+Most of the atom is empty space.
+
+Observation 2:
+Some alpha particles were deflected.
+
+Conclusion:
+The atom contains a positively charged region that repels positively charged alpha particles.
+
+Observation 3:
+A very small number experienced large deflections.
+
+Conclusion:
+The positive charge and most of the mass of an atom are concentrated in a very small, dense nucleus.
+
+Main features of Rutherford's atomic model:
+- An atom contains a small, dense, positively charged nucleus.
+- Most of the atom is empty space.
+- Electrons move around the nucleus.
+- Most of the mass of an atom is concentrated in the nucleus.
+
+Limitation:
+Rutherford's model did not adequately explain the arrangement of electrons in specific energy levels or the stability of atoms.
+
+2.2.5 BOHR'S ATOMIC MODEL
+
+Scientist:
+Niels Bohr.
+
+Main ideas:
+- Electrons occupy specific energy levels or shells around the nucleus.
+- Electrons in an allowed energy level have a specific energy.
+- Electrons can absorb energy and move to a higher energy level.
+- Electrons can release energy and move to a lower energy level.
+
+Important:
+Electrons do not simply occupy any arbitrary energy level in the Bohr model.
+
+Electron shells are commonly represented by:
+- First shell: K
+- Second shell: L
+- Third shell: M
+- Fourth shell: N
+
+For the simplified electron arrangement of the first 20 elements, the maximum numbers used in the basic shell-filling model are:
+- First shell: 2 electrons
+- Second shell: 8 electrons
+- Third shell: 8 electrons for the first 20 elements in the school-level arrangement
+- Fourth shell: begins to fill after the third shell has 8 electrons in this simplified arrangement.
+
+Limitation:
+The Bohr model is a simplified representation. Modern atomic theory describes electrons using orbitals and probability distributions rather than fixed circular paths.
+
+2.2.6 CHADWICK'S ATOMIC MODEL
+
+Scientist:
+James Chadwick.
+
+Discovery:
+The neutron in 1932.
+
+Main contribution:
+Chadwick provided evidence for a neutral particle in the nucleus, called the neutron.
+
+Importance:
+- Explained the existence of particles in the nucleus with no electrical charge.
+- Helped explain why the mass of an atom is greater than the mass accounted for by its protons alone.
+- Helped establish the modern picture of the nucleus containing protons and neutrons.
+
+2.2.7 SEQUENCE OF THE DEVELOPMENT OF ATOMIC MODELS
+
+The historical sequence:
+
+1. Dalton
+   - Atom represented as a solid sphere.
+   - Atoms were considered indivisible.
+
+2. Thomson
+   - Positive sphere with embedded electrons.
+   - Plum pudding model.
+
+3. Rutherford
+   - Small, dense, positive nucleus.
+   - Most of the atom is empty space.
+
+4. Bohr
+   - Electrons occupy specific energy levels or shells.
+
+5. Chadwick
+   - Discovery of the neutron.
+   - Nucleus contains protons and neutrons.
+
+IMPORTANT EXAM POINT:
+
+Students must know the correct sequence and the main contribution of each scientist.
+
+Do not mix up:
+- Thomson: discovery of electron.
+- Rutherford: nuclear model of atom.
+- Bohr: electron energy levels.
+- Chadwick: discovery of neutron.
+
+------------------------------------------------------------
+2.3 ATOMIC STRUCTURE
+------------------------------------------------------------
+
+2.3.1 SUBATOMIC PARTICLES
+
+Atoms contain three main subatomic particles.
+
+PROTON
+
+Symbol: p or p+
+
+Relative charge: +1
+
+Relative mass: 1
+
+Location: Nucleus.
+
+Characteristics:
+- Positively charged.
+- Contributes to the mass of the atom.
+- Determines the identity of an element through the proton number.
+
+NEUTRON
+
+Symbol: n
+
+Relative charge: 0
+
+Relative mass: 1
+
+Location: Nucleus.
+
+Characteristics:
+- Electrically neutral.
+- Contributes to the mass of the atom.
+- Different numbers of neutrons give rise to isotopes of an element.
+
+ELECTRON
+
+Symbol: e or e-
+
+Relative charge: -1
+
+Relative mass: 1/1840 (approximately).
+
+Location: Electron shells or regions around the nucleus.
+
+Characteristics:
+- Negatively charged.
+- Has a very small mass compared with a proton or neutron.
+- Involved in chemical bonding and the formation of ions.
+
+COMPARISON TABLE
+
+Proton:
+- Charge: +1
+- Relative mass: 1
+- Location: Nucleus
+
+Neutron:
+- Charge: 0
+- Relative mass: 1
+- Location: Nucleus
+
+Electron:
+- Charge: -1
+- Relative mass: 1/1840
+- Location: Outside nucleus
+
+2.3.2 WHY IS AN ATOM ELECTRICALLY NEUTRAL?
+
+A neutral atom has equal numbers of protons and electrons.
+
+Protons have positive charges.
+
+Electrons have negative charges.
+
+The charges cancel each other when their numbers are equal.
+
+Example:
+
+A sodium atom has:
+- 11 protons.
+- 11 electrons.
+
+Total positive charge = +11.
+
+Total negative charge = -11.
+
+Net charge = 0.
+
+Therefore, the sodium atom is electrically neutral.
+
+2.3.3 PROTON NUMBER
+
+Proton number is the number of protons in the nucleus of an atom.
+
+Symbol: Z.
+
+The proton number identifies the element.
+
+Examples:
+
+Hydrogen:
+Proton number = 1.
+
+Carbon:
+Proton number = 6.
+
+Oxygen:
+Proton number = 8.
+
+Sodium:
+Proton number = 11.
+
+Chlorine:
+Proton number = 17.
+
+IMPORTANT:
+Every atom of the same element has the same proton number.
+
+For example:
+Every carbon atom has 6 protons.
+
+Changing the number of protons changes the identity of the element.
+
+2.3.4 NUCLEON NUMBER
+
+Nucleon number is the total number of protons and neutrons in the nucleus of an atom.
+
+Symbol: A.
+
+Formula:
+
+Nucleon number = Number of protons + Number of neutrons
+
+Therefore:
+
+A = Z + Number of neutrons
+
+Number of neutrons:
+
+Number of neutrons = A - Z
+
+Example:
+
+An atom has:
+Proton number = 11.
+Nucleon number = 23.
+
+Number of neutrons:
+
+= 23 - 11
+= 12
+
+Answer: 12 neutrons.
+
+2.3.5 STANDARD REPRESENTATION OF AN ATOM
+
+The standard representation of an atom is written as:
+
+      A
+      X
+      Z
+
+In text notation:
+
+^A_Z X
+
+Where:
+- X = Chemical symbol.
+- A = Nucleon number.
+- Z = Proton number.
+
+Example:
+
+^23_11 Na
+
+This represents a sodium atom.
+
+Information:
+- Element: Sodium.
+- Proton number: 11.
+- Nucleon number: 23.
+- Number of protons: 11.
+- Number of neutrons: 23 - 11 = 12.
+- Number of electrons in a neutral atom: 11.
+
+Another example:
+
+^35_17 Cl
+
+Information:
+- Element: Chlorine.
+- Proton number: 17.
+- Nucleon number: 35.
+- Number of protons: 17.
+- Number of neutrons: 18.
+- Number of electrons in a neutral atom: 17.
+
+2.3.6 DETERMINING THE NUMBER OF SUBATOMIC PARTICLES
+
+For a neutral atom:
+
+Number of protons = Proton number.
+
+Number of electrons = Proton number.
+
+Number of neutrons = Nucleon number - Proton number.
+
+Example 1:
+
+^27_13 Al
+
+Protons = 13.
+
+Electrons = 13.
+
+Neutrons = 27 - 13 = 14.
+
+Example 2:
+
+^40_20 Ca
+
+Protons = 20.
+
+Electrons = 20.
+
+Neutrons = 40 - 20 = 20.
+
+Example 3:
+
+^16_8 O
+
+Protons = 8.
+
+Electrons = 8.
+
+Neutrons = 16 - 8 = 8.
+
+2.3.7 ELECTRON ARRANGEMENT
+
+Electron arrangement describes how electrons are distributed among the shells of an atom.
+
+For the first 20 elements, the simplified shell arrangement is commonly used.
+
+Maximum shell capacities in the simplified model:
+- First shell: 2.
+- Second shell: 8.
+- Third shell: 8 for the first 20 elements.
+- Fourth shell: begins after the third shell has 8 electrons in this arrangement.
+
+Examples:
+
+Hydrogen:
+Proton number = 1.
+Electron arrangement = 1.
+
+Helium:
+Proton number = 2.
+Electron arrangement = 2.
+
+Lithium:
+Proton number = 3.
+Electron arrangement = 2.1.
+
+Beryllium:
+Proton number = 4.
+Electron arrangement = 2.2.
+
+Boron:
+Proton number = 5.
+Electron arrangement = 2.3.
+
+Carbon:
+Proton number = 6.
+Electron arrangement = 2.4.
+
+Nitrogen:
+Proton number = 7.
+Electron arrangement = 2.5.
+
+Oxygen:
+Proton number = 8.
+Electron arrangement = 2.6.
+
+Fluorine:
+Proton number = 9.
+Electron arrangement = 2.7.
+
+Neon:
+Proton number = 10.
+Electron arrangement = 2.8.
+
+Sodium:
+Proton number = 11.
+Electron arrangement = 2.8.1.
+
+Magnesium:
+Proton number = 12.
+Electron arrangement = 2.8.2.
+
+Aluminium:
+Proton number = 13.
+Electron arrangement = 2.8.3.
+
+Silicon:
+Proton number = 14.
+Electron arrangement = 2.8.4.
+
+Phosphorus:
+Proton number = 15.
+Electron arrangement = 2.8.5.
+
+Sulphur:
+Proton number = 16.
+Electron arrangement = 2.8.6.
+
+Chlorine:
+Proton number = 17.
+Electron arrangement = 2.8.7.
+
+Argon:
+Proton number = 18.
+Electron arrangement = 2.8.8.
+
+Potassium:
+Proton number = 19.
+Electron arrangement = 2.8.8.1.
+
+Calcium:
+Proton number = 20.
+Electron arrangement = 2.8.8.2.
+
+IMPORTANT:
+For a neutral atom, the total number of electrons equals its proton number.
+
+2.3.8 VALENCE ELECTRONS
+
+Valence electrons are the electrons in the outermost occupied electron shell of an atom.
+
+Importance:
+- They determine many chemical properties.
+- They are involved in chemical bonding.
+- They influence how atoms form ions.
+
+Examples:
+
+Sodium:
+Electron arrangement = 2.8.1.
+Valence electrons = 1.
+
+Magnesium:
+Electron arrangement = 2.8.2.
+Valence electrons = 2.
+
+Chlorine:
+Electron arrangement = 2.8.7.
+Valence electrons = 7.
+
+Argon:
+Electron arrangement = 2.8.8.
+Valence electrons = 8.
+
+2.3.9 FORMATION OF IONS
+
+An ion is a charged particle formed when an atom or group of atoms loses or gains electrons.
+
+IMPORTANT:
+Protons are not transferred during ordinary ion formation.
+
+A. FORMATION OF POSITIVE IONS
+
+A positive ion is formed when an atom loses electrons.
+
+The number of electrons becomes smaller than the number of protons.
+
+Example: Sodium.
+
+Neutral sodium:
+- 11 protons.
+- 11 electrons.
+- Electron arrangement: 2.8.1.
+
+Sodium loses one electron.
+
+Sodium ion:
+Na+
+
+- 11 protons.
+- 10 electrons.
+- Electron arrangement: 2.8.
+
+The sodium ion has a +1 charge because it has one more proton than electron.
+
+B. FORMATION OF NEGATIVE IONS
+
+A negative ion is formed when an atom gains electrons.
+
+The number of electrons becomes greater than the number of protons.
+
+Example: Chlorine.
+
+Neutral chlorine:
+- 17 protons.
+- 17 electrons.
+- Electron arrangement: 2.8.7.
+
+Chlorine gains one electron.
+
+Chloride ion:
+Cl-
+
+- 17 protons.
+- 18 electrons.
+- Electron arrangement: 2.8.8.
+
+The chloride ion has a -1 charge because it has one more electron than proton.
+
+IMPORTANT COMPARISON:
+
+Cation:
+- Positive ion.
+- Formed by losing electrons.
+- Has fewer electrons than protons.
+
+Anion:
+- Negative ion.
+- Formed by gaining electrons.
+- Has more electrons than protons.
+
+2.3.10 CALCULATING ELECTRONS IN IONS
+
+For a positive ion:
+
+Number of electrons = Proton number - Positive charge magnitude.
+
+For a negative ion:
+
+Number of electrons = Proton number + Negative charge magnitude.
+
+Example 1:
+
+Mg2+
+
+Proton number = 12.
+
+Number of electrons:
+= 12 - 2
+= 10.
+
+Example 2:
+
+Al3+
+
+Proton number = 13.
+
+Number of electrons:
+= 13 - 3
+= 10.
+
+Example 3:
+
+Cl-
+
+Proton number = 17.
+
+Number of electrons:
+= 17 + 1
+= 18.
+
+Example 4:
+
+O2-
+
+Proton number = 8.
+
+Number of electrons:
+= 8 + 2
+= 10.
+
+Remember:
+The number of protons and neutrons does not change when an ordinary atom forms an ion.
+
+============================================================
+2.4 ISOTOPES AND ITS USES
+============================================================
+
+2.4.1 DEFINITION OF ISOTOPES
+
+Isotopes are atoms of the same element that have the same proton number but different nucleon numbers.
+
+This means isotopes have:
+- The same number of protons.
+- Different numbers of neutrons.
+- Different nucleon numbers.
+
+For neutral atoms of the same element, isotopes also have the same number of electrons.
+
+Example:
+
+Carbon-12 and Carbon-14.
+
+Carbon-12:
+- Proton number = 6.
+- Nucleon number = 12.
+- Number of neutrons = 12 - 6 = 6.
+
+Carbon-14:
+- Proton number = 6.
+- Nucleon number = 14.
+- Number of neutrons = 14 - 6 = 8.
+
+Both are carbon atoms because both contain 6 protons.
+
+They are isotopes because they have different numbers of neutrons.
+
+2.4.2 WHY DO ISOTOPES HAVE THE SAME CHEMICAL PROPERTIES?
+
+Isotopes of the same element have the same proton number.
+
+Neutral isotopes therefore have the same number of electrons and the same electron arrangement.
+
+Chemical properties are mainly determined by electron arrangement, especially the valence electrons.
+
+Therefore, isotopes of the same element generally have similar chemical properties.
+
+However, their physical properties can differ because their masses are different.
+
+2.4.3 NATURAL ABUNDANCE OF ISOTOPES
+
+Natural abundance refers to the percentage of each isotope of an element found naturally.
+
+Some elements exist naturally as mixtures of isotopes.
+
+Different isotopes may have different natural abundances.
+
+Example:
+
+Chlorine has two common naturally occurring isotopes:
+- Chlorine-35.
+- Chlorine-37.
+
+Their approximate natural abundances are:
+- Chlorine-35: 75%.
+- Chlorine-37: 25%.
+
+The natural abundance is important when calculating the relative atomic mass of an element.
+
+2.4.4 RELATIVE ATOMIC MASS
+
+Relative atomic mass is the weighted average mass of the atoms of an element compared with one-twelfth of the mass of one carbon-12 atom.
+
+Symbol: Ar.
+
+Important characteristics:
+- It is a relative value.
+- It has no unit.
+- It takes isotopic abundance into account.
+- It is not necessarily a whole number.
+
+The relative atomic mass of an element can be calculated using the relative masses and natural abundances of its isotopes.
+
+FORMULA:
+
+Relative atomic mass =
+[Sum of (isotopic mass x percentage abundance)]
+/ 100
+
+In general:
+
+Ar = [(m1 x a1) + (m2 x a2) + ...] / 100
+
+Where:
+m = isotopic mass.
+a = percentage abundance.
+
+2.4.5 WORKED CALCULATION: RELATIVE ATOMIC MASS
+
+Example 1:
+
+An element has two isotopes:
+
+Isotope A:
+Mass = 10.
+Natural abundance = 20%.
+
+Isotope B:
+Mass = 11.
+Natural abundance = 80%.
+
+Calculate its relative atomic mass.
+
+Step 1: Write the formula.
+
+Ar = [(10 x 20) + (11 x 80)] / 100
+
+Step 2: Multiply each isotope mass by its percentage abundance.
+
+= (200 + 880) / 100
+
+Step 3: Add the values.
+
+= 1080 / 100
+
+Step 4: Calculate.
+
+Ar = 10.8
+
+Answer: 10.8.
+
+Example 2: Chlorine
+
+Chlorine consists of:
+- Chlorine-35: 75%.
+- Chlorine-37: 25%.
+
+Calculate its relative atomic mass.
+
+Ar = [(35 x 75) + (37 x 25)] / 100
+
+= (2625 + 925) / 100
+
+= 3550 / 100
+
+Ar = 35.5
+
+Answer: 35.5.
+
+Example 3: Finding an unknown abundance
+
+An element has two isotopes:
+- Isotope X has mass 20.
+- Isotope Y has mass 22.
+
+The relative atomic mass is 20.4.
+
+Calculate the percentage abundance of each isotope.
+
+Let the abundance of isotope X be x%.
+
+The abundance of isotope Y is (100 - x)%.
+
+Use the weighted average formula:
+
+20.4 = [20x + 22(100 - x)] / 100
+
+Multiply both sides by 100:
+
+2040 = 20x + 2200 - 22x
+
+2040 = 2200 - 2x
+
+2x = 160
+
+x = 80
+
+Therefore:
+- Isotope X = 80%.
+- Isotope Y = 20%.
+
+Answer:
+80% and 20%.
+
+CHECKING CALCULATIONS:
+
+The sum of all isotope percentage abundances must equal 100%.
+
+The calculated relative atomic mass must lie between the masses of the lightest and heaviest isotopes.
+
+2.4.6 USES OF ISOTOPES
+
+Some isotopes are radioactive.
+
+Radioactive isotopes contain unstable nuclei that release radiation as they change into more stable forms.
+
+The radiation emitted can be useful in medicine, agriculture, industry and scientific research.
+
+Important distinction:
+
+Stable isotopes:
+Do not undergo spontaneous radioactive decay.
+
+Radioactive isotopes:
+Have unstable nuclei and emit radiation as they decay.
+
+A. MEDICINE
+
+Cobalt-60:
+- Used as a source of gamma radiation in radiotherapy.
+- Gamma radiation can be used to destroy cancer cells under carefully controlled medical conditions.
+- Treatment must be planned and controlled by trained medical professionals.
+
+Technetium-99m:
+- Used in medical imaging.
+- Emits gamma radiation that can be detected by specialised equipment.
+- Helps doctors examine organs and investigate certain medical conditions.
+
+Iodine-131:
+- Used in certain medical treatments involving the thyroid gland.
+- Its use is based on the thyroid's ability to take up iodine.
+
+B. AGRICULTURE
+
+Phosphorus-32:
+- Can be used as a tracer to study the uptake and movement of phosphorus in plants.
+- Helps researchers investigate how plants absorb nutrients.
+
+Other suitable radioactive tracers:
+- Used to study nutrient movement and biological processes.
+- Can help improve agricultural research.
+
+C. INDUSTRY
+
+Cobalt-60:
+- Gamma radiation can be used in industrial radiography.
+- Helps inspect internal structures and identify defects in materials.
+
+Radioisotopes can also be used in thickness monitoring:
+- Radiation passing through a material can be measured.
+- Changes in the detected radiation can indicate changes in material thickness.
+
+D. ARCHAEOLOGY AND GEOLOGY
+
+Carbon-14:
+- Used in radiocarbon dating.
+- Helps estimate the age of once-living materials.
+- The method is useful for suitable archaeological samples.
+
+Important:
+Carbon-14 dating is not suitable for determining the age of every type of rock or every ancient object.
+
+E. SCIENTIFIC RESEARCH
+
+Radioisotopes can be used as tracers.
+
+A tracer is a substance that can be followed or detected to study the movement of materials through a system.
+
+Examples:
+- Studying nutrient movement in plants.
+- Investigating biological processes.
+- Studying the movement of substances in research systems.
+
+IMPORTANT EXAM POINT:
+
+When asked to justify the use of an isotope, state:
+1. The name of the isotope.
+2. The field in which it is used.
+3. Its specific application.
+4. Why its properties make it suitable.
+
+Example:
+
+Cobalt-60 is used in radiotherapy because it emits gamma radiation that can be used to destroy cancer cells under controlled medical conditions.
+
+============================================================
+SECTION 2: IMPORTANT COMPARISONS AND CONCEPTUAL RELATIONSHIPS
+============================================================
+
+2.1 SOLID, LIQUID AND GAS
+
+Solid:
+- Fixed shape.
+- Fixed volume.
+- Particles vibrate at fixed positions.
+
+Liquid:
+- No fixed shape.
+- Fixed volume.
+- Particles slide past one another.
+
+Gas:
+- No fixed shape.
+- No fixed volume.
+- Particles move freely and randomly.
+
+2.2 EVAPORATION AND BOILING
+
+Evaporation:
+- Occurs at the surface.
+- Can occur below the boiling point.
+- Does not require the entire liquid to boil.
+
+Boiling:
+- Occurs throughout the liquid.
+- Takes place at the boiling point for a given pressure.
+- Bubbles form throughout the liquid.
+
+2.3 MELTING AND FREEZING
+
+Melting:
+- Solid becomes liquid.
+- Heat absorbed.
+- Particles gain energy.
+
+Freezing:
+- Liquid becomes solid.
+- Heat released.
+- Particles lose energy.
+
+2.4 THE DEVELOPMENT OF ATOMIC MODELS
+
+Dalton:
+Solid sphere.
+
+Thomson:
+Positive sphere containing electrons.
+
+Rutherford:
+Small, dense, positive nucleus and mostly empty space.
+
+Bohr:
+Electrons occupy specific energy levels.
+
+Chadwick:
+Discovery of neutron.
+
+2.5 SUBATOMIC PARTICLES
+
+Proton:
+- Positive charge.
+- Relative mass 1.
+- In nucleus.
+
+Neutron:
+- No charge.
+- Relative mass 1.
+- In nucleus.
+
+Electron:
+- Negative charge.
+- Relative mass 1/1840.
+- Outside nucleus.
+
+2.6 PROTON NUMBER AND NUCLEON NUMBER
+
+Proton number:
+Number of protons.
+
+Nucleon number:
+Number of protons plus neutrons.
+
+Neutrons:
+Nucleon number - Proton number.
+
+2.7 ATOM AND ION
+
+Neutral atom:
+Number of protons = Number of electrons.
+
+Positive ion:
+Has lost electrons.
+
+Negative ion:
+Has gained electrons.
+
+2.8 ISOTOPES
+
+Same:
+- Proton number.
+- Element identity.
+- Electron arrangement for neutral atoms.
+
+Different:
+- Number of neutrons.
+- Nucleon number.
+- Mass.
+
+2.9 RELATIVE ATOMIC MASS
+
+Relative atomic mass:
+- Weighted average of isotope masses.
+- Takes natural abundance into account.
+- Has no unit.
+- May be a decimal.
+
+============================================================
+SECTION 3: SCIENTIFIC SYMBOLS, FORMULAE AND NOTATION
+============================================================
+
+3.1 SYMBOLS
+
+Z = Proton number.
+
+A = Nucleon number.
+
+Ar = Relative atomic mass.
+
+p = Proton.
+
+n = Neutron.
+
+e = Electron.
+
+3.2 SUBATOMIC PARTICLES
+
+Proton:
+Charge = +1
+Relative mass = 1
+
+Neutron:
+Charge = 0
+Relative mass = 1
+
+Electron:
+Charge = -1
+Relative mass = 1/1840 approximately.
+
+3.3 IMPORTANT FORMULAE
+
+Number of neutrons:
+
+Number of neutrons = Nucleon number - Proton number.
+
+Nucleon number:
+
+A = Number of protons + Number of neutrons.
+
+Neutral atom:
+
+Number of electrons = Number of protons.
+
+Positive ion:
+
+Number of electrons = Proton number - Positive charge magnitude.
+
+Negative ion:
+
+Number of electrons = Proton number + Negative charge magnitude.
+
+Relative atomic mass:
+
+Ar = Sum of (isotopic mass x percentage abundance) / 100.
+
+3.4 STANDARD ATOMIC NOTATION
+
+^A_Z X
+
+Where:
+A = Nucleon number.
+Z = Proton number.
+X = Element symbol.
+
+Example:
+
+^23_11 Na
+
+Protons = 11.
+Neutrons = 12.
+Electrons in neutral atom = 11.
+
+3.5 IMPORTANT SCIENTIFIC RULES
+
+- Proton number determines the identity of an element.
+- Nucleon number is the total number of protons and neutrons.
+- Electrons have a much smaller relative mass than protons and neutrons.
+- Ordinary ion formation involves gaining or losing electrons.
+- Isotopes have the same proton number but different neutron numbers.
+- Relative atomic mass is a weighted average.
+- Percentage abundances must add up to 100%.
+- Relative atomic mass has no unit.
+
+============================================================
+SECTION 4: EXAM TIPS, COMMON MISTAKES AND ANSWERING TECHNIQUES
+============================================================
+
+4.1 IMPORTANT DEFINITIONS TO MEMORISE
+
+Matter:
+Anything that has mass and occupies space.
+
+Atom:
+The smallest particle of an element that retains the chemical properties of that element.
+
+Molecule:
+A group of two or more atoms chemically bonded together.
+
+Ion:
+An electrically charged particle formed when an atom or group of atoms loses or gains electrons.
+
+Proton number:
+The number of protons in the nucleus of an atom.
+
+Nucleon number:
+The total number of protons and neutrons in the nucleus of an atom.
+
+Isotopes:
+Atoms of the same element that have the same proton number but different nucleon numbers.
+
+Relative atomic mass:
+The weighted average mass of the atoms of an element compared with one-twelfth of the mass of one carbon-12 atom.
+
+4.2 COMMON EXAM MISTAKES
+
+Mistake 1:
+Confusing proton number with nucleon number.
+
+Correction:
+Proton number counts only protons.
+Nucleon number counts protons and neutrons.
+
+Mistake 2:
+Subtracting proton number from electron number to calculate neutrons.
+
+Correction:
+Number of neutrons = Nucleon number - Proton number.
+
+Mistake 3:
+Thinking that electrons have the same mass as protons.
+
+Correction:
+The relative mass of an electron is approximately 1/1840.
+
+Mistake 4:
+Thinking that positive ions gain electrons.
+
+Correction:
+Positive ions form when atoms lose electrons.
+
+Mistake 5:
+Thinking that negative ions lose electrons.
+
+Correction:
+Negative ions form when atoms gain electrons.
+
+Mistake 6:
+Thinking that isotopes have different proton numbers.
+
+Correction:
+Isotopes have the same proton number but different numbers of neutrons.
+
+Mistake 7:
+Thinking that relative atomic mass must always be a whole number.
+
+Correction:
+Relative atomic mass is a weighted average and can be a decimal.
+
+Mistake 8:
+Forgetting to divide by 100 when using percentage abundance.
+
+Correction:
+Use the correct weighted-average formula.
+
+Mistake 9:
+Confusing evaporation with boiling.
+
+Correction:
+Evaporation occurs at the surface and can happen below the boiling point. Boiling occurs throughout the liquid at its boiling point.
+
+Mistake 10:
+Saying that temperature increases during melting.
+
+Correction:
+For a pure substance at constant pressure, temperature remains constant during melting.
+
+4.3 CALCULATION TECHNIQUE
+
+For subatomic particle questions:
+
+Step 1:
+Identify the proton number.
+
+Step 2:
+Identify the nucleon number.
+
+Step 3:
+Calculate neutrons using A - Z.
+
+Step 4:
+Determine electrons based on whether the species is neutral or an ion.
+
+For isotope calculations:
+
+Step 1:
+Write the isotope masses.
+
+Step 2:
+Write the percentage abundance of each isotope.
+
+Step 3:
+Multiply each mass by its percentage abundance.
+
+Step 4:
+Add all the products.
+
+Step 5:
+Divide by 100.
+
+Step 6:
+Check that the result lies between the isotope masses.
+
+4.4 COMMAND WORDS
+
+STATE:
+Give a direct fact.
+
+DEFINE:
+Give the precise scientific meaning.
+
+IDENTIFY:
+Name the required particle, process or substance.
+
+DESCRIBE:
+State the characteristics or what happens.
+
+EXPLAIN:
+Give the scientific reason behind an observation.
+
+COMPARE:
+State similarities and differences.
+
+CALCULATE:
+Show formula, substitution, working and final answer.
+
+JUSTIFY:
+Give a reason supported by relevant scientific knowledge.
+
+4.5 MARK-AWARE ANSWERING
+
+For a 1-mark definition:
+Give one precise scientific definition.
+
+For a 2-mark explanation:
+Give two relevant scientific points or a point and its explanation.
+
+For a 3-mark comparison:
+Use three clear comparison points.
+
+For a calculation:
+Show the formula, substitution, working and answer.
+
+For an isotope application:
+Name the isotope, application and reason it is suitable.
+
+============================================================
+SECTION 5: SPM-STYLE PRACTICE QUESTIONS WITH SUGGESTED ANSWERS
+============================================================
+
+QUESTION 1: BASIC CONCEPTS OF MATTER
+
+(a) Define matter. [1 mark]
+
+Suggested answer:
+Matter is anything that has mass and occupies space.
+
+(b) State the three main states of matter. [3 marks]
+
+Suggested answer:
+1. Solid.
+2. Liquid.
+3. Gas.
+
+(c) Explain why a gas can be compressed easily. [2 marks]
+
+Suggested answer:
+Gas particles are far apart and have large spaces between them. These spaces can be reduced when pressure is applied.
+
+(d) Explain why a liquid takes the shape of its container. [2 marks]
+
+Suggested answer:
+Liquid particles can move and slide past one another. Therefore, the liquid flows and takes the shape of its container.
+
+------------------------------------------------------------
+
+QUESTION 2: CHANGES OF STATE
+
+(a) Define melting. [1 mark]
+
+Suggested answer:
+Melting is the process in which a solid changes into a liquid when heat energy is absorbed.
+
+(b) State the change of state when water vapour becomes liquid water. [1 mark]
+
+Suggested answer:
+Condensation.
+
+(c) Explain why temperature remains constant during the melting of a pure substance. [2 marks]
+
+Suggested answer:
+The heat energy absorbed is used to overcome attractive forces between particles rather than increasing their average kinetic energy. Therefore, the temperature remains constant during melting.
+
+(d) Differentiate between evaporation and boiling. [2 marks]
+
+Suggested answer:
+Evaporation occurs at the surface of a liquid and can occur below its boiling point. Boiling occurs throughout the liquid at its boiling point.
+
+------------------------------------------------------------
+
+QUESTION 3: DEVELOPMENT OF ATOMIC MODELS
+
+(a) Name the scientist who discovered the electron. [1 mark]
+
+Suggested answer:
+J. J. Thomson.
+
+(b) Name the scientist who discovered the neutron. [1 mark]
+
+Suggested answer:
+James Chadwick.
+
+(c) State the sequence of the five atomic models in historical order. [5 marks]
+
+Suggested answer:
+1. Dalton.
+2. Thomson.
+3. Rutherford.
+4. Bohr.
+5. Chadwick.
+
+(d) State one conclusion from Rutherford's alpha-particle scattering experiment. [1 mark]
+
+Suggested answer:
+Most of the atom is empty space.
+
+(e) Explain why some alpha particles were deflected. [2 marks]
+
+Suggested answer:
+The atom contains a small, positively charged nucleus. Positively charged alpha particles are repelled when they pass close to the nucleus.
+
+------------------------------------------------------------
+
+QUESTION 4: SUBATOMIC PARTICLES
+
+(a) Complete the following information:
+
+Particle: Proton
+Relative charge: +1
+Relative mass: 1
+
+Particle: Neutron
+Relative charge: 0
+Relative mass: 1
+
+Particle: Electron
+Relative charge: -1
+Relative mass: 1/1840
+
+(b) State the location of protons and neutrons. [1 mark]
+
+Suggested answer:
+In the nucleus of an atom.
+
+(c) Explain why a neutral atom has no overall electrical charge. [2 marks]
+
+Suggested answer:
+A neutral atom has equal numbers of protons and electrons. The positive and negative charges cancel each other.
+
+------------------------------------------------------------
+
+QUESTION 5: PROTON NUMBER AND NUCLEON NUMBER
+
+An atom is represented by:
+
+^23_11 Na
+
+(a) State its proton number. [1 mark]
+
+Suggested answer:
+11.
+
+(b) State its nucleon number. [1 mark]
+
+Suggested answer:
+23.
+
+(c) Calculate the number of neutrons. [2 marks]
+
+Working:
+
+Number of neutrons = Nucleon number - Proton number
+
+= 23 - 11
+
+= 12.
+
+Answer: 12 neutrons.
+
+(d) Determine the number of electrons in a neutral sodium atom. [1 mark]
+
+Suggested answer:
+11 electrons.
+
+------------------------------------------------------------
+
+QUESTION 6: ELECTRON ARRANGEMENT
+
+(a) State the electron arrangement of an oxygen atom. [1 mark]
+
+Suggested answer:
+2.6.
+
+(b) State the number of valence electrons in chlorine. [1 mark]
+
+Suggested answer:
+7.
+
+(c) Explain how a sodium atom forms a sodium ion. [2 marks]
+
+Suggested answer:
+A sodium atom loses one electron from its outermost shell. It forms a positively charged sodium ion, Na+.
+
+(d) Determine the number of electrons in Mg2+. [2 marks]
+
+Proton number of magnesium = 12.
+
+Number of electrons = 12 - 2
+
+= 10.
+
+Answer: 10 electrons.
+
+------------------------------------------------------------
+
+QUESTION 7: ISOTOPES
+
+(a) Define isotopes. [2 marks]
+
+Suggested answer:
+Isotopes are atoms of the same element that have the same proton number but different nucleon numbers.
+
+(b) Carbon-12 and Carbon-14 are isotopes.
+
+State the number of protons and neutrons in each atom. [4 marks]
+
+Carbon-12:
+Protons = 6.
+Neutrons = 12 - 6 = 6.
+
+Carbon-14:
+Protons = 6.
+Neutrons = 14 - 6 = 8.
+
+(c) Explain why the two isotopes have similar chemical properties. [2 marks]
+
+Suggested answer:
+They have the same proton number and the same electron arrangement in their neutral atoms. Their chemical properties are therefore similar.
+
+------------------------------------------------------------
+
+QUESTION 8: RELATIVE ATOMIC MASS
+
+An element consists of two isotopes:
+
+Isotope A:
+Mass = 24.
+Abundance = 75%.
+
+Isotope B:
+Mass = 26.
+Abundance = 25%.
+
+Calculate the relative atomic mass. [3 marks]
+
+Working:
+
+Ar = [(24 x 75) + (26 x 25)] / 100
+
+= (1800 + 650) / 100
+
+= 2450 / 100
+
+= 24.5
+
+Answer: 24.5.
+
+------------------------------------------------------------
+
+QUESTION 9: USES OF ISOTOPES
+
+(a) State one use of cobalt-60. [1 mark]
+
+Suggested answer:
+It is used as a source of gamma radiation in radiotherapy.
+
+(b) State one use of carbon-14. [1 mark]
+
+Suggested answer:
+It is used in radiocarbon dating of suitable materials that were once living.
+
+(c) Explain why radioisotopes can be useful as tracers. [2 marks]
+
+Suggested answer:
+Their radiation can be detected using suitable equipment. This allows scientists to follow the movement of substances in a system.
+
+------------------------------------------------------------
+
+QUESTION 10: STRUCTURED QUESTION
+
+An atom X has proton number 17 and nucleon number 35.
+
+(a) Determine the number of protons. [1 mark]
+
+Answer:
+17.
+
+(b) Determine the number of neutrons. [2 marks]
+
+Working:
+35 - 17 = 18.
+
+Answer:
+18.
+
+(c) Determine the number of electrons in a neutral atom X. [1 mark]
+
+Answer:
+17.
+
+(d) Write the electron arrangement. [1 mark]
+
+Answer:
+2.8.7.
+
+(e) Determine the number of electrons in X-. [2 marks]
+
+Working:
+17 + 1 = 18.
+
+Answer:
+18 electrons.
+
+(f) Explain why X- has a negative charge. [2 marks]
+
+Suggested answer:
+It has gained one electron. Therefore, it has one more electron than proton, giving it an overall negative charge.
+
+============================================================
+SECTION 6: FINAL REVISION SUMMARY
+============================================================
+
+6.1 CHAPTER SUMMARY
+
+2.1 BASIC CONCEPTS OF MATTER
+
+Matter:
+Anything that has mass and occupies space.
+
+Three states:
+- Solid.
+- Liquid.
+- Gas.
+
+Particles:
+- Atoms.
+- Molecules.
+- Ions.
+
+Kinetic theory:
+Matter consists of tiny particles in constant motion.
+
+Heating:
+Particles gain average kinetic energy.
+
+Cooling:
+Particles lose average kinetic energy.
+
+Changes of state:
+- Melting: Solid -> Liquid.
+- Freezing: Liquid -> Solid.
+- Boiling: Liquid -> Gas.
+- Condensation: Gas -> Liquid.
+- Sublimation: Solid -> Gas.
+- Deposition: Gas -> Solid.
+
+2.2 DEVELOPMENT OF ATOMIC MODELS
+
+Dalton:
+Solid sphere.
+
+Thomson:
+Positive sphere with embedded electrons.
+
+Rutherford:
+Small, dense, positive nucleus.
+
+Bohr:
+Electrons occupy specific energy levels.
+
+Chadwick:
+Discovery of neutron.
+
+2.3 ATOMIC STRUCTURE
+
+Three subatomic particles:
+- Proton.
+- Neutron.
+- Electron.
+
+Proton:
+Charge +1, relative mass 1.
+
+Neutron:
+Charge 0, relative mass 1.
+
+Electron:
+Charge -1, relative mass 1/1840 approximately.
+
+Proton number:
+Number of protons.
+
+Nucleon number:
+Number of protons + number of neutrons.
+
+Number of neutrons:
+A - Z.
+
+Neutral atom:
+Protons = Electrons.
+
+Cation:
+Loses electrons.
+
+Anion:
+Gains electrons.
+
+2.4 ISOTOPES AND THEIR USES
+
+Isotopes:
+Same proton number, different nucleon numbers.
+
+Natural abundance:
+Percentage of each isotope found naturally.
+
+Relative atomic mass:
+Weighted average of isotopic masses.
+
+Uses:
+- Medicine.
+- Agriculture.
+- Industry.
+- Archaeology.
+- Scientific research.
+
+6.2 KEY TERMS
+
+Matter:
+Anything that has mass and occupies space.
+
+Atom:
+Smallest particle of an element that retains its chemical properties.
+
+Molecule:
+Two or more atoms chemically bonded together.
+
+Ion:
+Electrically charged particle.
+
+Kinetic energy:
+Energy possessed by a particle due to its motion.
+
+Melting:
+Solid changes into liquid.
+
+Freezing:
+Liquid changes into solid.
+
+Boiling:
+Liquid changes into gas throughout the liquid.
+
+Evaporation:
+Liquid changes into gas at its surface.
+
+Condensation:
+Gas changes into liquid.
+
+Sublimation:
+Solid changes directly into gas.
+
+Deposition:
+Gas changes directly into solid.
+
+Proton:
+Positively charged subatomic particle.
+
+Neutron:
+Neutral subatomic particle.
+
+Electron:
+Negatively charged subatomic particle.
+
+Proton number:
+Number of protons in an atom.
+
+Nucleon number:
+Total number of protons and neutrons.
+
+Electron arrangement:
+Distribution of electrons among electron shells.
+
+Isotope:
+Atoms of the same element with the same proton number but different nucleon numbers.
+
+Natural abundance:
+Percentage of an isotope present naturally.
+
+Relative atomic mass:
+Weighted average mass of atoms of an element relative to one-twelfth of carbon-12.
+
+6.3 MEMORY MAP
+
+MATTER
+|
+|-- Basic concepts
+|   |-- Matter has mass and occupies space
+|   |-- Particles: atoms, molecules and ions
+|   |-- Three states: solid, liquid and gas
+|   |-- Kinetic theory
+|   |-- Changes of state
+|
+|-- Atomic models
+|   |-- Dalton
+|   |-- Thomson
+|   |-- Rutherford
+|   |-- Bohr
+|   |-- Chadwick
+|
+|-- Atomic structure
+|   |-- Proton
+|   |-- Neutron
+|   |-- Electron
+|   |-- Proton number
+|   |-- Nucleon number
+|   |-- Electron arrangement
+|   |-- Ions
+|
+|-- Isotopes
+    |-- Same proton number
+    |-- Different neutron number
+    |-- Natural abundance
+    |-- Relative atomic mass
+    |-- Applications
+
+6.4 MOST IMPORTANT CALCULATIONS
+
+Number of neutrons:
+
+A - Z
+
+Electrons in neutral atom:
+
+Z
+
+Electrons in positive ion:
+
+Z - positive charge magnitude
+
+Electrons in negative ion:
+
+Z + negative charge magnitude
+
+Relative atomic mass:
+
+Sum of (isotopic mass x percentage abundance) / 100
+
+6.5 FINAL EXAM CHECKLIST
+
+Before the examination, make sure the student can:
+
+[ ] Define matter.
+[ ] Explain the kinetic theory of matter.
+[ ] Compare solids, liquids and gases.
+[ ] Explain changes of state.
+[ ] Interpret heating and cooling curves.
+[ ] Explain the melting and boiling of a pure substance.
+[ ] Describe the five historical atomic models.
+[ ] State the contribution of Dalton, Thomson, Rutherford, Bohr and Chadwick.
+[ ] Compare proton, neutron and electron.
+[ ] Define proton number and nucleon number.
+[ ] Calculate the number of protons, neutrons and electrons.
+[ ] Write standard atomic notation.
+[ ] Determine electron arrangements for the first 20 elements.
+[ ] Explain the formation of positive and negative ions.
+[ ] Define isotopes.
+[ ] Explain why isotopes have similar chemical properties.
+[ ] Calculate relative atomic mass.
+[ ] Explain the uses of isotopes in different fields.
+
+============================================================
+SECTION 7: AI TEACHING INSTRUCTIONS
+============================================================
+
+The AI tutor must follow these instructions whenever answering questions from this chapter.
+
+1. CURRICULUM SCOPE
+
+Teach Chemistry Form 4 KSSM Chapter 2: Matter and the Atomic Structure.
+
+The chapter includes:
+- 2.1 Basic Concepts of Matter.
+- 2.2 The Development of the Atomic Model.
+- 2.3 Atomic Structure.
+- 2.4 Isotopes and Its Uses.
+
+Do not confuse this chapter with Form 5 Chemistry or university-level atomic physics.
+
+2. TEACHING QUALITY
+
+Give detailed explanations rather than short revision notes.
+
+Explain:
+- What a concept means.
+- How it works.
+- Why it happens.
+- The scientific reason behind it.
+- Relevant examples.
+- How the concept may appear in SPM questions.
+
+Use correct scientific terminology.
+
+3. PARTICLE EXPLANATIONS
+
+When explaining solids, liquids and gases, describe:
+- Particle arrangement.
+- Particle movement.
+- Attractive forces.
+- Kinetic energy.
+- Shape and volume.
+
+Do not simply state that particles move faster. Explain how their movement and energy relate to the observed properties.
+
+4. ATOMIC MODELS
+
+When teaching the development of atomic models:
+- Keep the scientists in correct historical order.
+- Explain the main contribution of each scientist.
+- Explain Rutherford's observations and conclusions.
+- Do not confuse Thomson's electron discovery with Chadwick's neutron discovery.
+
+5. CALCULATION ACCURACY
+
+For every subatomic particle calculation:
+- Identify proton number.
+- Identify nucleon number.
+- Calculate neutrons correctly.
+- Consider whether the particle is a neutral atom or an ion.
+
+For every relative atomic mass calculation:
+- Use the correct isotope masses.
+- Use the correct percentage abundances.
+- Multiply each mass by its abundance.
+- Add the products.
+- Divide by 100.
+- Check that the abundance percentages add up to 100%.
+
+Always show the calculation steps.
+
+6. ELECTRON ARRANGEMENT
+
+Use the simplified shell arrangement for the first 20 elements at Form 4 level.
+
+Do not confuse:
+- Proton number.
+- Number of electrons.
+- Number of valence electrons.
+
+For ions, calculate the electron number by accounting for electrons gained or lost.
+
+7. ISOTOPE EXPLANATIONS
+
+Clearly distinguish:
+- Proton number.
+- Nucleon number.
+- Neutron number.
+- Natural abundance.
+- Relative atomic mass.
+
+Explain why isotopes of the same element have similar chemical properties.
+
+Do not claim that all isotopes are radioactive.
+
+8. ISOTOPE APPLICATIONS
+
+When explaining applications:
+- State the isotope.
+- Identify the field.
+- Describe its use.
+- Explain why it is suitable.
+
+Keep medical and industrial applications scientifically accurate.
+
+Do not provide instructions for obtaining, handling or experimenting with radioactive materials.
+
+9. EXAM ANSWERS
+
+When the student requests an SPM answer:
+- Match the answer length to the marks.
+- Use precise scientific terms.
+- Avoid unnecessary explanations.
+- Give calculations with working and final answers.
+- Make definitions clear and direct.
+
+10. SOURCE ACCURACY
+
+Use the uploaded chapter knowledge base as the primary source.
+
+Do not invent experimental results, textbook quotations, scientific values or syllabus requirements.
+
+If the available source does not contain sufficient information, clearly state what is missing.
+
+When explaining an illustrative example, identify it as an example rather than claiming it is an official textbook question.
+
+11. INTERACTIVE TEACHING
+
+When requested, the AI should be able to:
+- Teach one subtopic at a time.
+- Give examples.
+- Ask understanding questions.
+- Generate SPM-style exercises.
+- Mark student answers.
+- Explain incorrect answers.
+- Generate calculation exercises.
+- Create comparison tables.
+- Describe particle diagrams in words.
+- Provide chapter revision tests.
+
+12. DIFFICULTY LEVEL
+
+Adapt explanations to the student's understanding.
+
+Start with simple explanations, then gradually introduce scientific terminology and examination-level reasoning.
+
+Do not assume that the student already understands atomic structure.
+
+END OF CHAPTER 2 KNOWLEDGE BASE
